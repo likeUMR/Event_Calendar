@@ -16,7 +16,7 @@ EVENTS_URL = f"{BASE_URL}/tag/events/"
 LISTING_URL = f"{BASE_URL}/page/2/"
 ALBUMS_URL = f"{BASE_URL}/tag/albums/"
 SUPPLEMENTAL_SOURCE_URLS = (ALBUMS_URL,)
-SUPPLEMENTAL_SOURCE_PAGES = 2
+SUPPLEMENTAL_SOURCE_PAGES = 1
 SOURCE_NAME = "monopolygo.wiki"
 COMPETITOR_NAME = "monopoly_go"
 BUFF_MAX_DURATION_SECONDS = 12 * 60 * 60
@@ -99,7 +99,9 @@ class MonopolyGoWikiCollector:
         supplemental_source_urls: tuple[str, ...] = SUPPLEMENTAL_SOURCE_URLS,
         supplemental_source_pages: int = SUPPLEMENTAL_SOURCE_PAGES,
     ) -> dict[str, Any]:
-        posts = self.discover_posts(pages=pages, source_url=source_url)
+        primary_posts = self.discover_posts(pages=pages, source_url=source_url)
+        primary_post_urls = {post.url for post in primary_posts}
+        posts = list(primary_posts)
         for supplemental_url in supplemental_source_urls:
             posts.extend(self.discover_posts(pages=supplemental_source_pages, source_url=supplemental_url))
         posts = dedupe_posts(posts)
@@ -133,7 +135,7 @@ class MonopolyGoWikiCollector:
                 seen_keys.add(key)
                 events.append(event)
 
-        for event in build_album_events(articles):
+        for event in build_album_events(articles, allowed_article_urls=primary_post_urls):
             key = (
                 event["source_url"],
                 event["name"],
@@ -461,17 +463,22 @@ def dedupe_posts(posts: list[PostLink]) -> list[PostLink]:
     return deduped
 
 
-def build_album_events(articles: list[dict[str, Any]]) -> list[dict[str, Any]]:
+def build_album_events(
+    articles: list[dict[str, Any]],
+    allowed_article_urls: set[str] | None = None,
+) -> list[dict[str, Any]]:
     events: list[dict[str, Any]] = []
     seen_keys: set[tuple[str, int, int]] = set()
-    candidates = build_album_candidates(articles)
-    infer_album_candidate_dates(candidates)
 
-    for candidate in candidates:
-        article = candidate["article"]
-        album = candidate["album"]
-        start_timestamp = candidate["start_timestamp"]
-        end_timestamp = candidate["end_timestamp"]
+    for article in articles:
+        if allowed_article_urls is not None and article["url"] not in allowed_article_urls:
+            continue
+        album = article.get("album")
+        if article.get("type") != "album" or not album:
+            continue
+
+        start_timestamp = parse_album_date_text(album.get("run_start_text"), article.get("published_date"), False)
+        end_timestamp = parse_album_date_text(album.get("run_end_text"), article.get("published_date"), True)
         if start_timestamp is None or end_timestamp is None:
             continue
         if end_timestamp <= start_timestamp:
@@ -516,129 +523,6 @@ def build_album_events(articles: list[dict[str, Any]]) -> list[dict[str, Any]]:
         )
 
     return events
-
-
-def build_album_candidates(articles: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    candidates: list[dict[str, Any]] = []
-    for article in articles:
-        album = article.get("album")
-        if article.get("type") != "album" or not album:
-            continue
-        start_timestamp = parse_album_date_text(album.get("run_start_text"), article.get("published_date"), False)
-        end_timestamp = parse_album_date_text(album.get("run_end_text"), article.get("published_date"), True)
-
-        candidates.append(
-            {
-                "article": article,
-                "album": album,
-                "name": album.get("name") or clean_event_title(article["title"]),
-                "start_timestamp": start_timestamp,
-                "end_timestamp": end_timestamp,
-                "has_explicit_start": start_timestamp is not None,
-                "has_explicit_end": end_timestamp is not None,
-                "can_infer_dates": can_infer_album_dates(article),
-            }
-        )
-    return candidates
-
-
-def infer_album_candidate_dates(candidates: list[dict[str, Any]]) -> None:
-    ordered = sorted(candidates, key=album_candidate_published_sort_key)
-    for index, candidate in enumerate(ordered):
-        next_started = next(
-            (
-                next_candidate
-                for next_candidate in ordered[index + 1 :]
-                if next_candidate["start_timestamp"] is not None
-                and normalize_match_text(next_candidate["name"]) != normalize_match_text(candidate["name"])
-            ),
-            None,
-        )
-        if candidate["start_timestamp"] is not None and candidate["end_timestamp"] is None and next_started:
-            candidate["end_timestamp"] = utc_day_end(next_started["start_timestamp"])
-            continue
-
-        if not candidate["can_infer_dates"] or candidate["start_timestamp"] is not None:
-            continue
-
-        previous_ended = next(
-            (
-                previous_candidate
-                for previous_candidate in reversed(ordered[:index])
-                if previous_candidate["end_timestamp"] is not None
-                and previous_candidate["has_explicit_end"]
-                and normalize_match_text(previous_candidate["name"]) != normalize_match_text(candidate["name"])
-            ),
-            None,
-        )
-        if previous_ended and next_started:
-            candidate["start_timestamp"] = utc_day_start(previous_ended["end_timestamp"])
-            candidate["end_timestamp"] = utc_day_end(next_started["start_timestamp"])
-            candidate["has_explicit_start"] = False
-            candidate["has_explicit_end"] = False
-
-    candidates[:] = select_album_event_candidates(candidates)
-
-
-def album_candidate_published_sort_key(candidate: dict[str, Any]) -> tuple[int, str]:
-    article = candidate["article"]
-    return (
-        parse_published_date_timestamp(article.get("published_date")) or candidate["start_timestamp"] or 0,
-        normalize_match_text(candidate["name"]),
-    )
-
-
-def select_album_event_candidates(candidates: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    best_by_name_and_start: dict[tuple[str, int], dict[str, Any]] = {}
-    for candidate in candidates:
-        start_timestamp = candidate["start_timestamp"]
-        if start_timestamp is None:
-            continue
-        key = (normalize_match_text(candidate["name"]), start_timestamp)
-        current = best_by_name_and_start.get(key)
-        if current is None or album_candidate_quality(candidate) > album_candidate_quality(current):
-            best_by_name_and_start[key] = candidate
-    return sorted(best_by_name_and_start.values(), key=album_candidate_published_sort_key)
-
-
-def album_candidate_quality(candidate: dict[str, Any]) -> tuple[int, int, int]:
-    end_timestamp = candidate["end_timestamp"] or 0
-    start_timestamp = candidate["start_timestamp"] or 0
-    return (
-        1 if candidate["has_explicit_end"] else 0,
-        1 if candidate["has_explicit_start"] else 0,
-        max(0, end_timestamp - start_timestamp),
-    )
-
-
-def can_infer_album_dates(article: dict[str, Any]) -> bool:
-    text = f"{article.get('title', '')} {article.get('summary', '')}".lower()
-    return bool(
-        re.search(
-            r"\b(next|upcoming|new|brand-new|full)\b.{0,80}\balbum\b|\balbum\b.{0,80}\b(on the way|arrives|launch|starts|begins|kicks off|set to launch)\b",
-            text,
-            flags=re.IGNORECASE,
-        )
-    )
-
-
-def parse_published_date_timestamp(value: str | None) -> int | None:
-    if not value:
-        return None
-    try:
-        return int(datetime.fromisoformat(value.replace("Z", "+00:00")).timestamp())
-    except ValueError:
-        return None
-
-
-def utc_day_start(timestamp: int) -> int:
-    day = datetime.fromtimestamp(timestamp, tz=timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
-    return int(day.timestamp())
-
-
-def utc_day_end(timestamp: int) -> int:
-    day = datetime.fromtimestamp(timestamp, tz=timezone.utc).replace(hour=23, minute=59, second=59, microsecond=0)
-    return int(day.timestamp())
 
 
 def parse_album_date_text(

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-06T10:29:32+00:00",
+  "generated_at": "2026-05-06T10:32:01+00:00",
   "competitor": "monopoly_go",
   "source": "monopolygo.wiki",
   "listing_source_url": "https://monopolygo.wiki/page/2/",
@@ -101,7 +101,7 @@
       "lifecycle_sort": 40,
       "index": 1,
       "sort": 3001,
-      "event_count": 4
+      "event_count": 1
     },
     {
       "id": "album_2",
@@ -113,7 +113,7 @@
       "lifecycle_sort": 40,
       "index": 2,
       "sort": 3002,
-      "event_count": 4
+      "event_count": 1
     },
     {
       "id": "tycoon_class",
@@ -7066,273 +7066,6 @@
   ],
   "events": [
     {
-      "id": "monopoly_go:artful-tales:1736985600:1741305599",
-      "competitor": "monopoly_go",
-      "source": "monopolygo.wiki",
-      "source_url": "https://monopolygo.wiki/get-ready-for-the-next-album-artful-tales/",
-      "source_post_title": "Get Ready for the Next Album: Artful Tales",
-      "source_published_date": "2024-12-21",
-      "category": "Album",
-      "name": "Artful Tales",
-      "start_time": "2025-01-16T00:00:00+00:00",
-      "end_time": "2025-03-06T23:59:59+00:00",
-      "timezone": "UTC",
-      "start_timestamp": 1736985600,
-      "end_timestamp": 1741305599,
-      "duration_seconds": 4319999,
-      "duration_text": null,
-      "detail_url": "https://monopolygo.wiki/get-ready-for-the-next-album-artful-tales/",
-      "image_url": "https://monopolygo.wiki/content/images/size/w1200/2024/12/album-launch-header-2.png",
-      "description": "Even though Jingle Joy still has a few weeks left, it’s time to get excited for the next sticker album: Artful Tales ! This art-themed adventure launches on January 16th, 2025 , right after Jingle Joy wraps up, and runs until March 6th, 2025 . Packed with creativity, stunning designs, and incredible rewards, this album is one you won’t want to miss! Artful Tales features: 22 sticker sets , including 5 prestige sets .",
-      "article_summary": "Even though Jingle Joy still has a few weeks left, it’s time to get excited for the next sticker album: Artful Tales ! This art-themed adventure launches on January 16th, 2025 , right after Jingle Joy wraps up, and runs until March 6th, 2025 . Packed with creativity, stunning designs, and incredible rewards, this album is one you won’t want to miss! Artful Tales features: 22 sticker sets , including 5 prestige sets .",
-      "related_article": {
-        "type": "album",
-        "title": "Get Ready for the Next Album: Artful Tales",
-        "url": "https://monopolygo.wiki/get-ready-for-the-next-album-artful-tales/",
-        "published_date": "2024-12-21"
-      },
-      "raw": {
-        "display_start": "January 16th, 2025",
-        "display_end": "March 6th, 2025",
-        "classes": [
-          "album"
-        ]
-      },
-      "related_articles": [
-        {
-          "type": "album",
-          "title": "Get Ready for the Next Album: Artful Tales",
-          "url": "https://monopolygo.wiki/get-ready-for-the-next-album-artful-tales/",
-          "published_date": "2024-12-21"
-        }
-      ],
-      "track_group": "album",
-      "track_group_label": "album",
-      "track": "album",
-      "track_label": "album",
-      "track_index": 1,
-      "track_sort": 3001,
-      "lifecycle": "seasonal",
-      "lifecycle_label": "赛季性",
-      "lifecycle_sort": 40
-    },
-    {
-      "id": "monopoly_go:movie-night:1741219200:1746143999",
-      "competitor": "monopoly_go",
-      "source": "monopolygo.wiki",
-      "source_url": "https://monopolygo.wiki/next-album-movie-night/",
-      "source_post_title": "Next Album: Movie Night and 5-Star Sticker Giveaway",
-      "source_published_date": "2025-02-12",
-      "category": "Album",
-      "name": "Movie Night",
-      "start_time": "2025-03-06T00:00:00+00:00",
-      "end_time": "2025-05-01T23:59:59+00:00",
-      "timezone": "UTC",
-      "start_timestamp": 1741219200,
-      "end_timestamp": 1746143999,
-      "duration_seconds": 4924799,
-      "duration_text": null,
-      "detail_url": "https://monopolygo.wiki/next-album-movie-night/",
-      "image_url": "https://monopolygo.wiki/content/images/2025/02/album-blog-header-1.png",
-      "description": "The Artful Tales album is wrapping up soon, and that means it’s time for a sneak peek at the next album! Movie Night kicks off on March 6th and runs through May 1st, 2025 . This album will feature 20 sets (including 2 prestige sets ) and a total of 180 stickers . While it’s another shorter album, we’re hoping for a longer one this summer! Stay tuned for updates on completion rewards, new tokens, and shields - there’s so much to look forward to!",
-      "article_summary": "The Artful Tales album is wrapping up soon, and that means it’s time for a sneak peek at the next album! Movie Night kicks off on March 6th and runs through May 1st, 2025 . This album will feature 20 sets (including 2 prestige sets ) and a total of 180 stickers . While it’s another shorter album, we’re hoping for a longer one this summer! Stay tuned for updates on completion rewards, new tokens, and shields - there’s so much to look forward to!",
-      "related_article": {
-        "type": "album",
-        "title": "Next Album: Movie Night and 5-Star Sticker Giveaway",
-        "url": "https://monopolygo.wiki/next-album-movie-night/",
-        "published_date": "2025-02-12"
-      },
-      "raw": {
-        "display_start": "March 6th",
-        "display_end": "May 1st, 2025",
-        "classes": [
-          "album"
-        ]
-      },
-      "related_articles": [
-        {
-          "type": "album",
-          "title": "Movie Night Has Arrived!",
-          "url": "https://monopolygo.wiki/movie-night-has-arrived/",
-          "published_date": "2025-03-06"
-        },
-        {
-          "type": "album",
-          "title": "Next Album: Movie Night and 5-Star Sticker Giveaway",
-          "url": "https://monopolygo.wiki/next-album-movie-night/",
-          "published_date": "2025-02-12"
-        }
-      ],
-      "track_group": "album",
-      "track_group_label": "album",
-      "track": "album_2",
-      "track_label": "album2",
-      "track_index": 2,
-      "track_sort": 3002,
-      "lifecycle": "seasonal",
-      "lifecycle_label": "赛季性",
-      "lifecycle_sort": 40
-    },
-    {
-      "id": "monopoly_go:summer-escape:1751414400:1756339199",
-      "competitor": "monopoly_go",
-      "source": "monopolygo.wiki",
-      "source_url": "https://monopolygo.wiki/summer-escape-album-your-next-sticker-adventure-begins/",
-      "source_post_title": "☀️ Summer Escape Album – Your Next Sticker Adventure Begins!",
-      "source_published_date": "2025-06-11",
-      "category": "Album",
-      "name": "Summer Escape",
-      "start_time": "2025-07-02T00:00:00+00:00",
-      "end_time": "2025-08-27T23:59:59+00:00",
-      "timezone": "UTC",
-      "start_timestamp": 1751414400,
-      "end_timestamp": 1756339199,
-      "duration_seconds": 4924799,
-      "duration_text": null,
-      "detail_url": "https://monopolygo.wiki/summer-escape-album-your-next-sticker-adventure-begins/",
-      "image_url": "https://monopolygo.wiki/content/images/size/w1200/2025/06/album-launch-header.png",
-      "description": "Pack your sunscreen, roll the dice, and get ready for a tropical takeover in MONOPOLY GO! The Summer Escape album arrives July 2nd at 1:00 PM EST , right as the Star Wars GO! album ends, and it’s here to bring warm vibes and cool rewards all summer long. 🌴🍹 This brand-new seasonal album introduces 23 unique sticker sets , filled with beachy themes, vacation fun, and seasonal surprises. Collect stickers, complete sets, and trade your way to the top in this sunny celebration of summer. Whether you’re a casual collector or an album completionist, Summer Escape is designed to reward every type of",
-      "article_summary": "Pack your sunscreen, roll the dice, and get ready for a tropical takeover in MONOPOLY GO! The Summer Escape album arrives July 2nd at 1:00 PM EST , right as the Star Wars GO! album ends, and it’s here to bring warm vibes and cool rewards all summer long. 🌴🍹 This brand-new seasonal album introduces 23 unique sticker sets , filled with beachy themes, vacation fun, and seasonal surprises. Collect stickers, complete sets, and trade your way to the top in this sunny celebration of summer. Whether you’re a casual collector or an album completionist, Summer Escape is designed to reward every type of",
-      "related_article": {
-        "type": "album",
-        "title": "☀️ Summer Escape Album – Your Next Sticker Adventure Begins!",
-        "url": "https://monopolygo.wiki/summer-escape-album-your-next-sticker-adventure-begins/",
-        "published_date": "2025-06-11"
-      },
-      "raw": {
-        "display_start": "July 2nd at 1:00 PM EST",
-        "display_end": null,
-        "classes": [
-          "album"
-        ]
-      },
-      "related_articles": [
-        {
-          "type": "album",
-          "title": "☀️ Summer Escape Album – Your Next Sticker Adventure Begins!",
-          "url": "https://monopolygo.wiki/summer-escape-album-your-next-sticker-adventure-begins/",
-          "published_date": "2025-06-11"
-        }
-      ],
-      "track_group": "album",
-      "track_group_label": "album",
-      "track": "album",
-      "track_label": "album",
-      "track_index": 1,
-      "track_sort": 3001,
-      "lifecycle": "seasonal",
-      "lifecycle_label": "赛季性",
-      "lifecycle_sort": 40
-    },
-    {
-      "id": "monopoly_go:bon-appetit:1756252800:1760572799",
-      "competitor": "monopoly_go",
-      "source": "monopolygo.wiki",
-      "source_url": "https://monopolygo.wiki/upcoming-album-bon-appetit/",
-      "source_post_title": "Upcoming Album: Bon Appetit",
-      "source_published_date": "2025-08-05",
-      "category": "Album",
-      "name": "Bon Appetit",
-      "start_time": "2025-08-27T00:00:00+00:00",
-      "end_time": "2025-10-15T23:59:59+00:00",
-      "timezone": "UTC",
-      "start_timestamp": 1756252800,
-      "end_timestamp": 1760572799,
-      "duration_seconds": 4319999,
-      "duration_text": null,
-      "detail_url": "https://monopolygo.wiki/upcoming-album-bon-appetit/",
-      "image_url": "https://monopolygo.wiki/content/images/size/w1200/2025/08/album-launch-header-1.png",
-      "description": "Get ready to feast - the Bon Appétit album is almost here! Launching August 27th and running through October 15th, this food-themed sticker album is serving up 21 delicious sets, including 2 Prestige sets that unlock only after your first full completion. Finish the album once and you’ll earn a mouthwatering reward: 15,000 dice rolls , the exclusive Tickin’ Chicken token , and a generous helping of in-game cash!",
-      "article_summary": "Get ready to feast - the Bon Appétit album is almost here! Launching August 27th and running through October 15th, this food-themed sticker album is serving up 21 delicious sets, including 2 Prestige sets that unlock only after your first full completion. Finish the album once and you’ll earn a mouthwatering reward: 15,000 dice rolls , the exclusive Tickin’ Chicken token , and a generous helping of in-game cash!",
-      "related_article": {
-        "type": "album",
-        "title": "Upcoming Album: Bon Appetit",
-        "url": "https://monopolygo.wiki/upcoming-album-bon-appetit/",
-        "published_date": "2025-08-05"
-      },
-      "raw": {
-        "display_start": "August 27th",
-        "display_end": "October 15th",
-        "classes": [
-          "album"
-        ]
-      },
-      "related_articles": [
-        {
-          "type": "album",
-          "title": "Upcoming Album: Bon Appetit",
-          "url": "https://monopolygo.wiki/upcoming-album-bon-appetit/",
-          "published_date": "2025-08-05"
-        }
-      ],
-      "track_group": "album",
-      "track_group_label": "album",
-      "track": "album_2",
-      "track_label": "album2",
-      "track_index": 2,
-      "track_sort": 3002,
-      "lifecycle": "seasonal",
-      "lifecycle_label": "赛季性",
-      "lifecycle_sort": 40
-    },
-    {
-      "id": "monopoly_go:cozy-comforts:1760486400:1765411199",
-      "competitor": "monopoly_go",
-      "source": "monopolygo.wiki",
-      "source_url": "https://monopolygo.wiki/next-album-cozy-comforts/",
-      "source_post_title": "Next Album: Cozy Comforts",
-      "source_published_date": "2025-09-26",
-      "category": "Album",
-      "name": "Cozy Comforts",
-      "start_time": "2025-10-15T00:00:00+00:00",
-      "end_time": "2025-12-10T23:59:59+00:00",
-      "timezone": "UTC",
-      "start_timestamp": 1760486400,
-      "end_timestamp": 1765411199,
-      "duration_seconds": 4924799,
-      "duration_text": null,
-      "detail_url": "https://monopolygo.wiki/next-album-cozy-comforts/",
-      "image_url": "https://monopolygo.wiki/content/images/size/w1200/2025/09/mogowiki-czycmfrts.jpg",
-      "description": "As we make our way through the final weeks of Bon Appetit , it’s already time to cozy up for what’s next in Monopoly GO! MOGO Wiki is excited to introduce Cozy Comforts , the brand-new fall-themed sticker album launching October 15th and running through December 10th ! Get ready for:",
-      "article_summary": "As we make our way through the final weeks of Bon Appetit , it’s already time to cozy up for what’s next in Monopoly GO! MOGO Wiki is excited to introduce Cozy Comforts , the brand-new fall-themed sticker album launching October 15th and running through December 10th ! Get ready for:",
-      "related_article": {
-        "type": "album",
-        "title": "Next Album: Cozy Comforts",
-        "url": "https://monopolygo.wiki/next-album-cozy-comforts/",
-        "published_date": "2025-09-26"
-      },
-      "raw": {
-        "display_start": "October 15th",
-        "display_end": "December 10th",
-        "classes": [
-          "album"
-        ]
-      },
-      "related_articles": [
-        {
-          "type": "album",
-          "title": "Next Album: Get Ready for Cozy Comforts",
-          "url": "https://monopolygo.wiki/next-album-get-ready-for-cozy-comforts/",
-          "published_date": "2025-10-11"
-        },
-        {
-          "type": "album",
-          "title": "Next Album: Cozy Comforts",
-          "url": "https://monopolygo.wiki/next-album-cozy-comforts/",
-          "published_date": "2025-09-26"
-        }
-      ],
-      "track_group": "album",
-      "track_group_label": "album",
-      "track": "album",
-      "track_label": "album",
-      "track_index": 1,
-      "track_sort": 3001,
-      "lifecycle": "seasonal",
-      "lifecycle_label": "赛季性",
-      "lifecycle_sort": 40
-    },
-    {
       "id": "monopoly_go:cash-boost:1764399600:1764421140",
       "competitor": "monopoly_go",
       "source": "monopolygo.wiki",
@@ -10468,63 +10201,6 @@
       "lifecycle": "recurring",
       "lifecycle_label": "周期性",
       "lifecycle_sort": 20
-    },
-    {
-      "id": "monopoly_go:harry-potter-go:1765324800:1770249599",
-      "competitor": "monopoly_go",
-      "source": "monopolygo.wiki",
-      "source_url": "https://monopolygo.wiki/harry-potter-go-sticker-album-preview/",
-      "source_post_title": "Harry Potter GO! - Full Album Sticker Set Reveals (Updated Live)",
-      "source_published_date": "2025-11-30",
-      "category": "Album",
-      "name": "Harry Potter GO",
-      "start_time": "2025-12-10T00:00:00+00:00",
-      "end_time": "2026-02-04T23:59:59+00:00",
-      "timezone": "UTC",
-      "start_timestamp": 1765324800,
-      "end_timestamp": 1770249599,
-      "duration_seconds": 4924799,
-      "duration_text": null,
-      "detail_url": "https://monopolygo.wiki/harry-potter-go-sticker-album-preview/",
-      "image_url": "https://monopolygo.wiki/content/images/size/w1200/2025/11/preview-blog-header.jpg",
-      "description": "The next Monopoly GO! album - Harry Potter GO! - is officially on the way, and we’re revealing every sticker set right here as they drop. Looking to win some free stickers? The Magic Hunt is officially on! Exclusively on MonopolyGO.wiki's website (not the app), you can hunt down several magic-themed objects for a chance to spin the wheel of prizes! Check it out right here ! All 23 of the new Harry Potter GO! sticker sets are live! Check them out and let us know which ones are your favorite!",
-      "article_summary": "The next Monopoly GO! album - Harry Potter GO! - is officially on the way, and we’re revealing every sticker set right here as they drop. Looking to win some free stickers? The Magic Hunt is officially on! Exclusively on MonopolyGO.wiki's website (not the app), you can hunt down several magic-themed objects for a chance to spin the wheel of prizes! Check it out right here ! All 23 of the new Harry Potter GO! sticker sets are live! Check them out and let us know which ones are your favorite!",
-      "related_article": {
-        "type": "album",
-        "title": "Harry Potter GO! - Full Album Sticker Set Reveals (Updated Live)",
-        "url": "https://monopolygo.wiki/harry-potter-go-sticker-album-preview/",
-        "published_date": "2025-11-30"
-      },
-      "raw": {
-        "display_start": null,
-        "display_end": null,
-        "classes": [
-          "album"
-        ]
-      },
-      "related_articles": [
-        {
-          "type": "album",
-          "title": "Harry Potter GO! - Full Album Sticker Set Reveals (Updated Live)",
-          "url": "https://monopolygo.wiki/harry-potter-go-sticker-album-preview/",
-          "published_date": "2025-11-30"
-        },
-        {
-          "type": "album",
-          "title": "Exclusive: Monopoly GO!’s Next Album Is… Harry Potter GO!",
-          "url": "https://monopolygo.wiki/exclusive-monopoly-go-s-next-album-is-harry-potter-go/",
-          "published_date": "2025-11-22"
-        }
-      ],
-      "track_group": "album",
-      "track_group_label": "album",
-      "track": "album_2",
-      "track_label": "album2",
-      "track_index": 2,
-      "track_sort": 3002,
-      "lifecycle": "seasonal",
-      "lifecycle_label": "赛季性",
-      "lifecycle_sort": 40
     },
     {
       "id": "monopoly_go:mega-heist:1765350000:1765371540",

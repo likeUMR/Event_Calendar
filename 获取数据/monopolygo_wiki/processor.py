@@ -13,6 +13,7 @@ from 获取数据.monopolygo_wiki.collector import (
     build_album_events,
     merge_named_minigames,
 )
+from 获取数据.monopolygo_wiki.raw import discover_posts_from_html
 
 
 class MonopolyGoWikiRawProcessor:
@@ -26,6 +27,11 @@ class MonopolyGoWikiRawProcessor:
         articles: list[dict[str, Any]] = []
         seen_keys: set[tuple[str, str, int, int]] = set()
         seen_article_urls: set[str] = set()
+        primary_post_urls = {
+            post.url
+            for page in raw_payload.get("listing_pages", [])
+            for post in discover_posts_from_html(page.get("html") or "")
+        }
 
         for raw_post in raw_payload.get("posts", []):
             post = PostLink(
@@ -52,7 +58,7 @@ class MonopolyGoWikiRawProcessor:
                 seen_keys.add(key)
                 events.append(event)
 
-        for event in build_album_events(articles):
+        for event in build_album_events(articles, allowed_article_urls=primary_post_urls or None):
             key = (
                 event["source_url"],
                 event["name"],
