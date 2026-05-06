@@ -1,0 +1,1 @@
+"""monopolygo.wiki collection rules."""

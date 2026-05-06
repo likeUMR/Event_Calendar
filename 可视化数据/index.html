@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>竞品活动日历看板</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <span class="brand-mark"></span>
+          <div>
+            <p class="eyebrow">Live Ops Calendar</p>
+            <h1>竞品活动日历</h1>
+          </div>
+        </div>
+
+        <section class="panel">
+          <h2>数据源</h2>
+          <label class="field">
+            <span>JSON 文件</span>
+            <select id="data-source">
+              <option value="../数据/monopolygo/monopolygo_wiki_events.json">Monopoly GO Wiki</option>
+            </select>
+          </label>
+          <p id="data-meta" class="muted">等待加载数据...</p>
+        </section>
+
+        <section class="panel">
+          <h2>筛选</h2>
+          <label class="field">
+            <span>搜索活动</span>
+            <input id="search-input" type="search" placeholder="输入活动名称">
+          </label>
+          <label class="field">
+            <span>分类</span>
+            <select id="category-filter">
+              <option value="all">全部分类</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>日期范围</span>
+            <select id="range-filter">
+              <option value="all">全部日期</option>
+              <option value="7">最近 7 天</option>
+              <option value="14">最近 14 天</option>
+              <option value="30">最近 30 天</option>
+            </select>
+          </label>
+        </section>
+
+        <section class="panel">
+          <h2>图例</h2>
+          <div id="legend" class="legend"></div>
+        </section>
+      </aside>
+
+      <main class="main-content">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Calendar Overview</p>
+            <h2 id="page-title">活动时间轴</h2>
+          </div>
+          <div class="actions">
+            <button id="fit-range" type="button">适配全部</button>
+            <button id="today-jump" type="button">定位今天</button>
+          </div>
+        </header>
+
+        <section class="stats-grid" aria-label="数据概览">
+          <article class="stat-card">
+            <span>活动数量</span>
+            <strong id="stat-events">-</strong>
+          </article>
+          <article class="stat-card">
+            <span>覆盖天数</span>
+            <strong id="stat-days">-</strong>
+          </article>
+          <article class="stat-card">
+            <span>活动分类</span>
+            <strong id="stat-categories">-</strong>
+          </article>
+          <article class="stat-card">
+            <span>最长活动</span>
+            <strong id="stat-longest">-</strong>
+          </article>
+        </section>
+
+        <section class="calendar-card">
+          <div class="calendar-toolbar">
+            <div>
+              <h3>日历时间轴</h3>
+              <p class="muted">横向为日期，色块为活动开放区间；点击色块可查看来源与详情。</p>
+            </div>
+            <p id="visible-range" class="range-label"></p>
+          </div>
+          <div id="calendar-scroll" class="calendar-scroll">
+            <div id="calendar" class="calendar"></div>
+          </div>
+        </section>
+
+        <section class="event-list-card">
+          <div class="calendar-toolbar">
+            <div>
+              <h3>活动明细</h3>
+              <p class="muted">按开始时间排序，可用于核对采集结果。</p>
+            </div>
+          </div>
+          <div id="event-list" class="event-list"></div>
+        </section>
+      </main>
+    </div>
+
+    <dialog id="event-dialog">
+      <div class="dialog-header">
+        <div>
+          <p id="dialog-category" class="eyebrow"></p>
+          <h3 id="dialog-title"></h3>
+        </div>
+        <button id="dialog-close" type="button" aria-label="关闭">×</button>
+      </div>
+      <dl class="detail-grid">
+        <div>
+          <dt>开始时间</dt>
+          <dd id="dialog-start"></dd>
+        </div>
+        <div>
+          <dt>结束时间</dt>
+          <dd id="dialog-end"></dd>
+        </div>
+        <div>
+          <dt>持续窗口</dt>
+          <dd id="dialog-window"></dd>
+        </div>
+        <div>
+          <dt>来源文章</dt>
+          <dd><a id="dialog-source" href="#" target="_blank" rel="noreferrer">打开来源</a></dd>
+        </div>
+      </dl>
+      <a id="dialog-detail" class="detail-link" href="#" target="_blank" rel="noreferrer">查看活动详情</a>
+    </dialog>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
