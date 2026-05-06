@@ -524,16 +524,18 @@ def build_album_candidates(articles: list[dict[str, Any]]) -> list[dict[str, Any
         album = article.get("album")
         if article.get("type") != "album" or not album:
             continue
+        start_timestamp = parse_album_date_text(album.get("run_start_text"), article.get("published_date"), False)
+        end_timestamp = parse_album_date_text(album.get("run_end_text"), article.get("published_date"), True)
 
         candidates.append(
             {
                 "article": article,
                 "album": album,
                 "name": album.get("name") or clean_event_title(article["title"]),
-                "start_timestamp": parse_album_date_text(
-                    album.get("run_start_text"), article.get("published_date"), False
-                ),
-                "end_timestamp": parse_album_date_text(album.get("run_end_text"), article.get("published_date"), True),
+                "start_timestamp": start_timestamp,
+                "end_timestamp": end_timestamp,
+                "has_explicit_start": start_timestamp is not None,
+                "has_explicit_end": end_timestamp is not None,
                 "can_infer_dates": can_infer_album_dates(article),
             }
         )
@@ -541,7 +543,7 @@ def build_album_candidates(articles: list[dict[str, Any]]) -> list[dict[str, Any
 
 
 def infer_album_candidate_dates(candidates: list[dict[str, Any]]) -> None:
-    ordered = sorted(candidates, key=album_candidate_sort_key)
+    ordered = sorted(candidates, key=album_candidate_published_sort_key)
     for index, candidate in enumerate(ordered):
         next_started = next(
             (
@@ -571,15 +573,40 @@ def infer_album_candidate_dates(candidates: list[dict[str, Any]]) -> None:
         if previous_ended and next_started:
             candidate["start_timestamp"] = utc_day_start(previous_ended["end_timestamp"])
             candidate["end_timestamp"] = utc_day_end(next_started["start_timestamp"])
+            candidate["has_explicit_start"] = False
+            candidate["has_explicit_end"] = False
+
+    candidates[:] = select_album_event_candidates(candidates)
 
 
-def album_candidate_sort_key(candidate: dict[str, Any]) -> tuple[int, str]:
+def album_candidate_published_sort_key(candidate: dict[str, Any]) -> tuple[int, str]:
     article = candidate["article"]
     return (
-        candidate["start_timestamp"]
-        or parse_published_date_timestamp(article.get("published_date"))
-        or 0,
+        parse_published_date_timestamp(article.get("published_date")) or candidate["start_timestamp"] or 0,
         normalize_match_text(candidate["name"]),
+    )
+
+
+def select_album_event_candidates(candidates: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    best_by_name_and_start: dict[tuple[str, int], dict[str, Any]] = {}
+    for candidate in candidates:
+        start_timestamp = candidate["start_timestamp"]
+        if start_timestamp is None:
+            continue
+        key = (normalize_match_text(candidate["name"]), start_timestamp)
+        current = best_by_name_and_start.get(key)
+        if current is None or album_candidate_quality(candidate) > album_candidate_quality(current):
+            best_by_name_and_start[key] = candidate
+    return sorted(best_by_name_and_start.values(), key=album_candidate_published_sort_key)
+
+
+def album_candidate_quality(candidate: dict[str, Any]) -> tuple[int, int, int]:
+    end_timestamp = candidate["end_timestamp"] or 0
+    start_timestamp = candidate["start_timestamp"] or 0
+    return (
+        1 if candidate["has_explicit_end"] else 0,
+        1 if candidate["has_explicit_start"] else 0,
+        max(0, end_timestamp - start_timestamp),
     )
 
 
@@ -1043,6 +1070,8 @@ def extract_album_name(title: str, body_text: str) -> str:
         r"^Get Ready for the Next Album:\s*(.+)$",
         r"^(?:Upcoming|Next) Album:\s*(?:Get Ready for\s+)?(.+?)(?:\s+and\s+\d+-Star\b.*)?$",
         r"^Inside\s+([^:]+):",
+        r"^(.+?)\s+Is Set to Arrive\b",
+        r"^(.+?)\s+-\s+Full Album\b",
         r"Next Album Is[.…: ]+\s*(.+)$",
         r"^.*?([A-Z][A-Za-z0-9 !'&:-]+?)\s+Album\s*(?:[–-]|:|$)",
     )

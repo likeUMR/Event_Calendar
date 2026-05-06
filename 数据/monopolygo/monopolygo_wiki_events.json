@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-06T10:27:32+00:00",
+  "generated_at": "2026-05-06T10:28:13+00:00",
   "competitor": "monopoly_go",
   "source": "monopolygo.wiki",
   "listing_source_url": "https://monopolygo.wiki/page/2/",
@@ -114,54 +114,6 @@
       "index": 2,
       "sort": 3002,
       "event_count": 3
-    },
-    {
-      "id": "album_3",
-      "label": "album3",
-      "group": "album",
-      "group_label": "album",
-      "lifecycle": "seasonal",
-      "lifecycle_label": "赛季性",
-      "lifecycle_sort": 40,
-      "index": 3,
-      "sort": 3003,
-      "event_count": 1
-    },
-    {
-      "id": "album_4",
-      "label": "album4",
-      "group": "album",
-      "group_label": "album",
-      "lifecycle": "seasonal",
-      "lifecycle_label": "赛季性",
-      "lifecycle_sort": 40,
-      "index": 4,
-      "sort": 3004,
-      "event_count": 1
-    },
-    {
-      "id": "album_5",
-      "label": "album5",
-      "group": "album",
-      "group_label": "album",
-      "lifecycle": "seasonal",
-      "lifecycle_label": "赛季性",
-      "lifecycle_sort": 40,
-      "index": 5,
-      "sort": 3005,
-      "event_count": 1
-    },
-    {
-      "id": "album_6",
-      "label": "album6",
-      "group": "album",
-      "group_label": "album",
-      "lifecycle": "seasonal",
-      "lifecycle_label": "赛季性",
-      "lifecycle_sort": 40,
-      "index": 6,
-      "sort": 3006,
-      "event_count": 1
     },
     {
       "id": "tycoon_class",
@@ -4085,7 +4037,7 @@
       ],
       "image_url": "https://monopolygo.wiki/content/images/size/w1200/2026/01/mogowiki-pshpts-2.jpg",
       "album": {
-        "name": "Posh Pets Is Set to Arrive in MONOPOLY GO!",
+        "name": "Posh Pets",
         "set_count": null,
         "sticker_count": null,
         "gold_sticker_count": null,
@@ -6492,7 +6444,7 @@
       ],
       "image_url": "https://monopolygo.wiki/content/images/size/w1200/2025/11/preview-blog-header.jpg",
       "album": {
-        "name": "Set 23",
+        "name": "Harry Potter GO",
         "set_count": null,
         "sticker_count": null,
         "gold_sticker_count": null,
@@ -7319,63 +7271,6 @@
       "track_label": "album2",
       "track_index": 2,
       "track_sort": 3002,
-      "lifecycle": "seasonal",
-      "lifecycle_label": "赛季性",
-      "lifecycle_sort": 40
-    },
-    {
-      "id": "monopoly_go:cozy-comforts:1760486400:1770249599",
-      "competitor": "monopoly_go",
-      "source": "monopolygo.wiki",
-      "source_url": "https://monopolygo.wiki/next-album-get-ready-for-cozy-comforts/",
-      "source_post_title": "Next Album: Get Ready for Cozy Comforts",
-      "source_published_date": "2025-10-11",
-      "category": "Album",
-      "name": "Cozy Comforts",
-      "start_time": "2025-10-15T00:00:00+00:00",
-      "end_time": "2026-02-04T23:59:59+00:00",
-      "timezone": "UTC",
-      "start_timestamp": 1760486400,
-      "end_timestamp": 1770249599,
-      "duration_seconds": 9763199,
-      "duration_text": null,
-      "detail_url": "https://monopolygo.wiki/next-album-get-ready-for-cozy-comforts/",
-      "image_url": "https://monopolygo.wiki/content/images/size/w1200/2025/10/mogowiki-czycmfrts.jpg",
-      "description": "Fall is almost here in MONOPOLY GO! , and with it comes the brand-new Cozy Comforts Album - a seasonal collection packed with festive surprises. From autumn nights and Halloween frights to community celebrations, this update is all about relaxing, playing, and collecting in true cozy style. Let's get a sneak peek at what it has to offer - exclusively on MOGO Wiki! Complete the album to unlock the Scarf King Token and 15,000 Rolls . Finish the Prestige version for an extra 15,000 Rolls and the Coffee Dice! Battleship: A unique PVP experience in MONOPOLY GO! will be here! Strategically place you",
-      "article_summary": "Fall is almost here in MONOPOLY GO! , and with it comes the brand-new Cozy Comforts Album - a seasonal collection packed with festive surprises. From autumn nights and Halloween frights to community celebrations, this update is all about relaxing, playing, and collecting in true cozy style. Let's get a sneak peek at what it has to offer - exclusively on MOGO Wiki! Complete the album to unlock the Scarf King Token and 15,000 Rolls . Finish the Prestige version for an extra 15,000 Rolls and the Coffee Dice! Battleship: A unique PVP experience in MONOPOLY GO! will be here! Strategically place you",
-      "related_article": {
-        "type": "album",
-        "title": "Next Album: Get Ready for Cozy Comforts",
-        "url": "https://monopolygo.wiki/next-album-get-ready-for-cozy-comforts/",
-        "published_date": "2025-10-11"
-      },
-      "raw": {
-        "display_start": null,
-        "display_end": null,
-        "classes": [
-          "album"
-        ]
-      },
-      "related_articles": [
-        {
-          "type": "album",
-          "title": "Next Album: Get Ready for Cozy Comforts",
-          "url": "https://monopolygo.wiki/next-album-get-ready-for-cozy-comforts/",
-          "published_date": "2025-10-11"
-        },
-        {
-          "type": "album",
-          "title": "Next Album: Cozy Comforts",
-          "url": "https://monopolygo.wiki/next-album-cozy-comforts/",
-          "published_date": "2025-09-26"
-        }
-      ],
-      "track_group": "album",
-      "track_group_label": "album",
-      "track": "album_3",
-      "track_label": "album3",
-      "track_index": 3,
-      "track_sort": 3003,
       "lifecycle": "seasonal",
       "lifecycle_label": "赛季性",
       "lifecycle_sort": 40
@@ -10573,63 +10468,6 @@
       "lifecycle": "recurring",
       "lifecycle_label": "周期性",
       "lifecycle_sort": 20
-    },
-    {
-      "id": "monopoly_go:harry-potter-go:1765324800:1770249599",
-      "competitor": "monopoly_go",
-      "source": "monopolygo.wiki",
-      "source_url": "https://monopolygo.wiki/exclusive-monopoly-go-s-next-album-is-harry-potter-go/",
-      "source_post_title": "Exclusive: Monopoly GO!’s Next Album Is… Harry Potter GO!",
-      "source_published_date": "2025-11-22",
-      "category": "Album",
-      "name": "Harry Potter GO",
-      "start_time": "2025-12-10T00:00:00+00:00",
-      "end_time": "2026-02-04T23:59:59+00:00",
-      "timezone": "UTC",
-      "start_timestamp": 1765324800,
-      "end_timestamp": 1770249599,
-      "duration_seconds": 4924799,
-      "duration_text": null,
-      "detail_url": "https://monopolygo.wiki/exclusive-monopoly-go-s-next-album-is-harry-potter-go/",
-      "image_url": "https://monopolygo.wiki/content/images/size/w1200/2025/11/album-blog-header-1.jpg",
-      "description": "Everything we’ve discovered so far from the newly-found public asset files. The magic is officially coming to Monopoly GO! We’ve dug through the newly updated public asset files - and what we found is HUGE: the next full sticker album will be a Harry Potter–themed crossover , and it is massive . That’s right: an entire “ Harry Potter GO! ” album is on the way, complete with iconic characters, Hogwarts-themed boards, magical partner events, and more collectibles than we’ve ever seen in a single season.",
-      "article_summary": "Everything we’ve discovered so far from the newly-found public asset files. The magic is officially coming to Monopoly GO! We’ve dug through the newly updated public asset files - and what we found is HUGE: the next full sticker album will be a Harry Potter–themed crossover , and it is massive . That’s right: an entire “ Harry Potter GO! ” album is on the way, complete with iconic characters, Hogwarts-themed boards, magical partner events, and more collectibles than we’ve ever seen in a single season.",
-      "related_article": {
-        "type": "album",
-        "title": "Exclusive: Monopoly GO!’s Next Album Is… Harry Potter GO!",
-        "url": "https://monopolygo.wiki/exclusive-monopoly-go-s-next-album-is-harry-potter-go/",
-        "published_date": "2025-11-22"
-      },
-      "raw": {
-        "display_start": null,
-        "display_end": null,
-        "classes": [
-          "album"
-        ]
-      },
-      "related_articles": [
-        {
-          "type": "album",
-          "title": "Harry Potter GO! - Full Album Sticker Set Reveals (Updated Live)",
-          "url": "https://monopolygo.wiki/harry-potter-go-sticker-album-preview/",
-          "published_date": "2025-11-30"
-        },
-        {
-          "type": "album",
-          "title": "Exclusive: Monopoly GO!’s Next Album Is… Harry Potter GO!",
-          "url": "https://monopolygo.wiki/exclusive-monopoly-go-s-next-album-is-harry-potter-go/",
-          "published_date": "2025-11-22"
-        }
-      ],
-      "track_group": "album",
-      "track_group_label": "album",
-      "track": "album_2",
-      "track_label": "album2",
-      "track_index": 2,
-      "track_sort": 3002,
-      "lifecycle": "seasonal",
-      "lifecycle_label": "赛季性",
-      "lifecycle_sort": 40
     },
     {
       "id": "monopoly_go:mega-heist:1765350000:1765371540",
@@ -28084,14 +27922,14 @@
       "lifecycle_sort": 20
     },
     {
-      "id": "monopoly_go:posh-pets:1770163200:1770249599",
+      "id": "monopoly_go:harry-potter-go:1770163200:1770249599",
       "competitor": "monopoly_go",
       "source": "monopolygo.wiki",
-      "source_url": "https://monopolygo.wiki/inside-posh-pets-new-features-rewards-and-how-this-album-works/",
-      "source_post_title": "Inside Posh Pets: New Features, Rewards, and How This Album Works",
-      "source_published_date": "2026-02-03",
+      "source_url": "https://monopolygo.wiki/harry-potter-go-sticker-album-preview/",
+      "source_post_title": "Harry Potter GO! - Full Album Sticker Set Reveals (Updated Live)",
+      "source_published_date": "2025-11-30",
       "category": "Album",
-      "name": "Posh Pets",
+      "name": "Harry Potter GO",
       "start_time": "2026-02-04T00:00:00+00:00",
       "end_time": "2026-02-04T23:59:59+00:00",
       "timezone": "UTC",
@@ -28099,18 +27937,18 @@
       "end_timestamp": 1770249599,
       "duration_seconds": 86399,
       "duration_text": null,
-      "detail_url": "https://monopolygo.wiki/inside-posh-pets-new-features-rewards-and-how-this-album-works/",
-      "image_url": "https://monopolygo.wiki/content/images/size/w1200/2026/02/posh-pets-header.jpg",
-      "description": "A brand-new album is almost here, and Posh Pets is shaping up to be one of the most unique seasons MONOPOLY GO! has seen yet. Launching on February 4th , this album isn’t just about collecting stickers - it introduces new customization features, community-driven content, and season-long rewards that carry forward even after the album ends. If you’re coming from recent albums, Posh Pets is a bit different. Instead of focusing on a long list of new minigames or sticker packs, this season leans heavily into personalization, creativity, and community participation. Here’s what to expect. The headl",
-      "article_summary": "A brand-new album is almost here, and Posh Pets is shaping up to be one of the most unique seasons MONOPOLY GO! has seen yet. Launching on February 4th , this album isn’t just about collecting stickers - it introduces new customization features, community-driven content, and season-long rewards that carry forward even after the album ends. If you’re coming from recent albums, Posh Pets is a bit different. Instead of focusing on a long list of new minigames or sticker packs, this season leans heavily into personalization, creativity, and community participation. Here’s what to expect. The headl",
+      "detail_url": "https://monopolygo.wiki/harry-potter-go-sticker-album-preview/",
+      "image_url": "https://monopolygo.wiki/content/images/size/w1200/2025/11/preview-blog-header.jpg",
+      "description": "The next Monopoly GO! album - Harry Potter GO! - is officially on the way, and we’re revealing every sticker set right here as they drop. Looking to win some free stickers? The Magic Hunt is officially on! Exclusively on MonopolyGO.wiki's website (not the app), you can hunt down several magic-themed objects for a chance to spin the wheel of prizes! Check it out right here ! All 23 of the new Harry Potter GO! sticker sets are live! Check them out and let us know which ones are your favorite!",
+      "article_summary": "The next Monopoly GO! album - Harry Potter GO! - is officially on the way, and we’re revealing every sticker set right here as they drop. Looking to win some free stickers? The Magic Hunt is officially on! Exclusively on MonopolyGO.wiki's website (not the app), you can hunt down several magic-themed objects for a chance to spin the wheel of prizes! Check it out right here ! All 23 of the new Harry Potter GO! sticker sets are live! Check them out and let us know which ones are your favorite!",
       "related_article": {
         "type": "album",
-        "title": "Inside Posh Pets: New Features, Rewards, and How This Album Works",
-        "url": "https://monopolygo.wiki/inside-posh-pets-new-features-rewards-and-how-this-album-works/",
-        "published_date": "2026-02-03"
+        "title": "Harry Potter GO! - Full Album Sticker Set Reveals (Updated Live)",
+        "url": "https://monopolygo.wiki/harry-potter-go-sticker-album-preview/",
+        "published_date": "2025-11-30"
       },
       "raw": {
-        "display_start": "February 4th",
+        "display_start": null,
         "display_end": null,
         "classes": [
           "album"
@@ -28119,21 +27957,15 @@
       "related_articles": [
         {
           "type": "album",
-          "title": "Inside Posh Pets: New Features, Rewards, and How This Album Works",
-          "url": "https://monopolygo.wiki/inside-posh-pets-new-features-rewards-and-how-this-album-works/",
-          "published_date": "2026-02-03"
+          "title": "Harry Potter GO! - Full Album Sticker Set Reveals (Updated Live)",
+          "url": "https://monopolygo.wiki/harry-potter-go-sticker-album-preview/",
+          "published_date": "2025-11-30"
         },
         {
           "type": "album",
-          "title": "Posh Pets Is Set to Arrive in MONOPOLY GO!",
-          "url": "https://monopolygo.wiki/posh-pets-is-set-to-arrive-in-monopoly-go/",
-          "published_date": "2026-01-29"
-        },
-        {
-          "type": "album",
-          "title": "Upcoming Album: Posh Pets",
-          "url": "https://monopolygo.wiki/upcoming-album-posh-pets/",
-          "published_date": "2026-01-20"
+          "title": "Exclusive: Monopoly GO!’s Next Album Is… Harry Potter GO!",
+          "url": "https://monopolygo.wiki/exclusive-monopoly-go-s-next-album-is-harry-potter-go/",
+          "published_date": "2025-11-22"
         }
       ],
       "track_group": "album",
@@ -28201,104 +28033,10 @@
       ],
       "track_group": "album",
       "track_group_label": "album",
-      "track": "album_5",
-      "track_label": "album5",
-      "track_index": 5,
-      "track_sort": 3005,
-      "lifecycle": "seasonal",
-      "lifecycle_label": "赛季性",
-      "lifecycle_sort": 40
-    },
-    {
-      "id": "monopoly_go:posh-pets-is-set-to-arrive-in-monopoly-go:1770163200:1775692799",
-      "competitor": "monopoly_go",
-      "source": "monopolygo.wiki",
-      "source_url": "https://monopolygo.wiki/posh-pets-is-set-to-arrive-in-monopoly-go/",
-      "source_post_title": "Posh Pets Is Set to Arrive in MONOPOLY GO!",
-      "source_published_date": "2026-01-29",
-      "category": "Album",
-      "name": "Posh Pets Is Set to Arrive in MONOPOLY GO!",
-      "start_time": "2026-02-04T00:00:00+00:00",
-      "end_time": "2026-04-08T23:59:59+00:00",
-      "timezone": "UTC",
-      "start_timestamp": 1770163200,
-      "end_timestamp": 1775692799,
-      "duration_seconds": 5529599,
-      "duration_text": null,
-      "detail_url": "https://monopolygo.wiki/posh-pets-is-set-to-arrive-in-monopoly-go/",
-      "image_url": "https://monopolygo.wiki/content/images/size/w1200/2026/01/mogowiki-pshpts-2.jpg",
-      "description": "The newest album, starting February 4th , is all about style, pets, and community - and it introduces one of the biggest cosmetic updates the game has ever seen. Posh Pets brings brand-new Style Tokens , letting you customize your token with hats, accessories, and unique flair, alongside an album packed with charming pet-themed stickers and exclusive rewards. One of the biggest highlights this season is a special crossover: Hello Kitty is coming to MONOPOLY GO! 💖 The album includes an exclusive set called “Hello Kitty and Friends” , and completing it comes with some very cute (and very collect",
-      "article_summary": "The newest album, starting February 4th , is all about style, pets, and community - and it introduces one of the biggest cosmetic updates the game has ever seen. Posh Pets brings brand-new Style Tokens , letting you customize your token with hats, accessories, and unique flair, alongside an album packed with charming pet-themed stickers and exclusive rewards. One of the biggest highlights this season is a special crossover: Hello Kitty is coming to MONOPOLY GO! 💖 The album includes an exclusive set called “Hello Kitty and Friends” , and completing it comes with some very cute (and very collect",
-      "related_article": {
-        "type": "album",
-        "title": "Posh Pets Is Set to Arrive in MONOPOLY GO!",
-        "url": "https://monopolygo.wiki/posh-pets-is-set-to-arrive-in-monopoly-go/",
-        "published_date": "2026-01-29"
-      },
-      "raw": {
-        "display_start": "February 4th",
-        "display_end": null,
-        "classes": [
-          "album"
-        ]
-      },
-      "related_articles": [
-        {
-          "type": "album",
-          "title": "Posh Pets Is Set to Arrive in MONOPOLY GO!",
-          "url": "https://monopolygo.wiki/posh-pets-is-set-to-arrive-in-monopoly-go/",
-          "published_date": "2026-01-29"
-        }
-      ],
-      "track_group": "album",
-      "track_group_label": "album",
-      "track": "album_6",
-      "track_label": "album6",
-      "track_index": 6,
-      "track_sort": 3006,
-      "lifecycle": "seasonal",
-      "lifecycle_label": "赛季性",
-      "lifecycle_sort": 40
-    },
-    {
-      "id": "monopoly_go:set-23:1770163200:1770249599",
-      "competitor": "monopoly_go",
-      "source": "monopolygo.wiki",
-      "source_url": "https://monopolygo.wiki/harry-potter-go-sticker-album-preview/",
-      "source_post_title": "Harry Potter GO! - Full Album Sticker Set Reveals (Updated Live)",
-      "source_published_date": "2025-11-30",
-      "category": "Album",
-      "name": "Set 23",
-      "start_time": "2026-02-04T00:00:00+00:00",
-      "end_time": "2026-02-04T23:59:59+00:00",
-      "timezone": "UTC",
-      "start_timestamp": 1770163200,
-      "end_timestamp": 1770249599,
-      "duration_seconds": 86399,
-      "duration_text": null,
-      "detail_url": "https://monopolygo.wiki/harry-potter-go-sticker-album-preview/",
-      "image_url": "https://monopolygo.wiki/content/images/size/w1200/2025/11/preview-blog-header.jpg",
-      "description": "The next Monopoly GO! album - Harry Potter GO! - is officially on the way, and we’re revealing every sticker set right here as they drop. Looking to win some free stickers? The Magic Hunt is officially on! Exclusively on MonopolyGO.wiki's website (not the app), you can hunt down several magic-themed objects for a chance to spin the wheel of prizes! Check it out right here ! All 23 of the new Harry Potter GO! sticker sets are live! Check them out and let us know which ones are your favorite!",
-      "article_summary": "The next Monopoly GO! album - Harry Potter GO! - is officially on the way, and we’re revealing every sticker set right here as they drop. Looking to win some free stickers? The Magic Hunt is officially on! Exclusively on MonopolyGO.wiki's website (not the app), you can hunt down several magic-themed objects for a chance to spin the wheel of prizes! Check it out right here ! All 23 of the new Harry Potter GO! sticker sets are live! Check them out and let us know which ones are your favorite!",
-      "related_article": {
-        "type": "album",
-        "title": "Harry Potter GO! - Full Album Sticker Set Reveals (Updated Live)",
-        "url": "https://monopolygo.wiki/harry-potter-go-sticker-album-preview/",
-        "published_date": "2025-11-30"
-      },
-      "raw": {
-        "display_start": null,
-        "display_end": null,
-        "classes": [
-          "album"
-        ]
-      },
-      "track_group": "album",
-      "track_group_label": "album",
-      "track": "album_4",
-      "track_label": "album4",
-      "track_index": 4,
-      "track_sort": 3004,
+      "track": "album_2",
+      "track_label": "album2",
+      "track_index": 2,
+      "track_sort": 3002,
       "lifecycle": "seasonal",
       "lifecycle_label": "赛季性",
       "lifecycle_sort": 40
