@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-06T10:28:13+00:00",
+  "generated_at": "2026-05-06T10:29:32+00:00",
   "competitor": "monopoly_go",
   "source": "monopolygo.wiki",
   "listing_source_url": "https://monopolygo.wiki/page/2/",
@@ -101,7 +101,7 @@
       "lifecycle_sort": 40,
       "index": 1,
       "sort": 3001,
-      "event_count": 5
+      "event_count": 4
     },
     {
       "id": "album_2",
@@ -113,7 +113,7 @@
       "lifecycle_sort": 40,
       "index": 2,
       "sort": 3002,
-      "event_count": 3
+      "event_count": 4
     },
     {
       "id": "tycoon_class",
@@ -10468,6 +10468,63 @@
       "lifecycle": "recurring",
       "lifecycle_label": "周期性",
       "lifecycle_sort": 20
+    },
+    {
+      "id": "monopoly_go:harry-potter-go:1765324800:1770249599",
+      "competitor": "monopoly_go",
+      "source": "monopolygo.wiki",
+      "source_url": "https://monopolygo.wiki/harry-potter-go-sticker-album-preview/",
+      "source_post_title": "Harry Potter GO! - Full Album Sticker Set Reveals (Updated Live)",
+      "source_published_date": "2025-11-30",
+      "category": "Album",
+      "name": "Harry Potter GO",
+      "start_time": "2025-12-10T00:00:00+00:00",
+      "end_time": "2026-02-04T23:59:59+00:00",
+      "timezone": "UTC",
+      "start_timestamp": 1765324800,
+      "end_timestamp": 1770249599,
+      "duration_seconds": 4924799,
+      "duration_text": null,
+      "detail_url": "https://monopolygo.wiki/harry-potter-go-sticker-album-preview/",
+      "image_url": "https://monopolygo.wiki/content/images/size/w1200/2025/11/preview-blog-header.jpg",
+      "description": "The next Monopoly GO! album - Harry Potter GO! - is officially on the way, and we’re revealing every sticker set right here as they drop. Looking to win some free stickers? The Magic Hunt is officially on! Exclusively on MonopolyGO.wiki's website (not the app), you can hunt down several magic-themed objects for a chance to spin the wheel of prizes! Check it out right here ! All 23 of the new Harry Potter GO! sticker sets are live! Check them out and let us know which ones are your favorite!",
+      "article_summary": "The next Monopoly GO! album - Harry Potter GO! - is officially on the way, and we’re revealing every sticker set right here as they drop. Looking to win some free stickers? The Magic Hunt is officially on! Exclusively on MonopolyGO.wiki's website (not the app), you can hunt down several magic-themed objects for a chance to spin the wheel of prizes! Check it out right here ! All 23 of the new Harry Potter GO! sticker sets are live! Check them out and let us know which ones are your favorite!",
+      "related_article": {
+        "type": "album",
+        "title": "Harry Potter GO! - Full Album Sticker Set Reveals (Updated Live)",
+        "url": "https://monopolygo.wiki/harry-potter-go-sticker-album-preview/",
+        "published_date": "2025-11-30"
+      },
+      "raw": {
+        "display_start": null,
+        "display_end": null,
+        "classes": [
+          "album"
+        ]
+      },
+      "related_articles": [
+        {
+          "type": "album",
+          "title": "Harry Potter GO! - Full Album Sticker Set Reveals (Updated Live)",
+          "url": "https://monopolygo.wiki/harry-potter-go-sticker-album-preview/",
+          "published_date": "2025-11-30"
+        },
+        {
+          "type": "album",
+          "title": "Exclusive: Monopoly GO!’s Next Album Is… Harry Potter GO!",
+          "url": "https://monopolygo.wiki/exclusive-monopoly-go-s-next-album-is-harry-potter-go/",
+          "published_date": "2025-11-22"
+        }
+      ],
+      "track_group": "album",
+      "track_group_label": "album",
+      "track": "album_2",
+      "track_label": "album2",
+      "track_index": 2,
+      "track_sort": 3002,
+      "lifecycle": "seasonal",
+      "lifecycle_label": "赛季性",
+      "lifecycle_sort": 40
     },
     {
       "id": "monopoly_go:mega-heist:1765350000:1765371540",
@@ -27922,63 +27979,6 @@
       "lifecycle_sort": 20
     },
     {
-      "id": "monopoly_go:harry-potter-go:1770163200:1770249599",
-      "competitor": "monopoly_go",
-      "source": "monopolygo.wiki",
-      "source_url": "https://monopolygo.wiki/harry-potter-go-sticker-album-preview/",
-      "source_post_title": "Harry Potter GO! - Full Album Sticker Set Reveals (Updated Live)",
-      "source_published_date": "2025-11-30",
-      "category": "Album",
-      "name": "Harry Potter GO",
-      "start_time": "2026-02-04T00:00:00+00:00",
-      "end_time": "2026-02-04T23:59:59+00:00",
-      "timezone": "UTC",
-      "start_timestamp": 1770163200,
-      "end_timestamp": 1770249599,
-      "duration_seconds": 86399,
-      "duration_text": null,
-      "detail_url": "https://monopolygo.wiki/harry-potter-go-sticker-album-preview/",
-      "image_url": "https://monopolygo.wiki/content/images/size/w1200/2025/11/preview-blog-header.jpg",
-      "description": "The next Monopoly GO! album - Harry Potter GO! - is officially on the way, and we’re revealing every sticker set right here as they drop. Looking to win some free stickers? The Magic Hunt is officially on! Exclusively on MonopolyGO.wiki's website (not the app), you can hunt down several magic-themed objects for a chance to spin the wheel of prizes! Check it out right here ! All 23 of the new Harry Potter GO! sticker sets are live! Check them out and let us know which ones are your favorite!",
-      "article_summary": "The next Monopoly GO! album - Harry Potter GO! - is officially on the way, and we’re revealing every sticker set right here as they drop. Looking to win some free stickers? The Magic Hunt is officially on! Exclusively on MonopolyGO.wiki's website (not the app), you can hunt down several magic-themed objects for a chance to spin the wheel of prizes! Check it out right here ! All 23 of the new Harry Potter GO! sticker sets are live! Check them out and let us know which ones are your favorite!",
-      "related_article": {
-        "type": "album",
-        "title": "Harry Potter GO! - Full Album Sticker Set Reveals (Updated Live)",
-        "url": "https://monopolygo.wiki/harry-potter-go-sticker-album-preview/",
-        "published_date": "2025-11-30"
-      },
-      "raw": {
-        "display_start": null,
-        "display_end": null,
-        "classes": [
-          "album"
-        ]
-      },
-      "related_articles": [
-        {
-          "type": "album",
-          "title": "Harry Potter GO! - Full Album Sticker Set Reveals (Updated Live)",
-          "url": "https://monopolygo.wiki/harry-potter-go-sticker-album-preview/",
-          "published_date": "2025-11-30"
-        },
-        {
-          "type": "album",
-          "title": "Exclusive: Monopoly GO!’s Next Album Is… Harry Potter GO!",
-          "url": "https://monopolygo.wiki/exclusive-monopoly-go-s-next-album-is-harry-potter-go/",
-          "published_date": "2025-11-22"
-        }
-      ],
-      "track_group": "album",
-      "track_group_label": "album",
-      "track": "album",
-      "track_label": "album",
-      "track_index": 1,
-      "track_sort": 3001,
-      "lifecycle": "seasonal",
-      "lifecycle_label": "赛季性",
-      "lifecycle_sort": 40
-    },
-    {
       "id": "monopoly_go:posh-pets:1770163200:1775692799",
       "competitor": "monopoly_go",
       "source": "monopolygo.wiki",
@@ -28033,10 +28033,10 @@
       ],
       "track_group": "album",
       "track_group_label": "album",
-      "track": "album_2",
-      "track_label": "album2",
-      "track_index": 2,
-      "track_sort": 3002,
+      "track": "album",
+      "track_label": "album",
+      "track_index": 1,
+      "track_sort": 3001,
       "lifecycle": "seasonal",
       "lifecycle_label": "赛季性",
       "lifecycle_sort": 40
@@ -46818,10 +46818,10 @@
       ],
       "track_group": "album",
       "track_group_label": "album",
-      "track": "album",
-      "track_label": "album",
-      "track_index": 1,
-      "track_sort": 3001,
+      "track": "album_2",
+      "track_label": "album2",
+      "track_index": 2,
+      "track_sort": 3002,
       "lifecycle": "seasonal",
       "lifecycle_label": "赛季性",
       "lifecycle_sort": 40

@@ -566,6 +566,7 @@ def infer_album_candidate_dates(candidates: list[dict[str, Any]]) -> None:
                 previous_candidate
                 for previous_candidate in reversed(ordered[:index])
                 if previous_candidate["end_timestamp"] is not None
+                and previous_candidate["has_explicit_end"]
                 and normalize_match_text(previous_candidate["name"]) != normalize_match_text(candidate["name"])
             ),
             None,
