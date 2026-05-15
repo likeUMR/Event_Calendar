@@ -1,0 +1,912 @@
+{
+  "rank": 1,
+  "name": "MONOPOLY GO!",
+  "source_confidence": "high",
+  "source_notes": null,
+  "collected_at": "2026-05-12T03:58:27.061Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "MONOPOLY GO! Wiki - Events",
+      "source_type": "dedicated_wiki",
+      "source_url": "https://monopolygo.wiki/tag/events/",
+      "fetched_url": "https://monopolygo.wiki/tag/events/",
+      "status": 200,
+      "page_title": "Events",
+      "meta_description": "Special events happen throughout the day in Monopoly GO! and can help boost your progress by giving you rewards such as dice, stickers, and more.",
+      "relevant_text_blocks": [
+        "Special events happen throughout the day in Monopoly GO! and can help boost your progress by giving you rewards such as dice, stickers, and more.",
+        "Today's Events (May 12, 2026) - Roll Treasures",
+        "Roll Treasures: Coming May 12thRoll Treasures 20 hours May 12, 2026 at 04:00 PM - May 13, 2026 at 12:59 PM Treasure Hunt events in Monopoly GO! challenge players to dig for hidden treasures across multiple levels. Each level presents a grid where you’ll use Pickaxes (earned",
+        "Today's Events (May 11, 2026) - Sticker Boom",
+        "Today's Events (May 10, 2026)",
+        "Today's Events (May 09, 2026)",
+        "Tournaments Tournaments are limited-time competitive events in which players strive to collect a special currency through varying methods, detailed within the event's rules accessible via an icon on the screen, to earn prizes and rewards based on milestones and final leaderboard positions. These events are designed to match",
+        "Today's Events (May 08, 2026) - Blocks Boutique and Trade Fest",
+        "Trade Fest Is Coming to Monopoly GO! - Double Your Daily Trades!If you haven’t already heard, a brand new weekend-only event is coming to Monopoly GO!, and it’s one that sticker collectors won’t want to miss. 🎉 Introducing: Trade Fest 🗓️ Starts: September 27th @ 8AM UTC ⏰ Ends: September",
+        "Today's Events (May 07, 2026)- Golden Blitz + Cash Drop",
+        "Next Golden Blitz: Jabberwock and Enchanted ForestThe next Golden Blitz has been revealed! View the details below! If you haven’t yet experienced a Golden Blitz, now’s your chance to get in on the action. This special event allows players to trade two specific golden stickers- usually non-tradable- up",
+        "Today's Events (May 06, 2026)",
+        "Tournaments Tournaments are limited-time competitive events in which players strive to collect a special currency through varying methods, detailed within the event's rules accessible via an icon on the screen, to earn prizes and rewards based on milestones and final leaderboard positions. These events are designed to match",
+        "Today's Events (May 05, 2026) - Sticker Boom",
+        "Tournaments Tournaments are limited-time competitive events in which players strive to collect a special currency through varying methods, detailed within the event's rules accessible via an icon on the screen, to earn prizes and rewards based on milestones and final leaderboard positions. These events are designed to match",
+        "Today's Events (May 04, 2026)",
+        "Tournaments Tournaments are limited-time competitive events in which players strive to collect a special currency through varying methods, detailed within the event's rules accessible via an icon on the screen, to earn prizes and rewards based on milestones and final leaderboard positions. These events are designed to match",
+        "Today's Events (May 03, 2026)"
+      ],
+      "inferred_event_types": [
+        "collection_album",
+        "tournament_competition",
+        "pvp_war",
+        "mini_game"
+      ],
+      "images": [
+        {
+          "url": "https://monopolygo.wiki/content/images/size/w1200/2024/01/dice-pattern.png",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://monopolygo.wiki/content/images/2024/10/wiki-header.png",
+          "alt": "Monopoly GO! Wiki",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260511224103.png",
+          "alt": "Today's Events (May 12, 2026) - Roll Treasures",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260510204716.png",
+          "alt": "Today's Events (May 11, 2026) - Sticker Boom",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260509180028.png",
+          "alt": "Today's Events (May 10, 2026)",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260508184345.png",
+          "alt": "Today's Events (May 09, 2026)",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260507202625.png",
+          "alt": "Today's Events (May 08, 2026) - Blocks Boutique and Trade Fest",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260506091508.png",
+          "alt": "Today's Events (May 07, 2026)- Golden Blitz + Cash Drop",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260505204843.png",
+          "alt": "Today's Events (May 06, 2026)",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260504202337.png",
+          "alt": "Today's Events (May 05, 2026) - Sticker Boom",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260503185104.png",
+          "alt": "Today's Events (May 04, 2026)",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Monopoly Go - Events",
+      "source_type": "fandom",
+      "source_url": "https://monopoly.fandom.com/wiki/Monopoly_Go",
+      "status": 403,
+      "error": "fetch_failed"
+    }
+  ],
+  "event_detail_pages": [
+    {
+      "source_title": "Special Events",
+      "source_type": "event_detail",
+      "source_url": "https://monopolygo.wiki/tag/events/",
+      "fetched_url": "https://monopolygo.wiki/tag/events/",
+      "status": 200,
+      "page_title": "Events",
+      "meta_description": "Special events happen throughout the day in Monopoly GO! and can help boost your progress by giving you rewards such as dice, stickers, and more.",
+      "relevant_text_blocks": [
+        "Special events happen throughout the day in Monopoly GO! and can help boost your progress by giving you rewards such as dice, stickers, and more.",
+        "Today's Events (May 12, 2026) - Roll Treasures",
+        "Roll Treasures: Coming May 12thRoll Treasures 20 hours May 12, 2026 at 04:00 PM - May 13, 2026 at 12:59 PM Treasure Hunt events in Monopoly GO! challenge players to dig for hidden treasures across multiple levels. Each level presents a grid where you’ll use Pickaxes (earned",
+        "Today's Events (May 11, 2026) - Sticker Boom",
+        "Today's Events (May 10, 2026)",
+        "Today's Events (May 09, 2026)",
+        "Tournaments Tournaments are limited-time competitive events in which players strive to collect a special currency through varying methods, detailed within the event's rules accessible via an icon on the screen, to earn prizes and rewards based on milestones and final leaderboard positions. These events are designed to match",
+        "Today's Events (May 08, 2026) - Blocks Boutique and Trade Fest",
+        "Trade Fest Is Coming to Monopoly GO! - Double Your Daily Trades!If you haven’t already heard, a brand new weekend-only event is coming to Monopoly GO!, and it’s one that sticker collectors won’t want to miss. 🎉 Introducing: Trade Fest 🗓️ Starts: September 27th @ 8AM UTC ⏰ Ends: September",
+        "Today's Events (May 07, 2026)- Golden Blitz + Cash Drop",
+        "Next Golden Blitz: Jabberwock and Enchanted ForestThe next Golden Blitz has been revealed! View the details below! If you haven’t yet experienced a Golden Blitz, now’s your chance to get in on the action. This special event allows players to trade two specific golden stickers- usually non-tradable- up",
+        "Today's Events (May 06, 2026)",
+        "Tournaments Tournaments are limited-time competitive events in which players strive to collect a special currency through varying methods, detailed within the event's rules accessible via an icon on the screen, to earn prizes and rewards based on milestones and final leaderboard positions. These events are designed to match",
+        "Today's Events (May 05, 2026) - Sticker Boom",
+        "Tournaments Tournaments are limited-time competitive events in which players strive to collect a special currency through varying methods, detailed within the event's rules accessible via an icon on the screen, to earn prizes and rewards based on milestones and final leaderboard positions. These events are designed to match",
+        "Today's Events (May 04, 2026)",
+        "Tournaments Tournaments are limited-time competitive events in which players strive to collect a special currency through varying methods, detailed within the event's rules accessible via an icon on the screen, to earn prizes and rewards based on milestones and final leaderboard positions. These events are designed to match",
+        "Today's Events (May 03, 2026)"
+      ],
+      "inferred_event_types": [
+        "collection_album",
+        "tournament_competition",
+        "pvp_war",
+        "mini_game"
+      ],
+      "images": [
+        {
+          "url": "https://monopolygo.wiki/content/images/size/w1200/2024/01/dice-pattern.png",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://monopolygo.wiki/content/images/2024/10/wiki-header.png",
+          "alt": "Monopoly GO! Wiki",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260511224103.png",
+          "alt": "Today's Events (May 12, 2026) - Roll Treasures",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260510204716.png",
+          "alt": "Today's Events (May 11, 2026) - Sticker Boom",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260509180028.png",
+          "alt": "Today's Events (May 10, 2026)",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260508184345.png",
+          "alt": "Today's Events (May 09, 2026)",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260507202625.png",
+          "alt": "Today's Events (May 08, 2026) - Blocks Boutique and Trade Fest",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260506091508.png",
+          "alt": "Today's Events (May 07, 2026)- Golden Blitz + Cash Drop",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260505204843.png",
+          "alt": "Today's Events (May 06, 2026)",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260504202337.png",
+          "alt": "Today's Events (May 05, 2026) - Sticker Boom",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260503185104.png",
+          "alt": "Today's Events (May 04, 2026)",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Subscribe",
+      "source_type": "event_detail",
+      "source_url": "https://monopolygo.wiki/tag/events/#/portal/signup",
+      "fetched_url": "https://monopolygo.wiki/tag/events/#/portal/signup",
+      "status": 200,
+      "page_title": "Events",
+      "meta_description": "Special events happen throughout the day in Monopoly GO! and can help boost your progress by giving you rewards such as dice, stickers, and more.",
+      "relevant_text_blocks": [
+        "Special events happen throughout the day in Monopoly GO! and can help boost your progress by giving you rewards such as dice, stickers, and more.",
+        "Today's Events (May 12, 2026) - Roll Treasures",
+        "Roll Treasures: Coming May 12thRoll Treasures 20 hours May 12, 2026 at 04:00 PM - May 13, 2026 at 12:59 PM Treasure Hunt events in Monopoly GO! challenge players to dig for hidden treasures across multiple levels. Each level presents a grid where you’ll use Pickaxes (earned",
+        "Today's Events (May 11, 2026) - Sticker Boom",
+        "Today's Events (May 10, 2026)",
+        "Today's Events (May 09, 2026)",
+        "Tournaments Tournaments are limited-time competitive events in which players strive to collect a special currency through varying methods, detailed within the event's rules accessible via an icon on the screen, to earn prizes and rewards based on milestones and final leaderboard positions. These events are designed to match",
+        "Today's Events (May 08, 2026) - Blocks Boutique and Trade Fest",
+        "Trade Fest Is Coming to Monopoly GO! - Double Your Daily Trades!If you haven’t already heard, a brand new weekend-only event is coming to Monopoly GO!, and it’s one that sticker collectors won’t want to miss. 🎉 Introducing: Trade Fest 🗓️ Starts: September 27th @ 8AM UTC ⏰ Ends: September",
+        "Today's Events (May 07, 2026)- Golden Blitz + Cash Drop",
+        "Next Golden Blitz: Jabberwock and Enchanted ForestThe next Golden Blitz has been revealed! View the details below! If you haven’t yet experienced a Golden Blitz, now’s your chance to get in on the action. This special event allows players to trade two specific golden stickers- usually non-tradable- up",
+        "Today's Events (May 06, 2026)",
+        "Tournaments Tournaments are limited-time competitive events in which players strive to collect a special currency through varying methods, detailed within the event's rules accessible via an icon on the screen, to earn prizes and rewards based on milestones and final leaderboard positions. These events are designed to match",
+        "Today's Events (May 05, 2026) - Sticker Boom",
+        "Tournaments Tournaments are limited-time competitive events in which players strive to collect a special currency through varying methods, detailed within the event's rules accessible via an icon on the screen, to earn prizes and rewards based on milestones and final leaderboard positions. These events are designed to match",
+        "Today's Events (May 04, 2026)",
+        "Tournaments Tournaments are limited-time competitive events in which players strive to collect a special currency through varying methods, detailed within the event's rules accessible via an icon on the screen, to earn prizes and rewards based on milestones and final leaderboard positions. These events are designed to match",
+        "Today's Events (May 03, 2026)"
+      ],
+      "inferred_event_types": [
+        "collection_album",
+        "tournament_competition",
+        "pvp_war",
+        "mini_game"
+      ],
+      "images": [
+        {
+          "url": "https://monopolygo.wiki/content/images/size/w1200/2024/01/dice-pattern.png",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://monopolygo.wiki/content/images/2024/10/wiki-header.png",
+          "alt": "Monopoly GO! Wiki",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260511224103.png",
+          "alt": "Today's Events (May 12, 2026) - Roll Treasures",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260510204716.png",
+          "alt": "Today's Events (May 11, 2026) - Sticker Boom",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260509180028.png",
+          "alt": "Today's Events (May 10, 2026)",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260508184345.png",
+          "alt": "Today's Events (May 09, 2026)",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260507202625.png",
+          "alt": "Today's Events (May 08, 2026) - Blocks Boutique and Trade Fest",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260506091508.png",
+          "alt": "Today's Events (May 07, 2026)- Golden Blitz + Cash Drop",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260505204843.png",
+          "alt": "Today's Events (May 06, 2026)",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260504202337.png",
+          "alt": "Today's Events (May 05, 2026) - Sticker Boom",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260503185104.png",
+          "alt": "Today's Events (May 04, 2026)",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Sign up",
+      "source_type": "event_detail",
+      "source_url": "https://monopolygo.wiki/tag/events/#/portal/",
+      "fetched_url": "https://monopolygo.wiki/tag/events/#/portal/",
+      "status": 200,
+      "page_title": "Events",
+      "meta_description": "Special events happen throughout the day in Monopoly GO! and can help boost your progress by giving you rewards such as dice, stickers, and more.",
+      "relevant_text_blocks": [
+        "Special events happen throughout the day in Monopoly GO! and can help boost your progress by giving you rewards such as dice, stickers, and more.",
+        "Today's Events (May 12, 2026) - Roll Treasures",
+        "Roll Treasures: Coming May 12thRoll Treasures 20 hours May 12, 2026 at 04:00 PM - May 13, 2026 at 12:59 PM Treasure Hunt events in Monopoly GO! challenge players to dig for hidden treasures across multiple levels. Each level presents a grid where you’ll use Pickaxes (earned",
+        "Today's Events (May 11, 2026) - Sticker Boom",
+        "Today's Events (May 10, 2026)",
+        "Today's Events (May 09, 2026)",
+        "Tournaments Tournaments are limited-time competitive events in which players strive to collect a special currency through varying methods, detailed within the event's rules accessible via an icon on the screen, to earn prizes and rewards based on milestones and final leaderboard positions. These events are designed to match",
+        "Today's Events (May 08, 2026) - Blocks Boutique and Trade Fest",
+        "Trade Fest Is Coming to Monopoly GO! - Double Your Daily Trades!If you haven’t already heard, a brand new weekend-only event is coming to Monopoly GO!, and it’s one that sticker collectors won’t want to miss. 🎉 Introducing: Trade Fest 🗓️ Starts: September 27th @ 8AM UTC ⏰ Ends: September",
+        "Today's Events (May 07, 2026)- Golden Blitz + Cash Drop",
+        "Next Golden Blitz: Jabberwock and Enchanted ForestThe next Golden Blitz has been revealed! View the details below! If you haven’t yet experienced a Golden Blitz, now’s your chance to get in on the action. This special event allows players to trade two specific golden stickers- usually non-tradable- up",
+        "Today's Events (May 06, 2026)",
+        "Tournaments Tournaments are limited-time competitive events in which players strive to collect a special currency through varying methods, detailed within the event's rules accessible via an icon on the screen, to earn prizes and rewards based on milestones and final leaderboard positions. These events are designed to match",
+        "Today's Events (May 05, 2026) - Sticker Boom",
+        "Tournaments Tournaments are limited-time competitive events in which players strive to collect a special currency through varying methods, detailed within the event's rules accessible via an icon on the screen, to earn prizes and rewards based on milestones and final leaderboard positions. These events are designed to match",
+        "Today's Events (May 04, 2026)",
+        "Tournaments Tournaments are limited-time competitive events in which players strive to collect a special currency through varying methods, detailed within the event's rules accessible via an icon on the screen, to earn prizes and rewards based on milestones and final leaderboard positions. These events are designed to match",
+        "Today's Events (May 03, 2026)"
+      ],
+      "inferred_event_types": [
+        "collection_album",
+        "tournament_competition",
+        "pvp_war",
+        "mini_game"
+      ],
+      "images": [
+        {
+          "url": "https://monopolygo.wiki/content/images/size/w1200/2024/01/dice-pattern.png",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://monopolygo.wiki/content/images/2024/10/wiki-header.png",
+          "alt": "Monopoly GO! Wiki",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260511224103.png",
+          "alt": "Today's Events (May 12, 2026) - Roll Treasures",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260510204716.png",
+          "alt": "Today's Events (May 11, 2026) - Sticker Boom",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260509180028.png",
+          "alt": "Today's Events (May 10, 2026)",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260508184345.png",
+          "alt": "Today's Events (May 09, 2026)",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260507202625.png",
+          "alt": "Today's Events (May 08, 2026) - Blocks Boutique and Trade Fest",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260506091508.png",
+          "alt": "Today's Events (May 07, 2026)- Golden Blitz + Cash Drop",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260505204843.png",
+          "alt": "Today's Events (May 06, 2026)",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260504202337.png",
+          "alt": "Today's Events (May 05, 2026) - Sticker Boom",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260503185104.png",
+          "alt": "Today's Events (May 04, 2026)",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Reward Links",
+      "source_type": "event_detail",
+      "source_url": "https://monopolygo.wiki/latest-reward-links/",
+      "fetched_url": "https://monopolygo.wiki/latest-reward-links/",
+      "status": 200,
+      "page_title": "Monopoly GO! Free Dice Links Today - Updated May 11, 2026",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Monopoly GO! Free Dice Links Today",
+        "Looking for Monopoly GO! free dice links today ? Reward links are official gift links that give players free dice rolls, event currency, sticker packs, and other limited-time bonuses.",
+        "Tap a link on your mobile device and the Monopoly GO! app will open automatically to claim the reward. Each link can only be claimed once per account, so if you see a message saying the reward was already claimed, you’ve already used that specific link.",
+        "Monopoly GO Reward Link FAQ",
+        "Reward links open the Monopoly GO app and add the reward directly to your account when the link is still active and has not already been claimed.",
+        "Each reward link can only be claimed once per account. If you see this message, you already claimed that specific link.",
+        "New links can appear daily, during special events, or around major game updates. Check back often for the latest links.",
+        "Yes. While most links include free dice rolls, some may include event currency, sticker packs, or other limited-time rewards.",
+        "Next Golden Blitz: Hightail It! and Feeling Snoozy",
+        "The next Golden Blitz has been revealed! View the details below! If you haven't yet experienced a Golden Blitz, now's your chance to get in on the action. This special event allows players to trade two specific golden stickers- usually non-tradable- up to five times each",
+        "Roll Treasures: Coming May 12th",
+        "Roll Treasures 20 hours May 12, 2026 at 04:00 PM - May 13, 2026 at 12:59 PM Treasure Hunt events in Monopoly GO! challenge players to dig for hidden treasures across multiple levels. Each level presents a grid where you'll use Pickaxes (earned through regular gameplay)",
+        "Today's Events (May 11, 2026) - Sticker Boom",
+        "Today's Events (May 10, 2026)",
+        "Updates, sticker trading, daily events and free dice for Monopoly GO!"
+      ],
+      "inferred_event_types": [
+        "collection_album",
+        "pvp_war",
+        "mini_game"
+      ],
+      "images": [
+        {
+          "url": "https://monopolygo.wiki/content/images/size/w1200/2024/09/dice-overview-header.png",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://monopolygo.wiki/content/images/2024/10/wiki-header.png",
+          "alt": "Monopoly GO! Wiki",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://monopolygo.wiki/content/images/size/w160/2024/11/icon-1.png",
+          "alt": "Monopoly GO! Wiki",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn.monopolygo.wiki/commodities/rolls.png",
+          "alt": "rolls",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://monopolygo.wiki/content/images/size/w600/2026/05/blitz-header-1.png",
+          "alt": "Next Golden Blitz: Hightail It! and Feeling Snoozy",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/treasure-event-20260511223603.png",
+          "alt": "Roll Treasures: Coming May 12th",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260510204716.png",
+          "alt": "Today's Events (May 11, 2026) - Sticker Boom",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260509180028.png",
+          "alt": "Today's Events (May 10, 2026)",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Partner Events",
+      "source_type": "event_detail",
+      "source_url": "https://monopolygo.wiki/tag/partner-events/",
+      "fetched_url": "https://monopolygo.wiki/tag/partner-events/",
+      "status": 200,
+      "page_title": "Partner Events",
+      "meta_description": "Partner events are designed for players who have advanced to Board 5 and offer an opportunity to collaborate with friends. The goal? To build attractions on your board and win an array of prizes. Participants contribute to a communal progress bar by spinning a wheel with Event tokens—think macarons for a Baking Event—which are earned through gameplay and active participation in the event.",
+      "relevant_text_blocks": [
+        "Partner events are designed for players who have advanced to Board 5 and offer an opportunity to collaborate with friends. The goal? To build attractions on your board and win an array of prizes. Participants contribute to a communal progress bar by spinning a wheel with Event tokens—think macarons for a Baking Event—which are earned through gameplay and active participation in the event.",
+        "Villainous Partners: Coming May 2nd",
+        "Villainous Partners 5 days and 2 hours May 02, 2026 at 01:00 PM - May 07, 2026 at 03:59 PM For those new to the game, Partner Events are exclusive to players who have advanced to Board 5 or higher. These events encourage collaborative play, where participants work",
+        "Fairytale Partners: Coming April 14th",
+        "Fairytale Partners 5 days and 2 hours April 14, 2026 at 01:00 PM - April 19, 2026 at 03:59 PM For those new to the game, Partner Events are exclusive to players who have advanced to Board 5 or higher. These events encourage collaborative play, where participants work",
+        "Hello Kitty Partners: Coming March 10th",
+        "Hello Kitty Partners 5 days and 2 hours March 10, 2026 at 01:00 PM - March 15, 2026 at 03:59 PM For those new to the game, Partner Events are exclusive to players who have advanced to Board 5 or higher. These events encourage collaborative play, where participants",
+        "Pet Show Partners: Coming February 17th",
+        "Pet Show Partners 5 days and 2 hours February 17, 2026 at 12:00 PM - February 22, 2026 at 02:59 PM For those new to the game, Partner Events are exclusive to players who have advanced to Board 5 or higher. These events encourage collaborative play, where participants",
+        "Wizarding World Partners: Coming January 13th",
+        "Wizarding World Partners 5 days and 2 hours January 13, 2026 at 12:00 PM - January 18, 2026 at 02:59 PM For those new to the game, Partner Events are exclusive to players who have advanced to Board 5 or higher. These events encourage collaborative play, where participants",
+        "Toyshop Partners: Coming December 23rd",
+        "Toyshop Partners 5 days and 2 hours December 23, 2025 at 12:00 PM - December 28, 2025 at 02:59 PM For those new to the game, Partner Events are exclusive to players who have advanced to Board 5 or higher. These events encourage collaborative play, where participants work",
+        "Thanksgiving Partners: Coming November 25th",
+        "Thanksgiving Partners starts on November 25th! November 25, 2025 at 12:00 PM - November 30, 2025 at 02:59 PM For those new to the game, Partner Events are exclusive to players who have advanced to Board 5 or higher. These events encourage collaborative play, where participants work together",
+        "Halloween Partners: Coming October 28th",
+        "Halloween Partners 5 days and 2 hours October 28, 2025 at 01:00 PM - November 02, 2025 at 02:59 PM For those new to the game, Partner Events are exclusive to players who have advanced to Board 5 or higher. These events encourage collaborative play, where participants work",
+        "Cooking Partners: Coming October 7th"
+      ],
+      "inferred_event_types": [
+        "team_alliance",
+        "seasonal_festival",
+        "mini_game",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "https://monopolygo.wiki/content/images/size/w1200/2024/01/dice-pattern.png",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://monopolygo.wiki/content/images/2024/10/wiki-header.png",
+          "alt": "Monopoly GO! Wiki",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/event-20260430001950.png",
+          "alt": "Villainous Partners: Coming May 2nd",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/event-20260409082549.png",
+          "alt": "Fairytale Partners: Coming April 14th",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/event-20260227181450.png",
+          "alt": "Hello Kitty Partners: Coming March 10th",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/event-20260209181531.png",
+          "alt": "Pet Show Partners: Coming February 17th",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/event-20260107141305.png",
+          "alt": "Wizarding World Partners: Coming January 13th",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/event-20251220235000.png",
+          "alt": "Toyshop Partners: Coming December 23rd",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/event-20251118152143.png",
+          "alt": "Thanksgiving Partners: Coming November 25th",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/event-20251023121213.png",
+          "alt": "Halloween Partners: Coming October 28th",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/event-20251001175229.png",
+          "alt": "Cooking Partners: Coming October 7th",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "event_catalog": [
+    {
+      "title": "Events",
+      "url": "https://monopolygo.wiki/tag/events/",
+      "discovered_from": "https://monopolygo.wiki/tag/events/",
+      "description": "Special events happen throughout the day in Monopoly GO! and can help boost your progress by giving you rewards such as dice, stickers, and more.",
+      "inferred_event_types": [
+        "collection_album",
+        "tournament_competition",
+        "pvp_war",
+        "mini_game"
+      ],
+      "images": [
+        {
+          "url": "https://monopolygo.wiki/content/images/size/w1200/2024/01/dice-pattern.png",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://monopolygo.wiki/content/images/2024/10/wiki-header.png",
+          "alt": "Monopoly GO! Wiki",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260511224103.png",
+          "alt": "Today's Events (May 12, 2026) - Roll Treasures",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260510204716.png",
+          "alt": "Today's Events (May 11, 2026) - Sticker Boom",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260509180028.png",
+          "alt": "Today's Events (May 10, 2026)",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Events",
+      "url": "https://monopolygo.wiki/tag/events/#/portal/signup",
+      "discovered_from": "https://monopolygo.wiki/tag/events/",
+      "description": "Special events happen throughout the day in Monopoly GO! and can help boost your progress by giving you rewards such as dice, stickers, and more.",
+      "inferred_event_types": [
+        "collection_album",
+        "tournament_competition",
+        "pvp_war",
+        "mini_game"
+      ],
+      "images": [
+        {
+          "url": "https://monopolygo.wiki/content/images/size/w1200/2024/01/dice-pattern.png",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://monopolygo.wiki/content/images/2024/10/wiki-header.png",
+          "alt": "Monopoly GO! Wiki",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260511224103.png",
+          "alt": "Today's Events (May 12, 2026) - Roll Treasures",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260510204716.png",
+          "alt": "Today's Events (May 11, 2026) - Sticker Boom",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260509180028.png",
+          "alt": "Today's Events (May 10, 2026)",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Events",
+      "url": "https://monopolygo.wiki/tag/events/#/portal/",
+      "discovered_from": "https://monopolygo.wiki/tag/events/",
+      "description": "Special events happen throughout the day in Monopoly GO! and can help boost your progress by giving you rewards such as dice, stickers, and more.",
+      "inferred_event_types": [
+        "collection_album",
+        "tournament_competition",
+        "pvp_war",
+        "mini_game"
+      ],
+      "images": [
+        {
+          "url": "https://monopolygo.wiki/content/images/size/w1200/2024/01/dice-pattern.png",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://monopolygo.wiki/content/images/2024/10/wiki-header.png",
+          "alt": "Monopoly GO! Wiki",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260511224103.png",
+          "alt": "Today's Events (May 12, 2026) - Roll Treasures",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260510204716.png",
+          "alt": "Today's Events (May 11, 2026) - Sticker Boom",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260509180028.png",
+          "alt": "Today's Events (May 10, 2026)",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Monopoly GO! Free Dice Links Today - Updated May 11, 2026",
+      "url": "https://monopolygo.wiki/latest-reward-links/",
+      "discovered_from": "https://monopolygo.wiki/tag/events/",
+      "description": "Looking for Monopoly GO! free dice links today ? Reward links are official gift links that give players free dice rolls, event currency, sticker packs, and other limited-time bonuses.",
+      "inferred_event_types": [
+        "collection_album",
+        "pvp_war",
+        "mini_game"
+      ],
+      "images": [
+        {
+          "url": "https://monopolygo.wiki/content/images/size/w1200/2024/09/dice-overview-header.png",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://monopolygo.wiki/content/images/2024/10/wiki-header.png",
+          "alt": "Monopoly GO! Wiki",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://monopolygo.wiki/content/images/size/w160/2024/11/icon-1.png",
+          "alt": "Monopoly GO! Wiki",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn.monopolygo.wiki/commodities/rolls.png",
+          "alt": "rolls",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://monopolygo.wiki/content/images/size/w600/2026/05/blitz-header-1.png",
+          "alt": "Next Golden Blitz: Hightail It! and Feeling Snoozy",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Partner Events",
+      "url": "https://monopolygo.wiki/tag/partner-events/",
+      "discovered_from": "https://monopolygo.wiki/tag/events/",
+      "description": "Partner events are designed for players who have advanced to Board 5 and offer an opportunity to collaborate with friends. The goal? To build attractions on your board and win an array of prizes. Participants contribute to a communal progress bar by spinning a wheel with Event tokens—think macarons for a Baking Event—which are earned through gameplay and active participation in the event.",
+      "inferred_event_types": [
+        "team_alliance",
+        "seasonal_festival",
+        "mini_game",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "https://monopolygo.wiki/content/images/size/w1200/2024/01/dice-pattern.png",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://monopolygo.wiki/content/images/2024/10/wiki-header.png",
+          "alt": "Monopoly GO! Wiki",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/event-20260430001950.png",
+          "alt": "Villainous Partners: Coming May 2nd",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/event-20260409082549.png",
+          "alt": "Fairytale Partners: Coming April 14th",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/event-20260227181450.png",
+          "alt": "Hello Kitty Partners: Coming March 10th",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "inferred_event_type_summary": [
+    "collection_album",
+    "mini_game",
+    "pvp_war",
+    "seasonal_festival",
+    "store_offer",
+    "team_alliance",
+    "tournament_competition"
+  ],
+  "screenshots_or_images": [
+    {
+      "url": "https://monopolygo.wiki/content/images/size/w1200/2024/01/dice-pattern.png",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://monopolygo.wiki/tag/events/"
+    },
+    {
+      "url": "https://monopolygo.wiki/content/images/2024/10/wiki-header.png",
+      "alt": "Monopoly GO! Wiki",
+      "kind": "page_image",
+      "source_url": "https://monopolygo.wiki/tag/events/"
+    },
+    {
+      "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260511224103.png",
+      "alt": "Today's Events (May 12, 2026) - Roll Treasures",
+      "kind": "page_image",
+      "source_url": "https://monopolygo.wiki/tag/events/"
+    },
+    {
+      "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260510204716.png",
+      "alt": "Today's Events (May 11, 2026) - Sticker Boom",
+      "kind": "page_image",
+      "source_url": "https://monopolygo.wiki/tag/events/"
+    },
+    {
+      "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260509180028.png",
+      "alt": "Today's Events (May 10, 2026)",
+      "kind": "page_image",
+      "source_url": "https://monopolygo.wiki/tag/events/"
+    },
+    {
+      "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260508184345.png",
+      "alt": "Today's Events (May 09, 2026)",
+      "kind": "page_image",
+      "source_url": "https://monopolygo.wiki/tag/events/"
+    },
+    {
+      "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260507202625.png",
+      "alt": "Today's Events (May 08, 2026) - Blocks Boutique and Trade Fest",
+      "kind": "page_image",
+      "source_url": "https://monopolygo.wiki/tag/events/"
+    },
+    {
+      "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260506091508.png",
+      "alt": "Today's Events (May 07, 2026)- Golden Blitz + Cash Drop",
+      "kind": "page_image",
+      "source_url": "https://monopolygo.wiki/tag/events/"
+    },
+    {
+      "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260505204843.png",
+      "alt": "Today's Events (May 06, 2026)",
+      "kind": "page_image",
+      "source_url": "https://monopolygo.wiki/tag/events/"
+    },
+    {
+      "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260504202337.png",
+      "alt": "Today's Events (May 05, 2026) - Sticker Boom",
+      "kind": "page_image",
+      "source_url": "https://monopolygo.wiki/tag/events/"
+    },
+    {
+      "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/20260503185104.png",
+      "alt": "Today's Events (May 04, 2026)",
+      "kind": "page_image",
+      "source_url": "https://monopolygo.wiki/tag/events/"
+    },
+    {
+      "url": "https://monopolygo.wiki/content/images/size/w1200/2024/09/dice-overview-header.png",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://monopolygo.wiki/latest-reward-links/"
+    },
+    {
+      "url": "https://monopolygo.wiki/content/images/size/w160/2024/11/icon-1.png",
+      "alt": "Monopoly GO! Wiki",
+      "kind": "page_image",
+      "source_url": "https://monopolygo.wiki/latest-reward-links/"
+    },
+    {
+      "url": "https://cdn.monopolygo.wiki/commodities/rolls.png",
+      "alt": "rolls",
+      "kind": "page_image",
+      "source_url": "https://monopolygo.wiki/latest-reward-links/"
+    },
+    {
+      "url": "https://monopolygo.wiki/content/images/size/w600/2026/05/blitz-header-1.png",
+      "alt": "Next Golden Blitz: Hightail It! and Feeling Snoozy",
+      "kind": "page_image",
+      "source_url": "https://monopolygo.wiki/latest-reward-links/"
+    },
+    {
+      "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/treasure-event-20260511223603.png",
+      "alt": "Roll Treasures: Coming May 12th",
+      "kind": "page_image",
+      "source_url": "https://monopolygo.wiki/latest-reward-links/"
+    },
+    {
+      "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/event-20260430001950.png",
+      "alt": "Villainous Partners: Coming May 2nd",
+      "kind": "page_image",
+      "source_url": "https://monopolygo.wiki/tag/partner-events/"
+    },
+    {
+      "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/event-20260409082549.png",
+      "alt": "Fairytale Partners: Coming April 14th",
+      "kind": "page_image",
+      "source_url": "https://monopolygo.wiki/tag/partner-events/"
+    },
+    {
+      "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/event-20260227181450.png",
+      "alt": "Hello Kitty Partners: Coming March 10th",
+      "kind": "page_image",
+      "source_url": "https://monopolygo.wiki/tag/partner-events/"
+    },
+    {
+      "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/event-20260209181531.png",
+      "alt": "Pet Show Partners: Coming February 17th",
+      "kind": "page_image",
+      "source_url": "https://monopolygo.wiki/tag/partner-events/"
+    },
+    {
+      "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/event-20260107141305.png",
+      "alt": "Wizarding World Partners: Coming January 13th",
+      "kind": "page_image",
+      "source_url": "https://monopolygo.wiki/tag/partner-events/"
+    },
+    {
+      "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/event-20251220235000.png",
+      "alt": "Toyshop Partners: Coming December 23rd",
+      "kind": "page_image",
+      "source_url": "https://monopolygo.wiki/tag/partner-events/"
+    },
+    {
+      "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/event-20251118152143.png",
+      "alt": "Thanksgiving Partners: Coming November 25th",
+      "kind": "page_image",
+      "source_url": "https://monopolygo.wiki/tag/partner-events/"
+    },
+    {
+      "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/event-20251023121213.png",
+      "alt": "Halloween Partners: Coming October 28th",
+      "kind": "page_image",
+      "source_url": "https://monopolygo.wiki/tag/partner-events/"
+    },
+    {
+      "url": "https://cdn-asset.monopolygo.wiki/wiki-headers/event-20251001175229.png",
+      "alt": "Cooking Partners: Coming October 7th",
+      "kind": "page_image",
+      "source_url": "https://monopolygo.wiki/tag/partner-events/"
+    }
+  ],
+  "collection_warnings": [
+    "Fetch failed: https://monopoly.fandom.com/wiki/Monopoly_Go"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "rank": 45,
+  "name": "Merge Mansion: Puzzles & Story",
+  "source_confidence": "high",
+  "source_notes": null,
+  "collected_at": "2026-05-12T04:03:01.348Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Merge Mansion Wiki - Events",
+      "source_type": "fandom",
+      "source_url": "https://merge-mansion.fandom.com/wiki/Events",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "source_title": "Merge Mansion Support",
+      "source_type": "official_support",
+      "source_url": "https://everyweargames.helpshift.com/hc/en/11-merge-mansion/",
+      "status": 404,
+      "error": "fetch_failed"
+    }
+  ],
+  "event_detail_pages": [],
+  "event_catalog": [],
+  "inferred_event_type_summary": [],
+  "screenshots_or_images": [],
+  "collection_warnings": [
+    "Fetch failed: https://merge-mansion.fandom.com/wiki/Events",
+    "Fetch failed: https://everyweargames.helpshift.com/hc/en/11-merge-mansion/"
+  ]
+}

@@ -1,0 +1,898 @@
+{
+  "rank": 5,
+  "name": "Last War:Survival",
+  "source_confidence": "high",
+  "source_notes": null,
+  "collected_at": "2026-05-12T03:58:46.574Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Last War: Survival Game Wiki - Events",
+      "source_type": "dedicated_wiki",
+      "source_url": "https://lastwar.wiki/events/alliance-duel-vs/",
+      "fetched_url": "https://lastwar.wiki/events/alliance-duel-vs/",
+      "status": 200,
+      "page_title": "Alliance Duel (VS)",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Alliance Duel (VS) - Last War: Survival Game Wiki Skip to content Menu Menu Home",
+        "The Alliance Duel, also called Alliance VS, is an event in Last War Survival where two alliances face off by completing tasks to earn points. The alliance that earns the most points during the event wins.",
+        "This event lasts for over a week, with a new set of tasks each day that alliance members can complete to help their alliance earn points.",
+        "Participation Requirements",
+        "To participate in the Alliance VS event, players must meet the following requirements:",
+        "You must belong to an eligible alliance.",
+        "Alliances must have at least 20 members to join the event.",
+        "Only the top 32 alliances in the Warzone (server) can participate.",
+        "The event is divided into six themes, each offering different “Winning Points”:",
+        "The “Winning Points” represent how many points an alliance can earn each day. For example, the first day’s theme offers 1 point, while the last day provides 4 points. The alliance with the most Winning Points at the end of the event is declared the winner.",
+        "Here are the base points you can earn from each theme, without applying the perks from “Alliance VS” research:",
+        "Day 1: Radar Training",
+        "Day 2: Base Expansion",
+        "Day 3: Age of Science",
+        "Day 5: Total Mobilization",
+        "Every Level 1 Unit killed from rival alliance – 10 points",
+        "Every Level 2 Unit killed from rival alliance – 15 points",
+        "Every Level 3 Unit killed from rival alliance – 20 points"
+      ],
+      "inferred_event_types": [
+        "collection_album",
+        "team_alliance",
+        "pvp_war",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-last-war-survival.webp",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/lastwarwiki.png",
+          "alt": "Last War: Survival Game Wiki",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-last-war-survival-300x273.webp",
+          "alt": "Alliance Duel Event Last War Survival",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-rewards-2-576x1024.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-rewards-1-576x1024.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-rewards-3-576x1024.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/12/basic-chip-material-300x295.webp",
+          "alt": "Basic Chip Material Last War Survival",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/12/premium-skill-chip-material-300x300.webp",
+          "alt": "Premium Chip Material",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/12/luxury-choice-chest-300x284.webp",
+          "alt": "Luxury Choice Chest Last War Survival",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Last War: Survival Wiki",
+      "source_type": "fandom",
+      "source_url": "https://last-war-survival.fandom.com/wiki/Last_War:Survival_Wiki",
+      "status": 403,
+      "error": "fetch_failed"
+    }
+  ],
+  "event_detail_pages": [
+    {
+      "source_title": "Events",
+      "source_type": "event_detail",
+      "source_url": "https://lastwar.wiki/category/events/",
+      "fetched_url": "https://lastwar.wiki/category/events/",
+      "status": 200,
+      "page_title": "Events Archives - Last War: Survival Game Wiki",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Events Archives - Last War: Survival Game Wiki Skip to content Menu Menu Home",
+        "Ammo Bonanza and Bullseye Loot",
+        "Premium Chip Material",
+        "A community-driven wiki for Last War, created by players for players. Explore details about heroes, buildings, items, and all other important elements of the game."
+      ],
+      "inferred_event_types": [
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/lastwarwiki.png",
+          "alt": "Last War: Survival Game Wiki",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/ammo-bonanza-event-295x300.webp",
+          "alt": "Ammo Bonanza Event Last War Survival",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-last-war-survival-300x273.webp",
+          "alt": "Alliance Duel Event Last War Survival",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/12/basic-chip-material-300x295.webp",
+          "alt": "Basic Chip Material Last War Survival",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/12/premium-skill-chip-material-300x300.webp",
+          "alt": "Premium Chip Material",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/12/luxury-choice-chest-300x284.webp",
+          "alt": "Luxury Choice Chest Last War Survival",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Skip to content",
+      "source_type": "event_detail",
+      "source_url": "https://lastwar.wiki/events/alliance-duel-vs/#content",
+      "fetched_url": "https://lastwar.wiki/events/alliance-duel-vs/#content",
+      "status": 200,
+      "page_title": "Alliance Duel (VS)",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Alliance Duel (VS) - Last War: Survival Game Wiki Skip to content Menu Menu Home",
+        "The Alliance Duel, also called Alliance VS, is an event in Last War Survival where two alliances face off by completing tasks to earn points. The alliance that earns the most points during the event wins.",
+        "This event lasts for over a week, with a new set of tasks each day that alliance members can complete to help their alliance earn points.",
+        "Participation Requirements",
+        "To participate in the Alliance VS event, players must meet the following requirements:",
+        "You must belong to an eligible alliance.",
+        "Alliances must have at least 20 members to join the event.",
+        "Only the top 32 alliances in the Warzone (server) can participate.",
+        "The event is divided into six themes, each offering different “Winning Points”:",
+        "The “Winning Points” represent how many points an alliance can earn each day. For example, the first day’s theme offers 1 point, while the last day provides 4 points. The alliance with the most Winning Points at the end of the event is declared the winner.",
+        "Here are the base points you can earn from each theme, without applying the perks from “Alliance VS” research:",
+        "Day 1: Radar Training",
+        "Day 2: Base Expansion",
+        "Day 3: Age of Science",
+        "Day 5: Total Mobilization",
+        "Every Level 1 Unit killed from rival alliance – 10 points",
+        "Every Level 2 Unit killed from rival alliance – 15 points",
+        "Every Level 3 Unit killed from rival alliance – 20 points"
+      ],
+      "inferred_event_types": [
+        "collection_album",
+        "team_alliance",
+        "pvp_war",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-last-war-survival.webp",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/lastwarwiki.png",
+          "alt": "Last War: Survival Game Wiki",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-last-war-survival-300x273.webp",
+          "alt": "Alliance Duel Event Last War Survival",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-rewards-2-576x1024.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-rewards-1-576x1024.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-rewards-3-576x1024.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/12/basic-chip-material-300x295.webp",
+          "alt": "Basic Chip Material Last War Survival",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/12/premium-skill-chip-material-300x300.webp",
+          "alt": "Premium Chip Material",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/12/luxury-choice-chest-300x284.webp",
+          "alt": "Luxury Choice Chest Last War Survival",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Event Hub",
+      "source_type": "event_detail",
+      "source_url": "https://lastwar.wiki/buildings/event-hub/",
+      "fetched_url": "https://lastwar.wiki/buildings/event-hub/",
+      "status": 200,
+      "page_title": "Event Hub",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Event Hub - Last War: Survival Game Wiki Skip to content Menu Menu Home",
+        "The Event Hub is a building introduced in the October 16, 2024 update of Last War Survival. You can build it once your Headquarters reaches level 10. After it’s built, you can use the Event Hub to see upcoming events and their start times.",
+        "It also shows the current server time, your local time, and offers an easy way to switch between the current and upcoming events tabs. To view an event, simply press the “Go” button next to the event in the Event Hub.",
+        "Ammo Bonanza and Bullseye Loot",
+        "harris on Alliance Support Hub",
+        "Daniel on Alliance Support Hub",
+        "me on Alliance Support Hub",
+        "Premium Chip Material"
+      ],
+      "inferred_event_types": [
+        "team_alliance",
+        "pvp_war",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/event-hub-fixed-last-war-survival.webp",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/lastwarwiki.png",
+          "alt": "Last War: Survival Game Wiki",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/event-hub-fixed-last-war-survival-300x276.webp",
+          "alt": "Event Hub Last War Survival",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/events-tab-in-event-hub-last-war-survival-1.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/12/basic-chip-material-300x295.webp",
+          "alt": "Basic Chip Material Last War Survival",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/12/premium-skill-chip-material-300x300.webp",
+          "alt": "Premium Chip Material",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/12/luxury-choice-chest-300x284.webp",
+          "alt": "Luxury Choice Chest Last War Survival",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Alliance Support Hub",
+      "source_type": "event_detail",
+      "source_url": "https://lastwar.wiki/buildings/alliance-center/#comment-41",
+      "fetched_url": "https://lastwar.wiki/buildings/alliance-center/#comment-41",
+      "status": 200,
+      "page_title": "Alliance Support Hub",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Alliance Support Hub - Last War: Survival Game Wiki Skip to content Menu Menu Home",
+        "The Alliance Support Hub is a core building in Last War Survival. It lets you get help from other Alliance Members for upgrades, research, and healing your troops. Each time you receive help, it reduces the time needed for these tasks by a few minutes.",
+        "The amount of help you receive increases as you upgrade the Alliance Support Hub.",
+        "The name of the building was changed from Alliance Center to Alliance Support Hub.",
+        "Upgrade Requirements",
+        "Alliance Center Upgrade Details – Last War Survival",
+        "The resource amounts shown in the table are the base values. The actual cost to upgrade the Alliance Support Hub will be slightly reduced once perks, research, and other buffs are applied.",
+        "During Season 2 Off-Season, your warzone moves into the Age of Oil, introducing a new “Age of Oil” tech tree in the Tech Center. By completing the “HQ Expansion” research in this tech tree, you can upgrade your HQ and other buildings up to level 35.",
+        "harris on Alliance Support Hub",
+        "Daniel on Alliance Support Hub",
+        "me on Alliance Support Hub",
+        "Premium Chip Material"
+      ],
+      "inferred_event_types": [
+        "team_alliance",
+        "seasonal_festival",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-center-last-war-survival.webp",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/lastwarwiki.png",
+          "alt": "Last War: Survival Game Wiki",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-center-last-war-survival-262x300.webp",
+          "alt": "Alliance Center Last War Survival",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/09/iron-last-war-survival-game.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/09/food-last-war-survival-game.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/09/coin-last-war-survival-game.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/12/basic-chip-material-300x295.webp",
+          "alt": "Basic Chip Material Last War Survival",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/12/premium-skill-chip-material-300x300.webp",
+          "alt": "Premium Chip Material",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/12/luxury-choice-chest-300x284.webp",
+          "alt": "Luxury Choice Chest Last War Survival",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Alliance Support Hub",
+      "source_type": "event_detail",
+      "source_url": "https://lastwar.wiki/buildings/alliance-center/#comment-40",
+      "fetched_url": "https://lastwar.wiki/buildings/alliance-center/#comment-40",
+      "status": 200,
+      "page_title": "Alliance Support Hub",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Alliance Support Hub - Last War: Survival Game Wiki Skip to content Menu Menu Home",
+        "The Alliance Support Hub is a core building in Last War Survival. It lets you get help from other Alliance Members for upgrades, research, and healing your troops. Each time you receive help, it reduces the time needed for these tasks by a few minutes.",
+        "The amount of help you receive increases as you upgrade the Alliance Support Hub.",
+        "The name of the building was changed from Alliance Center to Alliance Support Hub.",
+        "Upgrade Requirements",
+        "Alliance Center Upgrade Details – Last War Survival",
+        "The resource amounts shown in the table are the base values. The actual cost to upgrade the Alliance Support Hub will be slightly reduced once perks, research, and other buffs are applied.",
+        "During Season 2 Off-Season, your warzone moves into the Age of Oil, introducing a new “Age of Oil” tech tree in the Tech Center. By completing the “HQ Expansion” research in this tech tree, you can upgrade your HQ and other buildings up to level 35.",
+        "harris on Alliance Support Hub",
+        "Daniel on Alliance Support Hub",
+        "me on Alliance Support Hub",
+        "Premium Chip Material"
+      ],
+      "inferred_event_types": [
+        "team_alliance",
+        "seasonal_festival",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-center-last-war-survival.webp",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/lastwarwiki.png",
+          "alt": "Last War: Survival Game Wiki",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-center-last-war-survival-262x300.webp",
+          "alt": "Alliance Center Last War Survival",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/09/iron-last-war-survival-game.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/09/food-last-war-survival-game.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/09/coin-last-war-survival-game.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/12/basic-chip-material-300x295.webp",
+          "alt": "Basic Chip Material Last War Survival",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/12/premium-skill-chip-material-300x300.webp",
+          "alt": "Premium Chip Material",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/12/luxury-choice-chest-300x284.webp",
+          "alt": "Luxury Choice Chest Last War Survival",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Alliance Support Hub",
+      "source_type": "event_detail",
+      "source_url": "https://lastwar.wiki/buildings/alliance-center/#comment-39",
+      "fetched_url": "https://lastwar.wiki/buildings/alliance-center/#comment-39",
+      "status": 200,
+      "page_title": "Alliance Support Hub",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Alliance Support Hub - Last War: Survival Game Wiki Skip to content Menu Menu Home",
+        "The Alliance Support Hub is a core building in Last War Survival. It lets you get help from other Alliance Members for upgrades, research, and healing your troops. Each time you receive help, it reduces the time needed for these tasks by a few minutes.",
+        "The amount of help you receive increases as you upgrade the Alliance Support Hub.",
+        "The name of the building was changed from Alliance Center to Alliance Support Hub.",
+        "Upgrade Requirements",
+        "Alliance Center Upgrade Details – Last War Survival",
+        "The resource amounts shown in the table are the base values. The actual cost to upgrade the Alliance Support Hub will be slightly reduced once perks, research, and other buffs are applied.",
+        "During Season 2 Off-Season, your warzone moves into the Age of Oil, introducing a new “Age of Oil” tech tree in the Tech Center. By completing the “HQ Expansion” research in this tech tree, you can upgrade your HQ and other buildings up to level 35.",
+        "harris on Alliance Support Hub",
+        "Daniel on Alliance Support Hub",
+        "me on Alliance Support Hub",
+        "Premium Chip Material"
+      ],
+      "inferred_event_types": [
+        "team_alliance",
+        "seasonal_festival",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-center-last-war-survival.webp",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/lastwarwiki.png",
+          "alt": "Last War: Survival Game Wiki",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-center-last-war-survival-262x300.webp",
+          "alt": "Alliance Center Last War Survival",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/09/iron-last-war-survival-game.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/09/food-last-war-survival-game.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/09/coin-last-war-survival-game.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/12/basic-chip-material-300x295.webp",
+          "alt": "Basic Chip Material Last War Survival",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/12/premium-skill-chip-material-300x300.webp",
+          "alt": "Premium Chip Material",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/12/luxury-choice-chest-300x284.webp",
+          "alt": "Luxury Choice Chest Last War Survival",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "event_catalog": [
+    {
+      "title": "Events Archives - Last War: Survival Game Wiki",
+      "url": "https://lastwar.wiki/category/events/",
+      "discovered_from": "https://lastwar.wiki/events/alliance-duel-vs/",
+      "description": "Events Archives - Last War: Survival Game Wiki Skip to content Menu Menu Home",
+      "inferred_event_types": [
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/lastwarwiki.png",
+          "alt": "Last War: Survival Game Wiki",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/ammo-bonanza-event-295x300.webp",
+          "alt": "Ammo Bonanza Event Last War Survival",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-last-war-survival-300x273.webp",
+          "alt": "Alliance Duel Event Last War Survival",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/12/basic-chip-material-300x295.webp",
+          "alt": "Basic Chip Material Last War Survival",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/12/premium-skill-chip-material-300x300.webp",
+          "alt": "Premium Chip Material",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/12/luxury-choice-chest-300x284.webp",
+          "alt": "Luxury Choice Chest Last War Survival",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Alliance Duel (VS)",
+      "url": "https://lastwar.wiki/events/alliance-duel-vs/#content",
+      "discovered_from": "https://lastwar.wiki/events/alliance-duel-vs/",
+      "description": "Alliance Duel (VS) - Last War: Survival Game Wiki Skip to content Menu Menu Home",
+      "inferred_event_types": [
+        "collection_album",
+        "team_alliance",
+        "pvp_war",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-last-war-survival.webp",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/lastwarwiki.png",
+          "alt": "Last War: Survival Game Wiki",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-last-war-survival-300x273.webp",
+          "alt": "Alliance Duel Event Last War Survival",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-rewards-2-576x1024.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-rewards-1-576x1024.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-rewards-3-576x1024.webp",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Event Hub",
+      "url": "https://lastwar.wiki/buildings/event-hub/",
+      "discovered_from": "https://lastwar.wiki/events/alliance-duel-vs/",
+      "description": "Event Hub - Last War: Survival Game Wiki Skip to content Menu Menu Home",
+      "inferred_event_types": [
+        "team_alliance",
+        "pvp_war",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/event-hub-fixed-last-war-survival.webp",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/lastwarwiki.png",
+          "alt": "Last War: Survival Game Wiki",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/event-hub-fixed-last-war-survival-300x276.webp",
+          "alt": "Event Hub Last War Survival",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/events-tab-in-event-hub-last-war-survival-1.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/12/basic-chip-material-300x295.webp",
+          "alt": "Basic Chip Material Last War Survival",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/12/premium-skill-chip-material-300x300.webp",
+          "alt": "Premium Chip Material",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Alliance Support Hub",
+      "url": "https://lastwar.wiki/buildings/alliance-center/#comment-41",
+      "discovered_from": "https://lastwar.wiki/events/alliance-duel-vs/",
+      "description": "Alliance Support Hub - Last War: Survival Game Wiki Skip to content Menu Menu Home",
+      "inferred_event_types": [
+        "team_alliance",
+        "seasonal_festival",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-center-last-war-survival.webp",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/lastwarwiki.png",
+          "alt": "Last War: Survival Game Wiki",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-center-last-war-survival-262x300.webp",
+          "alt": "Alliance Center Last War Survival",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/09/iron-last-war-survival-game.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/09/food-last-war-survival-game.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/09/coin-last-war-survival-game.webp",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Alliance Support Hub",
+      "url": "https://lastwar.wiki/buildings/alliance-center/#comment-40",
+      "discovered_from": "https://lastwar.wiki/events/alliance-duel-vs/",
+      "description": "Alliance Support Hub - Last War: Survival Game Wiki Skip to content Menu Menu Home",
+      "inferred_event_types": [
+        "team_alliance",
+        "seasonal_festival",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-center-last-war-survival.webp",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/lastwarwiki.png",
+          "alt": "Last War: Survival Game Wiki",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-center-last-war-survival-262x300.webp",
+          "alt": "Alliance Center Last War Survival",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/09/iron-last-war-survival-game.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/09/food-last-war-survival-game.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/09/coin-last-war-survival-game.webp",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Alliance Support Hub",
+      "url": "https://lastwar.wiki/buildings/alliance-center/#comment-39",
+      "discovered_from": "https://lastwar.wiki/events/alliance-duel-vs/",
+      "description": "Alliance Support Hub - Last War: Survival Game Wiki Skip to content Menu Menu Home",
+      "inferred_event_types": [
+        "team_alliance",
+        "seasonal_festival",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-center-last-war-survival.webp",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/lastwarwiki.png",
+          "alt": "Last War: Survival Game Wiki",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-center-last-war-survival-262x300.webp",
+          "alt": "Alliance Center Last War Survival",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/09/iron-last-war-survival-game.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/09/food-last-war-survival-game.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/09/coin-last-war-survival-game.webp",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "inferred_event_type_summary": [
+    "collection_album",
+    "pvp_war",
+    "seasonal_festival",
+    "store_offer",
+    "team_alliance"
+  ],
+  "screenshots_or_images": [
+    {
+      "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-last-war-survival.webp",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://lastwar.wiki/events/alliance-duel-vs/"
+    },
+    {
+      "url": "https://lastwar.wiki/wp-content/uploads/2024/10/lastwarwiki.png",
+      "alt": "Last War: Survival Game Wiki",
+      "kind": "page_image",
+      "source_url": "https://lastwar.wiki/events/alliance-duel-vs/"
+    },
+    {
+      "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-last-war-survival-300x273.webp",
+      "alt": "Alliance Duel Event Last War Survival",
+      "kind": "page_image",
+      "source_url": "https://lastwar.wiki/events/alliance-duel-vs/"
+    },
+    {
+      "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-rewards-2-576x1024.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://lastwar.wiki/events/alliance-duel-vs/"
+    },
+    {
+      "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-rewards-1-576x1024.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://lastwar.wiki/events/alliance-duel-vs/"
+    },
+    {
+      "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-rewards-3-576x1024.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://lastwar.wiki/events/alliance-duel-vs/"
+    },
+    {
+      "url": "https://lastwar.wiki/wp-content/uploads/2024/12/basic-chip-material-300x295.webp",
+      "alt": "Basic Chip Material Last War Survival",
+      "kind": "page_image",
+      "source_url": "https://lastwar.wiki/events/alliance-duel-vs/"
+    },
+    {
+      "url": "https://lastwar.wiki/wp-content/uploads/2024/12/premium-skill-chip-material-300x300.webp",
+      "alt": "Premium Chip Material",
+      "kind": "page_image",
+      "source_url": "https://lastwar.wiki/events/alliance-duel-vs/"
+    },
+    {
+      "url": "https://lastwar.wiki/wp-content/uploads/2024/12/luxury-choice-chest-300x284.webp",
+      "alt": "Luxury Choice Chest Last War Survival",
+      "kind": "page_image",
+      "source_url": "https://lastwar.wiki/events/alliance-duel-vs/"
+    },
+    {
+      "url": "https://lastwar.wiki/wp-content/uploads/2024/10/ammo-bonanza-event-295x300.webp",
+      "alt": "Ammo Bonanza Event Last War Survival",
+      "kind": "page_image",
+      "source_url": "https://lastwar.wiki/category/events/"
+    },
+    {
+      "url": "https://lastwar.wiki/wp-content/uploads/2024/10/event-hub-fixed-last-war-survival.webp",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://lastwar.wiki/buildings/event-hub/"
+    },
+    {
+      "url": "https://lastwar.wiki/wp-content/uploads/2024/10/event-hub-fixed-last-war-survival-300x276.webp",
+      "alt": "Event Hub Last War Survival",
+      "kind": "page_image",
+      "source_url": "https://lastwar.wiki/buildings/event-hub/"
+    },
+    {
+      "url": "https://lastwar.wiki/wp-content/uploads/2024/10/events-tab-in-event-hub-last-war-survival-1.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://lastwar.wiki/buildings/event-hub/"
+    },
+    {
+      "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-center-last-war-survival.webp",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://lastwar.wiki/buildings/alliance-center/#comment-41"
+    },
+    {
+      "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-center-last-war-survival-262x300.webp",
+      "alt": "Alliance Center Last War Survival",
+      "kind": "page_image",
+      "source_url": "https://lastwar.wiki/buildings/alliance-center/#comment-41"
+    },
+    {
+      "url": "https://lastwar.wiki/wp-content/uploads/2024/09/iron-last-war-survival-game.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://lastwar.wiki/buildings/alliance-center/#comment-41"
+    },
+    {
+      "url": "https://lastwar.wiki/wp-content/uploads/2024/09/food-last-war-survival-game.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://lastwar.wiki/buildings/alliance-center/#comment-41"
+    },
+    {
+      "url": "https://lastwar.wiki/wp-content/uploads/2024/09/coin-last-war-survival-game.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://lastwar.wiki/buildings/alliance-center/#comment-41"
+    }
+  ],
+  "collection_warnings": [
+    "Fetch failed: https://last-war-survival.fandom.com/wiki/Last_War:Survival_Wiki"
+  ]
+}

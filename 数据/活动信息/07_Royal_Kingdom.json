@@ -1,0 +1,32 @@
+{
+  "rank": 7,
+  "name": "Royal Kingdom",
+  "source_confidence": "medium",
+  "source_notes": null,
+  "collected_at": "2026-05-12T03:59:08.261Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Royal Kingdom Wiki",
+      "source_type": "fandom",
+      "source_url": "https://royal-kingdom.fandom.com/wiki/Royal_Kingdom_Wiki",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "source_title": "Dream Games - Royal Kingdom Events",
+      "source_type": "fandom",
+      "source_url": "https://royal-kingdom.fandom.com/wiki/Dream_Games",
+      "status": 403,
+      "error": "fetch_failed"
+    }
+  ],
+  "event_detail_pages": [],
+  "event_catalog": [],
+  "inferred_event_type_summary": [],
+  "screenshots_or_images": [],
+  "collection_warnings": [
+    "Fetch failed: https://royal-kingdom.fandom.com/wiki/Royal_Kingdom_Wiki",
+    "Fetch failed: https://royal-kingdom.fandom.com/wiki/Dream_Games"
+  ]
+}

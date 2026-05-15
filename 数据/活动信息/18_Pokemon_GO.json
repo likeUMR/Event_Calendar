@@ -1,0 +1,609 @@
+{
+  "rank": 18,
+  "name": "Pokémon GO",
+  "source_confidence": "high",
+  "source_notes": null,
+  "collected_at": "2026-05-12T04:00:13.196Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Pokémon GO Wiki - Events",
+      "source_type": "fandom",
+      "source_url": "https://pokemongo.fandom.com/wiki/Events",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "source_title": "Pokémon GO Official Events",
+      "source_type": "official",
+      "source_url": "https://pokemongo.com/events",
+      "fetched_url": "https://pokemongo.com/events",
+      "status": 200,
+      "page_title": "",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Please sign in with your Pokémon GO account to see Events",
+        "Pokémon GO is playable in English, French, German, Italian, Russian, Japanese, Spanish, Traditional Chinese, Korean, Thai, Brazillian Portuguese, Turkish, and Indonesian.",
+        "©Niantic ©Pokémon/Nintendo/Creatures/GAME FREAK TM, ®, and character names are trademarks of Nintendo. Apple, the Apple logo, and App Store are trademarks of Apple Inc. Google Play is a trademark of Google LLC. Basic gameplay is available at no cost. (Optional in-game purchases available.) Message to minors: Please get the permission of your parent or guardian before purchasing paid items."
+      ],
+      "inferred_event_types": [
+        "store_offer"
+      ],
+      "images": []
+    }
+  ],
+  "event_detail_pages": [
+    {
+      "source_title": "Events",
+      "source_type": "event_detail",
+      "source_url": "https://pokemongo.com/en/events",
+      "fetched_url": "https://pokemongo.com/en/events",
+      "status": 200,
+      "page_title": "",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Please sign in with your Pokémon GO account to see Events",
+        "Pokémon GO is playable in English, French, German, Italian, Russian, Japanese, Spanish, Traditional Chinese, Korean, Thai, Brazillian Portuguese, Turkish, and Indonesian.",
+        "©Niantic ©Pokémon/Nintendo/Creatures/GAME FREAK TM, ®, and character names are trademarks of Nintendo. Apple, the Apple logo, and App Store are trademarks of Apple Inc. Google Play is a trademark of Google LLC. Basic gameplay is available at no cost. (Optional in-game purchases available.) Message to minors: Please get the permission of your parent or guardian before purchasing paid items."
+      ],
+      "inferred_event_types": [
+        "store_offer"
+      ],
+      "images": []
+    },
+    {
+      "source_title": "Seasons",
+      "source_type": "event_detail",
+      "source_url": "https://pokemongo.com/en/seasons",
+      "fetched_url": "https://pokemongo.com/en/seasons/memories-in-motion",
+      "status": 200,
+      "page_title": "Welcome to Pokémon GO: Memories in Motion",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Pokémon GO weekend events will move to Saturdays, local time.",
+        "Pokémon GO events will move away from paid tickets to event GO Passes.",
+        "Later this Season, Trainers will have access to an in-game event calendar with the latest information.",
+        "2× GO Points from Pass Tasks for both monthly and event GO Passes.",
+        "Max Battles will rotate to feature different Dynamax Pokémon.",
+        "Raid Bosses for five-star raids and Mega Raids will rotate at the start of the day each week.",
+        "Raid Hours will continue to feature the five-star Raid Boss between 6:00 p.m. and 7:00 p.m. local time.",
+        "Up to 4× Stardust from win rewards. (This does not include end-of-set rewards.)",
+        "The maximum number of sets you can play per day will increase from five to 10—for a total of 50 battles.",
+        "Up to two Special Trades on Friday.",
+        "Get up and GO! Download Today News Seasons Events Map Community LEADERBOARD Web Store In-Person Tickets Code Redemption Reward Road Support English Deutsch Español Español (México) Français हिन्दी Bahasa Indonesia Italiano Polski Português 日本語 한국어 ไทย Türkçe 中文 Terms of Service Privacy Policy Copyright Policy Pokémon GO is playable in English, French, German, Italian, Japanese, Spanish, Latin American Spanish, Traditional Chinese, Korean, Thai, Brazillian Portuguese, Turkish, Hindi, and Indonesian."
+      ],
+      "inferred_event_types": [
+        "battle_pass",
+        "collection_album",
+        "tournament_competition",
+        "seasonal_festival",
+        "pve_boss",
+        "pvp_war",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "https://lh3.googleusercontent.com/3nt5OyLc7e22UbQei9iOXl_tsgb9434fD7Cxrk0Ae_lw3KEI97H3EMgs7PKDKXtjGUOlFbF6Dn_8zMRn_XhVeMWxUIANCnHzTng",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/3TSaKxXGo2wT0lu0AyNUBnkk6wkCC2AzOhJyy3JXIPm-AmZ1k9DSAroWeBUyePswCZSs5lVp3mPF7HzUpY9VPlyOV5eddITONINr3WSqLNLm=e365-w512",
+          "alt": "Pokémon GO",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/vux5c-AQTr_0Qd-NN5-k_-pds6QCeZe9xzpYYn_0B7ZrFhLs77mqdVzGLwVqVlW0htEKtiOXFnhN64RaZaKGTHAXwP2-dG-_W-XY=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/HXhyx7ZFTAHTMO6-Kj6OYq25bRUnfPRVsds6w0Ol9ZaFqm74lYwnrILDJYWm668Ziz1wHBzm5zMeGycy2xKRs6UzABh_kSgG4w=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/w92fOiSnlVdZmBkgL-B1tqnij7c2tH8EJuuP7ZF5cQM2yFACmwKhqPV3R2K8A2UCjJWylB3a5RyXqWxcT-v-MFN3BNDph5BiAVoI=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/3TSaKxXGo2wT0lu0AyNUBnkk6wkCC2AzOhJyy3JXIPm-AmZ1k9DSAroWeBUyePswCZSs5lVp3mPF7HzUpY9VPlyOV5eddITONINr3WSqLNLm=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://storage.googleapis.com/nianticweb-media/badges/google-play-badges/googleplay_en.png",
+          "alt": "Download on Google Play",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://storage.googleapis.com/nianticweb-media/badges/galaxy-badges/GalaxyStore_en.png",
+          "alt": "Download on Samsung Galaxy Store",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/JqrZDO-A8YDndFtcpw7VIF6DucQ3xIsLtV_7menSOFJBin9Ons0QmdRA5KSN3yJ9Mi3ugksiOmrGgnIAcnIUF4XbCPhTW3QrSg=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/RopFIzPu_9_zhSHr61c1pYBXmP92_zZOPHcA4CbW-G0zHCCMiOYHSlWK0qCK837loyDfUCZwR4wi8JYEp1g2a3XZs2CDi3GQar4=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Featured In-Person Events",
+      "source_type": "event_detail",
+      "source_url": "https://pokemongo.com/en/featured-in-person-events",
+      "fetched_url": "https://pokemongo.com/en/featured-in-person-events",
+      "status": 200,
+      "page_title": "Events",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "©Niantic ©Pokémon/Nintendo/Creatures/GAME FREAK TM, ®, and character names are trademarks of Nintendo. Apple, the Apple logo, and App Store are trademarks of Apple Inc. Google Play is a trademark of Google LLC. Basic gameplay is available at no cost. (Optional in-game purchases available.) Message to minors: Please get the permission of your parent or guardian before purchasing paid items. During gameplay, please be aware of your surroundings and play safely."
+      ],
+      "inferred_event_types": [
+        "pvp_war",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "https://lh3.googleusercontent.com/IPj1UZVD_Pu1txMymYI-u8ZIrHhwcZ4jrP6tR0Z7_skB67a4bYd6JtF7aMorC_D0cxUQjPmH2bMD698we75qYRdyMJuC5Gls=s0",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/3TSaKxXGo2wT0lu0AyNUBnkk6wkCC2AzOhJyy3JXIPm-AmZ1k9DSAroWeBUyePswCZSs5lVp3mPF7HzUpY9VPlyOV5eddITONINr3WSqLNLm=e365-w512",
+          "alt": "Pokémon GO",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/w_3pfwE1K3ik33KOwmnf4WOYoUy1zMh7WzCvGPOUt3zl8X7UEFtYT6COzIsnalyvQsCLT7s9wp2T__FClfxGG6Y81turDQK1ECM=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/9-yPqi2_eic-BNur7-agJXfhWEYJ6zDA-bjS0e_oz12kcrni9VA_9Kbc4Oh0TQ_cu1GRYhDAC6yQqVzAqhPJfBy2zrEyN3-K5sUL=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/eJCMrIOAYA350_kuJxGTkVt7MxLZ4z81CAlab6p34bCzkGhNN9TRz5dafXju9GLEYQK7lqM5e13FZIL19B-OALlILXmLjSZEPe41=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/IYdt9lsXgf4oe24ASr6D6IzQre41JQ4_ZUbIkMJDywD_uFP_ql22JpEEQ_RlX3yUPzuQWn3mNQbwvJ58JQTto6PrNXvDO20vVg=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/lDfrVKg40TqaA_bhWpaY7PAyRivP2QsV6RYAxSSzkoQUG-EfM18yVPydCkwcR1ciHnVCyE4pys3on96bxjDw9_cXllsXndRbz4aN=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/weQ9C0BfxjscsYyp09sM-GOBwuNTtbfveFBNceI8Q5NNTS7YRdXhTeDY5Rl8mubaPkzjj6rE3pWcFnY6NLeMr1Cyh6cYseavTvbpFD04PBGt=s0-e365",
+          "alt": "The Pokémon Company",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Reward Road",
+      "source_type": "event_detail",
+      "source_url": "https://pokemongo.com/en/reward-road",
+      "fetched_url": "https://pokemongo.com/en/reward-road",
+      "status": 200,
+      "page_title": "Reward Road — Pokémon GO",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "GO Fest News Seasons Events All Events Featured In-Person Events Map Community LEADERBOARD Shop Web Store In-Person Tickets Code Redemption Reward Road GO Fest News Seasons Events All Events Featured In-Person Events Map Community LEADERBOARD Shop Web Store In-Person Tickets Code Redemption Reward Road English Deutsch Español Español (México) Français हिन्दी Bahasa Indonesia Italiano Polski Português 日本語 한국어 Русский ไทย Türkçe 中文 Reward Road The Reward Road is a monthly reward program where Trainers can earn Reward Points with eligible purchases on the Pokémon GO Web Store or in-game shop.*",
+        "Earn a certain amount of Reward Points to increase the Reward Road level and unlock rewards!**",
+        "May Reward Road May 1 at 0:00 UTC to May 31 at 23:59 UTC",
+        "Premium Battle Pass 225 pts Star Piece 750 pts Egg Incubator How to Earn and Claim Rewards 1 Make an eligible purchase on the Pokémon GO Web Store or in-game shop to earn Reward Points. You can earn twice as many Reward Points when you shop on the Pokémon GO Web Store!*",
+        "Earn Reward Points to level up the Reward Road and unlock rewards.",
+        "Visit the Pokémon GO Web Store to claim unlocked rewards!***",
+        "Don’t forget, Trainers! You get double the Reward Points on eligible purchases when you shop on the Pokémon GO Web Store!"
+      ],
+      "inferred_event_types": [
+        "battle_pass",
+        "tournament_competition",
+        "seasonal_festival",
+        "pvp_war",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "https://lh3.googleusercontent.com/IPj1UZVD_Pu1txMymYI-u8ZIrHhwcZ4jrP6tR0Z7_skB67a4bYd6JtF7aMorC_D0cxUQjPmH2bMD698we75qYRdyMJuC5Gls=s0",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/3TSaKxXGo2wT0lu0AyNUBnkk6wkCC2AzOhJyy3JXIPm-AmZ1k9DSAroWeBUyePswCZSs5lVp3mPF7HzUpY9VPlyOV5eddITONINr3WSqLNLm=e365-w512",
+          "alt": "Pokémon GO",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/4HLTkrTgzG9HvIeHWw4AO31cU6PCas1fHSkoGhPkQ_I0vnMKoUgcEGh7G98SomqKQdd0nz26IprFulzn8NG2svZT0ndVjmSvps4=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/usjh1TjgaGWCvzKHLfXSl0XpSZnyVM4fOJUwlgoF0yNpL6nnk8aOilKTOt1YSZuK4vTh9WYehDi9D5_HjW4v4pCPPr5hM-O_gpE_=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/2OTtemD8aaygMA3afpoyzNI5NkVq0EjHEdTJXPYOj0T_My0Q5NUvE_7_g51rUe6xW0cbDZCLb0zRNTTqVpYf1dfWmu07rfc4uA=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/SAJefefFzwwMl2Kom4orU11AmcxrzYv_ZCJSi2X35a_VXsdJxW8CwEy2c9alCdFB175NJT-5xqocm-G8pFqHuJEeIkCy-pBkrAcC=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/5xrSGljQquOftBV6W09i_2K6PNIOrAWts6r5ccQzv3At9kHsBGuztleiwMiqH121ahYC9NtkfwcwyVl6RwtQcQ9KQ-R-v91Cc0w=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/BFP4e084yyoODsgmygSXUHCXZUCdatx49PJOPTl0sVJKpAP1VAAZIGwxYe-Ssfxdg68N08BYO2tMxd9S4zgOWL8qpJ62vdxrauIW=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/sIdlYxbe-eiPbINXRKPaJY7WLN77ejAdMUND756kW6rVy3FNmAwYHRdg1Sn8Vi_m6V-NFb6KHo25uVMa_VkMwC2uIHpnlICZGpU=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/tbm91PT_mz2n92S7sMMvr-pur7QKvEdKIJgnCeS4RFsqkFR0u-98J45qh4RyM6bOJNbaDtOU5nC4PL8DjQckzl-DtMqgv3MQwfI4=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/8RnsfVK3loHONlkD3g-2uyBQfCTzGAeMFNvcAIJLV9xRn9QOwy_YKjgGlEaccqkZfjlEonppKi996CFgy4GTouzB8OHfXXr8bQ=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "In-Person Tickets",
+      "source_type": "event_detail",
+      "source_url": "https://store.pokemongo.com/api/redirect/event-ticketing?lang=en",
+      "fetched_url": "https://tickets.nianticlabs.com/events/?appId=pgo&wst=&lang=en",
+      "status": 200,
+      "page_title": "Niantic - Events",
+      "meta_description": "",
+      "relevant_text_blocks": [],
+      "inferred_event_types": [],
+      "images": []
+    }
+  ],
+  "event_catalog": [
+    {
+      "title": "Events",
+      "url": "https://pokemongo.com/en/events",
+      "discovered_from": "https://pokemongo.com/events",
+      "description": "Please sign in with your Pokémon GO account to see Events",
+      "inferred_event_types": [
+        "store_offer"
+      ],
+      "images": []
+    },
+    {
+      "title": "Welcome to Pokémon GO: Memories in Motion",
+      "url": "https://pokemongo.com/en/seasons",
+      "discovered_from": "https://pokemongo.com/events",
+      "description": "Pokémon GO weekend events will move to Saturdays, local time.",
+      "inferred_event_types": [
+        "battle_pass",
+        "collection_album",
+        "tournament_competition",
+        "seasonal_festival",
+        "pve_boss",
+        "pvp_war",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "https://lh3.googleusercontent.com/3nt5OyLc7e22UbQei9iOXl_tsgb9434fD7Cxrk0Ae_lw3KEI97H3EMgs7PKDKXtjGUOlFbF6Dn_8zMRn_XhVeMWxUIANCnHzTng",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/3TSaKxXGo2wT0lu0AyNUBnkk6wkCC2AzOhJyy3JXIPm-AmZ1k9DSAroWeBUyePswCZSs5lVp3mPF7HzUpY9VPlyOV5eddITONINr3WSqLNLm=e365-w512",
+          "alt": "Pokémon GO",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/vux5c-AQTr_0Qd-NN5-k_-pds6QCeZe9xzpYYn_0B7ZrFhLs77mqdVzGLwVqVlW0htEKtiOXFnhN64RaZaKGTHAXwP2-dG-_W-XY=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/HXhyx7ZFTAHTMO6-Kj6OYq25bRUnfPRVsds6w0Ol9ZaFqm74lYwnrILDJYWm668Ziz1wHBzm5zMeGycy2xKRs6UzABh_kSgG4w=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/w92fOiSnlVdZmBkgL-B1tqnij7c2tH8EJuuP7ZF5cQM2yFACmwKhqPV3R2K8A2UCjJWylB3a5RyXqWxcT-v-MFN3BNDph5BiAVoI=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/3TSaKxXGo2wT0lu0AyNUBnkk6wkCC2AzOhJyy3JXIPm-AmZ1k9DSAroWeBUyePswCZSs5lVp3mPF7HzUpY9VPlyOV5eddITONINr3WSqLNLm=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Events",
+      "url": "https://pokemongo.com/en/featured-in-person-events",
+      "discovered_from": "https://pokemongo.com/events",
+      "description": "©Niantic ©Pokémon/Nintendo/Creatures/GAME FREAK TM, ®, and character names are trademarks of Nintendo. Apple, the Apple logo, and App Store are trademarks of Apple Inc. Google Play is a trademark of Google LLC. Basic gameplay is available at no cost. (Optional in-game purchases available.) Message to minors: Please get the permission of your parent or guardian before purchasing paid items. During gameplay, please be aware of your surroundings and play safely.",
+      "inferred_event_types": [
+        "pvp_war",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "https://lh3.googleusercontent.com/IPj1UZVD_Pu1txMymYI-u8ZIrHhwcZ4jrP6tR0Z7_skB67a4bYd6JtF7aMorC_D0cxUQjPmH2bMD698we75qYRdyMJuC5Gls=s0",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/3TSaKxXGo2wT0lu0AyNUBnkk6wkCC2AzOhJyy3JXIPm-AmZ1k9DSAroWeBUyePswCZSs5lVp3mPF7HzUpY9VPlyOV5eddITONINr3WSqLNLm=e365-w512",
+          "alt": "Pokémon GO",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/w_3pfwE1K3ik33KOwmnf4WOYoUy1zMh7WzCvGPOUt3zl8X7UEFtYT6COzIsnalyvQsCLT7s9wp2T__FClfxGG6Y81turDQK1ECM=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/9-yPqi2_eic-BNur7-agJXfhWEYJ6zDA-bjS0e_oz12kcrni9VA_9Kbc4Oh0TQ_cu1GRYhDAC6yQqVzAqhPJfBy2zrEyN3-K5sUL=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/eJCMrIOAYA350_kuJxGTkVt7MxLZ4z81CAlab6p34bCzkGhNN9TRz5dafXju9GLEYQK7lqM5e13FZIL19B-OALlILXmLjSZEPe41=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/IYdt9lsXgf4oe24ASr6D6IzQre41JQ4_ZUbIkMJDywD_uFP_ql22JpEEQ_RlX3yUPzuQWn3mNQbwvJ58JQTto6PrNXvDO20vVg=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Reward Road — Pokémon GO",
+      "url": "https://pokemongo.com/en/reward-road",
+      "discovered_from": "https://pokemongo.com/events",
+      "description": "GO Fest News Seasons Events All Events Featured In-Person Events Map Community LEADERBOARD Shop Web Store In-Person Tickets Code Redemption Reward Road GO Fest News Seasons Events All Events Featured In-Person Events Map Community LEADERBOARD Shop Web Store In-Person Tickets Code Redemption Reward Road English Deutsch Español Español (México) Français हिन्दी Bahasa Indonesia Italiano Polski Português 日本語 한국어 Русский ไทย Türkçe 中文 Reward Road The Reward Road is a monthly reward program where Trai",
+      "inferred_event_types": [
+        "battle_pass",
+        "tournament_competition",
+        "seasonal_festival",
+        "pvp_war",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "https://lh3.googleusercontent.com/IPj1UZVD_Pu1txMymYI-u8ZIrHhwcZ4jrP6tR0Z7_skB67a4bYd6JtF7aMorC_D0cxUQjPmH2bMD698we75qYRdyMJuC5Gls=s0",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/3TSaKxXGo2wT0lu0AyNUBnkk6wkCC2AzOhJyy3JXIPm-AmZ1k9DSAroWeBUyePswCZSs5lVp3mPF7HzUpY9VPlyOV5eddITONINr3WSqLNLm=e365-w512",
+          "alt": "Pokémon GO",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/4HLTkrTgzG9HvIeHWw4AO31cU6PCas1fHSkoGhPkQ_I0vnMKoUgcEGh7G98SomqKQdd0nz26IprFulzn8NG2svZT0ndVjmSvps4=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/usjh1TjgaGWCvzKHLfXSl0XpSZnyVM4fOJUwlgoF0yNpL6nnk8aOilKTOt1YSZuK4vTh9WYehDi9D5_HjW4v4pCPPr5hM-O_gpE_=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/2OTtemD8aaygMA3afpoyzNI5NkVq0EjHEdTJXPYOj0T_My0Q5NUvE_7_g51rUe6xW0cbDZCLb0zRNTTqVpYf1dfWmu07rfc4uA=s0-e365",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Niantic - Events",
+      "url": "https://store.pokemongo.com/api/redirect/event-ticketing?lang=en",
+      "discovered_from": "https://pokemongo.com/events",
+      "description": "",
+      "inferred_event_types": [],
+      "images": []
+    }
+  ],
+  "inferred_event_type_summary": [
+    "battle_pass",
+    "collection_album",
+    "pve_boss",
+    "pvp_war",
+    "seasonal_festival",
+    "store_offer",
+    "tournament_competition"
+  ],
+  "screenshots_or_images": [
+    {
+      "url": "https://lh3.googleusercontent.com/3nt5OyLc7e22UbQei9iOXl_tsgb9434fD7Cxrk0Ae_lw3KEI97H3EMgs7PKDKXtjGUOlFbF6Dn_8zMRn_XhVeMWxUIANCnHzTng",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://pokemongo.com/en/seasons"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/3TSaKxXGo2wT0lu0AyNUBnkk6wkCC2AzOhJyy3JXIPm-AmZ1k9DSAroWeBUyePswCZSs5lVp3mPF7HzUpY9VPlyOV5eddITONINr3WSqLNLm=e365-w512",
+      "alt": "Pokémon GO",
+      "kind": "page_image",
+      "source_url": "https://pokemongo.com/en/seasons"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/vux5c-AQTr_0Qd-NN5-k_-pds6QCeZe9xzpYYn_0B7ZrFhLs77mqdVzGLwVqVlW0htEKtiOXFnhN64RaZaKGTHAXwP2-dG-_W-XY=s0-e365",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://pokemongo.com/en/seasons"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/HXhyx7ZFTAHTMO6-Kj6OYq25bRUnfPRVsds6w0Ol9ZaFqm74lYwnrILDJYWm668Ziz1wHBzm5zMeGycy2xKRs6UzABh_kSgG4w=s0-e365",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://pokemongo.com/en/seasons"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/w92fOiSnlVdZmBkgL-B1tqnij7c2tH8EJuuP7ZF5cQM2yFACmwKhqPV3R2K8A2UCjJWylB3a5RyXqWxcT-v-MFN3BNDph5BiAVoI=s0-e365",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://pokemongo.com/en/seasons"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/3TSaKxXGo2wT0lu0AyNUBnkk6wkCC2AzOhJyy3JXIPm-AmZ1k9DSAroWeBUyePswCZSs5lVp3mPF7HzUpY9VPlyOV5eddITONINr3WSqLNLm=s0-e365",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://pokemongo.com/en/seasons"
+    },
+    {
+      "url": "https://storage.googleapis.com/nianticweb-media/badges/google-play-badges/googleplay_en.png",
+      "alt": "Download on Google Play",
+      "kind": "page_image",
+      "source_url": "https://pokemongo.com/en/seasons"
+    },
+    {
+      "url": "https://storage.googleapis.com/nianticweb-media/badges/galaxy-badges/GalaxyStore_en.png",
+      "alt": "Download on Samsung Galaxy Store",
+      "kind": "page_image",
+      "source_url": "https://pokemongo.com/en/seasons"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/JqrZDO-A8YDndFtcpw7VIF6DucQ3xIsLtV_7menSOFJBin9Ons0QmdRA5KSN3yJ9Mi3ugksiOmrGgnIAcnIUF4XbCPhTW3QrSg=s0-e365",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://pokemongo.com/en/seasons"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/RopFIzPu_9_zhSHr61c1pYBXmP92_zZOPHcA4CbW-G0zHCCMiOYHSlWK0qCK837loyDfUCZwR4wi8JYEp1g2a3XZs2CDi3GQar4=s0-e365",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://pokemongo.com/en/seasons"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/IPj1UZVD_Pu1txMymYI-u8ZIrHhwcZ4jrP6tR0Z7_skB67a4bYd6JtF7aMorC_D0cxUQjPmH2bMD698we75qYRdyMJuC5Gls=s0",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://pokemongo.com/en/featured-in-person-events"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/w_3pfwE1K3ik33KOwmnf4WOYoUy1zMh7WzCvGPOUt3zl8X7UEFtYT6COzIsnalyvQsCLT7s9wp2T__FClfxGG6Y81turDQK1ECM=s0-e365",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://pokemongo.com/en/featured-in-person-events"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/9-yPqi2_eic-BNur7-agJXfhWEYJ6zDA-bjS0e_oz12kcrni9VA_9Kbc4Oh0TQ_cu1GRYhDAC6yQqVzAqhPJfBy2zrEyN3-K5sUL=s0-e365",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://pokemongo.com/en/featured-in-person-events"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/eJCMrIOAYA350_kuJxGTkVt7MxLZ4z81CAlab6p34bCzkGhNN9TRz5dafXju9GLEYQK7lqM5e13FZIL19B-OALlILXmLjSZEPe41=s0-e365",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://pokemongo.com/en/featured-in-person-events"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/IYdt9lsXgf4oe24ASr6D6IzQre41JQ4_ZUbIkMJDywD_uFP_ql22JpEEQ_RlX3yUPzuQWn3mNQbwvJ58JQTto6PrNXvDO20vVg=s0-e365",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://pokemongo.com/en/featured-in-person-events"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/lDfrVKg40TqaA_bhWpaY7PAyRivP2QsV6RYAxSSzkoQUG-EfM18yVPydCkwcR1ciHnVCyE4pys3on96bxjDw9_cXllsXndRbz4aN=s0-e365",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://pokemongo.com/en/featured-in-person-events"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/weQ9C0BfxjscsYyp09sM-GOBwuNTtbfveFBNceI8Q5NNTS7YRdXhTeDY5Rl8mubaPkzjj6rE3pWcFnY6NLeMr1Cyh6cYseavTvbpFD04PBGt=s0-e365",
+      "alt": "The Pokémon Company",
+      "kind": "page_image",
+      "source_url": "https://pokemongo.com/en/featured-in-person-events"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/4HLTkrTgzG9HvIeHWw4AO31cU6PCas1fHSkoGhPkQ_I0vnMKoUgcEGh7G98SomqKQdd0nz26IprFulzn8NG2svZT0ndVjmSvps4=s0-e365",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://pokemongo.com/en/reward-road"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/usjh1TjgaGWCvzKHLfXSl0XpSZnyVM4fOJUwlgoF0yNpL6nnk8aOilKTOt1YSZuK4vTh9WYehDi9D5_HjW4v4pCPPr5hM-O_gpE_=s0-e365",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://pokemongo.com/en/reward-road"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/2OTtemD8aaygMA3afpoyzNI5NkVq0EjHEdTJXPYOj0T_My0Q5NUvE_7_g51rUe6xW0cbDZCLb0zRNTTqVpYf1dfWmu07rfc4uA=s0-e365",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://pokemongo.com/en/reward-road"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/SAJefefFzwwMl2Kom4orU11AmcxrzYv_ZCJSi2X35a_VXsdJxW8CwEy2c9alCdFB175NJT-5xqocm-G8pFqHuJEeIkCy-pBkrAcC=s0-e365",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://pokemongo.com/en/reward-road"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/5xrSGljQquOftBV6W09i_2K6PNIOrAWts6r5ccQzv3At9kHsBGuztleiwMiqH121ahYC9NtkfwcwyVl6RwtQcQ9KQ-R-v91Cc0w=s0-e365",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://pokemongo.com/en/reward-road"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/BFP4e084yyoODsgmygSXUHCXZUCdatx49PJOPTl0sVJKpAP1VAAZIGwxYe-Ssfxdg68N08BYO2tMxd9S4zgOWL8qpJ62vdxrauIW=s0-e365",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://pokemongo.com/en/reward-road"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/sIdlYxbe-eiPbINXRKPaJY7WLN77ejAdMUND756kW6rVy3FNmAwYHRdg1Sn8Vi_m6V-NFb6KHo25uVMa_VkMwC2uIHpnlICZGpU=s0-e365",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://pokemongo.com/en/reward-road"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/tbm91PT_mz2n92S7sMMvr-pur7QKvEdKIJgnCeS4RFsqkFR0u-98J45qh4RyM6bOJNbaDtOU5nC4PL8DjQckzl-DtMqgv3MQwfI4=s0-e365",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://pokemongo.com/en/reward-road"
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/8RnsfVK3loHONlkD3g-2uyBQfCTzGAeMFNvcAIJLV9xRn9QOwy_YKjgGlEaccqkZfjlEonppKi996CFgy4GTouzB8OHfXXr8bQ=s0-e365",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://pokemongo.com/en/reward-road"
+    }
+  ],
+  "collection_warnings": [
+    "Fetch failed: https://pokemongo.fandom.com/wiki/Events"
+  ]
+}

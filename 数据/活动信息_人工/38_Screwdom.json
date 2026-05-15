@@ -1,0 +1,1338 @@
+{
+  "rank": 38,
+  "name": "Screwdom",
+  "manual_research_status": "done_first_pass_low_confidence",
+  "research_method": "人工搜索 Screwdom / Screwdom 3D / Screwdom Away，查看 Google Play、App Store 同名/改名页面和玩家评论。该品类同名污染明显，因此将 Google Play 的 Screwdom 3D 作为主来源，App Store 同 app id/旧索引信息只作为活动名线索。",
+  "source_pages": [
+    {
+      "title": "Google Play - Screwdom 3D",
+      "url": "https://play.google.com/store/apps/details?id=com.ig.screwdom&hl=en",
+      "notes": "确认 iKame Games - Zego Studio 的 Screwdom 3D，核心玩法是把不同颜色 screw / pin / bolts 移入对应盒子，无时间限制，持续更新 new levels、models、improvements。"
+    },
+    {
+      "title": "App Store - Screw Sort Jam / formerly indexed as Screwdom Away",
+      "url": "https://apps.apple.com/us/app/screwdom-away-screw-master-3d/id6446284100",
+      "notes": "搜索结果和旧 URL 指向 Screwdom Away，但打开后标题显示 Screw Sort Jam - Pin Puzzle 3D；玩家评论明确提到 events like Brawl and Tournament、bonus events like ladder / gems / dice、daily challenge、weekly achievements。因标题变动，作为低信心补充来源。"
+    },
+    {
+      "title": "Playbite - Screwdom Daily Challenges Q&A",
+      "url": "https://www.playbite.com/q/how-to-get-more-free-rewards-from-the-daily-challenges-of-screwdom",
+      "notes": "第三方问答页面确认 Screwdom 玩家会讨论 daily challenge、lucky spin、mystery box、daily spin 等免费奖励问题；可信度低于商店页。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "core_level_progression",
+      "display_name": "Core Level Progression / 主线关卡推进",
+      "description": "Google Play 明确描述玩家按颜色拆解、移动和排序 screws，解锁更多 levels；没有时间限制，重点是不断增加模型和难度。",
+      "examples": [
+        "hundreds of levels",
+        "houses",
+        "ducks",
+        "cubes",
+        "new models"
+      ],
+      "market_research_notes": "Screwdom 的基础留存主要来自关卡和模型更新；活动资料稀缺时，应把关卡更新作为运营节奏记录。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/yX8Su2MZBiU/maxresdefault.jpg",
+          "caption": "Screwdom 3D Levels 11-20 Gameplay - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=yX8Su2MZBiU",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+core+level+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom core level progression",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:26:40.336713+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:03.986387+00:00",
+            "load_time_ms": 425,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/yX8Su2MZBiU/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了游戏的实际主线关卡玩法界面，包含螺丝模型、道具栏、关卡进度等 UI。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:18.333918+00:00"
+          }
+        },
+        {
+          "url": "http://static1.squarespace.com/static/6983d2b9cde8d50f1d1674c7/699510657f24c6220ff3e0ec/69a73475c2d16f4a454e87ac/1772566284614/image-asset.png?format=1500w",
+          "caption": "The Screw Puzzle Gold Rush ...",
+          "source_url": "https://www.deconstructoroffun.com/blog/the-screw-puzzle-gold-rush",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+core+level+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom core level progression",
+          "width": 199,
+          "height": 253,
+          "aspect_ratio": 0.7866,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:26:40.336713+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:05.468618+00:00",
+            "load_time_ms": 1477,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 300,
+            "natural_height": 200,
+            "content_type": "image/webp",
+            "current_src": "http://static1.squarespace.com/static/6983d2b9cde8d50f1d1674c7/699510657f24c6220ff3e0ec/69a73475c2d16f4a454e87ac/1772566284614/image-asset.png?format=1500w"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "属于游戏的宣传海报图，带有标题文字，无实际可操作的玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:18.333918+00:00"
+          }
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1d6e6270-675b-4d21-aed5-cc25bed8f75b/image+(3).webp",
+          "caption": "The Screw Puzzle Gold Rush ...",
+          "source_url": "https://www.deconstructoroffun.com/blog/the-screw-puzzle-gold-rush",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+core+level+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom core level progression",
+          "width": 203,
+          "height": 248,
+          "aspect_ratio": 0.8185,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:26:40.336713+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:05.650705+00:00",
+            "load_time_ms": 176,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 565,
+            "natural_height": 690,
+            "content_type": "image/webp",
+            "current_src": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1d6e6270-675b-4d21-aed5-cc25bed8f75b/image+(3).webp"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "明确展示了第 41 关的实际玩法界面，并带有对主线关卡元素的引导分析。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:18.333918+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/zRcKNc_YtD4/maxresdefault.jpg",
+          "caption": "Screw Game Level 100 Guide - Screwdom ...",
+          "source_url": "https://screwdom.org/en/all-level-walkthrough/100",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+core+level+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom core level progression",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:26:40.336713+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:06.082243+00:00",
+            "load_time_ms": 427,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/zRcKNc_YtD4/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "这是 Youtube 的视频封面图，虽包含关卡信息，但属于合成宣传图而非原生截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:18.333918+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/xU-CgPG1l6U/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDWVwE-Gap1l2dSNp09UGo0ryEyPA",
+          "caption": "Screwdom 3D All Levels Game Walkthrough ...",
+          "source_url": "https://www.youtube.com/watch?v=xU-CgPG1l6U",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+core+level+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom core level progression",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:26:40.336713+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:06.472826+00:00",
+            "load_time_ms": 386,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/xU-CgPG1l6U/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDWVwE-Gap1l2dSNp09UGo0ryEyPA"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了多个不同关卡的模型截图，直接反映了主线关卡的推进和模型多样性。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:18.333918+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "new_levels_and_models",
+      "display_name": "New Levels / Models / 新关卡与模型",
+      "description": "Google Play 写到 continuously updating new levels, models, and improvements；App Store 版本历史也反复出现 New levels added。",
+      "examples": [
+        "new levels",
+        "new models",
+        "glass dome variants"
+      ],
+      "market_research_notes": "对 screw puzzle 来说，新 3D 模型就是内容更新，也是广告投放素材的重要来源。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/xU-CgPG1l6U/maxresdefault.jpg",
+          "caption": "Screwdom 3D All Levels Game Walkthrough ...",
+          "source_url": "https://www.youtube.com/watch?v=xU-CgPG1l6U",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+new+levels+and+models",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom new levels and models",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:27:16.549262+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:06.864169+00:00",
+            "load_time_ms": 386,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/xU-CgPG1l6U/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了多个不同的3D模型及其对应的解谜关卡界面，属于新关卡与模型的玩法展示。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:21.699818+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/lrGM85RjRRh4pax0P6JbDVzXF7XeJA9PSMTpRujqqDhVgiOSInZ1l3sg0uBURw9INs8",
+          "caption": "Screwdom 3D - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ig.screwdom",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+new+levels+and+models",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom new levels and models",
+          "width": 166,
+          "height": 296,
+          "aspect_ratio": 0.5608,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:27:16.549262+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:07.107481+00:00",
+            "load_time_ms": 238,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/jpeg",
+            "current_src": "https://play-lh.googleusercontent.com/lrGM85RjRRh4pax0P6JbDVzXF7XeJA9PSMTpRujqqDhVgiOSInZ1l3sg0uBURw9INs8"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片为游戏图标或通用模型素材，属于游戏相关但不能确认特定版本更新。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:21.699818+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/utjc7gLnzZk/maxresdefault.jpg",
+          "caption": "Screwdom 3D - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ig.screwdom",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+new+levels+and+models",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom new levels and models",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:27:16.549262+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:07.481371+00:00",
+            "load_time_ms": 369,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/utjc7gLnzZk/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "带有'9000+ Level'字样的宣传图，用于展示内容丰富度，虽包含UI元素但整体偏向海报。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:21.699818+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/6eu8t1awu8IBz8QmBU953vlJYqmVAa1TrkWGk44bkHnkmW-r1iGVlyB9GMY6_KJngTg=w526-h296-rw",
+          "caption": "Screwdom 3D Game Update with New Levels",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ig.screwdom",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+new+levels+and+models",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom new levels and models",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:27:16.549262+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:07.647908+00:00",
+            "load_time_ms": 161,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 166,
+            "natural_height": 296,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/6eu8t1awu8IBz8QmBU953vlJYqmVAa1TrkWGk44bkHnkmW-r1iGVlyB9GMY6_KJngTg=w526-h296-rw"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.8,
+            "reason": "典型的商店预览宣传图，包含操作引导手势和文字说明，用于展示新模型特色。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:21.699818+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "daily_challenge",
+      "display_name": "Daily Challenge / 每日挑战",
+      "description": "App Store 玩家评论提到 daily challenge 会发放 powerups；第三方问答也围绕 daily challenges 的免费奖励展开。公开官方规则缺失，因此标记为低信心确认。",
+      "examples": [
+        "Daily Challenge"
+      ],
+      "market_research_notes": "日活入口，可能与道具奖励、金币、广告观看和失败恢复相关；需要真机确认挑战是否独立于主线关卡。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/xU-CgPG1l6U/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDWVwE-Gap1l2dSNp09UGo0ryEyPA",
+          "caption": "Screwdom 3D All Levels Game Walkthrough ...",
+          "source_url": "https://www.youtube.com/watch?v=xU-CgPG1l6U",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+daily+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom daily challenge",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:28:12.802361+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:06.472826+00:00",
+            "load_time_ms": 386,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/xU-CgPG1l6U/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDWVwE-Gap1l2dSNp09UGo0ryEyPA"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "图片展示了游戏的多种关卡模型，属于游戏内截图，但无法确认是否属于特定的‘每日挑战’活动，更像是通用的游戏玩法展示。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:25.262919+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/utjc7gLnzZk/maxresdefault.jpg",
+          "caption": "daily challenge rewards in Screwdom 3D ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ig.screwdom",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+daily+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom daily challenge",
+          "width": 194,
+          "height": 259,
+          "aspect_ratio": 0.749,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:28:12.802361+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:07.481371+00:00",
+            "load_time_ms": 369,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/utjc7gLnzZk/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.7,
+            "reason": "虽然标题提到daily challenge rewards，但图片内容展示的是普通的数字关卡（9000+ Level）宣传图，并非每日挑战的特有界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:25.262919+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/U0-7lA24SFMYKrYlSuTAiXqn06dZXBtnkvXRzT9b7gRZ1Z0v95M4YqgI0Eiz3aIMzBg=w240-h480-rw",
+          "caption": "Screwdom - Win Cash - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.moyo.hitnails",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+daily+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom daily challenge",
+          "width": 240,
+          "height": 480,
+          "aspect_ratio": 0.5,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:28:12.802361+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:07.852683+00:00",
+            "load_time_ms": 197,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 240,
+            "natural_height": 240,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/U0-7lA24SFMYKrYlSuTAiXqn06dZXBtnkvXRzT9b7gRZ1Z0v95M4YqgI0Eiz3aIMzBg=w240-h480-rw"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.9,
+            "reason": "该图对应的App ID为com.moyo.hitnails，且带有Win Cash等网赚类元素，与Screwdom游戏不符。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:25.262919+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/3t8gv5f8epM/maxresdefault.jpg",
+          "caption": "Screwdom 3D - Apps on Google Play",
+          "source_url": "https://www.youtube.com/watch?v=3t8gv5f8epM",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+daily+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom daily challenge",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:28:12.802361+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:08.245824+00:00",
+            "load_time_ms": 387,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/3t8gv5f8epM/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "典型的游戏宣传KV或视频封面，展示了角色模型和游戏标题，与特定活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:25.262919+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "weekly_achievements",
+      "display_name": "Weekly Achievements / 周成就",
+      "description": "App Store 玩家评论提到 weekly achievements 可获得 powerups。未找到官方帮助页说明任务列表和重置周期。",
+      "examples": [
+        "Weekly Achievements"
+      ],
+      "market_research_notes": "周目标可补足每日挑战之外的中周期留存，适合后续记录任务数量、奖励和付费引导。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/ZVvbEV-LzlI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA3P_1zcZHB8l8BdoYZ_VZ4cHnUUw",
+          "caption": "Screwdom 3D iKame Games (@ikamegames ...",
+          "source_url": "https://www.youtube.com/watch?v=ZVvbEV-LzlI",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+weekly+achievements",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom weekly achievements",
+          "width": 201,
+          "height": 251,
+          "aspect_ratio": 0.8008,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:29:08.900566+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:08.609640+00:00",
+            "load_time_ms": 359,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/ZVvbEV-LzlI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA3P_1zcZHB8l8BdoYZ_VZ4cHnUUw"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "包含游戏Logo和关卡攻略标题，属于通用品牌宣传图，与周成就活动无直接关系。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:29.274866+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/xU-CgPG1l6U/maxresdefault.jpg",
+          "caption": "Screwdom 3D All Levels Game Walkthrough ...",
+          "source_url": "https://www.youtube.com/watch?v=xU-CgPG1l6U",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+weekly+achievements",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom weekly achievements",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:29:08.900566+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:06.864169+00:00",
+            "load_time_ms": 386,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/xU-CgPG1l6U/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示了游戏的常规关卡模型和核心玩法，无法确认与周成就活动的关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:29.274866+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/xU-CgPG1l6U/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDWVwE-Gap1l2dSNp09UGo0ryEyPA",
+          "caption": "Halloween-themed cards ...",
+          "source_url": "https://www.youtube.com/watch?v=xU-CgPG1l6U",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+weekly+achievements",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom weekly achievements",
+          "width": 201,
+          "height": 251,
+          "aspect_ratio": 0.8008,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:29:08.900566+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:06.472826+00:00",
+            "load_time_ms": 386,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/xU-CgPG1l6U/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDWVwE-Gap1l2dSNp09UGo0ryEyPA"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "同图2，展示的是游戏核心玩法和关卡内容，未体现周成就系统。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:29.274866+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/did-anyone-else-get-the-new-screwdom-quest-v0-c049bad3dw8f1.jpeg?auto=webp&s=2b1aa4983e3543b43347a4a68ad526b19279d074",
+          "caption": "screwdom",
+          "source_url": "https://www.reddit.com/r/screwdom/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+weekly+achievements",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom weekly achievements",
+          "width": 182,
+          "height": 277,
+          "aspect_ratio": 0.657,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:29:08.900566+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:08.926704+00:00",
+            "load_time_ms": 312,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 395,
+            "natural_height": 599,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/did-anyone-else-get-the-new-screwdom-quest-v0-c049bad3dw8f1.jpeg?auto=webp&s=2b1aa4983e3543b43347a4a68ad526b19279d074"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 1.0,
+            "reason": "准确展示了Weekly Quest（周任务）的实际界面，包含任务列表、进度条、奖励宝箱及重置倒计时。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:29.274866+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/the-screwdom-3d-ad-v0-qub05h4urtme1.jpeg?auto=webp&s=154a98c369615d5c56fcf195b27edd9e2c43a449",
+          "caption": "The Screwdom 3D ad : r/WordsWithFriends",
+          "source_url": "https://www.reddit.com/r/WordsWithFriends/comments/1j3xw56/the_screwdom_3d_ad/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+weekly+achievements",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom weekly achievements",
+          "width": 153,
+          "height": 329,
+          "aspect_ratio": 0.465,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:29:08.900566+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:09.255721+00:00",
+            "load_time_ms": 324,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 2316,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/the-screwdom-3d-ad-v0-qub05h4urtme1.jpeg?auto=webp&s=154a98c369615d5c56fcf195b27edd9e2c43a449"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "这是该游戏的广告素材截图，仅带有Play Now按钮，并无周成就活动信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:29.274866+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "brawl_and_tournament",
+      "display_name": "Brawl / Tournament / 竞技活动",
+      "description": "App Store 玩家评论直接提到 events like Brawl and Tournament 给额外挑战。因页面标题与榜单名称有改名/同名污染，作为低信心活动名记录。",
+      "examples": [
+        "Brawl",
+        "Tournament"
+      ],
+      "market_research_notes": "如果真机确认，这会是 Screwdom 的主要竞争活动入口，可能围绕通关速度、连续胜利或活动积分排名。",
+      "images": [
+        {
+          "url": "https://dl.memuplay.com/new_market/img/com.ig.screwdom.sc0.2025-02-11-17-51-10.jpg",
+          "caption": "Screwdom's Cup puzzle challenge",
+          "source_url": "https://www.memuplay.com/how-to-play-screwdom-3d-on-pc.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+brawl+and+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom brawl and tournament",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:29:58.951560+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:10.450189+00:00",
+            "load_time_ms": 1189,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 288,
+            "natural_height": 512,
+            "content_type": "image/jpeg",
+            "current_src": "https://dl.memuplay.com/new_market/img/com.ig.screwdom.sc0.2025-02-11-17-51-10.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片展示的是游戏Screwdom的基础解谜玩法，无法确认与Brawl或Tournament竞技活动有关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:33.765558+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/lrGM85RjRRh4pax0P6JbDVzXF7XeJA9PSMTpRujqqDhVgiOSInZ1l3sg0uBURw9INs8",
+          "caption": "Screwdom 3D | Download and Play on PC ...",
+          "source_url": "https://play.google.com/pc-store/games/details?id=com.ig.screwdom",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+brawl+and+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom brawl and tournament",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:29:58.951560+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:07.107481+00:00",
+            "load_time_ms": 238,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/jpeg",
+            "current_src": "https://play-lh.googleusercontent.com/lrGM85RjRRh4pax0P6JbDVzXF7XeJA9PSMTpRujqqDhVgiOSInZ1l3sg0uBURw9INs8"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片为游戏App图标或宣传素材，属于通用品牌图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:33.765558+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/euliz-diW7o/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCLKigEV0QXZaExwxgjNNdJUN5CoQ",
+          "caption": "Screwdom 3D Game Gameplay - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=euliz-diW7o",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+brawl+and+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom brawl and tournament",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:29:58.951560+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:10.829355+00:00",
+            "load_time_ms": 374,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/euliz-diW7o/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCLKigEV0QXZaExwxgjNNdJUN5CoQ"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片为常规关卡Gameplay截图，属于通用宣传图，未体现竞技活动特征。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:33.765558+00:00"
+          }
+        },
+        {
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/aa/d3/ed/aad3ed69-c701-bc5b-777a-1a3ad4fcea1f/1290x2796_7.jpg/460x0w.png",
+          "caption": "App Marketing Analytics ...",
+          "source_url": "https://foxdata.com/en/app-marketing-analytics/6740043080/as/US/screwdom/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+brawl+and+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom brawl and tournament",
+          "width": 1290,
+          "height": 2796,
+          "aspect_ratio": 0.4614,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:29:58.951560+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:10.848419+00:00",
+            "load_time_ms": 14,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 460,
+            "natural_height": 997,
+            "content_type": "image/png",
+            "current_src": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/aa/d3/ed/aad3ed69-c701-bc5b-777a-1a3ad4fcea1f/1290x2796_7.jpg/460x0w.png"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "图片虽然带有Claim Rewards字样，但主要展示的是基础解谜物体，无具体的竞技活动标识。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:33.765558+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/utjc7gLnzZk/maxresdefault.jpg",
+          "caption": "Screwdom 3D - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ig.screwdom",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+brawl+and+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom brawl and tournament",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:29:58.951560+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:07.481371+00:00",
+            "load_time_ms": 369,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/utjc7gLnzZk/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片展示的是游戏的通用关卡宣传（9000+ Level），属于通用品牌宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:33.765558+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "bonus_events",
+      "display_name": "Ladder / Gems / Dice / 奖励事件",
+      "description": "App Store 玩家评论提到 bonus events like the ladder and the gems and the dice，用于发放 powerups。具体玩法未公开。",
+      "examples": [
+        "Ladder",
+        "Gems",
+        "Dice"
+      ],
+      "market_research_notes": "这些像是轻量进度/抽奖活动：梯子推进、宝石收集、骰子格子。后续最好用截图确认 UI 和奖励链。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/did-anyone-else-get-the-new-screwdom-quest-v0-c049bad3dw8f1.jpeg?auto=webp&s=2b1aa4983e3543b43347a4a68ad526b19279d074",
+          "caption": "screwdom",
+          "source_url": "https://www.reddit.com/r/screwdom/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+bonus+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom bonus events",
+          "width": 182,
+          "height": 277,
+          "aspect_ratio": 0.657,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:30:43.869813+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:08.926704+00:00",
+            "load_time_ms": 312,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 395,
+            "natural_height": 599,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/did-anyone-else-get-the-new-screwdom-quest-v0-c049bad3dw8f1.jpeg?auto=webp&s=2b1aa4983e3543b43347a4a68ad526b19279d074"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片展示了Screwdom游戏的Weekly Quest界面，属于该游戏的常规奖励系统，但与描述中的Ladder、Gems、Dice等具体Bonus Events并无直接关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:35.452201+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "spin_and_mystery_rewards",
+      "display_name": "Lucky Spin / Mystery Box / Daily Spin",
+      "description": "第三方问答页面列出玩家关心 lucky spin、mystery box、daily spin 的免费工具获取。未找到官方商店页直接说明，低信心记录。",
+      "examples": [
+        "Lucky Spin",
+        "Mystery Box",
+        "Daily Spin"
+      ],
+      "market_research_notes": "如果存在，属于广告变现和免费道具发放入口，常与每日登录、看广告和失败后续关组合。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/7bMVOT_wP06ZsBzpFQQOVVCaO3D6pDA-Fy9gchZe6a5h_mOIZhbKSzyaWEnD2BU0dEn2BLul2RGxutPmTQgidw",
+          "caption": "Screwdom 3D - Real Reward - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.tb.screw.dom",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+spin+and+mystery+rewards",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom spin and mystery rewards",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:31:26.714038+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:11.215116+00:00",
+            "load_time_ms": 360,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/7bMVOT_wP06ZsBzpFQQOVVCaO3D6pDA-Fy9gchZe6a5h_mOIZhbKSzyaWEnD2BU0dEn2BLul2RGxutPmTQgidw"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "该图展示了游戏内的奖励金币和现金概念，由于活动描述提及该游戏常与免费道具和广告变现结合，该图可能与奖励机制有关，但无法确认为具体的转盘或宝箱活动，归为游戏通用品牌宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:40.443031+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/zxfQzh8z8p1WXOWxypgaiOJE9XQhsp8HqB4O5KEpTQCMvCyknLwPTb8A5AO154vzrr9acAcxp8tANNVUjr6-=w526-h296-rw",
+          "caption": "Screwdom 3D - Real Reward - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.tb.screw.dom",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+spin+and+mystery+rewards",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom spin and mystery rewards",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:31:26.714038+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:11.450397+00:00",
+            "load_time_ms": 228,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 166,
+            "natural_height": 296,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/zxfQzh8z8p1WXOWxypgaiOJE9XQhsp8HqB4O5KEpTQCMvCyknLwPTb8A5AO154vzrr9acAcxp8tANNVUjr6-=w526-h296-rw"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示了游戏核心玩法的商店截图，与螺丝旋转相关，并未体现转盘、盲盒或每日抽奖活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:40.443031+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/90ieYTw54-hrTmw1vK6li9EDZMQABwCzwp9ZPZdQf5j1zsnCzsJxSaEHucVek513GD9qxHCig7XFhTcRZ6sbW88=w526-h296-rw",
+          "caption": "Screwdom 3D - Real Reward - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.tb.screw.dom",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+spin+and+mystery+rewards",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom spin and mystery rewards",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:31:26.714038+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:11.679958+00:00",
+            "load_time_ms": 224,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 169,
+            "natural_height": 296,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/90ieYTw54-hrTmw1vK6li9EDZMQABwCzwp9ZPZdQf5j1zsnCzsJxSaEHucVek513GD9qxHCig7XFhTcRZ6sbW88=w526-h296-rw"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示了游戏核心解谜玩法的商店截图，非特定活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:40.443031+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/7bMVOT_wP06ZsBzpFQQOVVCaO3D6pDA-Fy9gchZe6a5h_mOIZhbKSzyaWEnD2BU0dEn2BLul2RGxutPmTQgidw=w600-h300-pc0xffffff-pd",
+          "caption": "Screwdom 3D - Real Reward - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.tb.screw.dom",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+spin+and+mystery+rewards",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom spin and mystery rewards",
+          "width": 600,
+          "height": 300,
+          "aspect_ratio": 2.0,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:31:26.714038+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:12.012775+00:00",
+            "load_time_ms": 325,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 600,
+            "natural_height": 300,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/7bMVOT_wP06ZsBzpFQQOVVCaO3D6pDA-Fy9gchZe6a5h_mOIZhbKSzyaWEnD2BU0dEn2BLul2RGxutPmTQgidw=w600-h300-pc0xffffff-pd"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "内容与image_index 1一致，为横版比例的宣传图，归为通用品牌宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:40.443031+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/xHg6-LD1J5nmzGhgbwegnbd4WimU3tvUd1p1pcu945N9U7qIoGhX3xpqRvaG6XCE27bCPfAF03UfdB6pRBoLvu4=w526-h296-rw",
+          "caption": "Screwdom 3D - Real Reward - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.tb.screw.dom",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+spin+and+mystery+rewards",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom spin and mystery rewards",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:31:26.714038+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:12.246307+00:00",
+            "load_time_ms": 227,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 169,
+            "natural_height": 296,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/xHg6-LD1J5nmzGhgbwegnbd4WimU3tvUd1p1pcu945N9U7qIoGhX3xpqRvaG6XCE27bCPfAF03UfdB6pRBoLvu4=w526-h296-rw"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示了游戏的基础关卡或核心玩法展示，与所选的抽奖类活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:40.443031+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "tools_powerups_and_offers",
+      "display_name": "Powerups / Tools / Offers / 道具与礼包",
+      "description": "玩家评论反复提到 powerups、items、extra boxes、coins、remove ads；这说明关卡难度和隐藏 screw 会驱动道具/广告/付费消耗。",
+      "examples": [
+        "powerups",
+        "items",
+        "extra boxes",
+        "coins",
+        "remove ads"
+      ],
+      "market_research_notes": "Screw puzzle 商业化核心是卡关后的工具消耗；活动奖励常以这些工具为主要奖品。",
+      "images": [
+        {
+          "url": "https://prod.superblogcdn.com/site_cuid_clo00o2d0644641vqp8vh8w6cd/images/screenshot-2025-04-11-at-12-1744367672899-compressed.png",
+          "caption": "How to pass level 159 in Screwdom 3D ...",
+          "source_url": "https://segwise.ai/blog/screwdom-ad-strategy-creative-patterns",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+tools+powerups+and+offers",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom tools powerups and offers",
+          "width": 150,
+          "height": 335,
+          "aspect_ratio": 0.4478,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:32:52.839978+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:14.156577+00:00",
+            "load_time_ms": 1904,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 907,
+            "content_type": "image/png",
+            "current_src": "https://prod.superblogcdn.com/site_cuid_clo00o2d0644641vqp8vh8w6cd/images/screenshot-2025-04-11-at-12-1744367672899-compressed.png"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "展示了游戏的实际玩法关卡，能确认属于该游戏，但没有明显的道具购买或礼包活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:44.184319+00:00"
+          }
+        },
+        {
+          "url": "https://prod.superblogcdn.com/site_cuid_clo00o2d0644641vqp8vh8w6cd/images/screwdom-blog-cover-1744367412730-compressed.jpg",
+          "caption": "Screwdom 3D Ad Strategy Breakdown: Top ...",
+          "source_url": "https://segwise.ai/blog/screwdom-ad-strategy-creative-patterns",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+tools+powerups+and+offers",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom tools powerups and offers",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:32:52.839978+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:14.562289+00:00",
+            "load_time_ms": 398,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/jpg",
+            "current_src": "https://prod.superblogcdn.com/site_cuid_clo00o2d0644641vqp8vh8w6cd/images/screwdom-blog-cover-1744367412730-compressed.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "属于该游戏的第三方分析报告配图，是通用宣传性质图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:44.184319+00:00"
+          }
+        },
+        {
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9khj.jpg",
+          "caption": "Screwdom 3D (2024)",
+          "source_url": "https://backloggd.com/games/screwdom-3d/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+tools+powerups+and+offers",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom tools powerups and offers",
+          "width": 194,
+          "height": 259,
+          "aspect_ratio": 0.749,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:32:52.839978+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:15.786057+00:00",
+            "load_time_ms": 1217,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 528,
+            "natural_height": 703,
+            "content_type": "image/jpeg",
+            "current_src": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9khj.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.98,
+            "reason": "游戏的商店/库封面图，属于通用品牌宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:44.184319+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/the-screwdom-3d-ad-v0-8t1o3qriwqcg1.png?width=1080&format=png&auto=webp&s=ff0d03170161411d62e9755d0e36002594f45d12",
+          "caption": "Screwdom 3D - iKame Games | Facebook",
+          "source_url": "https://www.reddit.com/r/WordsWithFriends/comments/1j3xw56/the_screwdom_3d_ad/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+tools+powerups+and+offers",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom tools powerups and offers",
+          "width": 153,
+          "height": 330,
+          "aspect_ratio": 0.4636,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:32:52.839978+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:16.468132+00:00",
+            "load_time_ms": 677,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 2424,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/the-screwdom-3d-ad-v0-8t1o3qriwqcg1.png?width=1080&format=png&auto=webp&s=ff0d03170161411d62e9755d0e36002594f45d12"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.92,
+            "reason": "包含游戏玩法元素的广告素材，虽有金币元素但主要展示核心玩法，非专门的礼包或道具活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:44.184319+00:00"
+          }
+        },
+        {
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/8c/d2/878cd23a-2853-aaff-0e9d-3d086cafab09/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1200x630wa.png",
+          "caption": "Screwdom - Info, Tip, Walkthrough, Glitch",
+          "source_url": "https://www.iofreeonline.com/IOS/game/Screwdom.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=screwdom+tools+powerups+and+offers",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "screwdom tools powerups and offers",
+          "width": 1200,
+          "height": 630,
+          "aspect_ratio": 1.9048,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:32:52.839978+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:16.483368+00:00",
+            "load_time_ms": 11,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 630,
+            "content_type": "image/png",
+            "current_src": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/8c/d2/878cd23a-2853-aaff-0e9d-3d086cafab09/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1200x630wa.png"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.98,
+            "reason": "游戏的App图标，属于通用品牌图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:44.184319+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "Screwdom 开放资料很散，且 App Store / Google Play 标题存在同名和改名问题。本轮保守记录 Google Play 可确认的主线/更新，以及 App Store 玩家评论中出现的 Brawl、Tournament、Ladder、Gems、Dice、Daily Challenge、Weekly Achievements 等线索；需真机二次验证。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T07:32:52.839978+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:26:44.184319+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

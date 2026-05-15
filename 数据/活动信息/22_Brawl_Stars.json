@@ -1,0 +1,32 @@
+{
+  "rank": 22,
+  "name": "Brawl Stars",
+  "source_confidence": "high",
+  "source_notes": null,
+  "collected_at": "2026-05-12T04:00:33.762Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Brawl Stars Wiki - Events",
+      "source_type": "fandom",
+      "source_url": "https://brawlstars.fandom.com/wiki/Category:Events",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "source_title": "Brawl Stars Wiki - Community Events",
+      "source_type": "fandom",
+      "source_url": "https://brawlstars.fandom.com/wiki/Community_Events",
+      "status": 403,
+      "error": "fetch_failed"
+    }
+  ],
+  "event_detail_pages": [],
+  "event_catalog": [],
+  "inferred_event_type_summary": [],
+  "screenshots_or_images": [],
+  "collection_warnings": [
+    "Fetch failed: https://brawlstars.fandom.com/wiki/Category:Events",
+    "Fetch failed: https://brawlstars.fandom.com/wiki/Community_Events"
+  ]
+}

@@ -1,0 +1,485 @@
+{
+  "rank": 29,
+  "name": "Lightning Link Casino Slots",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 Lightning Link 的官方 Intercom 帮助中心、App Store/Google Play 商店页，并补充 Liquid & Grit 的赌场报告片段。按可验证机制整理，不采用程序误抓的 App Store 地区内容。",
+  "source_pages": [
+    {
+      "title": "Lightning Link Casino - What Are Missions",
+      "url": "https://intercom.help/lightning-link/en/articles/5738353-what-are-missions",
+      "notes": "官方解释 Missions：Season 内每日有 5 台机器，每台 5 个任务；完成任务获得 Lightning Points，提升 Tier 并拿 Milestone Rewards。"
+    },
+    {
+      "title": "Lightning Link Casino - Missions Hub",
+      "url": "https://intercom.help/PM-lightning-link/en/articles/11375128-lightning-link-missions-hub-daily-missions-rewards-and-leaderboard",
+      "notes": "官方解释 Missions Hub：Daily Missions、Special Missions、Seasonal Challenges、Bolt-on Missions、Tier Rewards / Lightning Milestones 和 Leaderboard。"
+    },
+    {
+      "title": "Lightning Link Casino - Seasons, Leaderboard and End of Season Rewards",
+      "url": "https://intercom.help/PM-lightning-link/en/articles/11461773-seasons-leaderboard-and-end-of-season-rewards",
+      "notes": "官方解释赛季通常约两周，Lightning Points 推进 10 个 tier，Tier 5 解锁 Leaderboard，Top 3 / Top 10000 赛季结算奖励。"
+    },
+    {
+      "title": "Lightning Link Casino - Constellations / Starscapes",
+      "url": "https://intercom.help/PM-lightning-link/en/articles/11364634-lightning-link-constellations-starscapes",
+      "notes": "官方解释 Starscapes：Hold & Spin、missions、bolt-on missions、tier rewards 等产出 Stellar Points，用于完成 sectors、planets、Season Star、New Stars。"
+    },
+    {
+      "title": "Lightning Link Casino - Lightning Strike and 7-Day Chase",
+      "url": "https://intercom.help/PM-lightning-link/en/articles/11383765-lightning-strike-and-7-day-chase",
+      "notes": "官方解释 Lightning Strike / 7-Day Chase：5 日任务，至少每日完成 6 个任务来充能每日奖励并推进 orb 等级。"
+    },
+    {
+      "title": "App Store - Lightning Link Casino Slots",
+      "url": "https://apps.apple.com/us/app/lightning-link-casino-slots/id1243005112",
+      "notes": "商店页确认 daily rewards、bonus multipliers、Hold & Spin、slot tournaments、leaderboard、Lightning Wheel、exclusive event rewards、missions、themed events。"
+    },
+    {
+      "title": "Google Play - Lightning Link Casino Slots",
+      "url": "https://play.google.com/store/apps/details?id=com.productmadness.lightninglink",
+      "notes": "商店页确认 Daily Wheel、Hourly Free Vegas Slots Bonuses、Meta community、tournaments 等。"
+    },
+    {
+      "title": "Liquid & Grit Casino Report September 2018",
+      "url": "https://www.liquidandgrit.com/wp-content/uploads/2018/09/Casino-Report-September-2018.pdf",
+      "notes": "行业报告提到 Lightning Link Casino 是 mission-based app，并展示 Stormy Season / Missions 等早期运营结构。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "daily_missions",
+      "display_name": "Daily Missions / 每日任务",
+      "description": "每个 Season 中每天会给 5 台不同机器各 5 个任务。玩家进入指定 slot 完成目标，获得 Lightning Points；完成全部 Daily Missions 还有额外奖励。",
+      "examples": [
+        "Daily Missions",
+        "machine-specific missions"
+      ],
+      "market_research_notes": "这是 Lightning Link 的核心活动骨架：把玩家导向指定 slot，同时让常规 spin 转化为赛季积分。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/SLFIzzluF4dl6lkNoxnApRKe-S_rs4QsvbNlO4RnBzuaj1GC4pBPysWILHDVFDIIgUqk5ev1Z8RMjxvZPY581Q",
+          "caption": "Lightning Link Casino Slots – Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.productmadness.lightninglink&hl=en_ZA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=lightning+link+casino+slots+daily+missions",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "lightning link casino slots daily missions",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:24:03.769532+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:51.762909+00:00",
+            "load_time_ms": 283,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/SLFIzzluF4dl6lkNoxnApRKe-S_rs4QsvbNlO4RnBzuaj1GC4pBPysWILHDVFDIIgUqk5ev1Z8RMjxvZPY581Q"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 1.0,
+            "reason": "图片为游戏的App图标/品牌Logo，属于游戏本身但与特定活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:38.302425+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/l-GgTOf6vDMlkJJEszsaJyXtDctL-DEsteomx6VoMY3cWaMRvGzswaubKegTaFb3Jg=w526-h296-rw",
+          "caption": "Lightning Link Casino Slots - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.productmadness.lightninglink",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=lightning+link+casino+slots+daily+missions",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "lightning link casino slots daily missions",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:24:03.769532+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:52.035807+00:00",
+            "load_time_ms": 267,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 526,
+            "natural_height": 296,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/l-GgTOf6vDMlkJJEszsaJyXtDctL-DEsteomx6VoMY3cWaMRvGzswaubKegTaFb3Jg=w526-h296-rw"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了Slot实际玩法界面，顶部UI明确显示了‘MISSIONS AVAILABLE’及‘0/25 MISSIONS COMPLETED’，属于每日任务活动的实际玩法展示。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:38.302425+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "missions_hub",
+      "display_name": "Missions Hub / 任务中心",
+      "description": "集中展示 Daily Missions、Special Missions、Seasonal Challenges、Bolt-on Missions、Tier Rewards 和 Leaderboard，玩家可追踪所有任务进度与奖励。",
+      "examples": [
+        "Missions Hub",
+        "Tier Rewards",
+        "Lightning Milestones"
+      ],
+      "market_research_notes": "比单一任务列表更像活动操作台，多个任务类型共享 Lightning Points 与赛季进度。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/SLFIzzluF4dl6lkNoxnApRKe-S_rs4QsvbNlO4RnBzuaj1GC4pBPysWILHDVFDIIgUqk5ev1Z8RMjxvZPY581Q",
+          "caption": "Lightning Link Casino Slots - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.productmadness.lightninglink",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=lightning+link+casino+slots+missions+hub",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "lightning link casino slots missions hub",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:24:30.665011+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:51.762909+00:00",
+            "load_time_ms": 283,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/SLFIzzluF4dl6lkNoxnApRKe-S_rs4QsvbNlO4RnBzuaj1GC4pBPysWILHDVFDIIgUqk5ev1Z8RMjxvZPY581Q"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为游戏的App图标或通用品牌Logo，与特定活动Missions Hub无直接关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:39.920300+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "season_progression",
+      "display_name": "Seasons / Tier Progression / 两周赛季",
+      "description": "Season 通常持续约两周。玩家累积 Lightning Points 推进 10 个 Tier，领取 Lightning Milestones；赛季结束后 tier progress 重置，并根据表现给下一赛季 Headstart。",
+      "examples": [
+        "Seasons",
+        "Tier 1-10",
+        "Headstart from previous Season"
+      ],
+      "market_research_notes": "赛季重置和 Headstart 让玩家保持循环参与；这也是玩家评论中提到的两周循环核心。",
+      "images": []
+    },
+    {
+      "type": "seasonal_leaderboard",
+      "display_name": "Seasonal Leaderboard / 赛季排行榜",
+      "description": "玩家达到 Tier 5 后解锁排行榜。赛季结束时 Top 3 和 Top 10000 可获得奖励，奖励随排名变化。",
+      "examples": [
+        "Top 3 Rewards",
+        "Top 10000 Rewards",
+        "End-of-Season reward"
+      ],
+      "market_research_notes": "把任务积分和排行榜资格绑定，避免纯 free-play 玩家只领日常奖励不进入竞争层。",
+      "images": []
+    },
+    {
+      "type": "special_missions",
+      "display_name": "Special Missions / 限时特殊任务",
+      "description": "Missions Hub 中的限时任务，包含 Premium Missions、Mission Chase 等多步挑战，通常在限定时间内完成并领取 coins、special items 或其他奖励。",
+      "examples": [
+        "Premium Missions",
+        "Mission Chase"
+      ],
+      "market_research_notes": "适合作为促销活动、付费任务线和短周期 chase event 的容器。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/SLFIzzluF4dl6lkNoxnApRKe-S_rs4QsvbNlO4RnBzuaj1GC4pBPysWILHDVFDIIgUqk5ev1Z8RMjxvZPY581Q",
+          "caption": "Lightning Link Casino Slots - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.productmadness.lightninglink",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=lightning+link+casino+slots+special+missions",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "lightning link casino slots special missions",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:25:54.215003+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:51.762909+00:00",
+            "load_time_ms": 283,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/SLFIzzluF4dl6lkNoxnApRKe-S_rs4QsvbNlO4RnBzuaj1GC4pBPysWILHDVFDIIgUqk5ev1Z8RMjxvZPY581Q"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为游戏的App图标或通用品牌LOGO，符合分类3的定义。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:43.502116+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/l-GgTOf6vDMlkJJEszsaJyXtDctL-DEsteomx6VoMY3cWaMRvGzswaubKegTaFb3Jg=w526-h296-rw",
+          "caption": "Lightning Link Missions Hub: Daily ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.productmadness.lightninglink",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=lightning+link+casino+slots+special+missions",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "lightning link casino slots special missions",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:25:54.215003+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:52.035807+00:00",
+            "load_time_ms": 267,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 526,
+            "natural_height": 296,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/l-GgTOf6vDMlkJJEszsaJyXtDctL-DEsteomx6VoMY3cWaMRvGzswaubKegTaFb3Jg=w526-h296-rw"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "界面右上角不仅有 Missions Available 进度条，还展示了关卡实际玩法和 slots 界面，属于活动相关的实际玩法截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:43.502116+00:00"
+          }
+        },
+        {
+          "url": "https://mygamingandleisure.com/wp-content/uploads/2022/09/Lightning-Dollar-Link-at-Pechanga-Casino-1-1024x683.jpg",
+          "caption": "Pechanga Resort Casino - Gaming ...",
+          "source_url": "https://mygamingandleisure.com/aristocrat-gamings-lightning-dollar-link-makes-california-debut-at-pechanga-resort-casino/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=lightning+link+casino+slots+special+missions",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "lightning link casino slots special missions",
+          "width": 1024,
+          "height": 683,
+          "aspect_ratio": 1.4993,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:25:54.215003+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:55.183435+00:00",
+            "load_time_ms": 3132,
+            "long_load": true,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1024,
+            "natural_height": 683,
+            "content_type": "image/jpeg",
+            "current_src": "https://mygamingandleisure.com/wp-content/uploads/2022/09/Lightning-Dollar-Link-at-Pechanga-Casino-1-1024x683.jpg"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 1.0,
+            "reason": "该图展示的是现实世界中实体赌场的线下博彩机台，而非此款移动端手游的界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:43.502116+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "seasonal_challenges",
+      "display_name": "Seasonal Challenges / 赛季挑战",
+      "description": "贯穿整个 Season 的 extended missions。完成全部 Seasonal Challenges 可获得下一赛季 exclusive Head Start Bonus，并与赛季 tier 进度叠加。",
+      "examples": [
+        "Seasonal Challenges",
+        "Bonus Head Start"
+      ],
+      "market_research_notes": "它把本赛季投入转化为下赛季优势，是连续赛季参与的留存钩子。",
+      "images": []
+    },
+    {
+      "type": "bolt_on_missions",
+      "display_name": "Bolt-on Missions / 指定游戏附加任务",
+      "description": "与特定 slot/game 绑定的任务，玩家可在 Bolt-on Tab 查看剩余目标、任务详情和时间限制；常提供 free coins 或 special items。",
+      "examples": [
+        "Bolt-on Missions",
+        "themed objectives"
+      ],
+      "market_research_notes": "用于给重点机台、新机台或主题机台导流，是 slot portfolio 运营工具。",
+      "images": [
+        {
+          "url": "https://www.aristocratgaming.com/_product-assets/games-assets/lightning-buffalo-link/lightning-buffalo-link_gt_in-cabinet-image-front.png",
+          "caption": "Lightning Buffalo Link ...",
+          "source_url": "https://www.aristocratgaming.com/us/slots/games/lightning-buffalo-link",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=lightning+link+casino+slots+bolt+on+missions",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "lightning link casino slots bolt on missions",
+          "width": 190,
+          "height": 266,
+          "aspect_ratio": 0.7143,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:27:02.547715+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:56.194012+00:00",
+            "load_time_ms": 997,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 714,
+            "natural_height": 1000,
+            "content_type": "image/png",
+            "current_src": "https://www.aristocratgaming.com/_product-assets/games-assets/lightning-buffalo-link/lightning-buffalo-link_gt_in-cabinet-image-front.png"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.95,
+            "reason": "图片展示的是线下实体老虎机（Cabinet），并非手游 App 界面或宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:47.682270+00:00"
+          }
+        },
+        {
+          "url": "https://www.thegamingguide.com/images/stories/slots/LightningLink/LightningLinkMachine.png",
+          "caption": "Lightning Link",
+          "source_url": "https://www.thegamingguide.com/hot-slots/aristocrat/lightning-link.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=lightning+link+casino+slots+bolt+on+missions",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "lightning link casino slots bolt on missions",
+          "width": 230,
+          "height": 219,
+          "aspect_ratio": 1.0502,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:27:02.547715+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:58.056199+00:00",
+            "load_time_ms": 1856,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 1139,
+            "content_type": "image/png",
+            "current_src": "https://www.thegamingguide.com/images/stories/slots/LightningLink/LightningLinkMachine.png"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.95,
+            "reason": "图片展示的是线下实体赌场内的老虎机设备组，与手游活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:47.682270+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "lightning_strike_7_day_chase",
+      "display_name": "Lightning Strike / 7-Day Chase",
+      "description": "5 日任务型活动。玩家每日完成至少 6 个任务，为 Daily Charged Reward 充能，并推进 7-Day Chase orb levels；奖励通常次日领取，orb reward 按周发放。",
+      "examples": [
+        "Lightning Strike",
+        "7-Day Chase",
+        "Daily Charged Reward",
+        "Orb Levels"
+      ],
+      "market_research_notes": "日任务 + 连续进度 + 延迟领奖组合，明显用于拉高连续登录和日内完成度。",
+      "images": []
+    },
+    {
+      "type": "starscapes_constellations",
+      "display_name": "Starscapes / Constellations / 星图收集进度",
+      "description": "玩家通过 Hold & Spin bonus、orbs、missions、bolt-on missions、tier rewards 等获得 Stellar Points，进入 Starscapes 完成 sectors、planets、constellations、Season Star 和限时 New Stars。",
+      "examples": [
+        "Starscapes",
+        "Constellations",
+        "Season Star",
+        "New Stars",
+        "Stellar Points"
+      ],
+      "market_research_notes": "这是长期收集/地图填充系统，与赛季和任务系统互相供给资源。Season Star 会随赛季重置，New Stars 则偏限时活动。",
+      "images": []
+    },
+    {
+      "type": "lightning_wheel_and_bonus_rewards",
+      "display_name": "Lightning Wheel / Daily Bonus / 免费币奖励",
+      "description": "商店页列出 Daily Bonus Wheel、Hourly Free Coins、Lightning Wheel、bonus multipliers 等免费币和奖励入口。",
+      "examples": [
+        "Daily Bonus Wheel",
+        "Hourly Free Coins",
+        "Lightning Wheel",
+        "bonus multipliers"
+      ],
+      "market_research_notes": "基础资源续航活动，和 slot 消耗、任务进度、付费包一起控制玩家 session 长度。",
+      "images": []
+    },
+    {
+      "type": "slot_tournaments",
+      "display_name": "Slot Tournaments / 排行赛",
+      "description": "App Store 与 Google Play 明确列出 slot tournaments、leaderboard 和 special slots challenges。公开帮助页本轮未找到独立锦标赛规则页，但可确认它是主要活动类型之一。",
+      "examples": [
+        "slot tournaments",
+        "leaderboard challenges"
+      ],
+      "market_research_notes": "相较 Jackpot Party 的锦标赛页，Lightning Link 更把排行榜和赛季任务系统整合在一起；后续可用真机补单场锦标赛规则。",
+      "images": []
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "Lightning Link 的官方 Intercom 资料足以重建任务、赛季、排行榜、Starscapes 和 7-Day Chase。缺口是单场 slot tournaments 的具体规则页，后续可真机补。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T06:28:03.896825+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:20:47.682270+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

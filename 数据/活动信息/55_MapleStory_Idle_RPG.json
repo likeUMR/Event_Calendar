@@ -1,0 +1,36 @@
+{
+  "rank": 55,
+  "name": "MapleStory : Idle RPG",
+  "source_confidence": "medium",
+  "source_notes": "更完整的活动资料可能在官方公告和社区贴中。",
+  "collected_at": "2026-05-12T04:03:47.261Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "MapleStory Wiki",
+      "source_type": "fandom_reference",
+      "source_url": "https://maplestory.fandom.com/wiki/MapleStory_Wiki",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "source_title": "NEXON Official News",
+      "source_type": "official",
+      "source_url": "https://www.nexon.com/",
+      "fetched_url": "https://www.nexon.com/main/en",
+      "status": 200,
+      "page_title": "Nexon Home",
+      "meta_description": "",
+      "relevant_text_blocks": [],
+      "inferred_event_types": [],
+      "images": []
+    }
+  ],
+  "event_detail_pages": [],
+  "event_catalog": [],
+  "inferred_event_type_summary": [],
+  "screenshots_or_images": [],
+  "collection_warnings": [
+    "Fetch failed: https://maplestory.fandom.com/wiki/MapleStory_Wiki"
+  ]
+}

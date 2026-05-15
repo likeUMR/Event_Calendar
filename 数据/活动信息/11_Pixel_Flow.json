@@ -1,0 +1,58 @@
+{
+  "rank": 11,
+  "name": "Pixel Flow!",
+  "source_confidence": "medium",
+  "source_notes": null,
+  "collected_at": "2026-05-12T03:59:25.785Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Pixel Flow Guide",
+      "source_type": "fan_guide",
+      "source_url": "https://pixel-flow.app/about-us",
+      "fetched_url": "https://pixel-flow.app/about-us",
+      "status": 200,
+      "page_title": "About Us",
+      "meta_description": "Learn about the team behind the Pixel Flow fan guide website.",
+      "relevant_text_blocks": [
+        "About Us - Pixel Flow Free Solver",
+        "Pixel Flow looks like a casual tap game, but anyone who’s hit a “Very Hard” level knows the truth: it’s a brutal little logic puzzle hiding inside a cute voxel shell. That’s why pixel-flow.app exists.",
+        "We’re a small group of puzzle-obsessed players who refused to accept “just use more power-ups” as the only solution. Instead, we replayed levels, mapped pig orders, tracked ammo patterns, and started writing everything down. Those notes turned into full Pixel Flow level guides, strategy breakdowns, and clean solution paths you can follow or adapt to your own style.",
+        "Our goal is simple: help you beat Pixel Flow with your brain, not your wallet. Whether you’re stuck on a single nightmare level or trying to push as far as possible free-to-play, we’re here to make the game more understandable, less frustrating, and way more satisfying.",
+        "If Pixel Flow is the puzzle, pixel-flow.app is your companion notebook.",
+        "Pixel Flow Guide is a fan-made website and is not affiliated with, endorsed by, or in any way officially connected with the official Pixel Flow game or its developers. All game content, images, and trademarks are property of their respective owners.",
+        "Pixel Flow Guide is not affiliated with, endorsed by, or connected to the original Pixel Flow game or its publishers. This is an independent fan site created for informational purposes only. All trademarks and copyrights belong to their respective owners."
+      ],
+      "inferred_event_types": [],
+      "images": []
+    },
+    {
+      "source_title": "Pixel Flow Power Ups Guide",
+      "source_type": "fan_guide",
+      "source_url": "https://pixel-flow.app/wiki/power-ups",
+      "fetched_url": "https://pixel-flow.app/wiki/power-ups",
+      "status": 200,
+      "page_title": "Pixel Flow Power Ups Explained: Hand, Add Tray, Shuffle, and Super Shooter",
+      "meta_description": "Stuck in Pixel Flow? This power ups guide explains Add Tray, Hand, Shuffle, and Super Shooter, with best-use tips, common mistakes, and where to activate them in game.",
+      "relevant_text_blocks": [
+        "Wait! Save your Power-Ups.",
+        "Pixel Flow Power-ups Explained / Boosters Guide",
+        "The Fast Read: What Each Power-Up Fixes",
+        "Add Tray Power Ups / Boosters (Unlocks in Level 6)",
+        "Hand Power Ups / Boosters(Unlocks in Level 8)",
+        "Shuffle Power Ups / Boosters(Unlocks in Level 14)",
+        "Super Shooter Power Ups / Boosters(Unlocks in Level 18)",
+        "Power-Up / Boosters Priority (If You’re Trying Not to Spend)",
+        "Pro-Tip (The Dirty Combo That Feels Like Cheating)",
+        "Need the Exact Level Solution Fast?"
+      ],
+      "inferred_event_types": [],
+      "images": []
+    }
+  ],
+  "event_detail_pages": [],
+  "event_catalog": [],
+  "inferred_event_type_summary": [],
+  "screenshots_or_images": [],
+  "collection_warnings": []
+}

@@ -1,0 +1,88 @@
+{
+  "rank": 47,
+  "name": "Toy Blast",
+  "source_confidence": "medium",
+  "source_notes": null,
+  "collected_at": "2026-05-12T04:03:09.660Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Toy Blast Wiki",
+      "source_type": "fandom",
+      "source_url": "https://toyblast.fandom.com/wiki/Toy_Blast_Wiki",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "source_title": "Toy Blast Support",
+      "source_type": "official_support",
+      "source_url": "https://peakgames.helpshift.com/hc/en/4-toy-blast/",
+      "fetched_url": "https://peakgames.helpshift.com/hc/en/4-toon-blast/",
+      "status": 200,
+      "page_title": "Hi, how can we help you?",
+      "meta_description": "Are you looking for help with Toon Blast? Learn more about 🕹 Gameplay, 🛡 Teams, 🏆 Events, 🃏Collection, 💰 Coins and Purchases, 💾 Game Progress, 🔥 Updates, 👤 Profile & Friends, 🛠 Troubleshooting, 👥 Facebook Account, 👮 Safety and Security, ⚖️ SAFE and FAIR PLAY POLICY, 📃 Terms of Services, 📎 Privacy Policy, Do Not Sell or Share My Personal Information.",
+      "relevant_text_blocks": [
+        "This website uses only the necessary cookies required for the site's proper functioning. By using the website, you consent to all cookies in accordance with the cookie policy. To know more, refer Cookie Policy. Toon Blast Support Hi, how can we help you? Popular articles What are the steps to save my progress while switching to a new device? 💾 Game Progress What is Temple Guardians? 🏆 Events I cannot pass the level / Level is too hard 🕹 Gameplay I lost my progress 💾 Game Progress How can I save my progress other than using Facebook? 👥 Facebook Account What is B.E.A.M. ? 🏆 Events Browse articles 🕹 Gameplay How to Play?",
+        "What are the special items?",
+        "How can I join a team?",
+        "How can I create my own team?",
+        "How can I invite friends to my team?",
+        "What is the Champions League?",
+        "What is the Collection?",
+        "💰 Coins and Purchases",
+        "👤 Profile & Friends",
+        "I cannot connect to the team tab",
+        "👮 Safety and Security",
+        "I saw a link offering free or unlimited lives/coins/items.",
+        "⚖️ SAFE and FAIR PLAY POLICY",
+        "📃 Terms of Services",
+        "Do Not Sell or Share My Personal Information"
+      ],
+      "inferred_event_types": [
+        "battle_pass",
+        "collection_album",
+        "tournament_competition",
+        "team_alliance",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "https://d2duuy9yo5pldo.cloudfront.net/dashboard-resources/peakgames/320/13f78db8-1d47-4e9f-8cf0-7cb5c27849fa.webp",
+          "alt": "Toon Blast Support",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://d2duuy9yo5pldo.cloudfront.net/dashboard-resources/peakgames/e900e33c-5993-4e6d-9d9e-b6a54851403d.jpg",
+          "alt": "Banner Image",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "event_detail_pages": [],
+  "event_catalog": [],
+  "inferred_event_type_summary": [
+    "battle_pass",
+    "collection_album",
+    "store_offer",
+    "team_alliance",
+    "tournament_competition"
+  ],
+  "screenshots_or_images": [
+    {
+      "url": "https://d2duuy9yo5pldo.cloudfront.net/dashboard-resources/peakgames/320/13f78db8-1d47-4e9f-8cf0-7cb5c27849fa.webp",
+      "alt": "Toon Blast Support",
+      "kind": "page_image",
+      "source_url": "https://peakgames.helpshift.com/hc/en/4-toy-blast/"
+    },
+    {
+      "url": "https://d2duuy9yo5pldo.cloudfront.net/dashboard-resources/peakgames/e900e33c-5993-4e6d-9d9e-b6a54851403d.jpg",
+      "alt": "Banner Image",
+      "kind": "page_image",
+      "source_url": "https://peakgames.helpshift.com/hc/en/4-toy-blast/"
+    }
+  ],
+  "collection_warnings": [
+    "Fetch failed: https://toyblast.fandom.com/wiki/Toy_Blast_Wiki"
+  ]
+}

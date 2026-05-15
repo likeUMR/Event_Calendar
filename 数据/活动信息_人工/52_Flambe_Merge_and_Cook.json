@@ -1,0 +1,695 @@
+{
+  "rank": 52,
+  "name": "Flambé®: Merge and Cook",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 App Store 描述与 AppsHunter 事件流，按公开能验证的活动名称和奖励机制整理，不沿用自动稿误抓结果。",
+  "source_pages": [
+    {
+      "title": "App Store - Flambé: Merge and Cook",
+      "url": "https://apps.apple.com/gb/app/flamb%C3%A9-merge-and-cook/id6618142292",
+      "notes": "确认底层玩法是 merge ingredients、unlock recipes、build restaurant。"
+    },
+    {
+      "title": "AppsHunter - Flambé: Merge and Cook App Page",
+      "url": "https://appshunter.io/ios/app/6618142292",
+      "notes": "能看到产品描述、版本更新和部分用户反馈，说明新内容会持续扩展 dishes、ingredients、location。"
+    },
+    {
+      "title": "AppsHunter - Events Forum: Flambé: Merge and Cook",
+      "url": "https://appshunter.io/ios/app/6618142292/events",
+      "notes": "公开事件流里能看到 Card Collection、Live Event、Adventure/Excursion 三类常见活动。"
+    },
+    {
+      "title": "AppsHunter - Easter Card Collection",
+      "url": "https://appshunter.io/events/6760538874",
+      "notes": "明确写到通过完成卡册/卡组收集来解锁 Energy、Gems 等奖励。"
+    },
+    {
+      "title": "AppsHunter - Lauren's Arcade Adventure",
+      "url": "https://appshunter.io/events/6748433831",
+      "notes": "说明存在带主题剧情包装的长线 special event，完成活动任务可得 Energy、Gems 等。"
+    },
+    {
+      "title": "AppsHunter - Pool Party",
+      "url": "https://appshunter.io/events/6747666787",
+      "notes": "写明 join and complete orders to earn refreshing rewards，证明订单完成型活动存在。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "card_collection",
+      "display_name": "卡册收集活动 / Card Collection",
+      "description": "当前最明确、最稳定的活动类型。玩家在活动期内收集主题卡片，完成卡组/套组后领取 Energy、Gems 和其他奖励。",
+      "examples": [
+        "Autumn Card Collection",
+        "Space Card Collection",
+        "Easter Card Collection"
+      ],
+      "market_research_notes": "这是 merge 产品非常常见的中长期收集活动，优点是可反复换皮，且能自然绑定体力消耗与订单完成。",
+      "images": [
+        {
+          "url": "https://static.wikia.nocookie.net/cook-merge/images/0/09/Card_collection.png/revision/latest/scale-to-width-down/340?cb=20250418065908",
+          "caption": "Card Collection | Cook & Merge Wiki ...",
+          "source_url": "https://cook-merge.fandom.com/wiki/Card_Collection",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=flamb+merge+and+cook+card+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "flamb merge and cook card collection",
+          "width": 234,
+          "height": 215,
+          "aspect_ratio": 1.0884,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:36:19.560573+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "该图展示了游戏的卡册收集系统界面，包含专辑进度、具体卡组和卡牌列表，属于活动玩法实际界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:53.427801+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/new-game-flambé-merge-cook-from-the-same-company-as-gossip-v0-uvckgbowi3rf1.jpg?width=1080&format=pjpg&auto=webp&s=c03377ae0171aa02481059b8bc0aac59fc82d420",
+          "caption": "NEW GAME: Flambé: Merge & Cook\" from ...",
+          "source_url": "https://www.reddit.com/r/GossipHarbor/comments/1np9erz/new_game_flambé_merge_cook_from_the_same_company/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=flamb+merge+and+cook+card+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "flamb merge and cook card collection",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:36:19.560573+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图是游戏的常规合成主界面截图，展示了棋盘和订单，未直接体现卡册收集活动的内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:53.427801+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/DxEYTS_nNDbesjgAGulDTgl8V2cV42UUmeOGPei2c95XRW7GY_XgihSsaPF7rnRua18Egkd1-siIgbkVjq73Hg",
+          "caption": "Flambé®: Merge & Cook - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.cola.game",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=flamb+merge+and+cook+card+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "flamb merge and cook card collection",
+          "width": 194,
+          "height": 259,
+          "aspect_ratio": 0.749,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:36:19.560573+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该图为游戏的通用应用图标或宣传人设图，属于通用品牌图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:53.427801+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/4_pxgOTBG1hcC1yU_DNXM3gPXjv7k-wozgsK9KUgbP00AuWVB1kbQDV9K0_C8vSn_Q=w526-h296-rw",
+          "caption": "Flambé®: Merge & Cook - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.cola.game",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=flamb+merge+and+cook+card+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "flamb merge and cook card collection",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:36:19.560573+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为商店预览图风格，展示合成核心玩法，不属于特定的卡册收集活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:53.427801+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/LZXIRLyaHNk/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AG6BIACgAqKAgwIABABGFogYihlMA8=&rs=AOn4CLCTd1y9DiOW0QPv9AMFIx5wr1yT7g",
+          "caption": "Flambe Merge & Cook Gameplay ...",
+          "source_url": "https://www.youtube.com/watch?v=LZXIRLyaHNk",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=flamb+merge+and+cook+card+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "flamb merge and cook card collection",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:36:19.560573+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为游戏常规玩法录屏截图，展示合成界面和左下角的卡包/卡册入口图标（弱相关），但主体非活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:53.427801+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "order_completion_event",
+      "display_name": "订单完成活动 / Order Completion Event",
+      "description": "活动要求玩家在主棋盘里继续做菜、交订单或完成服务目标，以此累积活动进度并换奖励。",
+      "examples": [
+        "Pool Party"
+      ],
+      "market_research_notes": "从公开文案看，这类活动不是独立小游戏，而是把主线 merge loop 包装成短期节庆活动，核心目的是提升体力消耗和回访频次。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/these-insane-fish-orders-you-guys-ive-been-stuck-at-for-2-v0-qek5p3jrbf4g1.jpeg?auto=webp&s=44c43a85e894c416fcab30a3899d695e4166860e",
+          "caption": "These insane fish orders you guys I've ...",
+          "source_url": "https://www.reddit.com/r/flambe/comments/1pamzye/these_insane_fish_orders_you_guys_ive_been_stuck/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=flamb+merge+and+cook+order+completion+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "flamb merge and cook order completion event",
+          "width": 150,
+          "height": 335,
+          "aspect_ratio": 0.4478,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:37:16.165393+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了主棋盘及上方的订单/服务目标界面，符合订单完成活动描述。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:56.955868+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/new-game-flambé-merge-cook-from-the-same-company-as-gossip-v0-mk5oj7owi3rf1.jpg?width=540&format=pjpg&auto=webp&s=a39b9760c59f3c25039ff27d9876d0e53e69eabb",
+          "caption": "NEW GAME: Flambé: Merge & Cook\" from ...",
+          "source_url": "https://www.reddit.com/r/GossipHarbor/comments/1np9erz/new_game_flambé_merge_cook_from_the_same_company/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=flamb+merge+and+cook+order+completion+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "flamb merge and cook order completion event",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:37:16.165393+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是游戏的库存（Inventory）界面，属于通用系统截图，无法确定与特定活动有关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:56.955868+00:00"
+          }
+        },
+        {
+          "url": "https://static.wikia.nocookie.net/cook-merge/images/0/09/Card_collection.png/revision/latest/scale-to-width-down/340?cb=20250418065908",
+          "caption": "Card Collection | Cook & Merge Wiki ...",
+          "source_url": "https://cook-merge.fandom.com/wiki/Card_Collection",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=flamb+merge+and+cook+order+completion+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "flamb merge and cook order completion event",
+          "width": 234,
+          "height": 215,
+          "aspect_ratio": 1.0884,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:37:16.165393+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "展示的是卡牌收集系统，虽然通常与活动挂钩，但本质属于通用的集卡玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:56.955868+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/new-game-flambé-merge-cook-from-the-same-company-as-gossip-v0-xw31y9owi3rf1.jpg?width=640&crop=smart&auto=webp&s=2dd50a16729a33fd9f81ccc27aba9fd3fdf3526b",
+          "caption": "Merge Cooking game ...",
+          "source_url": "https://www.reddit.com/r/GossipHarbor/comments/1np9erz/new_game_flambé_merge_cook_from_the_same_company/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=flamb+merge+and+cook+order+completion+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "flamb merge and cook order completion event",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:37:16.165393+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了游戏主界面，且左下角有明确的任务进度条（Tasks 0/8）及活动图标，属于活动玩法展现。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:56.955868+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/S3uRaMLqcb-2lLShiplAjdgwRazCVtMedZy4gbJ0uv-uGK3SFnxYuCNW7xrURTWLsA=w526-h296-rw",
+          "caption": "Flambé®: Merge & Cook - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.cola.game",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=flamb+merge+and+cook+order+completion+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "flamb merge and cook order completion event",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:37:16.165393+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "这是典型的商店宣传图，展示了多个场景解锁，属于通用宣传海报。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:56.955868+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "story_theme_event",
+      "display_name": "主题剧情活动 / Story-Themed Special Event",
+      "description": "以单独主题或角色包装一段较长活动，通常持续数周，强调“跟随角色经历某个主题故事并赚取奖励”。",
+      "examples": [
+        "Lauren's Arcade Adventure",
+        "Alpine Excursion"
+      ],
+      "market_research_notes": "这类活动比纯收集更重包装，适合做新场景、新角色和视觉主题，是 merge 厂商常用的高感知 live ops 层。",
+      "images": [
+        {
+          "url": "https://img.tapimg.net/market/images/9057fa937b3873d30cc1b88fb424947c.jpg?imageView2/2/w/720/h/720/q/80/format/jpg/interlace/1/ignore-error/1&t=1",
+          "caption": "Flambé: Merge & Cook Game Experience ...",
+          "source_url": "https://www.taptap.io/app/33780354",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=flamb+merge+and+cook+story+theme+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "flamb merge and cook story theme event",
+          "width": 186,
+          "height": 271,
+          "aspect_ratio": 0.6863,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:37:59.528183+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片展示了游戏的角色形象和基础核心合成玩法，但属于通用的商店宣传海报，未包含剧情活动的特定主题或玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:09.939319+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/DxEYTS_nNDbesjgAGulDTgl8V2cV42UUmeOGPei2c95XRW7GY_XgihSsaPF7rnRua18Egkd1-siIgbkVjq73Hg",
+          "caption": "Flambé®: Merge & Cook - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.cola.game",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=flamb+merge+and+cook+story+theme+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "flamb merge and cook story theme event",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:37:59.528183+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为该游戏的App图标或通用品牌宣传图，展现了主角画风，但未包含特定活动的剧情、标题或玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:09.939319+00:00"
+          }
+        },
+        {
+          "url": "https://mergedo.pro/img/gallery/1 (2).png",
+          "caption": "Flambé: Merge & Cook | Turn Ingredients ...",
+          "source_url": "https://mergedo.pro/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=flamb+merge+and+cook+story+theme+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "flamb merge and cook story theme event",
+          "width": 168,
+          "height": 299,
+          "aspect_ratio": 0.5619,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:37:59.528183+00:00",
+          "llm_image_filter": {
+            "category": 2,
+            "category_label": "无法确定是否和本游戏无关",
+            "confidence": 0.0,
+            "reason": "模型接口无法读取或接受该图片 URL，已按无法确定处理：Error code: 400 - {'error': {'message': 'Invalid URL format: https://***.pro/***/***/*** (2).png ({\"provider_name\":\"Google\"})', 'type': 'upstream_error', 'param': '', 'code': 400, 'metadata': {'provider_name': 'Google'}}, 'trace_id': '20260513173605175623280nVGhUdBe'}",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:09.939319+00:00"
+          }
+        },
+        {
+          "url": "https://img.tapimg.net/market/images/8afb4bcdf70e606967db7a4ee95f7a77.jpg",
+          "caption": "Merge Cook Latest Version for Android ...",
+          "source_url": "https://www.taptap.io/app/33780354",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=flamb+merge+and+cook+story+theme+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "flamb merge and cook story theme event",
+          "width": 321,
+          "height": 157,
+          "aspect_ratio": 2.0446,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:37:59.528183+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片展示了游戏主角和烹饪场景，属于通用的品牌宣传图或商店背景图，无法直接关联到特定的主题剧情活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:09.939319+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/UjZwYQeiBS0TYMOjfZx5_4fSQe1dhMBGP9yXoZjAq0DFgM8102u4hD2ubQnG0ERbkrlOXMZ1gFLpv3kXiNhDgf4=w526-h296-rw",
+          "caption": "Flambé®: Merge & Cook - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.cola.game",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=flamb+merge+and+cook+story+theme+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "flamb merge and cook story theme event",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:37:59.528183+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片包含游戏Logo并显示加载界面，属于该游戏的通用加载图/宣传图，但无法体现特定主题剧情活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:09.939319+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "short_live_event",
+      "display_name": "短周期直播活动 / Short Live Event",
+      "description": "持续时间较短，通常 1 周左右，围绕某个主题给玩家临时奖励和限时氛围内容。",
+      "examples": [
+        "Women's Day",
+        "Star-Crossed Confessions"
+      ],
+      "market_research_notes": "它和长线 special event 的区别主要是周期更短、主题更轻，适合维持活动密度和节庆曝光。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/DxEYTS_nNDbesjgAGulDTgl8V2cV42UUmeOGPei2c95XRW7GY_XgihSsaPF7rnRua18Egkd1-siIgbkVjq73Hg",
+          "caption": "Flambé®: Merge & Cook - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.cola.game",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=flamb+merge+and+cook+short+live+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "flamb merge and cook short live event",
+          "width": 194,
+          "height": 259,
+          "aspect_ratio": 0.749,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:38:44.201761+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为游戏的官方品牌宣传图或App图标素材，未体现特定活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:13.496813+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Aa-aFPEdd4I/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAtwqxjfAmAntU9n3bRdGL_-CcUqg",
+          "caption": "Flambe Merge Cook Energy Hacks | TikTok",
+          "source_url": "https://www.youtube.com/watch?v=Aa-aFPEdd4I",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=flamb+merge+and+cook+short+live+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "flamb merge and cook short live event",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:38:44.201761+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是包含合并、装修玩法的通用商店宣传横图，并非特定短周期活动的界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:13.496813+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/4_pxgOTBG1hcC1yU_DNXM3gPXjv7k-wozgsK9KUgbP00AuWVB1kbQDV9K0_C8vSn_Q=w526-h296-rw",
+          "caption": "Flambé®: Merge & Cook - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.cola.game",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=flamb+merge+and+cook+short+live+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "flamb merge and cook short live event",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:38:44.201761+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该图展示的是游戏的基础合成玩法截图，属于通用宣传海报。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:13.496813+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/GEFW-7o1WzilqUNHh1e2KU3TttkDXCn61eWK4qABOe6x-6VThj3Rga1BLdWJCrLt7lk=w526-h296-rw",
+          "caption": "Flambé®: Merge & Cook - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.cola.game",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=flamb+merge+and+cook+short+live+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "flamb merge and cook short live event",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:38:44.201761+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该图展示的是游戏的核心烹饪合成概念，属于通用玩法说明图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:13.496813+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/GD-Xwebe-JMlQ7KC3bVJLjVIkXEEjGVXHTwFC6B-vg3yi_L9yPL2ZIKzjrxZ16fldAomMXb08rMOo0EQMcluwA=w526-h296-rw",
+          "caption": "Flambé®: Merge & Cook - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.cola.game",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=flamb+merge+and+cook+short+live+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "flamb merge and cook short live event",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:38:44.201761+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为游戏的加载界面（Loading Screen），属于通用品牌图，未体现具体活动内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:13.496813+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "core_merge_restaurant_progression",
+      "display_name": "主棋盘经营推进 / Core Merge Restaurant Progression",
+      "description": "玩家合成食材、解锁菜谱、升级餐厅地点；虽然不是限时活动，但它是所有 live ops 的承载底盘。",
+      "examples": [
+        "recipe unlocking",
+        "restaurant building"
+      ],
+      "market_research_notes": "Flambé 的公开活动都紧贴主 merge loop，没有找到完全独立于主棋盘的大型副玩法证据。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/kqjRcLvmz0A/maxresdefault.jpg",
+          "caption": "Cook Gameplay Walkthrough Part 1 #merge ...",
+          "source_url": "https://www.youtube.com/watch?v=kqjRcLvmz0A",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=flamb+merge+and+cook+core+merge+restaurant+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "flamb merge and cook core merge restaurant progression",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:39:13.247467+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了核心玩法的棋盘界面，包含可合成的食材、任务目标和资源栏。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:17.467564+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/new-game-flambé-merge-cook-from-the-same-company-as-gossip-v0-uvckgbowi3rf1.jpg?width=640&crop=smart&auto=webp&s=5d277e79a3affb3d4f621ee5684d24ce3e2b89e4",
+          "caption": "NEW GAME: Flambé: Merge & Cook\" from ...",
+          "source_url": "https://www.reddit.com/r/GossipHarbor/comments/1np9erz/new_game_flambé_merge_cook_from_the_same_company/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=flamb+merge+and+cook+core+merge+restaurant+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "flamb merge and cook core merge restaurant progression",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:39:13.247467+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "清晰展示了游戏后期的主棋盘合成界面，包含大量进阶菜品和道具。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:17.467564+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Aa-aFPEdd4I/maxresdefault.jpg",
+          "caption": "Flambé: Merge & Cook #merge - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=Aa-aFPEdd4I",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=flamb+merge+and+cook+core+merge+restaurant+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "flamb merge and cook core merge restaurant progression",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:39:13.247467+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "这是一张多图拼接的宣传海报，展示了合成、剧情及装修，并非单一实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:17.467564+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/kqjRcLvmz0A/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AG6BIACgAqKAgwIABABGFkgYihlMA8=&rs=AOn4CLBn_k60lVjbx-bdl77Iipu1sxBRJg",
+          "caption": "Flambé®: Merge & Cook - Apps on Google Play",
+          "source_url": "https://www.youtube.com/watch?v=kqjRcLvmz0A",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=flamb+merge+and+cook+core+merge+restaurant+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "flamb merge and cook core merge restaurant progression",
+          "width": 166,
+          "height": 296,
+          "aspect_ratio": 0.5608,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:39:13.247467+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "与图1内容一致，展示了实际的合成玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:17.467564+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/CRY4umoX9qXqcVUoclZmW72SqPqIGQ-4xD5AOypGGApWpzWNTt--dxYKHKpoE83_PGb5=w526-h296-rw",
+          "caption": "Flambé®: Merge & Cook - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.cola.game",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=flamb+merge+and+cook+core+merge+restaurant+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "flamb merge and cook core merge restaurant progression",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:39:13.247467+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "这是一张菜谱展示类的宣传图，用于商店列表或活动介绍，非实时操作的玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:17.467564+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "Flambé 的公开活动证据质量比 51 高不少，已经能较稳定地归纳出 card collection、订单型 special event、剧情包装活动和短 live event 四个层次。后续如果需要继续深挖，可以再补每类活动的货币、任务入口和奖励档位。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T08:39:13.247467+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:36:17.467564+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

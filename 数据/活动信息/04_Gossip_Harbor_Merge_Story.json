@@ -1,0 +1,398 @@
+{
+  "rank": 4,
+  "name": "Gossip Harbor®: Merge & Story",
+  "source_confidence": "high",
+  "source_notes": null,
+  "collected_at": "2026-05-12T03:58:40.406Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Gossip Harbor Wiki - Events",
+      "source_type": "fandom",
+      "source_url": "https://gossip-harbor.fandom.com/wiki/Events",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "source_title": "Finding Genre Success: the Case of Gossip Harbor",
+      "source_type": "industry_analysis",
+      "source_url": "https://www.deconstructoroffun.com/blog/2024/8/19/finding-genre-success-the-case-of-gossip-harbor",
+      "fetched_url": "https://www.deconstructoroffun.com/blog/2024/8/19/finding-genre-success-the-case-of-gossip-harbor",
+      "status": 200,
+      "page_title": "Finding Genre Success: the Case of Gossip Harbor",
+      "meta_description": "Microfun is setting the bar high in the merge game world. Discover how their focus on smart monetization, keeping players engaged, and quickly adapting to the market with Gossip Harbor has made them a standout in the industry.",
+      "relevant_text_blocks": [
+        "Steal/minigame : Players get to choose between different cards for a chance to win a jackpot reward if you are lucky (Coin Master / Monopoly Go inspired)",
+        "Pass go : Players are given event currency",
+        "Known reward : Players are given the reward and amount that is on the tile (Event currency, energy, coins, or gems).",
+        "This event does require interactions outside of the core gameplay loop, but they are simple and intuitive, and contain no cannibalization risk of time spent against core gameplay.",
+        "The entire event is about getting event currency, which is used to buy items in the event shop. The event shop has a main reward that is a decoration piece that the player can use to customise an event area in the game. The final reward in the shop is an avatar picture that the player can use on their profile (profile and social systems in general sit very light in Gossip Harbor - as opposed to games like Monopoly Go where the social component is very strong).",
+        "Although the entire shop and reward can be seen, only the rewards in the current stage can be purchased.",
+        "To unlock the second category of items, players must purchase all items in the previous stage, which includes acquiring even less attractive rewards. This limited shop also ensures that players do not have to feel overwhelmed with too many options, as only the current stage rewards are presented at any given time.",
+        "Event currency cannot be directly purchased, but players can indirectly get event currency through spend by buying dice to roll on the board (note that the cost of dice increases throughout the day). This allows players to bypass some gameplay time and focus on progressing through the event more quickly.",
+        "While playing the game, it is hard to gauge the escalating costs as the game only shows the prices of the current section in the shop. As a player, you're always dealing with a clearly defined and limited requirement to concentrate on. Examining the cost distribution across stages, we can see that each stage contains the following amount per stage:",
+        "With the values above, completing stage five means you're not even halfway through the entire event, despite feeling like you've made substantial progress.",
+        "Alongside all these long-term events, there are short term progression goals through the daily and multi-day events. These come in many different forms (coined “collect events”, “energy events”, “earn coin events” above), but many of them share the same underlying goal framework of reinforcing the engagement with the core gameplay. We will now take a look at the type which we coined “earn coin event” earlier in this piece. We will first take a look at Lori’s Dough Derby (A nice touch on the story element is that players in the community like to comment when they beat this event because the event character Lori is so antagonistic).",
+        "The sawtooth wave balancing makes this event quite enjoyable to get into as the cost requirements are not constantly increasing.",
+        "The event is a single-player event with a sawtooth wave balancing that guides the player into three milestones of escalating rewards. The player collects coins in this event and once the event is completed, the player unlocks an extra challenge to layer in additional goals for the hyper engaged. The event is incredibly easy to get into given that a player can collect just one pile of gold and the first milestone is achieved already. Simple yet very engaging, while reinforcing the daily objectives as those are either gold or order completion oriented.",
+        "If we take a look at another “earn coin event”, we can look towards Ziva’s Goldrush.",
+        "These short term competition events are becoming best practice across genres",
+        "These event types, including \"collect events\" and \"energy events,\" vary significantly in structure while adhering to the core goal of enhancing gameplay engagement. Worth calling out is that most of these events do not have any direct monetization angle attached to them, but monetization is done indirectly by putting time pressure on the activities (exception to this is some of the collect events where you need items to progress on a minigame - these often at times give IAP options to shortcut getting those items). This leads us into the next section of this article: the monetization approach in Gossip Harbor.",
+        "Gossip Harbor is clearly a game that primarly focuses on in-app purchase to monetize its audience, a strategy similar to other games in the match-3 and merge genre (rewarded videos is the only ad format that exists in the game which most likely contributes 15-20% of revenue).",
+        "On the right, you can see a few examples of how these look different within and across seasons. We will take a look at two examples of themed bundles to identify how Gossip Harbor is using these bundles. The thematic hero images chosen for the offers make them visually appealing and non-intrusive for players, but there's a risk of losing clarity on the bundle's value proposition."
+      ],
+      "inferred_event_types": [
+        "battle_pass",
+        "collection_album",
+        "tournament_competition",
+        "seasonal_festival",
+        "merge_event",
+        "pvp_war",
+        "mini_game",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "http://static1.squarespace.com/static/6983d2b9cde8d50f1d1674c7/699510657f24c6220ff3e0ec/699530c58e23a82c706af054/1771385520017/1716284943024.jpeg?format=1500w",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/20663902-7239-4455-83fe-cf932fc0fe0e/DoF%2BWebsite%2BArticle%2BView%2B%281%29+%281%29.webp?format=1500w",
+          "alt": "Deconstructor of Fun",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1771385029670-AM6IP1OVFLM57NM4R391/Jesper_icon.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1771385031001-U8KB270A6JVC3UFYK04R/image16.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1771385033228-5IQ7ZD8Q8HL7R1O9FZIT/image26.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1771385034444-G56SEYR19ZQH0EGNMYOD/rev%2Bposision%2Bin%2Bthe%2Bmerge%2Bspace.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1771385035844-AZ3ZXOHOCVTIKTNQN1IJ/daily%2Brev%2Bsince%2Blaunch.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1771385038427-BSYTIBHI6XSDE1I146OF/image42.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1771385040086-I74Y3FKRJHJNLV2IE6CT/image45.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1771385041506-94QTJ0QD32OMJ61SPSC9/game%2Bcomparisons.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1771385046266-1A13DJQO56ECVUMC3Q21/game%2Boverview.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1771385048756-47LHX96H014OAF8WBXMU/simplified%2Bgame%2Bloop.png",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "event_detail_pages": [
+    {
+      "source_title": "Events",
+      "source_type": "event_detail",
+      "source_url": "https://www.deconstructoroffun.com/events",
+      "fetched_url": "https://www.deconstructoroffun.com/events",
+      "status": 200,
+      "page_title": "Events &mdash; Deconstructor of Fun",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Los Angeles - June 22",
+        "Barcelona - Sign Up to Get Notified",
+        "Cologne (Gamescom) - Sign Up to Get Notified",
+        "Limassol - Sign Up to Get Notified",
+        "Helsinki (Slush) - Sign Up to Get Notified",
+        "Istanbul - Sign Up to Get Notified",
+        "London (PGC) - Sign Up to Get Notified",
+        "San Sebastion - C-suite Cyclling Retreat",
+        "© 2026 Deconstructor of Fun",
+        "Terms & Conditions Privacy Policy Cookies"
+      ],
+      "inferred_event_types": [],
+      "images": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/20663902-7239-4455-83fe-cf932fc0fe0e/DoF%2BWebsite%2BArticle%2BView%2B%281%29+%281%29.webp?format=1500w",
+          "alt": "Deconstructor of Fun",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1778484070428-5S7ESVJVH92AA5RTSF88/San%2BMateo%2BThe%2BRoundtables%2Bby%2BDeconstructor%2Bof%2BFun.png",
+          "alt": "San Mateo - June 12",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1778484056699-C8IU8XL0KBGFPQ8QZNID/LA%2BThe%2BRoundtables%2Bby%2BDeconstructor%2Bof%2BFun-1.png",
+          "alt": "Los Angeles - June 22",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1778484079454-XKCFCYARH87NZ9S8NS4G/Seattle%2BThe%2BRoundtables%2Bby%2BDeconstructor%2Bof%2BFun-1%2B-%2BAligned.png",
+          "alt": "Seattle - August 6",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1778484090981-PEI66P1KV4IRMKZ9FLU4/unsplash-image-hVhfqhDYciU.jpg",
+          "alt": "Barcelona - Sign Up to Get Notified",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1778484095555-RR0EUXJT9YGNIN71B41F/unsplash-image-zeM4eTle8GY.jpg",
+          "alt": "Cologne (Gamescom) - Sign Up to Get Notified",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1778484153876-174T37H2P4E1UXBWUFSO/unsplash-image-Dv2n1Tv_WcI.jpg",
+          "alt": "Limassol - Sign Up to Get Notified",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1778483941869-94TDHRNUEOT5KZ6WE9RE/unsplash-image-For4352Fgwg.jpg",
+          "alt": "Helsinki (Slush) - Sign Up to Get Notified",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1778484130096-PRS2N65OI9142BTLW5XN/unsplash-image-eGocydssne4.jpg",
+          "alt": "Istanbul - Sign Up to Get Notified",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1778484115624-J7B0OENFPYDZWMEU351F/unsplash-image-Oja2ty_9ZLM.jpg",
+          "alt": "London (PGC) - Sign Up to Get Notified",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1778484106770-I2509DKPR2L5GBV01OYV/unsplash-image-4qQ8-hp4B-s.jpg",
+          "alt": "San Sebastion - C-suite Cyclling Retreat",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/e15eccfd-3134-4607-8ad5-2a0ac1c53d7a/Untitled+design+-+2026-02-11T141602.335.png",
+          "alt": "Deconstructor of Fun logo",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "event_catalog": [
+    {
+      "title": "Events &mdash; Deconstructor of Fun",
+      "url": "https://www.deconstructoroffun.com/events",
+      "discovered_from": "https://www.deconstructoroffun.com/blog/2024/8/19/finding-genre-success-the-case-of-gossip-harbor",
+      "description": "Cologne (Gamescom) - Sign Up to Get Notified",
+      "inferred_event_types": [],
+      "images": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/20663902-7239-4455-83fe-cf932fc0fe0e/DoF%2BWebsite%2BArticle%2BView%2B%281%29+%281%29.webp?format=1500w",
+          "alt": "Deconstructor of Fun",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1778484070428-5S7ESVJVH92AA5RTSF88/San%2BMateo%2BThe%2BRoundtables%2Bby%2BDeconstructor%2Bof%2BFun.png",
+          "alt": "San Mateo - June 12",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1778484056699-C8IU8XL0KBGFPQ8QZNID/LA%2BThe%2BRoundtables%2Bby%2BDeconstructor%2Bof%2BFun-1.png",
+          "alt": "Los Angeles - June 22",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1778484079454-XKCFCYARH87NZ9S8NS4G/Seattle%2BThe%2BRoundtables%2Bby%2BDeconstructor%2Bof%2BFun-1%2B-%2BAligned.png",
+          "alt": "Seattle - August 6",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1778484090981-PEI66P1KV4IRMKZ9FLU4/unsplash-image-hVhfqhDYciU.jpg",
+          "alt": "Barcelona - Sign Up to Get Notified",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1778484095555-RR0EUXJT9YGNIN71B41F/unsplash-image-zeM4eTle8GY.jpg",
+          "alt": "Cologne (Gamescom) - Sign Up to Get Notified",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "inferred_event_type_summary": [
+    "battle_pass",
+    "collection_album",
+    "merge_event",
+    "mini_game",
+    "pvp_war",
+    "seasonal_festival",
+    "store_offer",
+    "tournament_competition"
+  ],
+  "screenshots_or_images": [
+    {
+      "url": "http://static1.squarespace.com/static/6983d2b9cde8d50f1d1674c7/699510657f24c6220ff3e0ec/699530c58e23a82c706af054/1771385520017/1716284943024.jpeg?format=1500w",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://www.deconstructoroffun.com/blog/2024/8/19/finding-genre-success-the-case-of-gossip-harbor"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/20663902-7239-4455-83fe-cf932fc0fe0e/DoF%2BWebsite%2BArticle%2BView%2B%281%29+%281%29.webp?format=1500w",
+      "alt": "Deconstructor of Fun",
+      "kind": "page_image",
+      "source_url": "https://www.deconstructoroffun.com/blog/2024/8/19/finding-genre-success-the-case-of-gossip-harbor"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1771385029670-AM6IP1OVFLM57NM4R391/Jesper_icon.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.deconstructoroffun.com/blog/2024/8/19/finding-genre-success-the-case-of-gossip-harbor"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1771385031001-U8KB270A6JVC3UFYK04R/image16.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.deconstructoroffun.com/blog/2024/8/19/finding-genre-success-the-case-of-gossip-harbor"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1771385033228-5IQ7ZD8Q8HL7R1O9FZIT/image26.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.deconstructoroffun.com/blog/2024/8/19/finding-genre-success-the-case-of-gossip-harbor"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1771385034444-G56SEYR19ZQH0EGNMYOD/rev%2Bposision%2Bin%2Bthe%2Bmerge%2Bspace.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.deconstructoroffun.com/blog/2024/8/19/finding-genre-success-the-case-of-gossip-harbor"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1771385035844-AZ3ZXOHOCVTIKTNQN1IJ/daily%2Brev%2Bsince%2Blaunch.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.deconstructoroffun.com/blog/2024/8/19/finding-genre-success-the-case-of-gossip-harbor"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1771385038427-BSYTIBHI6XSDE1I146OF/image42.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.deconstructoroffun.com/blog/2024/8/19/finding-genre-success-the-case-of-gossip-harbor"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1771385040086-I74Y3FKRJHJNLV2IE6CT/image45.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.deconstructoroffun.com/blog/2024/8/19/finding-genre-success-the-case-of-gossip-harbor"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1771385041506-94QTJ0QD32OMJ61SPSC9/game%2Bcomparisons.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.deconstructoroffun.com/blog/2024/8/19/finding-genre-success-the-case-of-gossip-harbor"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1771385046266-1A13DJQO56ECVUMC3Q21/game%2Boverview.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.deconstructoroffun.com/blog/2024/8/19/finding-genre-success-the-case-of-gossip-harbor"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1771385048756-47LHX96H014OAF8WBXMU/simplified%2Bgame%2Bloop.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.deconstructoroffun.com/blog/2024/8/19/finding-genre-success-the-case-of-gossip-harbor"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1778484070428-5S7ESVJVH92AA5RTSF88/San%2BMateo%2BThe%2BRoundtables%2Bby%2BDeconstructor%2Bof%2BFun.png",
+      "alt": "San Mateo - June 12",
+      "kind": "page_image",
+      "source_url": "https://www.deconstructoroffun.com/events"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1778484056699-C8IU8XL0KBGFPQ8QZNID/LA%2BThe%2BRoundtables%2Bby%2BDeconstructor%2Bof%2BFun-1.png",
+      "alt": "Los Angeles - June 22",
+      "kind": "page_image",
+      "source_url": "https://www.deconstructoroffun.com/events"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1778484079454-XKCFCYARH87NZ9S8NS4G/Seattle%2BThe%2BRoundtables%2Bby%2BDeconstructor%2Bof%2BFun-1%2B-%2BAligned.png",
+      "alt": "Seattle - August 6",
+      "kind": "page_image",
+      "source_url": "https://www.deconstructoroffun.com/events"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1778484090981-PEI66P1KV4IRMKZ9FLU4/unsplash-image-hVhfqhDYciU.jpg",
+      "alt": "Barcelona - Sign Up to Get Notified",
+      "kind": "page_image",
+      "source_url": "https://www.deconstructoroffun.com/events"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1778484095555-RR0EUXJT9YGNIN71B41F/unsplash-image-zeM4eTle8GY.jpg",
+      "alt": "Cologne (Gamescom) - Sign Up to Get Notified",
+      "kind": "page_image",
+      "source_url": "https://www.deconstructoroffun.com/events"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1778484153876-174T37H2P4E1UXBWUFSO/unsplash-image-Dv2n1Tv_WcI.jpg",
+      "alt": "Limassol - Sign Up to Get Notified",
+      "kind": "page_image",
+      "source_url": "https://www.deconstructoroffun.com/events"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1778483941869-94TDHRNUEOT5KZ6WE9RE/unsplash-image-For4352Fgwg.jpg",
+      "alt": "Helsinki (Slush) - Sign Up to Get Notified",
+      "kind": "page_image",
+      "source_url": "https://www.deconstructoroffun.com/events"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1778484130096-PRS2N65OI9142BTLW5XN/unsplash-image-eGocydssne4.jpg",
+      "alt": "Istanbul - Sign Up to Get Notified",
+      "kind": "page_image",
+      "source_url": "https://www.deconstructoroffun.com/events"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1778484115624-J7B0OENFPYDZWMEU351F/unsplash-image-Oja2ty_9ZLM.jpg",
+      "alt": "London (PGC) - Sign Up to Get Notified",
+      "kind": "page_image",
+      "source_url": "https://www.deconstructoroffun.com/events"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/1778484106770-I2509DKPR2L5GBV01OYV/unsplash-image-4qQ8-hp4B-s.jpg",
+      "alt": "San Sebastion - C-suite Cyclling Retreat",
+      "kind": "page_image",
+      "source_url": "https://www.deconstructoroffun.com/events"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/6983d2b9cde8d50f1d1674c7/e15eccfd-3134-4607-8ad5-2a0ac1c53d7a/Untitled+design+-+2026-02-11T141602.335.png",
+      "alt": "Deconstructor of Fun logo",
+      "kind": "page_image",
+      "source_url": "https://www.deconstructoroffun.com/events"
+    }
+  ],
+  "collection_warnings": [
+    "Fetch failed: https://gossip-harbor.fandom.com/wiki/Events"
+  ]
+}

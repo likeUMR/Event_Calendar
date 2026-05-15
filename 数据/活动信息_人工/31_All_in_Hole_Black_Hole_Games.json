@@ -1,0 +1,834 @@
+{
+  "rank": 31,
+  "name": "All in Hole: Black Hole Games",
+  "manual_research_status": "done_first_pass_low_confidence",
+  "research_method": "人工查看 App Store 官方商店页、Google Play/第三方商店镜像和玩家攻略索引。未发现稳定 wiki 或官方活动帮助中心，因此只记录商店页与公开页面能直接验证的活动/运营系统。",
+  "source_pages": [
+    {
+      "title": "App Store - All in Hole: Black Hole Games",
+      "url": "https://apps.apple.com/us/app/all-in-hole/id6503284107",
+      "notes": "官方商店页明确写到 limited-time tournaments、leaderboard、crew、hearts and coins、ingredients、recipes、cake decoration、boosts、regular events and new levels；版本说明列出 WITCH / OUTDOOR / THANKSGIVING level packs 和 TREASURE PASS season。"
+    },
+    {
+      "title": "App Store - All in Hole: Black Hole Games",
+      "url": "https://apps.apple.com/us/app/all-in-hole-black-hole-games/id6503284107",
+      "notes": "同一 App 的商店页路径之一，确认开发者 HOMA GAMES、内购包含 Treasure Pass、Molly's Gift、Beginner Pack、Pro Pack、Coins 等。"
+    },
+    {
+      "title": "XGameMania - All In Hole 攻略",
+      "url": "https://xgamemania.com/all_in_hole/index.html",
+      "notes": "玩家攻略索引显示活动/关卡包名称，例如 Game On!、Love is in the Air 等；用于补充活动命名线索，具体机制仍以商店页为准。"
+    },
+    {
+      "title": "AppAdvice - All in Hole by HOMA GAMES",
+      "url": "https://appadvice.com/app/all-in-hole/6503284107",
+      "notes": "第三方商店镜像，确认游戏为 HOMA GAMES 的黑洞吞噬 puzzle。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "limited_time_tournaments",
+      "display_name": "Limited-time Tournaments / 限时锦标赛",
+      "description": "商店页明确描述玩家可以进入限时 tournaments 并冲击 leaderboard。公开网页未披露具体计分公式，合理推断与关卡完成、吞噬目标、得分或奖杯有关。",
+      "examples": [
+        "limited-time tournaments",
+        "leaderboard"
+      ],
+      "market_research_notes": "这是目前最明确的竞争活动。休闲 puzzle 用短时榜单把低压关卡转成竞争目标，适合观察轻度用户是否被排行榜拉动消耗。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/C9bF6DEb9Ppu-S8M_d6o1n0Wg7p6mwf3_pgGERHPtlt5IoRxH1V0O0bhGhdqliNivGeZ4I8vO51qxeCOu_RzS3o",
+          "caption": "All in Hole: Black Hole Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.homagames.studio.allinhole",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+limited+time+tournaments",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games limited time tournaments",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:47:22.218726+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为该游戏的App图标，属于通用品牌图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:29.447741+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/KrOrdnzCTG8/maxresdefault.jpg",
+          "caption": "Black Hole Games Gameplay (Android ...",
+          "source_url": "https://www.youtube.com/watch?v=KrOrdnzCTG8",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+limited+time+tournaments",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games limited time tournaments",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:47:22.218726+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "包含本游戏Logo及关卡演示，属于通用宣传海报，未发现限时锦标赛或排行榜信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:29.447741+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/iGJ4PCum_jjAQWAFYD5JMrEN_gTBHWfVtZ6iaaGcM3RfEsqKS8zAG1P2JRokzElHehC3=w526-h296-rw",
+          "caption": "All in Hole: Black Hole Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.homagames.studio.allinhole",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+limited+time+tournaments",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games limited time tournaments",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:47:22.218726+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示了游戏的常规玩法截图，并未体现限时锦标赛相关的排名、积分或特定UI。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:29.447741+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/76ogPfIX5E8Otsp8RomLE5QClKtpz4ZqqeoQm04aRPi0CvjGIEm8G1xq2YxueYAF5vTouWFwiZ2LYvBscKM-5Q=w648-h364-rw",
+          "caption": "All in Hole: Black Hole Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.homagames.studio.allinhole",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+limited+time+tournaments",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games limited time tournaments",
+          "width": 648,
+          "height": 364,
+          "aspect_ratio": 1.7802,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:47:22.218726+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "属于游戏的品牌/宣传插图，虽然包含角色，但并未展示活动相关信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:29.447741+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/97J-f3e39dNzpTpOcft9l8jYQfKdNFxGMYuvX0FijgT3L13eahKcxl6dg6GcGtCqiYo=w526-h296-rw",
+          "caption": "All in Hole: Black Hole Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.homagames.studio.allinhole",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+limited+time+tournaments",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games limited time tournaments",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:47:22.218726+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示了常规关卡收集玩法截图，无法确认与限时锦标赛这一特定活动类型有关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:29.447741+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "treasure_pass",
+      "display_name": "Treasure Pass / 赛季通行证",
+      "description": "App Store 版本说明写到新 Treasure Pass season starting Nov 1，内购列表也包含 Treasure Pass。公开页面未说明任务、等级和奖励，但可确认存在通行证/赛季付费活动。",
+      "examples": [
+        "Treasure Pass"
+      ],
+      "market_research_notes": "对 Homa 轻休闲产品来说，这是把关卡游玩、收集和付费奖励轨结合的核心商业化活动线索。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/C9bF6DEb9Ppu-S8M_d6o1n0Wg7p6mwf3_pgGERHPtlt5IoRxH1V0O0bhGhdqliNivGeZ4I8vO51qxeCOu_RzS3o",
+          "caption": "All in Hole: Black Hole Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.homagames.studio.allinhole",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+treasure+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games treasure pass",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:48:01.266346+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为游戏的App图标或角色头像，虽属于本游戏但未体现Treasure Pass活动内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:33.410169+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/sEBil6jMhNSQ1tlZaIureUcqXmjvmTE4g2R9m00i-IdGnwOqdkKz4XUjh_BUOvxmNA=w648-h364-rw",
+          "caption": "Black Hole Games – Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.homagames.studio.allinhole&hl=en_GB",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+treasure+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games treasure pass",
+          "width": 648,
+          "height": 364,
+          "aspect_ratio": 1.7802,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:48:01.266346+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "该图为通用品牌宣传图，展示了游戏角色和金币元素，无法确定与Treasure Pass活动的具体关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:33.410169+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/xdKElCQ9uEWux1lNZC1BPIVk42j2DABXNJ9SKtvr5lell228oNdPrrX_Duiyj0WTkJw=w526-h296-rw",
+          "caption": "All in Hole: Black Hole Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.homagames.studio.allinhole",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+treasure+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games treasure pass",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:48:01.266346+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该图展示了游戏的常规关卡玩法截图，未出现通行证奖励轨、任务列表或活动进度条。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:33.410169+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/w3gkTodNeIj4VpTI6NA-RPHR_mo44hNxyYIX_i27qO90Xjhdi2XERmhTTfUNVfs1TOo=w526-h296-rw",
+          "caption": "All in Hole: Black Hole Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.homagames.studio.allinhole",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+treasure+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games treasure pass",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:48:01.266346+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该图展示了游戏的常规消除/吞噬玩法界面，属于游戏通用截图，与通行证活动无直接证据关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:33.410169+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/76ogPfIX5E8Otsp8RomLE5QClKtpz4ZqqeoQm04aRPi0CvjGIEm8G1xq2YxueYAF5vTouWFwiZ2LYvBscKM-5Q=w648-h364-rw",
+          "caption": "All in Hole: Black Hole Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.homagames.studio.allinhole",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+treasure+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games treasure pass",
+          "width": 648,
+          "height": 364,
+          "aspect_ratio": 1.7802,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:48:01.266346+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "该图为通用海报或商店展示图，侧重于角色展示，未包含通行证（Treasure Pass）的UI特征。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:33.410169+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "level_pack_events",
+      "display_name": "Themed Level Packs / 主题关卡包",
+      "description": "版本说明列出按日期开放的新关卡包，每个包 100 个主题关卡，例如 Halloween、Outdoor、Thanksgiving。玩家通过更新版本获得新包和新事件。",
+      "examples": [
+        "WITCH Pack",
+        "OUTDOOR Pack",
+        "THANKSGIVING Pack",
+        "Love is in the Air",
+        "Game On!"
+      ],
+      "market_research_notes": "内容更新本身就是活动节奏：每两周左右一组 100 关，主题包装承担节日/季节运营。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/C9bF6DEb9Ppu-S8M_d6o1n0Wg7p6mwf3_pgGERHPtlt5IoRxH1V0O0bhGhdqliNivGeZ4I8vO51qxeCOu_RzS3o",
+          "caption": "All in Hole: Black Hole Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.homagames.studio.allinhole",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+level+pack+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games level pack events",
+          "width": 177,
+          "height": 284,
+          "aspect_ratio": 0.6232,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:48:35.750286+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为游戏的App图标，属于通用品牌图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:37.760450+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/76ogPfIX5E8Otsp8RomLE5QClKtpz4ZqqeoQm04aRPi0CvjGIEm8G1xq2YxueYAF5vTouWFwiZ2LYvBscKM-5Q=w648-h364-rw",
+          "caption": "All in Hole: Black Hole Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.homagames.studio.allinhole",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+level+pack+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games level pack events",
+          "width": 648,
+          "height": 364,
+          "aspect_ratio": 1.7802,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:48:35.750286+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "图片展示了迪斯科/音乐主题的游戏角色和场景，符合主题关卡包的季节性运营特征，但属于无UI的宣传海报。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:37.760450+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/zpVfG2S_bKTEWjfzOWq_b6qkfTcGBdFfCXGdwKOFbc4smPZt1Y5w64aE2h3SqGW0auo=w526-h296-rw",
+          "caption": "All in Hole: Black Hole Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.homagames.studio.allinhole",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+level+pack+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games level pack events",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:48:35.750286+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了实际玩法界面，包含关卡资源收集目标、黑洞大小进度等UI，且西瓜主题符合主题关卡描述。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:37.760450+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/uOzwNxAg04s/maxresdefault.jpg",
+          "caption": "All in Hole: Black Hole Games - Level ...",
+          "source_url": "https://www.youtube.com/watch?v=uOzwNxAg04s",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+level+pack+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games level pack events",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:48:35.750286+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "带有游戏标题、关卡数（Level 391-400）的宣传封面图，虽然提及关卡更新，但属于引导性质的宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:37.760450+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/uxcziZx0OICPHLNJ_Xh3T33SnBK29mL6NRPgi25BneScAQeG1yt9RsjUf5ErWQx_uL4=w526-h296-rw",
+          "caption": "Hole Em All: Black Hole Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=and.brainworks.holeemall",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+level+pack+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games level pack events",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:48:35.750286+00:00",
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.95,
+            "reason": "图片来自竞品 'Hole Em All'，且包名与 game_name 不符，属于完全无关的游戏。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:37.760450+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "crew_team_system",
+      "display_name": "Crew / Team Bonuses / 团队系统",
+      "description": "商店页写到玩家可以 join a crew，与队友聊天、分享 hearts 和 coins，并获得团队 bonus。未发现独立团队活动页，但团队资源互助是已确认系统。",
+      "examples": [
+        "Crew",
+        "share hearts",
+        "share coins",
+        "team bonuses"
+      ],
+      "market_research_notes": "轻度 puzzle 中的团队系统通常用于互赠生命/资源和活动协作。此处先记录为团队互助系统，后续真机确认是否有 team chest/team tournament。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/C9bF6DEb9Ppu-S8M_d6o1n0Wg7p6mwf3_pgGERHPtlt5IoRxH1V0O0bhGhdqliNivGeZ4I8vO51qxeCOu_RzS3o",
+          "caption": "All in Hole: Black Hole Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.homagames.studio.allinhole",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+crew+team+system",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games crew team system",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:51:16.318732+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片为游戏的App图标或品牌头像，属于游戏相关但非特定团队活动内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:42.018411+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/C9bF6DEb9Ppu-S8M_d6o1n0Wg7p6mwf3_pgGERHPtlt5IoRxH1V0O0bhGhdqliNivGeZ4I8vO51qxeCOu_RzS3o=w600-h300-pc0xffffff-pd",
+          "caption": "All in Hole: Black Hole Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.homagames.studio.allinhole",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+crew+team+system",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games crew team system",
+          "width": 600,
+          "height": 300,
+          "aspect_ratio": 2.0,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:51:16.318732+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片为游戏App图标，属于游戏通用品牌图，与团队活动无直接关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:42.018411+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/EJbxydzZ4pc/maxresdefault.jpg",
+          "caption": "Blackhole Puzzle Game ...",
+          "source_url": "https://www.youtube.com/watch?v=EJbxydzZ4pc",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+crew+team+system",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games crew team system",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:51:16.318732+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示了游戏关卡基础玩法界面，未见团队系统、聊天或任何团队互助相关的UI元素。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:42.018411+00:00"
+          }
+        },
+        {
+          "url": "https://cdn.soft112.com/all-in-hole/00/00/0H/Y3/00000HY3ZL/pad_screenshot_E4D4E8U8K4.webp",
+          "caption": "All in Hole: Black Hole Games 8.3.3 ...",
+          "source_url": "https://all-in-hole.soft112.com/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+crew+team+system",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games crew team system",
+          "width": 168,
+          "height": 300,
+          "aspect_ratio": 0.56,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:51:16.318732+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示的是游戏的单人核心玩法关卡截图，与描述中的团队/组队系统无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:42.018411+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/97J-f3e39dNzpTpOcft9l8jYQfKdNFxGMYuvX0FijgT3L13eahKcxl6dg6GcGtCqiYo=w526-h296-rw",
+          "caption": "All in Hole: Black Hole Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.homagames.studio.allinhole",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+crew+team+system",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games crew team system",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:51:16.318732+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示的是游戏的单人关卡目标和核心玩法，无团队互助或团队系统界面的证据。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:42.018411+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "recipe_and_cake_collection",
+      "display_name": "Ingredients / Recipes / Cake Decoration",
+      "description": "商店页写到玩家可 collect ingredients、unlock recipes、decorate cakes。该系统看起来是关卡外长期收集/装修目标，公开资料未说明是否有单独限时活动版本。",
+      "examples": [
+        "ingredients",
+        "recipes",
+        "decorate cakes"
+      ],
+      "market_research_notes": "这是 All in Hole 的轻 meta。它把吞噬关卡奖励转成收集和装饰推进，类似休闲 puzzle 的长期 album/renovation 层。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/Ytlwi5QqiAI/maxresdefault.jpg",
+          "caption": "Cakes Unlocked Level 50 - All In Hole ...",
+          "source_url": "https://www.youtube.com/watch?v=Ytlwi5QqiAI",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+recipe+and+cake+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games recipe and cake collection",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:52:28.566900+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示了游戏的核心吞噬玩法界面，属于本游戏，但未展示蛋糕装饰、食谱收集等特定Meta活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:46.523707+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/fOWwQTh7-8yPOcP5nDd9WdvnCiPVl-LJ_YR8ymjv66WHVcg8FShTGDXdpV81YTuxzTaxmfDfBivIdxurDog8",
+          "caption": "Hole Em All: Black Hole Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=and.brainworks.holeemall",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+recipe+and+cake+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games recipe and cake collection",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:52:28.566900+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "该图为游戏的宣传素材或商店图，虽然出现了西瓜等食材，但其本质是核心玩法展示，而非Meta层活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:46.523707+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Ytlwi5QqiAI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBqrNxgBeQWShgsRyu2F0D4PX8I0Q",
+          "caption": "Hole Em All: Black Hole Games - Apps on ...",
+          "source_url": "https://www.youtube.com/watch?v=Ytlwi5QqiAI",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+recipe+and+cake+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games recipe and cake collection",
+          "width": 194,
+          "height": 259,
+          "aspect_ratio": 0.749,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:52:28.566900+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "与图1内容一致，展示的是核心关卡内的吞噬玩法，与特定的蛋糕装饰活动无直接展示关系。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:46.523707+00:00"
+          }
+        },
+        {
+          "url": "https://apps.apple.com//assets/images/share/app-store.png",
+          "caption": "All in Hole: Black Hole Games App - App ...",
+          "source_url": "https://apps.apple.com/uy/app/all-in-hole-black-hole-games/id6503284107",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+recipe+and+cake+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games recipe and cake collection",
+          "width": 310,
+          "height": 163,
+          "aspect_ratio": 1.9018,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:52:28.566900+00:00",
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 1.0,
+            "reason": "图片仅为App Store的通用图标，与游戏具体内容及活动完全无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:46.523707+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/uxcziZx0OICPHLNJ_Xh3T33SnBK29mL6NRPgi25BneScAQeG1yt9RsjUf5ErWQx_uL4=w526-h296-rw",
+          "caption": "marshmallow buttercream filling ...",
+          "source_url": "https://play.google.com/store/apps/details?id=and.brainworks.holeemall",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+recipe+and+cake+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games recipe and cake collection",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:52:28.566900+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.7,
+            "reason": "虽然画面主要还是吞噬玩法，但收集物为特定的食材（疑似糖果/装饰物），且图注提到了奶油填充（buttercream filling），与活动描述的蛋糕制作/食谱收集强相关，属于玩法界面的展现。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:46.523707+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "boosts_and_resource_offers",
+      "display_name": "Boosts / Coins / Packs / 资源礼包",
+      "description": "商店页和内购列表显示玩家可购买 coins、Beginner Pack、Small Pack、Medium Pack、Pro Pack、Molly's Gift、Molly's Offer 等；玩法说明还提到 energy and time helpers。",
+      "examples": [
+        "Coins",
+        "Beginner Pack",
+        "Small Pack",
+        "Medium Pack",
+        "Pro Pack",
+        "Molly's Gift",
+        "Molly's Offer",
+        "energy helpers",
+        "time helpers"
+      ],
+      "market_research_notes": "限时礼包和 boost 是关卡失败、锦标赛冲榜和通行证推进的商业化支撑。",
+      "images": []
+    },
+    {
+      "type": "regular_events",
+      "display_name": "Regular Events / 常规活动",
+      "description": "App Store 文案写到 regular events and new levels，但没有公开活动目录。此处只作为已确认的泛活动入口记录，不拆出未经验证的活动名。",
+      "examples": [
+        "regular events"
+      ],
+      "market_research_notes": "程序化采集很难从商店页之外补全该产品活动；下一轮建议用真机、App Store in-app events 和广告素材补采。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/C9bF6DEb9Ppu-S8M_d6o1n0Wg7p6mwf3_pgGERHPtlt5IoRxH1V0O0bhGhdqliNivGeZ4I8vO51qxeCOu_RzS3o=w600-h300-pc0xffffff-pd",
+          "caption": "All in Hole: Black Hole Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.homagames.studio.allinhole",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+regular+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games regular events",
+          "width": 600,
+          "height": 300,
+          "aspect_ratio": 2.0,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:54:22.907502+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片为游戏的App图标或通用品牌视觉图，未涉及具体活动内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:50.085102+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/C9bF6DEb9Ppu-S8M_d6o1n0Wg7p6mwf3_pgGERHPtlt5IoRxH1V0O0bhGhdqliNivGeZ4I8vO51qxeCOu_RzS3o",
+          "caption": "All in Hole: Black Hole Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.homagames.studio.allinhole",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+regular+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games regular events",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:54:22.907502+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片为游戏的App图标或通用品牌视觉图，未涉及具体活动内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:50.085102+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/97J-f3e39dNzpTpOcft9l8jYQfKdNFxGMYuvX0FijgT3L13eahKcxl6dg6GcGtCqiYo=w526-h296-rw",
+          "caption": "All in Hole: Black Hole Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.homagames.studio.allinhole",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+regular+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games regular events",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:54:22.907502+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片展示的是游戏的常规玩法关卡，属于通用商店截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:50.085102+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/v67UepjUqkI/maxresdefault.jpg",
+          "caption": "All in Hole: Black Hole Games - Levels ...",
+          "source_url": "https://www.youtube.com/watch?v=v67UepjUqkI",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+regular+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games regular events",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:54:22.907502+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "图片为YouTube视频封面，虽然展示了关卡内容，但属于通用宣传海报性质。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:50.085102+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/keAxrP-6NjYddTOoS61ygnZPcyhwVnjgYCoXBBpvCtp_QsPfEK-gUvhw0dnUB2nkvwM=w526-h296-rw",
+          "caption": "All in Hole: Black Hole Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.homagames.studio.allinhole",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=all+in+hole+black+hole+games+regular+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "all in hole black hole games regular events",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:54:22.907502+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.8,
+            "reason": "图片展示了排行榜界面（Leaderboard），属于描述中的常规活动（regular events）范畴内的实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:50.085102+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "All in Hole 没有找到 wiki/官方活动帮助中心。本轮覆盖商店页可确认的 tournaments、Treasure Pass、主题关卡包、crew、recipe/cake meta、礼包和常规活动；具体活动规则仍需真机验证。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T06:54:22.907502+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:21:50.085102+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

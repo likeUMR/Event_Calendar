@@ -1,0 +1,482 @@
+[
+  {
+    "rank": 1,
+    "name": "MONOPOLY GO!",
+    "is_ad": true,
+    "overall_rank": 7,
+    "publisher": "Scopely, Inc.",
+    "change": 2
+  },
+  {
+    "rank": 2,
+    "name": "Royal Match",
+    "is_ad": true,
+    "overall_rank": 9,
+    "publisher": "Dream Games",
+    "change": 1
+  },
+  {
+    "rank": 3,
+    "name": "Candy Crush Saga",
+    "is_ad": true,
+    "overall_rank": 14,
+    "publisher": "King",
+    "change": 1
+  },
+  {
+    "rank": 4,
+    "name": "Gossip Harbor®: Merge & Story",
+    "is_ad": true,
+    "overall_rank": 17,
+    "publisher": "Microfun Limited",
+    "change": 2
+  },
+  {
+    "rank": 5,
+    "name": "Last War:Survival",
+    "is_ad": false,
+    "overall_rank": 19,
+    "publisher": "FUNFLY PTE. LTD.",
+    "change": null
+  },
+  {
+    "rank": 6,
+    "name": "Kingshot",
+    "is_ad": true,
+    "overall_rank": 21,
+    "publisher": "Century Games Pte. Ltd.",
+    "change": null
+  },
+  {
+    "rank": 7,
+    "name": "Royal Kingdom",
+    "is_ad": true,
+    "overall_rank": 27,
+    "publisher": "Dream Games",
+    "change": 1
+  },
+  {
+    "rank": 8,
+    "name": "Township",
+    "is_ad": true,
+    "overall_rank": 29,
+    "publisher": "Playrix",
+    "change": 1
+  },
+  {
+    "rank": 9,
+    "name": "Whiteout Survival",
+    "is_ad": true,
+    "overall_rank": 34,
+    "publisher": "Century Games Pte. Ltd.",
+    "change": null
+  },
+  {
+    "rank": 10,
+    "name": "Toon Blast",
+    "is_ad": true,
+    "overall_rank": 40,
+    "publisher": "Peak Games",
+    "change": null
+  },
+  {
+    "rank": 11,
+    "name": "Pixel Flow!",
+    "is_ad": true,
+    "overall_rank": 41,
+    "publisher": "Loom Games Oyun Yazilim ve Pazarlama Anonim Sirketi",
+    "change": null
+  },
+  {
+    "rank": 12,
+    "name": "Last Z: Survival Shooter",
+    "is_ad": true,
+    "overall_rank": 42,
+    "publisher": "Omnilojo Pte Ltd",
+    "change": 1
+  },
+  {
+    "rank": 13,
+    "name": "Free Fire: Undersea Mystery",
+    "is_ad": false,
+    "overall_rank": 44,
+    "publisher": "GARENA INTERNATIONAL I PRIVATE LIMITED",
+    "change": 1
+  },
+  {
+    "rank": 14,
+    "name": "Tasty Travels: Merge Game",
+    "is_ad": true,
+    "overall_rank": 46,
+    "publisher": "Century Games Pte. Ltd.",
+    "change": null
+  },
+  {
+    "rank": 15,
+    "name": "Match Factory!",
+    "is_ad": true,
+    "overall_rank": 47,
+    "publisher": "Peak Games",
+    "change": null
+  },
+  {
+    "rank": 16,
+    "name": "Coin Master",
+    "is_ad": true,
+    "overall_rank": 49,
+    "publisher": "Moon Active",
+    "change": null
+  },
+  {
+    "rank": 17,
+    "name": "Gardenscapes",
+    "is_ad": true,
+    "overall_rank": 51,
+    "publisher": "Playrix",
+    "change": null
+  },
+  {
+    "rank": 18,
+    "name": "Pokémon GO",
+    "is_ad": true,
+    "overall_rank": 55,
+    "publisher": "Niantic, Inc.",
+    "change": 1
+  },
+  {
+    "rank": 19,
+    "name": "Merge Cooking®",
+    "is_ad": true,
+    "overall_rank": 62,
+    "publisher": "Happibits",
+    "change": 2
+  },
+  {
+    "rank": 20,
+    "name": "Disney Solitaire",
+    "is_ad": true,
+    "overall_rank": 65,
+    "publisher": "SuperPlay",
+    "change": 2
+  },
+  {
+    "rank": 21,
+    "name": "Homescapes: Puzzle & Design",
+    "is_ad": true,
+    "overall_rank": 68,
+    "publisher": "Playrix",
+    "change": 1
+  },
+  {
+    "rank": 22,
+    "name": "Brawl Stars",
+    "is_ad": false,
+    "overall_rank": 73,
+    "publisher": "Supercell",
+    "change": null
+  },
+  {
+    "rank": 23,
+    "name": "Evony",
+    "is_ad": true,
+    "overall_rank": 74,
+    "publisher": "TOP GAMES INC.",
+    "change": 3
+  },
+  {
+    "rank": 24,
+    "name": "Clash of Clans",
+    "is_ad": true,
+    "overall_rank": 75,
+    "publisher": "Supercell",
+    "change": 1
+  },
+  {
+    "rank": 25,
+    "name": "NYT Games: Wordle & Crossword",
+    "is_ad": true,
+    "overall_rank": 76,
+    "publisher": "The New York Times Company",
+    "change": 6
+  },
+  {
+    "rank": 26,
+    "name": "Fishdom",
+    "is_ad": true,
+    "overall_rank": 77,
+    "publisher": "Playrix",
+    "change": 3
+  },
+  {
+    "rank": 27,
+    "name": "Magic Sort!",
+    "is_ad": true,
+    "overall_rank": 80,
+    "publisher": "Grand Games A.Ş.",
+    "change": null
+  },
+  {
+    "rank": 28,
+    "name": "Jackpot Party - Casino Slots",
+    "is_ad": true,
+    "overall_rank": 81,
+    "publisher": "Phantom EFX, Inc.",
+    "change": 4
+  },
+  {
+    "rank": 29,
+    "name": "Lightning Link Casino Slots",
+    "is_ad": true,
+    "overall_rank": 84,
+    "publisher": "Product Madness",
+    "change": 1
+  },
+  {
+    "rank": 30,
+    "name": "Pokémon TCG Pocket",
+    "is_ad": true,
+    "overall_rank": 87,
+    "publisher": "The Pokemon Company",
+    "change": 2
+  },
+  {
+    "rank": 31,
+    "name": "All in Hole: Black Hole Games",
+    "is_ad": true,
+    "overall_rank": 88,
+    "publisher": "HOMA GAMES",
+    "change": 3
+  },
+  {
+    "rank": 32,
+    "name": "Cashman Casino Slots Games",
+    "is_ad": true,
+    "overall_rank": 94,
+    "publisher": "Product Madness",
+    "change": 1
+  },
+  {
+    "rank": 33,
+    "name": "Call of Duty®: Mobile",
+    "is_ad": false,
+    "overall_rank": 95,
+    "publisher": "Activision Publishing, Inc.",
+    "change": 4
+  },
+  {
+    "rank": 34,
+    "name": "Travel Town - Merge Adventure",
+    "is_ad": true,
+    "overall_rank": 100,
+    "publisher": "Moon Active",
+    "change": 3
+  },
+  {
+    "rank": 35,
+    "name": "Clash Royale",
+    "is_ad": false,
+    "overall_rank": 104,
+    "publisher": "Supercell",
+    "change": 1
+  },
+  {
+    "rank": 36,
+    "name": "Candy Crush Soda Saga",
+    "is_ad": true,
+    "overall_rank": 106,
+    "publisher": "King",
+    "change": 3
+  },
+  {
+    "rank": 37,
+    "name": "Block Out! - Color Sort Puzzle",
+    "is_ad": false,
+    "overall_rank": 108,
+    "publisher": "Grand Games A.Ş.",
+    "change": 2
+  },
+  {
+    "rank": 38,
+    "name": "Screwdom",
+    "is_ad": true,
+    "overall_rank": 111,
+    "publisher": "Zego Global Pte Ltd",
+    "change": null
+  },
+  {
+    "rank": 39,
+    "name": "Color Block Jam",
+    "is_ad": true,
+    "overall_rank": 113,
+    "publisher": "Rollic Games",
+    "change": 2
+  },
+  {
+    "rank": 40,
+    "name": "Age of Origins:Tower Defense",
+    "is_ad": true,
+    "overall_rank": 115,
+    "publisher": "Hong Kong Ke Mo software Co., Limited",
+    "change": 4
+  },
+  {
+    "rank": 41,
+    "name": "Total Battle: Strategy Game",
+    "is_ad": true,
+    "overall_rank": 119,
+    "publisher": "Scorewarrior",
+    "change": 11
+  },
+  {
+    "rank": 42,
+    "name": "Invincible: Guarding the Globe",
+    "is_ad": true,
+    "overall_rank": 120,
+    "publisher": "Ubisoft",
+    "change": 2
+  },
+  {
+    "rank": 43,
+    "name": "Free Fire MAX",
+    "is_ad": false,
+    "overall_rank": 121,
+    "publisher": "GARENA INTERNATIONAL I PRIVATE LIMITED",
+    "change": 3
+  },
+  {
+    "rank": 44,
+    "name": "Love and Deepspace",
+    "is_ad": true,
+    "overall_rank": 122,
+    "publisher": "INFOLD PTE. LTD.",
+    "change": 2
+  },
+  {
+    "rank": 45,
+    "name": "Merge Mansion: Puzzles & Story",
+    "is_ad": true,
+    "overall_rank": 123,
+    "publisher": "Metacore Games Oy",
+    "change": 2
+  },
+  {
+    "rank": 46,
+    "name": "Dark War:Survival",
+    "is_ad": true,
+    "overall_rank": 126,
+    "publisher": "Omnilojo Pte Ltd",
+    "change": 1
+  },
+  {
+    "rank": 47,
+    "name": "Toy Blast",
+    "is_ad": true,
+    "overall_rank": 130,
+    "publisher": "Peak Games",
+    "change": 9
+  },
+  {
+    "rank": 48,
+    "name": "Marble Sort!",
+    "is_ad": true,
+    "overall_rank": 131,
+    "publisher": "Voodoo",
+    "change": 5
+  },
+  {
+    "rank": 49,
+    "name": "Bingo Blitz™ - BINGO Games",
+    "is_ad": true,
+    "overall_rank": 134,
+    "publisher": "Playtika Santa Monica, LLC",
+    "change": 9
+  },
+  {
+    "rank": 50,
+    "name": "Tiles Survive!",
+    "is_ad": true,
+    "overall_rank": 135,
+    "publisher": "FunPlus International AG",
+    "change": 1
+  },
+  {
+    "rank": 51,
+    "name": "Triple Match City",
+    "is_ad": true,
+    "overall_rank": 136,
+    "publisher": "Breeze Games L.L.C-FZ",
+    "change": 8
+  },
+  {
+    "rank": 52,
+    "name": "Flambé®: Merge and Cook",
+    "is_ad": true,
+    "overall_rank": 138,
+    "publisher": "Microfun Limited",
+    "change": 5
+  },
+  {
+    "rank": 53,
+    "name": "Solitaire Associations Journey",
+    "is_ad": true,
+    "overall_rank": 139,
+    "publisher": "Hitapps Games LTD",
+    "change": 2
+  },
+  {
+    "rank": 54,
+    "name": "Quick Hit Casino - Vegas Slots",
+    "is_ad": true,
+    "overall_rank": 140,
+    "publisher": "Appchi Media Ltd",
+    "change": 6
+  },
+  {
+    "rank": 55,
+    "name": "MapleStory : Idle RPG",
+    "is_ad": true,
+    "overall_rank": 141,
+    "publisher": "NEXON Company",
+    "change": 16
+  },
+  {
+    "rank": 56,
+    "name": "Yarn Loop: Knit Puzzle",
+    "is_ad": true,
+    "overall_rank": 143,
+    "publisher": "Combo Games",
+    "change": 4
+  },
+  {
+    "rank": 57,
+    "name": "Coin Master - Board Adventure",
+    "is_ad": true,
+    "overall_rank": 145,
+    "publisher": "Moon Active",
+    "change": 11
+  },
+  {
+    "rank": 58,
+    "name": "Star Wars™: Galaxy of Heroes",
+    "is_ad": true,
+    "overall_rank": 148,
+    "publisher": "Electronic Arts",
+    "change": 30
+  },
+  {
+    "rank": 59,
+    "name": "EA SPORTS FC Soccer Mobile 26",
+    "is_ad": true,
+    "overall_rank": 150,
+    "publisher": "Electronic Arts",
+    "change": 9
+  },
+  {
+    "rank": 60,
+    "name": "Top Heroes: Kingdom Saga",
+    "is_ad": true,
+    "overall_rank": 151,
+    "publisher": "River Game HK Limited",
+    "change": 9
+  }
+]

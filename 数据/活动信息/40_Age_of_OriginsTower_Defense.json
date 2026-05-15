@@ -1,0 +1,840 @@
+{
+  "rank": 40,
+  "name": "Age of Origins:Tower Defense",
+  "source_confidence": "medium",
+  "source_notes": null,
+  "collected_at": "2026-05-12T04:02:27.924Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Age of Origins Wiki",
+      "source_type": "fandom",
+      "source_url": "https://age-of-origins.fandom.com/wiki/Age_of_Origins_Wiki",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "source_title": "Age of Origins Official",
+      "source_type": "official",
+      "source_url": "https://www.camelgames.com/game/Age-of-Origins",
+      "fetched_url": "https://www.camelgames.com/",
+      "status": 200,
+      "page_title": "LATEST NEWS ARTICLES",
+      "meta_description": "Camel Games is an experienced developer and operator of high-quality mobile games. Its games are available on both Android and iOS and are enjoyed by players from over 150 different countries and regions. It is also one of the earliest Chinese mobile game companies to pioneer the overseas market.",
+      "relevant_text_blocks": [
+        "Update of User Agreement and Privacy Policy for Hong Kong Ke Mo Software Co., Ltd.'s Mobile Games in Japan",
+        "Age of Origins: What you need to know about the new Warplane system",
+        "Age of Origins: Everything you need to know about the festive Christmas event",
+        "‘Age of Origins’ – Taking a Look at Why the Post-Apocalyptic SLG is So Popular",
+        "Camel Games is an experienced developer and operator of online mobile games. Using 3D modeling technique, with independent research on developing games with high performance and visual splendour. As of 2021, Camel Games have released more than 20 games that are available for users from 150+ countries and districts, with a user base of 120 million. With its technological strength, core resources, clear market strategy, strong execution and excellent development team, Camel Games will continue to bring high-quality games, providing players with various expectations and excellent gameplay experience.",
+        "RESIST BAD GAMES AND REFUSE PIRATED GAMES. PAY ATTENTION TO SELF-PROTECTION AND BEWARE OF BEING DECEIVED.",
+        "MODERATE GAME BENEFITS THE BRAIN. ADDICTED TO THE GAME BEVERAGES. ARRANGE TIME REASONABLY AND ENJOY A HEALTHY LIFE.",
+        "&copy;CAMEL GAMES, ALL RIGHTS RESERVED"
+      ],
+      "inferred_event_types": [
+        "team_alliance",
+        "seasonal_festival",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://webpic.camelgames.com/games/image-1660100977806.jpg",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:09:42.973897+00:00",
+            "load_time_ms": 5049,
+            "long_load": true,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1233,
+            "natural_height": 682,
+            "content_type": "image/jpeg",
+            "current_src": "https://webpic.camelgames.com/games/image-1660100977806.jpg"
+          }
+        },
+        {
+          "url": "https://webpic.camelgames.com/games/image-1660100856135.png",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:09:43.871195+00:00",
+            "load_time_ms": 892,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 555,
+            "natural_height": 258,
+            "content_type": "image/png",
+            "current_src": "https://webpic.camelgames.com/games/image-1660100856135.png"
+          }
+        },
+        {
+          "url": "https://webpic.camelgames.com/games/image-1620625912506.jpg",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:09:44.618947+00:00",
+            "load_time_ms": 743,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1233,
+            "natural_height": 682,
+            "content_type": "image/jpeg",
+            "current_src": "https://webpic.camelgames.com/games/image-1620625912506.jpg"
+          }
+        },
+        {
+          "url": "https://webpic.camelgames.com/games/image-1620626030964.png",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:09:45.457299+00:00",
+            "load_time_ms": 833,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 555,
+            "natural_height": 258,
+            "content_type": "image/png",
+            "current_src": "https://webpic.camelgames.com/games/image-1620626030964.png"
+          }
+        },
+        {
+          "url": "https://webpic.camelgames.com/games/image-1620627165462.jpg",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:09:46.822660+00:00",
+            "load_time_ms": 1358,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1233,
+            "natural_height": 682,
+            "content_type": "image/jpeg",
+            "current_src": "https://webpic.camelgames.com/games/image-1620627165462.jpg"
+          }
+        },
+        {
+          "url": "https://webpic.camelgames.com/games/image-1620627178904.png",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:09:47.664786+00:00",
+            "load_time_ms": 837,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 555,
+            "natural_height": 258,
+            "content_type": "image/png",
+            "current_src": "https://webpic.camelgames.com/games/image-1620627178904.png"
+          }
+        },
+        {
+          "url": "https://webpic.camelgames.com/article/image-1695892605025.jpg",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:09:48.412662+00:00",
+            "load_time_ms": 743,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1300,
+            "natural_height": 650,
+            "content_type": "image/jpeg",
+            "current_src": "https://webpic.camelgames.com/article/image-1695892605025.jpg"
+          }
+        },
+        {
+          "url": "https://webpic.camelgames.com/article/image-1679464493389.jpg",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:09:49.240119+00:00",
+            "load_time_ms": 822,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1300,
+            "natural_height": 650,
+            "content_type": "image/jpeg",
+            "current_src": "https://webpic.camelgames.com/article/image-1679464493389.jpg"
+          }
+        },
+        {
+          "url": "https://webpic.camelgames.com/article/image-1673517579311.jpg",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:09:50.351710+00:00",
+            "load_time_ms": 1106,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1300,
+            "natural_height": 650,
+            "content_type": "image/jpeg",
+            "current_src": "https://webpic.camelgames.com/article/image-1673517579311.jpg"
+          }
+        },
+        {
+          "url": "https://webpic.camelgames.com/article/image-1652943065108.jpg",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:09:51.114204+00:00",
+            "load_time_ms": 757,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 628,
+            "content_type": "image/jpeg",
+            "current_src": "https://webpic.camelgames.com/article/image-1652943065108.jpg"
+          }
+        }
+      ]
+    }
+  ],
+  "event_detail_pages": [
+    {
+      "source_title": "Age of Origins: Everything you need to know about the festive Christmas event",
+      "source_type": "event_detail",
+      "source_url": "https://www.camelgames.com/article/new17",
+      "fetched_url": "https://www.camelgames.com/article/new17",
+      "status": 200,
+      "page_title": "Age of Origins: Everything you need to know about the festive Christmas event",
+      "meta_description": "Camel Games is an experienced developer and operator of high-quality mobile games. Its games are available on both Android and iOS and are enjoyed by players from over 150 different countries and regions. It is also one of the earliest Chinese mobile game companies to pioneer the overseas market.",
+      "relevant_text_blocks": [
+        "The zombie apocalypse may be all about the gloom and doom, but who's to say you can't inject a little holiday cheer into the end of the world? Camel Games certainly begs to differ with the string of Christmas-themed events lined up for Age of Origins this month, and we've got the lowdown on what you can expect all season.",
+        "Christmas Gala Parade",
+        "Because even the most hardworking commanders need to take a quick breather every now and then, Age of Origins is holding a Monopoly-esque mini-game to let players blow off some steam while reaping rewards at the same time. The Christmas Gala Parade exclusive event sees you tapping to use dice to move across the parade. When you land on a particular square after your move is over, you can score plenty of goodies based on that square or trigger a special incident.",
+        "The event lets you earn gala coins, which you can then use to claim prizes depending on the required points. You can even score some special island decor when you clear a full parade lap.",
+        "Grinches are pretty much everywhere, even when the apocalypse is at hand. Some pesky troublemakers have stolen gifts throughout the land, and it's up to the players to eliminate zombies to earn the \"Christmas Wreath\" event item they can use to decorate their Christmas tree for extra resources.",
+        "Who doesn't love daily rewards? The Benefits Card, once upgraded, can offer players a free reward every day for seven days. This includes an exclusive island decoration to help you max out your holiday spirit.",
+        "On the other hand, the Christmas Medal and the Quest Bingo can reward you with resources, speed-ups, gold, and city fireworks when you complete certain event quests.",
+        "Finally, the second skin for Titan \"Source Spirit\" is joining the fray. The Ghost Sword S can be obtained via the Duel of Dominance event, sporting a cool Japanese warrior vibe that combines Eastern and Western aesthetics. The skin can boost attack power for the Titan to help you with survival.",
+        "New players that join the game before 20th January 2023 can receive some cool rewards to get started by redeeming the following code: pocketgamer2212."
+      ],
+      "inferred_event_types": [
+        "collection_album",
+        "team_alliance",
+        "seasonal_festival",
+        "pve_boss",
+        "pvp_war",
+        "mini_game",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "https://webpic.camelgames.com/article/image-1673517579311.jpg?Expires=1778565752&Signature=yJlVAccTASbZ%2BG5jenyICBjk4nI%3D",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:09:51.982443+00:00",
+            "load_time_ms": 863,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1300,
+            "natural_height": 650,
+            "content_type": "image/jpeg",
+            "current_src": "https://webpic.camelgames.com/article/image-1673517579311.jpg?Expires=1778565752&Signature=yJlVAccTASbZ%2BG5jenyICBjk4nI%3D"
+          }
+        },
+        {
+          "url": "https://webpic.camelgames.com/article/image-1673517717502.jpg",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:09:52.769711+00:00",
+            "load_time_ms": 782,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 428,
+            "content_type": "image/jpeg",
+            "current_src": "https://webpic.camelgames.com/article/image-1673517717502.jpg"
+          }
+        },
+        {
+          "url": "https://webpic.camelgames.com/article/image-1673517760575.jpg",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:09:53.542574+00:00",
+            "load_time_ms": 766,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 607,
+            "content_type": "image/jpeg",
+            "current_src": "https://webpic.camelgames.com/article/image-1673517760575.jpg"
+          }
+        },
+        {
+          "url": "https://webpic.camelgames.com/article/image-1673517797633.jpg",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:09:54.247621+00:00",
+            "load_time_ms": 698,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 640,
+            "content_type": "image/jpeg",
+            "current_src": "https://webpic.camelgames.com/article/image-1673517797633.jpg"
+          }
+        },
+        {
+          "url": "https://webpic.camelgames.com/article/image-1652943065108.jpg?Expires=1778565752&Signature=D%2BGjfTMFk1hbR3M%2BsC%2FT8fxsdnc%3D",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:09:55.119177+00:00",
+            "load_time_ms": 866,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 628,
+            "content_type": "image/jpeg",
+            "current_src": "https://webpic.camelgames.com/article/image-1652943065108.jpg?Expires=1778565752&Signature=D%2BGjfTMFk1hbR3M%2BsC%2FT8fxsdnc%3D"
+          }
+        },
+        {
+          "url": "https://webpic.camelgames.com/article/image-1679464493389.jpg?Expires=1778565752&Signature=UbsPybMRe0PTJVxZdSJz2IOaQXo%3D",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:09:56.014510+00:00",
+            "load_time_ms": 891,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1300,
+            "natural_height": 650,
+            "content_type": "image/jpeg",
+            "current_src": "https://webpic.camelgames.com/article/image-1679464493389.jpg?Expires=1778565752&Signature=UbsPybMRe0PTJVxZdSJz2IOaQXo%3D"
+          }
+        },
+        {
+          "url": "https://webpic.camelgames.com/article/image-1620985819819.jpg?Expires=1778565752&Signature=DyHo4qlgeHxxgAyduKJQyy0Vy54%3D",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:09:56.897628+00:00",
+            "load_time_ms": 878,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1300,
+            "natural_height": 650,
+            "content_type": "image/jpeg",
+            "current_src": "https://webpic.camelgames.com/article/image-1620985819819.jpg?Expires=1778565752&Signature=DyHo4qlgeHxxgAyduKJQyy0Vy54%3D"
+          }
+        },
+        {
+          "url": "https://webpic.camelgames.com/article/image-1647511708697.jpg?Expires=1778565752&Signature=dOAlpY91rHx4rgRiLPIsMDMNkms%3D",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:09:57.686001+00:00",
+            "load_time_ms": 782,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 628,
+            "content_type": "image/jpeg",
+            "current_src": "https://webpic.camelgames.com/article/image-1647511708697.jpg?Expires=1778565752&Signature=dOAlpY91rHx4rgRiLPIsMDMNkms%3D"
+          }
+        },
+        {
+          "url": "https://webpic.camelgames.com/article/image-1629269707886.jpg?Expires=1778565752&Signature=MqyGxfFeD1UF%2Fzb8vy5mBvT%2BWDw%3D",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:09:58.451312+00:00",
+            "load_time_ms": 758,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1024,
+            "natural_height": 576,
+            "content_type": "image/jpeg",
+            "current_src": "https://webpic.camelgames.com/article/image-1629269707886.jpg?Expires=1778565752&Signature=MqyGxfFeD1UF%2Fzb8vy5mBvT%2BWDw%3D"
+          }
+        },
+        {
+          "url": "https://webpic.camelgames.com/article/image-1631866339130.jpg?Expires=1778565752&Signature=P8FBz%2B7IMDuXWkTd2VgWR3GMjcg%3D",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:09:59.219904+00:00",
+            "load_time_ms": 763,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1300,
+            "natural_height": 650,
+            "content_type": "image/jpeg",
+            "current_src": "https://webpic.camelgames.com/article/image-1631866339130.jpg?Expires=1778565752&Signature=P8FBz%2B7IMDuXWkTd2VgWR3GMjcg%3D"
+          }
+        }
+      ]
+    }
+  ],
+  "event_catalog": [
+    {
+      "title": "Age of Origins: Everything you need to know about the festive Christmas event",
+      "url": "https://www.camelgames.com/article/new17",
+      "discovered_from": "https://www.camelgames.com/game/Age-of-Origins",
+      "description": "Camel Games is an experienced developer and operator of high-quality mobile games. Its games are available on both Android and iOS and are enjoyed by players from over 150 different countries and regions. It is also one of the earliest Chinese mobile game companies to pioneer the overseas market.",
+      "inferred_event_types": [
+        "collection_album",
+        "team_alliance",
+        "seasonal_festival",
+        "pve_boss",
+        "pvp_war",
+        "mini_game",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "https://webpic.camelgames.com/article/image-1673517579311.jpg?Expires=1778565752&Signature=yJlVAccTASbZ%2BG5jenyICBjk4nI%3D",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:09:51.982443+00:00",
+            "load_time_ms": 863,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1300,
+            "natural_height": 650,
+            "content_type": "image/jpeg",
+            "current_src": "https://webpic.camelgames.com/article/image-1673517579311.jpg?Expires=1778565752&Signature=yJlVAccTASbZ%2BG5jenyICBjk4nI%3D"
+          }
+        },
+        {
+          "url": "https://webpic.camelgames.com/article/image-1673517717502.jpg",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:09:52.769711+00:00",
+            "load_time_ms": 782,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 428,
+            "content_type": "image/jpeg",
+            "current_src": "https://webpic.camelgames.com/article/image-1673517717502.jpg"
+          }
+        },
+        {
+          "url": "https://webpic.camelgames.com/article/image-1673517760575.jpg",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:09:53.542574+00:00",
+            "load_time_ms": 766,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 607,
+            "content_type": "image/jpeg",
+            "current_src": "https://webpic.camelgames.com/article/image-1673517760575.jpg"
+          }
+        },
+        {
+          "url": "https://webpic.camelgames.com/article/image-1673517797633.jpg",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:09:54.247621+00:00",
+            "load_time_ms": 698,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 640,
+            "content_type": "image/jpeg",
+            "current_src": "https://webpic.camelgames.com/article/image-1673517797633.jpg"
+          }
+        },
+        {
+          "url": "https://webpic.camelgames.com/article/image-1652943065108.jpg?Expires=1778565752&Signature=D%2BGjfTMFk1hbR3M%2BsC%2FT8fxsdnc%3D",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:09:55.119177+00:00",
+            "load_time_ms": 866,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 628,
+            "content_type": "image/jpeg",
+            "current_src": "https://webpic.camelgames.com/article/image-1652943065108.jpg?Expires=1778565752&Signature=D%2BGjfTMFk1hbR3M%2BsC%2FT8fxsdnc%3D"
+          }
+        }
+      ]
+    }
+  ],
+  "inferred_event_type_summary": [
+    "collection_album",
+    "mini_game",
+    "pve_boss",
+    "pvp_war",
+    "seasonal_festival",
+    "store_offer",
+    "team_alliance"
+  ],
+  "screenshots_or_images": [
+    {
+      "url": "https://webpic.camelgames.com/games/image-1660100977806.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.camelgames.com/game/Age-of-Origins",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:09:42.973897+00:00",
+        "load_time_ms": 5049,
+        "long_load": true,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1233,
+        "natural_height": 682,
+        "content_type": "image/jpeg",
+        "current_src": "https://webpic.camelgames.com/games/image-1660100977806.jpg"
+      }
+    },
+    {
+      "url": "https://webpic.camelgames.com/games/image-1660100856135.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.camelgames.com/game/Age-of-Origins",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:09:43.871195+00:00",
+        "load_time_ms": 892,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 555,
+        "natural_height": 258,
+        "content_type": "image/png",
+        "current_src": "https://webpic.camelgames.com/games/image-1660100856135.png"
+      }
+    },
+    {
+      "url": "https://webpic.camelgames.com/games/image-1620625912506.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.camelgames.com/game/Age-of-Origins",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:09:44.618947+00:00",
+        "load_time_ms": 743,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1233,
+        "natural_height": 682,
+        "content_type": "image/jpeg",
+        "current_src": "https://webpic.camelgames.com/games/image-1620625912506.jpg"
+      }
+    },
+    {
+      "url": "https://webpic.camelgames.com/games/image-1620626030964.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.camelgames.com/game/Age-of-Origins",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:09:45.457299+00:00",
+        "load_time_ms": 833,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 555,
+        "natural_height": 258,
+        "content_type": "image/png",
+        "current_src": "https://webpic.camelgames.com/games/image-1620626030964.png"
+      }
+    },
+    {
+      "url": "https://webpic.camelgames.com/games/image-1620627165462.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.camelgames.com/game/Age-of-Origins",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:09:46.822660+00:00",
+        "load_time_ms": 1358,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1233,
+        "natural_height": 682,
+        "content_type": "image/jpeg",
+        "current_src": "https://webpic.camelgames.com/games/image-1620627165462.jpg"
+      }
+    },
+    {
+      "url": "https://webpic.camelgames.com/games/image-1620627178904.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.camelgames.com/game/Age-of-Origins",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:09:47.664786+00:00",
+        "load_time_ms": 837,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 555,
+        "natural_height": 258,
+        "content_type": "image/png",
+        "current_src": "https://webpic.camelgames.com/games/image-1620627178904.png"
+      }
+    },
+    {
+      "url": "https://webpic.camelgames.com/article/image-1695892605025.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.camelgames.com/game/Age-of-Origins",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:09:48.412662+00:00",
+        "load_time_ms": 743,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1300,
+        "natural_height": 650,
+        "content_type": "image/jpeg",
+        "current_src": "https://webpic.camelgames.com/article/image-1695892605025.jpg"
+      }
+    },
+    {
+      "url": "https://webpic.camelgames.com/article/image-1679464493389.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.camelgames.com/game/Age-of-Origins",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:09:49.240119+00:00",
+        "load_time_ms": 822,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1300,
+        "natural_height": 650,
+        "content_type": "image/jpeg",
+        "current_src": "https://webpic.camelgames.com/article/image-1679464493389.jpg"
+      }
+    },
+    {
+      "url": "https://webpic.camelgames.com/article/image-1673517579311.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.camelgames.com/game/Age-of-Origins",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:09:50.351710+00:00",
+        "load_time_ms": 1106,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1300,
+        "natural_height": 650,
+        "content_type": "image/jpeg",
+        "current_src": "https://webpic.camelgames.com/article/image-1673517579311.jpg"
+      }
+    },
+    {
+      "url": "https://webpic.camelgames.com/article/image-1652943065108.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.camelgames.com/game/Age-of-Origins",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:09:51.114204+00:00",
+        "load_time_ms": 757,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1200,
+        "natural_height": 628,
+        "content_type": "image/jpeg",
+        "current_src": "https://webpic.camelgames.com/article/image-1652943065108.jpg"
+      }
+    },
+    {
+      "url": "https://webpic.camelgames.com/article/image-1673517717502.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.camelgames.com/article/new17",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:09:52.769711+00:00",
+        "load_time_ms": 782,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 640,
+        "natural_height": 428,
+        "content_type": "image/jpeg",
+        "current_src": "https://webpic.camelgames.com/article/image-1673517717502.jpg"
+      }
+    },
+    {
+      "url": "https://webpic.camelgames.com/article/image-1673517760575.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.camelgames.com/article/new17",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:09:53.542574+00:00",
+        "load_time_ms": 766,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 640,
+        "natural_height": 607,
+        "content_type": "image/jpeg",
+        "current_src": "https://webpic.camelgames.com/article/image-1673517760575.jpg"
+      }
+    },
+    {
+      "url": "https://webpic.camelgames.com/article/image-1673517797633.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.camelgames.com/article/new17",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:09:54.247621+00:00",
+        "load_time_ms": 698,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 640,
+        "natural_height": 640,
+        "content_type": "image/jpeg",
+        "current_src": "https://webpic.camelgames.com/article/image-1673517797633.jpg"
+      }
+    },
+    {
+      "url": "https://webpic.camelgames.com/article/image-1620985819819.jpg?Expires=1778565752&Signature=DyHo4qlgeHxxgAyduKJQyy0Vy54%3D",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.camelgames.com/article/new17",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:09:56.897628+00:00",
+        "load_time_ms": 878,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1300,
+        "natural_height": 650,
+        "content_type": "image/jpeg",
+        "current_src": "https://webpic.camelgames.com/article/image-1620985819819.jpg?Expires=1778565752&Signature=DyHo4qlgeHxxgAyduKJQyy0Vy54%3D"
+      }
+    },
+    {
+      "url": "https://webpic.camelgames.com/article/image-1647511708697.jpg?Expires=1778565752&Signature=dOAlpY91rHx4rgRiLPIsMDMNkms%3D",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.camelgames.com/article/new17",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:09:57.686001+00:00",
+        "load_time_ms": 782,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1200,
+        "natural_height": 628,
+        "content_type": "image/jpeg",
+        "current_src": "https://webpic.camelgames.com/article/image-1647511708697.jpg?Expires=1778565752&Signature=dOAlpY91rHx4rgRiLPIsMDMNkms%3D"
+      }
+    },
+    {
+      "url": "https://webpic.camelgames.com/article/image-1629269707886.jpg?Expires=1778565752&Signature=MqyGxfFeD1UF%2Fzb8vy5mBvT%2BWDw%3D",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.camelgames.com/article/new17",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:09:58.451312+00:00",
+        "load_time_ms": 758,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1024,
+        "natural_height": 576,
+        "content_type": "image/jpeg",
+        "current_src": "https://webpic.camelgames.com/article/image-1629269707886.jpg?Expires=1778565752&Signature=MqyGxfFeD1UF%2Fzb8vy5mBvT%2BWDw%3D"
+      }
+    },
+    {
+      "url": "https://webpic.camelgames.com/article/image-1631866339130.jpg?Expires=1778565752&Signature=P8FBz%2B7IMDuXWkTd2VgWR3GMjcg%3D",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.camelgames.com/article/new17",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:09:59.219904+00:00",
+        "load_time_ms": 763,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1300,
+        "natural_height": 650,
+        "content_type": "image/jpeg",
+        "current_src": "https://webpic.camelgames.com/article/image-1631866339130.jpg?Expires=1778565752&Signature=P8FBz%2B7IMDuXWkTd2VgWR3GMjcg%3D"
+      }
+    }
+  ],
+  "collection_warnings": [
+    "Fetch failed: https://age-of-origins.fandom.com/wiki/Age_of_Origins_Wiki"
+  ]
+}

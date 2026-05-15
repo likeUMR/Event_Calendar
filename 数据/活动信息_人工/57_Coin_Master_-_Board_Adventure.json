@@ -1,0 +1,1087 @@
+{
+  "rank": 57,
+  "name": "Coin Master - Board Adventure",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 Coin Master 官方支持页的 Events & Rewards 分区，并逐个核对 Merge Island、Golden Pass、Viking Quest、Coin Cafe、Boss Fight、Conquests、Community Challenge 等条目，按公开已验证的活动机制整理。",
+  "source_pages": [
+    {
+      "title": "Coin Master Support - Events & Rewards",
+      "url": "https://support.coinmastergame.com/hc/en-us/sections/360000286454-Events-Rewards",
+      "notes": "官方活动总入口，能直接看到 Merge Island、Golden Pass、Viking Quest、Coin Cafe、Boss Fight、Conquests、Community Challenge、Treasure Mall、Task Rush、Spin Bonanza、Rapids Rush、Space Race 等条目。"
+    },
+    {
+      "title": "Coin Master Support - What is the Golden Pass Event?",
+      "url": "https://support.coinmastergame.com/hc/en-us/articles/10817171241234-What-is-the-Golden-Pass-Event",
+      "notes": "官方说明 free / golden / epic 三条奖励轨、daily missions、gold bars、grand prize 和锁定任务。"
+    },
+    {
+      "title": "Coin Master Support - How can I play the Merge Island Event?",
+      "url": "https://support.coinmastergame.com/hc/en-us/articles/30809003415698-How-can-I-play-the-Merge-Island-Event",
+      "notes": "官方确认这是用 Sparks 产出物件、在棋盘上 merge、推进 milestone 和 grand prize 的小游戏。"
+    },
+    {
+      "title": "Coin Master Support - How can I play Viking Quest?",
+      "url": "https://support.coinmastergame.com/hc/en-us/articles/29651331693970-How-can-I-play-Viking-Quest",
+      "notes": "官方说明 Viking Quest 是消耗 Coins 的多阶段任务/转盘小游戏，奖励含 rare Gold Cards。"
+    },
+    {
+      "title": "Coin Master Support - How can I play the Coin Cafe event?",
+      "url": "https://support.coinmastergame.com/hc/en-us/articles/26540130284690-How-can-I-play-the-Coin-Cafe-event",
+      "notes": "官方说明以收集 dishes、完成 orders、推进 progress bar 和 milestone rewards 为核心。"
+    },
+    {
+      "title": "Coin Master Support - How can I play the Boss Fight event?",
+      "url": "https://support.coinmastergame.com/hc/en-us/articles/26333291436050-How-can-I-play-the-Boss-Fight-event",
+      "notes": "官方说明 Boss Gold、生命条、护盾、攻击轮盘、多阶段 boss 和 grand prize。"
+    },
+    {
+      "title": "Coin Master Support - How can I play Conquests?",
+      "url": "https://support.coinmastergame.com/hc/en-us/articles/25545897324562-How-can-I-play-Conquests",
+      "notes": "官方说明多 stage mission chain，任务包括用 Spins、收集 Cards、Raid Villages，逐段解锁奖励。"
+    },
+    {
+      "title": "Coin Master Support - What is the Community Challenge?",
+      "url": "https://support.coinmastergame.com/hc/en-us/articles/24439148690578-What-is-the-Community-Challenge",
+      "notes": "官方说明这是与随机分配社区一起推进共享 Community Bar、解锁 milestone 和 grand prize 的协作活动。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "golden_pass",
+      "display_name": "Golden Pass / Epic Pass 通行证活动",
+      "description": "官方已确认 Coin Master 有 Free、Golden、Epic 三条奖励轨。玩家通过每日 missions 获取 gold bars，逐级解锁奖励，完成整条任务还能拿 grand prize。",
+      "examples": [
+        "Golden Pass",
+        "Epic Pass"
+      ],
+      "market_research_notes": "这是当前最明确的长期任务型商业化活动，能把每日活跃、付费升级和大奖追逐结合起来。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/will-i-lose-golden-pass-rewards-if-unclaimed-v0-1dk5krekek2g1.jpeg?width=640&crop=smart&auto=webp&s=7ec9de7667648646d567927f7702296509698416",
+          "caption": "Golden Pass Rewards if Unclaimed ...",
+          "source_url": "https://www.reddit.com/r/CoinMasterGame/comments/1p2smu9/will_i_lose_golden_pass_rewards_if_unclaimed/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+golden+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure golden pass",
+          "width": 153,
+          "height": 330,
+          "aspect_ratio": 0.4636,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:51:33.465048+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 1.0,
+            "reason": "清晰展示了Golden Pass的具体任务列表、进度条以及免费/付费双轨奖励界面，属于实际玩法截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:05.102693+00:00"
+          }
+        },
+        {
+          "url": "https://sm.ign.com/t/ign_me/wiki/c/coin-maste/coin-master-board-adventure_s81t.1200.jpg",
+          "caption": "Coin Master Board Adventure Guide : How ...",
+          "source_url": "https://me.ign.com/en/coin-master-board-adventure/242195/wiki/coin-master-board-adventure-guide?p=2",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+golden+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure golden pass",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:51:33.465048+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示的是成就系统（Achievements）的任务界面，虽然包含任务，但标题明确为成就而非Golden Pass通行证。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:05.102693+00:00"
+          }
+        },
+        {
+          "url": "https://assetsio.gnwcdn.com/coin-master-board-adventure-header_tsxngAM.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+          "caption": "Coin Master Board Adventure ...",
+          "source_url": "https://www.eurogamer.net/coin-master-board-adventure-free-energy",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+golden+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure golden pass",
+          "width": 1200,
+          "height": 630,
+          "aspect_ratio": 1.9048,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:51:33.465048+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图片为游戏的通用横版宣传海报，展示了游戏角色和风格，无特定活动信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:05.102693+00:00"
+          }
+        },
+        {
+          "url": "https://assetsio.gnwcdn.com/coin-master-board-adventure-card-collection-option.jpg?width=380&height=823&fit=crop&quality=85&format=jpg&auto=webp",
+          "caption": "Coin Master Board Adventure ...",
+          "source_url": "https://www.eurogamer.net/coin-master-board-adventure-free-energy",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+golden+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure golden pass",
+          "width": 380,
+          "height": 823,
+          "aspect_ratio": 0.4617,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:51:33.465048+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "展示了游戏的主体棋盘玩法界面，虽是游戏核心部分，但未展现Golden Pass活动特有界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:05.102693+00:00"
+          }
+        },
+        {
+          "url": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/coin-master-board-adventure/thumb/a/a5/Coinmaster-achievements.jpg/400px-Coinmaster-achievements.jpg",
+          "caption": "tasks is to get 10 seasonal chests ...",
+          "source_url": "https://me.ign.com/en/coin-master-board-adventure/242195/wiki/coin-master-board-adventure-guide?p=2",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+golden+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure golden pass",
+          "width": 255,
+          "height": 198,
+          "aspect_ratio": 1.2879,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:51:33.465048+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "与图2内容一致，展示的是成就系统界面，并非本活动（通行证）的直接玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:05.102693+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "merge_island",
+      "display_name": "Merge Island / 合成棋盘活动",
+      "description": "玩家消耗 Sparks 从 Producer 产出物件，在独立棋盘上合成同类 items，推进顶部进度条，领取 milestone rewards 和 grand prize；活动结束后剩余 Sparks 会自动转成 Spins。",
+      "examples": [
+        "Merge Island Event"
+      ],
+      "market_research_notes": "这是把 Coin Master 从老虎机循环延伸到 merge meta 的典型小游戏层，适合观察额外货币投放和合成驱动的中期留存。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/kLDuQvMqHzw/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHOBYACgAqKAgwIABABGC0gWChyMA8=&rs=AOn4CLD6rGBd9yI-5pGN5zy4xFFxnWuFMQ",
+          "caption": "Coin Master - Board Adventure App - App ...",
+          "source_url": "https://www.youtube.com/watch?v=kLDuQvMqHzw",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+merge+island",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure merge island",
+          "width": 310,
+          "height": 163,
+          "aspect_ratio": 1.9018,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:52:06.576311+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "展示的是游戏的村庄主界面，而非Merge Island合成活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:03.264311+00:00"
+          }
+        },
+        {
+          "url": "https://assetsio.gnwcdn.com/coin-master-board-adventure-free-energy.PNG?width=690&quality=85&format=jpg&dpr=3&auto=webp",
+          "caption": "Coin master merge island strategy",
+          "source_url": "https://www.vg247.com/coin-master-board-adventure-free-energy",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+merge+island",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure merge island",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:52:06.576311+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "展示通用的能量和经验奖励资产，无法确认为该特定合成活动的产物。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:03.264311+00:00"
+          }
+        },
+        {
+          "url": "https://i0.wp.com/mobilegamer.biz/wp-content/uploads/2025/07/Unknown.jpeg?resize=600,258&ssl=1",
+          "caption": "New game digest: Coin Master, Age of ...",
+          "source_url": "https://mobilegamer.biz/new-game-digest-coin-master-age-of-empires-talking-tom-worms-rebel-moon-more/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+merge+island",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure merge island",
+          "width": 343,
+          "height": 147,
+          "aspect_ratio": 2.3333,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:52:06.576311+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是游戏在大富翁大地图玩法下的商店宣传图，不含Merge玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:03.264311+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/arNx1X6k39eROipccExxmq3QayFZlW0Ofks1uw9CxuE_0EzoDaEY4oNH4rRj5NQ2d-QogdquSLv3DOV_3Xpn=w526-h296-rw",
+          "caption": "Coin Master Board Adventure ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.moonactive.cmboard&hl=en_GB",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+merge+island",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure merge island",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:52:06.576311+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "这是游戏的通用品牌宣传海报，主要展示棋盘大背景而非合成活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:03.264311+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/lLvsioUZrpQ/maxresdefault.jpg",
+          "caption": "Coin Master - Board Adventure - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.moonactive.cmboard",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+merge+island",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure merge island",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:52:06.576311+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示的是游戏的核心棋盘大富翁玩法界面，并非Merge Island合成棋盘。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:03.264311+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "viking_quest",
+      "display_name": "Viking Quest / Coin 消耗型任务小游戏",
+      "description": "官方说明 Viking Quest 使用 Coins 而非普通 Spins 进入，多 mission、多 round，越往后奖励越大，还可能产出 rare Gold Cards。",
+      "examples": [
+        "Viking Quest"
+      ],
+      "market_research_notes": "它是 Coin Master 里非常重要的资源转化口，把平时堆积的 Coins 变成活动门票和高价值奖励机会。",
+      "images": [
+        {
+          "url": "https://support.coinmastergame.com/hc/theming_assets/01JP255V6WRNV1GKKQF4W55JBB",
+          "caption": "How can I play Viking Quest? – Coin Master",
+          "source_url": "https://support.coinmastergame.com/hc/en-us/articles/29651331693970-How-can-I-play-Viking-Quest",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+viking+quest",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure viking quest",
+          "width": 305,
+          "height": 165,
+          "aspect_ratio": 1.8485,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:52:46.541277+00:00",
+          "llm_image_filter": {
+            "category": 2,
+            "category_label": "无法确定是否和本游戏无关",
+            "confidence": 0.0,
+            "reason": "模型接口无法读取或接受该图片 URL，已按无法确定处理：Error code: 400 - {'error': {'message': 'URL did not return an image (received text/error content): https://***.com/***/***/*** ({\"provider_name\":\"Google\"})', 'type': 'upstream_error', 'param': '', 'code': 400, 'metadata': {'provider_name': 'Google'}}, 'trace_id': '20260513174000392922826MiaVpmHC'}",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:12.339874+00:00"
+          }
+        },
+        {
+          "url": "https://support.coinmastergame.com/hc/article_attachments/29651412001426",
+          "caption": "How can I play Viking Quest? – Coin Master",
+          "source_url": "https://support.coinmastergame.com/hc/en-us/articles/29651331693970-How-can-I-play-Viking-Quest",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+viking+quest",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure viking quest",
+          "width": 216,
+          "height": 233,
+          "aspect_ratio": 0.927,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:52:46.541277+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了Coin Master中Viking Quest活动的实际玩法界面，左侧为消耗Coin进行的老虎机外观，右侧为活动的任务奖励路径及进度详情。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:12.339874+00:00"
+          }
+        },
+        {
+          "url": "https://assets.change.org/photos/4/ru/wp/wsRuWPLOAGNqdtM-800x450-noPad.jpg?1593025706",
+          "caption": "Change Viking Quest in CoinMaster ...",
+          "source_url": "https://www.change.org/p/moonactive-change-viking-quest-in-coinmaster",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+viking+quest",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure viking quest",
+          "width": 800,
+          "height": 450,
+          "aspect_ratio": 1.7778,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:52:46.541277+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图展示了 Viking Quest 活动内的赔率表界面，展示了特定维京元素组合对应的翻倍奖励，属于活动内实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:12.339874+00:00"
+          }
+        },
+        {
+          "url": "https://support.coinmastergame.com/hc/article_attachments/29651433440402",
+          "caption": "How can I play Viking Quest? – Coin Master",
+          "source_url": "https://support.coinmastergame.com/hc/en-us/articles/29651331693970-How-can-I-play-Viking-Quest",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+viking+quest",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure viking quest",
+          "width": 161,
+          "height": 313,
+          "aspect_ratio": 0.5144,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:52:46.541277+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片属于Coin Master游戏，展示了名为World of Quests的任务列表界面，虽然同属任务类系统，但在视觉表现和主题（太空）上与描述的Viking Quest（维京主题）不符，无法确定是本活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:12.339874+00:00"
+          }
+        },
+        {
+          "url": "https://i.pinimg.com/736x/3d/a0/01/3da001198188cee41cd8684f7bb92cee.jpg",
+          "caption": "Coin Master Viking quest",
+          "source_url": "https://in.pinterest.com/pin/coin-master-viking-quest--576742296058839697/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+viking+quest",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure viking quest",
+          "width": 168,
+          "height": 299,
+          "aspect_ratio": 0.5619,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:52:46.541277+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图片展示了Viking Quest活动的实际操作界面，包含活动特有的槽位、任务目标（Win 32B coins）、倍率选择和Spin按钮。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:12.339874+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "coin_cafe",
+      "display_name": "Coin Cafe / 收集菜品与订单活动",
+      "description": "玩家从不同 rarity 的 platters 收集 Dishes，在 Pantry 管理库存，并完成 Orders 获得即时奖励和进度条 milestone；活动结束后剩余 Dishes 会转化为其他奖励。",
+      "examples": [
+        "Coin Cafe"
+      ],
+      "market_research_notes": "这是典型的 collection + order fulfillment 活动，结构上很像轻度 merge / recipe event。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/pFMYxxHpIsLKeaxO9wjVRpAsgMaLKbT1kPwofNQtGi69-6fF_eUyIViAMY66auDrvsJnw2h6S5rpF8XaZcrm",
+          "caption": "Coin Master - Board Adventure - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.moonactive.cmboard",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+coin+cafe",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure coin cafe",
+          "width": 194,
+          "height": 259,
+          "aspect_ratio": 0.749,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:53:08.862861+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为游戏的App图标或通用品牌角色图，未涉及Coin Cafe活动内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:04.403928+00:00"
+          }
+        },
+        {
+          "url": "https://assetsio.gnwcdn.com/coin-master-board-adventure-header_tsxngAM.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+          "caption": "Coin Master Board Adventure ...",
+          "source_url": "https://www.eurogamer.net/coin-master-board-adventure-free-energy",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+coin+cafe",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure coin cafe",
+          "width": 1200,
+          "height": 630,
+          "aspect_ratio": 1.9048,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:53:08.862861+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为游戏的通用品牌宣传海报，展示核心角色与背景，与特定活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:04.403928+00:00"
+          }
+        },
+        {
+          "url": "https://sm.ign.com/t/ign_me/wiki/c/coin-maste/coin-master-board-adventure_s81t.1200.jpg",
+          "caption": "Coin Master Board Adventure Guide : How ...",
+          "source_url": "https://me.ign.com/en/coin-master-board-adventure/242195/wiki/coin-master-board-adventure-guide?p=2",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+coin+cafe",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure coin cafe",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:53:08.862861+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "展示了游戏的成就系统界面，属于常驻功能，并非Coin Cafe活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:04.403928+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/WzS-F0mNFdXMUbvpnAP6x6WoweNvRAHJfFdtB_BE0rJCKefqt10cCIyKZnFI_jbAiZ4bVZEDE_uSkTlygTTE9g=w526-h296-rw",
+          "caption": "Coin Master - Board Adventure – Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.moonactive.cmboard&hl=en_GB",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+coin+cafe",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure coin cafe",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:53:08.862861+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为游戏的商店宣传封面图，展示棋盘核心玩法，未体现Coin Cafe活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:04.403928+00:00"
+          }
+        },
+        {
+          "url": "https://assetsio.gnwcdn.com/coin-master-board-adventure-card-collection-option.jpg?width=380&height=823&fit=crop&quality=85&format=jpg&auto=webp",
+          "caption": "Coin Master Board Adventure ...",
+          "source_url": "https://www.eurogamer.net/coin-master-board-adventure-free-energy",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+coin+cafe",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure coin cafe",
+          "width": 380,
+          "height": 823,
+          "aspect_ratio": 0.4617,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:53:08.862861+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示了游戏的主体棋盘玩法界面，属于基础玩法截图，不包含活动的收集或订单元素。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:04.403928+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "boss_fight",
+      "display_name": "Boss Fight / 轮盘打 Boss 活动",
+      "description": "玩家使用 Boss Gold 转动专属轮盘，轮盘结果包含 attack、shield、heart 等。通过多场 Boss battle 击败不同 Boss，最终领取 grand prize。",
+      "examples": [
+        "Boss Fight"
+      ],
+      "market_research_notes": "它把老虎机随机反馈重新包装成更强目标感的 PvE 进度战，是 Coin Master 比较重的主题活动之一。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/1MPvq7sZRWs/maxresdefault.jpg",
+          "caption": "Coin Master - Board Adventure ...",
+          "source_url": "https://www.youtube.com/watch?v=1MPvq7sZRWs",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+boss+fight",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure boss fight",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:53:33.033260+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "包含游戏Logo和主题角色的通用宣传图，未展示特定的Boss Fight活动玩法。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:08.881732+00:00"
+          }
+        },
+        {
+          "url": "https://scontent-hkg4-1.xx.fbcdn.net/v/t15.5256-10/524968072_1156076942951275_5965824673135436914_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=a27664&_nc_ohc=24RQJx3MVacQ7kNvwHXQeuy&_nc_oc=AdpMcy_qlsAUOH2ls1_vZ1gX8rhGjtxD_bNrIzH99xIbBnu67fTad8s07KSUhC6h2wk&_nc_zt=23&_nc_ht=scontent-hkg4-1.xx&_nc_gid=a_xzghw41sSaxz0jvg2Xlg&_nc_ss=7c20f&oh=00_Af7vlnz-JrWCkwqnEIzB0MHrB8Ty1Obi-iIWyjpxFeACBg&oe=6A09FB29",
+          "caption": "Coin Master Boss Fight - #GamePlay ...",
+          "source_url": "https://www.facebook.com/master.mega.official/videos/coin-master-boss-fight/1434688670912250/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+boss+fight",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure boss fight",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:53:33.033260+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "清晰展示了Boss Fight活动的实际玩法界面，包括Boss血条、对战角色及底部的专属轮盘。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:08.881732+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/boss-fight-strategy-v0-fsjk0fbjbpyf1.jpeg?auto=webp&s=fcb6d8352882600853aee8648fbd28bf902e55bc",
+          "caption": "Boss Fight Strategy : r/CoinMasterGame",
+          "source_url": "https://www.reddit.com/r/CoinMasterGame/comments/1olxfmt/boss_fight_strategy/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+boss+fight",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure boss fight",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:53:33.033260+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了Boss Fight活动的战斗界面，包含不同的Boss角色（熔岩怪）、进度条和轮盘操作区。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:08.881732+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/rqFIeXCEhTI/maxresdefault.jpg",
+          "caption": "Coin Master - Board Adventure x50 ON ...",
+          "source_url": "https://www.youtube.com/watch?v=rqFIeXCEhTI",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+boss+fight",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure boss fight",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:53:33.033260+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示的是游戏的基础大富翁棋盘玩法界面，虽属于本游戏，但非本次Boss Fight活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:08.881732+00:00"
+          }
+        },
+        {
+          "url": "https://assetsio.gnwcdn.com/coin-master-board.jpg?width=380&quality=85&format=jpg&auto=webp",
+          "caption": "Coin Master - Board Adventure | VG247",
+          "source_url": "https://www.vg247.com/games/coin-master-board-adventure",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+boss+fight",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure boss fight",
+          "width": 180,
+          "height": 280,
+          "aspect_ratio": 0.6429,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:53:33.033260+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "游戏通用品牌宣传图，属于本游戏但无法确定与本活动有关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:08.881732+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "conquests",
+      "display_name": "Conquests / 分阶段任务链活动",
+      "description": "活动包含一系列 stages，每个 stage 都有独立 missions。完成当前阶段任务后解锁下一阶段，任务可涉及 Spins、Cards、Raids 等核心行为。",
+      "examples": [
+        "Conquests"
+      ],
+      "market_research_notes": "这是更线性的 mission ladder，适合把多种日常行为统一折算成阶段推进。",
+      "images": [
+        {
+          "url": "https://assets-prd.ignimgs.com/2026/03/17/coin-master-board-button-1773771880965.jpg",
+          "caption": "Coin Master: Board Adventure - IGN",
+          "source_url": "https://www.ign.com/games/coin-master-board-adventure",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+conquests",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure conquests",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:53:56.190282+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "这是游戏的通用品牌宣传图或加载图，包含游戏名称和角色，与具体分阶段任务活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:10.219029+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/pFMYxxHpIsLKeaxO9wjVRpAsgMaLKbT1kPwofNQtGi69-6fF_eUyIViAMY66auDrvsJnw2h6S5rpF8XaZcrm",
+          "caption": "Coin Master - Board Adventure - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.moonactive.cmboard",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+conquests",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure conquests",
+          "width": 194,
+          "height": 259,
+          "aspect_ratio": 0.749,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:53:56.190282+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.98,
+            "reason": "这是游戏的App图标，属于通用品牌资产。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:10.219029+00:00"
+          }
+        },
+        {
+          "url": "https://sm.ign.com/t/ign_me/wiki/c/coin-maste/coin-master-board-adventure_s81t.1200.jpg",
+          "caption": "Coin Master Board Adventure Guide ...",
+          "source_url": "https://me.ign.com/en/coin-master-board-adventure/242195/wiki/coin-master-board-adventure-guide",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+conquests",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure conquests",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:53:56.190282+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "该截图展示了成就或任务列表界面（Achievements），包含可领取的奖励和待完成的任务目标及其进度，完全符合Conquests活动的玩法界面特征。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:10.219029+00:00"
+          }
+        },
+        {
+          "url": "https://pg.io/pg-io/store-games/931e41d1-b218-4f94-8b95-7ed4bd640e98/header.jpg",
+          "caption": "Coin Master - Board Adventure — Play ...",
+          "source_url": "https://pg.io/store-game/coin-master-board-adventure",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+conquests",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure conquests",
+          "width": 168,
+          "height": 300,
+          "aspect_ratio": 0.56,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:53:56.190282+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是游戏的通用商店页头图或品牌宣传海报，展示了游戏的核心大富翁棋盘玩法，而非特定的Conquests活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:10.219029+00:00"
+          }
+        },
+        {
+          "url": "https://assetsio.gnwcdn.com/coin-master-board-adventure-card-collection-option.jpg?width=380&height=823&fit=crop&quality=85&format=jpg&auto=webp",
+          "caption": "Coin Master Board Adventure ...",
+          "source_url": "https://www.eurogamer.net/coin-master-board-adventure-free-energy",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+conquests",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure conquests",
+          "width": 380,
+          "height": 823,
+          "aspect_ratio": 0.4617,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:53:56.190282+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "这是游戏的主界面棋盘截图，展示的是核心常驻玩法界面，无法直接确定是Conquests活动的任务链或阶段界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:10.219029+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "community_challenge",
+      "display_name": "Community Challenge / 社区协作活动",
+      "description": "玩家会被分到一个临时社区，共同填充 Community Bar，解锁一串 milestones；如果整条 bar 填满，还会发 grand prize。",
+      "examples": [
+        "Community Challenge",
+        "Better Together"
+      ],
+      "market_research_notes": "这类隐式组队活动很适合提升参与感和全局目标感，同时避免真实社交组织门槛。",
+      "images": [
+        {
+          "url": "https://pg.io/pg-io/store-games/931e41d1-b218-4f94-8b95-7ed4bd640e98/header.jpg",
+          "caption": "Coin Master - Board Adventure — Play ...",
+          "source_url": "https://pg.io/store-game/coin-master-board-adventure",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+community+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure community challenge",
+          "width": 168,
+          "height": 300,
+          "aspect_ratio": 0.56,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:54:25.842498+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为游戏的通用品牌宣传海报，展示了棋盘核心玩法，但未出现社区协作活动的进度条或特定UI。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:12.023727+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/im-gonna-try-coin-master-board-adventure-v0-xviaa7oja1qg1.jpeg?width=640&crop=smart&auto=webp&s=228cc0ae945c50acbded843eab1e18328bf4f37f",
+          "caption": "coin master board adventure ...",
+          "source_url": "https://www.reddit.com/r/FetchReward/comments/1ry6846/im_gonna_try_coin_master_board_adventure/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+community+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure community challenge",
+          "width": 154,
+          "height": 326,
+          "aspect_ratio": 0.4724,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:54:25.842498+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是第三方买量/任务平台的分步奖励界面，属于游戏外的引流任务，非游戏内的社区协作活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:12.023727+00:00"
+          }
+        },
+        {
+          "url": "https://pg.io/_next/image?url=https://pg.io/pg-io/store-games/931e41d1-b218-4f94-8b95-7ed4bd640e98/header.jpg&w=3840&q=75",
+          "caption": "Coin Master - Board Adventure — Play ...",
+          "source_url": "https://pg.io/store-game/coin-master-board-adventure",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+community+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure community challenge",
+          "width": 321,
+          "height": 157,
+          "aspect_ratio": 2.0446,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:54:25.842498+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "与图1相同，为游戏的通用宣传横幅，无活动特定信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:12.023727+00:00"
+          }
+        },
+        {
+          "url": "https://assetsio.gnwcdn.com/coin-master-board-adventure-header_tsxngAM.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+          "caption": "Coin Master Board Adventure ...",
+          "source_url": "https://www.eurogamer.net/coin-master-board-adventure-free-energy",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+community+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure community challenge",
+          "width": 1200,
+          "height": 630,
+          "aspect_ratio": 1.9048,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:54:25.842498+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "游戏通用品牌宣传图，未包含活动特定玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:12.023727+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/coin-master-board-adventure-easy-200-v0-9p4n3n87wzug1.png?auto=webp&s=acb18d711d371152dd0182fe0d0f115f64d07e51",
+          "caption": "Coin Master Board Adventure - Easy $200 ...",
+          "source_url": "https://www.reddit.com/r/SwagBucks/comments/1skiqf5/coin_master_board_adventure_easy_200/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+community+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure community challenge",
+          "width": 256,
+          "height": 197,
+          "aspect_ratio": 1.2995,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:54:25.842498+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是SwagBucks等网赚平台的任务列表页面，展示的是游戏外的等级达成奖励，而非游戏内社区活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:12.023727+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "event_hub_rotations",
+      "display_name": "活动轮换层 / Rotating Reward Events",
+      "description": "官方目录还可确认大量轮换子活动存在，如 Treasure Mall、Task Rush、Spin Bonanza、Rapids Rush、Space Race、World of Fortune、Fortune Bazaar、Plant/Hatch Buddies 等，只是本轮没有逐个展开详细规则。",
+      "examples": [
+        "Treasure Mall",
+        "Task Rush",
+        "Spin Bonanza",
+        "Rapids Rush",
+        "Space Race",
+        "World of Fortune",
+        "Fortune Bazaar",
+        "Plant/Hatch Buddies"
+      ],
+      "market_research_notes": "Coin Master 已不只是早期的 spin / attack / raid 三板斧，而是形成了稳定的多活动轮换池。",
+      "images": [
+        {
+          "url": "https://i0.wp.com/gamingonphone.com/wp-content/uploads/2025/08/Coin-Master-Board-Adventure-cover.jpg",
+          "caption": "Coin Master - Board Adventure free ...",
+          "source_url": "https://gamingonphone.com/guides/coin-master-board-adventure-free-energy-and-how-to-use-them/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+event+hub+rotations",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure event hub rotations",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:54:43.901812+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片为游戏的典型宣传海报，包含游戏Logo和角色，但未体现具体的活动内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:13.636511+00:00"
+          }
+        },
+        {
+          "url": "https://assetsio.gnwcdn.com/coin-master-board-adventure-header_tsxngAM.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+          "caption": "Coin Master Board Adventure ...",
+          "source_url": "https://www.eurogamer.net/coin-master-board-adventure-free-energy",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+event+hub+rotations",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure event hub rotations",
+          "width": 1200,
+          "height": 630,
+          "aspect_ratio": 1.9048,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:54:43.901812+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "同样是该游戏的通用品牌宣传图，不具备特定活动的辨识特征。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:13.636511+00:00"
+          }
+        },
+        {
+          "url": "https://assets-prd.ignimgs.com/2026/03/17/coin-master-board-button-1773771880965.jpg",
+          "caption": "Coin Master: Board Adventure - IGN",
+          "source_url": "https://www.ign.com/games/coin-master-board-adventure",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+event+hub+rotations",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure event hub rotations",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:54:43.901812+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图仅为带有游戏Logo的KV宣传图或封面图，属于通用游戏资产。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:13.636511+00:00"
+          }
+        },
+        {
+          "url": "https://sm.ign.com/t/ign_me/wiki/c/coin-maste/coin-master-board-adventure_s81t.1200.jpg",
+          "caption": "Coin Master Board Adventure Guide : How ...",
+          "source_url": "https://me.ign.com/en/coin-master-board-adventure/242195/wiki/coin-master-board-adventure-guide?p=2",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+event+hub+rotations",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure event hub rotations",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:54:43.901812+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图中展示了Achievements活动界面，包含具体任务列表、奖励轨和倒计时，属于活动内的实际玩法截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:13.636511+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Om-c_0N1F18/maxresdefault.jpg",
+          "caption": "Coin Master - Board Adventure - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=Om-c_0N1F18",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=coin+master+board+adventure+event+hub+rotations",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "coin master board adventure event hub rotations",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:54:43.901812+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "这是商店展示性质的拼图画面，展示的是游戏核心棋盘玩法而非特定的轮换子活动内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:13.636511+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "57 的官方支持页质量很好，已经足够把新一代 Coin Master 活动框架写清楚：Pass、merge、order、boss、任务链、社区协作，再加上一整组高频轮换子活动。相比我之前对 16 的手工稿，这一版更偏官方、也更接近当前产品。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T08:54:43.901812+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:40:13.636511+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

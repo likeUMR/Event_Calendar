@@ -1,0 +1,722 @@
+{
+  "rank": 58,
+  "name": "Star Wars™: Galaxy of Heroes",
+  "source_confidence": "high",
+  "source_notes": null,
+  "collected_at": "2026-05-12T04:04:03.440Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "SWGoH Wiki - Events",
+      "source_type": "dedicated_wiki",
+      "source_url": "https://swgoh.wiki/wiki/Events",
+      "fetched_url": "https://swgoh.wiki/wiki/Events",
+      "status": 200,
+      "page_title": "Events",
+      "meta_description": "Star Wars Galaxy of Heroes has two major groups that events fall into; guild events and player events. Player events are reoccuring content that usually has several tiers with specific requirements in order to participate in, with the exception of Grand Arena. Guild Events are reoccuring content that all guild member can participate in. These events reward more and turn out better when more members participate.",
+      "relevant_text_blocks": [
+        "Events From SWGoH Wiki Jump to navigation Jump to search Star Wars Galaxy of Heroes has two major groups that events fall into; guild events and player events. Player events are reoccuring content that usually has several tiers with specific requirements in order to participate in, with the exception of Grand Arena . Guild Events are reoccuring content that all guild member can participate in. These events reward more and turn out better when more members participate. Player Events 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px Guild Events Retrieved from \" https://swgoh.wiki/index.php?title=Events&oldid=29321 \" Category : Pages with broken file links",
+        "This page was last edited on 2 January 2021, at 19:46."
+      ],
+      "inferred_event_types": [
+        "team_alliance",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://swgoh.wiki/images/thumb/c/c6/Event-Admiral%27s_Maneuver.png/200px-Event-Admiral%27s_Maneuver.png",
+          "alt": "Event-Admiral's Maneuver.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/5/5a/Event-General%27s_Command.png/200px-Event-General%27s_Command.png",
+          "alt": "Event-General's Command.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/c/c1/Event-Scourge_of_the_Old_Republic.png/200px-Event-Scourge_of_the_Old_Republic.png",
+          "alt": "Event-Scourge of the Old Republic.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/7/72/Event-Legend_of_the_Old_Republic.png/200px-Event-Legend_of_the_Old_Republic.png",
+          "alt": "Event-Legend of the Old Republic.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/3/36/Event-Ground_War.png/200px-Event-Ground_War.png",
+          "alt": "Event-Ground War.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/e/e5/Event-Fanatical_Devotion.png/200px-Event-Fanatical_Devotion.png",
+          "alt": "Event-Fanatical Devotion.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/2/2e/Event-Military_Might.png/200px-Event-Military_Might.png",
+          "alt": "Event-Military Might.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/9/9f/Event-Places_of_Power.png/200px-Event-Places_of_Power.png",
+          "alt": "Event-Places of Power.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/e/e7/Event-Secrets_and_Shadows.png/200px-Event-Secrets_and_Shadows.png",
+          "alt": "Event-Secrets and Shadows.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/1/1d/Event-Rebel_Roundup.png/200px-Event-Rebel_Roundup.png",
+          "alt": "Event-Rebel Roundup.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/4/4a/Event-Forest_Moon.png/200px-Event-Forest_Moon.png",
+          "alt": "Event-Forest Moon.png",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "SWGoH Events",
+      "source_type": "event_database",
+      "source_url": "https://swgohevents.com/",
+      "fetched_url": "https://swgohevents.com/",
+      "status": 200,
+      "page_title": "Star Wars Galaxy of Heroes Events",
+      "meta_description": "Star Wars Galaxy of Heroes Events. Find the next event dates, history, tips & tricks, & rumors in EA's Star Wars Galaxy of Heroes mobile game. Jedi Knight Luke, Rey, Commander Luke Skywalker, Jedi Training Rey, Chewbacca, Thrawn, Yoda, and more.",
+      "relevant_text_blocks": [
+        "Star Wars Galaxy of Heroes Events SWGOH EVENTS Events Home Upcoming History Calendar",
+        "If you're looking to chat about events, rumors, and SWGoH - join our Discord.",
+        "Permanent Events are available to access directly from the Journey Guide. Any Journey/Legendary/Epic Confrontation will be permanent after 1 year.",
+        "Battle for Mandalore",
+        "Coruscant Omega Battle - 2026-05-11",
+        "Hoth Omega Battle - 2026-05-15",
+        "Dathomir Omega Battle - 2026-05-18",
+        "Imperial Fleet Omega Battle",
+        "Battle for Mandalore",
+        "Battlefield: Naboo IV",
+        "Battlefield: Naboo III",
+        "Battlefield: Naboo II",
+        "Battlefield: Naboo I",
+        "Jedi Temple Challenge",
+        "Follow SWGOH Events on Twitter | Privacy Policy | SWGOH.TV"
+      ],
+      "inferred_event_types": [
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://swgohevents.com/images/events/45.jpg",
+          "alt": "Pieces & Plans Mythic",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgohevents.com/images/events/48.jpg",
+          "alt": "Artist of War Mythic",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgohevents.com/images/events/47.jpg",
+          "alt": "Emperor's Demise Mythic",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgohevents.com/images/events/46.jpg",
+          "alt": "Daring Droid Mythic",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgohevents.com/images/events/49.jpg",
+          "alt": "Grand Master's Training Mythic",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgohevents.com/images/events/74.jpg",
+          "alt": "Smuggler's Run",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgohevents.com/images/events/2.jpg",
+          "alt": "Credit Heist",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgohevents.com/images/events/72.jpg",
+          "alt": "Contraband Cargo",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgohevents.com/images/events/73.jpg",
+          "alt": "Galactic Bounties II",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgohevents.com/images/events/42.jpg",
+          "alt": "Galactic Bounties I",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "event_detail_pages": [
+    {
+      "source_title": "Page",
+      "source_type": "event_detail",
+      "source_url": "https://swgoh.wiki/wiki/Events",
+      "fetched_url": "https://swgoh.wiki/wiki/Events",
+      "status": 200,
+      "page_title": "Events",
+      "meta_description": "Star Wars Galaxy of Heroes has two major groups that events fall into; guild events and player events. Player events are reoccuring content that usually has several tiers with specific requirements in order to participate in, with the exception of Grand Arena. Guild Events are reoccuring content that all guild member can participate in. These events reward more and turn out better when more members participate.",
+      "relevant_text_blocks": [
+        "Events From SWGoH Wiki Jump to navigation Jump to search Star Wars Galaxy of Heroes has two major groups that events fall into; guild events and player events. Player events are reoccuring content that usually has several tiers with specific requirements in order to participate in, with the exception of Grand Arena . Guild Events are reoccuring content that all guild member can participate in. These events reward more and turn out better when more members participate. Player Events 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px Guild Events Retrieved from \" https://swgoh.wiki/index.php?title=Events&oldid=29321 \" Category : Pages with broken file links",
+        "This page was last edited on 2 January 2021, at 19:46."
+      ],
+      "inferred_event_types": [
+        "team_alliance",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://swgoh.wiki/images/thumb/c/c6/Event-Admiral%27s_Maneuver.png/200px-Event-Admiral%27s_Maneuver.png",
+          "alt": "Event-Admiral's Maneuver.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/5/5a/Event-General%27s_Command.png/200px-Event-General%27s_Command.png",
+          "alt": "Event-General's Command.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/c/c1/Event-Scourge_of_the_Old_Republic.png/200px-Event-Scourge_of_the_Old_Republic.png",
+          "alt": "Event-Scourge of the Old Republic.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/7/72/Event-Legend_of_the_Old_Republic.png/200px-Event-Legend_of_the_Old_Republic.png",
+          "alt": "Event-Legend of the Old Republic.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/3/36/Event-Ground_War.png/200px-Event-Ground_War.png",
+          "alt": "Event-Ground War.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/e/e5/Event-Fanatical_Devotion.png/200px-Event-Fanatical_Devotion.png",
+          "alt": "Event-Fanatical Devotion.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/2/2e/Event-Military_Might.png/200px-Event-Military_Might.png",
+          "alt": "Event-Military Might.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/9/9f/Event-Places_of_Power.png/200px-Event-Places_of_Power.png",
+          "alt": "Event-Places of Power.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/e/e7/Event-Secrets_and_Shadows.png/200px-Event-Secrets_and_Shadows.png",
+          "alt": "Event-Secrets and Shadows.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/1/1d/Event-Rebel_Roundup.png/200px-Event-Rebel_Roundup.png",
+          "alt": "Event-Rebel Roundup.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/4/4a/Event-Forest_Moon.png/200px-Event-Forest_Moon.png",
+          "alt": "Event-Forest Moon.png",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "What links here",
+      "source_type": "event_detail",
+      "source_url": "https://swgoh.wiki/wiki/Special:WhatLinksHere/Events",
+      "fetched_url": "https://swgoh.wiki/wiki/Special:WhatLinksHere/Events",
+      "status": 200,
+      "page_title": "Pages that link to \"Events\"",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Help Pages that link to \"Events\" From SWGoH Wiki ← Events Jump to navigation Jump to search What links here Page: Namespace: all (Main) Talk User User talk SWGoH Wiki SWGoH Wiki talk File File talk MediaWiki MediaWiki talk Template Template talk Help Help talk Category Category talk Property Property talk Concept Concept talk smw/schema smw/schema talk Rule Rule talk Widget Widget talk Module Module talk Invert selection Filters Hide transclusions | Hide links | Hide redirects The following pages link to Events : Displayed 7 items. View (previous 50 | next 50) ( 20 | 50 | 100 | 250 | 500 ) Main Page ‎ ( ← links )",
+        "Category:Event ‎ ( ← links )",
+        "Basic Information ‎ ( ← links )",
+        "Beginner's Guide ‎ ( ← links )",
+        "User:Kidori/sandbox/Beginner Guide ‎ ( ← links )",
+        "Unlocks at each Player Level ‎ ( ← links )",
+        "Galaxy of Heroes Cantina ‎ ( ← links )"
+      ],
+      "inferred_event_types": [],
+      "images": [
+        {
+          "url": "https://swgoh.wiki/resources/assets/poweredby_mediawiki_88x31.png",
+          "alt": "Powered by MediaWiki",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Related changes",
+      "url": "https://swgoh.wiki/wiki/Special:RecentChangesLinked/Events",
+      "discovered_from": "https://swgoh.wiki/wiki/Events",
+      "status": 404,
+      "error": "fetch_failed"
+    },
+    {
+      "source_title": "Jump to navigation",
+      "source_type": "event_detail",
+      "source_url": "https://swgoh.wiki/wiki/Events#column-one",
+      "fetched_url": "https://swgoh.wiki/wiki/Events#column-one",
+      "status": 200,
+      "page_title": "Events",
+      "meta_description": "Star Wars Galaxy of Heroes has two major groups that events fall into; guild events and player events. Player events are reoccuring content that usually has several tiers with specific requirements in order to participate in, with the exception of Grand Arena. Guild Events are reoccuring content that all guild member can participate in. These events reward more and turn out better when more members participate.",
+      "relevant_text_blocks": [
+        "Events From SWGoH Wiki Jump to navigation Jump to search Star Wars Galaxy of Heroes has two major groups that events fall into; guild events and player events. Player events are reoccuring content that usually has several tiers with specific requirements in order to participate in, with the exception of Grand Arena . Guild Events are reoccuring content that all guild member can participate in. These events reward more and turn out better when more members participate. Player Events 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px Guild Events Retrieved from \" https://swgoh.wiki/index.php?title=Events&oldid=29321 \" Category : Pages with broken file links",
+        "This page was last edited on 2 January 2021, at 19:46."
+      ],
+      "inferred_event_types": [
+        "team_alliance",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://swgoh.wiki/images/thumb/c/c6/Event-Admiral%27s_Maneuver.png/200px-Event-Admiral%27s_Maneuver.png",
+          "alt": "Event-Admiral's Maneuver.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/5/5a/Event-General%27s_Command.png/200px-Event-General%27s_Command.png",
+          "alt": "Event-General's Command.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/c/c1/Event-Scourge_of_the_Old_Republic.png/200px-Event-Scourge_of_the_Old_Republic.png",
+          "alt": "Event-Scourge of the Old Republic.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/7/72/Event-Legend_of_the_Old_Republic.png/200px-Event-Legend_of_the_Old_Republic.png",
+          "alt": "Event-Legend of the Old Republic.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/3/36/Event-Ground_War.png/200px-Event-Ground_War.png",
+          "alt": "Event-Ground War.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/e/e5/Event-Fanatical_Devotion.png/200px-Event-Fanatical_Devotion.png",
+          "alt": "Event-Fanatical Devotion.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/2/2e/Event-Military_Might.png/200px-Event-Military_Might.png",
+          "alt": "Event-Military Might.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/9/9f/Event-Places_of_Power.png/200px-Event-Places_of_Power.png",
+          "alt": "Event-Places of Power.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/e/e7/Event-Secrets_and_Shadows.png/200px-Event-Secrets_and_Shadows.png",
+          "alt": "Event-Secrets and Shadows.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/1/1d/Event-Rebel_Roundup.png/200px-Event-Rebel_Roundup.png",
+          "alt": "Event-Rebel Roundup.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/4/4a/Event-Forest_Moon.png/200px-Event-Forest_Moon.png",
+          "alt": "Event-Forest Moon.png",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Jump to search",
+      "source_type": "event_detail",
+      "source_url": "https://swgoh.wiki/wiki/Events#searchInput",
+      "fetched_url": "https://swgoh.wiki/wiki/Events#searchInput",
+      "status": 200,
+      "page_title": "Events",
+      "meta_description": "Star Wars Galaxy of Heroes has two major groups that events fall into; guild events and player events. Player events are reoccuring content that usually has several tiers with specific requirements in order to participate in, with the exception of Grand Arena. Guild Events are reoccuring content that all guild member can participate in. These events reward more and turn out better when more members participate.",
+      "relevant_text_blocks": [
+        "Events From SWGoH Wiki Jump to navigation Jump to search Star Wars Galaxy of Heroes has two major groups that events fall into; guild events and player events. Player events are reoccuring content that usually has several tiers with specific requirements in order to participate in, with the exception of Grand Arena . Guild Events are reoccuring content that all guild member can participate in. These events reward more and turn out better when more members participate. Player Events 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px Guild Events Retrieved from \" https://swgoh.wiki/index.php?title=Events&oldid=29321 \" Category : Pages with broken file links",
+        "This page was last edited on 2 January 2021, at 19:46."
+      ],
+      "inferred_event_types": [
+        "team_alliance",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://swgoh.wiki/images/thumb/c/c6/Event-Admiral%27s_Maneuver.png/200px-Event-Admiral%27s_Maneuver.png",
+          "alt": "Event-Admiral's Maneuver.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/5/5a/Event-General%27s_Command.png/200px-Event-General%27s_Command.png",
+          "alt": "Event-General's Command.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/c/c1/Event-Scourge_of_the_Old_Republic.png/200px-Event-Scourge_of_the_Old_Republic.png",
+          "alt": "Event-Scourge of the Old Republic.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/7/72/Event-Legend_of_the_Old_Republic.png/200px-Event-Legend_of_the_Old_Republic.png",
+          "alt": "Event-Legend of the Old Republic.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/3/36/Event-Ground_War.png/200px-Event-Ground_War.png",
+          "alt": "Event-Ground War.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/e/e5/Event-Fanatical_Devotion.png/200px-Event-Fanatical_Devotion.png",
+          "alt": "Event-Fanatical Devotion.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/2/2e/Event-Military_Might.png/200px-Event-Military_Might.png",
+          "alt": "Event-Military Might.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/9/9f/Event-Places_of_Power.png/200px-Event-Places_of_Power.png",
+          "alt": "Event-Places of Power.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/e/e7/Event-Secrets_and_Shadows.png/200px-Event-Secrets_and_Shadows.png",
+          "alt": "Event-Secrets and Shadows.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/1/1d/Event-Rebel_Roundup.png/200px-Event-Rebel_Roundup.png",
+          "alt": "Event-Rebel Roundup.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/4/4a/Event-Forest_Moon.png/200px-Event-Forest_Moon.png",
+          "alt": "Event-Forest Moon.png",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "200px",
+      "source_type": "event_detail",
+      "source_url": "https://swgoh.wiki/index.php?title=Special:Upload&wpDestFile=Event-Peridea_Patrol.png",
+      "fetched_url": "https://swgoh.wiki/index.php?title=Special:Upload&wpDestFile=Event-Peridea_Patrol.png",
+      "status": 200,
+      "page_title": "Permission error",
+      "meta_description": "You do not have permission to upload this file, for the following reason:",
+      "relevant_text_blocks": [
+        "Help Permission error From SWGoH Wiki Jump to navigation Jump to search You do not have permission to upload this file, for the following reason: The action you have requested is limited to users in one of the groups: Administrators , contributor, Patrollers , Power users . Retrieved from \" https://swgoh.wiki/wiki/Special:Upload \" Navigation menu Page actions Special page"
+      ],
+      "inferred_event_types": [],
+      "images": [
+        {
+          "url": "https://swgoh.wiki/resources/assets/poweredby_mediawiki_88x31.png",
+          "alt": "Powered by MediaWiki",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "event_catalog": [
+    {
+      "title": "Events",
+      "url": "https://swgoh.wiki/wiki/Events",
+      "discovered_from": "https://swgoh.wiki/wiki/Events",
+      "description": "Star Wars Galaxy of Heroes has two major groups that events fall into; guild events and player events. Player events are reoccuring content that usually has several tiers with specific requirements in order to participate in, with the exception of Grand Arena. Guild Events are reoccuring content that all guild member can participate in. These events reward more and turn out better when more members participate.",
+      "inferred_event_types": [
+        "team_alliance",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://swgoh.wiki/images/thumb/c/c6/Event-Admiral%27s_Maneuver.png/200px-Event-Admiral%27s_Maneuver.png",
+          "alt": "Event-Admiral's Maneuver.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/5/5a/Event-General%27s_Command.png/200px-Event-General%27s_Command.png",
+          "alt": "Event-General's Command.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/c/c1/Event-Scourge_of_the_Old_Republic.png/200px-Event-Scourge_of_the_Old_Republic.png",
+          "alt": "Event-Scourge of the Old Republic.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/7/72/Event-Legend_of_the_Old_Republic.png/200px-Event-Legend_of_the_Old_Republic.png",
+          "alt": "Event-Legend of the Old Republic.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/3/36/Event-Ground_War.png/200px-Event-Ground_War.png",
+          "alt": "Event-Ground War.png",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Pages that link to \"Events\"",
+      "url": "https://swgoh.wiki/wiki/Special:WhatLinksHere/Events",
+      "discovered_from": "https://swgoh.wiki/wiki/Events",
+      "description": "Help Pages that link to \"Events\" From SWGoH Wiki ← Events Jump to navigation Jump to search What links here Page: Namespace: all (Main) Talk User User talk SWGoH Wiki SWGoH Wiki talk File File talk MediaWiki MediaWiki talk Template Template talk Help Help talk Category Category talk Property Property talk Concept Concept talk smw/schema smw/schema talk Rule Rule talk Widget Widget talk Module Module talk Invert selection Filters Hide transclusions | Hide links | Hide redirects The following page",
+      "inferred_event_types": [],
+      "images": [
+        {
+          "url": "https://swgoh.wiki/resources/assets/poweredby_mediawiki_88x31.png",
+          "alt": "Powered by MediaWiki",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Events",
+      "url": "https://swgoh.wiki/wiki/Events#column-one",
+      "discovered_from": "https://swgoh.wiki/wiki/Events",
+      "description": "Star Wars Galaxy of Heroes has two major groups that events fall into; guild events and player events. Player events are reoccuring content that usually has several tiers with specific requirements in order to participate in, with the exception of Grand Arena. Guild Events are reoccuring content that all guild member can participate in. These events reward more and turn out better when more members participate.",
+      "inferred_event_types": [
+        "team_alliance",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://swgoh.wiki/images/thumb/c/c6/Event-Admiral%27s_Maneuver.png/200px-Event-Admiral%27s_Maneuver.png",
+          "alt": "Event-Admiral's Maneuver.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/5/5a/Event-General%27s_Command.png/200px-Event-General%27s_Command.png",
+          "alt": "Event-General's Command.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/c/c1/Event-Scourge_of_the_Old_Republic.png/200px-Event-Scourge_of_the_Old_Republic.png",
+          "alt": "Event-Scourge of the Old Republic.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/7/72/Event-Legend_of_the_Old_Republic.png/200px-Event-Legend_of_the_Old_Republic.png",
+          "alt": "Event-Legend of the Old Republic.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/3/36/Event-Ground_War.png/200px-Event-Ground_War.png",
+          "alt": "Event-Ground War.png",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Events",
+      "url": "https://swgoh.wiki/wiki/Events#searchInput",
+      "discovered_from": "https://swgoh.wiki/wiki/Events",
+      "description": "Star Wars Galaxy of Heroes has two major groups that events fall into; guild events and player events. Player events are reoccuring content that usually has several tiers with specific requirements in order to participate in, with the exception of Grand Arena. Guild Events are reoccuring content that all guild member can participate in. These events reward more and turn out better when more members participate.",
+      "inferred_event_types": [
+        "team_alliance",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://swgoh.wiki/images/thumb/c/c6/Event-Admiral%27s_Maneuver.png/200px-Event-Admiral%27s_Maneuver.png",
+          "alt": "Event-Admiral's Maneuver.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/5/5a/Event-General%27s_Command.png/200px-Event-General%27s_Command.png",
+          "alt": "Event-General's Command.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/c/c1/Event-Scourge_of_the_Old_Republic.png/200px-Event-Scourge_of_the_Old_Republic.png",
+          "alt": "Event-Scourge of the Old Republic.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/7/72/Event-Legend_of_the_Old_Republic.png/200px-Event-Legend_of_the_Old_Republic.png",
+          "alt": "Event-Legend of the Old Republic.png",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/3/36/Event-Ground_War.png/200px-Event-Ground_War.png",
+          "alt": "Event-Ground War.png",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Permission error",
+      "url": "https://swgoh.wiki/index.php?title=Special:Upload&wpDestFile=Event-Peridea_Patrol.png",
+      "discovered_from": "https://swgoh.wiki/wiki/Events",
+      "description": "You do not have permission to upload this file, for the following reason:",
+      "inferred_event_types": [],
+      "images": [
+        {
+          "url": "https://swgoh.wiki/resources/assets/poweredby_mediawiki_88x31.png",
+          "alt": "Powered by MediaWiki",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "inferred_event_type_summary": [
+    "pvp_war",
+    "team_alliance"
+  ],
+  "screenshots_or_images": [
+    {
+      "url": "https://swgoh.wiki/images/thumb/c/c6/Event-Admiral%27s_Maneuver.png/200px-Event-Admiral%27s_Maneuver.png",
+      "alt": "Event-Admiral's Maneuver.png",
+      "kind": "page_image",
+      "source_url": "https://swgoh.wiki/wiki/Events"
+    },
+    {
+      "url": "https://swgoh.wiki/images/thumb/5/5a/Event-General%27s_Command.png/200px-Event-General%27s_Command.png",
+      "alt": "Event-General's Command.png",
+      "kind": "page_image",
+      "source_url": "https://swgoh.wiki/wiki/Events"
+    },
+    {
+      "url": "https://swgoh.wiki/images/thumb/c/c1/Event-Scourge_of_the_Old_Republic.png/200px-Event-Scourge_of_the_Old_Republic.png",
+      "alt": "Event-Scourge of the Old Republic.png",
+      "kind": "page_image",
+      "source_url": "https://swgoh.wiki/wiki/Events"
+    },
+    {
+      "url": "https://swgoh.wiki/images/thumb/7/72/Event-Legend_of_the_Old_Republic.png/200px-Event-Legend_of_the_Old_Republic.png",
+      "alt": "Event-Legend of the Old Republic.png",
+      "kind": "page_image",
+      "source_url": "https://swgoh.wiki/wiki/Events"
+    },
+    {
+      "url": "https://swgoh.wiki/images/thumb/3/36/Event-Ground_War.png/200px-Event-Ground_War.png",
+      "alt": "Event-Ground War.png",
+      "kind": "page_image",
+      "source_url": "https://swgoh.wiki/wiki/Events"
+    },
+    {
+      "url": "https://swgoh.wiki/images/thumb/e/e5/Event-Fanatical_Devotion.png/200px-Event-Fanatical_Devotion.png",
+      "alt": "Event-Fanatical Devotion.png",
+      "kind": "page_image",
+      "source_url": "https://swgoh.wiki/wiki/Events"
+    },
+    {
+      "url": "https://swgoh.wiki/images/thumb/2/2e/Event-Military_Might.png/200px-Event-Military_Might.png",
+      "alt": "Event-Military Might.png",
+      "kind": "page_image",
+      "source_url": "https://swgoh.wiki/wiki/Events"
+    },
+    {
+      "url": "https://swgoh.wiki/images/thumb/9/9f/Event-Places_of_Power.png/200px-Event-Places_of_Power.png",
+      "alt": "Event-Places of Power.png",
+      "kind": "page_image",
+      "source_url": "https://swgoh.wiki/wiki/Events"
+    },
+    {
+      "url": "https://swgoh.wiki/images/thumb/e/e7/Event-Secrets_and_Shadows.png/200px-Event-Secrets_and_Shadows.png",
+      "alt": "Event-Secrets and Shadows.png",
+      "kind": "page_image",
+      "source_url": "https://swgoh.wiki/wiki/Events"
+    },
+    {
+      "url": "https://swgoh.wiki/images/thumb/1/1d/Event-Rebel_Roundup.png/200px-Event-Rebel_Roundup.png",
+      "alt": "Event-Rebel Roundup.png",
+      "kind": "page_image",
+      "source_url": "https://swgoh.wiki/wiki/Events"
+    },
+    {
+      "url": "https://swgoh.wiki/images/thumb/4/4a/Event-Forest_Moon.png/200px-Event-Forest_Moon.png",
+      "alt": "Event-Forest Moon.png",
+      "kind": "page_image",
+      "source_url": "https://swgoh.wiki/wiki/Events"
+    },
+    {
+      "url": "https://swgohevents.com/images/events/45.jpg",
+      "alt": "Pieces & Plans Mythic",
+      "kind": "page_image",
+      "source_url": "https://swgohevents.com/"
+    },
+    {
+      "url": "https://swgohevents.com/images/events/48.jpg",
+      "alt": "Artist of War Mythic",
+      "kind": "page_image",
+      "source_url": "https://swgohevents.com/"
+    },
+    {
+      "url": "https://swgohevents.com/images/events/47.jpg",
+      "alt": "Emperor's Demise Mythic",
+      "kind": "page_image",
+      "source_url": "https://swgohevents.com/"
+    },
+    {
+      "url": "https://swgohevents.com/images/events/46.jpg",
+      "alt": "Daring Droid Mythic",
+      "kind": "page_image",
+      "source_url": "https://swgohevents.com/"
+    },
+    {
+      "url": "https://swgohevents.com/images/events/49.jpg",
+      "alt": "Grand Master's Training Mythic",
+      "kind": "page_image",
+      "source_url": "https://swgohevents.com/"
+    },
+    {
+      "url": "https://swgohevents.com/images/events/74.jpg",
+      "alt": "Smuggler's Run",
+      "kind": "page_image",
+      "source_url": "https://swgohevents.com/"
+    },
+    {
+      "url": "https://swgohevents.com/images/events/2.jpg",
+      "alt": "Credit Heist",
+      "kind": "page_image",
+      "source_url": "https://swgohevents.com/"
+    },
+    {
+      "url": "https://swgohevents.com/images/events/72.jpg",
+      "alt": "Contraband Cargo",
+      "kind": "page_image",
+      "source_url": "https://swgohevents.com/"
+    },
+    {
+      "url": "https://swgohevents.com/images/events/73.jpg",
+      "alt": "Galactic Bounties II",
+      "kind": "page_image",
+      "source_url": "https://swgohevents.com/"
+    },
+    {
+      "url": "https://swgohevents.com/images/events/42.jpg",
+      "alt": "Galactic Bounties I",
+      "kind": "page_image",
+      "source_url": "https://swgohevents.com/"
+    },
+    {
+      "url": "https://swgoh.wiki/resources/assets/poweredby_mediawiki_88x31.png",
+      "alt": "Powered by MediaWiki",
+      "kind": "page_image",
+      "source_url": "https://swgoh.wiki/wiki/Special:WhatLinksHere/Events"
+    }
+  ],
+  "collection_warnings": []
+}

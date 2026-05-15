@@ -1,0 +1,36 @@
+{
+  "rank": 35,
+  "name": "Clash Royale",
+  "source_confidence": "high",
+  "source_notes": null,
+  "collected_at": "2026-05-12T04:01:59.120Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Clash Royale Wiki - Events",
+      "source_type": "fandom",
+      "source_url": "https://clashroyale.fandom.com/wiki/Events",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "source_title": "Clash Royale Live Events",
+      "source_type": "official_event",
+      "source_url": "https://event.supercell.com/clashroyale/en",
+      "fetched_url": "https://event.supercell.com/clashroyale/en",
+      "status": 200,
+      "page_title": "Clash Royale League Live Events",
+      "meta_description": "Interact with the show for a chance to earn in-game rewards!",
+      "relevant_text_blocks": [],
+      "inferred_event_types": [],
+      "images": []
+    }
+  ],
+  "event_detail_pages": [],
+  "event_catalog": [],
+  "inferred_event_type_summary": [],
+  "screenshots_or_images": [],
+  "collection_warnings": [
+    "Fetch failed: https://clashroyale.fandom.com/wiki/Events"
+  ]
+}

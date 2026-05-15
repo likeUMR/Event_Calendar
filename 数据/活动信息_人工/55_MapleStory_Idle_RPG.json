@@ -1,0 +1,1351 @@
+{
+  "rank": 55,
+  "name": "MapleStory : Idle RPG",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 Nexon 官方社区帖、AppsHunter 事件流和 MapleStory Idle RPG Wiki，按公开能验证的活动/模式整理。",
+  "source_pages": [
+    {
+      "title": "Nexon Forum - [Event] MapleStory : Idle RPG is Open! 10-Day Attendance & 14-Day Special Mission Events",
+      "url": "https://forum.nexon.com/maplestoryidle/board_view?thread=3212465",
+      "notes": "官方开服活动帖，确认开服就有签到和特殊任务活动。"
+    },
+    {
+      "title": "Nexon Forum - [Event] MapleStory : Idle RPG Daily Play Time Event!",
+      "url": "https://forum.nexon.com/maplestoryidle/board_view?thread=3212544",
+      "notes": "官方活动帖，确认存在按在线时长领奖的 play time 活动。"
+    },
+    {
+      "title": "AppsHunter - MapleStory : Idle RPG App Page",
+      "url": "https://appshunter.io/ios/app/6739616715",
+      "notes": "可看到产品版本摘要，例如新增 Guild Training Ground，也可补充长期系统如 dungeons、arena。"
+    },
+    {
+      "title": "AppsHunter - Valentine's Day Event begins",
+      "url": "https://appshunter.io/events/6758282801",
+      "notes": "明确写到完成 daily missions 获得限时帽子，证明节日任务活动存在。"
+    },
+    {
+      "title": "AppsHunter - New Jobs, Half Anniv Events",
+      "url": "https://appshunter.io/events/6762691031",
+      "notes": "说明半年庆大型活动包含 1+1 level up 等成长加速福利。"
+    },
+    {
+      "title": "AppsHunter - With The Kingdom of the Winds",
+      "url": "https://appshunter.io/events/6761512961",
+      "notes": "说明存在联动活动，包含限定 costume、新 town 和 party quests。"
+    },
+    {
+      "title": "AppsHunter - New Boss Raid Zakum is here",
+      "url": "https://appshunter.io/events/6756249809",
+      "notes": "验证大型 boss raid 作为版本级活动/更新推出。"
+    },
+    {
+      "title": "MapleStory Idle RPG Wiki",
+      "url": "https://idle.maplestorywiki.net/",
+      "notes": "社区 wiki，可交叉确认 Pass、World Boss、Party Quest、Arena、Guild、Hot Deals 等长期系统。"
+    },
+    {
+      "title": "MapleStory Idle RPG Wiki - Hot Deals",
+      "url": "https://idle.maplestorywiki.net/w/Hot_Deals",
+      "notes": "明确写到 Event Hot Deals are time-limited deals that occur for events。"
+    },
+    {
+      "title": "MapleStory Idle RPG Wiki - Zakum",
+      "url": "https://idle.maplestorywiki.net/w/Zakum",
+      "notes": "补充 Zakum 的开启条件、每周入场次数和奖励结构。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "attendance_event",
+      "display_name": "签到活动 / Attendance Event",
+      "description": "开服官方活动明确包含 10-Day Attendance；玩家按天登录领取连续奖励。",
+      "examples": [
+        "10-Day Attendance Event"
+      ],
+      "market_research_notes": "这是 idle RPG 最基础的开服留存活动层，用最低摩擦方式先把连续回访养起来。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/secret-attendance-event-v0-i2xagh90huug1.png?auto=webp&s=4d61251e3b59b49bc96f22c5ce0d7cf0707adf2d",
+          "caption": "Secret Attendance Event? : r/MapleIdle",
+          "source_url": "https://www.reddit.com/r/MapleIdle/comments/1sjua4n/secret_attendance_event/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+attendance+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg attendance event",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:46:01.279576+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了10-Day Attendance活动标题和奖励内容，但带有Download按钮且背景为插画，属于广告宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:13.874672+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/claiming-holiday-attendance-package-rewards-v0-z1815y9915cg1.jpeg?auto=webp&s=6293b2ce8b1b4d631a29007d3b6247d57e1e2458",
+          "caption": "Claiming Holiday Attendance Package ...",
+          "source_url": "https://www.reddit.com/r/MapleIdle/comments/1q7dlcz/claiming_holiday_attendance_package_rewards/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+attendance+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg attendance event",
+          "width": 331,
+          "height": 152,
+          "aspect_ratio": 2.1776,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:46:01.279576+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "这是游戏内实际的活动弹窗界面，展示了Holiday Attendance Package的签到领取进度和奖励列表。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:13.874672+00:00"
+          }
+        },
+        {
+          "url": "https://dszw1qtcnsa5e.cloudfront.net/community/20250507/60766e9d-1802-4a07-8cef-e40264bdb018/MIAppicof512512.png",
+          "caption": "Event] THE KINGDOM OF THE WINDS 30th ...",
+          "source_url": "https://forum.nexon.com/maplestoryidle/board_view?board=6676&thread=3419591",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+attendance+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg attendance event",
+          "width": 309,
+          "height": 163,
+          "aspect_ratio": 1.8957,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:46:01.279576+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片仅为该游戏的App图标，属于通用资产，未体现具体的签到活动内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:13.874672+00:00"
+          }
+        },
+        {
+          "url": "https://media.pocketgamer.com/artwork/na-37913-1764091328/maplestory-idle-rpg-rewards.jpg",
+          "caption": "MapleStory Idle RPG guide: 6 tips to ...",
+          "source_url": "https://www.pocketgamer.com/maplestory-idle-rpg/guide/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+attendance+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg attendance event",
+          "width": 284,
+          "height": 177,
+          "aspect_ratio": 1.6045,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:46:01.279576+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "虽然当前页签是在线时长活动，但左侧菜单清晰显示了10-Day Attendance活动项，属于游戏内活动列表界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:13.874672+00:00"
+          }
+        },
+        {
+          "url": "https://dszw1qtcnsa5e.cloudfront.net/community/20260408/5d51b427-2547-4bc8-adda-b317d1e51e06/eventcrop3.png",
+          "caption": "April 9 Patch Notes",
+          "source_url": "https://forum.nexon.com/maplestoryidle/board_view?board=6676&thread=3419591",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+attendance+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg attendance event",
+          "width": 309,
+          "height": 163,
+          "aspect_ratio": 1.8957,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:46:01.279576+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了风之国度30周年联动期间的具体签到活动玩法界面，包含Day 1-10的奖励轨。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:13.874672+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "special_mission_event",
+      "display_name": "特殊任务活动 / Special Mission Event",
+      "description": "开服活动同时包含 14-Day Special Mission，后续也有 7-Day Special Mission、节庆 mission 变体。",
+      "examples": [
+        "14-Day Special Mission Event",
+        "7-Day Special Mission Event",
+        "Valentine's Day missions"
+      ],
+      "market_research_notes": "这类活动把成长目标拆成多天任务链，是最适合 idle RPG 的中短线运营形式。",
+      "images": [
+        {
+          "url": "https://dszw1qtcnsa5e.cloudfront.net/community/20250507/60766e9d-1802-4a07-8cef-e40264bdb018/MIAppicof512512.png",
+          "caption": "Event] Holiday Special Mission Event + ...",
+          "source_url": "https://forum.nexon.com/maplestoryidle/board_view?board=6676&thread=3313004",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+special+mission+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg special mission event",
+          "width": 308,
+          "height": 164,
+          "aspect_ratio": 1.878,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:46:29.847211+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图仅为游戏的App图标或通用品牌角色图，未涉及具体活动内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:17.927459+00:00"
+          }
+        },
+        {
+          "url": "https://dszw1qtcnsa5e.cloudfront.net/community/20260428/4c133a80-683d-44a8-8597-16e8c73d177d/image202604281722441.png",
+          "caption": "Event] Wedding Hall Special Mission ...",
+          "source_url": "https://forum.nexon.com/maplestoryidle/board_view?board=6676&thread=3419607",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+special+mission+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg special mission event",
+          "width": 309,
+          "height": 163,
+          "aspect_ratio": 1.8957,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:46:29.847211+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了 Wedding Hall Special Mission 的实际玩法界面，包含任务列表、进度条和奖励轨。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:17.927459+00:00"
+          }
+        },
+        {
+          "url": "https://dszw1qtcnsa5e.cloudfront.net/community/20260107/9e6cf8f3-d31f-40f5-a629-19506d7a9a49/image.png",
+          "caption": "Event] 7-Day Special Mission Event",
+          "source_url": "https://forum.nexon.com/maplestoryidle/board_view?board=6676&thread=3339500",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+special+mission+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg special mission event",
+          "width": 308,
+          "height": 164,
+          "aspect_ratio": 1.878,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:46:29.847211+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了 7-Day Special Mission 的实际玩法界面，包含按天解锁的任务页签、任务列表及进度。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:17.927459+00:00"
+          }
+        },
+        {
+          "url": "https://dszw1qtcnsa5e.cloudfront.net/community/20260211/888d0255-3a2a-4508-b747-45208d86a784/image.png",
+          "caption": "Event] Valentine's Day Special Mission 🍭",
+          "source_url": "https://forum.nexon.com/maplestoryidle/board_view?board=6676&thread=3375131",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+special+mission+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg special mission event",
+          "width": 308,
+          "height": 164,
+          "aspect_ratio": 1.878,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:46:29.847211+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了 Valentine's Day Special Mission 的实际玩法界面，包含具体任务项和底部的奖励进度条。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:17.927459+00:00"
+          }
+        },
+        {
+          "url": "https://dszw1qtcnsa5e.cloudfront.net/community/20260128/bd2898aa-85ca-4bf9-b20a-8d8c06495c73/image202601282131101.png",
+          "caption": "Lunar New Year's Special Mission Event ...",
+          "source_url": "https://forum.nexon.com/maplestoryidle/board_view?board=6676&thread=3360741",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+special+mission+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg special mission event",
+          "width": 308,
+          "height": 164,
+          "aspect_ratio": 1.878,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:46:29.847211+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了 Lunar New Year's Special Mission 的实际玩法界面，包含具体任务要求及阶段奖励领取条。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:17.927459+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "play_time_event",
+      "display_name": "在线时长活动 / Play Time Event",
+      "description": "官方明确存在 Daily Play Time Event，按每日在线/挂机时长发放奖励。",
+      "examples": [
+        "Daily Play Time Event",
+        "Lunar New Year Play Time Event"
+      ],
+      "market_research_notes": "对 idle 产品来说，这类活动能直接服务在线挂机时长目标，也能和成长加速道具绑定。",
+      "images": [
+        {
+          "url": "https://dszw1qtcnsa5e.cloudfront.net/community/20250507/60766e9d-1802-4a07-8cef-e40264bdb018/MIAppicof512512.png",
+          "caption": "Event] Lunar New Year With MapleStory ...",
+          "source_url": "https://forum.nexon.com/maplestoryidle/board_view?board=6676&thread=3375135",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+play+time+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg play time event",
+          "width": 308,
+          "height": 163,
+          "aspect_ratio": 1.8896,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:46:56.135075+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片为游戏App图标或通用品牌角色图，虽有关联但无法体现特定在线时长活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:22.791047+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/event-maplestory-idle-rpg-half-anniversary-festival-new-v0-tcdjnb2m3ayg1.png?width=1080&crop=smart&auto=webp&s=52a0c82c6ab1c113343dd78b615c6cb2554bebc7",
+          "caption": "Event] MapleStory: Idle RPG - Half ...",
+          "source_url": "https://www.reddit.com/r/BlueStacks/comments/1szow3o/event_maplestory_idle_rpg_half_anniversary/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+play+time+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg play time event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:46:56.135075+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是半周年庆典的宣传海报，虽然标题提到Play New Update，但与指定的在线时长活动无直接证据关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:22.791047+00:00"
+          }
+        },
+        {
+          "url": "https://static.invenglobal.com/upload/thumb/2026/04/30/w/b1777522335195651.jpg",
+          "caption": "MapleStory: Idle RPG ...",
+          "source_url": "https://www.invenglobal.com/articles/21478/nexon-launches-half-year-anniversary-event-for-maplestory-idle-rpg-including-11-burning",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+play+time+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg play time event",
+          "width": 311,
+          "height": 162,
+          "aspect_ratio": 1.9198,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:46:56.135075+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "这是Burning Level Up（成长加速）活动的韩文宣传图，不属于在线时长活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:22.791047+00:00"
+          }
+        },
+        {
+          "url": "https://scontent-hkg1-2.xx.fbcdn.net/v/t15.5256-10/685993787_956240310486070_1513333191985764825_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a27664&_nc_ohc=Ct3FKBMLlPoQ7kNvwEk2fGq&_nc_oc=AdqzOeN-2Epqtb12fPC8nFnuqmXUQsgtRjtrXJkp1sk-DrcRDT2afdwwO54eY3KYZdY&_nc_zt=23&_nc_ht=scontent-hkg1-2.xx&_nc_gid=Z-ygZa71OH0VdIHMUo3cxA&_nc_ss=7c20f&oh=00_Af7iiCbfobgSYiMqweqBABt4PDY3OWtE15atp_QmfTh-eg&oe=6A0A1B9A",
+          "caption": "Idle RPG ...",
+          "source_url": "https://www.facebook.com/61582526403834/videos/quick-lv-up-with-11-burning/2426420161152908/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+play+time+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg play time event",
+          "width": 201,
+          "height": 251,
+          "aspect_ratio": 0.8008,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:46:56.135075+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "这是针对回归玩家的成长加速活动宣传图（1+1 Level Up），与在线时长活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:22.791047+00:00"
+          }
+        },
+        {
+          "url": "https://dszw1qtcnsa5e.cloudfront.net/community/20260107/788867b4-ab64-409f-ac32-fa9d84f0aa92/image.png",
+          "caption": "Event] Challenge! Party Quest - First ...",
+          "source_url": "https://forum.nexon.com/maplestoryidle/board_view?board=6676&thread=3339469",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+play+time+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg play time event",
+          "width": 308,
+          "height": 163,
+          "aspect_ratio": 1.8896,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:46:56.135075+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是Party Quest（组队副本）挑战活动的任务与奖励界面，并非描述中的在线时长奖励活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:22.791047+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "festival_growth_event",
+      "display_name": "节庆成长活动 / Festival Growth Event",
+      "description": "围绕节日或里程碑推出集中成长福利，如完成节庆 mission、领取限定外观、获取成长资源。",
+      "examples": [
+        "Valentine's Day Event",
+        "15-Day Springtime Growth!",
+        "Springtime Growth Mission Event",
+        "Half Anniversary Festival"
+      ],
+      "market_research_notes": "它既承担节庆包装，也承担追赶服内成长速度的 catch-up 功能。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/event-maplestory-idle-rpg-half-anniversary-festival-new-v0-tcdjnb2m3ayg1.png?width=1080&crop=smart&auto=webp&s=52a0c82c6ab1c113343dd78b615c6cb2554bebc7",
+          "caption": "Event] MapleStory: Idle RPG - Half ...",
+          "source_url": "https://www.reddit.com/r/BlueStacks/comments/1szow3o/event_maplestory_idle_rpg_half_anniversary/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+festival+growth+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg festival growth event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:47:21.205366+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片明确标识了 MapleStory: Idle RPG 的 Half Anniversary Festival（半周年庆典），属于本活动宣传图，无玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:27.954813+00:00"
+          }
+        },
+        {
+          "url": "https://static.invenglobal.com/upload/thumb/2026/04/30/w/b1777522335195651.jpg",
+          "caption": "MapleStory: Idle RPG ...",
+          "source_url": "https://www.invenglobal.com/articles/21478/nexon-launches-half-year-anniversary-event-for-maplestory-idle-rpg-including-11-burning",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+festival+growth+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg festival growth event",
+          "width": 311,
+          "height": 162,
+          "aspect_ratio": 1.9198,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:47:21.205366+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图片中韩文意为'1+1 Level Up'及'Burning Event'，属于半周年庆期间的核心成长活动宣传KV。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:27.954813+00:00"
+          }
+        },
+        {
+          "url": "https://images.148apps.com/2026/5/139146/270919/maplestory-idle-rpg-ios-android.png",
+          "caption": "MapleStory: Idle RPG celebrates its ...",
+          "source_url": "https://www.148apps.com/maplestory-idle-rpg/half-year-anniversary/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+festival+growth+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg festival growth event",
+          "width": 310,
+          "height": 162,
+          "aspect_ratio": 1.9136,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:47:21.205366+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "这是游戏的通用宣传原画或商店海报，虽与半周年更新相关，但未体现具体活动标题或玩法。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:27.954813+00:00"
+          }
+        },
+        {
+          "url": "https://dszw1qtcnsa5e.cloudfront.net/community/20250507/60766e9d-1802-4a07-8cef-e40264bdb018/MIAppicof512512.png",
+          "caption": "Event] 15-Day Springtime Growth! Event",
+          "source_url": "https://forum.nexon.com/maplestoryidle/board_view?board=6676&thread=3387506",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+festival+growth+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg festival growth event",
+          "width": 308,
+          "height": 164,
+          "aspect_ratio": 1.878,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:47:21.205366+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "这是该游戏的App图标或品牌插图，属于通用品牌图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:27.954813+00:00"
+          }
+        },
+        {
+          "url": "https://dszw1qtcnsa5e.cloudfront.net/community/20260129/259e373c-5d00-4313-9cb0-811d99e2f448/image3.png",
+          "caption": "Event] New Character Growth Event",
+          "source_url": "https://forum.nexon.com/maplestoryidle/board_view?thread=3360654",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+festival+growth+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg festival growth event",
+          "width": 331,
+          "height": 152,
+          "aspect_ratio": 2.1776,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:47:21.205366+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了名为 'New Character Growth Event' 的实际活动界面，包含奖励轨、等级进度条和具体的免费/付费奖励，完全符合活动描述。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:27.954813+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "burning_event",
+      "display_name": "Burning / 等级加速活动",
+      "description": "半年庆公开说明中可确认存在 1+1 level up / Burning 型活动，为指定等级段角色提供额外升级收益。",
+      "examples": [
+        "1+1 level up",
+        "Half Anniversary Burning"
+      ],
+      "market_research_notes": "这是韩系 RPG 很典型的成长追赶活动，能显著降低新老玩家追进版本门槛。",
+      "images": [
+        {
+          "url": "https://i.redd.it/q2yc41jldayg1.jpeg",
+          "caption": "burning event work? : r/MapleIdle",
+          "source_url": "https://www.reddit.com/r/MapleIdle/comments/1szpu6m/so_how_does_this_burning_event_work/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+burning+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg burning event",
+          "width": 331,
+          "height": 152,
+          "aspect_ratio": 2.1776,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:47:48.758659+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了活动内角色注册为Burning角色的实际操作界面及其规则说明。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:32.486805+00:00"
+          }
+        },
+        {
+          "url": "https://static.invenglobal.com/upload/thumb/2026/04/30/w/b1777522335195651.jpg",
+          "caption": "MapleStory: Idle RPG ...",
+          "source_url": "https://www.invenglobal.com/articles/21478/nexon-launches-half-year-anniversary-event-for-maplestory-idle-rpg-including-11-burning",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+burning+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg burning event",
+          "width": 311,
+          "height": 162,
+          "aspect_ratio": 1.9198,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:47:48.758659+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "带标题的韩语活动宣传海报，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:32.486805+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/1nedwfld8xwg1.jpeg",
+          "caption": "1+1 Burn event inquiry : r/MapleIdle",
+          "source_url": "https://www.reddit.com/r/MapleIdle/comments/1stfdsm/11_burn_event_inquiry/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+burning+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg burning event",
+          "width": 259,
+          "height": 195,
+          "aspect_ratio": 1.3282,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:47:48.758659+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "展示了活动期间获得的Bonus EXP经验值收益详情，属于活动玩法内的实际反馈。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:32.486805+00:00"
+          }
+        },
+        {
+          "url": "https://dszw1qtcnsa5e.cloudfront.net/community/20250507/60766e9d-1802-4a07-8cef-e40264bdb018/MIAppicof512512.png",
+          "caption": "1+1 Burning Event🔥",
+          "source_url": "https://forum.nexon.com/maplestoryidle/board_view?board=6676&thread=3434729",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+burning+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg burning event",
+          "width": 309,
+          "height": 163,
+          "aspect_ratio": 1.8957,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:47:48.758659+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图片为游戏的App图标或通用品牌素材，不包含特定活动信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:32.486805+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/1-1-burn-event-inquiry-v0-xaoaxmzesxwg1.jpeg?width=2796&format=pjpg&auto=webp&s=db0f2d1d01cf73e5b2e391d19ac19d29995a16f7",
+          "caption": "1+1 Burn event inquiry : r/MapleIdle",
+          "source_url": "https://www.reddit.com/r/MapleIdle/comments/1stfdsm/11_burn_event_inquiry/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+burning+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg burning event",
+          "width": 331,
+          "height": 152,
+          "aspect_ratio": 2.1776,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:47:48.758659+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了在游戏主界面中覆盖的活动介绍与玩法说明弹窗。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:32.486805+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "collaboration_event",
+      "display_name": "联动活动 / Collaboration Event",
+      "description": "与《The Kingdom of the Winds》的联动活动公开可见，包含限定 costume、新 town 和联动 party quests。",
+      "examples": [
+        "With The Kingdom of the Winds"
+      ],
+      "market_research_notes": "联动活动通常是最强内容脉冲之一，兼顾获客、话题和付费转化。",
+      "images": [
+        {
+          "url": "https://s.yimg.com/os/en/prnewswire.com/2d68a768ff502a28876945064b38f5a5",
+          "caption": "MapleStory R- Evolution Officially ...",
+          "source_url": "https://finance.yahoo.com/sectors/technology/articles/maplestory-r-evolution-officially-launches-120000794.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+collaboration+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg collaboration event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:48:11.411451+00:00",
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.95,
+            "reason": "该图是《MapleStory R: Evolution》的上线宣传图，并非本游戏《MapleStory : Idle RPG》。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:38.426941+00:00"
+          }
+        },
+        {
+          "url": "https://scontent-hkg1-1.xx.fbcdn.net/v/t15.5256-10/667581442_920483507639917_7978633942211484082_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a27664&_nc_ohc=gd4YnYRqQFQQ7kNvwFXrz5A&_nc_oc=AdpjGBNR3MCDqXmovtGjCqCB_9RsRNe3vaqS4zb5t3WOKzQwL5XDXJEnDt_IYF_B7VA&_nc_zt=23&_nc_ht=scontent-hkg1-1.xx&_nc_gid=7g9pmJM4eduMF664eiQVUw&_nc_ss=7c20f&oh=00_Af5qr6Kj85WOBPUUV05jx67HMk4sMLywLKW2VkHX6ojHFA&oe=6A0A077D",
+          "caption": "rewards ✨ | MapleStory : Idle RPG ...",
+          "source_url": "https://www.facebook.com/61582526403834/videos/get-summon-tickets-costumes/4170854106560651/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+collaboration+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg collaboration event",
+          "width": 168,
+          "height": 300,
+          "aspect_ratio": 0.56,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:48:11.411451+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图中有本游戏Logo及通用角色宣传素材，属于通用品牌宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:38.426941+00:00"
+          }
+        },
+        {
+          "url": "https://dszw1qtcnsa5e.cloudfront.net/community/20250507/60766e9d-1802-4a07-8cef-e40264bdb018/MIAppicof512512.png",
+          "caption": "April 9 Patch Notes",
+          "source_url": "https://forum.nexon.com/maplestoryidle/board_view?board=6675&thread=3419649",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+collaboration+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg collaboration event",
+          "width": 309,
+          "height": 163,
+          "aspect_ratio": 1.8957,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:48:11.411451+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "本游戏的应用程序图标或通用官方素材，未体现特定活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:38.426941+00:00"
+          }
+        },
+        {
+          "url": "https://scontent-hkg1-2.xx.fbcdn.net/v/t15.5256-10/665235637_869178072842090_8162426052655594281_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a27664&_nc_ohc=0FCXYxpcdyIQ7kNvwGxRdUj&_nc_oc=AdrbBvqLT2iZ-jtgo9LCXyfXZGsaYFWVQEQOlOnn2-rO6Agbk2RQLJLYbCIV6p884EM&_nc_zt=23&_nc_ht=scontent-hkg1-2.xx&_nc_gid=g2tqNSpdwhvxcoM_G2PLEg&_nc_ss=7c20f&oh=00_Af6-D6hy6chw2WX2XyZ1YgJQ5CYo7fVA5vrysc9rIXRfAQ&oe=6A0A12D9",
+          "caption": "rewards ✨ | MapleStory : Idle RPG ...",
+          "source_url": "https://www.facebook.com/61582526403834/videos/get-summon-tickets-costumes/1934322791303270/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+collaboration+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg collaboration event",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:48:11.411451+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "包含本游戏Logo及通用玩法概念宣传图，未体现联动活动内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:38.426941+00:00"
+          }
+        },
+        {
+          "url": "https://dszw1qtcnsa5e.cloudfront.net/community/20260408/85956756-52c1-450d-871e-2283b4fa9277/eventcrop5.png",
+          "caption": "April 9 Patch Notes",
+          "source_url": "https://forum.nexon.com/maplestoryidle/board_view?board=6675&thread=3419649",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+collaboration+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg collaboration event",
+          "width": 316,
+          "height": 160,
+          "aspect_ratio": 1.975,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:48:11.411451+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "清晰展示了与《The Kingdom of the Winds》联动的具体任务描述、奖励（Dragon Nang Ninth Staff）及活动截止时间，属于活动内界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:38.426941+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "boss_raid_event",
+      "display_name": "Boss Raid / 首领讨伐活动",
+      "description": "Zakum 以版本级 major update 形式推出，可 4 人组队，每周限定次数挑战，掉落专属装备和资源。",
+      "examples": [
+        "New Boss Raid Zakum is here",
+        "Zakum"
+      ],
+      "market_research_notes": "它兼具 PvE 内容更新和活动脉冲属性，适合作为中后期成长目标和社交协作节点。",
+      "images": [
+        {
+          "url": "https://digitalchumps.com/wp-content/uploads/2025/12/maplestory.jpg",
+          "caption": "Idle RPG getting new boss raid content ...",
+          "source_url": "https://digitalchumps.com/2025/12/18/maplestory-idle-rpg-getting-new-boss-raid-content/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+boss+raid+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg boss raid event",
+          "width": 311,
+          "height": 162,
+          "aspect_ratio": 1.9198,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:48:31.473442+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "包含游戏Logo且文字明确指代新Boss Zakum上线，属于典型的宣传KV图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:42.555568+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/qLGzCVHfoEw/maxresdefault.jpg",
+          "caption": "SUPERHERO MODE ACTIVATED (Guild Zakum ...",
+          "source_url": "https://www.youtube.com/watch?v=qLGzCVHfoEw",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+boss+raid+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg boss raid event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:48:31.473442+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "虽然背景是Zakum，但主要内容为自制视频封面图，未包含明确的活动UI或玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:42.555568+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/fCcs0cOR5SE/maxresdefault.jpg",
+          "caption": "ZHELM [MAPLESTORY IDLE RPG ...",
+          "source_url": "https://www.youtube.com/watch?v=fCcs0cOR5SE",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+boss+raid+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg boss raid event",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:48:31.473442+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了Boss Raid挑战界面，包含难度选择、限制条件、奖励列表和入场券UI，是明确的玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:42.555568+00:00"
+          }
+        },
+        {
+          "url": "https://media.pocketgamer.com/artwork/na-37913-1766166247/zakum-maplestory-idle-rpg.jpg",
+          "caption": "MapleStory: Idle RPG is delivering a ...",
+          "source_url": "https://www.pocketgamer.com/maplestory-idle-rpg/new-boss-zakum/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+boss+raid+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg boss raid event",
+          "width": 318,
+          "height": 159,
+          "aspect_ratio": 2.0,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:48:31.473442+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "Zakum首领的艺术设定图/场景图，无实际操作UI，属于宣传物料。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:42.555568+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Vjq9StOOoNI/maxresdefault.jpg",
+          "caption": "MapleStory: Idle RPG - Boss Raid Zakum ...",
+          "source_url": "https://www.youtube.com/watch?v=Vjq9StOOoNI",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+boss+raid+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg boss raid event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:48:31.473442+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "带有游戏Logo的视频缩略图，属于媒体宣传性质，无实际玩法操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:42.555568+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "party_quest_event",
+      "display_name": "组队副本活动 / Party Quest Event",
+      "description": "公开事件流里可以确认持续追加 Party Quest 内容，要求组队限时清怪、打 mini-boss 和 final boss。",
+      "examples": [
+        "Party Quest: Dimensional Crack",
+        "Remnant of the Goddess"
+      ],
+      "market_research_notes": "它是 idle RPG 里少数能明显强化多人协作感的玩法层，常用来承载新装备和版本奖励。",
+      "images": [
+        {
+          "url": "https://dszw1qtcnsa5e.cloudfront.net/community/20250507/60766e9d-1802-4a07-8cef-e40264bdb018/MIAppicof512512.png",
+          "caption": "Event] Challenge! Party Quest ...",
+          "source_url": "https://forum.nexon.com/maplestoryidle/board_view?board=6676&thread=3274484",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+party+quest+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg party quest event",
+          "width": 309,
+          "height": 163,
+          "aspect_ratio": 1.8957,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:49:02.545770+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片为游戏的App图标或通用品牌素材，不涉及具体活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:48.330988+00:00"
+          }
+        },
+        {
+          "url": "https://dszw1qtcnsa5e.cloudfront.net/community/20260107/788867b4-ab64-409f-ac32-fa9d84f0aa92/image.png",
+          "caption": "Event] Challenge! Party Quest - First ...",
+          "source_url": "https://forum.nexon.com/maplestoryidle/board_view?board=6676&thread=3339469",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+party+quest+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg party quest event",
+          "width": 308,
+          "height": 163,
+          "aspect_ratio": 1.8896,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:49:02.545770+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了名为'Challenge! First Time Together'的组队副本活动奖励轨和任务进度界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:48.330988+00:00"
+          }
+        },
+        {
+          "url": "https://mumuglobal-res.fp.ps.easebar.com/file/695c8141f9a3a10150487d12fve3imBd03",
+          "caption": "MapleStory: Idle RPG Redeem Codes Guide ...",
+          "source_url": "https://www.mumuplayer.com/blog/maplestory-idle-rpg-redeem-codes.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+party+quest+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg party quest event",
+          "width": 330,
+          "height": 153,
+          "aspect_ratio": 2.1569,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:49:02.545770+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示的是游戏的常规引导任务和基础战斗挂机界面，而非特定的组队副本活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:48.330988+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/AUu0BHqdHHQ/maxresdefault.jpg",
+          "caption": "MapleStory Growing 1+1 Burning Event ...",
+          "source_url": "https://vortexgaming.io/en/postdetail/759139",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+party+quest+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg party quest event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:49:02.545770+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "虽然是该游戏的活动宣传图（1+1 Burning Event），但与本次调查的‘组队副本活动’无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:48.330988+00:00"
+          }
+        },
+        {
+          "url": "https://lblog.fp.guinfra.com/file/69e1a36f5af9b2dd4a3652f7qi00leVh03",
+          "caption": "MapleStory Classic International Server ...",
+          "source_url": "https://lootbar.gg/blog/en/maplestory-classic-international-server-launches-on-april-16th.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+party+quest+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg party quest event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:49:02.545770+00:00",
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.92,
+            "reason": "这是冒险岛经典国际服（Classic World）的上线公告，属于端游或另一分支版本，与本Idle RPG手游无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:48.330988+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "guild_competition_event",
+      "display_name": "公会竞赛活动 / Guild Competition Event",
+      "description": "从公开事件页可确认新增 Guild Boss Battle / Guild Training Ground，按公会累计积分、与其他公会竞争并获取成长资源。",
+      "examples": [
+        "Guild Boss Battle",
+        "Guild Training Ground"
+      ],
+      "market_research_notes": "这类活动把单人 idle 成长转为公会贡献，能提升组织黏性和中高活跃玩家留存。",
+      "images": [
+        {
+          "url": "https://static.invenglobal.com/upload/thumb/2026/04/30/w/b1777522335195651.jpg",
+          "caption": "MapleStory: Idle RPG ...",
+          "source_url": "https://www.invenglobal.com/articles/21478/nexon-launches-half-year-anniversary-event-for-maplestory-idle-rpg-including-11-burning",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+guild+competition+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg guild competition event",
+          "width": 311,
+          "height": 162,
+          "aspect_ratio": 1.9198,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:49:23.372661+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片展示的是该游戏的Burning Event（快速升级活动），与公会竞赛活动无关，属于游戏的其他活动宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:54.300258+00:00"
+          }
+        },
+        {
+          "url": "https://media.pocketgamer.com/artwork/na-37913-1777744540/maple-story-idle-6-months-anniv-header.jpg",
+          "caption": "MapleStory: Idle RPG celebrates half ...",
+          "source_url": "https://www.pocketgamer.com/maplestory-idle-rpg/half-anniversary/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+guild+competition+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg guild competition event",
+          "width": 318,
+          "height": 159,
+          "aspect_ratio": 2.0,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:49:23.372661+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "图片展示了多位角色挑战三头龙Boss，与描述中的Guild Boss Battle主题高度契合，但属于海报性质，无UI界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:54.300258+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/2iKiJHslFEY/maxresdefault.jpg",
+          "caption": "MapleStory Idle (Guild Tips ...",
+          "source_url": "https://www.youtube.com/watch?v=2iKiJHslFEY",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+guild+competition+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg guild competition event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:49:23.372661+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图片带有Guild Tips文案且包含游戏Logo，属于针对公会内容的宣传或攻略封面图，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:54.300258+00:00"
+          }
+        },
+        {
+          "url": "https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/07/MapleStory-R-Evolution-Enters-Open-Beta-in-SEA-Join-the-Maple-Cup-Grand-Tournament-and-Giant-Mushroom-Check-in-Event.jpg",
+          "caption": "MapleStory R: Evolution Enters Open ...",
+          "source_url": "https://news.qoo-app.com/en/post/181512/maplestory-r-evolution-2",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+guild+competition+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg guild competition event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:49:23.372661+00:00",
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.98,
+            "reason": "图片对应的游戏是 MapleStory R: Evolution，并非本游戏 MapleStory: Idle RPG。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:54.300258+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/2iKiJHslFEY/mqdefault.jpg",
+          "caption": "Maplestory Idle - Guild Wars - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=2iKiJHslFEY",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+guild+competition+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg guild competition event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:49:23.372661+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "与图3内容一致，文案提及Guild Wars，属于公会相关内容的视频/宣传封面，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:54.300258+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "pass_and_hot_deals",
+      "display_name": "Pass 与限时礼包 / Pass & Event Hot Deals",
+      "description": "社区 wiki 能确认长期存在 Pass 系统，以及伴随事件触发的 Event Hot Deals 限时礼包。",
+      "examples": [
+        "Pass",
+        "Event Hot Deals"
+      ],
+      "market_research_notes": "这部分不是单场活动，但它是 MapleStory Idle RPG 把活动流量转成付费的重要承接层。",
+      "images": [
+        {
+          "url": "https://media.maplestorywiki.net/maplestoryidle/Hot_Deals.png",
+          "caption": "Hot Deals - MapleStory Idle RPG Wiki",
+          "source_url": "https://idle.maplestorywiki.net/w/Hot_Deals",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+pass+and+hot+deals",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg pass and hot deals",
+          "width": 347,
+          "height": 145,
+          "aspect_ratio": 2.3931,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:50:03.469663+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了限时礼包的实际购买弹窗界面，包含商品内容、货币价格及倒计时，属于活动内实际界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:58.573066+00:00"
+          }
+        },
+        {
+          "url": "https://media.maplestorywiki.net/maplestoryidle/Ability_level_hot_deal_1.jpg",
+          "caption": "Hot Deals - MapleStory Idle RPG Wiki",
+          "source_url": "https://idle.maplestorywiki.net/w/Hot_Deals",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+pass+and+hot+deals",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg pass and hot deals",
+          "width": 307,
+          "height": 164,
+          "aspect_ratio": 1.872,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:50:03.469663+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了Ability Level Hot Deal 1的实际礼包购买界面，有明确的商品组件和价格支付按钮。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:58.573066+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/is-this-hot-deal-worth-it-v0-aqo64oogd83g1.png?auto=webp&s=287e408ccee5b4f93b46a949a36a000ba33e594e",
+          "caption": "Is this hot deal worth it? : r/MapleIdle",
+          "source_url": "https://www.reddit.com/r/MapleIdle/comments/1p5le4e/is_this_hot_deal_worth_it/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+pass+and+hot+deals",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg pass and hot deals",
+          "width": 322,
+          "height": 157,
+          "aspect_ratio": 2.051,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:50:03.469663+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "截图展示了叠加在游戏主界面之上的礼包弹窗，属于实际玩法中的限时促成交易界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:58.573066+00:00"
+          }
+        },
+        {
+          "url": "https://media.maplestorywiki.net/maplestoryidle/Weapsummon1.png",
+          "caption": "Hot Deals - MapleStory Idle RPG Wiki",
+          "source_url": "https://idle.maplestorywiki.net/w/Hot_Deals",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+pass+and+hot+deals",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg pass and hot deals",
+          "width": 313,
+          "height": 161,
+          "aspect_ratio": 1.9441,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:50:03.469663+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了Weapon Summoning Level Hot Deal 1的实机购买谈窗，包含价格、倒计时与道具预览。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:58.573066+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/most-crazy-hot-deal-yet-v0-wfnjkoqq593g1.jpeg?auto=webp&s=126199c9de5205ae4da1937c73d3ecc4327849dd",
+          "caption": "Most crazy hot deal yet : r/MapleIdle",
+          "source_url": "https://www.reddit.com/r/MapleIdle/comments/1p5ps6w/most_crazy_hot_deal_yet/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=maplestory+idle+rpg+pass+and+hot+deals",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "maplestory idle rpg pass and hot deals",
+          "width": 331,
+          "height": 152,
+          "aspect_ratio": 2.1776,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:50:03.469663+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了Arena Ranker Artifact Hot Deal的实机购买弹窗，背景可见游戏实际运行画面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:58.573066+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "55 的公开资料足够整理出一条比较完整的运营框架：开服签到/任务、日常时长活动、节庆成长活动、Burning 追赶、联动、Boss Raid、Party Quest、公会竞赛和事件礼包。相比 51~53，它更像标准的韩系手游 live ops 结构。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T08:50:03.470050+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:37:58.573066+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "rank": 20,
+  "name": "Disney Solitaire",
+  "source_confidence": "high",
+  "source_notes": null,
+  "collected_at": "2026-05-12T04:00:29.123Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Disney Solitaire Wiki - Events",
+      "source_type": "fandom",
+      "source_url": "https://disneysolitaire.fandom.com/wiki/Category:Events",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "source_title": "Disney Solitaire Support - Events",
+      "source_type": "official_support",
+      "source_url": "https://support.disney-solitaire.com/hc/en-us/articles/27011599981469-Disney-Solitaire-Events",
+      "status": 0,
+      "error": "write EPROTO 88620000:error:0A000410:SSL routines:ssl3_read_bytes:ssl/tls alert handshake failure:openssl\\ssl\\record\\rec_layer_s3.c:918:SSL alert number 40\n"
+    }
+  ],
+  "event_detail_pages": [],
+  "event_catalog": [],
+  "inferred_event_type_summary": [],
+  "screenshots_or_images": [],
+  "collection_warnings": [
+    "Fetch failed: https://disneysolitaire.fandom.com/wiki/Category:Events",
+    "Fetch failed: https://support.disney-solitaire.com/hc/en-us/articles/27011599981469-Disney-Solitaire-Events"
+  ]
+}

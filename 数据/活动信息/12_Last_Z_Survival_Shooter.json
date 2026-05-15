@@ -1,0 +1,789 @@
+{
+  "rank": 12,
+  "name": "Last Z: Survival Shooter",
+  "source_confidence": "high",
+  "source_notes": null,
+  "collected_at": "2026-05-12T03:59:29.829Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Last Z Wiki - Events",
+      "source_type": "dedicated_wiki",
+      "source_url": "https://last-z.wiki/events/survival-saga/",
+      "fetched_url": "https://last-z.wiki/events/survival-saga-2/",
+      "status": 200,
+      "page_title": "Survival Saga Event",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Survival Saga is a challenge event in Last Z where you take on different tasks for rewards. In each challenge, you’ll have to defeat a specific zombie at a certain level on the “World Map.”",
+        "The event lasts for 3 days, and you can pick between two difficulty modes: Normal and Advanced. Normal mode has 9 levels, while Advanced has 6.",
+        "As you move up in difficulty, the zombies you face get tougher. So, it’s a good idea to team up with your alliance members to make it easier to take them down!",
+        "When the event starts, players have to pick a difficulty level. Once you choose, you can’t change it for that round.",
+        "To move on to the next difficulty, you need to complete all the challenges in the current level.",
+        "The rewards in this event are split into two types: difficulty completion rewards and milestone rewards for each difficulty level.",
+        "Here’s a table that shows the recommended power and rewards you can get based on the difficulty level.",
+        "Here are the pictures of milestone rewards in this event.",
+        "Full Preparedness Event",
+        "Tank Wrench Requirements Chart",
+        "Leave a Comment Cancel reply"
+      ],
+      "inferred_event_types": [
+        "team_alliance",
+        "pve_boss",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/log.webp",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/log-300x236.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/1-1-1024x589.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/2-2-1024x582.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/3-1-1024x580.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/4-1024x577.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/5-1024x582.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/6-1024x582.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/7-1024x592.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/8-1024x588.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/9-1024x589.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/1.webp",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Last Z: Survival Shooter Wiki - Event Center",
+      "source_type": "fandom",
+      "source_url": "https://lastz.fandom.com/wiki/Event_Center",
+      "status": 403,
+      "error": "fetch_failed"
+    }
+  ],
+  "event_detail_pages": [
+    {
+      "source_title": "Events",
+      "source_type": "event_detail",
+      "source_url": "https://last-z.wiki/category/events/",
+      "fetched_url": "https://last-z.wiki/category/events/",
+      "status": 200,
+      "page_title": "Events Archives - Last Z Shooter Run Wiki",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Greatest Governor Event",
+        "State Migration Event",
+        "Full Preparedness Event",
+        "Skip to content Last Z Shooter Run Wiki Menu Menu Home"
+      ],
+      "inferred_event_types": [],
+      "images": [
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2026/05/Greatest-Governor-Event-143x300.png",
+          "alt": "Greatest Governor Event",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/af633301-2901-4b0a-84a3-5c73e68e5072_removalai_preview-300x213.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/f0baf5b5-d584-4ef6-88cf-4d6576f4ce2b_removalai_preview-300x227.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/87da82e5-a544-4b78-9531-9536a949ea92_removalai_preview-300x228.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/log-300x236.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/43f76fb3-e74e-4a36-9a2a-538207963277_removalai_preview-300x186.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/1_upscayl_4x_digital-art-4x-removebg-preview-3-300x112.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/vs_upscayl_4x_digital-art-4x-removebg-preview-272x300.webp",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Skip to content",
+      "source_type": "event_detail",
+      "source_url": "https://last-z.wiki/events/survival-saga/#content",
+      "fetched_url": "https://last-z.wiki/events/survival-saga-2/",
+      "status": 200,
+      "page_title": "Survival Saga Event",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Survival Saga is a challenge event in Last Z where you take on different tasks for rewards. In each challenge, you’ll have to defeat a specific zombie at a certain level on the “World Map.”",
+        "The event lasts for 3 days, and you can pick between two difficulty modes: Normal and Advanced. Normal mode has 9 levels, while Advanced has 6.",
+        "As you move up in difficulty, the zombies you face get tougher. So, it’s a good idea to team up with your alliance members to make it easier to take them down!",
+        "When the event starts, players have to pick a difficulty level. Once you choose, you can’t change it for that round.",
+        "To move on to the next difficulty, you need to complete all the challenges in the current level.",
+        "The rewards in this event are split into two types: difficulty completion rewards and milestone rewards for each difficulty level.",
+        "Here’s a table that shows the recommended power and rewards you can get based on the difficulty level.",
+        "Here are the pictures of milestone rewards in this event.",
+        "Full Preparedness Event",
+        "Tank Wrench Requirements Chart",
+        "Leave a Comment Cancel reply"
+      ],
+      "inferred_event_types": [
+        "team_alliance",
+        "pve_boss",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/log.webp",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/log-300x236.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/1-1-1024x589.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/2-2-1024x582.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/3-1-1024x580.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/4-1024x577.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/5-1024x582.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/6-1024x582.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/7-1024x592.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/8-1024x588.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/9-1024x589.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/1.webp",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Full Preparedness Event",
+      "source_type": "event_detail",
+      "source_url": "https://last-z.wiki/events/full-preparedness-event/",
+      "fetched_url": "https://last-z.wiki/events/full-preparedness-event/",
+      "status": 200,
+      "page_title": "Full Preparedness Event",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "In this event, players with similar shelter levels are randomly matched up to compete for points and earn better rewards. The themes change daily, and you can check the in-game event calendar to see the full schedule.",
+        "These are the different themes you’ll need to complete each day to compete against other players in the event.",
+        "There are two types of rewards in this event: personal rewards and ranking rewards. Personal rewards are tied to milestones you hit, while ranking rewards depend on how you perform against other players.",
+        "Here’s a picture of the milestone rewards you can earn in this event.",
+        "Here are the Top 3 ranking rewards that you can get in this event.",
+        "Here is the picture of the event.",
+        "How to increase your Power in Last Z?",
+        "Leave a Comment Cancel reply"
+      ],
+      "inferred_event_types": [
+        "tournament_competition",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/43f76fb3-e74e-4a36-9a2a-538207963277_removalai_preview.webp",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/43f76fb3-e74e-4a36-9a2a-538207963277_removalai_preview-300x186.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/r1.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/r2.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/r3.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/r4.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/r5.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/r6.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/r7.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/r8.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/r9.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/Event-picture-646x1024.webp",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Cancel reply",
+      "source_type": "event_detail",
+      "source_url": "https://last-z.wiki/events/survival-saga-2/#respond",
+      "fetched_url": "https://last-z.wiki/events/survival-saga-2/#respond",
+      "status": 200,
+      "page_title": "Survival Saga Event",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Survival Saga is a challenge event in Last Z where you take on different tasks for rewards. In each challenge, you’ll have to defeat a specific zombie at a certain level on the “World Map.”",
+        "The event lasts for 3 days, and you can pick between two difficulty modes: Normal and Advanced. Normal mode has 9 levels, while Advanced has 6.",
+        "As you move up in difficulty, the zombies you face get tougher. So, it’s a good idea to team up with your alliance members to make it easier to take them down!",
+        "When the event starts, players have to pick a difficulty level. Once you choose, you can’t change it for that round.",
+        "To move on to the next difficulty, you need to complete all the challenges in the current level.",
+        "The rewards in this event are split into two types: difficulty completion rewards and milestone rewards for each difficulty level.",
+        "Here’s a table that shows the recommended power and rewards you can get based on the difficulty level.",
+        "Here are the pictures of milestone rewards in this event.",
+        "Full Preparedness Event",
+        "Tank Wrench Requirements Chart",
+        "Leave a Comment Cancel reply"
+      ],
+      "inferred_event_types": [
+        "team_alliance",
+        "pve_boss",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/log.webp",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/log-300x236.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/1-1-1024x589.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/2-2-1024x582.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/3-1-1024x580.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/4-1024x577.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/5-1024x582.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/6-1024x582.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/7-1024x592.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/8-1024x588.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/9-1024x589.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/1.webp",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "event_catalog": [
+    {
+      "title": "Events Archives - Last Z Shooter Run Wiki",
+      "url": "https://last-z.wiki/category/events/",
+      "discovered_from": "https://last-z.wiki/events/survival-saga/",
+      "description": "Skip to content Last Z Shooter Run Wiki Menu Menu Home",
+      "inferred_event_types": [],
+      "images": [
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2026/05/Greatest-Governor-Event-143x300.png",
+          "alt": "Greatest Governor Event",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/af633301-2901-4b0a-84a3-5c73e68e5072_removalai_preview-300x213.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/f0baf5b5-d584-4ef6-88cf-4d6576f4ce2b_removalai_preview-300x227.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/87da82e5-a544-4b78-9531-9536a949ea92_removalai_preview-300x228.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/log-300x236.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/43f76fb3-e74e-4a36-9a2a-538207963277_removalai_preview-300x186.webp",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Survival Saga Event",
+      "url": "https://last-z.wiki/events/survival-saga/#content",
+      "discovered_from": "https://last-z.wiki/events/survival-saga/",
+      "description": "Survival Saga is a challenge event in Last Z where you take on different tasks for rewards. In each challenge, you’ll have to defeat a specific zombie at a certain level on the “World Map.”",
+      "inferred_event_types": [
+        "team_alliance",
+        "pve_boss",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/log.webp",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/log-300x236.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/1-1-1024x589.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/2-2-1024x582.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/3-1-1024x580.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/4-1024x577.png",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Full Preparedness Event",
+      "url": "https://last-z.wiki/events/full-preparedness-event/",
+      "discovered_from": "https://last-z.wiki/events/survival-saga/",
+      "description": "In this event, players with similar shelter levels are randomly matched up to compete for points and earn better rewards. The themes change daily, and you can check the in-game event calendar to see the full schedule.",
+      "inferred_event_types": [
+        "tournament_competition",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/43f76fb3-e74e-4a36-9a2a-538207963277_removalai_preview.webp",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/43f76fb3-e74e-4a36-9a2a-538207963277_removalai_preview-300x186.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/r1.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/r2.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/r3.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/r4.webp",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Survival Saga Event",
+      "url": "https://last-z.wiki/events/survival-saga-2/#respond",
+      "discovered_from": "https://last-z.wiki/events/survival-saga/",
+      "description": "Survival Saga is a challenge event in Last Z where you take on different tasks for rewards. In each challenge, you’ll have to defeat a specific zombie at a certain level on the “World Map.”",
+      "inferred_event_types": [
+        "team_alliance",
+        "pve_boss",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/log.webp",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/11/log-300x236.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/1-1-1024x589.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/2-2-1024x582.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/3-1-1024x580.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://last-z.wiki/wp-content/uploads/2025/05/4-1024x577.png",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "inferred_event_type_summary": [
+    "pve_boss",
+    "pvp_war",
+    "team_alliance",
+    "tournament_competition"
+  ],
+  "screenshots_or_images": [
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/11/log.webp",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://last-z.wiki/events/survival-saga/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/11/log-300x236.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/events/survival-saga/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/05/1-1-1024x589.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/events/survival-saga/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/05/2-2-1024x582.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/events/survival-saga/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/05/3-1-1024x580.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/events/survival-saga/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/05/4-1024x577.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/events/survival-saga/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/05/5-1024x582.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/events/survival-saga/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/05/6-1024x582.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/events/survival-saga/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/05/7-1024x592.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/events/survival-saga/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/05/8-1024x588.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/events/survival-saga/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/05/9-1024x589.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/events/survival-saga/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/11/1.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/events/survival-saga/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2026/05/Greatest-Governor-Event-143x300.png",
+      "alt": "Greatest Governor Event",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/category/events/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/11/af633301-2901-4b0a-84a3-5c73e68e5072_removalai_preview-300x213.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/category/events/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/11/f0baf5b5-d584-4ef6-88cf-4d6576f4ce2b_removalai_preview-300x227.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/category/events/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/11/87da82e5-a544-4b78-9531-9536a949ea92_removalai_preview-300x228.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/category/events/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/11/43f76fb3-e74e-4a36-9a2a-538207963277_removalai_preview-300x186.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/category/events/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/05/1_upscayl_4x_digital-art-4x-removebg-preview-3-300x112.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/category/events/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/05/vs_upscayl_4x_digital-art-4x-removebg-preview-272x300.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/category/events/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/11/43f76fb3-e74e-4a36-9a2a-538207963277_removalai_preview.webp",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://last-z.wiki/events/full-preparedness-event/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/11/r1.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/events/full-preparedness-event/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/11/r2.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/events/full-preparedness-event/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/11/r3.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/events/full-preparedness-event/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/11/r4.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/events/full-preparedness-event/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/11/r5.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/events/full-preparedness-event/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/11/r6.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/events/full-preparedness-event/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/11/r7.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/events/full-preparedness-event/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/11/r8.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/events/full-preparedness-event/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/11/r9.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/events/full-preparedness-event/"
+    },
+    {
+      "url": "https://last-z.wiki/wp-content/uploads/2025/11/Event-picture-646x1024.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://last-z.wiki/events/full-preparedness-event/"
+    }
+  ],
+  "collection_warnings": [
+    "Fetch failed: https://lastz.fandom.com/wiki/Event_Center"
+  ]
+}

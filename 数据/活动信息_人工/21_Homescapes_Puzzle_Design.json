@@ -1,0 +1,1513 @@
+{
+  "rank": 21,
+  "name": "Homescapes: Puzzle & Design",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 Homescapes Wiki 的 Events、Category:Events、Expedition Events 等汇总页，并结合 Gardenscapes/Playrix 同类活动结构交叉理解。按竞赛、团队、通行证、探险、合成/装修、短期增益与历史活动归类。",
+  "source_pages": [
+    {
+      "title": "Homescapes Wiki - Events",
+      "url": "https://homescapes.fandom.com/wiki/Events",
+      "notes": "核心总览页，说明活动不影响主线进度但帮助完成 match-3 关卡和故事；列出 Tournament、Team events、Golden Ticket、Expedition / Merge-2 主题季等。"
+    },
+    {
+      "title": "Homescapes Wiki - Category:Events",
+      "url": "https://homescapes.fandom.com/wiki/Category%3AEvents",
+      "notes": "事件分类页，能看到 Expedition Events、Gold Run Event、Golden Ticket、Marathon Adventure、Event Tournament 等条目。"
+    },
+    {
+      "title": "Homescapes Wiki - Expedition Events",
+      "url": "https://homescapes.fandom.com/wiki/Expedition_Events",
+      "notes": "探险活动专页，用于确认 Homescapes 存在独立探索地图、主题剧情、收集和奖励结构。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "solo_tournament",
+      "display_name": "单人锦标赛 / Tournament",
+      "description": "玩家通过完成 match-3 关卡、收集指定目标或连续通关参与排行榜/竞速，获得阶段和排名奖励。",
+      "examples": [
+        "Tournament",
+        "Event Tournament",
+        "Gold Run",
+        "Marathon Adventure"
+      ],
+      "market_research_notes": "Homescapes 的竞赛层通常把普通通关行为包装成短期目标，重点看 hard / super hard 关是否给更高积分。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/-rPCclejamI/maxresdefault.jpg",
+          "caption": "Homescapes Tournament Champions Cup 1 ...",
+          "source_url": "https://www.youtube.com/watch?v=-rPCclejamI",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+solo+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design solo tournament",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:49:48.533653+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:05.289240+00:00",
+            "load_time_ms": 350,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/-rPCclejamI/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了锦标赛（Tournament of Champions）的活动介绍弹窗，属于宣传/介绍类图片。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:23.844266+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/tournament-of-champions-stuck-permanently-v0-8gkx3tbqmgna1.jpg?auto=webp&s=914d179e3f39859a879e20bea2995978c65721f4",
+          "caption": "Tournament of Champions stuck ...",
+          "source_url": "https://www.reddit.com/r/HomescapesOfficial/comments/11pxqkz/tournament_of_champions_stuck_permanently/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+solo+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design solo tournament",
+          "width": 324,
+          "height": 156,
+          "aspect_ratio": 2.0769,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:49:48.533653+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:05.551999+00:00",
+            "load_time_ms": 257,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2246,
+            "natural_height": 1080,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/tournament-of-champions-stuck-permanently-v0-8gkx3tbqmgna1.jpg?auto=webp&s=914d179e3f39859a879e20bea2995978c65721f4"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "在游戏主界面中展示了锦标赛（Scores）的入口图标及倒计时，属于活动相关的实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:23.844266+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/vmQiaVWPsyQ/maxresdefault.jpg",
+          "caption": "Homescapes Tournament of Champions Cup ...",
+          "source_url": "https://www.youtube.com/watch?v=vmQiaVWPsyQ",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+solo+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design solo tournament",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:49:48.533653+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:05.910360+00:00",
+            "load_time_ms": 354,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/vmQiaVWPsyQ/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了锦标赛（Tournament of Champions）的活动积分排行榜界面，属于核心玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:23.844266+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/-qMHlscsd5c/maxresdefault.jpg",
+          "caption": "Homescapes Tournament of Champions Cup ...",
+          "source_url": "https://www.youtube.com/watch?v=-qMHlscsd5c",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+solo+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design solo tournament",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:49:48.533653+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:06.564118+00:00",
+            "load_time_ms": 648,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/-qMHlscsd5c/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了名为“Winners League”的活动排行榜及奖励列表，属于锦标赛性质的实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:23.844266+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/1f-DaijFh2g/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGGUgQyhdMA8=&rs=AOn4CLD3uvxhhbhbGurdbccbfBSD_JavgA",
+          "caption": "Homescapes Level 1 - 10 Tournament of ...",
+          "source_url": "https://www.youtube.com/watch?v=1f-DaijFh2g",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+solo+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design solo tournament",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:49:48.533653+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:07.208984+00:00",
+            "load_time_ms": 639,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/1f-DaijFh2g/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGGUgQyhdMA8=&rs=AOn4CLD3uvxhhbhbGurdbccbfBSD_JavgA"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "仅展示了普通的消除关卡结算界面，虽然与锦标赛通关获取积分有关，但画面中未直接体现本次活动的特定 UI。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:23.844266+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "team_event",
+      "display_name": "Team Events / 团队活动",
+      "description": "加入团队后，多名成员共同贡献活动分、通关数或收集物，解锁团队奖励或团队排名。",
+      "examples": [
+        "Team Tournament",
+        "team events"
+      ],
+      "market_research_notes": "与 Gardenscapes 的 Team Chest / Team Tournament 同构，核心价值是把单人三消进度转化为团队活跃和留队压力。",
+      "images": [
+        {
+          "url": "https://miro.medium.com/v2/resize:fit:1152/0*YViKlVlWZxDByQB_.jpeg",
+          "caption": "event framework ...",
+          "source_url": "https://medium.com/ironsource-levelup/homescapes-is-a-masterclass-in-creating-an-event-framework-8276fa95dd92",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+team+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design team event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:50:14.909211+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:07.378789+00:00",
+            "load_time_ms": 165,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1152,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://miro.medium.com/v2/resize:fit:1152/0*YViKlVlWZxDByQB_.jpeg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "仅显示游戏标题和通用角色形象，属于通用品牌宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:27.281075+00:00"
+          }
+        },
+        {
+          "url": "https://miro.medium.com/v2/resize:fit:1400/0*s59888QdaLjfxyqv.jpeg",
+          "caption": "event framework ...",
+          "source_url": "https://medium.com/ironsource-levelup/homescapes-is-a-masterclass-in-creating-an-event-framework-8276fa95dd92",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+team+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design team event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:50:14.909211+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:07.479255+00:00",
+            "load_time_ms": 94,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1400,
+            "natural_height": 788,
+            "content_type": "image/jpeg",
+            "current_src": "https://miro.medium.com/v2/resize:fit:1400/0*s59888QdaLjfxyqv.jpeg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "左侧明确显示了Team Chest（团队宝箱）活动入口，该活动属于团队活动范畴。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:27.281075+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Vc4Efv5JMQQ/maxresdefault.jpg",
+          "caption": "Homescapes - Town Tournament - Event ...",
+          "source_url": "https://www.youtube.com/watch?v=Vc4Efv5JMQQ",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+team+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design team event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:50:14.909211+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:07.885704+00:00",
+            "load_time_ms": 400,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/Vc4Efv5JMQQ/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "展示的是Merge装饰活动界面，并非描述中的Team Tournament等团队贡献类活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:27.281075+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/GdT0jRhUMX4/maxresdefault.jpg",
+          "caption": "Homescapes Event - The Greatest Show ...",
+          "source_url": "https://www.youtube.com/watch?v=GdT0jRhUMX4",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+team+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design team event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:50:14.909211+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:08.252987+00:00",
+            "load_time_ms": 363,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/GdT0jRhUMX4/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "展示的是单人装修/收藏类活动界面，与团队协作活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:27.281075+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Vc4Efv5JMQQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDyH5ApVx2albsgxD5iwM_Q5isUGQ",
+          "caption": "Team Competition | Homescapes Wiki | Fandom",
+          "source_url": "https://www.youtube.com/watch?v=Vc4Efv5JMQQ",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+team+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design team event",
+          "width": 255,
+          "height": 198,
+          "aspect_ratio": 1.2879,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:50:14.909211+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:08.608278+00:00",
+            "load_time_ms": 350,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/Vc4Efv5JMQQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDyH5ApVx2albsgxD5iwM_Q5isUGQ"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "虽然标题写着Team Competition，但图片实际内容是Merge活动玩法界面，无法体现团队协作机制。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:27.281075+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "golden_ticket",
+      "display_name": "Golden Ticket / Home Pass",
+      "description": "长期主题奖励轨，购买 Golden Ticket 后获得额外奖励，包括主题装饰或独特宠物；赛季主题通常与当前 expedition 或 merge-2 活动绑定。",
+      "examples": [
+        "Golden Ticket",
+        "Birthday Week",
+        "The Frontier's Gold",
+        "Home Pass"
+      ],
+      "market_research_notes": "Homescapes 的月度商业化核心之一。需要把免费轨、付费轨、宠物/装饰奖励和同期活动主题关联起来看。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/p0yTs3q5XLw/maxresdefault.jpg",
+          "caption": "Gameplay Walkthrough Part 10 ...",
+          "source_url": "https://www.youtube.com/watch?v=p0yTs3q5XLw",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+golden+ticket",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design golden ticket",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:50:34.758253+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:08.940663+00:00",
+            "load_time_ms": 327,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/p0yTs3q5XLw/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了 Golden Ticket 的预购/购买详情弹窗，属于活动宣传说明界面，无实际玩法操作。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:32.467616+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/diWgGheYTpM/maxresdefault.jpg",
+          "caption": "Playrix Homescapes ...",
+          "source_url": "https://www.youtube.com/watch?v=diWgGheYTpM",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+golden+ticket",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design golden ticket",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:50:34.758253+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:09.319032+00:00",
+            "load_time_ms": 373,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/diWgGheYTpM/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了活动 Spooky Season 的核心奖励轨（Pass 界面），包含免费和付费资源列、进度及锁扣，属于实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:32.467616+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/y1NLqq6NXps/maxresdefault.jpg",
+          "caption": "Homescapes - New Event - Golden Ticket ...",
+          "source_url": "https://www.youtube.com/watch?v=y1NLqq6NXps",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+golden+ticket",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design golden ticket",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:50:34.758253+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:09.668796+00:00",
+            "load_time_ms": 343,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/y1NLqq6NXps/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了 Home Pass（即展示说明中的 Golden Ticket 变体）的购买引导弹窗，属于宣传说明图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:32.467616+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/eLVx_zE6EMw/maxresdefault.jpg",
+          "caption": "Homescapes - New Event - Golden Ticket ...",
+          "source_url": "https://www.youtube.com/watch?v=eLVx_zE6EMw",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+golden+ticket",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design golden ticket",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:50:34.758253+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:10.039614+00:00",
+            "load_time_ms": 366,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/eLVx_zE6EMw/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了另一种主题（兔子/宠物）的 Home Pass 购买引导弹窗，属于宣传说明图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:32.467616+00:00"
+          }
+        },
+        {
+          "url": "https://scontent-hkg4-1.xx.fbcdn.net/v/t15.5256-10/131873420_414921152903811_283320184988486390_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a27664&_nc_ohc=wZc7hRasoHUQ7kNvwGYv6JM&_nc_oc=AdpevUUV6dzal_hF6gqxqa462NENpGD0UyvuXbsdHyAQM5PpQWpNHpWTzfJgKd7Hvqk&_nc_zt=23&_nc_ht=scontent-hkg4-1.xx&_nc_gid=077KTdgDub4458XkVtZSHQ&_nc_ss=7c20f&oh=00_Af6dA2tlg2cAZcYQU9KFKEv6hWePm2MjrfRraXdu81QG9g&oe=6A09E08B",
+          "caption": "luck and GET A GOLDEN TICKET ...",
+          "source_url": "https://www.facebook.com/homescapes/videos/get-a-golden-ticket/414920682903858/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+golden+ticket",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design golden ticket",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T05:50:34.758253+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:10.375011+00:00",
+            "load_time_ms": 330,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 1080,
+            "content_type": "image/jpeg",
+            "current_src": "https://scontent-hkg4-1.xx.fbcdn.net/v/t15.5256-10/131873420_414921152903811_283320184988486390_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a27664&_nc_ohc=wZc7hRasoHUQ7kNvwGYv6JM&_nc_oc=AdpevUUV6dzal_hF6gqxqa462NENpGD0UyvuXbsdHyAQM5PpQWpNHpWTzfJgKd7Hvqk&_nc_zt=23&_nc_ht=scontent-hkg4-1.xx&_nc_gid=077KTdgDub4458XkVtZSHQ&_nc_ss=7c20f&oh=00_Af6dA2tlg2cAZcYQU9KFKEv6hWePm2MjrfRraXdu81QG9g&oe=6A09E08B"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "带有游戏 Logo 和 Golden Ticket 标题的纯静态宣传海报或引导图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:32.467616+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "expedition_event",
+      "display_name": "Expedition Events / 探险地图",
+      "description": "玩家进入独立地图，消耗能量清除障碍、探索区域、完成剧情任务并收集宝藏或装饰。",
+      "examples": [
+        "Expedition Events",
+        "Around the World",
+        "The Frontier's Gold"
+      ],
+      "market_research_notes": "这是 Playrix 家装三消中最重要的中期内容活动，能提供剧情、地图探索、能量消耗和收集目标。",
+      "images": [
+        {
+          "url": "https://i.redd.it/i-am-so-done-in-this-expedition-event-v0-dis6gt03fs2g1.png?width=1759&format=png&auto=webp&s=8bfb7774f5bbb1b9ef0360bb14965e48385c2184",
+          "caption": "I am so DONE in this expedition event ...",
+          "source_url": "https://www.reddit.com/r/HomescapesOfficial/comments/1p3qeeu/i_am_so_done_in_this_expedition_event/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+expedition+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design expedition event",
+          "width": 299,
+          "height": 169,
+          "aspect_ratio": 1.7692,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:51:02.147931+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:11.636614+00:00",
+            "load_time_ms": 1254,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1759,
+            "natural_height": 993,
+            "content_type": "image/png",
+            "current_src": "https://i.redd.it/i-am-so-done-in-this-expedition-event-v0-dis6gt03fs2g1.png?width=1759&format=png&auto=webp&s=8bfb7774f5bbb1b9ef0360bb14965e48385c2184"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了探险活动的实际地图界面、迷雾、收集物需求弹窗及活动专属体力UI。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:38.570897+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/G9kVIClbECI/maxresdefault.jpg",
+          "caption": "Mysterious Festival Expedition ...",
+          "source_url": "https://www.youtube.com/watch?v=G9kVIClbECI",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+expedition+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design expedition event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:51:02.147931+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:11.998541+00:00",
+            "load_time_ms": 356,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/G9kVIClbECI/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "这是活动的视频封面或宣传图，包含了拼接的活动剧情片段和Logo，无实际操作UI。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:38.570897+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/i-am-so-done-in-this-expedition-event-v0-utr3hu03fs2g1.png?width=640&crop=smart&auto=webp&s=7e0153fdb5c2f33d6b90e29aedb3f04035acf335",
+          "caption": "I am so DONE in this expedition event ...",
+          "source_url": "https://www.reddit.com/r/HomescapesOfficial/comments/1p3qeeu/i_am_so_done_in_this_expedition_event/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+expedition+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design expedition event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:51:02.147931+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:12.088609+00:00",
+            "load_time_ms": 85,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 359,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/i-am-so-done-in-this-expedition-event-v0-utr3hu03fs2g1.png?width=640&crop=smart&auto=webp&s=7e0153fdb5c2f33d6b90e29aedb3f04035acf335"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了探险活动的任务列表、进度条和奖励预览界面，属于实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:38.570897+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/EMBSMZxALZk/hqdefault.jpg",
+          "caption": "Homescapes - New Event - Expedition ...",
+          "source_url": "https://www.youtube.com/watch?v=EMBSMZxALZk",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+expedition+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design expedition event",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:51:02.147931+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:12.411234+00:00",
+            "load_time_ms": 317,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 480,
+            "natural_height": 360,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/EMBSMZxALZk/hqdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "典型的活动宣传海报/插画，虽然背景是活动场景，但主要用于展示角色和Logo。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:38.570897+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/K25HTjEky3U/maxresdefault.jpg",
+          "caption": "Homescapes - New Event - Expedition ...",
+          "source_url": "https://www.youtube.com/watch?v=K25HTjEky3U",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+expedition+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design expedition event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:51:02.147931+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:12.755269+00:00",
+            "load_time_ms": 337,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/K25HTjEky3U/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "活动剧情CG渲染图或宣传图，无游戏内玩法UI或地图操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:38.570897+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "merge_2_event",
+      "display_name": "Merge-2 / 合成活动",
+      "description": "在独立活动板中合成主题物品，完成订单或任务，推进奖励轨和剧情。",
+      "examples": [
+        "merge-2 event",
+        "season-themed merge event"
+      ],
+      "market_research_notes": "Homescapes Wiki 提到 Golden Ticket 赛季会围绕 expedition 或 merge-2 主题展开；后续需要逐期补具体活动名和合成链。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/new-merge-event-youll-need-to-pass-levels-v0-xi3puzp05ucd1.jpeg?auto=webp&s=fad3c49eb725a2375f9ee3538b7350a3971695a6",
+          "caption": "New merge event - you'll need to pass ...",
+          "source_url": "https://www.reddit.com/r/HomescapesOfficial/comments/1e4isqj/new_merge_event_youll_need_to_pass_levels/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+merge+2+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design merge 2 event",
+          "width": 331,
+          "height": 152,
+          "aspect_ratio": 2.1776,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:51:48.996348+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:12.926793+00:00",
+            "load_time_ms": 166,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2436,
+            "natural_height": 1125,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/new-merge-event-youll-need-to-pass-levels-v0-xi3puzp05ucd1.jpeg?auto=webp&s=fad3c49eb725a2375f9ee3538b7350a3971695a6"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 1.0,
+            "reason": "展示了 Homescapes 合成活动的实际玩法界面，包含合成板、任务订单、体力消耗和活动货币。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:42.936809+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/does-anyone-like-this-merge-event-i-find-it-more-v0-lvpf0i2ihnna1.jpg?width=640&crop=smart&auto=webp&s=99224e37b40bc94c1583e1f3fd173402098774f4",
+          "caption": "Does anyone like this merge event? I ...",
+          "source_url": "https://www.reddit.com/r/HomescapesOfficial/comments/11qswxh/does_anyone_like_this_merge_event_i_find_it_more/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+merge+2+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design merge 2 event",
+          "width": 331,
+          "height": 152,
+          "aspect_ratio": 2.1776,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:51:48.996348+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:13.016309+00:00",
+            "load_time_ms": 84,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 295,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/does-anyone-like-this-merge-event-i-find-it-more-v0-lvpf0i2ihnna1.jpg?width=640&crop=smart&auto=webp&s=99224e37b40bc94c1583e1f3fd173402098774f4"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 1.0,
+            "reason": "展示了 Homescapes 合成活动的实际玩法界面，包含合成物品、任务列表及活动特有的 UI 要素。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:42.936809+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/i5ibe2vgkkcb1.jpg",
+          "caption": "Merge event nonsense : r/HomescapesOfficial",
+          "source_url": "https://www.reddit.com/r/HomescapesOfficial/comments/152a0et/merge_event_nonsense/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+merge+2+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design merge 2 event",
+          "width": 331,
+          "height": 152,
+          "aspect_ratio": 2.1776,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:51:48.996348+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:13.278724+00:00",
+            "load_time_ms": 257,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2796,
+            "natural_height": 1290,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/i5ibe2vgkkcb1.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 1.0,
+            "reason": "展示了 Homescapes 合成活动的实际玩法界面，包含合成棋盘、左侧的任务进度和右侧的物品说明。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:42.936809+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/W6GVSVTKxzg/maxresdefault.jpg",
+          "caption": "Homescapes: School Adventures - New ...",
+          "source_url": "https://www.youtube.com/watch?v=W6GVSVTKxzg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+merge+2+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design merge 2 event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:51:48.996348+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:13.648089+00:00",
+            "load_time_ms": 363,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/W6GVSVTKxzg/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图是 YouTube 视频封面，包含活动宣传 KV 和合成界面的拼贴，属于宣传性质图片。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:42.936809+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/EVowlTixeHE/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGH8gPigwMA8=&rs=AOn4CLAp0l__ykZ53CGCU8SwCi48iYT91g",
+          "caption": "Homescapes | New Merge Event ...",
+          "source_url": "https://www.youtube.com/watch?v=EVowlTixeHE",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+merge+2+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design merge 2 event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:51:48.996348+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:13.985797+00:00",
+            "load_time_ms": 333,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/EVowlTixeHE/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGH8gPigwMA8=&rs=AOn4CLAp0l__ykZ53CGCU8SwCi48iYT91g"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 1.0,
+            "reason": "展示了 Homescapes 合成活动的实际玩法界面，明确包含合成板和待完成的活动任务。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:42.936809+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "decoration_redesign",
+      "display_name": "Decoration / Redesign 装修活动",
+      "description": "玩家通过活动获得装饰货币或进度，解锁房间、庭院、节日场景或家居主题改造。",
+      "examples": [
+        "room redesign events",
+        "seasonal decoration events",
+        "themed home decorations"
+      ],
+      "market_research_notes": "Homescapes 的 IP 核心是家装叙事，装修活动比纯竞赛更贴近主品牌；需要后续区分已停用历史活动和现行活动。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/H69WQmTrTZA/maxresdefault.jpg",
+          "caption": "Homescapes - Redesigning and Decorating ...",
+          "source_url": "https://www.youtube.com/watch?v=H69WQmTrTZA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+decoration+redesign",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design decoration redesign",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:52:12.709115+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:14.339689+00:00",
+            "load_time_ms": 348,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/H69WQmTrTZA/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "带有Homescapes Logo，展示了改造后的房间效果，属于活动宣传或结果展示图，无UI界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:47.837122+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/BIgJpF-E5bM/maxresdefault.jpg",
+          "caption": "Homescapes - Redesigning Austin's ...",
+          "source_url": "https://www.youtube.com/watch?v=BIgJpF-E5bM",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+decoration+redesign",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design decoration redesign",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:52:12.709115+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:14.685616+00:00",
+            "load_time_ms": 341,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/BIgJpF-E5bM/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了Homescapes的房间改造效果，配有'The redesign is over!'文字，属于活动完成宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:47.837122+00:00"
+          }
+        },
+        {
+          "url": "https://images.retrostylegames.com/wp-content/uploads/2023/05/Icon-Updated-Isometric-2D-3D-Locations-Manor-Cafe.webp",
+          "caption": "2D Environment for Manor Cafe",
+          "source_url": "https://retrostylegames.com/portfolio/manor-cafe-isometric-locations-and-objects/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+decoration+redesign",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design decoration redesign",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T05:52:12.709115+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:15.371082+00:00",
+            "load_time_ms": 681,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 972,
+            "natural_height": 972,
+            "content_type": "image/webp",
+            "current_src": "https://images.retrostylegames.com/wp-content/uploads/2023/05/Icon-Updated-Isometric-2D-3D-Locations-Manor-Cafe.webp"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 1.0,
+            "reason": "图中明确带有'Manor Cafe' Logo，属于竞品游戏，与本游戏完全无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:47.837122+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/fLddpo5XSS8/maxresdefault.jpg",
+          "caption": "Homescapes - Redesigning Olivia's ...",
+          "source_url": "https://www.youtube.com/watch?v=fLddpo5XSS8",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+decoration+redesign",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design decoration redesign",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:52:12.709115+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:15.716719+00:00",
+            "load_time_ms": 341,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/fLddpo5XSS8/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了Homescapes奥莉维亚房间的改造效果图，为典型的活动宣传/海报性质图片。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:47.837122+00:00"
+          }
+        },
+        {
+          "url": "https://images-rsg.storage.googleapis.com/wp-content/uploads/2023/04/Icon-Mobile-Game-Level-Unique-Coolness-Design.jpg",
+          "caption": "Homescapes: Redefining Home Decor ...",
+          "source_url": "https://retrostylegames.com/portfolio/manor-cafe-isometric-locations-and-objects/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+decoration+redesign",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design decoration redesign",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:52:12.709115+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:16.984307+00:00",
+            "load_time_ms": 1261,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 648,
+            "natural_height": 648,
+            "content_type": "image/jpeg",
+            "current_src": "https://images-rsg.storage.googleapis.com/wp-content/uploads/2023/04/Icon-Mobile-Game-Level-Unique-Coolness-Design.jpg"
+          },
+          "llm_image_filter": {
+            "category": 2,
+            "category_label": "无法确定是否和本游戏无关",
+            "confidence": 0.7,
+            "reason": "虽然画面风格类似展示了装修内容，但根据Caption关联到Manor Cafe的素材库，无法确定是否属于本游戏。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:47.837122+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "booster_streak",
+      "display_name": "连胜 / 开局增益活动",
+      "description": "通过连续通关获得开局 booster、彩虹球、额外步数或其他关卡辅助，失败后可能降级或清空。",
+      "examples": [
+        "win streak boosters",
+        "pre-level booster events"
+      ],
+      "market_research_notes": "此类活动的本质是降低关卡挫败并促使玩家继续尝试；适合和 Gardenscapes 的 Magic Hats / Super Rainbow Blast 对照。",
+      "images": [
+        {
+          "url": "https://external-preview.redd.it/whats-going-on-with-design-of-the-boosters-v0-bGgxMG0yazFwMHllMd9YR5Ss4IPLLdjObswU4mLm4CUfpeKKhnl-2C8oMyh3.png?format=pjpg&auto=webp&s=9f4aaf665aa1df4aff175eda18457637dd4f3c91",
+          "caption": "design of the boosters ...",
+          "source_url": "https://www.reddit.com/r/HomescapesOfficial/comments/1kbo134/whats_going_on_with_design_of_the_boosters/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+booster+streak",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design booster streak",
+          "width": 330,
+          "height": 153,
+          "aspect_ratio": 2.1569,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:52:38.037440+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:17.339622+00:00",
+            "load_time_ms": 350,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 888,
+            "content_type": "image/webp",
+            "current_src": "https://external-preview.redd.it/whats-going-on-with-design-of-the-boosters-v0-bGgxMG0yazFwMHllMd9YR5Ss4IPLLdjObswU4mLm4CUfpeKKhnl-2C8oMyh3.png?format=pjpg&auto=webp&s=9f4aaf665aa1df4aff175eda18457637dd4f3c91"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "这是游戏的主界面（家园装修部分），虽然右侧有活动图标，但主图并非活动详情。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:52.293297+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/emO3L5QIMTY/maxresdefault.jpg",
+          "caption": "Boosters & Rewards ...",
+          "source_url": "https://www.youtube.com/watch?v=emO3L5QIMTY",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+booster+streak",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design booster streak",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:52:38.037440+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:17.711451+00:00",
+            "load_time_ms": 365,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/emO3L5QIMTY/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "关卡界面中出现了大量由连胜活动（Flint's Treasure或类似连胜机制）产生的初始增益道具（纸飞机、彩虹球等）。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:52.293297+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/pYlYZuxH29g/maxresdefault.jpg",
+          "caption": "Homescapes Level 18813 No Boosters ...",
+          "source_url": "https://www.youtube.com/watch?v=pYlYZuxH29g",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+booster+streak",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design booster streak",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:52:38.037440+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:18.110511+00:00",
+            "load_time_ms": 393,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/pYlYZuxH29g/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示的是普通消除关卡玩法，标题明确说明了'No Boosters'，无法体现连胜增益活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:52.293297+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/OyPpJPMEHCk/maxresdefault.jpg",
+          "caption": "Homescapes Gameplay Like a Pro – Tips ...",
+          "source_url": "https://www.youtube.com/watch?v=OyPpJPMEHCk",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+booster+streak",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design booster streak",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:52:38.037440+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:18.486663+00:00",
+            "load_time_ms": 371,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/OyPpJPMEHCk/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "展示的是消除玩法截图，虽然满屏纸飞机，但更偏向于通用玩法攻略而非特定连胜活动展示。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:52.293297+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/pYlYZuxH29g/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGFkgPShyMA8=&rs=AOn4CLC5gcmDjD9TM0C1odjU16sxT10P-A",
+          "caption": "homescapes progress and reset ...",
+          "source_url": "https://www.youtube.com/watch?v=pYlYZuxH29g",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+booster+streak",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design booster streak",
+          "width": 326,
+          "height": 154,
+          "aspect_ratio": 2.1169,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:52:38.037440+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:18.808326+00:00",
+            "load_time_ms": 316,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/pYlYZuxH29g/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGFkgPShyMA8=&rs=AOn4CLC5gcmDjD9TM0C1odjU16sxT10P-A"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "与图3内容一致，展示的是玩家在没有使用增益道具情况下的通关过程，与连胜增益活动不相关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:52.293297+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "legacy_seasonal_event",
+      "display_name": "历史节日 / 主题活动",
+      "description": "历史版本中围绕节日、生日、特殊主题开放的短期活动，可能包括收集、装修、竞赛或礼包。",
+      "examples": [
+        "Birthday Week",
+        "holiday events",
+        "seasonal themed events"
+      ],
+      "market_research_notes": "Homescapes 活动历史较长，调研时应标注 active / legacy，避免把停用机制当作当前常驻。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/5xlAslEsD_I/maxresdefault.jpg",
+          "caption": "Homescapes Event : The Vampire Legacy ...",
+          "source_url": "https://www.youtube.com/watch?v=5xlAslEsD_I",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+legacy+seasonal+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design legacy seasonal event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:53:06.534422+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:19.156450+00:00",
+            "load_time_ms": 343,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/5xlAslEsD_I/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了名为'The Vampire Legacy'的活动标题和主题宣传图，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:58.102251+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/pXHtF1hWXvc/maxresdefault.jpg",
+          "caption": "Homescapes Event - Seasons Greetings ...",
+          "source_url": "https://www.youtube.com/watch?v=pXHtF1hWXvc",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+legacy+seasonal+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design legacy seasonal event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:53:06.534422+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:19.578135+00:00",
+            "load_time_ms": 416,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/pXHtF1hWXvc/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了圣诞主题活动的实际装修/收集地图界面，属于活动内玩法截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:58.102251+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/tSill2unQWg/maxresdefault.jpg",
+          "caption": "Homescapes - New Event - Expedition ...",
+          "source_url": "https://www.youtube.com/watch?v=tSill2unQWg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+legacy+seasonal+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design legacy seasonal event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:53:06.534422+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:19.918728+00:00",
+            "load_time_ms": 335,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/tSill2unQWg/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "这是活动的Loading加载图或入口宣传图，虽有Play按钮但非实际玩法过程界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:58.102251+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/complete-the-holiday-season-event-lets-admire-this-large-v0-frrhyipfps8c1.jpeg?auto=webp&s=7bc57dcfac0dc20b30cdd4e3e42b5bd1a7c256b0",
+          "caption": "Complete the Holiday Season event. Let ...",
+          "source_url": "https://www.reddit.com/r/HomescapesOfficial/comments/18rvmy8/complete_the_holiday_season_event_lets_admire/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=homescapes+puzzle+design+legacy+seasonal+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "homescapes puzzle design legacy seasonal event",
+          "width": 302,
+          "height": 167,
+          "aspect_ratio": 1.8084,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:53:06.534422+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:32.659124+00:00",
+            "load_time_ms": 12736,
+            "long_load": true,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 7567,
+            "natural_height": 4198,
+            "content_type": "image/jpeg",
+            "current_src": "https://preview.redd.it/complete-the-holiday-season-event-lets-admire-this-large-v0-frrhyipfps8c1.jpeg?auto=webp&s=7bc57dcfac0dc20b30cdd4e3e42b5bd1a7c256b0"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "这是一张完整的活动远征（Expedition）大地图全景截图，属于活动实际玩法地图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:58.102251+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "Homescapes 公开 wiki 有较好的总览，但部分现行活动名需要游戏内或近期社区截图确认。本轮先完成机制层归纳，不处理图片。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T05:53:06.534422+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:15:58.102251+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

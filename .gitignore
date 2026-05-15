@@ -4,3 +4,7 @@ __pycache__/
 .cursor/
 data/
 数据/**/*_raw.json
+.browser-profile/
+agent-tools/
+数据/*_log.jsonl
+数据/*_debug.jsonl

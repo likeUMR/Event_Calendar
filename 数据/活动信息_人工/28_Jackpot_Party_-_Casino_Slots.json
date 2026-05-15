@@ -1,0 +1,754 @@
+{
+  "rank": 28,
+  "name": "Jackpot Party - Casino Slots",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 Jackpot Party Casino 官方 Zendesk 帮助中心。程序化结果抓错 App Store 地区和域名，本轮改用 jackpotpartycasino.zendesk.com 的 How to Play / Special Features 页面逐项整理。",
+  "source_pages": [
+    {
+      "title": "Jackpot Party Casino Help - About Jackpot Party Casino",
+      "url": "https://jackpotpartycasino.zendesk.com/hc/en-us/articles/21577512114839-About-Jackpot-Party-Casino",
+      "notes": "官方总览列出 Dash 4 Cash、Tournament of Champions、All-Star、Party Prizes、Diamond Pass、Cleo's Treasures、Lightning Leagues、Hourly free coin gifts、Daily rewards 等核心功能。"
+    },
+    {
+      "title": "Jackpot Party Casino Help - Tournaments",
+      "url": "https://jackpotpartycasino.zendesk.com/hc/en-us/articles/360063126533-Tournaments",
+      "notes": "详细解释 Dash 4 Cash 和 Tournament of Champions：15 分钟比赛、每次 spin 加分、Top 3 奖励、前 1-5 名晋级冠军赛。"
+    },
+    {
+      "title": "Jackpot Party Casino Help - Diamond Pass",
+      "url": "https://jackpotpartycasino.zendesk.com/hc/en-us/articles/20538402186135-Diamond-Pass",
+      "notes": "详细解释 Diamond Pass：Free / Upgraded / Deluxe 三条奖励轨，Diamond Dailies、Featured Challenges、Seasonal Challenges、Prestige Chest。"
+    },
+    {
+      "title": "Jackpot Party Casino Help - Party Prizes",
+      "url": "https://jackpotpartycasino.zendesk.com/hc/en-us/articles/1500002728121-Party-Prizes",
+      "notes": "解释 Big Win 后获得 Party Prize，奖励包括 All-Stars points、Pick'em Party Passes、Bingo Balls、Honey Bucks、coins；有计时解锁和 Upgrade Mode。"
+    },
+    {
+      "title": "Jackpot Party Casino Help - Cleo's Treasures",
+      "url": "https://jackpotpartycasino.zendesk.com/hc/en-us/articles/1500002853622-Cleo-s-Treasures",
+      "notes": "解释每周钥匙宝箱活动：每日银/金钥匙，购买获得白金钥匙，周六 Treasure Day 开箱。"
+    },
+    {
+      "title": "Jackpot Party Casino Help - Lightning Leagues",
+      "url": "https://jackpotpartycasino.zendesk.com/hc/en-us/articles/360063126593-Lightning-Leagues",
+      "notes": "解释 7 天联赛、League Medallions、Boosted Medallion drops、分组升降级、Division Perks。"
+    },
+    {
+      "title": "Jackpot Party Casino Help - Epic Collections",
+      "url": "https://jackpotpartycasino.zendesk.com/hc/en-us/articles/4409508260119-Epic-Collections",
+      "notes": "解释卡牌/日志收集：crate 开卡、重复卡 Trading Post、完成 journal 解锁 map piece，最终找到古代宝藏。"
+    },
+    {
+      "title": "Jackpot Party Casino Help - Pick'em Party",
+      "url": "https://jackpotpartycasino.zendesk.com/hc/en-us/articles/360063155553-Pick-em-Party",
+      "notes": "解释限时小游戏：收集 Party Passes，戳气球，避开 party pooper，最高可得 Supreme Party Prize。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "dash_4_cash",
+      "display_name": "Dash 4 Cash / 15 分钟锦标赛",
+      "description": "玩家进入老虎机 spin 后加入下一轮 Dash 4 Cash。每次 spin 加分，在 15 分钟倒计时内尽量冲高分，结算后 Top 3 获得 coin reward。",
+      "examples": [
+        "Dash 4 Cash"
+      ],
+      "market_research_notes": "短局高频排行榜，利用 slot spin 自然行为直接产生赛事分数，是社交 casino 的核心消耗活动。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/La3kXNCGYKe586XR2KPfipAssvVEkR4aAJ6ykA2xmwZRmb2Q4fzEh7jzD08D8r5GDg",
+          "caption": "Jackpot Party Casino Slots - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.williamsinteractive.jackpotparty",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=jackpot+party+casino+slots+dash+4+cash",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "jackpot party casino slots dash 4 cash",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:20:17.107063+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:44.088223+00:00",
+            "load_time_ms": 346,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/jpeg",
+            "current_src": "https://play-lh.googleusercontent.com/La3kXNCGYKe586XR2KPfipAssvVEkR4aAJ6ykA2xmwZRmb2Q4fzEh7jzD08D8r5GDg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片展示的是游戏图标或通用的品牌宣传转盘界面，未能看到 Dash 4 Cash 活动相关的 15 分钟倒计时或锦标赛排行榜特征。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:08.664484+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "tournament_of_champions",
+      "display_name": "Tournament of Champions / 冠军锦标赛",
+      "description": "Dash 4 Cash 中排名 1-5 的玩家晋级 Tournament of Champions。冠军赛同样持续 15 分钟，Top 3 获得 Party Prize 并重新获得冠军赛资格；参赛期间 Lightning League points 有 2x boost。",
+      "examples": [
+        "Tournament of Champions"
+      ],
+      "market_research_notes": "把短局锦标赛做成晋级循环，给高活跃/高消耗玩家持续留在竞赛池里的理由。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/bZIJdvuKISI/hqdefault.jpg",
+          "caption": "Jackpot Party's NEW Tournament of ...",
+          "source_url": "https://www.youtube.com/watch?v=bZIJdvuKISI",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=jackpot+party+casino+slots+tournament+of+champions",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "jackpot party casino slots tournament of champions",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:20:42.787063+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:44.406700+00:00",
+            "load_time_ms": 310,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 480,
+            "natural_height": 360,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/bZIJdvuKISI/hqdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图片展示了该游戏的LOGO以及活动标志性标题Tournament of Champions，且明确标有New Feature，属于典型的活动宣传海报/封面图，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:11.118528+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "diamond_pass",
+      "display_name": "Diamond Pass / 月度通行证",
+      "description": "玩家通过 Daily、Featured、Seasonal Challenges 赚 diamonds，推进 Free、Upgraded、Deluxe 三条奖励轨。购买高级轨后可获得更多奖励、专属每日 featured slots 和特殊挑战；赛季完成后可继续 Prestige Chest。",
+      "examples": [
+        "Diamond Pass",
+        "Diamond Dailies",
+        "Featured Challenges",
+        "Seasonal Challenges",
+        "Prestige Chest"
+      ],
+      "market_research_notes": "社交 casino 的 battle pass 变体，奖励包括 coins、Honey Bucks、Bingo Balls、Party Prizes，付费轨和挑战刷新节奏很明确。",
+      "images": []
+    },
+    {
+      "type": "party_prizes",
+      "display_name": "Party Prizes / Big Win 奖品箱",
+      "description": "单次 spin 获得至少 25x bet 的 Big Win 并填满 Win Meter 时，随机获得 Party Prize。Prize 可放入最多 4 格 tray，按 Mini/Minor/Major/Grand/Mega 不同计时解锁，也可用 Honey Bucks 立即打开；满 tray 后可进入 Upgrade Mode。",
+      "examples": [
+        "Mini Party Prize",
+        "Minor Party Prize",
+        "Major Party Prize",
+        "Grand Party Prize",
+        "Mega Party Prize",
+        "Upgrade Mode"
+      ],
+      "market_research_notes": "把大赢反馈转化成延迟开箱和升级循环，奖励又反哺 All-Stars、Pick'em Party、Bingo、Honey Bucks 等系统。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/La3kXNCGYKe586XR2KPfipAssvVEkR4aAJ6ykA2xmwZRmb2Q4fzEh7jzD08D8r5GDg",
+          "caption": "Jackpot Party Casino Slots - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.williamsinteractive.jackpotparty",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=jackpot+party+casino+slots+party+prizes",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "jackpot party casino slots party prizes",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:21:33.848548+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:44.088223+00:00",
+            "load_time_ms": 346,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/jpeg",
+            "current_src": "https://play-lh.googleusercontent.com/La3kXNCGYKe586XR2KPfipAssvVEkR4aAJ6ykA2xmwZRmb2Q4fzEh7jzD08D8r5GDg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片展示的是游戏的通用Logo和转盘元素，属于通用品牌宣传图，未体现Party Prizes活动相关的奖品箱或开箱界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:13.828286+00:00"
+          }
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/91Y6eYZBkML._h1_.png",
+          "caption": "Jackpot Party Casino Slots - Free Vegas ...",
+          "source_url": "https://www.amazon.com/Jackpot-Party-Casino-Slots-Vegas/dp/B00C7X0ZNU",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=jackpot+party+casino+slots+party+prizes",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "jackpot party casino slots party prizes",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:21:33.848548+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:44.677010+00:00",
+            "load_time_ms": 260,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://m.media-amazon.com/images/I/91Y6eYZBkML._h1_.png"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片内容与第一张相同，是该游戏的通用商店背景或品牌宣传图，无法确认与Party Prizes活动的具体关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:13.828286+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "cleos_treasures",
+      "display_name": "Cleo's Treasures / 周钥匙宝箱",
+      "description": "每周挑战。玩家每日收集 silver key 和 gold key；有购买行为时可获得 platinum key。周六 Treasure Day 使用钥匙尝试打开对应宝箱，未使用钥匙转成 coins。",
+      "examples": [
+        "Cleo's Treasures",
+        "Silver Key",
+        "Gold Key",
+        "Platinum Key",
+        "Treasure Day"
+      ],
+      "market_research_notes": "清晰的 7 日登录/任务/购买绑定活动，白金钥匙把 IAP 行为嵌入周循环。",
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/Ga2MFizX0AAKvTu.jpg",
+          "caption": "🗝️💎 𝐂𝐥𝐞𝐨'𝐬 𝐓𝐫𝐞𝐚𝐬𝐮𝐫𝐞 𝐃𝐚𝐲! It's Treasure ...",
+          "source_url": "https://x.com/JackpotParty/status/1850289069843955969",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=jackpot+party+casino+slots+cleos+treasures",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "jackpot party casino slots cleos treasures",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:21:57.769187+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:44.949643+00:00",
+            "load_time_ms": 267,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 675,
+            "content_type": "image/jpeg",
+            "current_src": "https://pbs.twimg.com/media/Ga2MFizX0AAKvTu.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "包含活动标题Cleo's Treasures及对应颜色的宝箱，带有登录引导文字，属于社交媒体宣传海报。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:17.670258+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/yTJklMhCf80/maxresdefault.jpg",
+          "caption": "Collect Keys in Jackpot Party for BIG ...",
+          "source_url": "https://www.youtube.com/watch?v=yTJklMhCf80",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=jackpot+party+casino+slots+cleos+treasures",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "jackpot party casino slots cleos treasures",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:21:57.769187+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:45.327811+00:00",
+            "load_time_ms": 373,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/yTJklMhCf80/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了活动标题、Treasure Day字样及活动关键元素钥匙与宝箱，属于典型的活动宣传封面图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:17.670258+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "lightning_leagues",
+      "display_name": "Lightning Leagues / 7 日联赛",
+      "description": "玩家在带 Lightning League Medallion 的 slot 上 spin，有概率获得 medallions 并转成 League Points。每周排行榜结算，顶部玩家升组，底部玩家降组；不同 Division 提供 timed bonus 和 coin store perk。",
+      "examples": [
+        "Lightning Leagues",
+        "Bigger Boosted Medallions",
+        "Faster Boosted Medallions",
+        "Division Perks"
+      ],
+      "market_research_notes": "长周期排行榜 + 段位权益系统，既影响免费 coin bonus，也影响商店购买加成。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/HHOQ86hHXRs/maxresdefault.jpg",
+          "caption": "Earn Lightning Leagues Medallions YOUR ...",
+          "source_url": "https://www.youtube.com/watch?v=HHOQ86hHXRs",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=jackpot+party+casino+slots+lightning+leagues",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "jackpot party casino slots lightning leagues",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:22:20.989910+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:46.862122+00:00",
+            "load_time_ms": 342,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/HHOQ86hHXRs/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片为游戏的通用加载界面（Loading Screen），包含游戏标题和通用角色，无法确认与Lightning Leagues活动直接相关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:20.252449+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/maBpfnx0YUg/maxresdefault.jpg",
+          "caption": "Jackpot Party Casino Slots ...",
+          "source_url": "https://www.youtube.com/watch?v=maBpfnx0YUg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=jackpot+party+casino+slots+lightning+leagues",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "jackpot party casino slots lightning leagues",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:22:20.989910+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:47.205737+00:00",
+            "load_time_ms": 337,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/maBpfnx0YUg/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图片清晰展示了Lightning Leagues活动的实际玩法界面，包含排行榜名次、玩家头像、League Points（闪电图标）以及Promotion Zone（晋升区）等信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:20.252449+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "epic_collections",
+      "display_name": "Epic Collections / 卡牌与地图收集",
+      "description": "玩家通过 Party Prizes 中的 crates 获得卡牌，完成 journal 后用 Honey Bucks 解锁 map piece；完成所有 journal 后揭示完整地图并获得 ancient treasure。重复卡进入 Trading Post，可兑换未开 crate。",
+      "examples": [
+        "Epic Collections",
+        "Jack Crate",
+        "Queen Crate",
+        "King Crate",
+        "Ace Crate",
+        "Epic Crate",
+        "Trading Post"
+      ],
+      "market_research_notes": "相册式长期目标和开箱系统，依赖 Party Prizes 作为卡包来源，形成活动系统间的强耦合。",
+      "images": [
+        {
+          "url": "https://jackpotpartycasino.zendesk.com/hc/article_attachments/4409515260695/jpsc_epic-collections-final-prize.png",
+          "caption": "Epic Collections – Jackpot Party Casino ...",
+          "source_url": "https://jackpotpartycasino.zendesk.com/hc/en-us/articles/4409508260119-Epic-Collections",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=jackpot+party+casino+slots+epic+collections",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "jackpot party casino slots epic collections",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:22:54.230555+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:49.106084+00:00",
+            "load_time_ms": 1892,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2048,
+            "natural_height": 1536,
+            "content_type": "image/png",
+            "current_src": "https://jackpotpartycasino.zendesk.com/hc/article_attachments/4409515260695/jpsc_epic-collections-final-prize.png"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了Epic Collections活动最终集齐80/80张卡牌后的奖励领取界面，包含实际的Collect交互按钮。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:28.228203+00:00"
+          }
+        },
+        {
+          "url": "https://jackpotpartycasino.zendesk.com/hc/article_attachments/4409507755671/jpsc_epic-collections-journal.png",
+          "caption": "Epic Collections – Jackpot Party Casino ...",
+          "source_url": "https://jackpotpartycasino.zendesk.com/hc/en-us/articles/4409508260119-Epic-Collections",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=jackpot+party+casino+slots+epic+collections",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "jackpot party casino slots epic collections",
+          "width": 276,
+          "height": 183,
+          "aspect_ratio": 1.5082,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:22:54.230555+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:50.254059+00:00",
+            "load_time_ms": 1142,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2048,
+            "natural_height": 1360,
+            "content_type": "image/png",
+            "current_src": "https://jackpotpartycasino.zendesk.com/hc/article_attachments/4409507755671/jpsc_epic-collections-journal.png"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了活动内具体的卡牌集（Egyptian）及其进度（10/10），以及使用Honey Bucks解锁地图碎片的功能界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:28.228203+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "pickem_party",
+      "display_name": "Pick'em Party / 戳气球小游戏",
+      "description": "限时小游戏。玩家从 Party Prizes 中收集 Party Passes，凑够后进入 Pick'em Party 戳气球，在 party pooper 出现前戳得越多，最终 coin 奖励越大；全部戳完可得 Supreme Party Prize。",
+      "examples": [
+        "Pick'em Party",
+        "Party Passes",
+        "Supreme Party Prize"
+      ],
+      "market_research_notes": "典型 pick-and-risk 小游戏，把 Big Win 奖品箱中的门票转化成二级小游戏目标。",
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/GK_ZgxIXcAEjg0u.jpg",
+          "caption": "Party Prize! Pick 'Em",
+          "source_url": "https://x.com/JackpotParty/status/1778879555865862222",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=jackpot+party+casino+slots+pickem+party",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "jackpot party casino slots pickem party",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:23:15.303503+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:50.513836+00:00",
+            "load_time_ms": 254,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 675,
+            "content_type": "image/jpeg",
+            "current_src": "https://pbs.twimg.com/media/GK_ZgxIXcAEjg0u.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图标题明确为Pick'em Party，带有Available Now煽动性文字，属于典型的活动宣传Banner图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:32.508272+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/GHiObfOVkUw/maxresdefault.jpg",
+          "caption": "Pick'em Party - How It Works! - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=GHiObfOVkUw",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=jackpot+party+casino+slots+pickem+party",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "jackpot party casino slots pickem party",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:23:15.303503+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:50.883098+00:00",
+            "load_time_ms": 364,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/GHiObfOVkUw/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了活动实际玩法界面，包含可点击的气球、游戏指引文字（Tap a Balloon）、关闭按钮和UI元素，符合活动描述。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:32.508272+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/dAQbGy6DttI/maxresdefault.jpg",
+          "caption": "Party! | Jackpot Party Casino Slots ...",
+          "source_url": "https://www.youtube.com/watch?v=dAQbGy6DttI",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=jackpot+party+casino+slots+pickem+party",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "jackpot party casino slots pickem party",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:23:15.303503+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:51.262662+00:00",
+            "load_time_ms": 373,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/dAQbGy6DttI/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "包含活动名称Pick'em Party，但背景为复活节主题宣传画，无实际玩法操作UI，属于主题宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:32.508272+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/La3kXNCGYKe586XR2KPfipAssvVEkR4aAJ6ykA2xmwZRmb2Q4fzEh7jzD08D8r5GDg",
+          "caption": "Jackpot Party Casino Slots | Download ...",
+          "source_url": "https://play.google.com/pc-store/games/details?id=com.williamsinteractive.jackpotparty",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=jackpot+party+casino+slots+pickem+party",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "jackpot party casino slots pickem party",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:23:15.303503+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:44.088223+00:00",
+            "load_time_ms": 346,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/jpeg",
+            "current_src": "https://play-lh.googleusercontent.com/La3kXNCGYKe586XR2KPfipAssvVEkR4aAJ6ykA2xmwZRmb2Q4fzEh7jzD08D8r5GDg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片仅展示游戏Logo和通用的转盘及金币，虽与游戏名一致，但没有出现Pick'em Party相关的特定活动元素。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:32.508272+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "daily_and_hourly_rewards",
+      "display_name": "Daily / Hourly Rewards / 日常免费金币",
+      "description": "官方总览列出 hourly free coin gifts、daily rewards、level-up free coins，属于基础回流奖励体系。",
+      "examples": [
+        "Hourly free coin gifts",
+        "Daily rewards",
+        "Level-up free coins"
+      ],
+      "market_research_notes": "社交 casino 的资源续航系统，和 slot 消耗、IAP、活动任务共同控制玩家可玩时长。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/La3kXNCGYKe586XR2KPfipAssvVEkR4aAJ6ykA2xmwZRmb2Q4fzEh7jzD08D8r5GDg",
+          "caption": "Jackpot Party Casino Slots - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.williamsinteractive.jackpotparty",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=jackpot+party+casino+slots+daily+and+hourly+rewards",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "jackpot party casino slots daily and hourly rewards",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:23:38.560838+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:44.088223+00:00",
+            "load_time_ms": 346,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/jpeg",
+            "current_src": "https://play-lh.googleusercontent.com/La3kXNCGYKe586XR2KPfipAssvVEkR4aAJ6ykA2xmwZRmb2Q4fzEh7jzD08D8r5GDg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片展示了游戏Logo和标志性的奖励转盘，属于通用的品牌宣传图，虽与每日奖励形式相似但更倾向于商店封面或通用素材。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:35.709260+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/PgiprTeVa76os3ykvtKdNYqx-Xs-tZpeNi7ZUZtoIW4FHPY_4wsMK2K1TKTwo0pjzg4TqKT7-rgdTmXKbl7WqA=w526-h296-rw",
+          "caption": "Jackpot Party Casino Slots - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.williamsinteractive.jackpotparty",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=jackpot+party+casino+slots+daily+and+hourly+rewards",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "jackpot party casino slots daily and hourly rewards",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:23:38.560838+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:51.468657+00:00",
+            "load_time_ms": 198,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 526,
+            "natural_height": 296,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/PgiprTeVa76os3ykvtKdNYqx-Xs-tZpeNi7ZUZtoIW4FHPY_4wsMK2K1TKTwo0pjzg4TqKT7-rgdTmXKbl7WqA=w526-h296-rw"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片明确标注为'WELCOME BONUS'（欢迎奖励），属于新玩家引导奖励，虽然属于广义的免费金币体系，但与指定的每日/每小时重复性奖励活动有别，属于通用宣传海报。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:35.709260+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "Jackpot Party 官方帮助中心资料很完整，本轮已覆盖主要特殊功能和活动循环；未处理图片。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T06:23:38.561838+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:20:35.709260+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

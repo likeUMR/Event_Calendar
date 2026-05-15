@@ -1,0 +1,49 @@
+{
+  "rank": 60,
+  "name": "Top Heroes: Kingdom Saga",
+  "source_confidence": "medium",
+  "source_notes": null,
+  "collected_at": "2026-05-12T04:04:26.817Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Top Heroes Wiki",
+      "source_type": "fandom",
+      "source_url": "https://topheroes.fandom.com/wiki/Top_Heroes_Wiki",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "source_title": "Top Heroes Official",
+      "source_type": "official",
+      "source_url": "https://www.rivergame.net/",
+      "fetched_url": "https://www.rivergame.net/",
+      "status": 200,
+      "page_title": "江娱互动官方网站",
+      "meta_description": "Visit Rivergame.net and find out more about us. We are the makers of Top War, a group of gamers who enjoy playing and creating games that are innovative and fun.",
+      "relevant_text_blocks": [],
+      "inferred_event_types": [],
+      "images": [
+        {
+          "url": "http://www.rivergame.net/comm/img/topwar_icon.jpg",
+          "alt": "og:image",
+          "kind": "preview"
+        }
+      ]
+    }
+  ],
+  "event_detail_pages": [],
+  "event_catalog": [],
+  "inferred_event_type_summary": [],
+  "screenshots_or_images": [
+    {
+      "url": "http://www.rivergame.net/comm/img/topwar_icon.jpg",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://www.rivergame.net/"
+    }
+  ],
+  "collection_warnings": [
+    "Fetch failed: https://topheroes.fandom.com/wiki/Top_Heroes_Wiki"
+  ]
+}

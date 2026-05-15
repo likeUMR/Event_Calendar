@@ -1,0 +1,1721 @@
+{
+  "rank": 23,
+  "name": "Evony",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 Evony The King's Return Fandom 的 Regular Events、Evony Guide Wiki 的 Event 分类页，以及 Alliance Competition、Revelation of Maya、Arctic Barbarians、Clash of Civilizations、Consuming Return 等代表性攻略页，按周循环、联盟、PvP、PvE、消耗返利、探索小游戏和问答活动归类。",
+  "source_pages": [
+    {
+      "title": "Evony The King's Return Wiki - Regular Events",
+      "url": "https://evony-the-kings-return.fandom.com/wiki/Regular_Events",
+      "notes": "说明 Event Center 中有常规活动；Monarch Competition 每周循环，前四个 24 小时阶段随机顺序，最后 Kill Event 每周五开始持续 72 小时。"
+    },
+    {
+      "title": "Evony Guide Wiki - Event Category",
+      "url": "https://evonyguidewiki.com/en/category/event-en/",
+      "notes": "活动目录页列出 Arctic Barbarians Invasion、Alliance Competition、Consuming Return、Cleopatra's Treasure、Dawn of Civilization、Lucky Composing、Gladiator's Trial、Revelation of Horus/Maya、Treasure Hunt(Pyramid)、KE 等。"
+    },
+    {
+      "title": "Evony Guide Wiki - Alliance Competition Event",
+      "url": "https://evonyguidewiki.com/en/alliance-competition-en/",
+      "notes": "代表性联盟活动：约 10 天，完成任务得个人分和联盟分，联盟 rank 越高奖励和门槛越高。"
+    },
+    {
+      "title": "Evony Guide Wiki - Arctic Barbarians Invasion Guide",
+      "url": "https://evonyguidewiki.com/en/arctic_barbarians_invasion-en/",
+      "notes": "地图 PvE 活动：随机出现 Barbarian Castles，击败/占领得分和奖励，强调联盟成员帮助。"
+    },
+    {
+      "title": "Evony Guide Wiki - Revelation of Maya Event",
+      "url": "https://evonyguidewiki.com/en/revelation-of-maya-en/",
+      "notes": "独立关卡/战斗活动，包含 generals buffs、stage buffs、敌人战力、score、stages、runes/buildings 等。"
+    },
+    {
+      "title": "Evony Guide Wiki - Battlefield: Clash of Civilizations",
+      "url": "https://evonyguidewiki.com/en/coc-clash-of-civilizations-en/",
+      "notes": "代表性战场活动，机制混合 Battle of Constantinople、Battle of Gaugamela 和 Clash of Civilizations Assault。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "monarch_competition",
+      "display_name": "Monarch Competition / 每周君主竞赛",
+      "description": "每周循环竞赛，前四个 24 小时阶段从城市发展、战力提升、训练、采集、打怪等主题中随机出现，最后 Kill Event 通常周五开始持续 72 小时。",
+      "examples": [
+        "City Development",
+        "Power Increase",
+        "Troop Training",
+        "Resource Gathering",
+        "Monster Killing",
+        "Kill Event"
+      ],
+      "market_research_notes": "这是 SLG 活动排期的骨架，把日常成长行为切成按天冲分目标。KE 则把周末切换到 PvP 风险窗口。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/qw4u1ndSmis/maxresdefault.jpg",
+          "caption": "EVONY TKR BASICS 06 MONARCH COMPETITION ...",
+          "source_url": "https://www.youtube.com/watch?v=qw4u1ndSmis",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+monarch+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony monarch competition",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:58:08.021028+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:06.872438+00:00",
+            "load_time_ms": 363,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/qw4u1ndSmis/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了Event Center界面，其中明确包含Monarch Competition活动入口及当前Monster Kill阶段的进度提示。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:16:42.403643+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/VQr6mdC7U5w/hqdefault.jpg",
+          "caption": "Evony's new Tiered Monarch Competition ...",
+          "source_url": "https://www.youtube.com/watch?v=VQr6mdC7U5w",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+monarch+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony monarch competition",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:58:08.021028+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:07.173063+00:00",
+            "load_time_ms": 294,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 480,
+            "natural_height": 360,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/VQr6mdC7U5w/hqdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "展示了活动相关的Competition Support购买/奖励界面，属于活动内的实际功能界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:16:42.403643+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/pvp-ke-monarch-competition-v0-djfxr96vq0qa1.jpg?width=640&crop=smart&auto=webp&s=de6dac1ec2d2df31375d9b16bd3431f259293492",
+          "caption": "Pvp KE Monarch Competition : r/Evony_TKR",
+          "source_url": "https://www.reddit.com/r/Evony_TKR/comments/122c2x4/pvp_ke_monarch_competition/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+monarch+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony monarch competition",
+          "width": 156,
+          "height": 322,
+          "aspect_ratio": 0.4845,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T05:58:08.021028+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:07.348833+00:00",
+            "load_time_ms": 171,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 1315,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/pvp-ke-monarch-competition-v0-djfxr96vq0qa1.jpg?width=640&crop=smart&auto=webp&s=de6dac1ec2d2df31375d9b16bd3431f259293492"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示的是Evony游戏的通用将军属性界面，虽然配文提到相关活动，但图片内容本身为通用成长系统，无活动特有界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:16:42.403643+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Nq59oCzQn50/hqdefault.jpg",
+          "caption": "Evony TKR - Tiered Monarch Competition ...",
+          "source_url": "https://www.youtube.com/watch?v=Nq59oCzQn50",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+monarch+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony monarch competition",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:58:08.021028+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:07.660992+00:00",
+            "load_time_ms": 307,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 480,
+            "natural_height": 360,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/Nq59oCzQn50/hqdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.88,
+            "reason": "展示了Tiered Monarch Competition的活动标题及入口Banner，虽有活动信息但主要是静态展示和介绍性内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:16:42.403643+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "alliance_competition",
+      "display_name": "Alliance Competition / 联盟竞赛",
+      "description": "玩家在约 10 天周期内完成个人和联盟任务获得分数，个人分、联盟分和联盟排名共同决定奖励。",
+      "examples": [
+        "Alliance Competition Event"
+      ],
+      "market_research_notes": "典型联盟协作 + 任务选择活动。付费增加挑战次数、任务难度分值和联盟等级门槛都值得记录。",
+      "images": [
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2022/10/IMG_1074.jpeg",
+          "caption": "Alliance Competition Event | Evony: The ...",
+          "source_url": "https://evonyguidewiki.com/en/alliance-competition-en/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+alliance+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony alliance competition",
+          "width": 168,
+          "height": 300,
+          "aspect_ratio": 0.56,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T05:58:34.731307+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:09.150900+00:00",
+            "load_time_ms": 1484,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1284,
+            "natural_height": 856,
+            "content_type": "image/jpeg",
+            "current_src": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2022/10/IMG_1074.jpeg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了联盟竞赛活动中的具体任务选择界面，包含任务分值和进行状态。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:16:47.743365+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/j3PyhczCNnw/maxresdefault.jpg",
+          "caption": "ignore alliance competition ...",
+          "source_url": "https://www.youtube.com/watch?v=j3PyhczCNnw",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+alliance+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony alliance competition",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:58:34.731307+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:09.503644+00:00",
+            "load_time_ms": 348,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/j3PyhczCNnw/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "视频封面图，虽包含活动名称和奖励列表，但属于宣传性质的拼接图而非纯玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:16:47.743365+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/VTYjfefFC8E/maxresdefault.jpg",
+          "caption": "alliance competition Increases rewards ...",
+          "source_url": "https://www.youtube.com/watch?v=VTYjfefFC8E",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+alliance+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony alliance competition",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:58:34.731307+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:09.850583+00:00",
+            "load_time_ms": 342,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/VTYjfefFC8E/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "带有大量水印和文字遮盖的视频封面，用于展示活动奖励，无实际游戏操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:16:47.743365+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/alliance-competition-v0-9nl172d15m8b1.png?width=1080&format=png&auto=webp&s=2d009bfbd39d34deb198af4d2162e5ac90d883e2",
+          "caption": "Alliance Competition : r/Evony_TKR",
+          "source_url": "https://www.reddit.com/r/Evony_TKR/comments/14kn797/alliance_competition/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+alliance+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony alliance competition",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T05:58:34.731307+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:12.575580+00:00",
+            "load_time_ms": 2716,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 2340,
+            "content_type": "image/png",
+            "current_src": "https://i.redd.it/alliance-competition-v0-9nl172d15m8b1.png?width=1080&format=png&auto=webp&s=2d009bfbd39d34deb198af4d2162e5ac90d883e2"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "展示的是美国独立日限时礼包购买界面，与‘联盟竞赛’活动主题不符，但属于该游戏。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:16:47.743365+00:00"
+          }
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2025/02/s-Screenshot_2025.02.14_15.13.12.544.jpg",
+          "caption": "Alliance Competition Event | Evony: The ...",
+          "source_url": "https://evonyguidewiki.com/en/alliance-competition-en/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+alliance+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony alliance competition",
+          "width": 168,
+          "height": 300,
+          "aspect_ratio": 0.56,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T05:58:34.731307+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:12.843978+00:00",
+            "load_time_ms": 260,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 540,
+            "natural_height": 960,
+            "content_type": "image/jpeg",
+            "current_src": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2025/02/s-Screenshot_2025.02.14_15.13.12.544.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了联盟竞赛活动内的君主积分奖励轨道（Monarch Scores Rewards）及领取界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:16:47.743365+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "battlefield_pvp",
+      "display_name": "Battlefield / 跨服战场",
+      "description": "联盟或玩家进入专门战场，与其他阵营争夺建筑、积分和排名，通常带有战场专属 buff、积分规则和时间窗口。",
+      "examples": [
+        "Battlefield: Clash of Civilizations",
+        "Battle of Constantinople",
+        "Battle of Gaugamela",
+        "Server War / SvS"
+      ],
+      "market_research_notes": "Evony 高价值 PvP 内容核心。重点看报名、匹配、复活/伤兵成本、积分来源和联盟组织压力。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/xtMRtu3fDFk/maxresdefault.jpg",
+          "caption": "Evony PvP Tips ...",
+          "source_url": "https://www.youtube.com/watch?v=xtMRtu3fDFk",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+battlefield+pvp",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony battlefield pvp",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:58:56.630366+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:13.243095+00:00",
+            "load_time_ms": 389,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/xtMRtu3fDFk/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "Youtube视频封面图，提及BOG（Battle of Gaugamela）属于跨服战场活动，非实际游戏截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:16:52.161351+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/BaIaejETuDA/maxresdefault.jpg",
+          "caption": "Semi-Finals Evony PvP ...",
+          "source_url": "https://www.youtube.com/watch?v=BaIaejETuDA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+battlefield+pvp",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony battlefield pvp",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:58:56.630366+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:13.632322+00:00",
+            "load_time_ms": 382,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/BaIaejETuDA/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "Youtube直播封面图，明确提及Battle of Chalons（跨服战场活动的一种），属于宣传性质。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:16:52.161351+00:00"
+          }
+        },
+        {
+          "url": "https://yaoqiguo.com/wp-content/uploads/2024/09/Evony-Civilization-Celebration-Event.jpg",
+          "caption": "Main Battlefields in Evony | Gmet",
+          "source_url": "https://yaoqiguo.com/tips/battlefield/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+battlefield+pvp",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony battlefield pvp",
+          "width": 265,
+          "height": 190,
+          "aspect_ratio": 1.3947,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:58:56.630366+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:15.329214+00:00",
+            "load_time_ms": 1690,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 810,
+            "natural_height": 540,
+            "content_type": "image/webp",
+            "current_src": "https://yaoqiguo.com/wp-content/uploads/2024/09/Evony-Civilization-Celebration-Event.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "游戏角色通用宣传图，虽然左上角有Evony Logo，但无具体活动界面或标题文字。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:16:52.161351+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/_WVEO_ihNIQ/maxresdefault.jpg",
+          "caption": "evony Live Stream ...",
+          "source_url": "https://www.youtube.com/watch?v=_WVEO_ihNIQ",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+battlefield+pvp",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony battlefield pvp",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:58:56.630366+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:15.689237+00:00",
+            "load_time_ms": 355,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/_WVEO_ihNIQ/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "明确带有All Star Battlefield活动标题的宣传海报，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:16:52.161351+00:00"
+          }
+        },
+        {
+          "url": "https://onechilledgamer.com/wp-content/uploads/2024/09/evony-boc-guide.png",
+          "caption": "Evony Battle of Constantinople (BoC ...",
+          "source_url": "https://onechilledgamer.com/evony-battle-of-constantinople-boc-guide/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+battlefield+pvp",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony battlefield pvp",
+          "width": 159,
+          "height": 317,
+          "aspect_ratio": 0.5016,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T05:58:56.630366+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:18.354899+00:00",
+            "load_time_ms": 2660,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 960,
+            "natural_height": 450,
+            "content_type": "image/png",
+            "current_src": "https://onechilledgamer.com/wp-content/uploads/2024/09/evony-boc-guide.png"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.7,
+            "reason": "类似游戏的加载图或场景插画，画面中没有UI和活动信息，难以确定与战场的直接关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:16:52.161351+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "map_pve_invasion",
+      "display_name": "地图 PvE 入侵活动",
+      "description": "世界地图刷新特殊怪物、城堡或目标，玩家个人或联盟击败、占领、集结以获得分数和奖励。",
+      "examples": [
+        "Arctic Barbarians Invasion",
+        "Treasure Hunt Event (Pyramid)",
+        "Quest for Treasure",
+        "Desert Bandits"
+      ],
+      "market_research_notes": "这类活动会放大侦察、行军、联盟协助和地图资源竞争。玩家社区常讨论刷新率和抢点问题。",
+      "images": [
+        {
+          "url": "https://onechilledgamer.com/wp-content/uploads/2021/03/evony-huns-guide.png",
+          "caption": "Evony Huns Invasion Guide (All the ...",
+          "source_url": "https://onechilledgamer.com/evony-huns-invasion-guide/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+map+pve+invasion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony map pve invasion",
+          "width": 168,
+          "height": 300,
+          "aspect_ratio": 0.56,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T05:59:23.256917+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:18.975843+00:00",
+            "load_time_ms": 616,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 700,
+            "natural_height": 400,
+            "content_type": "image/png",
+            "current_src": "https://onechilledgamer.com/wp-content/uploads/2021/03/evony-huns-guide.png"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "带有游戏Logo的通用品牌宣传原画，未体现具体PvE活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:16:57.247652+00:00"
+          }
+        },
+        {
+          "url": "https://static.wixstatic.com/media/d7d0c3_e8e518805d5e465fb2c1f116cc5e16ed~mv2.png/v1/fill/w_864,h_509,al_c,lg_1,q_90/d7d0c3_e8e518805d5e465fb2c1f116cc5e16ed~mv2.png",
+          "caption": "Evony Arctic Barbarians Invasion Guide",
+          "source_url": "https://www.server806.com/post/evony-arctic-barbarians-invasion-guide",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+map+pve+invasion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony map pve invasion",
+          "width": 293,
+          "height": 172,
+          "aspect_ratio": 1.7035,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:59:23.256917+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:20.087558+00:00",
+            "load_time_ms": 1106,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 864,
+            "natural_height": 509,
+            "content_type": "image/png",
+            "current_src": "https://static.wixstatic.com/media/d7d0c3_e8e518805d5e465fb2c1f116cc5e16ed~mv2.png/v1/fill/w_864,h_509,al_c,lg_1,q_90/d7d0c3_e8e518805d5e465fb2c1f116cc5e16ed~mv2.png"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了活动Arctic Barbarians Invasion在世界地图上的实际玩法建筑和目标怪物。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:16:57.247652+00:00"
+          }
+        },
+        {
+          "url": "https://onechilledgamer.com/wp-content/uploads/2024/09/evony-boc-guide.png",
+          "caption": "Evony Battle of Constantinople (BoC ...",
+          "source_url": "https://onechilledgamer.com/evony-battle-of-constantinople-boc-guide/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+map+pve+invasion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony map pve invasion",
+          "width": 159,
+          "height": 317,
+          "aspect_ratio": 0.5016,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T05:59:23.256917+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:18.354899+00:00",
+            "load_time_ms": 2660,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 960,
+            "natural_height": 450,
+            "content_type": "image/png",
+            "current_src": "https://onechilledgamer.com/wp-content/uploads/2024/09/evony-boc-guide.png"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "属于该游戏活动的概念宣传艺术图，无实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:16:57.247652+00:00"
+          }
+        },
+        {
+          "url": "https://i0.wp.com/onechilledgamer.com/wp-content/uploads/2024/09/evony-boc-map.png?resize=600,600&ssl=1",
+          "caption": "Evony Battle of Constantinople (BoC ...",
+          "source_url": "https://onechilledgamer.com/evony-battle-of-constantinople-boc-guide/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+map+pve+invasion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony map pve invasion",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T05:59:23.256917+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:20.272094+00:00",
+            "load_time_ms": 179,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 600,
+            "natural_height": 600,
+            "content_type": "image/webp",
+            "current_src": "https://i0.wp.com/onechilledgamer.com/wp-content/uploads/2024/09/evony-boc-map.png?resize=600,600&ssl=1"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "君士坦丁堡之战活动的示意图/攻略分布图，并非游戏内实际玩法截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:16:57.247652+00:00"
+          }
+        },
+        {
+          "url": "https://www.evonytkrguide.com/img/evony-tkr-guide-to-battle-of-constantinople-BoC.jpg",
+          "caption": "Evony Guide To Battle Of Constantinople ...",
+          "source_url": "https://www.evonytkrguide.com/guides/evony-tkr-guide-to-battle-of-constantinople-boc",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+map+pve+invasion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony map pve invasion",
+          "width": 321,
+          "height": 157,
+          "aspect_ratio": 2.0446,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:59:23.256917+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:22.243085+00:00",
+            "load_time_ms": 1965,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 609,
+            "content_type": "image/jpeg",
+            "current_src": "https://www.evonytkrguide.com/img/evony-tkr-guide-to-battle-of-constantinople-BoC.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了君士坦丁堡之战活动的赛季报名与状态界面，属于活动内功能截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:16:57.247652+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "dungeon_stage_event",
+      "display_name": "独立关卡 / Roguelite 战斗活动",
+      "description": "玩家进入独立活动场景，用武将、buff、runes、buildings 等组合推进多阶段战斗并争取高分。",
+      "examples": [
+        "Revelation of Maya",
+        "Revelation of Horus"
+      ],
+      "market_research_notes": "与常规城建/地图不同，这类活动更像独立副本。它能测试阵容、buff 选择和高分路线。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/MPJo47UoK7Y/maxresdefault.jpg",
+          "caption": "EVENT DUNGEON STAGE 30 TAKEOVER! NORMAL ...",
+          "source_url": "https://www.youtube.com/watch?v=MPJo47UoK7Y",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+dungeon+stage+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony dungeon stage event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:59:49.762701+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:22.895219+00:00",
+            "load_time_ms": 646,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/MPJo47UoK7Y/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.95,
+            "reason": "图片内容显示的是《Raid: Shadow Legends》的关卡界面，而非《Evony》。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:01.757913+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/KyMB2faiRjM/maxresdefault.jpg",
+          "caption": "Inferno (Archer , Cavs & Siege Layering ...",
+          "source_url": "https://www.youtube.com/watch?v=KyMB2faiRjM",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+dungeon+stage+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony dungeon stage event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:59:49.762701+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:23.315149+00:00",
+            "load_time_ms": 414,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/KyMB2faiRjM/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "展示了 Evony 活动 'Desolate Desert' 的关卡地图界面，符合独立关卡/Roguelite活动描述。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:01.757913+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/m6Mgu2KIxwk/maxresdefault.jpg",
+          "caption": "TEST SERVER! Raid Shadow Legends ...",
+          "source_url": "https://www.youtube.com/watch?v=m6Mgu2KIxwk",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+dungeon+stage+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony dungeon stage event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:59:49.762701+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:23.726052+00:00",
+            "load_time_ms": 404,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/m6Mgu2KIxwk/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.98,
+            "reason": "图片中的角色和艺术风格属于《Raid: Shadow Legends》，并非《Evony》。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:01.757913+00:00"
+          }
+        },
+        {
+          "url": "https://info.topgamesinc.com/wp-content/uploads/2024/10/Evony-Version-4.85.0-Position-Promotion-Optimization.jpg",
+          "caption": "Evony Version 4.85.0 Update & Position ...",
+          "source_url": "https://info.topgamesinc.com/evony-version-4-85-0-update-position-promotion-optimization/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+dungeon+stage+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony dungeon stage event",
+          "width": 275,
+          "height": 183,
+          "aspect_ratio": 1.5027,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:59:49.762701+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:26.476269+00:00",
+            "load_time_ms": 2745,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 810,
+            "natural_height": 540,
+            "content_type": "image/jpeg",
+            "current_src": "https://info.topgamesinc.com/wp-content/uploads/2024/10/Evony-Version-4.85.0-Position-Promotion-Optimization.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是《Evony》版本更新的通用品牌宣传图，未体现具体活动玩法。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:01.757913+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/KyMB2faiRjM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCey0xfQLDNUMwZla5xCeMWM6vCww",
+          "caption": "Season 17 All-Star Battlefield coming ...",
+          "source_url": "https://www.youtube.com/watch?v=KyMB2faiRjM",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+dungeon+stage+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony dungeon stage event",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T05:59:49.762701+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:26.805364+00:00",
+            "load_time_ms": 323,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/KyMB2faiRjM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCey0xfQLDNUMwZla5xCeMWM6vCww"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "包含 'Desolate Desert' 实际关卡路线图，属于活动内截图展现实际界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:01.757913+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "consuming_return",
+      "display_name": "Consuming Return / 消耗返利",
+      "description": "玩家在活动期内消耗资源、加速、宝石、精炼等项目，达到档位后获得返利和稀缺材料。",
+      "examples": [
+        "Consuming Return Event",
+        "resource consuming",
+        "speedup consuming",
+        "refine consuming"
+      ],
+      "market_research_notes": "这是 SLG 最典型的资源囤积和择时消耗机制，玩家会把建筑、训练、科研等大动作留到返利窗口。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/-DgQJ2pm1fc/maxresdefault.jpg",
+          "caption": "Evony Kings Return Complete Consuming ...",
+          "source_url": "https://www.youtube.com/watch?v=-DgQJ2pm1fc",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+consuming+return",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony consuming return",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:00:13.268017+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:27.159993+00:00",
+            "load_time_ms": 350,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/-DgQJ2pm1fc/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了Consuming Return Event的活动标题、入口图标及宣传插画，无具体玩法进度列表。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:07.715774+00:00"
+          }
+        },
+        {
+          "url": "https://onechilledgamer.com/wp-content/uploads/2022/06/evony-speedup-calculator.png",
+          "caption": "Evony Speedup Calculator (work out your ...",
+          "source_url": "https://onechilledgamer.com/evony-speedup-calculator/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+consuming+return",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony consuming return",
+          "width": 157,
+          "height": 321,
+          "aspect_ratio": 0.4891,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:00:13.268017+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:28.201492+00:00",
+            "load_time_ms": 1036,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 628,
+            "content_type": "image/png",
+            "current_src": "https://onechilledgamer.com/wp-content/uploads/2022/06/evony-speedup-calculator.png"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "包含Evony游戏Logo，但画面内容为外部工具计算器和图标，与特定活动界面无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:07.715774+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/C5gy3KS_Pww/maxresdefault.jpg",
+          "caption": "Evony Kings Return Speed Up consuming ...",
+          "source_url": "https://www.youtube.com/watch?v=C5gy3KS_Pww",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+consuming+return",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony consuming return",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:00:13.268017+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:28.559617+00:00",
+            "load_time_ms": 354,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/C5gy3KS_Pww/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "清晰展示了消耗返利活动的实际界面，包含资源消耗档位进度条、奖励列表及领取按钮。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:07.715774+00:00"
+          }
+        },
+        {
+          "url": "https://pbs.twimg.com/media/FWLVD6fVEAI2gii.jpg",
+          "caption": "Stamina 664 pcs Lv5 Materials 3072 pcs ...",
+          "source_url": "https://x.com/evonyguidewiki2/status/1541028289824731137",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+consuming+return",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony consuming return",
+          "width": 266,
+          "height": 189,
+          "aspect_ratio": 1.4074,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:00:13.268017+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:28.823373+00:00",
+            "load_time_ms": 259,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 855,
+            "content_type": "image/jpeg",
+            "current_src": "https://pbs.twimg.com/media/FWLVD6fVEAI2gii.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了资源消耗成本（Cost）与奖励领取的局部界面，属于活动内实际玩法截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:07.715774+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/what-did-they-do-to-the-consuming-rewards-event-v0-urax0bm6z08g1.jpeg?width=1260&format=pjpg&auto=webp&s=08650fd41f1eb714d9e97fd74a984fd989c6c204",
+          "caption": "Consuming Rewards Event ...",
+          "source_url": "https://www.reddit.com/r/Evony_TKR/comments/1poa22k/what_did_they_do_to_the_consuming_rewards_event/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+consuming+return",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony consuming return",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:00:13.268017+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:29.146539+00:00",
+            "load_time_ms": 318,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1260,
+            "natural_height": 2736,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/what-did-they-do-to-the-consuming-rewards-event-v0-urax0bm6z08g1.jpeg?width=1260&format=pjpg&auto=webp&s=08650fd41f1eb714d9e97fd74a984fd989c6c204"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "完整展示了Consuming Return Event界面，包含消耗陷阱加速计时的进度、奖励内容及Claim交互按钮。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:07.715774+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "collection_treasure",
+      "display_name": "Treasure / Civilization Collection 收集活动",
+      "description": "围绕文明宝物、艺术宝物、碎片、地图、宝箱或特殊道具进行收集和兑换。",
+      "examples": [
+        "Civilization Treasure",
+        "Art Treasure",
+        "Cleopatra's Treasure",
+        "Lucky Composing",
+        "Crazy Eggs"
+      ],
+      "market_research_notes": "承担长期养成材料和稀缺将领/宝物投放，常与充值、活跃和兑换商店挂钩。",
+      "images": [
+        {
+          "url": "https://info.topgamesinc.com/wp-content/uploads/2023/05/Evony-Dragon-Treasures-Event.jpg",
+          "caption": "Collect Dragon Treasures | Evony ...",
+          "source_url": "https://info.topgamesinc.com/come-to-join-evonys-new-event-to-collect-dragon-treasures/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+collection+treasure",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony collection treasure",
+          "width": 246,
+          "height": 205,
+          "aspect_ratio": 1.2,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:00:32.438927+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:29.659787+00:00",
+            "load_time_ms": 508,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1036,
+            "natural_height": 861,
+            "content_type": "image/jpeg",
+            "current_src": "https://info.topgamesinc.com/wp-content/uploads/2023/05/Evony-Dragon-Treasures-Event.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了巨龙宝藏活动的宣传海报及相关收集道具，无实际玩法操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:12.059682+00:00"
+          }
+        },
+        {
+          "url": "https://info.topgamesinc.com/wp-content/uploads/2023/07/Decoration-Collection-in-Evonys-Lost-Treasures-Event.jpg",
+          "caption": "Join Evony's Lost Treasures Event to ...",
+          "source_url": "https://info.topgamesinc.com/join-evonys-lost-treasures-event-to-get-new-decoration-collections/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+collection+treasure",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony collection treasure",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:00:32.438927+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:29.921499+00:00",
+            "load_time_ms": 256,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/jpeg",
+            "current_src": "https://info.topgamesinc.com/wp-content/uploads/2023/07/Decoration-Collection-in-Evonys-Lost-Treasures-Event.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "展示的是游戏内的建筑/城堡皮肤展示图，虽与活动奖励有关，但更倾向于通用美术素材展示。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:12.059682+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/hbj2XXdSIGc/maxresdefault.jpg",
+          "caption": "Collect Most From Events on Evony ...",
+          "source_url": "https://www.youtube.com/watch?v=hbj2XXdSIGc",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+collection+treasure",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony collection treasure",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:00:32.438927+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:30.298572+00:00",
+            "load_time_ms": 370,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/hbj2XXdSIGc/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "属于YouTube视频封面图，内容为游戏通用有价值道具介绍，非特定活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:12.059682+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/ppBWkD1K0R0/maxresdefault.jpg",
+          "caption": "Evony Quest for Treasure 2026 FULL ...",
+          "source_url": "https://www.youtube.com/watch?v=ppBWkD1K0R0",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+collection+treasure",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony collection treasure",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:00:32.438927+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:30.755042+00:00",
+            "load_time_ms": 452,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/ppBWkD1K0R0/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "明确对应'Quest for Treasure'活动及'King Solomon's Treasure'的攻略封面，属于宣传海报性质。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:12.059682+00:00"
+          }
+        },
+        {
+          "url": "https://onechilledgamer.com/wp-content/uploads/2023/07/evony-art-hall-guide.png",
+          "caption": "Evony Art Hall Guide - One Chilled Gamer",
+          "source_url": "https://onechilledgamer.com/evony-art-hall-guide/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+collection+treasure",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony collection treasure",
+          "width": 189,
+          "height": 266,
+          "aspect_ratio": 0.7105,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:00:32.438927+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:31.286237+00:00",
+            "load_time_ms": 526,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 960,
+            "natural_height": 450,
+            "content_type": "image/png",
+            "current_src": "https://onechilledgamer.com/wp-content/uploads/2023/07/evony-art-hall-guide.png"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "对应活动示例中的'Art Hall'宝物收集活动引导图，属于封面/海报类型。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:12.059682+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "knowledge_quiz",
+      "display_name": "Quiz / Trial 问答试炼",
+      "description": "玩家回答历史、游戏知识或系统问题，完成题目获得奖励。",
+      "examples": [
+        "Gladiator's Trial",
+        "quiz answers events"
+      ],
+      "market_research_notes": "低战力门槛活动，适合全员参与；玩家攻略站会集中整理答案，说明活动解法外溢到社区。",
+      "images": [
+        {
+          "url": "https://static.wixstatic.com/media/d07cd6_3bd49c57332445908e20b48094381d37~mv2.png/v1/fill/w_1600,h_900,al_c/d07cd6_3bd49c57332445908e20b48094381d37~mv2.png",
+          "caption": "Evony General Trivia Hecate",
+          "source_url": "https://www.empirebuildacademy.com/post/evony-general-trivia-hecate",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+knowledge+quiz",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony knowledge quiz",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:01:09.436108+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:31.571027+00:00",
+            "load_time_ms": 279,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 900,
+            "content_type": "image/png",
+            "current_src": "https://static.wixstatic.com/media/d07cd6_3bd49c57332445908e20b48094381d37~mv2.png/v1/fill/w_1600,h_900,al_c/d07cd6_3bd49c57332445908e20b48094381d37~mv2.png"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图片带有Evony Trivia字样及活动相关武将Hecate，属于活动的社区宣传或攻略封面图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:17.626789+00:00"
+          }
+        },
+        {
+          "url": "https://static.wixstatic.com/media/d07cd6_4da4ff9fcdad4a6e85238e3c33637319~mv2.jpg/v1/fill/w_1079,h_984,al_c,q_85/Screenshot_20250305_142344_Evony.jpg",
+          "caption": "Trivia Hecate in Evony",
+          "source_url": "https://www.empirebuildacademy.com/game-heroes-all-short/trivia-hecate-evony",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+knowledge+quiz",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony knowledge quiz",
+          "width": 268,
+          "height": 188,
+          "aspect_ratio": 1.4255,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:01:09.436108+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:31.625160+00:00",
+            "load_time_ms": 49,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1079,
+            "natural_height": 984,
+            "content_type": "image/jpeg",
+            "current_src": "https://static.wixstatic.com/media/d07cd6_4da4ff9fcdad4a6e85238e3c33637319~mv2.jpg/v1/fill/w_1079,h_984,al_c,q_85/Screenshot_20250305_142344_Evony.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "展示的是武将属性界面，虽然武将名为Trivia Hecate，但图片本身属于通用的武将养成系统界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:17.626789+00:00"
+          }
+        },
+        {
+          "url": "https://i0.wp.com/onechilledgamer.com/wp-content/uploads/2023/09/trivia-hecate.jpg?w=299&ssl=1",
+          "caption": "Trivia Hecate (Evony General Builds ...",
+          "source_url": "https://onechilledgamer.com/trivia-hecate/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+knowledge+quiz",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony knowledge quiz",
+          "width": 180,
+          "height": 279,
+          "aspect_ratio": 0.6452,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:01:09.436108+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:31.687391+00:00",
+            "load_time_ms": 55,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 299,
+            "natural_height": 463,
+            "content_type": "image/webp",
+            "current_src": "https://i0.wp.com/onechilledgamer.com/wp-content/uploads/2023/09/trivia-hecate.jpg?w=299&ssl=1"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "仅为武将的半身像/头像框图，属于游戏通用资源，非特定活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:17.626789+00:00"
+          }
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/11/IMG_6774_-1-700x467.jpeg",
+          "caption": "Quiz Answers List: Gladiator's Trial ...",
+          "source_url": "https://evonyguidewiki.com/en/quiz_answer_list-en/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+knowledge+quiz",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony knowledge quiz",
+          "width": 700,
+          "height": 467,
+          "aspect_ratio": 1.4989,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:01:09.436108+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:31.809964+00:00",
+            "load_time_ms": 118,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 700,
+            "natural_height": 467,
+            "content_type": "image/jpeg",
+            "current_src": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/11/IMG_6774_-1-700x467.jpeg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了具体的问答题目及选项（Q1），属于该活动实际玩法界面的截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:17.626789+00:00"
+          }
+        },
+        {
+          "url": "https://static.wixstatic.com/media/d07cd6_399972034a7648838bb7b26d9bcb1ed2~mv2.png/v1/fill/w_980,h_551,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/d07cd6_399972034a7648838bb7b26d9bcb1ed2~mv2.png",
+          "caption": "Evony General Trivia Hecate",
+          "source_url": "https://www.empirebuildacademy.com/post/evony-general-trivia-hecate",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+knowledge+quiz",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony knowledge quiz",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:01:09.436108+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:31.859789+00:00",
+            "load_time_ms": 43,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 980,
+            "natural_height": 551,
+            "content_type": "image/avif",
+            "current_src": "https://static.wixstatic.com/media/d07cd6_399972034a7648838bb7b26d9bcb1ed2~mv2.png/v1/fill/w_980,h_551,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/d07cd6_399972034a7648838bb7b26d9bcb1ed2~mv2.png"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "虽然风格与图1一致，但展示的是另一位武将Charles V，未体现问答活动相关信息，更偏向通用攻略封面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:17.626789+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "new_server_path",
+      "display_name": "新服/成长路径活动",
+      "description": "面向新服或成长阶段玩家，要求完成建筑、训练、战力、任务链等目标以获取将领、材料和加速。",
+      "examples": [
+        "King's Path",
+        "Dawn of Civilization",
+        "Monarch Sciences"
+      ],
+      "market_research_notes": "承担新服前期节奏和付费教育，适合单独追踪开服第 1-14 天活动矩阵。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/start-new-game-on-a-full-server-v0-pm1wwjdrgw3e1.jpeg?auto=webp&s=5b65d49199c2060cef83058a362a54807617ba36",
+          "caption": "Start new game on a full server : r ...",
+          "source_url": "https://www.reddit.com/r/Evony_TKR/comments/1h2uyck/start_new_game_on_a_full_server/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+new+server+path",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony new server path",
+          "width": 183,
+          "height": 275,
+          "aspect_ratio": 0.6655,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:01:40.131600+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:31.976903+00:00",
+            "load_time_ms": 110,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 1623,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/start-new-game-on-a-full-server-v0-pm1wwjdrgw3e1.jpeg?auto=webp&s=5b65d49199c2060cef83058a362a54807617ba36"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "这是游戏内的系统设置界面，显示‘开始新游戏’按钮，属于通用功能，而非特定活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:22.917019+00:00"
+          }
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2020/10/change-server-e1611732154518.jpg",
+          "caption": "How to change Server | Evony: The King ...",
+          "source_url": "https://evonyguidewiki.com/en/how-to-change-server-en/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+new+server+path",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony new server path",
+          "width": 271,
+          "height": 186,
+          "aspect_ratio": 1.457,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:01:40.131600+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:32.277001+00:00",
+            "load_time_ms": 294,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1063,
+            "natural_height": 710,
+            "content_type": "image/jpeg",
+            "current_src": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2020/10/change-server-e1611732154518.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是游戏大地图上的迁城/操作菜单，属于常规玩法界面，不涉及特定的新服成长路径活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:22.917019+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/64CZDzVt0KQ/maxresdefault.jpg",
+          "caption": "Evony 2026 Server Merge Guide 🔥 Full ...",
+          "source_url": "https://www.youtube.com/watch?v=64CZDzVt0KQ",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+new+server+path",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony new server path",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:01:40.131600+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:32.720936+00:00",
+            "load_time_ms": 438,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/64CZDzVt0KQ/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是关于合服（Server Merge）的外部宣传海报或视频缩略图，属于服务器层面的变动，不是新服成长路径活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:22.917019+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/server-merge-v0-axph946ur4rg1.png?auto=webp&s=6419a5c9f4a52f9ca4117d1bfef3cada7eb01810",
+          "caption": "Server merge : r/Evony_TKR",
+          "source_url": "https://www.reddit.com/r/Evony_TKR/comments/1s32gud/server_merge/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+new+server+path",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony new server path",
+          "width": 218,
+          "height": 231,
+          "aspect_ratio": 0.9437,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:01:40.131600+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:32.832116+00:00",
+            "load_time_ms": 107,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 1140,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/server-merge-v0-axph946ur4rg1.png?auto=webp&s=6419a5c9f4a52f9ca4117d1bfef3cada7eb01810"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.92,
+            "reason": "这是游戏内的系统公告，内容关于合服计划，不属于新服成长活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:22.917019+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/kings-path-v0-mig4w21nhb8f1.jpeg?auto=webp&s=25bd2fab51508c6bdb36e0c0c3b975a187000460",
+          "caption": "King's Path : r/Evony_TKR",
+          "source_url": "https://www.reddit.com/r/Evony_TKR/comments/1lh295p/kings_path/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=evony+new+server+path",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "evony new server path",
+          "width": 152,
+          "height": 330,
+          "aspect_ratio": 0.4606,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:01:40.131600+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:33.113129+00:00",
+            "load_time_ms": 277,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1284,
+            "natural_height": 2778,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/kings-path-v0-mig4w21nhb8f1.jpeg?auto=webp&s=25bd2fab51508c6bdb36e0c0c3b975a187000460"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图片展示了‘King's Path’活动的实际玩法界面，包含任务列表、奖励、进度条及天数切换，完全符合新服成长路径活动的描述。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:22.917019+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "Evony 活动极多且版本差异大，本轮优先覆盖常规循环和高频公开攻略活动；后续可按 PvE/PvP/消耗/充值/节日分别补奖励档位。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T06:01:40.131600+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:17:22.917019+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

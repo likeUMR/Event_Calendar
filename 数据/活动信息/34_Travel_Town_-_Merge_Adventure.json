@@ -1,0 +1,199 @@
+{
+  "rank": 34,
+  "name": "Travel Town - Merge Adventure",
+  "source_confidence": "high",
+  "source_notes": null,
+  "collected_at": "2026-05-12T04:01:51.547Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Travel Town Wiki - Events",
+      "source_type": "fandom",
+      "source_url": "https://travel-town.fandom.com/wiki/Events",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "source_title": "Travel Town Support",
+      "source_type": "official_support",
+      "source_url": "https://support.traveltowngame.com/hc/en-us",
+      "fetched_url": "https://support.traveltowngame.com/hc/en-us",
+      "status": 200,
+      "page_title": "Travel Town Game Help Center & Support",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Why didn't I get rewards for inviting a friend?",
+        "What is Dream Quest?",
+        "How can I save the Loyalty Club Badge to my home screen?",
+        "What is the Loyalty Club? 😎",
+        "We’d Love to Hear Your Feedback!",
+        "Stay Connected: Get All Your Travel Town Updates!",
+        "‎©2025 Moon Active Ltd. .",
+        "Privacy Policy | Terms & Conditions | All rights reserved."
+      ],
+      "inferred_event_types": [
+        "collection_album",
+        "pvp_war"
+      ],
+      "images": []
+    }
+  ],
+  "event_detail_pages": [
+    {
+      "source_title": "🏘️ What is Dream Quest?",
+      "source_type": "event_detail",
+      "source_url": "https://support.traveltowngame.com/hc/en/articles/34826180115858-What-is-Baz-s-Quest",
+      "fetched_url": "https://support.traveltowngame.com/hc/en-us/articles/34826180115858-What-is-Dream-Quest",
+      "status": 200,
+      "page_title": "What is Dream Quest? &ndash; Travel Town Game Help Center & Support",
+      "meta_description": "Have you noticed a mysterious island on your map? Dream Quest is a limited-time event where you explore a sprawling world map, clear...",
+      "relevant_text_blocks": [
+        "What is Dream Quest?",
+        "Have you noticed a mysterious island on your map? Dream Quest is a limited-time event where you explore a sprawling world map, clear paths, and uncover hidden treasures.",
+        "🛞 How It Works: Your Tropical Trek",
+        "👣 Step into the Quest: Hop into this fantastic journey by clicking on the Dream Quest badge right from your Main Screen. You can also jump in through the event pop-up to see the dazzling Grand Prize you are chasing! Simply tap the badge or the Go button to enter the map and start your journey.",
+        "💎 Discover Treasure Tiles: In certain spots on the map, you will find a grid of tiles hiding prizes and a golden Idol . To move to the next level of the quest, you must find that Idol!",
+        "⬆️ Advancing in the Adventure",
+        "🚩 Follow the Red Flags Vanquish obstacles for a chance to earn Flags. These fill up your progress bar at the top of the screen. When the bar is full, you collect a checkpoint prize and unlock the route toward the next part of the quest.",
+        "🎒 The Prize Bag & Your Rewards",
+        "Pack Your Prize Bag: Most of the amazing treasures you find, such as Gems, Energy, and Coins, go into your special prize bag for safe-keeping while you explore.",
+        "The Grand Reveal When you leave the quest or finish your journey, you will see a celebration summary showing everything you have earned. Tap collect, and every single prize in your bag will fly into your regular balance! ✨ 🎊",
+        "🙋‍♂️ Adventure FAQs",
+        "What happens when the event ends?",
+        "Dream Quest ends when the timer runs out or you finish all main paths. Do not worry! Any leftover Potions or Keys will magically turn into helpful resources like Energy. You will see a special compensation pop-up with all your goodies the next time you log in.",
+        "I left the quest; are my rewards safe?",
+        "Absolutely! Your rewards are tucked safely in your Prize Bag. Even if you do not see the pop-up immediately, your rewards are secure and will be added to your account.",
+        "Strap on your hiking boots and let the thrilling adventure begin! 🤩",
+        "34826180115858|What is Dream Quest?|/hc/en-us/articles/34826180115858-What-is-Dream-Quest"
+      ],
+      "inferred_event_types": [
+        "collection_album",
+        "merge_event",
+        "pvp_war"
+      ],
+      "images": []
+    },
+    {
+      "source_title": "🏘️ How can I boost my Energy and resources for Board Events?",
+      "source_type": "event_detail",
+      "source_url": "https://support.traveltowngame.com/hc/en/articles/31856079640338-How-can-I-boost-my-Energy-and-resources-for-Board-Events",
+      "fetched_url": "https://support.traveltowngame.com/hc/en-us/articles/31856079640338-How-can-I-boost-my-Energy-and-resources-for-Board-Events",
+      "status": 200,
+      "page_title": "How can I boost my Energy and resources for Board Events? &ndash; Travel Town Game Help Center & Support",
+      "meta_description": "Are you ready to dive into your next Event adventure? We know getting those special event resources is key to the fun, so we’re here to...",
+      "relevant_text_blocks": [
+        "How can I boost my Energy and resources for Board Events?",
+        "Are you ready to dive into your next Event adventure? We know getting those special event resources is key to the fun, so we’re here to tell you the best ways to collect them. 💪",
+        "Tapping on Producers means using Energy, and Energy is the crucial fuel needed to gather more event resources! Here are our favorite Travel Tips to keep your Energy bar full and your resource collection strong:",
+        "Pace Yourself: The Board Events are multiple days long, so you have time to progress. Remember, a little challenge is part of the fun design!",
+        "Grab Bonus Energy: ⚡️ Complete daily missions and event challenges, and always check out special offers or in-game bonuses. These are all fantastic places to collect the extra Energy you need to keep tapping!",
+        "Connect with your fellow explorers, share your event strategies, and look out for daily giveaways and contests where you can win Energy on our official social media pages📱:",
+        "Stay adventurous, and may your event boards always be full of fun! 🏝️☀️",
+        "31856079640338|How can I boost my Energy and resources for Board Events?|/hc/en-us/articles/31856079640338-How-can-I-boost-my-Energy-and-resources-for-Board-Events"
+      ],
+      "inferred_event_types": [
+        "collection_album",
+        "tournament_competition",
+        "merge_event",
+        "store_offer"
+      ],
+      "images": []
+    },
+    {
+      "title": "here",
+      "url": "https://support.traveltowngame.com/hc/requests/new?ticket_form_id=360003372040",
+      "discovered_from": "https://support.traveltowngame.com/hc/en-us",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "title": "Send Us a Message",
+      "url": "https://support.traveltowngame.com/hc/en/requests/new?ticket_form_id=360003372040",
+      "discovered_from": "https://support.traveltowngame.com/hc/en-us",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "title": "Events",
+      "url": "https://support.traveltowngame.com/hc/en-us/sections/21376503696530-Events",
+      "discovered_from": "https://support.traveltowngame.com/hc/en-us",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "source_title": "Rewards",
+      "source_type": "event_detail",
+      "source_url": "https://support.traveltowngame.com/hc/en-us/sections/4794396744978-Rewards",
+      "fetched_url": "https://support.traveltowngame.com/hc/en-us/sections/4794396744978-Rewards",
+      "status": 200,
+      "page_title": "Rewards &ndash; Travel Town Game Help Center & Support",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "What are Crates and Toolboxes Rewards?",
+        "What are Item Selection Rewards?",
+        "What happens to the rewards I get from an event?",
+        "Stay Connected: Get All Your Travel Town Updates!",
+        "What is the Item Box?",
+        "What is the Joker Card?",
+        "What is the Power Boost?",
+        "What is the Surprise Boost?",
+        "What is the Time Twist Booster?",
+        "‎©2025 Moon Active Ltd. ."
+      ],
+      "inferred_event_types": [
+        "collection_album",
+        "pvp_war"
+      ],
+      "images": []
+    }
+  ],
+  "event_catalog": [
+    {
+      "title": "What is Dream Quest? &ndash; Travel Town Game Help Center & Support",
+      "url": "https://support.traveltowngame.com/hc/en/articles/34826180115858-What-is-Baz-s-Quest",
+      "discovered_from": "https://support.traveltowngame.com/hc/en-us",
+      "description": "Have you noticed a mysterious island on your map? Dream Quest is a limited-time event where you explore a sprawling world map, clear...",
+      "inferred_event_types": [
+        "collection_album",
+        "merge_event",
+        "pvp_war"
+      ],
+      "images": []
+    },
+    {
+      "title": "How can I boost my Energy and resources for Board Events? &ndash; Travel Town Game Help Center & Support",
+      "url": "https://support.traveltowngame.com/hc/en/articles/31856079640338-How-can-I-boost-my-Energy-and-resources-for-Board-Events",
+      "discovered_from": "https://support.traveltowngame.com/hc/en-us",
+      "description": "Are you ready to dive into your next Event adventure? We know getting those special event resources is key to the fun, so we’re here to...",
+      "inferred_event_types": [
+        "collection_album",
+        "tournament_competition",
+        "merge_event",
+        "store_offer"
+      ],
+      "images": []
+    },
+    {
+      "title": "Rewards &ndash; Travel Town Game Help Center & Support",
+      "url": "https://support.traveltowngame.com/hc/en-us/sections/4794396744978-Rewards",
+      "discovered_from": "https://support.traveltowngame.com/hc/en-us",
+      "description": "What happens to the rewards I get from an event?",
+      "inferred_event_types": [
+        "collection_album",
+        "pvp_war"
+      ],
+      "images": []
+    }
+  ],
+  "inferred_event_type_summary": [
+    "collection_album",
+    "merge_event",
+    "pvp_war",
+    "store_offer",
+    "tournament_competition"
+  ],
+  "screenshots_or_images": [],
+  "collection_warnings": [
+    "Fetch failed: https://travel-town.fandom.com/wiki/Events"
+  ]
+}

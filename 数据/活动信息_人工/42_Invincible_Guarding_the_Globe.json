@@ -1,0 +1,1075 @@
+{
+  "rank": 42,
+  "name": "Invincible: Guarding the Globe",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 Ubisoft 官方新闻、Invincible/游戏 Fandom 页面和玩家社区资料。该游戏缺少完整活动 wiki，因此只记录可由官方或较可靠社区资料支撑的活动框架；未处理图片。",
+  "source_pages": [
+    {
+      "title": "Ubisoft News - Invincible: Guarding the Globe Gets Major Update",
+      "url": "https://news.ubisoft.com/en-us/article/76r00XL6ykb5dewZt3Hnf9/invincible-guarding-the-globe-gets-major-update",
+      "notes": "官方说明 Season 3 大更新：Cecil's Nightmares 新关卡、Medical Headband artifact、leaderboards、GDA Pass；Pass Tokens 来自 daily missions、GDA Ops 和 Alliances。"
+    },
+    {
+      "title": "Ubisoft News - Announcing Invincible: Guarding the Globe",
+      "url": "https://news.ubisoft.com/en-us/article/X4NgElvWXfQXc8kqU9PF0/announcing-invincible-guarding-the-globe",
+      "notes": "官方介绍游戏基础：收集角色、五人小队、多场战斗、solo/social battles、daily/weekly objectives、每季新增英雄。"
+    },
+    {
+      "title": "Invincible Wiki - Invincible: Guarding the Globe",
+      "url": "https://amazon-invincible.fandom.com/wiki/Invincible%3A_Guarding_the_Globe",
+      "notes": "IP Fandom 页面记录游戏基础、角色阵营、可玩角色，适合支撑角色收集和 faction 养成框架。"
+    },
+    {
+      "title": "Invincible: Guarding The Globe Wiki",
+      "url": "https://invinciblegtg.fandom.com/wiki/Invincible%3A_Guarding_The_Globe_Wiki",
+      "notes": "游戏专属 Fandom 目前内容较少，只能作为社区资料入口。"
+    },
+    {
+      "title": "Reddit - Invincible: Guarding the Globe Newbie Guide",
+      "url": "https://www.reddit.com/r/invinciblegtg/comments/1bzbiap/invincible_guarding_the_globe_newbie_guide/",
+      "notes": "玩家指南提到 events 会增加 additional ops，可与 standard ops 并行；作为弱信源补充 event ops 体验。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "gda_pass",
+      "display_name": "GDA Pass / 通行证",
+      "description": "玩家通过 daily missions、GDA Ops 和 Alliances 获得 Pass Tokens，用来推进 GDA Pass。官方说明包含 Hero Pass、Artifact Pass、Progression Pass 三种路径。",
+      "examples": [
+        "Hero Pass",
+        "Artifact Pass",
+        "Progression Pass"
+      ],
+      "market_research_notes": "这是明确的中长期活动层，把日常、派遣和联盟参与全部汇入战令进度，并按英雄、artifact、成长资源拆分付费/目标路径。",
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/G1hexGwXgAANplV.jpg",
+          "caption": "GDA Mines. Equip ...",
+          "source_url": "https://x.com/InvincibleGtG/status/1978445757901570048",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+gda+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe gda pass",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:48:04.064824+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了 Artifact Pass 字样，属于本活动（通行证下属分支）的宣传海报。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:28:59.407314+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/NEUhg0AjOMg/maxresdefault.jpg",
+          "caption": "GDA OPS GUIDE - Invincible: Guarding ...",
+          "source_url": "https://www.youtube.com/watch?v=NEUhg0AjOMg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+gda+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe gda pass",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:48:04.064824+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了 GDA Ops 的实际玩法界面，根据描述这是推进 GDA Pass 的关键玩法来源，属于活动关联玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:28:59.407314+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/gda-ops-priority-list-for-ranking-up-by-the-invincibles-v0-p09eepvrveuc1.jpeg?width=640&crop=smart&auto=webp&s=fd9813f3b2acf0549c48baad8e0266fb71d3cae3",
+          "caption": "GDA ops priority list (for ranking up ...",
+          "source_url": "https://www.reddit.com/r/invinciblegtg/comments/1c3pblj/gda_ops_priority_list_for_ranking_up_by_the/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+gda+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe gda pass",
+          "width": 204,
+          "height": 246,
+          "aspect_ratio": 0.8293,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:48:04.064824+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "这是玩家制作的 GDA Ops 优先级列表推荐，虽然与活动任务来源相关，但属于攻略长图性质而非实际游戏交互界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:28:59.407314+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/NEUhg0AjOMg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCtPPMxqFTyxoo2pvwpl6-nJNvGTg",
+          "caption": "Introducing the GDA Pass! Unlock a new ...",
+          "source_url": "https://www.youtube.com/watch?v=NEUhg0AjOMg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+gda+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe gda pass",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:48:04.064824+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "包含 GDA Ops 实际可操作的任务选择和领取奖励界面，是活动的直接进度来源界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:28:59.407314+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/t_fUJF4D2OCPMc3Uy9ZzdwBMSTEKTNLWgP4DlfMEGWBQPlKoUJn32y971UQunjHNsbs=w526-h296-rw",
+          "caption": "Invincible: Guarding the Globe - Apps ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ubisoft.invincible.guardians.globe.idle.superhero.rpg.battle.afk",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+gda+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe gda pass",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:48:04.064824+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "这是游戏的通用品牌宣传图或商店海报，画面中未体现 GDA Pass 相关的特定活动内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:28:59.407314+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "cecils_nightmares",
+      "display_name": "Cecil's Nightmares / 剧情关卡活动",
+      "description": "Season 3 大更新中加入的新关卡内容，灵感来自动画第三季的剧情转折。它更像剧情/挑战关卡活动，用 IP 热点拉动回流。",
+      "examples": [
+        "Cecil's Nightmares"
+      ],
+      "market_research_notes": "IP 联动运营的核心样本：随剧集播出更新关卡、角色和奖励，把外部内容热度转化为游戏内目标。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/FCkMwWjVI24/maxresdefault.jpg",
+          "caption": "GUIDE - Invincible: Guarding the Globe ...",
+          "source_url": "https://www.youtube.com/watch?v=FCkMwWjVI24",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+cecils+nightmares",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe cecils nightmares",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:48:30.409036+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图中出现了活动标题'TAKE DOWN NIGHTMARES'，并清晰展示了活动关卡进度的UI、分数以及实际战斗布局，属于玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:04.174237+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/-_EhZJehj3g/maxresdefault.jpg",
+          "caption": "Criminal Organizations ...",
+          "source_url": "https://www.youtube.com/watch?v=-_EhZJehj3g",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+cecils+nightmares",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe cecils nightmares",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:48:30.409036+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "图片展示了该游戏的标志和角色，但'Criminal Organization'是游戏内的常规副本/内容，虽然在搜索结果中，但无法判定与'Cecil's Nightmares'活动的直接关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:04.174237+00:00"
+          }
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HD3m7EfboAAnD_2.jpg",
+          "caption": "three episodes into tactical challenges ...",
+          "source_url": "https://x.com/InvincibleGtG/status/2035038815505522948",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+cecils+nightmares",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe cecils nightmares",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:48:30.409036+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图片明确标有'CECIL'S NIGHTMARES'标题，但其构图为典型的宣传海报样式，没有实际的玩法操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:04.174237+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Ba380LC3kww/maxresdefault.jpg",
+          "caption": "Nightmares Guide - Invincible: Guarding ...",
+          "source_url": "https://www.youtube.com/watch?v=Ba380LC3kww",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+cecils+nightmares",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe cecils nightmares",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:48:30.409036+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图片为针对该活动的攻略封面（Guide），虽然背景透出了关卡路径UI，但整体作为宣传/封面图性质更强。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:04.174237+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Ba380LC3kww/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBBtzHoAHgnHYCMiXTemKJ4wbS0ew",
+          "caption": "The final battle of the season against ...",
+          "source_url": "https://www.youtube.com/watch?v=Ba380LC3kww",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+cecils+nightmares",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe cecils nightmares",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:48:30.409036+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "此图与图4内容基本一致，属于活动攻略的视频封面图，非纯粹的玩法界面截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:04.174237+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "event_ops",
+      "display_name": "Event GDA Ops / 限时派遣行动",
+      "description": "GDA Ops 是重要的派遣/战斗任务系统。官方说明 GDA Pass token 可通过 GDA Ops 获得，社区指南也提到活动会增加额外 ops，与 standard ops 并行运行。",
+      "examples": [
+        "standard GDA Ops",
+        "event ops",
+        "special ops"
+      ],
+      "market_research_notes": "Idle RPG 常用的队伍占用型活动，重点看队伍深度、角色板凳、时间队列和活动货币产出。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/gda-ops-priority-list-for-ranking-up-by-the-invincibles-v0-p09eepvrveuc1.jpeg?auto=webp&s=7d170bc3be8d3051f2955ede43b4f15ac317ff58",
+          "caption": "GDA ops priority list (for ranking up ...",
+          "source_url": "https://www.reddit.com/r/invinciblegtg/comments/1c3pblj/gda_ops_priority_list_for_ranking_up_by_the/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+event+ops",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe event ops",
+          "width": 204,
+          "height": 247,
+          "aspect_ratio": 0.8259,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:48:56.032231+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图是社区制作的GDA Ops活动优先级指南，属于攻略宣传图性质，包含了活动名称和奖励项，但非实际游戏玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:08.809122+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/w6kW0R73CEA/maxresdefault.jpg",
+          "caption": "Hero Bootcamp + Best Event Op Team ...",
+          "source_url": "https://www.youtube.com/watch?v=w6kW0R73CEA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+event+ops",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe event ops",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:48:56.032231+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片为YouTube视频封面，虽然提到了Event Op，但主体为游戏角色和通用资源图标，无活动具体界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:08.809122+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/NEUhg0AjOMg/maxresdefault.jpg",
+          "caption": "GDA OPS GUIDE - Invincible: Guarding ...",
+          "source_url": "https://www.youtube.com/watch?v=NEUhg0AjOMg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+event+ops",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe event ops",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:48:56.032231+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图片中间部分清晰展示了游戏内GDA Ops的活动列表界面，包含任务名称、等级、状态（START/CLAIM）及奖励预览，属于实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:08.809122+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/updated-gda-ops-and-food-ops-team-comps-infographics-v0-r8xvycg72pkf1.jpg?width=640&crop=smart&auto=webp&s=17e149f6559f94e0e7e461df4c33b9145a29ee84",
+          "caption": "Updated GDA OPs and Food Ops Team Comps ...",
+          "source_url": "https://www.reddit.com/r/invinciblegtg/comments/1mxrmxa/updated_gda_ops_and_food_ops_team_comps/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+event+ops",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe event ops",
+          "width": 178,
+          "height": 283,
+          "aspect_ratio": 0.629,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:48:56.032231+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "该图为玩家整理的针对GDA Ops不同关卡的配队攻略长图，包含特定活动任务名称，但属于二次创作的攻略图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:08.809122+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/e7wjxan4v1pe1.png",
+          "caption": "GDA Ops & GDA Events Guide by @Kabraxis ...",
+          "source_url": "https://www.reddit.com/r/invinciblegtg/comments/1jckxt7/gda_ops_gda_events_guide_by_kabraxispinky_from/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+event+ops",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe event ops",
+          "width": 220,
+          "height": 230,
+          "aspect_ratio": 0.9565,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:48:56.032231+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "该图为社区制作的详尽GDA Ops与Event指南，通过UI拼贴和文字解析活动机制，非单一的原始游戏玩法截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:08.809122+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "daily_weekly_objectives",
+      "display_name": "Daily / Weekly Objectives / 日周任务",
+      "description": "官方预告中说明游戏会设置新的 daily and weekly objectives 来获取奖励，是轻量活跃和 pass 进度的基础来源。",
+      "examples": [
+        "daily objectives",
+        "weekly objectives",
+        "daily missions"
+      ],
+      "market_research_notes": "基础活跃循环，用于连接角色养成、资源发放和 GDA Pass token 产出。",
+      "images": [
+        {
+          "url": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4zfCur3CG6CZ7ciRj9lneD/4e14b40b58ee280b828e13a37b842391/Invincible_GuardingtheGlobe.png",
+          "caption": "Announcing Invincible: Guarding the Globe",
+          "source_url": "https://news.ubisoft.com/en-us/article/X4NgElvWXfQXc8kqU9PF0/announcing-invincible-guarding-the-globe",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+daily+weekly+objectives",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe daily weekly objectives",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:49:23.272219+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为游戏的通用品牌宣传图，包含游戏Logo和角色群像，无法关联到具体的日周任务活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:12.751363+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/3l_RkCtFMls/maxresdefault.jpg",
+          "caption": "Announcing Invincible: Guarding the Globe",
+          "source_url": "https://news.ubisoft.com/en-us/article/X4NgElvWXfQXc8kqU9PF0/announcing-invincible-guarding-the-globe",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+daily+weekly+objectives",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe daily weekly objectives",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:49:23.272219+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为游戏正式公开的宣传海报/预告片截图，属于通用品牌宣传，无活动相关界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:12.751363+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/EWg8XdtqQdkRt_mcVQDSHczqiMdULDI_IJfLyo_F-O8U3nmxifEy7NYMBxKf1gCb3cVxiYai-y5Vj9vA2SRX3P0",
+          "caption": "Invincible: Guarding the Globe – Apps ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ubisoft.invincible.guardians.globe.idle.superhero.rpg.battle.afk&hl=en_NZ",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+daily+weekly+objectives",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe daily weekly objectives",
+          "width": 166,
+          "height": 296,
+          "aspect_ratio": 0.5608,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:49:23.272219+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.98,
+            "reason": "该图为游戏的App图标或角色头像，属于通用品牌资产。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:12.751363+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/JbvgFU8pGW4/maxresdefault.jpg",
+          "caption": "Invincible Guarding The Globe \"Global ...",
+          "source_url": "https://www.youtube.com/watch?v=JbvgFU8pGW4",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+daily+weekly+objectives",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe daily weekly objectives",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:49:23.272219+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该图为带有社交媒体标题的通用宣传背景图，未展示具体的活动内容或任务界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:12.751363+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Gxh26g5lBoE/maxresdefault.jpg",
+          "caption": "Invincible Guarding The Globe Game ...",
+          "source_url": "https://www.youtube.com/watch?v=Gxh26g5lBoE",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+daily+weekly+objectives",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe daily weekly objectives",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:49:23.272219+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该图展示了游戏的战斗界面和角色介绍（Hero Dossier），属于通用玩法截图，未体现日周任务的具体逻辑或界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:12.751363+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "alliance_events",
+      "display_name": "Alliances / 社交联盟活动",
+      "description": "官方 GDA Pass 说明中把 participating in Alliances 列为 Pass Tokens 来源；早期官方介绍也提到 social battles 和帮助其他玩家抵御敌人波次。",
+      "examples": [
+        "Alliances",
+        "social battles",
+        "waves of enemies"
+      ],
+      "market_research_notes": "弱联盟但强留存的社交活动层，适合观察 idle RPG 如何通过联盟参与补足单机养成的社交压力。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/0Q1K-09wgtg/maxresdefault.jpg",
+          "caption": "NEW HERO BOOTCAMP EVENT! - Invincible ...",
+          "source_url": "https://www.youtube.com/watch?v=0Q1K-09wgtg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+alliance+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe alliance events",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:49:44.162739+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片展示的是游戏内的Hero Bootcamp活动，与请求的社交联盟活动(Alliances)无关，属于同游戏的其他活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:16.869044+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/wI9vsB0m2mQ/maxresdefault.jpg",
+          "caption": "Hero Event FULL GUIDE! - Invincible ...",
+          "source_url": "https://www.youtube.com/watch?v=wI9vsB0m2mQ",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+alliance+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe alliance events",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:49:44.162739+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片为新英雄宣传海报，虽然有游戏LOGO，但未体现社交联盟活动的相关内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:16.869044+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/kuWTnAUzNf8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCE9MCeQ5cAEPDlDIRkBucPW6OELg",
+          "caption": "Invincible: Guarding the Globe ...",
+          "source_url": "https://www.youtube.com/watch?v=kuWTnAUzNf8",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+alliance+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe alliance events",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:49:44.162739+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "图片展示的是角色的结算或抽取界面，属于游戏通用界面或特定角色活动，无法确认为社交联盟活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:16.869044+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/kuWTnAUzNf8/maxresdefault.jpg",
+          "caption": "Event! - Invincible: Guarding the Globe ...",
+          "source_url": "https://www.youtube.com/watch?v=kuWTnAUzNf8",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+alliance+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe alliance events",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:49:44.162739+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "图片与索引3相同，展示角色获取界面，与社交联盟活动无直接关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:16.869044+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/wI9vsB0m2mQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAvQ-3radtVTCq8DfA1ukOXE9K9Hw",
+          "caption": "redeem.invincible.ubisoft.barcelona ...",
+          "source_url": "https://www.youtube.com/watch?v=wI9vsB0m2mQ",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+alliance+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe alliance events",
+          "width": 168,
+          "height": 300,
+          "aspect_ratio": 0.56,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:49:44.162739+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片与索引2相同，为新英雄宣传图，未体现社交联盟玩法。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:16.869044+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "seasonal_hero_release",
+      "display_name": "Seasonal Hero Release / 赛季新英雄",
+      "description": "官方预告称每个 season 会引入一个新的 Invincible 宇宙英雄供玩家招募；Season 3 更新也预告两个新角色随剧集登场揭晓。",
+      "examples": [
+        "new seasonal hero",
+        "Season 3 character releases",
+        "Invincible universe heroes"
+      ],
+      "market_research_notes": "角色收集游戏的主要运营节奏：新角色、IP 内容节点、抽卡/招募资源和活动奖励共同驱动。",
+      "images": [
+        {
+          "url": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4zfCur3CG6CZ7ciRj9lneD/4e14b40b58ee280b828e13a37b842391/Invincible_GuardingtheGlobe.png",
+          "caption": "Announcing Invincible: Guarding the Globe",
+          "source_url": "https://news.ubisoft.com/en-us/article/X4NgElvWXfQXc8kqU9PF0/announcing-invincible-guarding-the-globe",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+seasonal+hero+release",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe seasonal hero release",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:50:16.045324+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "属于该游戏的通用品牌宣传图，展示了主要角色，但无法对应到具体的赛季英雄发布活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:21.261925+00:00"
+          }
+        },
+        {
+          "url": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5XZbCDJwp9LcUtFvrW3iZA/febb6f4db870e0b47f1a71551d714d0a/InvincibleGuardingTheGlobe_Launch.jpg",
+          "caption": "Invincible: Guarding the Globe Out Now ...",
+          "source_url": "https://news.ubisoft.com/en-us/article/65ANfmPqpuH1XUFnjFMFeA/invincible-guarding-the-globe-out-now-for-ios-and-android",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+seasonal+hero+release",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe seasonal hero release",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:50:16.045324+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为游戏的上线宣传海报，虽然包含多位英雄，但属于全家福式通用图，并非特定赛季活动图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:21.261925+00:00"
+          }
+        },
+        {
+          "url": "https://m.media-amazon.com/images/M/MV5BZWZhODUwZmQtYjc1Yy00ZDgzLTg0ZjAtNWZjMTg3ZWFiZmYyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+          "caption": "Invincible: Guarding the Globe (Video ...",
+          "source_url": "https://www.imdb.com/title/tt28997044/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+seasonal+hero+release",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe seasonal hero release",
+          "width": 194,
+          "height": 259,
+          "aspect_ratio": 0.749,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:50:16.045324+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "属于游戏的通用角色背景图或海报，与 image_index 1 类似，无特定活动关联证据。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:21.261925+00:00"
+          }
+        },
+        {
+          "url": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6F92DTr0fLcaoRQFkbY1uq/206e72a7d27eca5856aa81a9dabcfcd1/Blogpost7.jpg",
+          "caption": "Invincible: Guarding The Globe ...",
+          "source_url": "https://www.ubisoft.com/en-us/game/invincible-guarding-the-globe",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+seasonal+hero+release",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe seasonal hero release",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:50:16.045324+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展现对战概念的通用宣传KV，无特定赛季或新英雄发布相关的文字说明或界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:21.261925+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/39nkcmsaBrQ/maxresdefault.jpg",
+          "caption": "Ubisoft Announces Invincible: Guarding ...",
+          "source_url": "https://news.ubisoft.com/en-us/article/65ANfmPqpuH1XUFnjFMFeA/invincible-guarding-the-globe-out-now-for-ios-and-android",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+seasonal+hero+release",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe seasonal hero release",
+          "width": 301,
+          "height": 167,
+          "aspect_ratio": 1.8024,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:50:16.045324+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "这是游戏玩法的预告视频封面（Gameplay Trailer），展示的是游戏常驻玩法场景，并非针对特定赛季英雄发布的活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:21.261925+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "leaderboard_competition",
+      "display_name": "Leaderboards / 排行竞争",
+      "description": "Season 3 官方更新提到新增 leaderboards 等体验改进，说明游戏存在或强化了排名比较层。",
+      "examples": [
+        "new leaderboards"
+      ],
+      "market_research_notes": "Idle RPG 的排名层通常服务于活动冲榜、战力展示和中高付费玩家目标；该项需要后续补具体 leaderboard 规则。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/tier-list-time-invincible-guarding-the-globe-v0-huf6c13hj24f1.jpeg?width=968&format=pjpg&auto=webp&s=c1e4bf9cffc6d538ba2070c32db7012f4b07051d",
+          "caption": "Guarding The Globe Leaderboard | TikTok",
+          "source_url": "https://www.reddit.com/r/invinciblegtg/comments/1jfme9a/tier_list_time_invincible_guarding_the_globe/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+leaderboard+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe leaderboard competition",
+          "width": 194,
+          "height": 259,
+          "aspect_ratio": 0.749,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:51:07.883657+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该图为玩家自制的角色强度排行（Tier List），属于游戏通用攻略内容，与具体的排行榜竞技活动玩法界面无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:26.299575+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/rank-up-guide-updated-by-the-invincibles-v0-rlm5pxpx9tvc1.jpeg?auto=webp&s=a7715cf5321daa62beefc60b7b2bda371c490aa8",
+          "caption": "Rank Up Guide (updated) by The ...",
+          "source_url": "https://www.reddit.com/r/invinciblegtg/comments/1c9etzm/rank_up_guide_updated_by_the_invincibles/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+leaderboard+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe leaderboard competition",
+          "width": 266,
+          "height": 189,
+          "aspect_ratio": 1.4074,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:51:07.883657+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为角色升阶指南（Rank Up Guide），属于游戏基础养成系统的说明图，不涉及排行榜活动内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:26.299575+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/pvp-pve-tier-list-update-version-2-14-15-v0-j7w00luy1epg1.jpg?width=3727&format=pjpg&auto=webp&s=041287023739e3b855c8ef7e60a404ee3e789f0a",
+          "caption": "PVP & PVE Tier List update (Version 2 ...",
+          "source_url": "https://www.reddit.com/r/invinciblegtg/comments/1rv8j7c/pvp_pve_tier_list_update_version_21415/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+leaderboard+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe leaderboard competition",
+          "width": 229,
+          "height": 220,
+          "aspect_ratio": 1.0409,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:51:07.883657+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该图为PVP与PVE角色的强度排行图，属于社区攻略内容，并非活动实际界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:26.299575+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/new-tier-list-sorry-for-the-wait-v0-wthym849y2sc1.png?width=1080&crop=smart&auto=webp&s=15ec550aa5ec890e3efad706bd22c5bd465e68b8",
+          "caption": "New Tier List (sorry for the wait) : r ...",
+          "source_url": "https://www.reddit.com/r/invinciblegtg/comments/1bu0rla/new_tier_list_sorry_for_the_wait/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+leaderboard+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe leaderboard competition",
+          "width": 299,
+          "height": 169,
+          "aspect_ratio": 1.7692,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:51:07.883657+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该图为单位强度排行图（Unit Tier List），属于通用攻略，与排行榜竞技活动无直接关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:26.299575+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/ofNGBQUvDMU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBT5o1t3miSuiZIticRvvlUyYVQLw",
+          "caption": "The GDA's social platforms need a boost ...",
+          "source_url": "https://www.youtube.com/watch?v=ofNGBQUvDMU",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+leaderboard+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe leaderboard competition",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:51:07.883657+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "该图左侧清晰显示了游戏内的 Leaderboard（排行榜）界面，右侧显示了战斗数据统计（Battle Stats），属于排行榜竞技活动的实际玩法界面截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:26.299575+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "artifact_events",
+      "display_name": "Artifact Progression / Artifact 活动",
+      "description": "官方 Season 3 更新加入 Medical Headband artifact，并在 GDA Pass 中设置 Artifact Pass，奖励 crafting parts 用于制作或升级 artifacts。",
+      "examples": [
+        "Medical Headband",
+        "Artifact Pass",
+        "artifact crafting parts"
+      ],
+      "market_research_notes": "装备/神器线给战令提供资源分层，也给老玩家提供非角色抽取的成长目标。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/artifact-guide-updated-by-the-invincibles-v0-60l7o18ixnxc1.jpeg?width=1080&crop=smart&auto=webp&s=1ebaf61afb50ee1b9b754f220a0b6b74d7ed120c",
+          "caption": "Artifact Guide (updated) by The ...",
+          "source_url": "https://www.reddit.com/r/invinciblegtg/comments/1ch0gp4/artifact_guide_updated_by_the_invincibles/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+artifact+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe artifact events",
+          "width": 288,
+          "height": 175,
+          "aspect_ratio": 1.6457,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:51:32.786151+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图是针对游戏中神器(Artifact)系统的玩家攻略图，展示了多种神器及其属性，属于与活动相关的宣传/介绍类图片。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:30.653349+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/xocz2emr4dxd1.jpeg",
+          "caption": "Artifact Tier List (1.5.17 Update) by ...",
+          "source_url": "https://www.reddit.com/r/invinciblegtg/comments/1gdl4ax/artifact_tier_list_1517_update_by_the_invincibles/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+artifact+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe artifact events",
+          "width": 235,
+          "height": 215,
+          "aspect_ratio": 1.093,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:51:32.786151+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图是神器系统的强度排行榜(Tier List)，属于介绍性的攻略图，无实际玩法操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:30.653349+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/b_EVtKmB80c/maxresdefault.jpg",
+          "caption": "Invincible: Guarding the Globe ...",
+          "source_url": "https://www.youtube.com/watch?v=b_EVtKmB80c",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+artifact+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe artifact events",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:51:32.786151+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "该图包含了游戏内的实际玩法界面，展示了神器的背包管理界面、具体神器的详情及强化(Reinforce)按钮。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:30.653349+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/recommended-artifacts-guides-new-infographics-by-the-v0-u80ejyni6rhf1.jpg?width=2560&format=pjpg&auto=webp&s=a8c46f2e27bd2b2f8b4c9fcca7974fc1ea47b09a",
+          "caption": "Recommended Artifacts Guides - NEW ...",
+          "source_url": "https://www.reddit.com/r/invinciblegtg/comments/1mkrqzg/recommended_artifacts_guides_new_infographics_by/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+artifact+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe artifact events",
+          "width": 275,
+          "height": 183,
+          "aspect_ratio": 1.5027,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:51:32.786151+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图是神器推荐图解，属于介绍性质的攻略海报，虽涉及活动内容但无玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:30.653349+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/D3zaJ3wHma4/maxresdefault.jpg",
+          "caption": "Invincible Guarding The Globe FULL ...",
+          "source_url": "https://www.youtube.com/watch?v=D3zaJ3wHma4",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=invincible+guarding+the+globe+artifact+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "invincible guarding the globe artifact events",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:51:32.786151+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "该图为视频封面，主要由游戏通用宣传图和神器图标拼接而成，属于与活动相关的品牌/宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:30.653349+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "该游戏公开活动资料明显少于成熟 wiki 游戏。本轮只记录官方新闻与社区指南能支撑的活动框架；后续如果能进入游戏或获得公告归档，优先补 Event Ops 名称、GDA Pass 奖励档位、Cecil's Nightmares 关卡规则。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T07:51:32.786151+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:29:30.653349+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

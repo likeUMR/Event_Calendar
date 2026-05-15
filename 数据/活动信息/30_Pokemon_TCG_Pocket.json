@@ -1,0 +1,330 @@
+{
+  "rank": 30,
+  "name": "Pokémon TCG Pocket",
+  "source_confidence": "high",
+  "source_notes": null,
+  "collected_at": "2026-05-12T04:01:26.778Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Pokemon TCG Pocket Wiki - Game8 Events",
+      "source_type": "guide_wiki",
+      "source_url": "https://game8.co/games/Pokemon-TCG-Pocket/archives/481542",
+      "status": 404,
+      "error": "fetch_failed"
+    },
+    {
+      "source_title": "Pokemon TCG Pocket Database",
+      "source_type": "database",
+      "source_url": "https://pocket.limitlesstcg.com/",
+      "fetched_url": "https://pocket.limitlesstcg.com/",
+      "status": 200,
+      "page_title": "Pokémon TCG Pocket Card Database",
+      "meta_description": "A fast and comprehensive Pokémon TCG Pocket card database.",
+      "relevant_text_blocks": [
+        "Pokémon TCG Pocket Card Database All Sets Advanced Search Deck Builder Tournament Decks Limitless TCG About"
+      ],
+      "inferred_event_types": [
+        "collection_album",
+        "tournament_competition"
+      ],
+      "images": [
+        {
+          "url": "https://pocket.limitlesstcg.com/images/mew.png",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://pocket.limitlesstcg.com/images/limitless.png",
+          "alt": "Limitless Logo",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B1a/B1a_077_EN_SM.webp",
+          "alt": "Mega Charizard Y ex",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B2/B2_191_EN_SM.webp",
+          "alt": "Sightseer",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1/A1_227_EN_SM.webp",
+          "alt": "Bulbasaur",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B2/B2_203_EN_SM.webp",
+          "alt": "Mega Gardevoir ex",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_090_EN_SM.webp",
+          "alt": "Red",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "event_detail_pages": [
+    {
+      "source_title": "Tournament Decks",
+      "source_type": "event_detail",
+      "source_url": "https://play.limitlesstcg.com/decks?game=pocket",
+      "fetched_url": "https://play.limitlesstcg.com/decks?game=pocket",
+      "status": 200,
+      "page_title": "Decks - Pokémon TCG Pocket | Limitless",
+      "meta_description": "Metagame usage and win rates, top decklists, and matchup statistics.",
+      "relevant_text_blocks": [
+        "73 tournaments, 8973 players, 24447 matches",
+        "Gholdengo ex Probopass",
+        "Mega Lucario ex Passimian ex",
+        "Tyrantrum Passimian ex",
+        "Passimian ex Mega Lucario ex",
+        "Home Docs Pokémon Database",
+        "Hydreigon Mega Absol ex",
+        "Mega Blaziken ex Castform Sunny Form",
+        "Mega Lucario ex Igglybuff",
+        "Zoroark ex Mega Absol ex"
+      ],
+      "inferred_event_types": [
+        "battle_pass",
+        "tournament_competition",
+        "pve_boss"
+      ],
+      "images": [
+        {
+          "url": "https://limitless3.nyc3.cdn.digitaloceanspaces.com/limitless/social-preview.png",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://limitless3.nyc3.cdn.digitaloceanspaces.com/nav/web.png",
+          "alt": "Limitless TCG - Pokémon",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://limitless3.nyc3.cdn.digitaloceanspaces.com/nav/opdb.png",
+          "alt": "Limitless TCG - One Piece",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://limitless3.nyc3.cdn.digitaloceanspaces.com/nav/dm.png",
+          "alt": "Limitless Deck Builder",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://limitless3.nyc3.cdn.digitaloceanspaces.com/nav/labs.png",
+          "alt": "Limitless Labs",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://limitless3.nyc3.cdn.digitaloceanspaces.com/nav/pocket.png",
+          "alt": "Limitless Pocket Database",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://limitless3.nyc3.cdn.digitaloceanspaces.com/nav/vgc.png",
+          "alt": "Limitless VGC",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://limitless3.nyc3.cdn.digitaloceanspaces.com/web/patreon.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://r2.limitlesstcg.net/pokemon/gen9/hydreigon.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://r2.limitlesstcg.net/pokemon/gen9/absol-mega.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://r2.limitlesstcg.net/pokemon/gen9/blaziken-mega.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://r2.limitlesstcg.net/pokemon/gen9/castform-sunny.png",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "event_catalog": [
+    {
+      "title": "Decks - Pokémon TCG Pocket | Limitless",
+      "url": "https://play.limitlesstcg.com/decks?game=pocket",
+      "discovered_from": "https://pocket.limitlesstcg.com/",
+      "description": "Metagame usage and win rates, top decklists, and matchup statistics.",
+      "inferred_event_types": [
+        "battle_pass",
+        "tournament_competition",
+        "pve_boss"
+      ],
+      "images": [
+        {
+          "url": "https://limitless3.nyc3.cdn.digitaloceanspaces.com/limitless/social-preview.png",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://limitless3.nyc3.cdn.digitaloceanspaces.com/nav/web.png",
+          "alt": "Limitless TCG - Pokémon",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://limitless3.nyc3.cdn.digitaloceanspaces.com/nav/opdb.png",
+          "alt": "Limitless TCG - One Piece",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://limitless3.nyc3.cdn.digitaloceanspaces.com/nav/dm.png",
+          "alt": "Limitless Deck Builder",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://limitless3.nyc3.cdn.digitaloceanspaces.com/nav/labs.png",
+          "alt": "Limitless Labs",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://limitless3.nyc3.cdn.digitaloceanspaces.com/nav/pocket.png",
+          "alt": "Limitless Pocket Database",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "inferred_event_type_summary": [
+    "battle_pass",
+    "collection_album",
+    "pve_boss",
+    "tournament_competition"
+  ],
+  "screenshots_or_images": [
+    {
+      "url": "https://pocket.limitlesstcg.com/images/mew.png",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://pocket.limitlesstcg.com/"
+    },
+    {
+      "url": "https://pocket.limitlesstcg.com/images/limitless.png",
+      "alt": "Limitless Logo",
+      "kind": "page_image",
+      "source_url": "https://pocket.limitlesstcg.com/"
+    },
+    {
+      "url": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B1a/B1a_077_EN_SM.webp",
+      "alt": "Mega Charizard Y ex",
+      "kind": "page_image",
+      "source_url": "https://pocket.limitlesstcg.com/"
+    },
+    {
+      "url": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B2/B2_191_EN_SM.webp",
+      "alt": "Sightseer",
+      "kind": "page_image",
+      "source_url": "https://pocket.limitlesstcg.com/"
+    },
+    {
+      "url": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1/A1_227_EN_SM.webp",
+      "alt": "Bulbasaur",
+      "kind": "page_image",
+      "source_url": "https://pocket.limitlesstcg.com/"
+    },
+    {
+      "url": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B2/B2_203_EN_SM.webp",
+      "alt": "Mega Gardevoir ex",
+      "kind": "page_image",
+      "source_url": "https://pocket.limitlesstcg.com/"
+    },
+    {
+      "url": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A2b/A2b_090_EN_SM.webp",
+      "alt": "Red",
+      "kind": "page_image",
+      "source_url": "https://pocket.limitlesstcg.com/"
+    },
+    {
+      "url": "https://limitless3.nyc3.cdn.digitaloceanspaces.com/limitless/social-preview.png",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://play.limitlesstcg.com/decks?game=pocket"
+    },
+    {
+      "url": "https://limitless3.nyc3.cdn.digitaloceanspaces.com/nav/web.png",
+      "alt": "Limitless TCG - Pokémon",
+      "kind": "page_image",
+      "source_url": "https://play.limitlesstcg.com/decks?game=pocket"
+    },
+    {
+      "url": "https://limitless3.nyc3.cdn.digitaloceanspaces.com/nav/opdb.png",
+      "alt": "Limitless TCG - One Piece",
+      "kind": "page_image",
+      "source_url": "https://play.limitlesstcg.com/decks?game=pocket"
+    },
+    {
+      "url": "https://limitless3.nyc3.cdn.digitaloceanspaces.com/nav/dm.png",
+      "alt": "Limitless Deck Builder",
+      "kind": "page_image",
+      "source_url": "https://play.limitlesstcg.com/decks?game=pocket"
+    },
+    {
+      "url": "https://limitless3.nyc3.cdn.digitaloceanspaces.com/nav/labs.png",
+      "alt": "Limitless Labs",
+      "kind": "page_image",
+      "source_url": "https://play.limitlesstcg.com/decks?game=pocket"
+    },
+    {
+      "url": "https://limitless3.nyc3.cdn.digitaloceanspaces.com/nav/pocket.png",
+      "alt": "Limitless Pocket Database",
+      "kind": "page_image",
+      "source_url": "https://play.limitlesstcg.com/decks?game=pocket"
+    },
+    {
+      "url": "https://limitless3.nyc3.cdn.digitaloceanspaces.com/nav/vgc.png",
+      "alt": "Limitless VGC",
+      "kind": "page_image",
+      "source_url": "https://play.limitlesstcg.com/decks?game=pocket"
+    },
+    {
+      "url": "https://limitless3.nyc3.cdn.digitaloceanspaces.com/web/patreon.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://play.limitlesstcg.com/decks?game=pocket"
+    },
+    {
+      "url": "https://r2.limitlesstcg.net/pokemon/gen9/hydreigon.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://play.limitlesstcg.com/decks?game=pocket"
+    },
+    {
+      "url": "https://r2.limitlesstcg.net/pokemon/gen9/absol-mega.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://play.limitlesstcg.com/decks?game=pocket"
+    },
+    {
+      "url": "https://r2.limitlesstcg.net/pokemon/gen9/blaziken-mega.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://play.limitlesstcg.com/decks?game=pocket"
+    },
+    {
+      "url": "https://r2.limitlesstcg.net/pokemon/gen9/castform-sunny.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://play.limitlesstcg.com/decks?game=pocket"
+    }
+  ],
+  "collection_warnings": [
+    "Fetch failed: https://game8.co/games/Pokemon-TCG-Pocket/archives/481542"
+  ]
+}

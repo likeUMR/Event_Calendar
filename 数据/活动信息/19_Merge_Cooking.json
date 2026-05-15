@@ -1,0 +1,32 @@
+{
+  "rank": 19,
+  "name": "Merge Cooking®",
+  "source_confidence": "high",
+  "source_notes": null,
+  "collected_at": "2026-05-12T04:00:26.989Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Merge Cooking Wiki",
+      "source_type": "fandom",
+      "source_url": "https://merge-cooking-theme-restaurant.fandom.com/wiki/Merge_Cooking:_Theme_Restaurant_Wiki",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "source_title": "Merge Cooking Wiki - Battle of World Chefs Event",
+      "source_type": "fandom",
+      "source_url": "https://merge-cooking-theme-restaurant.fandom.com/wiki/Battle_of_World_Chefs_Event",
+      "status": 403,
+      "error": "fetch_failed"
+    }
+  ],
+  "event_detail_pages": [],
+  "event_catalog": [],
+  "inferred_event_type_summary": [],
+  "screenshots_or_images": [],
+  "collection_warnings": [
+    "Fetch failed: https://merge-cooking-theme-restaurant.fandom.com/wiki/Merge_Cooking:_Theme_Restaurant_Wiki",
+    "Fetch failed: https://merge-cooking-theme-restaurant.fandom.com/wiki/Battle_of_World_Chefs_Event"
+  ]
+}

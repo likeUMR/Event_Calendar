@@ -1,0 +1,1778 @@
+{
+  "rank": 33,
+  "name": "Call of Duty®: Mobile",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 Call of Duty 官方 COD Mobile 赛季公告、官方 Clan Wars 公告、Fandom/攻略站对 Tournament / Ranked / Lucky Draw 等系统的说明。按 CODM 的长期运营框架归纳，而不是抓单个赛季新闻。",
+  "source_pages": [
+    {
+      "title": "Call of Duty Blog - COD Mobile Season 8: Twilight Heist",
+      "url": "https://www.callofduty.com/blog/2025/08/call-of-duty-mobile-season-8-twilight-heist",
+      "notes": "官方赛季公告，提到 Ranked Festival、Challenge Pass、Battle Pass、Clan Leaderboard Event、in-game events、Operator Skin 和 Weapon Blueprints。"
+    },
+    {
+      "title": "Call of Duty Blog - COD Mobile Season 2: Lunar Charge",
+      "url": "https://www.callofduty.com/blog/2026/02/call-of-duty-mobile-season-2-lunar-charge",
+      "notes": "官方赛季公告，提到 New Seasonal Events、Challenge Pass、Ranked Play 新赛季、Five Gods of Wealth Event & Lucky Draw。"
+    },
+    {
+      "title": "Call of Duty Blog - Introducing Clan Wars in COD Mobile",
+      "url": "https://www.callofduty.com/blog/2021/06/Call-of-Duty-Mobile-Clan-Wars",
+      "notes": "官方解释 Clan Wars：每周 tournament 是更长 League Season 的一部分，围绕 nodes、任务、clan currency、leaderboard 和 seasonal prizes。"
+    },
+    {
+      "title": "Call of Duty Wiki - Call of Duty: Mobile",
+      "url": "https://callofduty.fandom.com/wiki/Call_of_Duty%3A_Mobile",
+      "notes": "Fandom 总览说明 CODM 有 Battle Pass seasons、Ranked Series、Tournament mode、限时活动和活动奖励。"
+    },
+    {
+      "title": "GameSpot - COD Mobile Clan Wars Guide",
+      "url": "https://www.gamespot.com/articles/call-of-duty-mobile-clan-wars-guide/1100-6497327/",
+      "notes": "补充 Clan Wars 每周 6 日、challenge nodes、weekly rewards、seasonal rewards 和 Battle Pass 20% bonus 等机制。"
+    },
+    {
+      "title": "MobileMatters - COD Mobile BR Bash Event",
+      "url": "https://mobilematters.gg/cod-mobile/cod-mobile-br-bash-event-start-end-date-rewards-more",
+      "notes": "示例 seasonal challenge，说明 BR Bash 这类活动通过指定 Battle Royale 行为完成任务并发放 ranked shield card、Battle Pass XP 等。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "monthly_season",
+      "display_name": "Monthly Seasons / 赛季内容更新",
+      "description": "CODM 以月度赛季为主运营单位，每季通常带来新 Battle Pass、新 MP/BR/DMZ 内容、新武器或技能、新活动、限时模式、商店和抽奖内容。",
+      "examples": [
+        "Season 8: Twilight Heist",
+        "Season 2: Lunar Charge",
+        "Season 4: Eternal Prison",
+        "Anniversary seasons"
+      ],
+      "market_research_notes": "赛季是所有活动的容器，CODM 的内容、商业化和竞技节奏都围绕它重置。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/tXDg8QkxhFo/hqdefault.jpg",
+          "caption": "LOGIN CALENDAR OVERVIEW IN COD MOBILE ...",
+          "source_url": "https://www.youtube.com/watch?v=tXDg8QkxhFo",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+monthly+season",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile monthly season",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:59:31.590235+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:58.220968+00:00",
+            "load_time_ms": 323,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 480,
+            "natural_height": 360,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/tXDg8QkxhFo/hqdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了月度签到日历（Monthly Login Calendar），属于赛季内容的一部分，且包含实际奖励领取和进度界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:22.500704+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/5eoiecU-EmY/maxresdefault.jpg",
+          "caption": "Mobile Season 3 ...",
+          "source_url": "https://www.callofduty.com/blog/2026/03/call-of-duty-mobile-season-3-2026-paranoia",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+monthly+season",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile monthly season",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:59:31.590235+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:58.696575+00:00",
+            "load_time_ms": 469,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/5eoiecU-EmY/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "这是第3赛季的宣传海报/缩略图，属于典型的活动宣传海报，无实际玩法操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:22.500704+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/MJlguJU2kpQ/maxresdefault.jpg",
+          "caption": "COD Mobile: Monthly & Weekly Supply ...",
+          "source_url": "https://www.youtube.com/watch?v=MJlguJU2kpQ",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+monthly+season",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile monthly season",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:59:31.590235+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:59.143185+00:00",
+            "load_time_ms": 440,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/MJlguJU2kpQ/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "展示的是游戏内的付费订阅包（Supply Pass）对比，虽然和赛季运营有关，但更偏向通用商店界面，而非特定赛季活动玩法。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:22.500704+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/4ifIaBft3a0/maxresdefault.jpg",
+          "caption": "Introducing Call of Duty: Mobile Season ...",
+          "source_url": "https://www.youtube.com/watch?v=4ifIaBft3a0",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+monthly+season",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile monthly season",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:59:31.590235+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:59.861243+00:00",
+            "load_time_ms": 713,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/4ifIaBft3a0/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了月度签到日历的实际操作界面，包含天数预览、奖励图标及领取按钮，属于典型的活动玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:22.500704+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "battle_pass",
+      "display_name": "Battle Pass / 赛季通行证",
+      "description": "每季开放免费和 Premium Battle Pass 奖励轨，玩家通过游玩和任务获得 Battle Pass XP，解锁 Operator Skins、Weapon Blueprints、新武器、道具和货币等奖励。",
+      "examples": [
+        "Season 8 Battle Pass",
+        "Season 2 Battle Pass",
+        "Premium Pass",
+        "Battle Pass Vault"
+      ],
+      "market_research_notes": "核心付费留存系统，武器/角色外观和新功能常放入 pass 节点，带动整季活跃。",
+      "images": [
+        {
+          "url": "https://substackcdn.com/image/fetch/$s_!-gtF!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef0570c1-a94c-4c12-b0ce-c6621f30d25e_937x536.jpeg",
+          "caption": "Battle Pass",
+          "source_url": "https://www.gamemakers.com/p/all-about-call-of-duty-mobiles-battle",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+battle+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile battle pass",
+          "width": 937,
+          "height": 536,
+          "aspect_ratio": 1.7481,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:59:58.179874+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:01.348157+00:00",
+            "load_time_ms": 1480,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 937,
+            "natural_height": 536,
+            "content_type": "image/jpeg",
+            "current_src": "https://substackcdn.com/image/fetch/$s_!-gtF!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef0570c1-a94c-4c12-b0ce-c6621f30d25e_937x536.jpeg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图是使命召唤手游周年庆赛季通行证的奖励预览海报，属于宣传图性质。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:27.334065+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/4twvtFSjeWc/maxresdefault.jpg",
+          "caption": "Season 2 Takes Call of Duty®: Mobile By ...",
+          "source_url": "https://www.callofduty.com/blog/2021/03/Season-2-Call-of-Duty-Mobile-Day-of-Reckoning",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+battle+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile battle pass",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:59:58.179874+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:01.812603+00:00",
+            "load_time_ms": 459,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/4twvtFSjeWc/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图展示了第2赛季通行证的所有主要奖励内容，是典型的版本活动总结宣传海报。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:27.334065+00:00"
+          }
+        },
+        {
+          "url": "https://static.toiimg.com/thumb/msid-71537131,width-1070,height-580,imgsize-1654935,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+          "caption": "Call of Duty Mobile Battle Pass ...",
+          "source_url": "https://timesofindia.indiatimes.com/gadgets-news/call-of-duty-mobile-battle-pass-pricing-benefits-and-more/articleshow/71537037.cms",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+battle+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile battle pass",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:59:58.179874+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:05.355125+00:00",
+            "load_time_ms": 3536,
+            "long_load": true,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1068,
+            "natural_height": 580,
+            "content_type": "image/avif",
+            "current_src": "https://static.toiimg.com/thumb/msid-71537131,width-1070,height-580,imgsize-1654935,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "该图展示了游戏中选购通行证的实际UI界面，包含价格点击按钮（CP 800/2000）和奖励预览网格。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:27.334065+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/3gwccG2MYY4/maxresdefault.jpg",
+          "caption": "Infinity Realm | Battle Pass Trailer ...",
+          "source_url": "https://www.youtube.com/watch?v=3gwccG2MYY4",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+battle+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile battle pass",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:59:58.179874+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:05.810525+00:00",
+            "load_time_ms": 449,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/3gwccG2MYY4/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图是第4赛季‘Infinity Realm’通行证的官方宣传海报，展示了该通行证包含的角色和武器。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:27.334065+00:00"
+          }
+        },
+        {
+          "url": "https://static.toiimg.com/thumb/msid-71537131,width-1280,height-720,resizemode-4/71537131.jpg",
+          "caption": "Graveyard Shift | Battle Pass Trailer ...",
+          "source_url": "https://timesofindia.indiatimes.com/gadgets-news/call-of-duty-mobile-battle-pass-pricing-benefits-and-more/articleshow/71537037.cms",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+battle+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile battle pass",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:59:58.179874+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:05.900490+00:00",
+            "load_time_ms": 85,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/avif",
+            "current_src": "https://static.toiimg.com/thumb/msid-71537131,width-1280,height-720,resizemode-4/71537131.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "与图3相同，是游戏内通行证购买/解锁等级的实际操作界面截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:27.334065+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "challenge_pass_and_seasonal_events",
+      "display_name": "Challenge Pass / Seasonal Events / 赛季挑战",
+      "description": "官方近年赛季公告反复提到 Challenge Pass 与 New Seasonal Events。玩家完成指定 MP、BR、DMZ、击杀、胜场或模式任务，换取武器蓝图、角色皮肤、Battle Pass XP、shield cards 等。",
+      "examples": [
+        "Season 8 Challenge Pass",
+        "Season 2 Challenge Pass",
+        "BR Bash",
+        "Target Acquired",
+        "Chromatic Feast Themed Event"
+      ],
+      "market_research_notes": "这是 CODM 的任务活动层，负责把玩家导向本季重点模式、新地图或新武器。",
+      "images": [
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/codm/s1-2026/CODM-S1ANNOUNCE-TOUT.jpg",
+          "caption": "Introducing Call of Duty: Mobile Season ...",
+          "source_url": "https://www.callofduty.com/blog/2026/01/call-of-duty-mobile-season-1-2026-frozen-abyss-battle-pass-events",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+challenge+pass+and+seasonal+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile challenge pass and seasonal events",
+          "width": 301,
+          "height": 167,
+          "aspect_ratio": 1.8024,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:00:36.730811+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:08.211698+00:00",
+            "load_time_ms": 2284,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1069,
+            "content_type": "image/jpeg",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/codm/s1-2026/CODM-S1ANNOUNCE-TOUT.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "属于该游戏的赛季通用背景宣传图，未体现具体任务或活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:31.079764+00:00"
+          }
+        },
+        {
+          "url": "https://www.esports.net/wp-content/uploads/2024/08/COD-Mobile-Challenge-Pass.jpg",
+          "caption": "What is Challenge Pass in COD Mobile?",
+          "source_url": "https://www.esports.net/news/mobile-games/challenge-pass-cod-mobile/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+challenge+pass+and+seasonal+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile challenge pass and seasonal events",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:00:36.730811+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:09.913870+00:00",
+            "load_time_ms": 1696,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 675,
+            "content_type": "image/jpeg",
+            "current_src": "https://www.esports.net/wp-content/uploads/2024/08/COD-Mobile-Challenge-Pass.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了 Challenge Pass 的实际活动界面，包含里程碑奖励轨、等级和任务入口。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:31.079764+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/w6-J_PQeKgk/maxresdefault.jpg",
+          "caption": "Introducing Call of Duty: Mobile Season ...",
+          "source_url": "https://www.callofduty.com/blog/2026/01/call-of-duty-mobile-season-1-2026-frozen-abyss-battle-pass-events",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+challenge+pass+and+seasonal+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile challenge pass and seasonal events",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:00:36.730811+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:10.342116+00:00",
+            "load_time_ms": 423,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/w6-J_PQeKgk/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "属于该游戏赛季预告片的封面宣传图，无具体活动玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:31.079764+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/rbjPHIDDnQ8/maxresdefault.jpg",
+          "caption": "COD MOBILE HEAVY DUTY SEASONAL EVENT ...",
+          "source_url": "https://www.youtube.com/watch?v=rbjPHIDDnQ8",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+challenge+pass+and+seasonal+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile challenge pass and seasonal events",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:00:36.730811+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:10.779504+00:00",
+            "load_time_ms": 432,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/rbjPHIDDnQ8/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "展示了名为 Heavy Duty 的 Seasonal Event 任务进度和奖励兑换界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:31.079764+00:00"
+          }
+        },
+        {
+          "url": "https://i0.wp.com/gamingonphone.com/wp-content/uploads/2025/01/COD-Mobile-Premium-Pass-Tiers.jpg",
+          "caption": "COD Mobile Season 1 2025 – Wings of ...",
+          "source_url": "https://gamingonphone.com/news/cod-mobile-season-1-2025-wings-of-vengeance-update/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+challenge+pass+and+seasonal+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile challenge pass and seasonal events",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:00:36.730811+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:10.953104+00:00",
+            "load_time_ms": 168,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 675,
+            "content_type": "image/webp",
+            "current_src": "https://i0.wp.com/gamingonphone.com/wp-content/uploads/2025/01/COD-Mobile-Premium-Pass-Tiers.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了赛季奖励汇总图（含Battle Pass等），属于推广海报，非实际可操作玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:31.079764+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ranked_series",
+      "display_name": "Ranked Series / Ranked Festival",
+      "description": "CODM 有 Multiplayer 和 Battle Royale Ranked Series。每个 ranked season/series 持续多个 Battle Pass season，按段位和胜场提供奖励；部分赛季还包装成 Ranked Festival。",
+      "examples": [
+        "Ranked Play",
+        "Ranked Series",
+        "Ranked Festival",
+        "MP Ranked",
+        "BR Ranked"
+      ],
+      "market_research_notes": "长期竞技目标，和通行证赛季不同步时能提供更长的追逐周期。",
+      "images": [
+        {
+          "url": "https://static.gamsgocdn.com/image/226fd80bff4e836e84a76eb96bceafc2.webp",
+          "caption": "CODM Ranked Guide 2026: Tiers, Tips ...",
+          "source_url": "https://www.gamsgo.com/blog/cod-mobile-ranks",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+ranked+series",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile ranked series",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:00:59.006426+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:12.182605+00:00",
+            "load_time_ms": 1224,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 630,
+            "content_type": "image/webp",
+            "current_src": "https://static.gamsgocdn.com/image/226fd80bff4e836e84a76eb96bceafc2.webp"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了CODM排位赛的段位体系图标（Rookie至Legendary），直接关联Ranked Series活动，属于宣传图/说明图性质，无实际游戏操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:42.086130+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/KH9LbLOt7Vg/maxresdefault.jpg",
+          "caption": "Call of Duty®: Mobile - Ranked Series 2 ...",
+          "source_url": "https://www.youtube.com/watch?v=KH9LbLOt7Vg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+ranked+series",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile ranked series",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:00:59.006426+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:12.617488+00:00",
+            "load_time_ms": 429,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/KH9LbLOt7Vg/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了CODM排位赛第2赛季（S2）的标志及角色，属于活动宣传封面图，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:42.086130+00:00"
+          }
+        },
+        {
+          "url": "https://resource-cdn.obsbothk.com/product_system_back/product_img/cod-mobile-ranks-guide.png",
+          "caption": "Call of Duty Mobile Rank Explain [2026 ...",
+          "source_url": "https://www.obsbot.com/blog/game/call-of-duty-mobile-rank?srsltid=AfmBOoqY6AI4oOZumvBYhgnF9beYUaF0uzAGT1Jm7xtfxPKq_8l7Xj2S",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+ranked+series",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile ranked series",
+          "width": 334,
+          "height": 151,
+          "aspect_ratio": 2.2119,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:00:59.006426+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:13.811819+00:00",
+            "load_time_ms": 1188,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1450,
+            "natural_height": 655,
+            "content_type": "image/webp",
+            "current_src": "https://resource-cdn.obsbothk.com/product_system_back/product_img/cod-mobile-ranks-guide.png"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了CODM排位赛不同段位的图标（Rank Icons），属于与排位赛（Ranked Series）直接相关的展示图，但并非游戏内实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:42.086130+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Bo4Sz-VCu2Q/maxresdefault.jpg",
+          "caption": "Call of Duty®: Mobile - Ranked Series 1 ...",
+          "source_url": "https://www.youtube.com/watch?v=Bo4Sz-VCu2Q",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+ranked+series",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile ranked series",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:00:59.006426+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:14.215039+00:00",
+            "load_time_ms": 398,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/Bo4Sz-VCu2Q/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了CODM段位赛季(S1)的图标和角色宣传图，属于排位赛季的宣传性质海报，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:42.086130+00:00"
+          }
+        },
+        {
+          "url": "https://noobly.xyz/wp-content/uploads/2025/10/SEO-A-14_00000.webp",
+          "caption": "Guide to COD Mobile Rank: All Ranks ...",
+          "source_url": "https://noobly.xyz/guide-to-cod-mobile-rank-all-ranks-tiers-rewards-and-reset/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+ranked+series",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile ranked series",
+          "width": 329,
+          "height": 153,
+          "aspect_ratio": 2.1503,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:00:59.006426+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:16.177388+00:00",
+            "load_time_ms": 1957,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 750,
+            "natural_height": 420,
+            "content_type": "image/webp",
+            "current_src": "https://noobly.xyz/wp-content/uploads/2025/10/SEO-A-14_00000.webp"
+          },
+          "llm_image_filter": {
+            "category": 2,
+            "category_label": "无法确定是否和本游戏无关",
+            "confidence": 0.0,
+            "reason": "模型接口无法读取或接受该图片 URL，已按无法确定处理：Error code: 400 - {'error': {'message': 'URL did not return an image (received text/error content): https://***.xyz/***/***/***/***/*** ({\"provider_name\":\"Google\"})', 'type': 'upstream_error', 'param': '', 'code': 400, 'metadata': {'provider_name': 'Google'}}, 'trace_id': '2026051317224195966455xbqw0cN8'}",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:42.086130+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "clan_wars",
+      "display_name": "Clan Wars / Clan Leaderboard Events",
+      "description": "联盟/公会竞赛。Clan Wars 每周有不同 challenge nodes，成员完成节点任务为 clan 赚 node points，周结算按节点和排名发奖励；多个周组成 League Season，赛季末有 seasonal prizes。Battle Pass 玩家可获得额外点数加成。",
+      "examples": [
+        "Clan Wars",
+        "Clan Leaderboard Event",
+        "weekly challenge nodes",
+        "League Season"
+      ],
+      "market_research_notes": "把日常多人战斗转成联盟长期竞争，兼具社交、任务导向和排行榜压力。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/t14Tp_yshUc/maxresdefault.jpg",
+          "caption": "Call of Duty®: Mobile - Announcing Clan ...",
+          "source_url": "https://www.youtube.com/watch?v=t14Tp_yshUc",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+clan+wars",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile clan wars",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:01:25.590266+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:16.582047+00:00",
+            "load_time_ms": 400,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/t14Tp_yshUc/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图是Clan Wars活动的官方预告宣传海报/封面图，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:45.647267+00:00"
+          }
+        },
+        {
+          "url": "https://www.gamespot.com/a/uploads/original/1639/16394540/3897740-screenshot_20211021-171910_callofduty.jpg",
+          "caption": "Call Of Duty Mobile: Clan Wars Guide ...",
+          "source_url": "https://www.gamespot.com/articles/call-of-duty-mobile-clan-wars-guide/1100-6497327/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+clan+wars",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile clan wars",
+          "width": 322,
+          "height": 156,
+          "aspect_ratio": 2.0641,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:01:25.590266+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:18.170915+00:00",
+            "load_time_ms": 1583,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2220,
+            "natural_height": 1080,
+            "content_type": "image/jpeg",
+            "current_src": "https://www.gamespot.com/a/uploads/original/1639/16394540/3897740-screenshot_20211021-171910_callofduty.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了Clan Wars活动的实际玩法界面，包含周奖励、节点地图（Node Map）和排行榜。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:45.647267+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/S75Ns4mNS4I/maxresdefault.jpg",
+          "caption": "Clan Wars! Cod Mobile ...",
+          "source_url": "https://www.youtube.com/watch?v=S75Ns4mNS4I",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+clan+wars",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile clan wars",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:01:25.590266+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:18.654887+00:00",
+            "load_time_ms": 479,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/S75Ns4mNS4I/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "此图为YouTube视频封面，虽然拼接了玩法截图，但整体属于复合宣传图视角。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:45.647267+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/qxubblcq00b71.jpg",
+          "caption": "Clan Wars: When do these get fixed ...",
+          "source_url": "https://www.reddit.com/r/CallOfDutyMobile/comments/oji0q3/clan_wars_when_do_these_get_fixed_level_36_clans/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+clan+wars",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile clan wars",
+          "width": 229,
+          "height": 220,
+          "aspect_ratio": 1.0409,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:01:25.590266+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:19.796152+00:00",
+            "load_time_ms": 1135,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 575,
+            "natural_height": 553,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/qxubblcq00b71.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了Clan Wars活动的规则说明界面，包含兑换奖励详情、段位划分以及进度条，属于功能玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:45.647267+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "tournament_mode",
+      "display_name": "Tournament Mode / 周末锦标赛",
+      "description": "Tournament mode 通常在特定 MP 或 BR 模式中开放，玩家通过对局获得 crown/progression，解锁 camo crates、tickets、leaderboard rewards 等。公开资料显示它曾以 Alcatraz 等地图/模式轮换。",
+      "examples": [
+        "Tournament mode",
+        "weekend tournament",
+        "Alcatraz tournament",
+        "camo crates"
+      ],
+      "market_research_notes": "面向重度玩家的短周期竞技活动，奖励更偏武器迷彩和抽奖券。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/tournament-mode-is-horrible-v0-cv71cddjkcrc1.jpeg?auto=webp&s=0f9f4c76753bfbcca698f2f95453892d815bfe13",
+          "caption": "Tournament mode is horrible : r ...",
+          "source_url": "https://www.reddit.com/r/CallOfDutyMobile/comments/1br10a1/tournament_mode_is_horrible/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+tournament+mode",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile tournament mode",
+          "width": 330,
+          "height": 152,
+          "aspect_ratio": 2.1711,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:01:56.437785+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:19.955201+00:00",
+            "load_time_ms": 152,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2532,
+            "natural_height": 1170,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/tournament-mode-is-horrible-v0-cv71cddjkcrc1.jpeg?auto=webp&s=0f9f4c76753bfbcca698f2f95453892d815bfe13"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了锦标赛模式的选择界面，包含具体的开放时间、模式入口和奖励预览，属于实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:49.836082+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/2kFldU8VdIY/maxresdefault.jpg",
+          "caption": "Tournament Mode In Cod Mobile ...",
+          "source_url": "https://www.youtube.com/watch?v=2kFldU8VdIY",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+tournament+mode",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile tournament mode",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:01:56.437785+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:20.414068+00:00",
+            "load_time_ms": 449,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/2kFldU8VdIY/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "这是视频封面海报，左侧为锦标赛Logo，右侧为武器合成图和奖励图标，非实际游戏操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:49.836082+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/_CKHgo4U4Dw/maxresdefault.jpg",
+          "caption": "Call of Duty®: Mobile - Tournament Mode ...",
+          "source_url": "https://www.youtube.com/watch?v=_CKHgo4U4Dw",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+tournament+mode",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile tournament mode",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:01:56.437785+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:20.860447+00:00",
+            "load_time_ms": 439,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/_CKHgo4U4Dw/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "这是YouTube视频缩略图，展示了博主头像和锦标赛相关的宝箱素材，属于宣传性质图片。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:49.836082+00:00"
+          }
+        },
+        {
+          "url": "https://www.esports.net/wp-content/uploads/2024/04/COD-Mobile-tournament-gameplay-modes.jpg",
+          "caption": "CoD Mobile Tournaments: How to participate?",
+          "source_url": "https://www.esports.net/news/mobile-games/cod-mobile-tournaments/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+tournament+mode",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile tournament mode",
+          "width": 330,
+          "height": 153,
+          "aspect_ratio": 2.1569,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:01:56.437785+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:21.099597+00:00",
+            "load_time_ms": 232,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 800,
+            "natural_height": 370,
+            "content_type": "image/jpeg",
+            "current_src": "https://www.esports.net/wp-content/uploads/2024/04/COD-Mobile-tournament-gameplay-modes.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了锦标赛模式下的具体玩法列表（如Free For All, Gunfight等），是实际的游戏模式选择列表界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:49.836082+00:00"
+          }
+        },
+        {
+          "url": "https://articles-img.sftcdn.net/t_article_cover_xl/auto-mapping-folder/sites/3/2022/05/Season-4-of-Call-of-Duty-Mobile-adds-Tournament-Mode.jpg",
+          "caption": "Duty Mobile adds Tournament Mode ...",
+          "source_url": "https://en.softonic.com/articles/call-of-duty-mobile-tournament-mode",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+tournament+mode",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile tournament mode",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:01:56.437785+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:22.284146+00:00",
+            "load_time_ms": 1178,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/avif",
+            "current_src": "https://articles-img.sftcdn.net/t_article_cover_xl/auto-mapping-folder/sites/3/2022/05/Season-4-of-Call-of-Duty-Mobile-adds-Tournament-Mode.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是游戏第四赛季“Wild Dogs”的通用宣传 KV，虽然该赛季添加了锦标赛模式，但图片本身是通用品牌宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:49.836082+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "limited_time_modes",
+      "display_name": "Limited-time Modes / 限时模式",
+      "description": "每季会推出或轮换限时玩法，例如 Ground War、BR Bash、DMZ: Recon、合作或 IP 联动模式等，常配套 seasonal event missions。",
+      "examples": [
+        "Ground War",
+        "DMZ: Recon",
+        "BR Bash",
+        "Aether Hunt",
+        "collaboration LTM"
+      ],
+      "market_research_notes": "CODM 通过 LTM 展示内容新鲜度，并用任务奖励促使玩家尝试本季重点模式。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/tf-u-mean-that-lowk-best-game-mode-in-multiplayer-is-v0-v4iz28q5650h1.jpeg?width=640&crop=smart&auto=webp&s=f531be2570c4db760e6960c6cc4e075072e8161c",
+          "caption": "Tf u mean that lowk best game-mode in ...",
+          "source_url": "https://www.reddit.com/r/CallOfDutyMobile/comments/1t8a7si/tf_u_mean_that_lowk_best_gamemode_in_multiplayer/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+limited+time+modes",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile limited time modes",
+          "width": 207,
+          "height": 243,
+          "aspect_ratio": 0.8519,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:02:26.762872+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:22.367205+00:00",
+            "load_time_ms": 77,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 751,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/tf-u-mean-that-lowk-best-game-mode-in-multiplayer-is-v0-v4iz28q5650h1.jpeg?width=640&crop=smart&auto=webp&s=f531be2570c4db760e6960c6cc4e075072e8161c"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了限时模式 League Play 的入口界面，包含模式图标、人数规模及底部的 LIMITED TIME 标签。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:53.368123+00:00"
+          }
+        },
+        {
+          "url": "https://www.dexerto.com/cdn-image/wp-content/uploads/thumbnails/_thumbnailLarge/limited-time-mode-call-of-duty-cod-mobile-free-for-all.jpg",
+          "caption": "Duty Mobile ...",
+          "source_url": "https://www.dexerto.com/call-of-duty/first-limited-time-mode-added-call-of-duty-mobile-1127157/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+limited+time+modes",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile limited time modes",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:02:26.762872+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:24.705947+00:00",
+            "load_time_ms": 2333,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 900,
+            "content_type": "image/avif",
+            "current_src": "https://www.dexerto.com/cdn-image/wp-content/uploads/thumbnails/_thumbnailLarge/limited-time-mode-call-of-duty-cod-mobile-free-for-all.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "带有游戏 Logo 的通用宣传图，展示了角色和战斗场景，无法直接确认与特定限时模式活动相关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:53.368123+00:00"
+          }
+        },
+        {
+          "url": "https://www.videogameschronicle.com/files/2019/10/call-of-duty-mobile-gun-game.jpg",
+          "caption": "Call of Duty Mobile adds Gun Game mode ...",
+          "source_url": "https://www.videogameschronicle.com/news/call-of-duty-mobile-adds-gun-game-mode/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+limited+time+modes",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile limited time modes",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:02:26.762872+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:25.939602+00:00",
+            "load_time_ms": 1229,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1334,
+            "natural_height": 750,
+            "content_type": "image/webp",
+            "current_src": "https://www.videogameschronicle.com/files/2019/10/call-of-duty-mobile-gun-game.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了限时模式 Gun Game 的全屏宣传宣传图/加载图，引导玩家加入。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:53.368123+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/IeMmXESr-nQ/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGD4gRyh_MA8=&rs=AOn4CLDPhLiUkqIM-nZ730TeLVS64_LNrA",
+          "caption": "Game Mode | Garena Call of Duty: Mobile ...",
+          "source_url": "https://www.youtube.com/watch?v=IeMmXESr-nQ",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+limited+time+modes",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile limited time modes",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:02:26.762872+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:26.326620+00:00",
+            "load_time_ms": 381,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/IeMmXESr-nQ/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGD4gRyh_MA8=&rs=AOn4CLDPhLiUkqIM-nZ730TeLVS64_LNrA"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "展示了新功能/模式中的实际玩法画面（走墙），属于活动及玩法更新的实际展现。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:53.368123+00:00"
+          }
+        },
+        {
+          "url": "https://www.videogameschronicle.com/files/2019/10/call-of-duty-mobile-gun-game-320x180.jpg",
+          "caption": "Which multiplayer mode do you prefer ...",
+          "source_url": "https://www.videogameschronicle.com/news/call-of-duty-mobile-adds-gun-game-mode/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+limited+time+modes",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile limited time modes",
+          "width": 320,
+          "height": 180,
+          "aspect_ratio": 1.7778,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:02:26.762872+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:26.386993+00:00",
+            "load_time_ms": 54,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 320,
+            "natural_height": 180,
+            "content_type": "image/webp",
+            "current_src": "https://www.videogameschronicle.com/files/2019/10/call-of-duty-mobile-gun-game-320x180.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "与图3内容一致，是限时模式 Gun Game 的宣传封面图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:53.368123+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "lucky_draws_and_crates",
+      "display_name": "Lucky Draws / Crates / 商业化抽奖",
+      "description": "赛季公告常配套 Lucky Draw、Mythic/Legendary Draw、Crates、Store bundles。玩家用 CP 抽 Operator Skin、Weapon Blueprint、Mythic weapon、calling card 等。",
+      "examples": [
+        "Five Gods of Wealth Event & Lucky Draw",
+        "Mythic Drop",
+        "Legendary Draw",
+        "Crates",
+        "Store bundles"
+      ],
+      "market_research_notes": "CODM 的核心 gacha 商业化；抽奖常与节日、联动、神话武器或赛季主题绑定。",
+      "images": [
+        {
+          "url": "https://i.redd.it/ie1ukk9guuo81.jpg",
+          "caption": "Gambling RNG Loot Boxes ...",
+          "source_url": "https://www.reddit.com/r/CallOfDutyMobile/comments/tjtyyx/lucky_draws_crates_they_all_needs_to_die_this/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+lucky+draws+and+crates",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile lucky draws and crates",
+          "width": 344,
+          "height": 146,
+          "aspect_ratio": 2.3562,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:02:51.212320+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:26.479982+00:00",
+            "load_time_ms": 86,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1502,
+            "natural_height": 640,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/ie1ukk9guuo81.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了 CODM 典型的 Lucky Draw 转盘玩法实际操作界面，包含奖池和 CP 点底座。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:57.367040+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/5PYkicpQVUA/maxresdefault.jpg",
+          "caption": "COD Mobile | CODM - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=5PYkicpQVUA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+lucky+draws+and+crates",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile lucky draws and crates",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:02:51.212320+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:26.959873+00:00",
+            "load_time_ms": 474,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/5PYkicpQVUA/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "这是游戏内容的宣传展示图或视频封面，将多个活动的奖励排列显示，并非实际的游戏内部操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:57.367040+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/xsV2cmAb_B0/maxresdefault.jpg",
+          "caption": "Legendary Guns! [GAMEPLAY ...",
+          "source_url": "https://www.youtube.com/watch?v=xsV2cmAb_B0",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+lucky+draws+and+crates",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile lucky draws and crates",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:02:51.212320+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:27.412636+00:00",
+            "load_time_ms": 447,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/xsV2cmAb_B0/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "典型的 YouTube 视频封面海报，包含活动截图拼贴、文字说明和夸张的视觉元素，非原始游戏界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:57.367040+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/urv3wtvsaqq41.jpg",
+          "caption": "BOYCOTT Crates and Lucky Draws ...",
+          "source_url": "https://www.reddit.com/r/CallOfDutyMobile/comments/func88/complete_breakdown_of_lucky_draw_vs_bundles_see/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+lucky+draws+and+crates",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile lucky draws and crates",
+          "width": 177,
+          "height": 284,
+          "aspect_ratio": 0.6232,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:02:51.212320+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:27.743043+00:00",
+            "load_time_ms": 326,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1000,
+            "natural_height": 1600,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/urv3wtvsaqq41.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.96,
+            "reason": "包含了多个活动的实际游戏界面截图，包括 Bundles 购买界面和 Lucky Draw 抽奖界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:57.367040+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/XXUJzjjw9Fg/maxresdefault.jpg",
+          "caption": "BUNDLES | COD Mobile | CODM - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=XXUJzjjw9Fg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+lucky+draws+and+crates",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile lucky draws and crates",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:02:51.212320+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:28.218707+00:00",
+            "load_time_ms": 470,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/XXUJzjjw9Fg/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "这是游戏奖励内容的合集展示，属于宣传或泄露图风格，不具备实际的玩法点击功能界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:57.367040+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "collaboration_and_anniversary_events",
+      "display_name": "Collaboration / Anniversary Events / 联动与周年",
+      "description": "大型节点会推出 IP 联动、周年庆、节日活动和主题大厅，通常包含限时模式、任务、免费奖励、Lucky Draw 和付费外观。",
+      "examples": [
+        "Godzilla x Kong collaboration",
+        "anniversary event",
+        "80s Action Heroes",
+        "Lunar New Year event"
+      ],
+      "market_research_notes": "强营销节点，是拉新、回流和高价值皮肤销售的高峰。",
+      "images": [
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/hero/codm/CODM-S11_ANNOUNCE-TOUT.jpg",
+          "caption": "Duty: Mobile Season 11 — 6th Anniversary",
+          "source_url": "https://www.callofduty.com/blog/2025/11/call-of-duty-mobile-season-11-6th-anniversary-dmz-recon-street-fighter-battle-pass",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+collaboration+and+anniversary+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile collaboration and anniversary events",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:03:22.743855+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:28.658265+00:00",
+            "load_time_ms": 435,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/jpeg",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/hero/codm/CODM-S11_ANNOUNCE-TOUT.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了使命召唤手游6周年庆典的官方Logo和年份，属于典型的活动宣传封面图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:01.072977+00:00"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/hero/codm/S11-ANNOUNCE-TOUT.jpg",
+          "caption": "Introducing Anniversary ...",
+          "source_url": "https://www.callofduty.com/au/en/blog/2020/10/Call-of-Duty-Mobile-Introducing-Anniversary",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+collaboration+and+anniversary+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile collaboration and anniversary events",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:03:22.743855+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:43.752113+00:00",
+            "load_time_ms": 76,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1530,
+            "natural_height": 852,
+            "content_type": "image/jpeg",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/hero/codm/S11-ANNOUNCE-TOUT.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了使命召唤手游周年的艺术字体设计，属于活动宣传物料，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:01.072977+00:00"
+          }
+        },
+        {
+          "url": "https://bleedingcool.com/wp-content/uploads/2020/10/Call-Of-Duty-Mobile-One-Year-Anniversary-1-1200x628.jpg",
+          "caption": "Mobile Celebrates It's One-Year Anniversary",
+          "source_url": "https://bleedingcool.com/games/call-of-duty-mobile-celebrates-its-one-year-anniversary/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+collaboration+and+anniversary+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile collaboration and anniversary events",
+          "width": 1200,
+          "height": 628,
+          "aspect_ratio": 1.9108,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:03:22.743855+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:45.221207+00:00",
+            "load_time_ms": 1463,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 628,
+            "content_type": "image/jpeg",
+            "current_src": "https://bleedingcool.com/wp-content/uploads/2020/10/Call-Of-Duty-Mobile-One-Year-Anniversary-1-1200x628.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图片与第二张图内容基本一致，均为周年庆活动的品牌宣传海报。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:01.072977+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/1Rq02ALJIDI/maxresdefault.jpg",
+          "caption": "Duty: Mobile Season 10 — 4th Anniversary",
+          "source_url": "https://www.callofduty.com/au/en/blog/2020/10/Call-of-Duty-Mobile-Introducing-Anniversary",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+collaboration+and+anniversary+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile collaboration and anniversary events",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:03:22.743855+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:45.647734+00:00",
+            "load_time_ms": 421,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/1Rq02ALJIDI/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了周年庆相关的角色皮肤及主题Logo，属于典型的活动KV宣传图，无实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:01.072977+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "world_championship_esports",
+      "display_name": "World Championship / Esports Events",
+      "description": "CODM 有官方 World Championship / esports 赛事，玩家可通过游戏内资格阶段或外部赛事体系参与，争夺更高阶比赛和奖励。",
+      "examples": [
+        "Call of Duty: Mobile World Championship",
+        "qualifier stages",
+        "esports tournaments"
+      ],
+      "market_research_notes": "提升竞技社区认同，但和日常 LiveOps 活动相比门槛更高、周期更长。",
+      "images": [
+        {
+          "url": "https://yt3.googleusercontent.com/6OS81GJHDE-f5_vsOw4BhdRVXbEQSCz_4IM0l4_1dw_1vnLBugkAjZUyWGxeLgCVC2AR0zHg=s900-c-k-c0x00ffffff-no-rj",
+          "caption": "Call of Duty: Mobile Esports - YouTube",
+          "source_url": "https://www.youtube.com/channel/UC2WMdmYS1dclOCiJjyyW7_w",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+world+championship+esports",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile world championship esports",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:03:59.976149+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:48.188451+00:00",
+            "load_time_ms": 1807,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 900,
+            "natural_height": 900,
+            "content_type": "image/jpeg",
+            "current_src": "https://yt3.googleusercontent.com/6OS81GJHDE-f5_vsOw4BhdRVXbEQSCz_4IM0l4_1dw_1vnLBugkAjZUyWGxeLgCVC2AR0zHg=s900-c-k-c0x00ffffff-no-rj"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了锦标赛2024的官方Logo及年份信息，属于典型的活动封面或品牌图，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:03.957018+00:00"
+          }
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/65956e2711516206d2d1258f/681498c6c897615a4a78d9ac_announcement-codm-championships-2025-cover.webp",
+          "caption": "Call of Duty Mobile World Championship 2025",
+          "source_url": "https://www.carry1st.com/blog/call-of-duty-mobile-world-championship-2025-how-to-compete-and-what-to-expect",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+world+championship+esports",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile world championship esports",
+          "width": 301,
+          "height": 167,
+          "aspect_ratio": 1.8024,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:03:59.976149+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:49.454345+00:00",
+            "load_time_ms": 1258,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1530,
+            "natural_height": 852,
+            "content_type": "image/webp",
+            "current_src": "https://cdn.prod.website-files.com/65956e2711516206d2d1258f/681498c6c897615a4a78d9ac_announcement-codm-championships-2025-cover.webp"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片为锦标赛2025的宣传海报或Banner，包含活动Logo和特色美术设计，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:03.957018+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/qk5LNrssZlg/maxresdefault.jpg",
+          "caption": "Call of Duty®: Mobile | Esports",
+          "source_url": "https://www.callofduty.com/mobile/esports",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=call+of+duty+mobile+world+championship+esports",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "call of duty mobile world championship esports",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:03:59.976149+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:49.889794+00:00",
+            "load_time_ms": 429,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/qk5LNrssZlg/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图片为锦标赛2024的官方宣传海报，展示了角色皮肤和活动主题，属于宣传海报，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:03.957018+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "CODM 活动非常多，本轮按稳定系统覆盖赛季、Battle Pass、Challenge Pass、Ranked、Clan Wars、Tournament、LTM、Lucky Draw、联动周年和电竞。单个赛季的所有活动名可在二轮按年份继续补。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T07:03:59.976149+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:23:03.957018+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

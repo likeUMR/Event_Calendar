@@ -1,0 +1,32 @@
+{
+  "rank": 3,
+  "name": "Candy Crush Saga",
+  "source_confidence": "high",
+  "source_notes": null,
+  "collected_at": "2026-05-12T03:58:38.224Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Candy Crush Saga Wiki - Events",
+      "source_type": "fandom",
+      "source_url": "https://candycrush.fandom.com/wiki/Category:Events",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "source_title": "Candy Crush Saga Help - Rewards and special events",
+      "source_type": "official_support",
+      "source_url": "https://candycrush.zendesk.com/hc/en-us/articles/360000751058-Rewards-and-special-events",
+      "status": 404,
+      "error": "fetch_failed"
+    }
+  ],
+  "event_detail_pages": [],
+  "event_catalog": [],
+  "inferred_event_type_summary": [],
+  "screenshots_or_images": [],
+  "collection_warnings": [
+    "Fetch failed: https://candycrush.fandom.com/wiki/Category:Events",
+    "Fetch failed: https://candycrush.zendesk.com/hc/en-us/articles/360000751058-Rewards-and-special-events"
+  ]
+}

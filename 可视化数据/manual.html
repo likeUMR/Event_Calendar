@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>活动信息看板</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="app-shell manual-dashboard">
+      <aside class="sidebar">
+        <div class="brand">
+          <span class="brand-mark"></span>
+          <div>
+            <p class="eyebrow">Manual Research</p>
+            <h1>活动信息</h1>
+          </div>
+        </div>
+
+        <section class="panel view-switcher">
+          <h2>视图切换</h2>
+          <a class="button-link" href="./index.html">活动日历</a>
+        </section>
+
+        <section class="panel">
+          <h2>数据范围</h2>
+          <label class="field">
+            <span>游戏</span>
+            <select id="game-filter">
+              <option value="all">全部游戏</option>
+            </select>
+          </label>
+          <p id="manual-meta" class="muted">等待加载人工整理数据...</p>
+        </section>
+
+        <section class="panel">
+          <h2>筛选</h2>
+          <label class="field">
+            <span>搜索</span>
+            <input id="manual-search" type="search" placeholder="活动、机制、样例、备注">
+          </label>
+          <label class="field">
+            <span>机制大类</span>
+            <select id="family-filter">
+              <option value="all">全部大类</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>机制类型</span>
+            <select id="type-filter">
+              <option value="all">全部类型</option>
+            </select>
+          </label>
+          <label class="field checkbox-field">
+            <input id="visual-only" type="checkbox">
+            <span>只看带图片的活动类型</span>
+          </label>
+        </section>
+
+        <section class="panel">
+          <h2>常见机制大类</h2>
+          <div id="type-cloud" class="type-cloud"></div>
+        </section>
+      </aside>
+
+      <main class="main-content">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Activity Intelligence</p>
+            <h2 id="manual-title">活动信息展示看板</h2>
+          </div>
+        </header>
+
+        <section class="stats-grid manual-stats" aria-label="人工数据概览">
+          <article class="stat-card">
+            <span>覆盖游戏</span>
+            <strong id="stat-games">-</strong>
+          </article>
+          <article class="stat-card">
+            <span>机制大类</span>
+            <strong id="stat-families">-</strong>
+          </article>
+          <article class="stat-card">
+            <span>活动条目</span>
+            <strong id="stat-types">-</strong>
+          </article>
+          <article class="stat-card">
+            <span>图片素材</span>
+            <strong id="stat-images">-</strong>
+          </article>
+        </section>
+
+        <section class="calendar-card manual-hero-card">
+          <div class="manual-hero-copy">
+            <p class="eyebrow" id="selected-rank">Manual Summary</p>
+            <h3 id="selected-name">全部游戏活动机制总览</h3>
+            <p id="selected-method" class="muted"></p>
+          </div>
+          <div id="selected-coverage" class="coverage-note"></div>
+        </section>
+
+        <section class="calendar-card">
+          <div class="calendar-toolbar">
+            <div>
+              <h3>活动机制卡片</h3>
+              <p class="muted">按人工调研归纳展示活动玩法、样例、研究备注与图片来源。</p>
+            </div>
+            <p id="result-count" class="range-label"></p>
+          </div>
+          <div id="activity-grid" class="activity-grid"></div>
+        </section>
+
+        <section class="manual-bottom-grid">
+          <article class="event-list-card">
+            <div class="calendar-toolbar">
+              <div>
+                <h3>来源页面</h3>
+                <p class="muted">用于回溯人工整理依据。</p>
+              </div>
+            </div>
+            <div id="source-list" class="source-list"></div>
+          </article>
+
+          <article class="event-list-card">
+            <div class="calendar-toolbar">
+              <div>
+                <h3>视觉参考</h3>
+                <p class="muted">从活动类型和截图参考中汇总。</p>
+              </div>
+            </div>
+            <div id="visual-list" class="visual-list"></div>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <dialog id="manual-dialog">
+      <div class="dialog-header">
+        <div>
+          <p id="dialog-game" class="eyebrow"></p>
+          <h3 id="dialog-name"></h3>
+        </div>
+        <button id="manual-dialog-close" type="button" aria-label="关闭">×</button>
+      </div>
+      <div id="dialog-body" class="manual-dialog-body"></div>
+    </dialog>
+
+    <script src="./manual-app.js"></script>
+  </body>
+</html>

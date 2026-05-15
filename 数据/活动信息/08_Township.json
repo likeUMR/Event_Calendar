@@ -1,0 +1,32 @@
+{
+  "rank": 8,
+  "name": "Township",
+  "source_confidence": "high",
+  "source_notes": null,
+  "collected_at": "2026-05-12T03:59:10.402Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Township Wiki - Events",
+      "source_type": "fandom",
+      "source_url": "https://township.fandom.com/wiki/Events",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "source_title": "Township Wiki - Event Calendar",
+      "source_type": "fandom",
+      "source_url": "https://township.fandom.com/wiki/Event_Calendar",
+      "status": 403,
+      "error": "fetch_failed"
+    }
+  ],
+  "event_detail_pages": [],
+  "event_catalog": [],
+  "inferred_event_type_summary": [],
+  "screenshots_or_images": [],
+  "collection_warnings": [
+    "Fetch failed: https://township.fandom.com/wiki/Events",
+    "Fetch failed: https://township.fandom.com/wiki/Event_Calendar"
+  ]
+}

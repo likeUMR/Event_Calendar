@@ -1,0 +1,1224 @@
+{
+  "rank": 49,
+  "name": "Bingo Blitz™ - BINGO Games",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 BINGO Blitz Wiki 的 Collection Items、Daily Tournament、Slots Blitz、Pets Blitz Slots、Blitzy's Tale 等页面，并参考 AppsHunter 的品牌活动流，按 Bingo 房间收集、锦标赛、Slots 与专属主题活动归类。",
+  "source_pages": [
+    {
+      "title": "BINGO Blitz Wiki",
+      "url": "https://bingoblitz.fandom.com/wiki/BINGO_Blitz_Wiki",
+      "notes": "社区 wiki 首页，用于确认长期系统和高频活动入口。"
+    },
+    {
+      "title": "BINGO Blitz Wiki - Collection Items",
+      "url": "https://bingoblitz.fandom.com/wiki/Collection_Items",
+      "notes": "用于确认每个房间都带有 collection items 的收集循环。"
+    },
+    {
+      "title": "BINGO Blitz Wiki - Daily Tournament",
+      "url": "https://bingoblitz.fandom.com/wiki/Daily_Tournament",
+      "notes": "用于确认日常锦标赛的规则、轮次和奖励。"
+    },
+    {
+      "title": "BINGO Blitz Wiki - Free Daily Tournament",
+      "url": "https://bingoblitz.fandom.com/wiki/Free_Daily_Tournament",
+      "notes": "用于补充免费日赛版本与普通日赛的差异。"
+    },
+    {
+      "title": "BINGO Blitz Wiki - Slots Blitz",
+      "url": "https://bingoblitz.fandom.com/wiki/Slots_Blitz",
+      "notes": "用于确认 Slots 子模式和其独立房间体系。"
+    },
+    {
+      "title": "BINGO Blitz Wiki - Pets Blitz Slots",
+      "url": "https://bingoblitz.fandom.com/wiki/Pets_Blitz_Slots",
+      "notes": "用于确认带 collection items 的 slots 房间变体。"
+    },
+    {
+      "title": "BINGO Blitz Wiki - Blitzy's Tale",
+      "url": "https://bingoblitz.fandom.com/wiki/Blitzy%27s_Tale",
+      "notes": "用于确认 album/故事包装类收集活动。"
+    },
+    {
+      "title": "AppsHunter - American Idol in Bingo Blitz",
+      "url": "https://appshunter.io/events/6745208745",
+      "notes": "用于补充品牌联动或主题化 App Store 活动包装。"
+    },
+    {
+      "title": "AppsHunter - Easter Feaster on Bingo Blitz!",
+      "url": "https://appshunter.io/events/6760816297",
+      "notes": "用于补充节日型活动包装。"
+    },
+    {
+      "title": "AppsHunter - Bingo Blitz + Black Friday = Wow!",
+      "url": "https://appshunter.io/events/6754937655",
+      "notes": "用于补充促销节点和品牌化活动包装。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "room_collections",
+      "display_name": "Room Collections / 房间收集",
+      "description": "Bingo Blitz 的核心循环之一。玩家在不同房间打 bingo、收集 collection items，并逐步完成房间或地区收藏。",
+      "examples": [
+        "New York collection",
+        "London collection",
+        "Pompeii collection"
+      ],
+      "market_research_notes": "这是产品最稳定的 metagame 层，收集驱动力非常强。",
+      "images": [
+        {
+          "url": "https://static.wikia.nocookie.net/bingoblitz/images/7/77/Screen_shot_2013-04-04_at_3.21.05_PM.png/revision/latest?cb=20130405180837",
+          "caption": "Collection Items | BINGO Blitz Wiki ...",
+          "source_url": "https://bingoblitz.fandom.com/wiki/Collection_Items",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+room+collections",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games room collections",
+          "width": 288,
+          "height": 175,
+          "aspect_ratio": 1.6457,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:23:55.447077+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了马德里地区的房间收集品界面，包含收集项、进度奖励等实际玩法元素。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:59.125602+00:00"
+          }
+        },
+        {
+          "url": "https://www.bingoblitz.com/wp-content/uploads/2023/08/cards.png",
+          "caption": "All About the New Look - BingoBlitz",
+          "source_url": "https://www.bingoblitz.com/support/10228/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+room+collections",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games room collections",
+          "width": 314,
+          "height": 161,
+          "aspect_ratio": 1.9503,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:23:55.447077+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "仅展示了Bingo卡片和手指，虽属于该游戏的基础玩法，但无法直接关联到具体的房间收集活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:59.125602+00:00"
+          }
+        },
+        {
+          "url": "https://static.wikia.nocookie.net/bingoblitz/images/d/dd/Screen_shot_2013-04-04_at_2.48.19_PM.png/revision/latest?cb=20130404215028",
+          "caption": "Collection Items | BINGO Blitz Wiki ...",
+          "source_url": "https://bingoblitz.fandom.com/wiki/Collection_Items",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+room+collections",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games room collections",
+          "width": 201,
+          "height": 250,
+          "aspect_ratio": 0.804,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:23:55.447077+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了带有宝箱和拼图碎片的具体Bingo关卡界面，拼图碎片的产出通常是房间收集活动的直接玩法表现。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:59.125602+00:00"
+          }
+        },
+        {
+          "url": "https://www.bingoblitz.com/wp-content/uploads/2023/08/15-5-e1736948458653-1024x535.png",
+          "caption": "All About the New Look - BingoBlitz",
+          "source_url": "https://www.bingoblitz.com/support/10228/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+room+collections",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games room collections",
+          "width": 1024,
+          "height": 535,
+          "aspect_ratio": 1.914,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:23:55.447077+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了游戏的世界地图（地区选择界面），展示了Providence/Liverpool等房间的进度（0/12），属于房间收集活动的核心界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:59.125602+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/7N7Qq0gIKKNEBJcrE2JCa3ZN_0sEc4wW9-R30TTbthPuUoVxNJH67Q0vhP9Fva91cj1agjR2dgD75wJTZs0NFg",
+          "caption": "Bingo Blitz™️ - Bingo Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=air.com.buffalo_studios.newflashbingo",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+room+collections",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games room collections",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:23:55.447077+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 1.0,
+            "reason": "该图片为Bingo Blitz的官方App图标或品牌宣传图，属于通用品牌图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:59.125602+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "shadow_card_collection",
+      "display_name": "Shadow Cards / 稀有影子卡",
+      "description": "围绕难获得物件或轮廓卡片展开的补全型收集活动，强调反复进房间与补齐收藏。",
+      "examples": [
+        "Shadow Cards",
+        "Hard-to-Get items"
+      ],
+      "market_research_notes": "本质上是稀有收集补完玩法，属于房间收集系统的增强版。",
+      "images": [
+        {
+          "url": "https://static.wikia.nocookie.net/bingoblitz/images/d/dd/Screen_shot_2013-04-04_at_2.48.19_PM.png/revision/latest/scale-to-width-down/731?cb=20130404215028",
+          "caption": "Collection Items | BINGO Blitz Wiki ...",
+          "source_url": "https://bingoblitz.fandom.com/wiki/Collection_Items",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+shadow+card+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games shadow card collection",
+          "width": 201,
+          "height": 250,
+          "aspect_ratio": 0.804,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:24:28.066366+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了Bingo Blitz实际拼图玩法界面，右下角有拼图进度图标，符合稀有收集活动的玩法表现。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:03.519230+00:00"
+          }
+        },
+        {
+          "url": "https://static.wikia.nocookie.net/bingoblitz/images/7/77/Screen_shot_2013-04-04_at_3.21.05_PM.png/revision/latest?cb=20130405180837",
+          "caption": "Collection Items | BINGO Blitz Wiki ...",
+          "source_url": "https://bingoblitz.fandom.com/wiki/Collection_Items",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+shadow+card+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games shadow card collection",
+          "width": 288,
+          "height": 175,
+          "aspect_ratio": 1.6457,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:24:28.066366+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了Madrid Collection具体的物品收集列表界面，直接对应描述中的房间收集系统及其增强版玩法。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:03.519230+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/bIh1uR2w6vs/hqdefault.jpg",
+          "caption": "Get Shadow Card in Bingo Blitz 2025 ...",
+          "source_url": "https://www.youtube.com/watch?v=bIh1uR2w6vs",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+shadow+card+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games shadow card collection",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:24:28.066366+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "带有'GET SHADOW CARD'字样的宣传封面图，无实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:03.519230+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/lA_a74pGhZg/maxresdefault.jpg",
+          "caption": "Bingo Blitz shadow cards - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=lA_a74pGhZg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+shadow+card+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games shadow card collection",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:24:28.066366+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "展示了Catalina房间的物品收集进度、奖励预览及收集列表，属于活动的实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:03.519230+00:00"
+          }
+        },
+        {
+          "url": "https://www.bingoblitz.com/wp-content/uploads/2025/01/15-1-1024x1024.png",
+          "caption": "Second Chance Cards - BingoBlitz",
+          "source_url": "https://www.bingoblitz.com/support/second-chance-cards/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+shadow+card+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games shadow card collection",
+          "width": 1024,
+          "height": 1024,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:24:28.066366+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "展示了游戏看板角色和单张收集卡片的UI素材，更接近宣传展示而非实际复杂玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:03.519230+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "daily_tournament",
+      "display_name": "Daily Tournament / 每日锦标赛",
+      "description": "按日开启的多轮锦标赛，玩家通过 bingo、积分或指定动作争取日榜奖励，是高频留存活动。",
+      "examples": [
+        "Daily Tournament",
+        "Free Daily Tournament"
+      ],
+      "market_research_notes": "这是典型的高频日循环 tournament，用来稳定活跃。",
+      "images": [
+        {
+          "url": "https://www.bingoblitz.com/wp-content/uploads/2024/02/form-img-1.png",
+          "caption": "Daily Tournament - BingoBlitz",
+          "source_url": "https://www.bingoblitz.com/support/daily-tournament/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+daily+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games daily tournament",
+          "width": 216,
+          "height": 234,
+          "aspect_ratio": 0.9231,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:24:56.019703+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片仅展示游戏吉祥物及通用Bingo卡片，属于游戏通用宣传素材。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:07.556299+00:00"
+          }
+        },
+        {
+          "url": "https://www.bingoblitz.com/wp-content/uploads/2023/08/Untitled-design-27-e1751533082914.png",
+          "caption": "Daily Tournament - BingoBlitz",
+          "source_url": "https://www.bingoblitz.com/support/daily-tournament/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+daily+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games daily tournament",
+          "width": 297,
+          "height": 170,
+          "aspect_ratio": 1.7471,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:24:56.019703+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "展示了锦标赛收集系统（Tournament Collection Items）的实际UI界面和奖励内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:07.556299+00:00"
+          }
+        },
+        {
+          "url": "https://static.wikia.nocookie.net/bingoblitz/images/9/94/Tournamentbackground.jpg/revision/latest?cb=20130404113110",
+          "caption": "Daily Tournament | BINGO Blitz Wiki ...",
+          "source_url": "https://bingoblitz.fandom.com/wiki/Daily_Tournament",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+daily+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games daily tournament",
+          "width": 282,
+          "height": 179,
+          "aspect_ratio": 1.5754,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:24:56.019703+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "带有Tournament字样的加载图（Loading screen），属于宣传/过渡类图片。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:07.556299+00:00"
+          }
+        },
+        {
+          "url": "https://www.bingoblitz.com/wp-content/uploads/2023/08/Untitled-design-28-e1751533147394.png",
+          "caption": "Daily Tournament - BingoBlitz",
+          "source_url": "https://www.bingoblitz.com/support/daily-tournament/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+daily+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games daily tournament",
+          "width": 299,
+          "height": 169,
+          "aspect_ratio": 1.7692,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:24:56.019703+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "展示了锦标赛收集道具的具体获取途径和操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:07.556299+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/qXYZAdrlzOA/maxresdefault.jpg",
+          "caption": "Bingo Blitz - Daily Tournament 5/6/26 ...",
+          "source_url": "https://www.youtube.com/watch?v=qXYZAdrlzOA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+daily+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games daily tournament",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:24:56.019703+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.88,
+            "reason": "展示了锦标赛实际进行中的游戏玩法界面，左侧包含锦标赛实时排名信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:07.556299+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "tournament_crown",
+      "display_name": "Tournament Crown / 皇冠赛",
+      "description": "与 Daily Tournament 相关的等级化奖励或皇冠晋级体系，强调连胜、累计 crown 和更高层次奖励。",
+      "examples": [
+        "Bronze Crown",
+        "Silver Crown",
+        "Tournament Crown"
+      ],
+      "market_research_notes": "更像锦标赛内部的层级强化机制，用于提高重复参与意愿。",
+      "images": [
+        {
+          "url": "https://static.wikia.nocookie.net/bingoblitz/images/9/94/Tournamentbackground.jpg/revision/latest?cb=20130404113110",
+          "caption": "Daily Tournament | BINGO Blitz Wiki ...",
+          "source_url": "https://bingoblitz.fandom.com/wiki/Daily_Tournament",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+tournament+crown",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games tournament crown",
+          "width": 282,
+          "height": 179,
+          "aspect_ratio": 1.5754,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:25:33.727875+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了 Bingo Blitz 的 Tournament 加载宣传图，带有明显的活动冠标和 Tournament 字样，符合活动描述的宣传图特征。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:12.701163+00:00"
+          }
+        },
+        {
+          "url": "https://s3-media0.fl.yelpcdn.com/bphoto/Ybv9ooYodz7myCHsrGuaUw/348s.jpg",
+          "caption": "App Bingo Crown - Fun Bingo Games ...",
+          "source_url": "https://m.yelp.com/biz/triple-crown-bingo-vfw-290-cypress",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+tournament+crown",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games tournament crown",
+          "width": 322,
+          "height": 157,
+          "aspect_ratio": 2.051,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:25:33.727875+00:00",
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.98,
+            "reason": "该图内容指向现实生活中的 Bingo 线下场所和线下活动，并非 Bingo Blitz 手游内的活动截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:12.701163+00:00"
+          }
+        },
+        {
+          "url": "https://ats.io/wp-content/uploads/2024/08/Bingo-Blitz--1024x512.png",
+          "caption": "Bingo Blitz Review & Ratings | Updated ...",
+          "source_url": "https://ats.io/social-casinos/bingo-blitz/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+tournament+crown",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games tournament crown",
+          "width": 1024,
+          "height": 512,
+          "aspect_ratio": 2.0,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:25:33.727875+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该图为游戏的通用角色宣传图或商店背景图，未涉及 Tournament Crown 具体活动信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:12.701163+00:00"
+          }
+        },
+        {
+          "url": "https://ptown.org/wp-content/uploads/2025/12/NYE-BallDrop-Bingo.jpg",
+          "caption": "Bingo Blitz™️ - Bingo Games - Apps on ...",
+          "source_url": "https://ptown.org/events/first-light-nye-ball-drop-bingo-with-austin-mackenzie/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+tournament+crown",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games tournament crown",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:25:33.727875+00:00",
+          "llm_image_filter": {
+            "category": 2,
+            "category_label": "无法确定是否和本游戏无关",
+            "confidence": 0.7,
+            "reason": "图片虽然提到 Ball Drop Bingo 活动内容，但画风和来源链接与 Bingo Blitz 官方内容存在出入，无法确定属于该游戏。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:12.701163+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/FmJwciGYqq41_5dIeeO2_SQYe7fHOR90iQX3jLDSBt8vomb8daavaYE8JmlsRQBw-y-OqER1W1IQCO-0sLjxvA=w526-h296-rw",
+          "caption": "All About the New Look - BingoBlitz",
+          "source_url": "https://play.google.com/store/apps/details?id=air.com.buffalo_studios.newflashbingo",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+tournament+crown",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games tournament crown",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:25:33.727875+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "该图为游戏商店的基础玩法展示截图，展示了常规的 Bingo 棋盘和道具，未体现 Tournament 或 Crown 相关的特殊活动玩法。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:12.701163+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "slots_mode",
+      "display_name": "Slots Blitz / Slots 子模式",
+      "description": "在主 bingo 之外提供 slots 子玩法，拥有独立房间、货币循环和奖励节奏。",
+      "examples": [
+        "Slots Blitz",
+        "Big Apple Slots",
+        "Chicago Slots"
+      ],
+      "market_research_notes": "说明 Bingo Blitz 不只是 bingo 产品，而是把 slots 作为补充留存层。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/vVI_lP8RIGU/maxresdefault.jpg",
+          "caption": "Bingo Blitz - Slots, All Folks (Guide ...",
+          "source_url": "https://www.youtube.com/watch?v=vVI_lP8RIGU",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+slots+mode",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games slots mode",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:25:55.292619+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了 Slots 模式下的具体玩法界面，包含 Spin 按钮和 Slot 内的小游戏机制。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:16.274399+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/7N7Qq0gIKKNEBJcrE2JCa3ZN_0sEc4wW9-R30TTbthPuUoVxNJH67Q0vhP9Fva91cj1agjR2dgD75wJTZs0NFg",
+          "caption": "Bingo Blitz™️ - Bingo Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=air.com.buffalo_studios.newflashbingo",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+slots+mode",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games slots mode",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:25:55.292619+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.98,
+            "reason": "这是该游戏的 App 商店图标或通用品牌图，与具体 Slots 活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:16.274399+00:00"
+          }
+        },
+        {
+          "url": "https://www.bingoblitz.com/wp-content/uploads/2024/02/mascot-e1709211644837.png",
+          "caption": "How to find the Slots - BingoBlitz",
+          "source_url": "https://www.bingoblitz.com/support/slots-map-whats-changed/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+slots+mode",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games slots mode",
+          "width": 199,
+          "height": 253,
+          "aspect_ratio": 0.7866,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:25:55.292619+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "游戏吉祥物的透明背景素材，属于通用品牌图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:16.274399+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/fB-9ox113Q0/hqdefault.jpg",
+          "caption": "Play Slot Spins on Bingo Blitz 2025 ...",
+          "source_url": "https://www.youtube.com/watch?v=fB-9ox113Q0",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+slots+mode",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games slots mode",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:25:55.292619+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "这是 Slots 功能的视频封面或宣传海报，带有‘PLAY SLOT SPINS’标题，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:16.274399+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/fB-9ox113Q0/sddefault.jpg",
+          "caption": "Bingo Blitz PLUS - Free Bingo Games Online",
+          "source_url": "https://www.youtube.com/watch?v=fB-9ox113Q0",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+slots+mode",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games slots mode",
+          "width": 282,
+          "height": 179,
+          "aspect_ratio": 1.5754,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:25:55.292619+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "这是 Slots 功能的视频封面或宣传海报，与图 4 内容一致，属于宣传性质。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:16.274399+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "slots_room_collection",
+      "display_name": "Pets Blitz Slots / Slots 房间收集",
+      "description": "把 slots 与 collection items 结合起来，形成房间主题化和收集并行推进的变体。",
+      "examples": [
+        "Pets Blitz Slots"
+      ],
+      "market_research_notes": "这是 slots 模式向房间收集 metagame 的延伸。",
+      "images": [
+        {
+          "url": "https://www.bingoblitz.com/wp-content/uploads/2023/08/cards.png",
+          "caption": "All About the New Look - BingoBlitz",
+          "source_url": "https://www.bingoblitz.com/support/10228/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+slots+room+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games slots room collection",
+          "width": 314,
+          "height": 161,
+          "aspect_ratio": 1.9503,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:26:31.484271+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "属于该游戏的通用玩法示意图，与特定的Pets Blitz Slots活动无直接关联证据。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:20.170322+00:00"
+          }
+        },
+        {
+          "url": "https://static.wikia.nocookie.net/bingoblitz/images/7/77/Screen_shot_2013-04-04_at_3.21.05_PM.png/revision/latest?cb=20130405180837",
+          "caption": "Collection Items | BINGO Blitz Wiki ...",
+          "source_url": "https://bingoblitz.fandom.com/wiki/Collection_Items",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+slots+room+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games slots room collection",
+          "width": 288,
+          "height": 175,
+          "aspect_ratio": 1.6457,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:26:31.484271+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示的是游戏的常规区域（马德里）收集系统，并非Pets主题的Slots房间收集。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:20.170322+00:00"
+          }
+        },
+        {
+          "url": "https://static.wikia.nocookie.net/bingoblitz/images/d/dd/Screen_shot_2013-04-04_at_2.48.19_PM.png/revision/latest?cb=20130404215028",
+          "caption": "Collection Items | BINGO Blitz Wiki ...",
+          "source_url": "https://bingoblitz.fandom.com/wiki/Collection_Items",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+slots+room+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games slots room collection",
+          "width": 201,
+          "height": 250,
+          "aspect_ratio": 0.804,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:26:31.484271+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "通用的Bingo关卡核心玩法截图，未体现活动相关的Slots或特定主题。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:20.170322+00:00"
+          }
+        },
+        {
+          "url": "https://www.bingoblitz.com/wp-content/uploads/2023/08/15-5-e1736948458653-1024x535.png",
+          "caption": "All About the New Look - BingoBlitz",
+          "source_url": "https://www.bingoblitz.com/support/10228/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+slots+room+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games slots room collection",
+          "width": 1024,
+          "height": 535,
+          "aspect_ratio": 1.914,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:26:31.484271+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "游戏的主地图大厅界面，虽然有节日或活动图标，但不能确认是Pets Blitz Slots的玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:20.170322+00:00"
+          }
+        },
+        {
+          "url": "https://static.wikia.nocookie.net/bingoblitz/images/a/a6/Pets1024.jpg/revision/latest/scale-to-width-down/1024?cb=20130404111855",
+          "caption": "Pets Blitz Slots | BINGO Blitz Wiki ...",
+          "source_url": "https://bingoblitz.fandom.com/wiki/Pets_Blitz_Slots",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+slots+room+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games slots room collection",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:26:31.484271+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "明确带有'Pets Blitz SLOTS'标题，且属于宣传性质的海报插图，无实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:20.170322+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "album_collection",
+      "display_name": "Albums / 图册收集",
+      "description": "以 Blitzy's Tale 这类 album 形式承载的主题收集活动，强调成套收集、章节推进和叙事包装。",
+      "examples": [
+        "Blitzy's Tale"
+      ],
+      "market_research_notes": "和普通房间收集相比，album 更强调主题化展示与阶段完成感。",
+      "images": [
+        {
+          "url": "https://www.bingoblitz.com/wp-content/uploads/2024/09/file_28138935c3b6fd90cdcd56f1b40131cb.png",
+          "caption": "Adventure Book - BingoBlitz",
+          "source_url": "https://www.bingoblitz.com/support/adventure-book/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+album+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games album collection",
+          "width": 219,
+          "height": 230,
+          "aspect_ratio": 0.9522,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:26:59.551119+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了活动 Adventure Book 的封面图，属于宣传性质的封面设计。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:25.431619+00:00"
+          }
+        },
+        {
+          "url": "https://scontent-hkg4-2.xx.fbcdn.net/v/t15.5256-10/244738134_598443808017454_5527630712144661163_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=596eb7&_nc_ohc=dW8xoHVHAzwQ7kNvwGs6cgT&_nc_oc=Ado-Pdkyh7sr4atxLmlQdh1dJi30dAXLvOF5sVFjhiwK2d7EyWUJ4bEfUshly8cZwDk&_nc_zt=23&_nc_ht=scontent-hkg4-2.xx&_nc_gid=RpdxSUijfjbwYITQ9xoKRA&_nc_ss=7c20f&oh=00_Af6MfnAVoxjspH8cKWuwP0HOCViVus40eZY7unV2RBurjg&oe=6A09F6C8",
+          "caption": "New in Bingo Blitz The Collection Pass ...",
+          "source_url": "https://www.facebook.com/bingoblitz/videos/complete-your-album-/598443748017460/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+album+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games album collection",
+          "width": 168,
+          "height": 300,
+          "aspect_ratio": 0.56,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:26:59.551119+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图册收集活动相关的宣传海报，带有游戏 Logo 和新内容提示。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:25.431619+00:00"
+          }
+        },
+        {
+          "url": "https://www.bingoblitz.com/wp-content/uploads/2023/08/11-1024x858.png",
+          "caption": "Collection Pass - BingoBlitz",
+          "source_url": "https://www.bingoblitz.com/support/collection-pass/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+album+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games album collection",
+          "width": 1024,
+          "height": 858,
+          "aspect_ratio": 1.1935,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:26:59.551119+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "仅展示了活动相关的角色图标/素材，无明确的活动界面或玩法展示。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:25.431619+00:00"
+          }
+        },
+        {
+          "url": "https://www.bingoblitz.com/wp-content/uploads/2024/09/file_6d4901b9c33afd90cdcd56f1b401311e.png",
+          "caption": "Adventure Book - BingoBlitz",
+          "source_url": "https://www.bingoblitz.com/support/adventure-book/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+album+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games album collection",
+          "width": 233,
+          "height": 217,
+          "aspect_ratio": 1.0737,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:26:59.551119+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了 Adventure Book (Blitzy's Tale) 的章节选择与收集进度界面，属于实际玩法截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:25.431619+00:00"
+          }
+        },
+        {
+          "url": "https://static.wikia.nocookie.net/bingoblitz/images/7/77/Screen_shot_2013-04-04_at_3.21.05_PM.png/revision/latest?cb=20130405180837",
+          "caption": "Collection Items | BINGO Blitz Wiki ...",
+          "source_url": "https://bingoblitz.fandom.com/wiki/Collection_Items",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+album+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games album collection",
+          "width": 288,
+          "height": 175,
+          "aspect_ratio": 1.6457,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:26:59.551119+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了具体的图册收集项目列表、奖励预览及收集进度，是典型的活动收集界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:25.431619+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "special_room",
+      "display_name": "Specialty Rooms / 特色房间",
+      "description": "围绕特殊规则、特殊奖励或主题机制打造的房间活动，例如 Blackout Lounge 这种差异化房间体验。",
+      "examples": [
+        "Blackout Lounge"
+      ],
+      "market_research_notes": "适合在既有 bingo 框架里制造新鲜感，而无需改底层规则。",
+      "images": [
+        {
+          "url": "https://www.bingoblitz.com/wp-content/uploads/2023/08/cards.png",
+          "caption": "All About the New Look - BingoBlitz",
+          "source_url": "https://www.bingoblitz.com/support/10228/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+special+room",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games special room",
+          "width": 314,
+          "height": 161,
+          "aspect_ratio": 1.9503,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:27:26.568351+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片展示的是游戏的基础Bingo卡片玩法，属于通用玩法截图，无法确定与‘特色房间’活动直接相关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:31.804664+00:00"
+          }
+        },
+        {
+          "url": "https://www.bingoblitz.com/wp-content/uploads/2025/01/15-1-1024x1024.png",
+          "caption": "Second Chance Cards - BingoBlitz",
+          "source_url": "https://www.bingoblitz.com/support/second-chance-cards/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+special+room",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games special room",
+          "width": 1024,
+          "height": 1024,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:27:26.568351+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "展示了游戏的吉祥物和某种收集卡片/道具，虽然可能出现在特色房间中，但更像是通用的收集品或UI元素。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:31.804664+00:00"
+          }
+        },
+        {
+          "url": "https://www.bingoblitz.com/wp-content/uploads/2025/01/15-1.png",
+          "caption": "Bingo Blitz - Guide : r/SwagBucks",
+          "source_url": "https://www.bingoblitz.com/support/second-chance-cards/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+special+room",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games special room",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:27:26.568351+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "内容与image_index 2相同，展示的是游戏通用的道具说明或UI部件。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:31.804664+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/bingo-blitz-guide-v0-z8zou0ook8l81.jpg?width=1920&format=pjpg&auto=webp&s=a1a3f3d82844fc27198fe41ce585190cbd380c2d",
+          "caption": "Bingo Blitz PLUS - Free Bingo Games Online",
+          "source_url": "https://www.reddit.com/r/SwagBucks/comments/t624z7/bingo_blitz_guide/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+special+room",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games special room",
+          "width": 282,
+          "height": 179,
+          "aspect_ratio": 1.5754,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:27:26.568351+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "主界面地图截图中明确标注了‘Featured rooms’（特色房间）入口，且红圈圈出了特定活动房间，属于展现活动入口的实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:31.804664+00:00"
+          }
+        },
+        {
+          "url": "https://www.bingoblitz.com/wp-content/uploads/2023/08/Untitled-design-17-e1717059185362-1024x650.png",
+          "caption": "All About the New Look - BingoBlitz",
+          "source_url": "https://www.bingoblitz.com/support/bingo-blitz-plus-your-bingo-plus-more/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+special+room",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games special room",
+          "width": 1024,
+          "height": 650,
+          "aspect_ratio": 1.5754,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:27:26.568351+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是游戏Bingo Blitz PLUS会员服务的宣传界面，展示的是会员特权（如早期访问、每日奖励等），而非特定的‘特色房间’活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:31.804664+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "branded_live_event",
+      "display_name": "Branded / Seasonal Live Events / 品牌与节日活动",
+      "description": "包括联动、节日活动和商业节点活动，通常以 App Store 事件流或主题包装形式出现。",
+      "examples": [
+        "American Idol in Bingo Blitz",
+        "Easter Feaster on Bingo Blitz!",
+        "Bingo Blitz + Black Friday = Wow!"
+      ],
+      "market_research_notes": "这类活动的重要性在于包装和主题，而不是新玩法本身。",
+      "images": [
+        {
+          "url": "https://www.bingoblitz.com/wp-content/uploads/2025/02/bingoblitz-americanidol-event.jpg",
+          "caption": "American Idol x Bingo Blitz Collaboration",
+          "source_url": "https://www.bingoblitz.com/news/american-idol-and-bingoblitz-collaboration/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+branded+live+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games branded live event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:28:09.994178+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了American Idol联动的宣传海报，虽然包含Bingo卡片装饰，但属于合成宣传图而非实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:40.435940+00:00"
+          }
+        },
+        {
+          "url": "https://mma.prnewswire.com/media/1893429/Playtika_Drew_Barrymore_1.jpg",
+          "caption": "Bingo Blitz Teams Up with A-List Host ...",
+          "source_url": "https://investors.playtika.com/news-releases/news-release-details/bingo-blitz-teams-list-host-drew-barrymore-reinvent-classic-game/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+branded+live+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games branded live event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:28:09.994178+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了与Drew Barrymore的品牌合作宣传图，属于典型的品牌包装活动封面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:40.435940+00:00"
+          }
+        },
+        {
+          "url": "https://www.bingoblitz.com/wp-content/uploads/2025/02/americanIdol-bingoblitz-inround-1024x576.jpg",
+          "caption": "American Idol x Bingo Blitz Collaboration",
+          "source_url": "https://www.bingoblitz.com/news/american-idol-and-bingoblitz-collaboration/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+branded+live+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games branded live event",
+          "width": 1024,
+          "height": 576,
+          "aspect_ratio": 1.7778,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:28:09.994178+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "虽然带有活动标题，但背景展示了American Idol主题的实际游戏对局界面，包含进度条和任务按钮等UI。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:40.435940+00:00"
+          }
+        },
+        {
+          "url": "https://mma.prnewswire.com/media/1893430/Playtika_Drew_Barrymore_2.jpg?p=facebook",
+          "caption": "Bingo Blitz Teams Up with A-List Host ...",
+          "source_url": "https://www.prnewswire.com/news-releases/bingo-blitz-teams-up-with-a-list-host-drew-barrymore-to-reinvent-the-classic-game-and-celebrate-that-bingo-is-everywhere-301619329.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+branded+live+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games branded live event",
+          "width": 310,
+          "height": 162,
+          "aspect_ratio": 1.9136,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:28:09.994178+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "真人代言人与虚拟角色的合成宣传图，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:40.435940+00:00"
+          }
+        },
+        {
+          "url": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/11/bingo-blitz-free-credit-links.jpg?w=1600&h=900&fit=crop",
+          "caption": "Free Bingo Blitz Credit Links (November ...",
+          "source_url": "https://gamerant.com/bingo-blitz-free-active-credit-links-gift/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=bingo+blitz+bingo+games+branded+live+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "bingo blitz bingo games branded live event",
+          "width": 1600,
+          "height": 900,
+          "aspect_ratio": 1.7778,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:28:09.994178+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "该图为游戏的通用品牌宣传图或加载图，未体现特定的American Idol或Drew Barrymore等品牌联动活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:40.435940+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "Bingo Blitz 的公开框架很成熟，核心由房间收集、稀有收集、每日锦标赛、皇冠赛、Slots 子模式、图册/故事收集和特色房间共同组成。AppsHunter 能看到联动、节日和促销节点，但这些更多是对已有系统的主题包装；房间奖励表与收藏推进仍然是它最核心的长期运营骨架。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T08:28:09.994178+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:34:40.435940+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

@@ -1,0 +1,974 @@
+{
+  "rank": 25,
+  "name": "NYT Games: Wordle & Crossword",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 NYT Games 官方页面、The New York Times Games / Wordle / Connections / Spelling Bee 等公开资料，以及 Puzzle Mania 线下/出版事件信息。由于 NYT Games 不是典型手游 LiveOps，按每日内容、订阅档、Archive、Stats/Streak、编辑部栏目和线下出版活动归类。",
+  "source_pages": [
+    {
+      "title": "NYT Games Official",
+      "url": "https://www.nytimes.com/crosswords",
+      "notes": "官方入口介绍 Crossword、Mini Crossword、Spelling Bee、Letter Boxed、Tiles、Wordle、Connections 等每日游戏，并强调订阅解锁更多访问。"
+    },
+    {
+      "title": "The New York Times Games - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_New_York_Times_Games",
+      "notes": "汇总 NYT Games 产品矩阵、每日游戏、Crossword archive、Mini、Spelling Bee、Connections、Wordle 等。"
+    },
+    {
+      "title": "Wordle - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wordle",
+      "notes": "确认 Wordle 的 one-puzzle-per-day、分享结果和 WordleBot 等核心机制。"
+    },
+    {
+      "title": "The New York Times Connections - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_New_York_Times_Connections",
+      "notes": "确认 Connections 是 NYT Games 的每日 category-matching puzzle。"
+    },
+    {
+      "title": "The New York Times Spelling Bee - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_New_York_Times_Spelling_Bee",
+      "notes": "确认 Spelling Bee 为 NYT Games 的每日文字游戏，围绕 pangram 和分数等级形成社区讨论。"
+    },
+    {
+      "title": "TechCrunch - NYT Games launches a Wordle archive",
+      "url": "https://techcrunch.com/2024/05/07/nyt-games-wordle-archive-access-1000-past-puzzles/",
+      "notes": "说明 Wordle archive 作为订阅价值扩展，让玩家访问大量历史谜题。"
+    },
+    {
+      "title": "Library Foundation of Los Angeles - Puzzle Mania with NYT Games",
+      "url": "https://lfla.org/event/puzzle-mania-with-the-new-york-times-games/",
+      "notes": "代表性线下/出版事件：NYT Games 编辑参与 Puzzle Mania! 图书发布活动。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "daily_puzzle_drop",
+      "display_name": "Daily Puzzle Drops / 每日谜题更新",
+      "description": "核心内容节奏是每天发布新的 Crossword、Mini、Wordle、Connections、Spelling Bee、Strands、Sudoku 等谜题。",
+      "examples": [
+        "Daily Crossword",
+        "The Mini",
+        "Wordle",
+        "Connections",
+        "Spelling Bee",
+        "Strands",
+        "Sudoku",
+        "Letter Boxed",
+        "Tiles"
+      ],
+      "market_research_notes": "NYT Games 的 LiveOps 更像媒体编辑日更，而不是限时活动。每日更新本身就是最强回流机制。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/QXDGA4zkli9V9-xPs3fT6qRjG7zSLpS0JlBWtvUP-ZxRHy7tmlIrzvzgAqgLru_brQ",
+          "caption": "NYT Games: Wordle & Crossword - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.nytimes.crossword",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+daily+puzzle+drop",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword daily puzzle drop",
+          "width": 166,
+          "height": 296,
+          "aspect_ratio": 0.5608,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:06:50.604958+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图片为游戏的App图标或通用品牌Logo，属于游戏相关但非特定活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:25.269541+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/GZ-yFFClbSows8bZP09Lu5bscOWOA6gH7goxZZ6VuSLYW7DgbqZzJ6DNmS5ijcJvsQ0=w526-h296-rw",
+          "caption": "NYT Games: Wordle & Crossword - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.nytimes.crossword",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+daily+puzzle+drop",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword daily puzzle drop",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:06:50.604958+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了Wordle谜题的实际玩法操作界面，属于每日谜题更新活动的核心内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:25.269541+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/_fh_u2o1d0737R_S9OerF6RUOy8kYSiDgmaGVg1H911kvyGO_amQo44RT7uvF8pXFE0=w526-h296-rw",
+          "caption": "NYT Games: Wordle & Crossword - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.nytimes.crossword",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+daily+puzzle+drop",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword daily puzzle drop",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:06:50.604958+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了数独（Sudoku）的实际玩法操作界面，包含难度选择和填字功能，属于每日更新内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:25.269541+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/9JF1SpdZxqd1_QujUWoIl0vw1N85Ci8F9h_HFu4eu8O0h6TuuBtcgcyGIGFWq7Zhbuk=w526-h296-rw",
+          "caption": "NYT Games: Wordle & Crossword - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.nytimes.crossword",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+daily+puzzle+drop",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword daily puzzle drop",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:06:50.604958+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "由于该游戏的核心活动即为每日更新谜题，此图展示了Wordle移动端实际拼字玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:25.269541+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/e-Jl5E7RmPduEeBjUjQVqydsca_K5YMiuvM8W7uimwOrQcdJINtAIqrXgcLBAryfzbY=w526-h296-rw",
+          "caption": "NYT Games: Wordle & Crossword – Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.nytimes.crossword&hl=en_SG",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+daily+puzzle+drop",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword daily puzzle drop",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:06:50.604958+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了填字游戏（Crossword）的实际玩法界面，文字描述明确指出每日解决新词汇谜题。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:25.269541+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "streak_stats",
+      "display_name": "Stats / Streaks / 分享结果",
+      "description": "玩家围绕每日完成、连续天数、胜率、解题分布和 emoji 分享结果形成长期目标和社交传播。",
+      "examples": [
+        "Wordle streak",
+        "Crossword stats",
+        "Connections results sharing",
+        "Spelling Bee Genius / Queen Bee"
+      ],
+      "market_research_notes": "这相当于 NYT Games 的轻量活动奖励系统：没有道具经济，但有强习惯、身份展示和社交炫耀。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/nyt-games-app-bring-back-the-old-stats-chart-v0-ls3qawdjcdxg1.jpg?width=640&crop=smart&auto=webp&s=0ff59d8ecdd94c0b1bbe3555f697d64bc3191607",
+          "caption": "NYT Games app: Bring back the old stats ...",
+          "source_url": "https://www.reddit.com/r/NYTCrossword/comments/1svhsl9/nyt_games_app_bring_back_the_old_stats_chart/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+streak+stats",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword streak stats",
+          "width": 157,
+          "height": 322,
+          "aspect_ratio": 0.4876,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:07:43.247534+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了NYT Games应用内包含Crossword, Spelling Bee, Wordle在内的综合统计界面，包含明确的连胜(Streak)数据。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:28.970091+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/9FSQUlRZF03GUf_njnm44GGCP_GQphiPWmxtIt3Cw-EHgHf0o0T1gUF9ay_k8yVf_BoU=w526-h296-rw",
+          "caption": "NYT Games: Wordle & Crossword - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.nytimes.crossword",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+streak+stats",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword streak stats",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:07:43.247534+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "这是Google Play商店的宣传图，虽然提到了badges和streaks，但主要作为功能宣传海报，非实际游戏内玩法截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:28.970091+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/1541-lost-my-streak-after-1541-days-gg-v0-1c048fa51p0h1.jpeg?width=640&crop=smart&auto=webp&s=a0f3a085d5a36991f04fd99f115202337e06f12d",
+          "caption": "Wordle - A Daily Word Game",
+          "source_url": "https://www.reddit.com/r/wordle/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+streak+stats",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword streak stats",
+          "width": 162,
+          "height": 311,
+          "aspect_ratio": 0.5209,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:07:43.247534+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了Wordle具体的统计数据界面，包含详细的Max Streak、徽章(Badges)及猜测分布(Guess Distribution)。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:28.970091+00:00"
+          }
+        },
+        {
+          "url": "https://assetsio.gnwcdn.com/wordle-stats-worry-error_O3XFcQk.png?width=690&quality=85&format=jpg&dpr=3&auto=webp",
+          "caption": "Some Wordle players lost streaks or ...",
+          "source_url": "https://www.rockpapershotgun.com/some-wordle-players-lost-streaks-or-stats-when-it-moved-to-the-nyt",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+streak+stats",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword streak stats",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:07:43.247534+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.7,
+            "reason": "虽然图片标题提到Wordle Stats，但图片本身仅为Wordle的基础填词玩法界面，没有展现连胜或统计信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:28.970091+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/GZ-yFFClbSows8bZP09Lu5bscOWOA6gH7goxZZ6VuSLYW7DgbqZzJ6DNmS5ijcJvsQ0=w526-h296-rw",
+          "caption": "NYT Games: Wordle & Crossword - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.nytimes.crossword",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+streak+stats",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword streak stats",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:07:43.247534+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "这是商店渠道的通用宣传截图，展示的是Wordle的基础填词玩法，不包含统计、连胜或分享等活动特定界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:28.970091+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "archive_subscription",
+      "display_name": "Archive / 订阅历史题库",
+      "description": "订阅者可访问历史 Crossword、Wordle 等 archive，补做错过的谜题或进行长期解题。",
+      "examples": [
+        "Crossword Archive",
+        "Wordle Archive",
+        "Connections Archive",
+        "Strands Archive"
+      ],
+      "market_research_notes": "Archive 是订阅转化的关键内容资产。它把“一天一题”的稀缺节奏扩展为深度内容库。",
+      "images": [
+        {
+          "url": "http://store.nytimes.com/cdn/shop/files/AllAccessSubscriptionSet-PuzzleMania_grande.jpg?v=1762273707",
+          "caption": "Games Subscription Gift Set – The New ...",
+          "source_url": "https://store.nytimes.com/products/games-subscription-gift-set",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+archive+subscription",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword archive subscription",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:08:10.482943+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示了游戏的实体周边和通用的Crossword玩法界面，不涉及特定的Archive历史题库功能或订阅界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:31.798587+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/QXDGA4zkli9V9-xPs3fT6qRjG7zSLpS0JlBWtvUP-ZxRHy7tmlIrzvzgAqgLru_brQ",
+          "caption": "NYT Games: Wordle & Crossword - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.nytimes.crossword",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+archive+subscription",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword archive subscription",
+          "width": 166,
+          "height": 296,
+          "aspect_ratio": 0.5608,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:08:10.482943+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片为游戏的App图标，属于通用品牌图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:31.798587+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/QXDGA4zkli9V9-xPs3fT6qRjG7zSLpS0JlBWtvUP-ZxRHy7tmlIrzvzgAqgLru_brQ=w240-h480-rw",
+          "caption": "NYT Games: Wordle & Crossword – Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details/NYT_Games_Word_Games_Sudoku?id=com.nytimes.crossword&hl=en_ZA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+archive+subscription",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword archive subscription",
+          "width": 240,
+          "height": 480,
+          "aspect_ratio": 0.5,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:08:10.482943+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片为游戏的App图标，属于通用品牌图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:31.798587+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/_fh_u2o1d0737R_S9OerF6RUOy8kYSiDgmaGVg1H911kvyGO_amQo44RT7uvF8pXFE0=w526-h296-rw",
+          "caption": "NYT Games: Wordle & Crossword - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.nytimes.crossword",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+archive+subscription",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword archive subscription",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:08:10.482943+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "商店宣传图，展示的是通用的Sudoku玩法界面，并未体现Archive历史订阅功能。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:31.798587+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/GZ-yFFClbSows8bZP09Lu5bscOWOA6gH7goxZZ6VuSLYW7DgbqZzJ6DNmS5ijcJvsQ0=w526-h296-rw",
+          "caption": "NYT Games: Wordle & Crossword - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.nytimes.crossword",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+archive+subscription",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword archive subscription",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:08:10.482943+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "商店宣传图，展示的是通用的Wordle玩法界面，并未体现Archive历史订阅功能。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:31.798587+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "subscriber_gating",
+      "display_name": "订阅权益 / Paywall",
+      "description": "不同游戏和功能有免费试玩、每日免费、订阅解锁完整内容或历史内容的差异。",
+      "examples": [
+        "NYT Games subscription",
+        "subscriber-only puzzles",
+        "limited free Spelling Bee progress",
+        "archive access"
+      ],
+      "market_research_notes": "NYT Games 的商业化不是礼包/抽卡，而是订阅内容墙；应记录免费体验边界和订阅权益。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/QXDGA4zkli9V9-xPs3fT6qRjG7zSLpS0JlBWtvUP-ZxRHy7tmlIrzvzgAqgLru_brQ",
+          "caption": "NYT Games: Wordle & Crossword - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.nytimes.crossword",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+subscriber+gating",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword subscriber gating",
+          "width": 166,
+          "height": 296,
+          "aspect_ratio": 0.5608,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:08:32.615520+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片为NYT Games的官方品牌Logo及通用视觉设计，属于游戏通用品牌图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:36.513126+00:00"
+          }
+        },
+        {
+          "url": "http://store.nytimes.com/cdn/shop/files/AllAccessSubscriptionSet-PuzzleMania_grande.jpg?v=1762273707",
+          "caption": "Games Subscription Gift Set – The New ...",
+          "source_url": "https://store.nytimes.com/products/games-subscription-gift-set",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+subscriber+gating",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword subscriber gating",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:08:32.615520+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "图片展示了订阅礼赠套装，直接关联订阅权益活动，但属于营销实物拍摄/宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:36.513126+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/7x9PoH0-T7QepNqzu3hUy0tJQ0ylwUhmIZtncKgf7SaTzrAy78kAhOn-dv4Ql_MdBQEdyC53K0ztep6vLKNFuA=w648-h364-rw",
+          "caption": "NYT Games: Wordle & Crossword – Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details/NYT_Games_Word_Games_Sudoku?id=com.nytimes.crossword&hl=en_NZ",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+subscriber+gating",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword subscriber gating",
+          "width": 648,
+          "height": 364,
+          "aspect_ratio": 1.7802,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:08:32.615520+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "普通的填字游戏玩展示截图，无法明确其与“订阅墙/权益”的具体关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:36.513126+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/VnWHcjCp7Dg/maxresdefault.jpg",
+          "caption": "📰​ NYT Games Wordle & Crossword: The ...",
+          "source_url": "https://www.youtube.com/watch?v=VnWHcjCp7Dg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+subscriber+gating",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword subscriber gating",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:08:32.615520+00:00",
+          "llm_image_filter": {
+            "category": 2,
+            "category_label": "无法确定是否和本游戏无关",
+            "confidence": 0.7,
+            "reason": "图片虽然提到几乎无广告和用户量，具有商业化分析属性，但更接近第三方测评或新闻分析图，难以定性为活动图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:36.513126+00:00"
+          }
+        },
+        {
+          "url": "https://sm.lifehacker.com/t/lifehacker_au/news/n/nyt-games-/nyt-games-subscribers-can-now-make-custom-wordles-for-their_twsc.1200.jpg",
+          "caption": "NYT Games Subscribers Can Now Make ...",
+          "source_url": "https://au.lifehacker.com/daily-games/116487/news/nyt-games-subscribers-can-now-make-custom-wordles-for-their-friends",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+subscriber+gating",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword subscriber gating",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:08:32.615520+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.8,
+            "reason": "展示了只有订阅者才能使用的‘自定义Wordle’功能的引导/结果界面，关联具体订阅权益活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:36.513126+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "editorial_hint_companion",
+      "display_name": "Hints / Buddy / 编辑伴随内容",
+      "description": "围绕每日谜题提供提示、解析、编辑部栏目、WordleBot 或 Spelling Bee Buddy 等伴随工具。",
+      "examples": [
+        "WordleBot",
+        "Spelling Bee Buddy",
+        "daily hints",
+        "Connections Companion",
+        "crossword columns"
+      ],
+      "market_research_notes": "这些不是游戏内活动，但它们延长了每日谜题的参与时长，并把失败/卡关转化为内容消费。",
+      "images": [
+        {
+          "url": "https://static01.nyt.com/images/2026/05/12/crosswords/13wordle-review-art-1789/13wordle-review-art-1789-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
+          "caption": "Today's Wordle Hints for May 13, 2026 ...",
+          "source_url": "https://www.nytimes.com/2026/05/12/crosswords/wordle-review-1789.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+editorial+hint+companion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword editorial hint companion",
+          "width": 275,
+          "height": 183,
+          "aspect_ratio": 1.5027,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:09:02.203655+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图是 NYT Games 为 Wordle 每日分析（Wordle Review）定制的宣传插画，属于编辑伴随内容的配图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:40.870685+00:00"
+          }
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/01/31/crosswords/wordle-art/wordle-art-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
+          "caption": "How Wordle Went From Viral Sensation to ...",
+          "source_url": "https://www.nytimes.com/2022/01/31/crosswords/nyt-wordle-purchase.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+editorial+hint+companion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword editorial hint companion",
+          "width": 249,
+          "height": 202,
+          "aspect_ratio": 1.2327,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:09:02.203655+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是 Wordle 游戏的经典玩法界面截图，虽然被用于新闻，但本身展示的是基础玩法而非特定的提示或伴随工具界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:40.870685+00:00"
+          }
+        },
+        {
+          "url": "https://static01.nyt.com/images/2026/03/12/crosswords/13connections-art-1088/13connections-art-1088-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
+          "caption": "NYT Connections Answers for March 13 ...",
+          "source_url": "https://www.nytimes.com/2026/03/12/crosswords/connections-companion-1006.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+editorial+hint+companion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword editorial hint companion",
+          "width": 275,
+          "height": 183,
+          "aspect_ratio": 1.5027,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:09:02.203655+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图是 Connections 游戏伴随工具（Connections Companion）的专用宣传插画。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:40.870685+00:00"
+          }
+        },
+        {
+          "url": "https://static01.nyt.com/images/2026/03/12/crosswords/13wordle-review-art-1728/13wordle-review-art-1728-verticalTwoByThree735.png",
+          "caption": "Today's Hints for March 13, 2026 - The ...",
+          "source_url": "https://www.nytimes.com/2026/03/12/crosswords/wordle-review-1728.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+editorial+hint+companion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword editorial hint companion",
+          "width": 183,
+          "height": 275,
+          "aspect_ratio": 0.6655,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:09:02.203655+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图是 Wordle Review 第1728期的文章海报。显示了特定日期和编号，属于编辑提示类内容的宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:40.870685+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/QXDGA4zkli9V9-xPs3fT6qRjG7zSLpS0JlBWtvUP-ZxRHy7tmlIrzvzgAqgLru_brQ",
+          "caption": "NYT Games: Wordle & Crossword – Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details/NYTimes_Crossword?id=com.nytimes.crossword&hl=en_IN",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+editorial+hint+companion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword editorial hint companion",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:09:02.203655+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 1.0,
+            "reason": "这是 NYT Games 应用的官方商店图标，属于通用品牌图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:40.870685+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "puzzle_mania_publication",
+      "display_name": "Puzzle Mania / 线下与出版事件",
+      "description": "NYT Games 会围绕 Puzzle Mania! 等实体书、线下访谈、活动和周边进行品牌事件。",
+      "examples": [
+        "Puzzle Mania!",
+        "NYT Games Collection",
+        "book launch event",
+        "Games merchandise"
+      ],
+      "market_research_notes": "这是 NYT Games 较接近传统“活动”的部分，但更偏媒体品牌运营和电商，而不是手游 LiveOps。",
+      "images": [
+        {
+          "url": "https://i.ebayimg.com/images/g/uXYAAeSwK89p39xf/s-l1200.jpg",
+          "caption": "The New York Times Games PUZZLE MANIA ...",
+          "source_url": "https://www.ebay.com/itm/157836158395",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+puzzle+mania+publication",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword puzzle mania publication",
+          "width": 175,
+          "height": 288,
+          "aspect_ratio": 0.6076,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:09:28.642967+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图是 Puzzle Mania! 实体书出版物的封面，属于描述中的线下与出版事件宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:44.299189+00:00"
+          }
+        },
+        {
+          "url": "https://i.ebayimg.com/images/g/48YAAeSwctZp39xe/s-l400.jpg",
+          "caption": "The New York Times Games PUZZLE MANIA ...",
+          "source_url": "https://www.ebay.com/itm/157836158395",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+puzzle+mania+publication",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword puzzle mania publication",
+          "width": 199,
+          "height": 253,
+          "aspect_ratio": 0.7866,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:09:28.642967+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "该图是 Puzzle Mania! 出版物的内页介绍，属于活动的介绍性内容，非手游内实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:44.299189+00:00"
+          }
+        },
+        {
+          "url": "http://store.nytimes.com/cdn/shop/files/puzzlemania-cover_grande.jpg?v=1759944033",
+          "caption": "Puzzle Mania! Wordle, Connections ...",
+          "source_url": "https://store.nytimes.com/products/puzzle-mania-book",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+puzzle+mania+publication",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword puzzle mania publication",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:09:28.642967+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图是 Puzzle Mania! 实体书的正视图，作为活动相关出版物的商品展示图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:44.299189+00:00"
+          }
+        },
+        {
+          "url": "http://friendsnyc.com/cdn/shop/files/puzzle-mania-wordle-connections-spelling-bee-minis-more-simon-535.webp?v=1777307181",
+          "caption": "Puzzle Mania! NYT Wordle, Connections ...",
+          "source_url": "https://friendsnyc.com/products/puzzle-mania?srsltid=AfmBOoo7JNNlqgUxzkOtMJJM6aJy7ZeCn6PNpBk6M81U9g7aoC8fyWzd",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+puzzle+mania+publication",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword puzzle mania publication",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:09:28.642967+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图是 Puzzle Mania! 实体书的立体展示图，属于活动相关周边的宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:44.299189+00:00"
+          }
+        },
+        {
+          "url": "https://store.nytimes.com/cdn/shop/files/puzzlemania-open-1_1024x1024.jpg?v=1759944044",
+          "caption": "Puzzle Mania! Wordle, Connections ...",
+          "source_url": "https://store.nytimes.com/products/puzzle-mania-book",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+puzzle+mania+publication",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword puzzle mania publication",
+          "width": 1024,
+          "height": 1024,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:09:28.642967+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "该图展示了 Puzzle Mania! 实体书的内容索引页，属于出版物的介绍性信息，非手游内玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:44.299189+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "community_discussion",
+      "display_name": "社区每日讨论",
+      "description": "玩家每天围绕当前谜题在线讨论提示、答案、难度、pangram、分类和 streak 体验。",
+      "examples": [
+        "daily Wordle discussion",
+        "daily Connections discussion",
+        "Spelling Bee Hive",
+        "Crossword discussion"
+      ],
+      "market_research_notes": "NYT Games 的社交扩散主要发生在外部社区和分享图，而不是游戏内公会/排行榜。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/nyt-games-discussion-megathread-v0-nnyun1stra5g1.jpeg?width=1125&format=pjpg&auto=webp&s=78ff428cc1610134c4c098f16d71f4c1ce8c58c8",
+          "caption": "NYT Games Discussion Megathread : r ...",
+          "source_url": "https://www.reddit.com/r/lonelymeyerspod/comments/1oja00c/nyt_games_discussion_megathread/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+community+discussion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword community discussion",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:09:58.560162+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片为NYT Games内Strands游戏的实际玩法截图，虽然属于游戏内容，但并未体现社区每日讨论这一特定活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:49.027674+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/nyt-games-discussion-megathread-v0-olrq0u9hw25g1.png?width=1019&format=png&auto=webp&s=b010d8188b3ec9ba1c7782756b8eb0a22de84854",
+          "caption": "NYT Games Discussion Megathread : r ...",
+          "source_url": "https://www.reddit.com/r/lonelymeyerspod/comments/1oja00c/nyt_games_discussion_megathread/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+community+discussion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword community discussion",
+          "width": 174,
+          "height": 290,
+          "aspect_ratio": 0.6,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:09:58.560162+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片为Strands游戏的夜间模式玩法截图，属于游戏常规内容，而非社区讨论活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:49.027674+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/VnWHcjCp7Dg/maxresdefault.jpg",
+          "caption": "📰​ NYT Games Wordle & Crossword: The ...",
+          "source_url": "https://www.youtube.com/watch?v=VnWHcjCp7Dg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+community+discussion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword community discussion",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:09:58.560162+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "图片为YouTube视频封面，展示了NYT Games的多种游戏，属于通用品牌宣传，与特定社区讨论活动弱相关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:49.027674+00:00"
+          }
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/01/31/crosswords/wordle-art/wordle-art-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
+          "caption": "How Wordle Went From Viral Sensation to ...",
+          "source_url": "https://www.nytimes.com/2022/01/31/crosswords/nyt-wordle-purchase.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+community+discussion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword community discussion",
+          "width": 249,
+          "height": 202,
+          "aspect_ratio": 1.2327,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:09:58.560162+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片为Wordle游戏的通用宣传图，用于新闻报道，不涉及社区讨论的具体玩法或界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:49.027674+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/nyt-games-discussion-megathread-v0-yax4j3l2w45g1.jpeg?width=1179&format=pjpg&auto=webp&s=a3203d9b02c6b95429aea8573fb180ef0eda9695",
+          "caption": "NYT Games Discussion Megathread : r ...",
+          "source_url": "https://www.reddit.com/r/lonelymeyerspod/comments/1oja00c/nyt_games_discussion_megathread/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=nyt+games+wordle+crossword+community+discussion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "nyt games wordle crossword community discussion",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:09:58.560162+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片为Strands游戏完成后的结算界面，属于单人游戏流程，非社区讨论活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:49.027674+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "NYT Games 不应按常规手游活动表硬套。程序化版本误抓了大量无关 Wikipedia 页面，本轮已改为内容运营/订阅产品视角；后续可为每个具体游戏补免费/订阅边界和 archive 状态。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T06:09:58.560708+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:18:49.027674+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

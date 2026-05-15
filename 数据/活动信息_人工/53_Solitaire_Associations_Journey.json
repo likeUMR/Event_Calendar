@@ -1,0 +1,561 @@
+{
+  "rank": 53,
+  "name": "Solitaire Associations Journey",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 Google Play、App Store 和社区答案站，重点确认公开可见的活动是否真实存在；结论是当前公开证据显示它更偏持续加关卡的内容型产品，而不是活动型产品。",
+  "source_pages": [
+    {
+      "title": "Google Play - Solitaire Associations Journey",
+      "url": "https://play.google.com/store/apps/details?hl=en_US&id=com.hitappsgames.wordsolitaire",
+      "notes": "确认核心循环是 category card + word card 的 word solitaire 关卡玩法，强调 hundreds of levels、limited moves、offline play。"
+    },
+    {
+      "title": "App Store - Solitaire Associations Journey",
+      "url": "https://apps.apple.com/us/app/solitaire-associations-words/id6748950306",
+      "notes": "App Store 页面可确认产品定位和客服邮箱，但没有看到丰富的活动列表。"
+    },
+    {
+      "title": "AppsHunter - Solitaire Associations Journey App Page",
+      "url": "https://appshunter.io/ios/app/6748950306",
+      "notes": "公开事件流很少，主要能看到“Locked Cards”和“Solitaire”这类 major update 级内容。"
+    },
+    {
+      "title": "AppsHunter - Locked Cards",
+      "url": "https://appshunter.io/events/6757184287",
+      "notes": "摘要显示为可解锁 blocked cards 的 major update，更像新机制/新关卡更新，而不是独立 live ops 活动。"
+    },
+    {
+      "title": "SolitaireAssociations.net",
+      "url": "https://www.solitaireassociations.net/",
+      "notes": "社区答案站，能验证该游戏的主内容长期以新增关卡和题库为核心，站点持续按 level 更新答案。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "level_content_update",
+      "display_name": "关卡内容更新 / Level Content Update",
+      "description": "目前最明确的“活动形态”其实是不断新增关卡、词库和题目组合，而不是大量独立节庆活动。",
+      "examples": [
+        "new levels",
+        "new word sets",
+        "Solitaire major update"
+      ],
+      "market_research_notes": "从公开面上看，这款产品更像以内容扩容驱动留存的轻度词游，而不是靠复杂 live ops 做收入提升。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/tWNhH7zPaBo/maxresdefault.jpg",
+          "caption": "Solitaire Associations Journey Levels 1 ...",
+          "source_url": "https://www.youtube.com/watch?v=tWNhH7zPaBo",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=solitaire+associations+journey+level+content+update",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "solitaire associations journey level content update",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:39:33.194764+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了游戏的实际玩法界面，且明确对应活动描述中的新关卡内容（Level 2, 3, 4）。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:21.065458+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/tqOu2Psy4b8/maxresdefault.jpg",
+          "caption": "Solitaire Associations Journey Level 3 ...",
+          "source_url": "https://www.youtube.com/watch?v=tqOu2Psy4b8",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=solitaire+associations+journey+level+content+update",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "solitaire associations journey level content update",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:39:33.194764+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图片为视频封面宣传图，虽然包含玩法元素，但主要目的是展示游戏标题和关卡编号，属于宣传海报性质。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:21.065458+00:00"
+          }
+        },
+        {
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob6fw.jpg",
+          "caption": "Solitaire Associations Journey (2025)",
+          "source_url": "https://backloggd.com/games/solitaire-associations-journey/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=solitaire+associations+journey+level+content+update",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "solitaire associations journey level content update",
+          "width": 194,
+          "height": 259,
+          "aspect_ratio": 0.749,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:39:33.194764+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图仅为游戏的Logo/品牌图，未体现具体的关卡更新活动内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:21.065458+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/1VLfslbWk6k/maxresdefault.jpg",
+          "caption": "Solitaire Associations Journey - Levels ...",
+          "source_url": "https://www.youtube.com/watch?v=1VLfslbWk6k",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=solitaire+associations+journey+level+content+update",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "solitaire associations journey level content update",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:39:33.194764+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了游戏的实际玩法（Level 10），属于活动描述中关卡内容更新的范畴。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:21.065458+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/HDgUoM_-Rlk/maxresdefault.jpg",
+          "caption": "Word Solitaire Puzzle Answers ...",
+          "source_url": "https://www.youtube.com/watch?v=HDgUoM_-Rlk",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=solitaire+associations+journey+level+content+update",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "solitaire associations journey level content update",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:39:33.194764+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "明确标注了Level 211 to 220的关卡更新宣传，包含App图标和文字说明，属于典型的活动宣传封面图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:21.065458+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "mechanic_update",
+      "display_name": "玩法机制更新 / Mechanic Update",
+      "description": "公开事件中能看到“Locked Cards”这类带玩法限制或新规则的版本更新，属于机制层改动。",
+      "examples": [
+        "Locked Cards"
+      ],
+      "market_research_notes": "这类更新更像产品版本 feature，而不是传统手游里的限时活动；但从市场调研角度，它确实承担了阶段性新鲜感供给。",
+      "images": [
+        {
+          "url": "https://cdn.soft112.com/word-solitaire-associations/00/00/0H/ZU/00000HZUAL/pad_screenshot_V4O8I5R0O3.webp",
+          "caption": "Solitaire Associations Journey 1.9.0 ...",
+          "source_url": "https://word-solitaire-associations.soft112.com/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=solitaire+associations+journey+mechanic+update",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "solitaire associations journey mechanic update",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:39:58.865140+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示了游戏的常规玩法界面，但未体现Locked Cards等特定更新机制。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:24.441129+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/NriyZiaH8BOtRSXqY-B0C5d4wwTTz3LcEL71PewdQPxappaD42RQUSAymF1fqGCdm0Ocq8ycjpfF_LLC3Wt4",
+          "caption": "Solitaire Associations Journey - Apps ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.hitappsgames.wordsolitaire",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=solitaire+associations+journey+mechanic+update",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "solitaire associations journey mechanic update",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:39:58.865140+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "游戏Icon或通用的宣传宣传图，与特定机制更新无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:24.441129+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/gqQRbQ1fTPk/maxresdefault.jpg",
+          "caption": "Solitaire Associations Level 31 ...",
+          "source_url": "https://www.youtube.com/watch?v=gqQRbQ1fTPk",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=solitaire+associations+journey+mechanic+update",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "solitaire associations journey mechanic update",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:39:58.865140+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "YouTube视频封面，展示的是常规关卡31，未见特定的新机制元素。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:24.441129+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/Rq_p0489RtuXJ5ns_zwEDzl3sdTQyWQtQxy27GBSN4W2EVp49H2MepOQUL1BBXYW7SfhqAC6bTBH2pwg4fdIBSQ=w526-h296-rw",
+          "caption": "Solitaire Associations Journey - Apps ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.hitappsgames.wordsolitaire",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=solitaire+associations+journey+mechanic+update",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "solitaire associations journey mechanic update",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:39:58.865140+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图片明确展示了‘Locked Cards’（带锁的卡牌）实际玩法界面，符合活动描述中的机制更新。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:24.441129+00:00"
+          }
+        },
+        {
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob6fw.jpg",
+          "caption": "Solitaire Associations Journey (2025)",
+          "source_url": "https://backloggd.com/games/solitaire-associations-journey/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=solitaire+associations+journey+mechanic+update",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "solitaire associations journey mechanic update",
+          "width": 194,
+          "height": 259,
+          "aspect_ratio": 0.749,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:39:58.865140+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "纯游戏标题Logo图，属于通用品牌图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:24.441129+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "hint_assist_loop",
+      "display_name": "提示辅助循环 / Hint & Recovery Loop",
+      "description": "官方公开文案和社区 FAQ 都能确认游戏内有 Hint 功能，玩家在卡关时可依赖提示推进。",
+      "examples": [
+        "Hint feature"
+      ],
+      "market_research_notes": "这不是活动，但对这种关卡型词游来说，它是最重要的变现和续玩缓冲结构之一，因此值得在活动信息里单独标注。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/2irnBdr607w/maxresdefault.jpg",
+          "caption": "Solitaire Associations Level 3 Solution ...",
+          "source_url": "https://www.youtube.com/watch?v=2irnBdr607w",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=solitaire+associations+journey+hint+assist+loop",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "solitaire associations journey hint assist loop",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:40:17.761644+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "属于该游戏的关卡解说封面图，展示了核心玩法，但未直接体现Hint（提示）功能界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:28.134602+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/-LvI-eaMPyQ/maxresdefault.jpg",
+          "caption": "Solitaire Associations Journey Level 4 ...",
+          "source_url": "https://www.youtube.com/watch?v=-LvI-eaMPyQ",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=solitaire+associations+journey+hint+assist+loop",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "solitaire associations journey hint assist loop",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:40:17.761644+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "属于该游戏的关卡解说视频封面，仅展示基础拼词界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:28.134602+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/gwkEog4RQAs/maxresdefault.jpg",
+          "caption": "Solitaire Associations Journey Level 1 ...",
+          "source_url": "https://www.youtube.com/watch?v=gwkEog4RQAs",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=solitaire+associations+journey+hint+assist+loop",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "solitaire associations journey hint assist loop",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:40:17.761644+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "属于该游戏的关卡流程截图，是通用分屏UI，未明确体现提示辅助功能。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:28.134602+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/1VLfslbWk6k/maxresdefault.jpg",
+          "caption": "Solitaire Associations Journey - Levels ...",
+          "source_url": "https://www.youtube.com/watch?v=1VLfslbWk6k",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=solitaire+associations+journey+hint+assist+loop",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "solitaire associations journey hint assist loop",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:40:17.761644+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "游戏实际关卡玩法截图，体现了核心玩法，但未突出展示Hint相关道具或按钮。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:28.134602+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/NriyZiaH8BOtRSXqY-B0C5d4wwTTz3LcEL71PewdQPxappaD42RQUSAymF1fqGCdm0Ocq8ycjpfF_LLC3Wt4",
+          "caption": "Solitaire Associations Journey - Apps ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.hitappsgames.wordsolitaire",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=solitaire+associations+journey+hint+assist+loop",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "solitaire associations journey hint assist loop",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:40:17.761644+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.98,
+            "reason": "该游戏的App图标或商店展示图，属于通用品牌/宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:28.134602+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "core_word_solitaire_progression",
+      "display_name": "词语接龙式主关卡 / Core Word-Solitaire Progression",
+      "description": "每关以有限步数整理 category card 和 word card，目标是在卡位和步数限制下完成分类收纳。",
+      "examples": [
+        "base puzzle levels"
+      ],
+      "market_research_notes": "由于公开证据不足，我没有把它硬写成‘节庆活动丰富的产品’。更可信的判断是：其 live ops 目前较轻，重点仍在关卡堆量。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/tWNhH7zPaBo/maxresdefault.jpg",
+          "caption": "Solitaire Associations Journey Levels 1 ...",
+          "source_url": "https://www.youtube.com/watch?v=tWNhH7zPaBo",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=solitaire+associations+journey+core+word+solitaire+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "solitaire associations journey core word solitaire progression",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:40:37.962842+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了游戏的实际核心玩法界面，包含步数、关卡数及卡牌分类堆叠，属于词语接龙主关卡。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:33.116432+00:00"
+          }
+        },
+        {
+          "url": "https://pg.io/pg-io/store-games/fe67d35f-49fe-4fc2-bf35-5692982d5c81/header.jpg",
+          "caption": "Solitaire Associations Journey — Play ...",
+          "source_url": "https://pg.io/store-game/solitaire-associations-journey",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=solitaire+associations+journey+core+word+solitaire+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "solitaire associations journey core word solitaire progression",
+          "width": 321,
+          "height": 157,
+          "aspect_ratio": 2.0446,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:40:37.962842+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "这是游戏的商店页或宣传用Header图，虽然展示了核心玩法元素，但属于非实机操作的海报类图片。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:33.116432+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/eOU5HE9XP3OL5T3XVB9Vr5EtGXXmbgQx12YYvvrmvT4y3VbDX6GLeoZmjrWlgTHODnh5R_UBiFDatn2pfB7Miw",
+          "caption": "Solitaire Word Associations - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.games.card.wordsolitaire",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=solitaire+associations+journey+core+word+solitaire+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "solitaire associations journey core word solitaire progression",
+          "width": 166,
+          "height": 296,
+          "aspect_ratio": 0.5608,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:40:37.962842+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是游戏的App图标或品牌标识物，符合判定要求中选3的定义。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:33.116432+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/PUDEQBKAj0A/maxresdefault.jpg",
+          "caption": "Solitaire Associations Level 6 Solution ...",
+          "source_url": "https://www.youtube.com/watch?v=PUDEQBKAj0A",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=solitaire+associations+journey+core+word+solitaire+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "solitaire associations journey core word solitaire progression",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:40:37.962842+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "展示了第6关的具体实机玩法界面，符合词语分类和接龙的核心玩法描述。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:33.116432+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/1VLfslbWk6k/maxresdefault.jpg",
+          "caption": "Solitaire Associations Journey - Levels ...",
+          "source_url": "https://www.youtube.com/watch?v=1VLfslbWk6k",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=solitaire+associations+journey+core+word+solitaire+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "solitaire associations journey core word solitaire progression",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:40:37.962842+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了第10关的实机界面，包含UI元素和词语卡牌收纳玩法。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:33.116432+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "这 5 个游戏里，53 的公开活动证据最弱。我没有找到像 51/52/54/55 那样清晰的事件流、官方活动贴或 wiki 汇总，因此这份手工稿明确给出保守结论：它更像内容更新驱动的关卡产品，公开可验证的 live ops 类型非常有限。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T08:40:37.962842+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:36:33.116432+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

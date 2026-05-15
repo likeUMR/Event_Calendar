@@ -1,0 +1,24 @@
+{
+  "rank": 24,
+  "name": "Clash of Clans",
+  "source_confidence": "high",
+  "source_notes": null,
+  "collected_at": "2026-05-12T04:00:45.137Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Clash of Clans Wiki - Events",
+      "source_type": "fandom",
+      "source_url": "https://clashofclans.fandom.com/wiki/Events",
+      "status": 403,
+      "error": "fetch_failed"
+    }
+  ],
+  "event_detail_pages": [],
+  "event_catalog": [],
+  "inferred_event_type_summary": [],
+  "screenshots_or_images": [],
+  "collection_warnings": [
+    "Fetch failed: https://clashofclans.fandom.com/wiki/Events"
+  ]
+}

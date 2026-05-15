@@ -1,0 +1,90 @@
+{
+  "rank": 2,
+  "name": "Royal Match",
+  "source_confidence": "high",
+  "source_notes": null,
+  "collected_at": "2026-05-12T03:58:33.928Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Royal Match Wiki - Events",
+      "source_type": "fandom",
+      "source_url": "https://royalmatch.fandom.com/wiki/Category:Events",
+      "fetched_url": "https://royalmatch.fandom.com/wiki/Category:Events",
+      "status": 200,
+      "page_title": "Events",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Remembrance Festival",
+        "Events Competition Solo 🏆 King's Cup",
+        "Challenge Solo 🚁 Propeller Madness",
+        "Team ⚓️ Team Treasure",
+        "Remembrance Festival",
+        "Events Competition Solo 🏆 King's Cup",
+        "Challenge Solo 🚁 Propeller Madness",
+        "Team ⚓️ Team Treasure",
+        "Competition , Solo : King's Cup | Royal League | Sky Race | Lightning Rush | Space Mission | Weekly Contest | Archery Arena | Lava Quest Competition , Team : Team Battle | Team Tournament Challenge , Solo : Propeller Madness | Book of Treasure | Pinata Party | Balloon Rise | Magic Cauldron | Hidden Temple | Duke's Fortune | Ocean Odyssey | Ancient Adventure | Mission Pursuit | Mission Control Challenge , Team : Team Treasure Challenge , Co-op : Dragon Nest | Train Journey",
+        "Category:Solo Events",
+        "Category:Team Events"
+      ],
+      "inferred_event_types": [
+        "tournament_competition",
+        "team_alliance",
+        "seasonal_festival"
+      ],
+      "images": []
+    }
+  ],
+  "event_detail_pages": [
+    {
+      "title": "Skip to content",
+      "url": "https://royalmatch.fandom.com/wiki/Category:Events#page-header",
+      "discovered_from": "https://royalmatch.fandom.com/wiki/Category:Events",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "title": "Purge",
+      "url": "https://royalmatch.fandom.com/wiki/Category:Events?action=purge",
+      "discovered_from": "https://royalmatch.fandom.com/wiki/Category:Events",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "title": "Category:Solo Events",
+      "url": "https://royalmatch.fandom.com/wiki/Category:Solo_Events",
+      "discovered_from": "https://royalmatch.fandom.com/wiki/Category:Events",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "title": "Category:Team Events",
+      "url": "https://royalmatch.fandom.com/wiki/Category:Team_Events",
+      "discovered_from": "https://royalmatch.fandom.com/wiki/Category:Events",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "title": "All Pages",
+      "url": "https://royalmatch.fandom.com/wiki/Special:AllPages",
+      "discovered_from": "https://royalmatch.fandom.com/wiki/Category:Events",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "title": "Community",
+      "url": "https://royalmatch.fandom.com/wiki/Special:Community",
+      "discovered_from": "https://royalmatch.fandom.com/wiki/Category:Events",
+      "status": 403,
+      "error": "fetch_failed"
+    }
+  ],
+  "event_catalog": [],
+  "inferred_event_type_summary": [
+    "seasonal_festival",
+    "team_alliance",
+    "tournament_competition"
+  ],
+  "screenshots_or_images": [],
+  "collection_warnings": []
+}

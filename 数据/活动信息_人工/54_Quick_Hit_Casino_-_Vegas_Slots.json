@@ -1,0 +1,1221 @@
+{
+  "rank": 54,
+  "name": "Quick Hit Casino - Vegas Slots",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 Quick Hit 官方 Zendesk 帮助中心、官方规则页和 AppsHunter 事件流，按系统活动、赛季活动、促销活动三层整理。",
+  "source_pages": [
+    {
+      "title": "Quick Hit Slots - About Quick Hit Slots",
+      "url": "https://quickhitslots.zendesk.com/hc/en-us/articles/21693922831767-About-Quick-Hit-Slots",
+      "notes": "官方总览页，直接列出 Quick Tourney、Race of Glory、WildBalls、Vegas Ventures、Quick Hit Vault、Quick Hit Collections 等核心活动/系统。"
+    },
+    {
+      "title": "Quick Hit Slots - Quick Tourney Tournaments",
+      "url": "https://quickhitslots.zendesk.com/hc/en-us/articles/4404827081111-Quick-Tourney-Tournaments",
+      "notes": "官方说明 15 分钟锦标赛规则：活动开启时任意 winning spin 即可参赛，按 tourney score 排名前三发奖励。"
+    },
+    {
+      "title": "Quick Hit Slots - Vegas Ventures",
+      "url": "https://quickhitslots.zendesk.com/hc/en-us/articles/4404935491351-Vegas-Ventures",
+      "notes": "官方说明每日挑战系统，完成全部日常目标可直接获得 instant WildBall。"
+    },
+    {
+      "title": "Quick Hit Slots - WildBall",
+      "url": "https://quickhitslots.zendesk.com/hc/en-us/articles/4404935397783-WildBall",
+      "notes": "官方说明 WildBall 的掉落、计时开启、稀有度和奖励倍数。"
+    },
+    {
+      "title": "Quick Hit Slots - Quick Hit Vault",
+      "url": "https://quickhitslots.zendesk.com/hc/en-us/articles/4404826662039-Quick-Hit-Vault",
+      "notes": "官方说明 key-chip 来源和破译密码开箱机制。"
+    },
+    {
+      "title": "Quick Hit Slots - Rewards Program",
+      "url": "https://quickhitslots.zendesk.com/hc/en-us/articles/36157159472279-Quick-Hit-Slots-Rewards-Program",
+      "notes": "官方忠诚度计划规则，明确写到 loyalty points、daily bonus multipliers、Star Pass、VIP events 等。"
+    },
+    {
+      "title": "AppsHunter - Quick Hit Slots App Page",
+      "url": "https://appshunter.io/ios/app/945621521",
+      "notes": "可看到公开事件流里大量新机台 special event，以及版本说明里提到 Collections season、Scratch Cards、Sweeps Royale。"
+    },
+    {
+      "title": "AppsHunter - Romeo & Juliet Collections!",
+      "url": "https://appshunter.io/events/6741857293",
+      "notes": "可验证 Quick Hit Collections 是限时 seasonal set 收集活动。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "tournament",
+      "display_name": "Quick Tourney / 锦标赛",
+      "description": "15 分钟短赛。活动开启后任意一次 winning spin 即可参赛，之后每次 winning spin 都会累加 tourney score，结算时前 3 名获得币奖励。",
+      "examples": [
+        "Quick Tourney Tournaments"
+      ],
+      "market_research_notes": "这是最典型的高频短赛结构，用极短比赛窗口刺激连续 spin 和即时冲榜。",
+      "images": [
+        {
+          "url": "https://yt3.googleusercontent.com/Yntm3b4dKTOtlUGYw5wZAI9GC9-8UPKI3CvCtAD-4P2-lxh-3C9nn-_gnYpGCvAdRNiRGuKsxg=s900-c-k-c0x00ffffff-no-rj",
+          "caption": "Quick Hit Slots - YouTube",
+          "source_url": "https://www.youtube.com/channel/UCMy17pGosYA-POoOXaTrP7A",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots tournament",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:41:09.562969+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为游戏的通用品牌Logo或YouTube频道头像，与特定活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:37.159399+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/L1nkm6ma5ubQ0zcWihOG86brcpVpT_N0ZYC17fMxEuVv4KLrRgckbA9ng19q013JeSGM",
+          "caption": "Quick Hit Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ballytechnologies.quickhitslots",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots tournament",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:41:09.562969+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为游戏的应用商店图标或启动宣传图，展示游戏名称，不涉及具体锦标赛活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:37.159399+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/JSKh60673eI/hq720_2.jpg?sqp=-oaymwEYCOADENAFSFryq4qpAwoIARUAAIhC0AEB&rs=AOn4CLDadZuw9jZi1BJ5S9RsXuWIDHKOZQ",
+          "caption": "Quick Hit Slots - YouTube",
+          "source_url": "https://www.youtube.com/channel/UCMy17pGosYA-POoOXaTrP7A",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots tournament",
+          "width": 183,
+          "height": 275,
+          "aspect_ratio": 0.6655,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:41:09.562969+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示了机器玩法和安装入口，属于通用宣传海报，未见锦标赛相关的进度条或排行榜。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:37.159399+00:00"
+          }
+        },
+        {
+          "url": "https://online.worldcasinodirectory.com/onlinecasinoimages/games/large/16517-qvhjzqawsr.jpg",
+          "caption": "Las Vegas Slot by Bally Interactive",
+          "source_url": "https://online.worldcasinodirectory.com/bally-slots/quick-hit-las-vegas-slot",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots tournament",
+          "width": 260,
+          "height": 193,
+          "aspect_ratio": 1.3472,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:41:09.562969+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "展示了单台老虎机的实际操作界面，虽然涉及玩法，但无法确认为锦标赛特定界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:37.159399+00:00"
+          }
+        },
+        {
+          "url": "https://fliptheswitch.com/wp-content/uploads/2024/04/Quick-Hit-Lobby-1-flip-the-switch-1024x576.jpg",
+          "caption": "Quick Hit Slots - Flip The Switch",
+          "source_url": "https://fliptheswitch.com/casino/quick-hit-slots/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots tournament",
+          "width": 1024,
+          "height": 576,
+          "aspect_ratio": 1.7778,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:41:09.562969+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是游戏的主大厅（Lobby）截图，属于通用玩法展示，没有体现出锦标赛（Tournament）的特定玩法元素。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:37.159399+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "daily_challenge",
+      "display_name": "Vegas Ventures / 每日挑战",
+      "description": "玩家完成一组每日挑战领取阶段奖励，全部完成后获得 instant WildBall。",
+      "examples": [
+        "Vegas Ventures"
+      ],
+      "market_research_notes": "典型 casino live ops 中的日常任务层，用来规定当日活跃动作并给后续系统导流。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/L1nkm6ma5ubQ0zcWihOG86brcpVpT_N0ZYC17fMxEuVv4KLrRgckbA9ng19q013JeSGM",
+          "caption": "Quick Hit Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ballytechnologies.quickhitslots",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+daily+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots daily challenge",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:41:46.225907+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片为游戏的通用品牌标志和Logo封面，未提及具体活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:40.658996+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/Vqxv5o_CO2IvPtSNxI4dzpuOXt4z5nj9c64LjfqB9GMqmunnccPta3CStjWxu2vQOA=w526-h296-rw",
+          "caption": "Quick Hit Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ballytechnologies.quickhitslots",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+daily+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots daily challenge",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:41:46.225907+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是游戏内普通老虎机的玩法截图，属于核心玩法，与每日挑战活动无直接关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:40.658996+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/0izWrkJ3OJYQ2AhNrGt3e3EsdBPFpQ0GR9X133h__xrdAzhVHsKj-9w5hvoXhbvWX794=w526-h296-rw",
+          "caption": "Quick Hit Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ballytechnologies.quickhitslots",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+daily+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots daily challenge",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:41:46.225907+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示的是名为Ultimate Fire Link的一款老虎机子机台截图，属于通用玩法展示。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:40.658996+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/v98N5AA_yUc9XzVT2W_Oxxk1-QCbIEU-hgRDglmIcp0yqDLnS1Y3fEsA77_72l9I5JI=w526-h296-rw",
+          "caption": "Quick Hit Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ballytechnologies.quickhitslots",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+daily+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots daily challenge",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:41:46.225907+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示的是Ruby Link老虎机结算界面，属于通用的商店宣传截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:40.658996+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/5BaHNj6h9hNqj2jsANzg2stAt1JzUnJJRXwr5T4l04jsfXNk7ZWQw-xSzGXTCvmjw0w=w526-h296-rw",
+          "caption": "Quick Hit Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ballytechnologies.quickhitslots",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+daily+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots daily challenge",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:41:46.225907+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.7,
+            "reason": "展示的是每日奖励（Daily Bonus）轮盘，虽然也是每日性质但通常与描述中的Vegas Ventures每日挑战任务系统有别，更倾向于通用的福利系统。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:40.658996+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "loot_box_timer_event",
+      "display_name": "WildBall / 计时宝球活动",
+      "description": "触发 Wild Win 后获得不同稀有度的 WildBall，按倒计时开启，奖励和 bet 挂钩，还会产出 Vault points 与额外 booster。",
+      "examples": [
+        "Silver WildBall",
+        "Gold WildBall",
+        "Emerald WildBall",
+        "Ruby WildBall",
+        "Diamond WildBall"
+      ],
+      "market_research_notes": "这是中度异步奖励系统，把 spin、等待和再次登录串起来，兼顾付费放大和回流提醒。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/L1nkm6ma5ubQ0zcWihOG86brcpVpT_N0ZYC17fMxEuVv4KLrRgckbA9ng19q013JeSGM",
+          "caption": "Quick Hit Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ballytechnologies.quickhitslots",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+loot+box+timer+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots loot box timer event",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:42:12.185133+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "这是游戏的通用品牌LOGO/商店封面图，并未体现具体活动内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:45.212010+00:00"
+          }
+        },
+        {
+          "url": "https://www.masslive.com/resizer/v2/YIHG3TLJVND5DJG3SVJOA6U7EU.jpeg?auth=9bc9c7ccb9ee6e95e651c8a94f7115f784b4f81c6b5d39ecd481cce97f45f519&width=1280&smart=true&quality=90",
+          "caption": "Quick hit' player wins jackpot prize ...",
+          "source_url": "https://www.masslive.com/casinos/2025/05/mass-casino-winner-quick-hit-player-wins-jackpot-prize.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+loot+box+timer+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots loot box timer event",
+          "width": 194,
+          "height": 259,
+          "aspect_ratio": 0.749,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:42:12.185133+00:00",
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.85,
+            "reason": "该图展示的是现实生中的实体老虎机界面，并非手游界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:45.212010+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/K-sFsoS-XbI/maxresdefault.jpg",
+          "caption": "Quickie in Las Vegas! $25 Bet Bonus ...",
+          "source_url": "https://www.youtube.com/watch?v=K-sFsoS-XbI",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+loot+box+timer+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots loot box timer event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:42:12.185133+00:00",
+          "llm_image_filter": {
+            "category": 2,
+            "category_label": "无法确定是否和本游戏无关",
+            "confidence": 0.7,
+            "reason": "图片看起来是某款老虎机的录屏或二次加工宣传图，虽然带有游戏Logo，但很难界定是手游内截图还是相关视频封面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:45.212010+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/rPWVgs2UOb-O7Vpt3Q9AECcUuApZpOIJWp4hEaMmNyzhvW_WB-eWnZM2Mip2ZcWt5g=w526-h296-rw",
+          "caption": "Quick Hit Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ballytechnologies.quickhitslots",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+loot+box+timer+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots loot box timer event",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:42:12.185133+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示了该游戏内的一款特定老虎机题材（Huff N' More Circus Puff），属于通用玩法截图，与WildBall活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:45.212010+00:00"
+          }
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/91ni2WqOLSL.jpg",
+          "caption": "Quick Hit Slots - Free Vegas Slots ...",
+          "source_url": "https://www.amazon.com/Quick-Hit-Slots-Free-Vegas/dp/B00XGNNN52",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+loot+box+timer+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots loot box timer event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:42:12.185133+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图片展示了该游戏的每日任务列表界面，其中任务明确提到'Accept 1 Wild Ball!'，且上方出现了红色的WildBall球体，属于活动相关的实际玩法/任务界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:45.212010+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "vault_event",
+      "display_name": "Quick Hit Vault / 破译开箱活动",
+      "description": "玩家通过 Vegas Ventures 或 WildBall 获得 key-chip，逐步试出密码并开启 Mini / Mega / Jumbo Vault 奖励。",
+      "examples": [
+        "Mini Vault",
+        "Mega Vault",
+        "Jumbo Vault"
+      ],
+      "market_research_notes": "它强化了‘收集钥匙碎片再开大奖’的赌场式 suspense，非常适合做连续登录和系统间串联。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/E7p3--q2tjU/maxresdefault.jpg",
+          "caption": "HIGH LIMIT JACKPOT VAULT & 24 KARAT ...",
+          "source_url": "https://www.youtube.com/watch?v=E7p3--q2tjU",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+vault+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots vault event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:42:36.479396+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "图片展示的是Quick Hit具体的Slot机器界面(Jackpot Vault)，而非描述中的Vault Event系统玩法，且带有Youtube博主头像，属于通用宣传内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:49.893323+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/L1nkm6ma5ubQ0zcWihOG86brcpVpT_N0ZYC17fMxEuVv4KLrRgckbA9ng19q013JeSGM",
+          "caption": "Quick Hit Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ballytechnologies.quickhitslots",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+vault+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots vault event",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:42:36.479396+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "这是游戏的通用品牌Logo图，属于App商店封面类图片。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:49.893323+00:00"
+          }
+        },
+        {
+          "url": "https://quickhitslots.zendesk.com/hc/theming_assets/01HZPKAK0S31QD9SHDGRTXNAPY",
+          "caption": "Quick Hit Vault – Quick Hit Slots",
+          "source_url": "https://quickhitslots.zendesk.com/hc/en-us/articles/4404826662039-Quick-Hit-Vault",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+vault+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots vault event",
+          "width": 292,
+          "height": 173,
+          "aspect_ratio": 1.6879,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:42:36.479396+00:00",
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.9,
+            "reason": "图片仅显示'Play'字样及绿色火焰Logo，无法识别为本游戏及活动相关内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:49.893323+00:00"
+          }
+        },
+        {
+          "url": "https://quickhitslots.zendesk.com/hc/article_attachments/29658411863191",
+          "caption": "About Quick Hit Slots – Quick Hit Slots",
+          "source_url": "https://quickhitslots.zendesk.com/hc/en-us/articles/21693922831767-About-Quick-Hit-Slots",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+vault+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots vault event",
+          "width": 380,
+          "height": 133,
+          "aspect_ratio": 2.8571,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:42:36.479396+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "带有游戏Logo的通用背景宣传海报，虽然背景有金币和类似代币的碎片，但没有具体活动玩法信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:49.893323+00:00"
+          }
+        },
+        {
+          "url": "https://quickhitslots.zendesk.com/hc/article_attachments/4404826651159/01.png",
+          "caption": "Quick Hit Vault – Quick Hit Slots",
+          "source_url": "https://quickhitslots.zendesk.com/hc/en-us/articles/4404826662039-Quick-Hit-Vault",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+vault+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots vault event",
+          "width": 287,
+          "height": 175,
+          "aspect_ratio": 1.64,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:42:36.479396+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了活动的完整实际操作界面，包含Jumbo/Mega/Mini Vault选择、破译密码盘、Key-Chips计数以及玩法说明。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:49.893323+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "seasonal_collection",
+      "display_name": "Quick Hit Collections / 赛季卡册收集",
+      "description": "官方总览页和 AppsHunter 事件页都说明存在 seasonal card sets。玩家在限时窗口内收集特定系列卡片，完成整套后拿奖励。",
+      "examples": [
+        "Romeo & Juliet Collections!",
+        "Family Trip collections season"
+      ],
+      "market_research_notes": "这是把 casino spin 行为转为长期赛季目标的关键层，能显著延长活动生命周期。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/L1nkm6ma5ubQ0zcWihOG86brcpVpT_N0ZYC17fMxEuVv4KLrRgckbA9ng19q013JeSGM",
+          "caption": "Quick Hit Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ballytechnologies.quickhitslots",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+seasonal+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots seasonal collection",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:43:10.704526+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "包含游戏Logo的品牌宣传图，属于本游戏通用的展示图片。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:52.976660+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/Vqxv5o_CO2IvPtSNxI4dzpuOXt4z5nj9c64LjfqB9GMqmunnccPta3CStjWxu2vQOA=w526-h296-rw",
+          "caption": "Quick Hit Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ballytechnologies.quickhitslots",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+seasonal+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots seasonal collection",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:43:10.704526+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "属于游戏内单台老虎机机台（Quick Hit Platinum）的玩法展示，不涉及赛季卡册收集活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:52.976660+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/0izWrkJ3OJYQ2AhNrGt3e3EsdBPFpQ0GR9X133h__xrdAzhVHsKj-9w5hvoXhbvWX794=w526-h296-rw",
+          "caption": "Quick Hit Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ballytechnologies.quickhitslots",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+seasonal+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots seasonal collection",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:43:10.704526+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "属于游戏内单台老虎机机台（Ultimate Fire Link）的玩法展示，不涉及赛季卡册收集活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:52.976660+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/rPWVgs2UOb-O7Vpt3Q9AECcUuApZpOIJWp4hEaMmNyzhvW_WB-eWnZM2Mip2ZcWt5g=w526-h296-rw",
+          "caption": "Quick Hit Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ballytechnologies.quickhitslots",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+seasonal+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots seasonal collection",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:43:10.704526+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "属于游戏内单台老虎机机台（Huff N' More Circus Puff）的玩法展示，不涉及赛季卡册收集活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:52.976660+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/v98N5AA_yUc9XzVT2W_Oxxk1-QCbIEU-hgRDglmIcp0yqDLnS1Y3fEsA77_72l9I5JI=w526-h296-rw",
+          "caption": "Quick Hit Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ballytechnologies.quickhitslots",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+seasonal+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots seasonal collection",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:43:10.704526+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "属于游戏内单台老虎机机台（Ruby Link）的Big Win展示，不涉及赛季卡册收集活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:52.976660+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "slot_launch_event",
+      "display_name": "新机台上线活动 / New Slot Special Event",
+      "description": "公开事件流里大量活动都围绕新 slot machine 上线展开，用固定时窗推新机台、附带主题奖励和曝光。",
+      "examples": [
+        "Slots - Power Pig is here!",
+        "Huff N' Puff Hard Hat Edition",
+        "Triple Nova: Desert Nights.",
+        "Hot Hot Double Blazing Lock!",
+        "Quick Hit Blitz Volcano"
+      ],
+      "market_research_notes": "这类活动的本质是内容宣发+题材换皮，通过新机台不断刷新用户‘今天进来有什么新东西’的感知。",
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/DLPqqdoUEAAkkHa.jpg",
+          "caption": "New #QuickHit #slots launched at ...",
+          "source_url": "https://x.com/ScientificGames/status/915333188234354688",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+slot+launch+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots slot launch event",
+          "width": 168,
+          "height": 300,
+          "aspect_ratio": 0.56,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:43:39.521632+00:00",
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.95,
+            "reason": "图片展示的是线下实体的老虎机设备，非移动端手游界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:56.841979+00:00"
+          }
+        },
+        {
+          "url": "https://nyxgameawards.com/upload/entry/thumb/1707789279_thumb_101674.jpg",
+          "caption": "Quick Hit Slots | Mobile Game - Social ...",
+          "source_url": "https://nyxgameawards.com/winner-info.php?id=2855",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+slot+launch+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots slot launch event",
+          "width": 329,
+          "height": 153,
+          "aspect_ratio": 2.1503,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:43:39.521632+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是手游的通用加载界面，虽包含品牌logo，但未体现特定新机台上线活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:56.841979+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/bqg6JiqRKV4/maxresdefault.jpg",
+          "caption": "Las Vegas Casino Fun ...",
+          "source_url": "https://www.youtube.com/watch?v=bqg6JiqRKV4",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+slot+launch+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots slot launch event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:43:39.521632+00:00",
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.95,
+            "reason": "这是YouTube博主在线下赌场拍摄的视频封面，与手游活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:56.841979+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/L1nkm6ma5ubQ0zcWihOG86brcpVpT_N0ZYC17fMxEuVv4KLrRgckbA9ng19q013JeSGM",
+          "caption": "Quick Hit Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ballytechnologies.quickhitslots",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+slot+launch+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots slot launch event",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:43:39.521632+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是游戏的商店图标/通用品牌图，不涉及具体活动内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:56.841979+00:00"
+          }
+        },
+        {
+          "url": "https://nyxgameawards.com/upload/entry/files/NGE101674/small/43621707337892.jpg",
+          "caption": "Quick hit' player wins jackpot prize ...",
+          "source_url": "https://nyxgameawards.com/winner-info.php?id=2855",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+slot+launch+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots slot launch event",
+          "width": 194,
+          "height": 259,
+          "aspect_ratio": 0.749,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:43:39.521632+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "为游戏通用加载图的宽屏版本，无特定活动标识。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:36:56.841979+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "loyalty_pass_vip",
+      "display_name": "Rewards Program / Loyalty / Star Pass / VIP",
+      "description": "官方积分忠诚体系。玩家通过 level-up、promotions 和 purchases 累积 QH Points，提升 Loyalty Level，获得 daily bonus multiplier、store boost、free Star Pass、VIP event 等权益。",
+      "examples": [
+        "QHS Rewards Program",
+        "Star Pass",
+        "VIP levels"
+      ],
+      "market_research_notes": "这不是单场活动，而是贯穿全年留存和分层经营的总框架，尤其对高价值玩家非常关键。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/L1nkm6ma5ubQ0zcWihOG86brcpVpT_N0ZYC17fMxEuVv4KLrRgckbA9ng19q013JeSGM",
+          "caption": "Quick Hit Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ballytechnologies.quickhitslots",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+loyalty+pass+vip",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots loyalty pass vip",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:44:04.254184+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为游戏的通用品牌宣传图或App Store商店封面图，未包含Loyalty Pass相关特定信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:00.483319+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/Vqxv5o_CO2IvPtSNxI4dzpuOXt4z5nj9c64LjfqB9GMqmunnccPta3CStjWxu2vQOA=w526-h296-rw",
+          "caption": "Quick Hit Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ballytechnologies.quickhitslots",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+loyalty+pass+vip",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots loyalty pass vip",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:44:04.254184+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该图展示了游戏内的一款老虎机（Quick Hit Platinum）的具体玩法，属于通用的商店截图，不涉及Loyalty或VIP系统。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:00.483319+00:00"
+          }
+        },
+        {
+          "url": "https://time2play.com/app/uploads/2023/04/Slots-main-page-720x540-1.jpg",
+          "caption": "Quick Hit Slots Series — Play Free or ...",
+          "source_url": "https://time2play.com/casinos/games/slots/quick-hit/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+loyalty+pass+vip",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots loyalty pass vip",
+          "width": 720,
+          "height": 540,
+          "aspect_ratio": 1.3333,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:44:04.254184+00:00",
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.95,
+            "reason": "该图为通用的老虎机题材插画，非该游戏的实际素材，且与Loyalty系统无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:00.483319+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/K-sFsoS-XbI/maxresdefault.jpg",
+          "caption": "Quickie in Las Vegas! $25 Bet Bonus ...",
+          "source_url": "https://www.youtube.com/watch?v=K-sFsoS-XbI",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+loyalty+pass+vip",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots loyalty pass vip",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:44:04.254184+00:00",
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.85,
+            "reason": "该图展示的是现实中的实体老虎机（由Bally生产），并非手游产品的忠诚度计划界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:00.483319+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/0izWrkJ3OJYQ2AhNrGt3e3EsdBPFpQ0GR9X133h__xrdAzhVHsKj-9w5hvoXhbvWX794=w526-h296-rw",
+          "caption": "Quick Hit Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ballytechnologies.quickhitslots",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+loyalty+pass+vip",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots loyalty pass vip",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:44:04.254184+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该图展示了游戏内特定机器（Ultimate Fire Link）的玩法界面，与Loyalty或VIP系统无直接证据关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:00.483319+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "giveaway_promotion",
+      "display_name": "赠品抽奖活动 / Giveaway Promotion",
+      "description": "官方 Events 分类下长期存在礼品卡、邮轮券、VIP 旅行等促销规则页，通常要求正常游戏、开邮箱消息、注册页面，部分活动还和 WildBalls 排行/额外 entries 绑定。",
+      "examples": [
+        "Gift Card Giveaway",
+        "Princess Cruises Voucher Giveaway",
+        "Venetian Resort Las Vegas Giveaway"
+      ],
+      "market_research_notes": "这是社交赌场常见的站外促销手段，用现实奖品拉高话题度和高价值用户参与度。",
+      "images": [
+        {
+          "url": "https://online.worldcasinodirectory.com/onlinecasinoimages/games/large/16517-qvhjzqawsr.jpg",
+          "caption": "Las Vegas Slot by Bally Interactive",
+          "source_url": "https://online.worldcasinodirectory.com/bally-slots/quick-hit-las-vegas-slot",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+giveaway+promotion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots giveaway promotion",
+          "width": 260,
+          "height": 193,
+          "aspect_ratio": 1.3472,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:45:00.934234+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是Quick Hit系列老虎机的通用单机版本或老虎机界面截图，并非手游特定活动的促销界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:04.624515+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/L1nkm6ma5ubQ0zcWihOG86brcpVpT_N0ZYC17fMxEuVv4KLrRgckbA9ng19q013JeSGM",
+          "caption": "Quick Hit Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ballytechnologies.quickhitslots",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+giveaway+promotion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots giveaway promotion",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:45:00.934234+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为游戏的官方商店应用图标或通用的品牌宣传封面图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:04.624515+00:00"
+          }
+        },
+        {
+          "url": "https://www.masslive.com/resizer/v2/YIHG3TLJVND5DJG3SVJOA6U7EU.jpeg?auth=9bc9c7ccb9ee6e95e651c8a94f7115f784b4f81c6b5d39ecd481cce97f45f519&width=1280&smart=true&quality=90",
+          "caption": "Quick hit' player wins jackpot prize ...",
+          "source_url": "https://www.masslive.com/casinos/2025/05/mass-casino-winner-quick-hit-player-wins-jackpot-prize.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+giveaway+promotion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots giveaway promotion",
+          "width": 194,
+          "height": 259,
+          "aspect_ratio": 0.749,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:45:00.934234+00:00",
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.95,
+            "reason": "图中展示的是现实赌场中的实体老虎机设备，与本次手游内的抽奖活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:04.624515+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/K-sFsoS-XbI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDUCwgSYtsQWFnVMOqbXBBtogfRSQ",
+          "caption": "Quickie in Las Vegas! $25 Bet Bonus ...",
+          "source_url": "https://www.youtube.com/watch?v=K-sFsoS-XbI",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+giveaway+promotion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots giveaway promotion",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:45:00.934234+00:00",
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.9,
+            "reason": "内容指向现实赌场博彩或Youtube博主实操视频，非手游内活动截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:04.624515+00:00"
+          }
+        },
+        {
+          "url": "https://images-cdn.ispot.tv/ad/BLdZ/default-large.jpg",
+          "caption": "Quick Hit Slots TV Spot, 'So Vegas: Win ...",
+          "source_url": "https://www.ispot.tv/ad/BLdZ/quick-hit-slots-so-vegas-win-a-vegas-vacation",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+giveaway+promotion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots giveaway promotion",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:45:00.934234+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "该图来自宣传视频截图，标题提及Win a Vegas Vacation，属于赠品抽奖类活动的宣传海报/概念图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:04.624515+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "bonus_reward_loop",
+      "display_name": "登录奖励循环 / Daily Bonus & Quick Bonus",
+      "description": "包括每日 bonus wheel、每小时 Quick Bonus、周度 ReSpin，以及等级提升奖励。",
+      "examples": [
+        "Daily Bonus",
+        "Quick Bonus",
+        "weekly ReSpin"
+      ],
+      "market_research_notes": "这类基础奖励循环虽然不是大型活动，但和上面的锦标赛、日常任务、忠诚体系共同构成了完整 live ops 节奏。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/K-sFsoS-XbI/maxresdefault.jpg",
+          "caption": "Quickie in Las Vegas! $25 Bet Bonus ...",
+          "source_url": "https://www.youtube.com/watch?v=K-sFsoS-XbI",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+bonus+reward+loop",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots bonus reward loop",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:45:21.267708+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "展示的是实机老虎机Slot玩法界面，虽提到Bonus但属于常规老虎机赢取奖励，非描述中的登录/时间循环奖励界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:08.839746+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/L1nkm6ma5ubQ0zcWihOG86brcpVpT_N0ZYC17fMxEuVv4KLrRgckbA9ng19q013JeSGM",
+          "caption": "Quick Hit Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.ballytechnologies.quickhitslots",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+bonus+reward+loop",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots bonus reward loop",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:45:21.267708+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "这是游戏的品牌图标和通用宣传图，符合判定要求第2条中选3的规则。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:08.839746+00:00"
+          }
+        },
+        {
+          "url": "https://www.slots-o-rama.com/wp-content/uploads/2023/11/Quick-Hit-Super-Wheel-Wild-Red-Slot-Game-Casino.png",
+          "caption": "Quick Hit Slots Las Vegas - Play FREE ...",
+          "source_url": "https://www.slots-o-rama.com/free-slots/las-vegas-quick-hit-slots/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+bonus+reward+loop",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots bonus reward loop",
+          "width": 345,
+          "height": 146,
+          "aspect_ratio": 2.363,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:45:21.267708+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "图片展示了Super Wheel，符合活动描述中的Bonus Wheel，但属于宣传性质的Logo图，无玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:08.839746+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/ry2l-L-qxRU/maxresdefault.jpg",
+          "caption": "SO MANY QUICK HITS on Diamond Quick Hit ...",
+          "source_url": "https://www.youtube.com/watch?v=ry2l-L-qxRU",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+bonus+reward+loop",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots bonus reward loop",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:45:21.267708+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "展示的是特定老虎机机台的功能触发界面，而非全局性的登录/时间循环奖励界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:08.839746+00:00"
+          }
+        },
+        {
+          "url": "https://nyxgameawards.com/upload/entry/thumb/1707789279_thumb_101674.jpg",
+          "caption": "Quick Hit Slots | Mobile Game - Social ...",
+          "source_url": "https://nyxgameawards.com/winner-info.php?id=2855",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=quick+hit+casino+vegas+slots+bonus+reward+loop",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "quick hit casino vegas slots bonus reward loop",
+          "width": 329,
+          "height": 153,
+          "aspect_ratio": 2.1503,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:45:21.267708+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是游戏的加载界面或品牌宣传图，符合判定要求中通用宣传图选3的规则。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:37:08.839746+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "54 的公开资料质量很好，已经足以把系统型活动、赛季收集、短赛、促销抽奖和 VIP 分层几条线都写清楚。相比 51~53，这款产品的 live ops 明显更成熟、层级也更多。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T08:45:21.268707+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:37:08.839746+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

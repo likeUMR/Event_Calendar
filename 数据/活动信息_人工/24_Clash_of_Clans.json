@@ -1,0 +1,1740 @@
+{
+  "rank": 24,
+  "name": "Clash of Clans",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 Clash of Clans Wiki 的 Events、Raid Weekends、Season Challenges、Clan Games/Challenges、Streak Event 等页面，并参考 Clash Ninja 的月度活动节奏说明。按月度赛季、Clan Games、CWL、Raid Weekend、Medal Events、挑战关、短时增益和电竞归类。",
+  "source_pages": [
+    {
+      "title": "Clash of Clans Wiki - Events",
+      "url": "https://clashofclans.fandom.com/wiki/Events",
+      "notes": "总览页说明 Events 会限时影响游戏玩法；列出 Clan Games、Clan War Leagues、Raid Weekends、Medal Events、Streak Event 等。"
+    },
+    {
+      "title": "Clash of Clans Wiki - Raid Weekends",
+      "url": "https://clashofclans.fandom.com/wiki/Raid_Weekends",
+      "notes": "Clan Capital 周末活动：每周五 7:00 UTC 到周一 7:00 UTC，攻击其他 Clan Capital，获得 Capital Gold 和 Raid Medals。"
+    },
+    {
+      "title": "Clash of Clans Wiki - Season Challenges",
+      "url": "https://clashofclans.fandom.com/wiki/Season_Challenges",
+      "notes": "月度赛季挑战和 Gold Pass 奖励轨，用于确认个人长期任务和付费轨。"
+    },
+    {
+      "title": "Clash of Clans Wiki - Clan Games/Challenges",
+      "url": "https://clashofclans.fandom.com/wiki/Clan_Games/Challenges",
+      "notes": "Clan Games 任务列表页，包含建筑摧毁、资源掠夺、指定兵种胜利、Builder Base 等任务类型。"
+    },
+    {
+      "title": "Clash of Clans Wiki - Streak Event",
+      "url": "https://clashofclans.fandom.com/wiki/Streak_Event",
+      "notes": "历史/可能返场的连续日任务活动：每日完成 Multiplayer battle tasks 维持 streak 并推进奖励轨。"
+    },
+    {
+      "title": "Clash Ninja - When are the next in-game events?",
+      "url": "https://www.clash.ninja/guides/when-are-the-next-ingame-events",
+      "notes": "第三方日历说明 recurring monthly events：CWL、Clan Games、season end、league reset、Raid Weekend 等。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "season_challenges",
+      "display_name": "Season Challenges / Gold Pass",
+      "description": "月度个人任务和奖励轨，玩家完成挑战获得 points，推进免费和 Gold Pass 奖励，包括资源、魔法物品、皮肤、加速和 season bank。",
+      "examples": [
+        "Season Challenges",
+        "Gold Pass",
+        "Silver rewards",
+        "Gold rewards"
+      ],
+      "market_research_notes": "CoC 的个人月度留存核心。重点看挑战解锁节奏、Gold Pass perks、季末银行结算和主题皮肤。",
+      "images": [
+        {
+          "url": "https://www.clash.ninja/images/content/what-are-season-challenges-main.jpg",
+          "caption": "What are Season Challenges? - Clash Ninja",
+          "source_url": "https://www.clash.ninja/guides/what-are-season-challenges",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+season+challenges",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans season challenges",
+          "width": 318,
+          "height": 159,
+          "aspect_ratio": 2.0,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:02:08.053479+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:34.722013+00:00",
+            "load_time_ms": 1600,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 640,
+            "content_type": "image/jpeg",
+            "current_src": "https://www.clash.ninja/images/content/what-are-season-challenges-main.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了赛季挑战（Season Challenges）的实际玩法界面，包括每日挑战和活动挑战任务列表。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:26.201469+00:00"
+          }
+        },
+        {
+          "url": "https://www.clash.ninja/images/content/what-are-season-challenges-2.jpg",
+          "caption": "What are Season Challenges? - Clash Ninja",
+          "source_url": "https://www.clash.ninja/guides/what-are-season-challenges",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+season+challenges",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans season challenges",
+          "width": 276,
+          "height": 183,
+          "aspect_ratio": 1.5082,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:02:08.053479+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:35.049000+00:00",
+            "load_time_ms": 321,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 797,
+            "content_type": "image/jpeg",
+            "current_src": "https://www.clash.ninja/images/content/what-are-season-challenges-2.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了赛季挑战的奖励轨（Rewards）界面，包含Gold Pass通道、积分进度和具体奖励项。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:26.201469+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/cy8yq0fax8qa1.jpg",
+          "caption": "Basically all challenges completed and ...",
+          "source_url": "https://www.reddit.com/r/ClashOfClans/comments/123aj37/basically_all_challenges_completed_and_im_over/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+season+challenges",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans season challenges",
+          "width": 275,
+          "height": 183,
+          "aspect_ratio": 1.5027,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:02:08.053479+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:35.232932+00:00",
+            "load_time_ms": 178,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1844,
+            "natural_height": 1231,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/cy8yq0fax8qa1.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了赛季挑战的任务完成情况界面，包含挑战图标、进度点数和刷新时间。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:26.201469+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Yi8kS3vZvcE/maxresdefault.jpg",
+          "caption": "of Clans!! New Hero Skin | COC Update ...",
+          "source_url": "https://www.youtube.com/watch?v=Yi8kS3vZvcE",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+season+challenges",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans season challenges",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:02:08.053479+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:35.896796+00:00",
+            "load_time_ms": 658,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/Yi8kS3vZvcE/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "这是视频封面或宣传图，虽然包含了赛季挑战的信息，但属于带有大号文字标题的非实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:26.201469+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "clan_games",
+      "display_name": "Clan Games / 部落竞赛",
+      "description": "全 Clan 成员选择并完成任务，累计 clan points 解锁奖励档位；任务覆盖主村、夜世界、资源掠夺、建筑摧毁和指定兵种胜利。",
+      "examples": [
+        "Clan Games",
+        "Gold Storage Raid",
+        "Builder Battle Victories",
+        "Hog Rider Raid",
+        "Baby Dragon Storytime"
+      ],
+      "market_research_notes": "这是部落协作型 PvE/任务活动，贡献上限和档位奖励决定成员活跃要求。",
+      "images": [
+        {
+          "url": "https://i.redd.it/l7bvrqzjuv7d1.png",
+          "caption": "Clan Games Rewards - June 2024 : r ...",
+          "source_url": "https://www.reddit.com/r/ClashOfClans/comments/1dkys42/clan_games_rewards_june_2024/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+clan+games",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans clan games",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:02:40.469738+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:41.429633+00:00",
+            "load_time_ms": 5527,
+            "long_load": true,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2000,
+            "natural_height": 2000,
+            "content_type": "image/png",
+            "current_src": "https://i.redd.it/l7bvrqzjuv7d1.png"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片虽然展示了部落竞赛的具体档位奖励，但其呈现方式为社交媒体分享或官方通告的宣传长图，而非游戏内实际的可操作领取界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:41.062424+00:00"
+          }
+        },
+        {
+          "url": "https://www.clashchamps.com/wp-content/uploads/2021/06/ClanGamesRewards_06222021-870x450.png",
+          "caption": "June Clan Games – Reward Tiers by Clash ...",
+          "source_url": "https://www.clashchamps.com/2021/06/21/june-clan-games-reward-tiers-by-clash-of-clans/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+clan+games",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans clan games",
+          "width": 870,
+          "height": 450,
+          "aspect_ratio": 1.9333,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:02:40.469738+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:42.838052+00:00",
+            "load_time_ms": 1401,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 870,
+            "natural_height": 450,
+            "content_type": "image/webp",
+            "current_src": "https://www.clashchamps.com/wp-content/uploads/2021/06/ClanGamesRewards_06222021-870x450.png"
+          },
+          "llm_image_filter": {
+            "category": 2,
+            "category_label": "无法确定是否和本游戏无关",
+            "confidence": 0.0,
+            "reason": "模型接口无法读取或接受该图片 URL，已按无法确定处理：Error code: 400 - {'error': {'message': 'URL did not return an image (received text/error content): https://***.com/***/***/***/***/*** ({\"provider_name\":\"Google\"})', 'type': 'upstream_error', 'param': '', 'code': 400, 'metadata': {'provider_name': 'Google'}}, 'trace_id': '20260513171732542649287gZLQaw13'}",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:41.062424+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/4lZGsqZPTuA/maxresdefault.jpg",
+          "caption": "Clan Games Fast - Unlock EXTRA Rewards ...",
+          "source_url": "https://www.youtube.com/watch?v=4lZGsqZPTuA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+clan+games",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans clan games",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:02:40.469738+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:43.205801+00:00",
+            "load_time_ms": 362,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/4lZGsqZPTuA/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了Clash of Clans中的部落竞赛建筑（Strongman's Caravan）及相关角色，属于活动的宣传/攻略封面图，不含实际玩法UI界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:41.062424+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/december-2025-clan-games-rewards-v0-9ukzoimds58g1.png?width=640&crop=smart&auto=webp&s=a973c79fafbce3d60be262e57743b5f9a73b86a6",
+          "caption": "December 2025 Clan Games Rewards : r ...",
+          "source_url": "https://www.reddit.com/r/ClashOfClans/comments/1pqkhqf/december_2025_clan_games_rewards/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+clan+games",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans clan games",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:02:40.469738+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:43.306815+00:00",
+            "load_time_ms": 97,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 640,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/december-2025-clan-games-rewards-v0-9ukzoimds58g1.png?width=640&crop=smart&auto=webp&s=a973c79fafbce3d60be262e57743b5f9a73b86a6"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图片展示了Clash of Clans部落竞赛的具体活动奖励内容、积分档位及个人贡献上限，属于活动内实际玩法与奖励界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:41.062424+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/pBsfoZ5OwsA/maxresdefault.jpg",
+          "caption": "CLAN GAMES COMPLETE!! Clash Of Clans ...",
+          "source_url": "https://www.youtube.com/watch?v=pBsfoZ5OwsA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+clan+games",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans clan games",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:02:40.469738+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:43.670543+00:00",
+            "load_time_ms": 358,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/pBsfoZ5OwsA/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "该图展示了Clash of Clans部落竞赛(Clan Games)活动的奖励领取(Rewards)实际界面，包含活动进度条、积分、剩余时间以及奖励分档选择等玩法核心内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:41.062424+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "clan_war_league",
+      "display_name": "Clan War Leagues / CWL",
+      "description": "月度部落战联赛，多个 Clan 在一组内连续对战，按星数和表现升降级并获得 League Medals。",
+      "examples": [
+        "Clan War Leagues",
+        "CWL",
+        "monthly War League"
+      ],
+      "market_research_notes": "CWL 是高组织度部落的核心月度事件，影响成员筛选、战力要求、奖励分配和电竞预选路径。",
+      "images": [
+        {
+          "url": "https://miro.medium.com/v2/resize:fit:1200/1*bpzwGViRAlUcd7HklzhTVg.png",
+          "caption": "Guide To Clan War League Theory ...",
+          "source_url": "https://medium.com/@jmuazze/clash-of-clans-an-econ-teachers-guide-to-clan-war-league-theory-3e8a95cf282f",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+clan+war+league",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans clan war league",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:03:12.277063+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:43.808364+00:00",
+            "load_time_ms": 131,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 675,
+            "content_type": "image/png",
+            "current_src": "https://miro.medium.com/v2/resize:fit:1200/1*bpzwGViRAlUcd7HklzhTVg.png"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了部落战联赛（War Leagues）的段位奖励说明界面，包含具体的联赛奖章数量和规则细节，属于玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:44.488413+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/utlnzz1yj9k21.jpg",
+          "caption": "LEAGUE] Clan war league is perfect : r ...",
+          "source_url": "https://www.reddit.com/r/ClashOfClans/comments/axizdn/league_clan_war_league_is_perfect/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+clan+war+league",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans clan war league",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:03:12.277063+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:43.930697+00:00",
+            "load_time_ms": 118,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1136,
+            "natural_height": 640,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/utlnzz1yj9k21.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了部落战联赛期间的实际对战地图（War Map），下方有7天赛程进度条，属于核心活动玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:44.488413+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/wVxcKaxx_GM/maxresdefault.jpg",
+          "caption": "Clash of Clans: CLAN WAR LEAGUES are ...",
+          "source_url": "https://www.youtube.com/watch?v=wVxcKaxx_GM",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+clan+war+league",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans clan war league",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:03:12.277063+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:44.286180+00:00",
+            "load_time_ms": 350,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/wVxcKaxx_GM/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图为典型的活动宣传海报/封面图，带有Clan War Leagues标题及奖杯角色修饰，无实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:44.488413+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "raid_weekend",
+      "display_name": "Raid Weekend / Clan Capital 周末突袭",
+      "description": "每周五到周一开放，Clan 攻击其他 Clan Capital 的多个 district，获得 Capital Gold、Raid Medals 和 Clan Capital trophies。",
+      "examples": [
+        "Raid Weekends",
+        "Clan Capital Raids"
+      ],
+      "market_research_notes": "这是稳定周循环活动。它与主村战力弱绑定，让更多成员可参与，同时给 Trader shop 消费的 Raid Medals。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/Ts4shfVThZo/maxresdefault.jpg",
+          "caption": "NEW Raid Weekend Explained Clan Capital ...",
+          "source_url": "https://www.youtube.com/watch?v=Ts4shfVThZo",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+raid+weekend",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans raid weekend",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:03:44.719432+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:44.652767+00:00",
+            "load_time_ms": 361,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/Ts4shfVThZo/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "包含活动角色和Start Raid按钮的视频封面图，属于宣传性质，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:49.621637+00:00"
+          }
+        },
+        {
+          "url": "https://cloud.frankeapps.com/3/default_banner.jpg",
+          "caption": "Raid Weekends | House of Clashers ...",
+          "source_url": "https://houseofclashers.com/clan-capital/raid-weekends",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+raid+weekend",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans raid weekend",
+          "width": 314,
+          "height": 160,
+          "aspect_ratio": 1.9625,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:03:44.719432+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:47.679265+00:00",
+            "load_time_ms": 3021,
+            "long_load": true,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 655,
+            "content_type": "image/jpeg",
+            "current_src": "https://cloud.frankeapps.com/3/default_banner.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "仅显示游戏角色和通用文字的品牌宣传图，未体现本活动的具体信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:49.621637+00:00"
+          }
+        },
+        {
+          "url": "https://cloud.frankeapps.com/resize/3/raid-weekend-01.1000x511q50.jpeg.webp",
+          "caption": "It's Raid weekend, Chief! ⚔️ How has ...",
+          "source_url": "https://houseofclashers.com/clan-capital/raid-weekends",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+raid+weekend",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans raid weekend",
+          "width": 1000,
+          "height": 511,
+          "aspect_ratio": 1.9569,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:03:44.719432+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:48.067575+00:00",
+            "load_time_ms": 381,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1000,
+            "natural_height": 511,
+            "content_type": "image/webp",
+            "current_src": "https://cloud.frankeapps.com/resize/3/raid-weekend-01.1000x511q50.jpeg.webp"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了都城突袭（Clan Capital）活动中的实际玩法地图界面，包含各子区域进度。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:49.621637+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/eLRNsIgFUw8/maxresdefault.jpg",
+          "caption": "RAID WEEKENDS (Clash of Clans ...",
+          "source_url": "https://www.youtube.com/watch?v=eLRNsIgFUw8",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+raid+weekend",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans raid weekend",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:03:44.719432+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:48.863157+00:00",
+            "load_time_ms": 791,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/eLRNsIgFUw8/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "活动介绍弹窗，虽然包含活动信息，但属于介绍性质的静态UI界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:49.621637+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/5sveeiirvez91.jpeg",
+          "caption": "raid weekend ...",
+          "source_url": "https://www.reddit.com/r/ClashOfClans/comments/vvhq30/whats_the_highest_youve_seen_on_raid_weekend/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+raid+weekend",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans raid weekend",
+          "width": 331,
+          "height": 152,
+          "aspect_ratio": 2.1776,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:03:44.719432+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:49.504726+00:00",
+            "load_time_ms": 637,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2340,
+            "natural_height": 1080,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/5sveeiirvez91.jpeg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了活动内的Clan Info排行榜、攻击日志等实际玩法统计界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:49.621637+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "medal_event",
+      "display_name": "Medal Events / 限时奖章活动",
+      "description": "大型主题活动，玩家完成特殊任务、收集活动货币或奖章，在活动商店兑换英雄装备、装饰、资源或魔法物品。",
+      "examples": [
+        "Mashup Madness",
+        "Cookie Rumble",
+        "Dragon Festival",
+        "Super Troop Spotlight",
+        "Clash with Haaland",
+        "Anime Clash",
+        "Snake Festival",
+        "Equipment Blast",
+        "Wise Warriors",
+        "Dragon Dash"
+      ],
+      "market_research_notes": "近年来 CoC 的活动商业化重点之一，尤其用于投放 Hero Equipment 和限定装饰；需要记录活动货币来源、免费上限和付费 event pass。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/this-is-what-the-medal-event-looks-like-made-by-me-v0-dkoh7w0i82uf1.jpeg?auto=webp&s=0fbd5cb9d4d2f96c081216b5d4b86f79b6264849",
+          "caption": "This is what the medal event looks like ...",
+          "source_url": "https://www.reddit.com/r/ClashOfClans/comments/1o21y7m/this_is_what_the_medal_event_looks_like_made_by_me/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+medal+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans medal event",
+          "width": 280,
+          "height": 180,
+          "aspect_ratio": 1.5556,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:04:11.553030+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:50.212535+00:00",
+            "load_time_ms": 701,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1494,
+            "natural_height": 958,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/this-is-what-the-medal-event-looks-like-made-by-me-v0-dkoh7w0i82uf1.jpeg?auto=webp&s=0fbd5cb9d4d2f96c081216b5d4b86f79b6264849"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了奖章活动兑换商店界面，包含活动货币、英雄装备及资源兑换，属于实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:54.853758+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/next-medals-event-v0-zlnsvbwmbbhf1.jpeg?auto=webp&s=9bf5c78e11d4b9088a7ebd022fcb3144504418ff",
+          "caption": "Next Medals Event : r/ClashOfClans",
+          "source_url": "https://www.reddit.com/r/ClashOfClans/comments/1mit6fw/next_medals_event/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+medal+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans medal event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:04:11.553030+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:50.329365+00:00",
+            "load_time_ms": 112,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/next-medals-event-v0-zlnsvbwmbbhf1.jpeg?auto=webp&s=9bf5c78e11d4b9088a7ebd022fcb3144504418ff"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了Splash Bash活动的商人兑换列表，包含活动特有的矿石和装备，为实际玩法界面截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:54.853758+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/8u9hiH_T_EA/maxresdefault.jpg",
+          "caption": "Mini Medal Event Rewards Guide (F2P and ...",
+          "source_url": "https://www.youtube.com/watch?v=8u9hiH_T_EA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+medal+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans medal event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:04:11.553030+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:50.701902+00:00",
+            "load_time_ms": 364,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/8u9hiH_T_EA/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "这是YouTube视频封面图，展示了活动奖励（如英雄皮肤、场景），属于宣传设计图，非游戏原生玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:54.853758+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/toy-christmas-season-medal-event-v0-y7i29dwxhz5e1.jpeg?width=640&crop=smart&auto=webp&s=e2ecbafc58883fa64e1dce2fe23e8c7588fd1f33",
+          "caption": "Toy Christmas Season Medal Event : r ...",
+          "source_url": "https://www.reddit.com/r/ClashOfClans/comments/1haxhkr/toy_christmas_season_medal_event/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+medal+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans medal event",
+          "width": 247,
+          "height": 204,
+          "aspect_ratio": 1.2108,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:04:11.553030+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:50.804025+00:00",
+            "load_time_ms": 97,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 530,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/toy-christmas-season-medal-event-v0-y7i29dwxhz5e1.jpeg?width=640&crop=smart&auto=webp&s=e2ecbafc58883fa64e1dce2fe23e8c7588fd1f33"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "展示了圣诞主题奖章活动的奖励汇总图，虽然包含奖励内容，但属于UI整合后的活动介绍海报。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:54.853758+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/z_eCHedfBI0/maxresdefault.jpg",
+          "caption": "Medal Event is Coming to Clash of Clans ...",
+          "source_url": "https://www.youtube.com/watch?v=z_eCHedfBI0",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+medal+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans medal event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:04:11.553030+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:51.176529+00:00",
+            "load_time_ms": 368,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/z_eCHedfBI0/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "YouTube视频预览图，展示了万圣节奖章活动的时间表和预告，属于活动宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:54.853758+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "challenge_level",
+      "display_name": "Challenge Levels / 特殊挑战关",
+      "description": "Supercell 发布固定阵型和军队配置的限时挑战，玩家尝试三星通关获得奖励。",
+      "examples": [
+        "Haaland Challenge levels",
+        "Painter Warden Challenge",
+        "season challenge levels",
+        "new troop challenge"
+      ],
+      "market_research_notes": "挑战关适合展示新皮肤、新兵种或主题合作，同时在社群中产生攻略传播。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/3pphiPK_UZc/maxresdefault.jpg",
+          "caption": "Clash of Clans ...",
+          "source_url": "https://www.youtube.com/watch?v=3pphiPK_UZc",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+challenge+level",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans challenge level",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:04:40.306494+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:51.549701+00:00",
+            "load_time_ms": 368,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/3pphiPK_UZc/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了挑战活动相关的奖励轨/任务列表界面，具有实际操作界面特征。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:59.146011+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/KkVJtTiZv4I/maxresdefault.jpg",
+          "caption": "Controllable Heroes Challenge Levels 15 ...",
+          "source_url": "https://www.youtube.com/watch?v=KkVJtTiZv4I",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+challenge+level",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans challenge level",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:04:40.306494+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:51.940640+00:00",
+            "load_time_ms": 386,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/KkVJtTiZv4I/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "虽然背景有布局，但主体是合成的宣传文字和Logo，属于攻略类视频的封面宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:59.146011+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/KkVJtTiZv4I/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAJc6SQzS_Kaz9Swlb9-GsXw3Z7BA",
+          "caption": "The Challenge Level: Fastest Completion ...",
+          "source_url": "https://www.youtube.com/watch?v=KkVJtTiZv4I",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+challenge+level",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans challenge level",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:04:40.306494+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:52.294596+00:00",
+            "load_time_ms": 349,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/KkVJtTiZv4I/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAJc6SQzS_Kaz9Swlb9-GsXw3Z7BA"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "与图2相同，是带有挑战标题和合成元素的视频封面图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:59.146011+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/EH1fmMAmRDc/maxresdefault.jpg",
+          "caption": "Controllable Heroes Challenge ...",
+          "source_url": "https://www.youtube.com/watch?v=EH1fmMAmRDc",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+challenge+level",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans challenge level",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:04:40.306494+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:52.666230+00:00",
+            "load_time_ms": 368,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/EH1fmMAmRDc/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "拼接了奖励列表和战斗画面，并辅以巨大的宣传文字，属于合成的宣传/攻略封面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:59.146011+00:00"
+          }
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HBcSR_UWwAAr-e2.jpg",
+          "caption": "base attack event challenges ...",
+          "source_url": "https://x.com/ClashofClans/status/2024106660956905893",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+challenge+level",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans challenge level",
+          "width": 269,
+          "height": 188,
+          "aspect_ratio": 1.4309,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:04:40.306494+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:52.942895+00:00",
+            "load_time_ms": 262,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 1200,
+            "content_type": "image/jpeg",
+            "current_src": "https://pbs.twimg.com/media/HBcSR_UWwAAr-e2.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "官方社交媒体发布的活动介绍宣传图，背景模糊处理，并非实际玩法操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:17:59.146011+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "temporary_troop_spell",
+      "display_name": "Temporary Troops / Spells 临时兵种法术",
+      "description": "节日或大型主题活动期间开放临时兵种、法术、超级兵种或特殊规则，改变进攻策略。",
+      "examples": [
+        "football-themed troops",
+        "temporary spell",
+        "event troops",
+        "Super Troop Spotlight"
+      ],
+      "market_research_notes": "临时单位能让老玩法短期变新，并可与奖章活动、挑战关、赛季主题联动。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/bgAxpBp7kg0/maxresdefault.jpg",
+          "caption": "Temporary Troops | Clashflict | Clash ...",
+          "source_url": "https://www.youtube.com/watch?v=bgAxpBp7kg0",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+temporary+troop+spell",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans temporary troop spell",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:05:02.828495+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:53.306089+00:00",
+            "load_time_ms": 351,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/bgAxpBp7kg0/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图展示了部落冲突中多个著名的临时兵种（如南瓜野蛮人、艾尔普里莫等），属于活动兵种的合集宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:03.707149+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/dOrXLg3dJns/maxresdefault.jpg",
+          "caption": "Troops & Traps in Clash of Clans ...",
+          "source_url": "https://www.youtube.com/watch?v=dOrXLg3dJns",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+temporary+troop+spell",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans temporary troop spell",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:05:02.828495+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:53.691496+00:00",
+            "load_time_ms": 380,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/dOrXLg3dJns/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "该图展示了游戏内训练营或选择界面中带有紫色边框、等级和训练费用的临时单位与限时法术，属于实际玩法界面截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:03.707149+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/which-event-troop-s-have-been-your-favorite-design-v0-x2xnlj7q6iue1.jpeg?width=640&crop=smart&auto=webp&s=afad00f649311798c12f409a75c038b82386cccd",
+          "caption": "Which event troop(s) have been your ...",
+          "source_url": "https://www.reddit.com/r/ClashOfClans/comments/1jxwb3t/which_event_troops_have_been_your_favorite_design/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+temporary+troop+spell",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans temporary troop spell",
+          "width": 237,
+          "height": 212,
+          "aspect_ratio": 1.1179,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:05:02.828495+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:53.799589+00:00",
+            "load_time_ms": 102,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 573,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/which-event-troop-s-have-been-your-favorite-design-v0-x2xnlj7q6iue1.jpeg?width=640&crop=smart&auto=webp&s=afad00f649311798c12f409a75c038b82386cccd"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "该图是临时兵种的头像汇总列表（如Lavaloon, Broom Witch等），属于活动说明或介绍性质的图集。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:03.707149+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/9qlcqWj9ayA/maxresdefault.jpg",
+          "caption": "Big Golden Dragon VS All Troops ...",
+          "source_url": "https://www.youtube.com/watch?v=9qlcqWj9ayA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+temporary+troop+spell",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans temporary troop spell",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:05:02.828495+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:54.169372+00:00",
+            "load_time_ms": 364,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/9qlcqWj9ayA/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "图中有明显的‘Temporary’兵种分类和各种临时单位图标，但整体构图为拼接对比的宣传海报风格，非原生游戏内操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:03.707149+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "streak_event",
+      "display_name": "Streak Event / 连续日任务",
+      "description": "玩家每日完成 Multiplayer battle tasks 维持 streak，推进挑战轨并领取奖励；该活动曾过期，可能返场。",
+      "examples": [
+        "Streak Event"
+      ],
+      "market_research_notes": "这是直接驱动每日回流的任务轨。调研时应标注当前是否可用，避免和常驻 Season Challenges 混淆。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/xW8rfMJNoiY/maxresdefault.jpg",
+          "caption": "Streak Event in Clash of Clans ...",
+          "source_url": "https://www.youtube.com/watch?v=xW8rfMJNoiY",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+streak+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans streak event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:05:25.359271+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:54.527990+00:00",
+            "load_time_ms": 353,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/xW8rfMJNoiY/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了连续日任务（Streak Event）的活动奖励轨和进度条界面，属于实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:09.221291+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/IbygtV0ppZk/maxresdefault.jpg",
+          "caption": "New Streak Event - Everything You Need ...",
+          "source_url": "https://www.youtube.com/watch?v=IbygtV0ppZk",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+streak+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans streak event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:05:25.359271+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:54.922805+00:00",
+            "load_time_ms": 388,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/IbygtV0ppZk/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图片展示了该活动的奖励内容（Shiny Ore等），但属于视频封面宣传图，非原生游戏内操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:09.221291+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/B13o8mr18to/maxresdefault.jpg",
+          "caption": "COC UPCOMING STREAK EVENT EXPLAINED ...",
+          "source_url": "https://www.youtube.com/watch?v=B13o8mr18to",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+streak+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans streak event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:05:25.359271+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:55.267359+00:00",
+            "load_time_ms": 339,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/B13o8mr18to/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了活动入口图和活动名称，属于视频封面宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:09.221291+00:00"
+          }
+        },
+        {
+          "url": "https://cloud.frankeapps.com/3/streak-event-00b.png",
+          "caption": "Clash of Clans first-ever Streak Event ...",
+          "source_url": "https://houseofclashers.com/breaking-news/2024/04/18/clash-of-clans-first-ever-streak-event-starts-today",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+streak+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans streak event",
+          "width": 321,
+          "height": 157,
+          "aspect_ratio": 2.0446,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:05:25.359271+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:57.717362+00:00",
+            "load_time_ms": 2444,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1608,
+            "natural_height": 660,
+            "content_type": "image/png",
+            "current_src": "https://cloud.frankeapps.com/3/streak-event-00b.png"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "图片包含游戏Logo及活动标语，属于典型的活动宣传海报，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:09.221291+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "resource_boost_event",
+      "display_name": "资源 / 训练 / 战争奖励增益",
+      "description": "限时提高资源产出、训练效率、Clan XP、War Bonus Resources 或降低成本，影响玩家升级和开战时机。",
+      "examples": [
+        "Clan XP Event",
+        "War Bonus Resources Event",
+        "training boost",
+        "cost reduction events"
+      ],
+      "market_research_notes": "这类短时经济调节活动对回流和资源消耗节奏影响大，但常被玩家视为配套活动而非主活动。",
+      "images": [
+        {
+          "url": "https://i.redd.it/xpukuirqwfd11.jpg",
+          "caption": "EVENT] 1-Gem Collector Boost for 30 ...",
+          "source_url": "https://www.reddit.com/r/ClashOfClans/comments/93n2xp/event_1gem_collector_boost_for_30_days/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+resource+boost+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans resource boost event",
+          "width": 450,
+          "height": 112,
+          "aspect_ratio": 4.0179,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:05:52.091478+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:57.818990+00:00",
+            "load_time_ms": 97,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1352,
+            "natural_height": 338,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/xpukuirqwfd11.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了游戏内具体的资源建筑（金矿、采集器）1宝石加速活动的进度/说明界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:12.852428+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/D8C_hNUtgDM/maxresdefault.jpg",
+          "caption": "CRAZY 4x STAR BONUS and 1 Gem Resource ...",
+          "source_url": "https://www.youtube.com/watch?v=D8C_hNUtgDM",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+resource+boost+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans resource boost event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:05:52.091478+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:58.226122+00:00",
+            "load_time_ms": 401,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/D8C_hNUtgDM/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "YouTube视频封面海报，包含了资源加速和星池奖励活动的宣传文字及拼接素材。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:12.852428+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/lokdlefjdkae1.jpeg",
+          "caption": "december resources boost for 1 gem ...",
+          "source_url": "https://www.reddit.com/r/ClashOfClans/comments/1hrrh1p/what_happened_to_the_december_resources_boost_for/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+resource+boost+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans resource boost event",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:05:52.091478+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:58.341525+00:00",
+            "load_time_ms": 109,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 1080,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/lokdlefjdkae1.jpeg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "带有官方Logo的1宝石资源加速活动宣传海报。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:12.852428+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/aUYUU04Tsak/maxresdefault.jpg",
+          "caption": "NEW Hero Rush Boost Event Explained ...",
+          "source_url": "https://www.youtube.com/watch?v=aUYUU04Tsak",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+resource+boost+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans resource boost event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:05:52.091478+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:58.732192+00:00",
+            "load_time_ms": 385,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/aUYUU04Tsak/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "Hero Rush Boost活动说明的宣传图/封面，非实际游戏操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:12.852428+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/the-resource-potion-doesnt-work-during-the-event-v0-joalh2udoigf1.jpeg?width=640&crop=smart&auto=webp&s=6bdf8048d523d6c47508696192db4fb93a4ee132",
+          "caption": "The resource potion doesn't work during ...",
+          "source_url": "https://www.reddit.com/r/ClashOfClans/comments/1mff6jh/the_resource_potion_doesnt_work_during_the_event/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+resource+boost+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans resource boost event",
+          "width": 279,
+          "height": 181,
+          "aspect_ratio": 1.5414,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:05:52.091478+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:16:58.841930+00:00",
+            "load_time_ms": 100,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 415,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/the-resource-potion-doesnt-work-during-the-event-v0-joalh2udoigf1.jpeg?width=640&crop=smart&auto=webp&s=6bdf8048d523d6c47508696192db4fb93a4ee132"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了具体的黑油钻井（Dark Elixir Drill）在资源节（Resource Fest）期间的生产详情界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:12.852428+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "world_championship",
+      "display_name": "World Championship / 官方电竞",
+      "description": "官方 Clash of Clans World Championship 以月度资格赛、预选和线下/线上决赛构成，常与 Clan War League 或专门赛事入口关联。",
+      "examples": [
+        "Clash of Clans World Championship",
+        "monthly qualifiers",
+        "CWL pre-qualifier"
+      ],
+      "market_research_notes": "顶层竞技生态，和普通 LiveOps 不同，但会影响高端 Clan 的月度目标。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/UnC1v7ChpwY/maxresdefault.jpg",
+          "caption": "World Championship GRAND FINAL - Clash ...",
+          "source_url": "https://www.youtube.com/watch?v=UnC1v7ChpwY",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+world+championship",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans world championship",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:06:16.837747+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:00.886920+00:00",
+            "load_time_ms": 362,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/UnC1v7ChpwY/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图片展示了Clash of Clans全球总决赛(World Championship Final)的宣传海报，包含选手照片和赛事Logo，无实际游戏内玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:21.984133+00:00"
+          }
+        },
+        {
+          "url": "https://supercell.com/_next/static/media/og_default.397a54a5.jpg",
+          "caption": "Nova wins Clash World Championship ...",
+          "source_url": "https://supercell.com/en/news/nova-win-clash-world-championship/7224/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+world+championship",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans world championship",
+          "width": 331,
+          "height": 152,
+          "aspect_ratio": 2.1776,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:06:16.837747+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:01.161189+00:00",
+            "load_time_ms": 269,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/jpeg",
+            "current_src": "https://supercell.com/_next/static/media/og_default.397a54a5.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图是Supercell公司的通用品牌宣传图，包含Clash of Clans及其他多款游戏的联合角色，并非针对本次世界锦标赛的特定活动图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:21.984133+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/RjiO9etaEsY/maxresdefault.jpg",
+          "caption": "Clash of Clans World Championship ...",
+          "source_url": "https://www.youtube.com/watch?v=RjiO9etaEsY",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+world+championship",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans world championship",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:06:16.837747+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:01.535216+00:00",
+            "load_time_ms": 369,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/RjiO9etaEsY/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图片展示了Clash of Clans World Championship的宣传海报，包含赛事Logo、选手形象及奖金信息，属于本活动宣传图，非游戏内玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:21.984133+00:00"
+          }
+        },
+        {
+          "url": "https://www.clashchamps.com/wp-content/uploads/2023/12/F_3RfRbWAAA5n6f-870x450.png",
+          "caption": "Clans World Champions – Clash Champs",
+          "source_url": "https://www.clashchamps.com/2023/12/07/clash-champs-are-2023-clash-of-clans-world-champions/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+of+clans+world+championship",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash of clans world championship",
+          "width": 870,
+          "height": 450,
+          "aspect_ratio": 1.9333,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:06:16.837747+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:01.688870+00:00",
+            "load_time_ms": 149,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 870,
+            "natural_height": 450,
+            "content_type": "image/webp",
+            "current_src": "https://www.clashchamps.com/wp-content/uploads/2023/12/F_3RfRbWAAA5n6f-870x450.png"
+          },
+          "llm_image_filter": {
+            "category": 2,
+            "category_label": "无法确定是否和本游戏无关",
+            "confidence": 0.0,
+            "reason": "模型接口无法读取或接受该图片 URL，已按无法确定处理：Error code: 400 - {'error': {'message': 'URL did not return an image (received text/error content): https://***.com/***/***/***/***/*** ({\"provider_name\":\"Google\"})', 'type': 'upstream_error', 'param': '', 'code': 400, 'metadata': {'provider_name': 'Google'}}, 'trace_id': '20260513171821510366849xxNC8fir'}",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:18:21.984133+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "Clash of Clans 活动体系清晰但历史很长。本轮覆盖现行主干：Season、Clan Games、CWL、Raid Weekend、Medal Events、Challenge Levels；后续可按每月主题补具体活动和奖励商店。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T06:06:16.838747+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:18:21.984133+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

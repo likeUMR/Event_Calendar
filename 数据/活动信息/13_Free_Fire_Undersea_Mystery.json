@@ -1,0 +1,279 @@
+{
+  "rank": 13,
+  "name": "Free Fire: Undersea Mystery",
+  "source_confidence": "high",
+  "source_notes": null,
+  "collected_at": "2026-05-12T03:59:40.993Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "FreeFire Wiki - Events",
+      "source_type": "fandom",
+      "source_url": "https://freefire.fandom.com/wiki/Events",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "source_title": "Free Fire: Undersea Mystery - TapTap",
+      "source_type": "store_info",
+      "source_url": "https://www.taptap.io/en/app/65562",
+      "fetched_url": "https://www.taptap.io/app/65562",
+      "status": 200,
+      "page_title": "Free Fire: Undersea Mystery",
+      "meta_description": "Highly Rated! Download the APK of Free Fire: Undersea Mystery Latest Version. Published by Garena. Read reviews and learn more about Free Fire: Undersea Myst...",
+      "relevant_text_blocks": [
+        "Players are saying...",
+        "8 Years of Battle Royale: Why Garena Free Fire is more than just a game?",
+        "Complete Guide To Mastering Free Fire Support Mechanics And Securing Extra Cheap Diamond Bonuses",
+        "Need for Speed™ No Limits",
+        "Hungry Shark Evolution",
+        "More Games From This Dev",
+        "Free Fire: Undersea Mystery",
+        "Garena Liên Quân Mobile",
+        "Garena AOV: Innovation Era",
+        "Garena RoV: Attack on Titan",
+        "Garena 傳說對決 X 關於我轉生變成史萊姆這檔事"
+      ],
+      "inferred_event_types": [],
+      "images": [
+        {
+          "url": "https://img.tapimg.net/market/images/088e1147b2142804de1e9bf16d3ab491.png?imageView2/0/h/270/format/jpg/interlace/1/ignore-error/1&t=1",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://assets.tapimg.com/apps/web-app-intl-next/_nuxt/taptap-b61e4a47957d.png",
+          "alt": "TapTap",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://img.tapimg.net/market/images/e84e5a3c6f36a9db1c0fc991ace4cfec.jpg?imageView2/2/w/720/h/720/q/80/format/jpg/interlace/1/ignore-error/1&t=1",
+          "alt": "Screenshot of the video of Free Fire: Undersea Mystery",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "event_detail_pages": [
+    {
+      "source_title": "Adventure",
+      "source_type": "event_detail",
+      "source_url": "https://www.taptap.io/tag/adventure",
+      "fetched_url": "https://www.taptap.io/tag/adventure",
+      "status": 200,
+      "page_title": "TapTap",
+      "meta_description": "",
+      "relevant_text_blocks": [],
+      "inferred_event_types": [],
+      "images": [
+        {
+          "url": "https://img.tapimg.net/market/images/e81c035edbb08eda700e9333b5ce64e0.png",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Clash of Clans Global 9.1 Strategy Action Build & battle",
+      "source_type": "event_detail",
+      "source_url": "https://www.taptap.io/app/2",
+      "fetched_url": "https://www.taptap.io/app/2",
+      "status": 200,
+      "page_title": "Clash of Clans",
+      "meta_description": "Highly Rated! Download the APK of Clash of Clans Latest Version. Published by Supercell. Read reviews and learn more about Clash of Clans. Enjoy the best Str...",
+      "relevant_text_blocks": [
+        "Players are saying...",
+        "🏰️ Warm clan community and teamwork make building, wars, and daily play feel meaningful and nostalgic.",
+        "I made an anti-ranged assassin cat for my game",
+        "Need for Speed™ No Limits",
+        "Hungry Shark Evolution",
+        "More Games From This Dev"
+      ],
+      "inferred_event_types": [
+        "team_alliance",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://img.tapimg.net/market/images/509c906d3482e4ddd39e0fb926e21e9f.png?imageView2/0/h/270/format/jpg/interlace/1/ignore-error/1&t=1",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://assets.tapimg.com/apps/web-app-intl-next/_nuxt/taptap-b61e4a47957d.png",
+          "alt": "TapTap",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://img.tapimg.net/market/images/a83a9225c0615609c01f9993c1d0b39e.png?imageView2/2/w/720/h/720/q/80/format/jpg/interlace/1/ignore-error/1&t=1",
+          "alt": "Screenshot of the video of Clash of Clans",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Free Fire MAX 9.0 Action Adventure Shooter",
+      "source_type": "event_detail",
+      "source_url": "https://www.taptap.io/app/200139",
+      "fetched_url": "https://www.taptap.io/app/200139",
+      "status": 200,
+      "page_title": "Free Fire MAX",
+      "meta_description": "Highly Rated! Download the APK of Free Fire MAX Latest Version. Published by Garena. Read reviews and learn more about Free Fire MAX. Enjoy the best Action,A...",
+      "relevant_text_blocks": [
+        "Players are saying...",
+        "🎮️ Fast-paced gameplay, varied modes like Clash Squad and Battle Royale, exciting last-man-standing matches that keep gameplay joyful and highly replayable.",
+        "Alok vs K vs Dimitri (2026): Which Character Wins More Fights in Free Fire?",
+        "Need for Speed™ No Limits",
+        "Hungry Shark Evolution",
+        "More Games From This Dev",
+        "Free Fire: Undersea Mystery",
+        "Garena Liên Quân Mobile",
+        "Garena AOV: Innovation Era",
+        "Garena RoV: Attack on Titan",
+        "Garena 傳說對決 X 關於我轉生變成史萊姆這檔事"
+      ],
+      "inferred_event_types": [],
+      "images": [
+        {
+          "url": "https://img.tapimg.net/market/images/8693a7bc58f76c2801498251a79311b1.png?imageView2/0/h/270/format/jpg/interlace/1/ignore-error/1&t=1",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://assets.tapimg.com/apps/web-app-intl-next/_nuxt/taptap-b61e4a47957d.png",
+          "alt": "TapTap",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://img.tapimg.net/market/images/a0f4245139f3a8b5010026ffc7a47a31.jpg?imageView2/2/w/720/h/720/q/80/format/jpg/interlace/1/ignore-error/1&t=1",
+          "alt": "Screenshot of the video of Free Fire MAX",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "event_catalog": [
+    {
+      "title": "TapTap",
+      "url": "https://www.taptap.io/tag/adventure",
+      "discovered_from": "https://www.taptap.io/en/app/65562",
+      "description": "",
+      "inferred_event_types": [],
+      "images": [
+        {
+          "url": "https://img.tapimg.net/market/images/e81c035edbb08eda700e9333b5ce64e0.png",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Clash of Clans",
+      "url": "https://www.taptap.io/app/2",
+      "discovered_from": "https://www.taptap.io/en/app/65562",
+      "description": "Highly Rated! Download the APK of Clash of Clans Latest Version. Published by Supercell. Read reviews and learn more about Clash of Clans. Enjoy the best Str...",
+      "inferred_event_types": [
+        "team_alliance",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://img.tapimg.net/market/images/509c906d3482e4ddd39e0fb926e21e9f.png?imageView2/0/h/270/format/jpg/interlace/1/ignore-error/1&t=1",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://assets.tapimg.com/apps/web-app-intl-next/_nuxt/taptap-b61e4a47957d.png",
+          "alt": "TapTap",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://img.tapimg.net/market/images/a83a9225c0615609c01f9993c1d0b39e.png?imageView2/2/w/720/h/720/q/80/format/jpg/interlace/1/ignore-error/1&t=1",
+          "alt": "Screenshot of the video of Clash of Clans",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Free Fire MAX",
+      "url": "https://www.taptap.io/app/200139",
+      "discovered_from": "https://www.taptap.io/en/app/65562",
+      "description": "Highly Rated! Download the APK of Free Fire MAX Latest Version. Published by Garena. Read reviews and learn more about Free Fire MAX. Enjoy the best Action,A...",
+      "inferred_event_types": [],
+      "images": [
+        {
+          "url": "https://img.tapimg.net/market/images/8693a7bc58f76c2801498251a79311b1.png?imageView2/0/h/270/format/jpg/interlace/1/ignore-error/1&t=1",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://assets.tapimg.com/apps/web-app-intl-next/_nuxt/taptap-b61e4a47957d.png",
+          "alt": "TapTap",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://img.tapimg.net/market/images/a0f4245139f3a8b5010026ffc7a47a31.jpg?imageView2/2/w/720/h/720/q/80/format/jpg/interlace/1/ignore-error/1&t=1",
+          "alt": "Screenshot of the video of Free Fire MAX",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "inferred_event_type_summary": [
+    "pvp_war",
+    "team_alliance"
+  ],
+  "screenshots_or_images": [
+    {
+      "url": "https://img.tapimg.net/market/images/088e1147b2142804de1e9bf16d3ab491.png?imageView2/0/h/270/format/jpg/interlace/1/ignore-error/1&t=1",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://www.taptap.io/en/app/65562"
+    },
+    {
+      "url": "https://assets.tapimg.com/apps/web-app-intl-next/_nuxt/taptap-b61e4a47957d.png",
+      "alt": "TapTap",
+      "kind": "page_image",
+      "source_url": "https://www.taptap.io/en/app/65562"
+    },
+    {
+      "url": "https://img.tapimg.net/market/images/e84e5a3c6f36a9db1c0fc991ace4cfec.jpg?imageView2/2/w/720/h/720/q/80/format/jpg/interlace/1/ignore-error/1&t=1",
+      "alt": "Screenshot of the video of Free Fire: Undersea Mystery",
+      "kind": "page_image",
+      "source_url": "https://www.taptap.io/en/app/65562"
+    },
+    {
+      "url": "https://img.tapimg.net/market/images/e81c035edbb08eda700e9333b5ce64e0.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.taptap.io/tag/adventure"
+    },
+    {
+      "url": "https://img.tapimg.net/market/images/509c906d3482e4ddd39e0fb926e21e9f.png?imageView2/0/h/270/format/jpg/interlace/1/ignore-error/1&t=1",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://www.taptap.io/app/2"
+    },
+    {
+      "url": "https://img.tapimg.net/market/images/a83a9225c0615609c01f9993c1d0b39e.png?imageView2/2/w/720/h/720/q/80/format/jpg/interlace/1/ignore-error/1&t=1",
+      "alt": "Screenshot of the video of Clash of Clans",
+      "kind": "page_image",
+      "source_url": "https://www.taptap.io/app/2"
+    },
+    {
+      "url": "https://img.tapimg.net/market/images/8693a7bc58f76c2801498251a79311b1.png?imageView2/0/h/270/format/jpg/interlace/1/ignore-error/1&t=1",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://www.taptap.io/app/200139"
+    },
+    {
+      "url": "https://img.tapimg.net/market/images/a0f4245139f3a8b5010026ffc7a47a31.jpg?imageView2/2/w/720/h/720/q/80/format/jpg/interlace/1/ignore-error/1&t=1",
+      "alt": "Screenshot of the video of Free Fire MAX",
+      "kind": "page_image",
+      "source_url": "https://www.taptap.io/app/200139"
+    }
+  ],
+  "collection_warnings": [
+    "Fetch failed: https://freefire.fandom.com/wiki/Events"
+  ]
+}

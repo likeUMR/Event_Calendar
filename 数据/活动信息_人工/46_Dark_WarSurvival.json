@@ -1,0 +1,1898 @@
+{
+  "rank": 46,
+  "name": "Dark War:Survival",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 Dark War Survival Fandom 的 Events 总页、darkwar.wiki 的 Events & Quests 分类，以及 Survivor Trials、Glory War、Industrial Age、Season Event Calendar 等代表性页面，按活动机制整理。",
+  "source_pages": [
+    {
+      "title": "Dark War survival Wiki - Events",
+      "url": "https://dark-war-survival.fandom.com/wiki/Events",
+      "notes": "Fandom 总览页，适合确认高频事件名称与大类入口。"
+    },
+    {
+      "title": "Dark War Survival Wiki - Events & Quests",
+      "url": "https://darkwar.wiki/category/events-quests/",
+      "notes": "独立 wiki 的活动分类页，能补齐 Fandom 没有覆盖到的事件与任务体系。"
+    },
+    {
+      "title": "Dark War Survival Wiki - Survivor Trials Event Guide",
+      "url": "https://darkwar.wiki/events-quests/event-strategy-guides/survivor-trials-event-guide/",
+      "notes": "用于确认 Survivor Trials 的周期、阶段目标和成长引导定位。"
+    },
+    {
+      "title": "Dark War Survival Wiki - Glory War Event Guide",
+      "url": "https://darkwar.wiki/events-quests/glory-war-event-guide/",
+      "notes": "用于确认 Glory War 的联盟对抗、地图争夺和阶段奖励结构。"
+    },
+    {
+      "title": "Dark War Survival Wiki - Industrial Age Event Guide",
+      "url": "https://darkwar.wiki/events-quests/industrial-age-event-guide/",
+      "notes": "用于确认 Industrial Age 的成长线、阶段目标和赛季化包装。"
+    },
+    {
+      "title": "Dark War Survival Wiki - Season 1 Event Calendar",
+      "url": "https://darkwar.wiki/events-quests/season-1-event-calendar-dark-war-survival/",
+      "notes": "用于确认该游戏存在按赛季编排的事件日历，而不只是单点活动。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "survivor_trials",
+      "display_name": "Survivor Trials / 生还者试炼",
+      "description": "偏新手成长向的阶段活动，通常围绕资源采集、建筑成长、战力提升和指定任务推进展开，属于比较典型的开服或前期引导型活动。",
+      "examples": [
+        "Survivor Trials"
+      ],
+      "market_research_notes": "更像 early-game onboarding event，用来把新玩家拉进稳定的日常任务与资源循环。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/uh_3PrnWkFo/maxresdefault.jpg",
+          "caption": "Seasonal Event in Dark War Survival ...",
+          "source_url": "https://www.youtube.com/watch?v=uh_3PrnWkFo",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+survivor+trials",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival survivor trials",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:07:30.595086+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:59.174393+00:00",
+            "load_time_ms": 390,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/uh_3PrnWkFo/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片展示的是Celebration Trial，虽然包含Trial字样，但属于庆典类活动，与Survivor Trials新手引导活动不符。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:49.791598+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/survivor-trials-resource-extraction-v0-w4o80t4s76ee1.jpg?width=842&format=pjpg&auto=webp&s=c17400361a6748d2b85c40f79da4d61ffeb95101",
+          "caption": "Survivor Trials \"Resource Extraction ...",
+          "source_url": "https://www.reddit.com/r/darkwarsurvival/comments/1i5tatx/survivor_trials_resource_extraction/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+survivor+trials",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival survivor trials",
+          "width": 177,
+          "height": 284,
+          "aspect_ratio": 0.6232,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:07:30.595086+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:59.484925+00:00",
+            "load_time_ms": 306,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 842,
+            "natural_height": 1346,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/survivor-trials-resource-extraction-v0-w4o80t4s76ee1.jpg?width=842&format=pjpg&auto=webp&s=c17400361a6748d2b85c40f79da4d61ffeb95101"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 1.0,
+            "reason": "图片明确显示Survivor Trials标题，且展示了资源采集任务列表、进度条和多日页签等实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:49.791598+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/j-TUXkj5U6s/maxresdefault.jpg",
+          "caption": "Dark war survival beginner trials - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=j-TUXkj5U6s",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+survivor+trials",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival survivor trials",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:07:30.595086+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:59.861846+00:00",
+            "load_time_ms": 372,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/j-TUXkj5U6s/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "展示的是游戏的战斗升级基础玩法截图，无法直接关联到Survivor Trials特定活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:49.791598+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/m6jKLluQPfU/maxresdefault.jpg",
+          "caption": "Trials in Dark War Survival ...",
+          "source_url": "https://www.youtube.com/watch?v=m6jKLluQPfU",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+survivor+trials",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival survivor trials",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:07:30.595086+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:00.245534+00:00",
+            "load_time_ms": 378,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/m6jKLluQPfU/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片显示的是Faction Trials（阵营试炼），属于常驻或另一种类型的试炼，非Survivor Trials。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:49.791598+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/LTIukyHeaAo/maxresdefault.jpg",
+          "caption": "Dark War Survival: Training Center Tips ...",
+          "source_url": "https://www.youtube.com/watch?v=LTIukyHeaAo",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+survivor+trials",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival survivor trials",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:07:30.595086+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:00.664094+00:00",
+            "load_time_ms": 411,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/LTIukyHeaAo/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片展示的是游戏的Training Center（训练中心）功能，属于通用的系统功能宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:49.791598+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "alliance_war_event",
+      "display_name": "Glory War / 联盟战争",
+      "description": "以联盟对抗为核心，强调成员协作、集结、领地推进和阶段结算，是典型的中后期公会战玩法。",
+      "examples": [
+        "Glory War"
+      ],
+      "market_research_notes": "属于标准 SLG 联盟 PvP 主活动，重在组织协作而不是个人单刷。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/Xsn-LvuIbi4/hqdefault.jpg",
+          "caption": "YouTube",
+          "source_url": "https://www.youtube.com/watch?v=Xsn-LvuIbi4",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+alliance+war+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival alliance war event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:08:04.367150+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:01.012528+00:00",
+            "load_time_ms": 340,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 480,
+            "natural_height": 360,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/Xsn-LvuIbi4/hqdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了联盟对决（Alliance Duel）活动的积分奖励轨道、任务列表及排行榜界面，属于实际玩法截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:53.697949+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/cYxLeAeFVow/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAv7hHoKc2XjC_tXlKCQ8EdbDQ13A&usqp=CCk",
+          "caption": "Alliance Duel Day 1 tasks- Dark War ...",
+          "source_url": "https://www.youtube.com/shorts/cYxLeAeFVow",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+alliance+war+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival alliance war event",
+          "width": 168,
+          "height": 300,
+          "aspect_ratio": 0.56,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:08:04.367150+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:01.509258+00:00",
+            "load_time_ms": 491,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 405,
+            "natural_height": 720,
+            "content_type": "image/webp",
+            "current_src": "https://i.ytimg.com/vi/cYxLeAeFVow/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAv7hHoKc2XjC_tXlKCQ8EdbDQ13A&usqp=CCk"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "清晰展示了活动任务界面，包含积分进度条、活动倒计时、具体任务要求（如建筑提速、科技提速等），属于核心玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:53.697949+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/CU1os3NiyYo/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHMBIACgAqKAgwIABABGDEgQih_MA8=&rs=AOn4CLDz7IU_Ha0ARg8HgIxHXfecVRKOyQ",
+          "caption": "Dark War Survival: State of Supremacy ...",
+          "source_url": "https://www.youtube.com/watch?v=CU1os3NiyYo",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+alliance+war+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival alliance war event",
+          "width": 194,
+          "height": 259,
+          "aspect_ratio": 0.749,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:08:04.367150+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:01.905001+00:00",
+            "load_time_ms": 390,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/CU1os3NiyYo/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHMBIACgAqKAgwIABABGDEgQih_MA8=&rs=AOn4CLDz7IU_Ha0ARg8HgIxHXfecVRKOyQ"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了名为“Allied Power”的活动界面，包含排行榜和活动节点，符合联盟战争主题的实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:53.697949+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/alliance-duel-v0-r9te1405yk0f1.jpeg?auto=webp&s=ce4b7006fe8c255035dae8ff237bf9d6754db484",
+          "caption": "Alliance Duel : r/darkwarsurvival",
+          "source_url": "https://www.reddit.com/r/darkwarsurvival/comments/1klr40z/alliance_duel/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+alliance+war+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival alliance war event",
+          "width": 245,
+          "height": 206,
+          "aspect_ratio": 1.1893,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:08:04.367150+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:02.174866+00:00",
+            "load_time_ms": 263,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1084,
+            "natural_height": 913,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/alliance-duel-v0-r9te1405yk0f1.jpeg?auto=webp&s=ce4b7006fe8c255035dae8ff237bf9d6754db484"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "虽然是局部截图，但展示了活动中的具体积分获取标准（Red Equipment相关点数），属于活动规则/进度相关的玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:53.697949+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/WlN7Yr9Xy2s/sddefault.jpg",
+          "caption": "Alliance Duel Day 2 Hero Upgrade in ...",
+          "source_url": "https://www.youtube.com/watch?v=WlN7Yr9Xy2s",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+alliance+war+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival alliance war event",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:08:04.367150+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:02.526977+00:00",
+            "load_time_ms": 346,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 480,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/WlN7Yr9Xy2s/sddefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "图片为YouTube视频封面，虽然拼接了活动UI图，但整体上属于非直接操作的宣传/封面图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:53.697949+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "capital_control",
+      "display_name": "Capital Clash / 首都争夺",
+      "description": "围绕核心据点或首都控制权展开，通常包含占领、驻防、争夺时间点和联盟排名奖励。",
+      "examples": [
+        "Capital Clash"
+      ],
+      "market_research_notes": "这是很多 SLG 都会有的地图中心目标争夺活动，适合作为赛季或大周期冲突节点。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/kcm7jIhYhAQ/maxresdefault.jpg",
+          "caption": "Dark War Survival Capital Clash [Part 2 ...",
+          "source_url": "https://www.youtube.com/watch?v=kcm7jIhYhAQ",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+capital+control",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival capital control",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:08:32.338427+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:02.928934+00:00",
+            "load_time_ms": 396,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/kcm7jIhYhAQ/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图中展示了Capital Clash活动的实际大地图玩法界面，包含首都建筑、倒计时和玩家坐标信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:58.023462+00:00"
+          }
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/661f895d656bb1a7251835cc/69a006a690028521fe62f1bd_dark_war_state_of_supremacy.png",
+          "caption": "Dark War Survival: State of Supremacy ...",
+          "source_url": "https://www.packsify.com/blogs/dark-war-survival-state-of-supremacy-strategy-guide",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+capital+control",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival capital control",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:08:32.338427+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:05.315970+00:00",
+            "load_time_ms": 2382,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/png",
+            "current_src": "https://cdn.prod.website-files.com/661f895d656bb1a7251835cc/69a006a690028521fe62f1bd_dark_war_state_of_supremacy.png"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "图片展示了游戏Logo及相关术语，但属于通用的社区或博客封面宣传图，无具体活动玩法。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:58.023462+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/new-rules-for-capital-clash-v0-zqtvw0svblyf1.jpeg?auto=webp&s=515550eb028a4e7550229fe80e9c0069d9db9551",
+          "caption": "New rules for capital clash : r ...",
+          "source_url": "https://www.reddit.com/r/darkwarsurvival/comments/1olgzoc/new_rules_for_capital_clash/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+capital+control",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival capital control",
+          "width": 169,
+          "height": 298,
+          "aspect_ratio": 0.5671,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:08:32.338427+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:05.576630+00:00",
+            "load_time_ms": 255,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 604,
+            "natural_height": 1062,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/new-rules-for-capital-clash-v0-zqtvw0svblyf1.jpeg?auto=webp&s=515550eb028a4e7550229fe80e9c0069d9db9551"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图中为游戏内公告板界面，详细列出了Capital Clash的具体玩法规则和积分获取方式，属于活动内功能截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:58.023462+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/vPzIT2V2gvE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDo5Gfl125FOy9jW-ChBLcbIchETw",
+          "caption": "Dark War Survival Capital Clash Guide ...",
+          "source_url": "https://www.youtube.com/watch?v=vPzIT2V2gvE",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+capital+control",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival capital control",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:08:32.338427+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:05.939858+00:00",
+            "load_time_ms": 354,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/vPzIT2V2gvE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDo5Gfl125FOy9jW-ChBLcbIchETw"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "图中展示了Capital Clash活动的入口倒计时页面及活动说明，属于活动实际玩法界面的一部分。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:58.023462+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "territory_battle",
+      "display_name": "Territory Triumph / 领地争夺",
+      "description": "强调地图地块、联盟领土和推进节奏，玩家通常通过占点、协防和阶段胜负来获得奖励。",
+      "examples": [
+        "Territory Triumph"
+      ],
+      "market_research_notes": "和 Glory War 类似，但更偏领地推进与地图控制。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/B9LdSRsiNP0/maxresdefault.jpg",
+          "caption": "Dark War Survival-Territory Battle Vhla ...",
+          "source_url": "https://www.youtube.com/watch?v=B9LdSRsiNP0",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+territory+battle",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival territory battle",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:09:01.859064+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:06.373894+00:00",
+            "load_time_ms": 422,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/B9LdSRsiNP0/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了领地争夺（Territory Battle）的实际大地图战斗与联盟成员集结界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:03.073402+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/RkgD_-djMm4/maxresdefault.jpg",
+          "caption": "Dark War Survival: Tip & Strategies to ...",
+          "source_url": "https://www.youtube.com/watch?v=RkgD_-djMm4",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+territory+battle",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival territory battle",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:09:01.859064+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:06.782556+00:00",
+            "load_time_ms": 403,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/RkgD_-djMm4/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示了游戏基础建筑升级和资源保护功能，属于通用玩法而非特定活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:03.073402+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/bt8wpeuov98f1.jpeg",
+          "caption": "Map : r/darkwarsurvival",
+          "source_url": "https://www.reddit.com/r/darkwarsurvival/comments/1lg4zcy/map/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+territory+battle",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival territory battle",
+          "width": 221,
+          "height": 228,
+          "aspect_ratio": 0.9693,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:09:01.859064+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:07.563834+00:00",
+            "load_time_ms": 774,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 3996,
+            "natural_height": 4134,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/bt8wpeuov98f1.jpeg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了领地推进活动的核心玩法地图，包含地块划分、中心城市及联盟控制区域。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:03.073402+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/TMdFkcUqj9E/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBU3EOvdmLoR-LxhPT1AYvfp5cxww",
+          "caption": "Season 6 Territory War Overhaul ...",
+          "source_url": "https://www.youtube.com/watch?v=TMdFkcUqj9E",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+territory+battle",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival territory battle",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:09:01.859064+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:07.914056+00:00",
+            "load_time_ms": 344,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/TMdFkcUqj9E/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBU3EOvdmLoR-LxhPT1AYvfp5cxww"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "Youtube视频封面，包含活动标题S6 Territory War信息，属于宣传性质图片。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:03.073402+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/VxmPM7PUUbE/maxresdefault.jpg",
+          "caption": "Dark War Survival | Gameplay ...",
+          "source_url": "https://www.youtube.com/watch?v=VxmPM7PUUbE",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+territory+battle",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival territory battle",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:09:01.859064+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:08.299492+00:00",
+            "load_time_ms": 379,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/VxmPM7PUUbE/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "展示的是游戏的模拟经营/家园建设基础界面，与领地争夺活动玩法无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:03.073402+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "boss_pve",
+      "display_name": "Tyrant Comes / Boss 讨伐",
+      "description": "偏公会或全服协作的 PvE Boss 活动，通常定时开放，玩家通过集火、伤害排名或阶段解锁来拿奖励。",
+      "examples": [
+        "Tyrant Comes"
+      ],
+      "market_research_notes": "适合作为联盟活跃度与伤害输出的协作型 PvE 节点。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/AENpAfZLB-c/maxresdefault.jpg",
+          "caption": "Tyrant in Dark War Survival ...",
+          "source_url": "https://www.youtube.com/watch?v=AENpAfZLB-c",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+boss+pve",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival boss pve",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:09:33.438077+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:08.664084+00:00",
+            "load_time_ms": 358,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/AENpAfZLB-c/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图中有MutaBeast Hunt活动名称、Boss血条、倒计时和奖励列表，属于典型的Boss PvE实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:07.353660+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/g7aro2FFAzg/maxresdefault.jpg",
+          "caption": "Dark War Survival Heroes You Need to ...",
+          "source_url": "https://www.youtube.com/watch?v=g7aro2FFAzg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+boss+pve",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival boss pve",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:09:33.438077+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:09.087421+00:00",
+            "load_time_ms": 416,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/g7aro2FFAzg/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片展示了游戏的角色列表和英雄指南，属于通用游戏角色系统界面，而非特定Boss活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:07.353660+00:00"
+          }
+        },
+        {
+          "url": "https://www.allclash.com/wp-content/uploads/2024/11/dark-war-survival-best-guy-build.jpeg",
+          "caption": "Dark War Survival (Skill Upgrade Order ...",
+          "source_url": "https://www.allclash.com/best-guy-build-in-dark-war-survival-skill-upgrade-order-gear-priority/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+boss+pve",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival boss pve",
+          "width": 269,
+          "height": 187,
+          "aspect_ratio": 1.4385,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:09:33.438077+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:10.173968+00:00",
+            "load_time_ms": 1080,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1125,
+            "natural_height": 782,
+            "content_type": "image/webp",
+            "current_src": "https://www.allclash.com/wp-content/uploads/2024/11/dark-war-survival-best-guy-build.jpeg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "该图为游戏中特定英雄的角色立绘，属于通用宣传或图鉴图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:07.353660+00:00"
+          }
+        },
+        {
+          "url": "https://res.lootbar.gg/pic/20250529/cfc7109e-afa9-468e-8b83-21296c4f5391.jpg",
+          "caption": "Top Hero Builds in Dark War Survival",
+          "source_url": "https://lootbar.gg/blog/en/top-hero-builds-in-dark-war-survival.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+boss+pve",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival boss pve",
+          "width": 275,
+          "height": 183,
+          "aspect_ratio": 1.5027,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:09:33.438077+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:12.293586+00:00",
+            "load_time_ms": 2111,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1800,
+            "natural_height": 1200,
+            "content_type": "image/jpeg",
+            "current_src": "https://res.lootbar.gg/pic/20250529/cfc7109e-afa9-468e-8b83-21296c4f5391.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该图为针对英雄进阶/搭配的攻略头图，包含多位角色立绘，属于通用引导性质图片。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:07.353660+00:00"
+          }
+        },
+        {
+          "url": "https://res.lootbar.gg/pic/20250529/b640dac6-f1d6-4db5-a3d9-8dc52eff52a3.png",
+          "caption": "Top Hero Builds in Dark War Survival",
+          "source_url": "https://lootbar.gg/blog/en/top-hero-builds-in-dark-war-survival.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+boss+pve",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival boss pve",
+          "width": 235,
+          "height": 214,
+          "aspect_ratio": 1.0981,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:09:33.438077+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:13.119465+00:00",
+            "load_time_ms": 821,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 519,
+            "natural_height": 472,
+            "content_type": "image/png",
+            "current_src": "https://res.lootbar.gg/pic/20250529/b640dac6-f1d6-4db5-a3d9-8dc52eff52a3.png"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "单个人物角色的立绘展示，属于游戏的通用美术素材。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:07.353660+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "collab_pve",
+      "display_name": "Attack on Titan / 联动讨伐",
+      "description": "以 IP 联动包装的特别活动，通常会把 Boss、收集和阶段奖励做成限时主题版本。",
+      "examples": [
+        "Attack on Titan"
+      ],
+      "market_research_notes": "更像内容包装层的联动活动，底层机制往往仍复用既有 PvE/收集框架。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/g7aro2FFAzg/maxresdefault.jpg",
+          "caption": "Dark War Survival Heroes You Need to ...",
+          "source_url": "https://www.youtube.com/watch?v=g7aro2FFAzg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+collab+pve",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival collab pve",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:09:57.307111+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:09.087421+00:00",
+            "load_time_ms": 416,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/g7aro2FFAzg/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片展示了游戏《Dark War: Survival》的英雄角色列表和教学封面，属于游戏本体通用内容，与“进击的巨人”联动活动无直接证据关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:10.021566+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/5y2lcIoOD6g/maxresdefault.jpg",
+          "caption": "PVP and PVE in Dark War Survival ...",
+          "source_url": "https://www.youtube.com/watch?v=5y2lcIoOD6g",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+collab+pve",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival collab pve",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:09:57.307111+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:13.490303+00:00",
+            "load_time_ms": 366,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/5y2lcIoOD6g/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片为游戏通用PVP/PVE攻略封面，展示了车辆载具界面，无法确认与特定的“进击的巨人”联动活动有关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:10.021566+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/5y2lcIoOD6g/sddefault.jpg",
+          "caption": "Dark War Survival (Skill Upgrade Order ...",
+          "source_url": "https://www.youtube.com/watch?v=5y2lcIoOD6g",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+collab+pve",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival collab pve",
+          "width": 269,
+          "height": 187,
+          "aspect_ratio": 1.4385,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:09:57.307111+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:13.877385+00:00",
+            "load_time_ms": 334,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 480,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/5y2lcIoOD6g/sddefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片内容与第二张相同，展示的是游戏内的基础功能或通用系统介绍，未见联动活动的特有元素。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:10.021566+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "mission_dispatch",
+      "display_name": "Shadow Calls / 派遣任务",
+      "description": "偏任务派遣与日常派送系统，玩家通过派出单位、等待完成或多线并行来获得资源与养成材料。",
+      "examples": [
+        "Shadow Calls"
+      ],
+      "market_research_notes": "属于轻量异步玩法，常用于填充日常留存和资源回收。",
+      "images": [
+        {
+          "url": "https://cdn-www.bluestacks.com/bs-images/yryrt.webp",
+          "caption": "Dark War Survival – Beginner Tips ...",
+          "source_url": "https://www.bluestacks.com/blog/game-guides/dark-war-survival-2/dws-tips-tricks-en.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+mission+dispatch",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival mission dispatch",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:10:16.581754+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:14.224936+00:00",
+            "load_time_ms": 342,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2208,
+            "natural_height": 1242,
+            "content_type": "image/webp",
+            "current_src": "https://cdn-www.bluestacks.com/bs-images/yryrt.webp"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "图片展示了游戏内避难所的场景，属于游戏内容截图，但与‘派遣任务’活动玩法无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:15.587262+00:00"
+          }
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/661f895d656bb1a7251835cc/69ca38f2f6f4ff38bb9cc6dc_Packsify%20Blog%20Banners.png",
+          "caption": "Dark War Survival Guide (2026) | Tips ...",
+          "source_url": "https://www.packsify.com/blogs/dark-war-survival-guide-tips-to-dominate",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+mission+dispatch",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival mission dispatch",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:10:16.581754+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:15.050200+00:00",
+            "load_time_ms": 817,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2240,
+            "natural_height": 1260,
+            "content_type": "image/png",
+            "current_src": "https://cdn.prod.website-files.com/661f895d656bb1a7251835cc/69ca38f2f6f4ff38bb9cc6dc_Packsify%20Blog%20Banners.png"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "带有游戏名称的攻略网站封面图，属于通用品牌宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:15.587262+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/RkgD_-djMm4/maxresdefault.jpg",
+          "caption": "Dark War Survival: Tip & Strategies to ...",
+          "source_url": "https://www.youtube.com/watch?v=RkgD_-djMm4",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+mission+dispatch",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival mission dispatch",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:10:16.581754+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:06.782556+00:00",
+            "load_time_ms": 403,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/RkgD_-djMm4/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "展示了建筑详情和防守玩法的截图，与派遣/派送类活动玩法不符。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:15.587262+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/eDu9oERBayA/maxresdefault.jpg",
+          "caption": "Dark War Survival: What's New in ...",
+          "source_url": "https://www.youtube.com/watch?v=eDu9oERBayA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+mission+dispatch",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival mission dispatch",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:10:16.581754+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:15.466875+00:00",
+            "load_time_ms": 411,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/eDu9oERBayA/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图中出现了'Dark Zone Ops'字样及直升机运输图标，与派遣任务、资源收集的活动逻辑相符，且包含实际UI元素。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:15.587262+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/V85ZAV5UZ2o/maxresdefault.jpg",
+          "caption": "Dark War Survival: Don't Miss These ...",
+          "source_url": "https://www.youtube.com/watch?v=V85ZAV5UZ2o",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+mission+dispatch",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival mission dispatch",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:10:16.581754+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:15.858368+00:00",
+            "load_time_ms": 386,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/V85ZAV5UZ2o/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片文字明确指出了'SHADOW CALLS'活动，但画面为宣传海报性质的拼贴图，无实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:15.587262+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "resource_spend_ranking",
+      "display_name": "Modification Contest / 改装竞赛",
+      "description": "围绕改装、装备或指定材料消耗展开的冲榜活动，常见于 gear、blueprint、强化材料等资源的集中消耗场景。",
+      "examples": [
+        "Modification Contest"
+      ],
+      "market_research_notes": "本质是 spend event，用来驱动囤积资源在活动窗口内集中释放。",
+      "images": [
+        {
+          "url": "https://cdn.topuplive.com/cdn-cgi/image/quality=low,format=webp/uploads/images/goods/20260225/1772003359_TVSVDdGB3L.jpg",
+          "caption": "Dark War Survival Top Up Guide: Best ...",
+          "source_url": "https://www.topuplive.com/news/dark-war-survival-top-up-guide.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+resource+spend+ranking",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival resource spend ranking",
+          "width": 290,
+          "height": 174,
+          "aspect_ratio": 1.6667,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:11:15.689254+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:16.241169+00:00",
+            "load_time_ms": 377,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 900,
+            "natural_height": 540,
+            "content_type": "image/webp",
+            "current_src": "https://cdn.topuplive.com/cdn-cgi/image/quality=low,format=webp/uploads/images/goods/20260225/1772003359_TVSVDdGB3L.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "图片展示的是游戏内的通用充值货币界面，属于游戏通用内容，无法确认与改装竞赛活动直接相关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:19.041360+00:00"
+          }
+        },
+        {
+          "url": "https://cdn.topuplive.com/cdn-cgi/image/quality=low,format=webp/uploads/images/goods/20260225/1772007784_vz4YFYmSbz.png",
+          "caption": "Dark War Survival Top Up Guide: Best ...",
+          "source_url": "https://www.topuplive.com/news/dark-war-survival-top-up-guide.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+resource+spend+ranking",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival resource spend ranking",
+          "width": 259,
+          "height": 195,
+          "aspect_ratio": 1.3282,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:11:15.689254+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:16.362130+00:00",
+            "load_time_ms": 107,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 682,
+            "natural_height": 514,
+            "content_type": "image/webp",
+            "current_src": "https://cdn.topuplive.com/cdn-cgi/image/quality=low,format=webp/uploads/images/goods/20260225/1772007784_vz4YFYmSbz.png"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "这是游戏在第三方代充平台的礼包列表，虽包含'Modified Vehicle Pass'等字样，但属于通用商店截图，非活动玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:19.041360+00:00"
+          }
+        },
+        {
+          "url": "https://media.pocketgamer.com/artwork/na-37511-1748849358/dark-war-survival-header-tier-list.jpg",
+          "caption": "Dark War Survival hero tier list ...",
+          "source_url": "https://www.pocketgamer.com/dark-war-survival/tier-list/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+resource+spend+ranking",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival resource spend ranking",
+          "width": 327,
+          "height": 154,
+          "aspect_ratio": 2.1234,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:11:15.689254+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:17.443728+00:00",
+            "load_time_ms": 1072,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1010,
+            "natural_height": 505,
+            "content_type": "image/jpeg",
+            "current_src": "https://media.pocketgamer.com/artwork/na-37511-1748849358/dark-war-survival-header-tier-list.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片为游戏的通用宣传海报或加载图，与具体的改装竞赛资源消耗活动无直接关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:19.041360+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "faction_trial",
+      "display_name": "Faction Trials / 阵营试炼",
+      "description": "偏阵营或兵种维度的试炼玩法，常见于 Fighter、Rider、Shooter 之类分支体系，用来强化培养路线差异。",
+      "examples": [
+        "Faction Trials"
+      ],
+      "market_research_notes": "更像长期养成线上的限时试炼，而不是单次大型赛季活动。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/RR-t3zG5ymI/maxresdefault.jpg",
+          "caption": "Review Event Faction Trials | Dark War ...",
+          "source_url": "https://www.youtube.com/watch?v=RR-t3zG5ymI",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+faction+trial",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival faction trial",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:12:42.227007+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:17.857991+00:00",
+            "load_time_ms": 408,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/RR-t3zG5ymI/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了阵营试炼（Faction Trials）的具体玩法界面，包括关卡选择、难度、奖励预览以及活动商店。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:23.331197+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/0rs8Vm_RnEA/maxresdefault.jpg",
+          "caption": "Fighter Faction Trial in Dark War ...",
+          "source_url": "https://www.youtube.com/watch?v=0rs8Vm_RnEA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+faction+trial",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival faction trial",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:12:42.227007+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:18.233264+00:00",
+            "load_time_ms": 370,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/0rs8Vm_RnEA/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示了本游戏的角色养成界面（Fighter英雄装备与升级），属于通用养成系统，未直接体现阵营试炼活动玩法。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:23.331197+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/gc--EmaydE4/maxresdefault.jpg",
+          "caption": "Faction Trial in Dark War : Survival ...",
+          "source_url": "https://www.youtube.com/watch?v=gc--EmaydE4",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+faction+trial",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival faction trial",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:12:42.227007+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:18.595137+00:00",
+            "load_time_ms": 357,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/gc--EmaydE4/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "展示了游戏的常规战斗界面，虽然标题标注为Faction Trial，但画面为通用战斗逻辑，且关卡显示为3-8，更偏向主线或常规关卡。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:23.331197+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/gc--EmaydE4/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHOBIACgAqKAgwIABABGE8gVyhlMA8=&rs=AOn4CLA9o3VWqUHcWmW5P641mGt1WaAf8g",
+          "caption": "Trials in Dark War Survival ...",
+          "source_url": "https://www.youtube.com/watch?v=gc--EmaydE4",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+faction+trial",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival faction trial",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:12:42.227007+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:19.036781+00:00",
+            "load_time_ms": 379,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/gc--EmaydE4/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHOBIACgAqKAgwIABABGE8gVyhlMA8=&rs=AOn4CLA9o3VWqUHcWmW5P641mGt1WaAf8g"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "与图3内容一致，属于通用战斗界面，难以明确识别为阵营试炼专项活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:23.331197+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/m6jKLluQPfU/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGHIgWCg_MA8=&rs=AOn4CLBDMn-XoaAMs1TCr4HTdCGQ8r7wBw",
+          "caption": "Fighter Faction Trial in Dark War ...",
+          "source_url": "https://www.youtube.com/watch?v=m6jKLluQPfU",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+faction+trial",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival faction trial",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:12:42.227007+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:19.417905+00:00",
+            "load_time_ms": 373,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/m6jKLluQPfU/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGHIgWCg_MA8=&rs=AOn4CLBDMn-XoaAMs1TCr4HTdCGQ8r7wBw"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "完整展示了阵营试炼（Faction Trials）中Shooter Trials的难度选择界面、奖励内容及开始战斗按钮。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:23.331197+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "season_progression",
+      "display_name": "Season Event Calendar / 赛季活动日历",
+      "description": "不是单一玩法，而是把多个阶段活动按赛季顺序排布出来，帮助玩家理解一整轮事件节奏。",
+      "examples": [
+        "Season 1 Event Calendar",
+        "Season 2 Event Calendar",
+        "Season 3 Event Calendar"
+      ],
+      "market_research_notes": "这类日历说明产品已经有相对稳定的赛季运营框架。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/4WdjGDBSYF8/maxresdefault.jpg",
+          "caption": "Dark War Survival Season 4 Tips and ...",
+          "source_url": "https://www.youtube.com/watch?v=4WdjGDBSYF8",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+season+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival season progression",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:13:06.389766+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:19.835900+00:00",
+            "load_time_ms": 413,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/4WdjGDBSYF8/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了赛季英雄/领主、赛季资源以及赛季Kickoff入口等实际玩法信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:27.401838+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Kk_W30opqKc/maxresdefault.jpg",
+          "caption": "Dark War Survival Season 5 ...",
+          "source_url": "https://www.youtube.com/watch?v=Kk_W30opqKc",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+season+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival season progression",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:13:06.389766+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:20.241040+00:00",
+            "load_time_ms": 399,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/Kk_W30opqKc/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了Season Management界面及赛季建筑等核心玩法内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:27.401838+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/cen_Qmzh0is/maxresdefault.jpg",
+          "caption": "Dark War Survival Season 2 Guide: Tile ...",
+          "source_url": "https://www.youtube.com/watch?v=cen_Qmzh0is",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+season+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival season progression",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:13:06.389766+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:20.656813+00:00",
+            "load_time_ms": 409,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/cen_Qmzh0is/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了赛季内的地块等级、奖励以及抗体输出等赛季具体机制界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:27.401838+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/cen_Qmzh0is/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCMOa20CRNRwpLa6vGFKtlJ61BHhg",
+          "caption": "Dark War Survival (Skill Upgrade Order ...",
+          "source_url": "https://www.youtube.com/watch?v=cen_Qmzh0is",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+season+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival season progression",
+          "width": 269,
+          "height": 187,
+          "aspect_ratio": 1.4385,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:13:06.389766+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:21.040362+00:00",
+            "load_time_ms": 377,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/cen_Qmzh0is/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCMOa20CRNRwpLa6vGFKtlJ61BHhg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "内容与图3基本一致，属于展示游戏赛季实际玩法机制的界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:27.401838+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "industrial_progression",
+      "display_name": "Industrial Age / 工业时代",
+      "description": "偏长期成长和阶段推进的系统化活动，通常会把工业等级、部件、解锁项和阶段奖励打包到同一条成长线上。",
+      "examples": [
+        "Industrial Age"
+      ],
+      "market_research_notes": "介于新系统上线和赛季成长线之间，既承担内容更新也承担回流刺激。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/industrial-upgrades-chart-v0-xoj9iolzvh0g1.jpeg?width=1062&format=pjpg&auto=webp&s=1f4acf8976cb82cacbbafa29d9f0acc11fd9712d",
+          "caption": "Industrial upgrades chart? : r ...",
+          "source_url": "https://www.reddit.com/r/darkwarsurvival/comments/1otpvp1/industrial_upgrades_chart/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+industrial+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival industrial progression",
+          "width": 205,
+          "height": 246,
+          "aspect_ratio": 0.8333,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:13:37.633576+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:21.402575+00:00",
+            "load_time_ms": 354,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1062,
+            "natural_height": 1278,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/industrial-upgrades-chart-v0-xoj9iolzvh0g1.jpeg?width=1062&format=pjpg&auto=webp&s=1f4acf8976cb82cacbbafa29d9f0acc11fd9712d"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "玩家自制的工业升级数值表，虽内容相关，但并非游戏原始截图或官方宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:31.108651+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/is-there-an-upgrade-chart-for-watchtower-past-level-30-v0-xis86sw8060f1.jpeg?width=1735&format=pjpg&auto=webp&s=146e2a7d76a46d696e61dc14e4f2f85e92c6f725",
+          "caption": "upgrade chart for Watchtower ...",
+          "source_url": "https://www.reddit.com/r/darkwarsurvival/comments/1kk2dls/is_there_an_upgrade_chart_for_watchtower_past/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+industrial+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival industrial progression",
+          "width": 357,
+          "height": 141,
+          "aspect_ratio": 2.5319,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:13:37.633576+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:21.489057+00:00",
+            "load_time_ms": 82,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1735,
+            "natural_height": 688,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/is-there-an-upgrade-chart-for-watchtower-past-level-30-v0-xis86sw8060f1.jpeg?width=1735&format=pjpg&auto=webp&s=146e2a7d76a46d696e61dc14e4f2f85e92c6f725"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "表格涉及Industrial Watch tower及资源消耗，属于该系统的数据汇总，非活动内截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:31.108651+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/cKkGJ_-br6k/hqdefault.jpg",
+          "caption": "Upgrading Watchtower Industry Level 1 ...",
+          "source_url": "https://www.youtube.com/watch?v=cKkGJ_-br6k",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+industrial+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival industrial progression",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:13:37.633576+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:21.826056+00:00",
+            "load_time_ms": 331,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 480,
+            "natural_height": 360,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/cKkGJ_-br6k/hqdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "视频封面中清晰展示了游戏内‘Industrial Watchtower’的建筑升级界面和属性预览，属于实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:31.108651+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/does-anyone-know-what-the-requirements-are-to-upgrade-the-v0-momzjulq4pze1.jpeg?width=665&format=pjpg&auto=webp&s=0496b921af00ff299506667917630e2505ed16fa",
+          "caption": "upgrade the watchtower to level 28 ...",
+          "source_url": "https://www.reddit.com/r/darkwarsurvival/comments/1ki2t5p/does_anyone_know_what_the_requirements_are_to/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+industrial+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival industrial progression",
+          "width": 251,
+          "height": 201,
+          "aspect_ratio": 1.2488,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:13:37.633576+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:22.098448+00:00",
+            "load_time_ms": 264,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 665,
+            "natural_height": 534,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/does-anyone-know-what-the-requirements-are-to-upgrade-the-v0-momzjulq4pze1.jpeg?width=665&format=pjpg&auto=webp&s=0496b921af00ff299506667917630e2505ed16fa"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "普通的建筑升级资源消耗表，虽与工业成长相关，但仅为文字数值统计。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:31.108651+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/cKkGJ_-br6k/sddefault.jpg",
+          "caption": "Upgrading Watchtower Industry Level 1 ...",
+          "source_url": "https://www.youtube.com/watch?v=cKkGJ_-br6k",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=dark+war+survival+industrial+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "dark war survival industrial progression",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:13:37.633576+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:22.441362+00:00",
+            "load_time_ms": 335,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 480,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/cKkGJ_-br6k/sddefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "与图3相同，展示了工业时代系统的建筑管理和升级玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:31.108651+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "Dark War:Survival 的公开资料比较分散，没有像休闲三消那样完整统一的官方活动目录。本轮主要确认了成长试炼、联盟战、据点争夺、Boss/PvE、派遣与赛季日历这些可重复出现的活动框架；Mutant Mines、Mines Melee、Undersea Market 等更像具体赛季或具体主题节点，先作为代表名称保留，不额外扩写。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T08:13:37.633576+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:32:31.108651+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

@@ -1,0 +1,1759 @@
+{
+  "rank": 43,
+  "name": "Free Fire MAX",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 Garena 官方支持页、Free Fire 官网新闻和 FreeFire Fandom。Free Fire MAX 与 Free Fire 共享核心活动体系，本轮按官方支持页列出的活动类型和官网活动公告归纳；未处理图片。",
+  "source_pages": [
+    {
+      "title": "Free Fire Support NA - Free Fire Events",
+      "url": "https://ffsupportna.garena.com/hc/en-us/articles/4413057851034-Free-Fire-Events",
+      "notes": "官方支持页按工单分类明确列出活动类型：Daily Task、Luck Royale、Item Sale、Login Reward、Top-up Promo、Web Event、Others。"
+    },
+    {
+      "title": "Free Fire Official News",
+      "url": "https://ff.garena.com/en/news/",
+      "notes": "官方新闻持续发布 patch notes、announcement、collaboration、esports、主题 campaign，例如 Undersea Mystery、Beat Carnival、Lost Treasure、Winterlands、Gintama、Jujutsu Kaisen、Digimon Adventure。"
+    },
+    {
+      "title": "FreeFire Wiki - Events",
+      "url": "https://freefire.fandom.com/wiki/Events",
+      "notes": "Fandom 简短列出 Free Fire Main Events：Rampage、Booyah Day、FFWS。"
+    },
+    {
+      "title": "Google Play - Free Fire MAX",
+      "url": "https://play.google.com/store/apps/details?id=com.dts.freefiremax&gl=US",
+      "notes": "商店页曾以 Light Fest 等活动主题更新，说明 MAX 版本会围绕同一运营事件换装。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "daily_task_events",
+      "display_name": "Daily Task / 任务代币活动",
+      "description": "玩家完成指定任务获得 token，再用 token 兑换奖励；官方提醒奖励需要手动领取，否则可能过期作废。",
+      "examples": [
+        "Daily Task",
+        "token exchange missions",
+        "anniversary mission chains"
+      ],
+      "market_research_notes": "最基础的任务-代币-兑换闭环，用于驱动日活、指定模式参与和活动商店消耗。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/htpuCrJjanc/maxresdefault.jpg",
+          "caption": "event daily tasks mission kaise ...",
+          "source_url": "https://www.youtube.com/watch?v=htpuCrJjanc",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+daily+task+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max daily task events",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:51:50.285513+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:22:38.648019+00:00",
+            "load_time_ms": 396,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/htpuCrJjanc/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了名为Trouble Night活动的实际玩法界面，包含Daily Tasks入口和右侧的奖励进度条。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:34.910546+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/arHITyJ5YsY/maxresdefault.jpg",
+          "caption": "Lost Treasure Event Mission Complete ...",
+          "source_url": "https://www.youtube.com/watch?v=arHITyJ5YsY",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+daily+task+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max daily task events",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:51:50.285513+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:22:39.306485+00:00",
+            "load_time_ms": 653,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/arHITyJ5YsY/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了名为Lost Treasure活动的玩法地图界面，且包含了具体的Daily Tasks任务列表弹窗。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:34.910546+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/XZQ5boWU_H8/maxresdefault.jpg",
+          "caption": "Holi Beat Carnival Event ℹ️ | How To ...",
+          "source_url": "https://www.youtube.com/watch?v=XZQ5boWU_H8",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+daily+task+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max daily task events",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:51:50.285513+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:22:39.708268+00:00",
+            "load_time_ms": 390,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/XZQ5boWU_H8/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "展示了Holi Beat Carnival活动的互动界面，包含Daily Tasks按钮、任务状态弹窗及奖励轨。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:34.910546+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Ij6Bg8XnTk8/maxresdefault.jpg",
+          "caption": "HOW TO COMPLETE TROUBLE NIGHT EVENT ...",
+          "source_url": "https://www.youtube.com/watch?v=Ij6Bg8XnTk8",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+daily+task+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max daily task events",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:51:50.285513+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:22:40.081803+00:00",
+            "load_time_ms": 359,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/Ij6Bg8XnTk8/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "清晰展示了Trouble Night活动中的Daily Tasks任务列表界面，包含任务描述、进度及领取状态。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:34.910546+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "luck_royale",
+      "display_name": "Luck Royale / 抽奖轮盘",
+      "description": "玩家从一组可查看的奖励池中随机获得物品。官方列举 Diamond、Gold、Weapon、Incubator、Faded Wheel 等 Luck Royale 变体。",
+      "examples": [
+        "Diamond Royale",
+        "Gold Royale",
+        "Weapon Royale",
+        "Incubator",
+        "Faded Wheel"
+      ],
+      "market_research_notes": "Free Fire 的核心变现活动之一，重点看奖池展示、抽取消耗、保底/去重、稀有皮肤和限时倒计时。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/UIcV0leC6JU/maxresdefault.jpg",
+          "caption": "Luck Royale All Rare Bundles,Evo Guns ...",
+          "source_url": "https://www.youtube.com/watch?v=UIcV0leC6JU",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+luck+royale",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max luck royale",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:52:14.322208+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:22:40.522143+00:00",
+            "load_time_ms": 434,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/UIcV0leC6JU/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图中展示了 Luck Royale 活动的奖池预览界面，包含物品格子、抽取按钮和货币消耗，属于实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:39.201703+00:00"
+          }
+        },
+        {
+          "url": "https://cdn-www.bluestacks.com/bs-images/786.png",
+          "caption": "Free Fire MAX October 2024 Gold Royale ...",
+          "source_url": "https://www.bluestacks.com/blog/news/free-fire-max-gold-royale-leaks-en.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+luck+royale",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max luck royale",
+          "width": 304,
+          "height": 166,
+          "aspect_ratio": 1.8313,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:52:14.322208+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:22:41.729630+00:00",
+            "load_time_ms": 1202,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 740,
+            "natural_height": 415,
+            "content_type": "image/png",
+            "current_src": "https://cdn-www.bluestacks.com/bs-images/786.png"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图片为 Gold Royale 活动的宣传图/原画，上方有游戏 Logo，未展示实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:39.201703+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/cb5Dl0JPAYc/maxresdefault.jpg",
+          "caption": "Free Fire New Luck Royale😍 All Rare Old ...",
+          "source_url": "https://www.youtube.com/watch?v=cb5Dl0JPAYc",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+luck+royale",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max luck royale",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:52:14.322208+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:22:42.162132+00:00",
+            "load_time_ms": 428,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/cb5Dl0JPAYc/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了 Luck Royale 变体活动（Pass Royale）的蜂窝状奖池界面、单抽/十连按钮及货币消耗，属于玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:39.201703+00:00"
+          }
+        },
+        {
+          "url": "https://cdn-www.bluestacks.com/bs-images/Free-Fire-MAX_Gold-Royale-October-2024_EN_3.png",
+          "caption": "Free Fire MAX October 2024 Gold Royale ...",
+          "source_url": "https://www.bluestacks.com/blog/news/free-fire-max-gold-royale-leaks-en.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+luck+royale",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max luck royale",
+          "width": 297,
+          "height": 170,
+          "aspect_ratio": 1.7471,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:52:14.322208+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:22:42.319941+00:00",
+            "load_time_ms": 150,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1627,
+            "natural_height": 930,
+            "content_type": "image/png",
+            "current_src": "https://cdn-www.bluestacks.com/bs-images/Free-Fire-MAX_Gold-Royale-October-2024_EN_3.png"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "清晰展示了 Gold Royale 活动的完整玩法界面，包括左侧活动切换、中间奖励展示、下方抽取按钮及右侧累计进度奖励。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:39.201703+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "item_sale",
+      "display_name": "Item Sale / 限时折扣",
+      "description": "限时折扣销售物品，活动时间可从 1 天到数周不等。",
+      "examples": [
+        "limited-time item sale",
+        "discounted bundle sale"
+      ],
+      "market_research_notes": "直接商业化活动，适合与 top-up、Luck Royale 和主题 campaign 做价格锚点对比。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/eoflLzt78Aw/maxresdefault.jpg",
+          "caption": "evo Gun Max ✓||Free Fire id Sell ...",
+          "source_url": "https://www.youtube.com/watch?v=eoflLzt78Aw",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+item+sale",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max item sale",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:52:57.075649+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:22:42.934001+00:00",
+            "load_time_ms": 406,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/eoflLzt78Aw/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图中展示的是Free Fire的游戏仓库界面，属于游戏通用界面。虽然文字提及ID出售，但这属于玩家线下交易行为，与官方限时折扣活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:43.403602+00:00"
+          }
+        },
+        {
+          "url": "https://i.ebayimg.com/images/g/fU8AAOSwxnllzkhi/s-l1200.png",
+          "caption": "2023 SEALED PACK FREE FIRE Max 2023 TCG ...",
+          "source_url": "https://www.ebay.com/itm/285705364969",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+item+sale",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max item sale",
+          "width": 196,
+          "height": 257,
+          "aspect_ratio": 0.7626,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:52:57.075649+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:22:43.615682+00:00",
+            "load_time_ms": 677,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 919,
+            "natural_height": 1200,
+            "content_type": "image/png",
+            "current_src": "https://i.ebayimg.com/images/g/fU8AAOSwxnllzkhi/s-l1200.png"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是Free Fire相关的线下实体卡牌包，属于IP衍生周边，与游戏内的限时折扣活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:43.403602+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/c5i3yVrMWmg/maxresdefault.jpg",
+          "caption": "🔥 Free Fire Max ID Sale | Level 69 ID ...",
+          "source_url": "https://www.youtube.com/watch?v=c5i3yVrMWmg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+item+sale",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max item sale",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:52:57.075649+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:22:44.010465+00:00",
+            "load_time_ms": 389,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/c5i3yVrMWmg/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "这是一张用于宣传账号出售的自制海报，并非游戏官方的活动宣传图，属于玩家间交易行为。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:43.403602+00:00"
+          }
+        },
+        {
+          "url": "https://staticg.sportskeeda.com/editor/2022/11/5cd90-16690137439647-1920.jpg",
+          "caption": "The Mystery Shop is open! Grab your ...",
+          "source_url": "https://www.sportskeeda.com/free-fire/garena-offering-50-discount-free-fire-max-parachutes-loot-boxes-surfboards",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+item+sale",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max item sale",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:52:57.075649+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:22:45.473797+00:00",
+            "load_time_ms": 1457,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 999,
+            "content_type": "image/webp",
+            "current_src": "https://staticg.sportskeeda.com/editor/2022/11/5cd90-16690137439647-1920.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图中清晰展示了游戏内商店的实际折扣界面，多个单品带有-50%的折扣标签，完全符合Item Sale/限时折扣的定义。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:43.403602+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "login_rewards",
+      "display_name": "Login Reward / 登录奖励",
+      "description": "玩家登录并领取奖励，通常出现在节日、版本更新、周年庆或大型联动期间。",
+      "examples": [
+        "Login Reward",
+        "festival login gifts",
+        "anniversary check-in"
+      ],
+      "market_research_notes": "低门槛回流工具，常与更深层任务/抽奖活动共同上线。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/yYEE7x2HNNU/maxresdefault.jpg",
+          "caption": "LOGIN REWARDS FREE FIRE ...",
+          "source_url": "https://www.youtube.com/watch?v=yYEE7x2HNNU",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+login+rewards",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max login rewards",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:53:22.927915+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:22:45.875839+00:00",
+            "load_time_ms": 397,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/yYEE7x2HNNU/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了回归玩家7日登录奖励（Veteran Rewards）的实际领取界面，包含每日奖励图标和签到状态。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:48.344785+00:00"
+          }
+        },
+        {
+          "url": "https://frvr.com/wp-content/uploads/2026/05/free-fire-max-redeem-codes.jpg",
+          "caption": "Free Fire MAX Redeem Codes: Garena ...",
+          "source_url": "https://frvr.com/blog/free-fire-max-redeem-codes/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+login+rewards",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max login rewards",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:53:22.927915+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:22:46.515674+00:00",
+            "load_time_ms": 636,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 675,
+            "content_type": "image/jpeg",
+            "current_src": "https://frvr.com/wp-content/uploads/2026/05/free-fire-max-redeem-codes.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.98,
+            "reason": "Free Fire MAX的通用品牌宣传图，不包含具体的登录奖励活动信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:48.344785+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/3YjasUq3Hlg/maxresdefault.jpg",
+          "caption": "Login Rewards !! New Event Free Fire ...",
+          "source_url": "https://www.youtube.com/watch?v=3YjasUq3Hlg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+login+rewards",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max login rewards",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:53:22.927915+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:22:46.920458+00:00",
+            "load_time_ms": 398,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/3YjasUq3Hlg/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了5周年庆典的7日登录奖励内容，但图片带有明显的外部水印和拼接痕迹，更像是YouTube宣传封面图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:48.344785+00:00"
+          }
+        },
+        {
+          "url": "https://frvr.com/wp-content/uploads/2026/05/free-fire-max-codes-redemption-page-1024x576.jpg",
+          "caption": "Free Fire Max Exclusive New Event | FF ...",
+          "source_url": "https://frvr.com/blog/free-fire-max-redeem-codes/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+login+rewards",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max login rewards",
+          "width": 1024,
+          "height": 576,
+          "aspect_ratio": 1.7778,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:53:22.927915+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:22:46.996090+00:00",
+            "load_time_ms": 69,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1024,
+            "natural_height": 576,
+            "content_type": "image/jpeg",
+            "current_src": "https://frvr.com/wp-content/uploads/2026/05/free-fire-max-codes-redemption-page-1024x576.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.92,
+            "reason": "这是Free Fire的礼包码兑换网页（Redemption Site），属于官方功能页面，与登录奖励活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:48.344785+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/3YjasUq3Hlg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBpRdzUrkWYuubQhG1OBq5J6tQW9w",
+          "caption": "21 April Login Rewards 😱 😱 #FreeFireMax ...",
+          "source_url": "https://www.youtube.com/watch?v=3YjasUq3Hlg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+login+rewards",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max login rewards",
+          "width": 168,
+          "height": 300,
+          "aspect_ratio": 0.56,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:53:22.927915+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:22:47.378256+00:00",
+            "load_time_ms": 376,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/3YjasUq3Hlg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBpRdzUrkWYuubQhG1OBq5J6tQW9w"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "与图片3相同，展示5周年登录奖励的宣传封面图，非游戏内实际玩法操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:48.344785+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "top_up_promo",
+      "display_name": "Top-up Promo / 充值返利",
+      "description": "玩家充值指定数量 Diamonds 后领取额外奖励。官方说明既可能是一次性充值，也可能是累计充值。",
+      "examples": [
+        "First Top-up",
+        "Cumulative Top-up",
+        "Diamond top-up rewards"
+      ],
+      "market_research_notes": "强付费转化活动，通常用皮肤、额外钻石或限定道具提高充值效率感。",
+      "images": [
+        {
+          "url": "https://techgenyz.com/wp-content/uploads/2022/05/ff-topup.jpg",
+          "caption": "free diamonds in Free Fire Max ...",
+          "source_url": "https://techgenyz.com/free-fire-100-bonus-top-up-event1000-free-diamond/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+top+up+promo",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max top up promo",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:53:44.006233+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:22:49.587123+00:00",
+            "load_time_ms": 2203,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 900,
+            "content_type": "image/jpeg",
+            "current_src": "https://techgenyz.com/wp-content/uploads/2022/05/ff-topup.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了Free Fire的100% Bonus Top-up活动宣传海报，包含活动名称、时间和主题，无实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:52.103574+00:00"
+          }
+        },
+        {
+          "url": "https://pic.bittopup.com/apiUpload/8af7228b6e22f7402e3631a90dafc33a.jpg",
+          "caption": "Free Fire 520 Diamonds Top Up Guide: $4 ...",
+          "source_url": "https://bittopup.com/cs/article/Free-Fire-520-Diamonds-Top-Up-Guide-499-Best-Methods",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+top+up+promo",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max top up promo",
+          "width": 298,
+          "height": 169,
+          "aspect_ratio": 1.7633,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:53:44.006233+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:22:49.898825+00:00",
+            "load_time_ms": 306,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1560,
+            "natural_height": 885,
+            "content_type": "image/jpeg",
+            "current_src": "https://pic.bittopup.com/apiUpload/8af7228b6e22f7402e3631a90dafc33a.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "展示了游戏内的充值商店界面，左侧有First Top up reward和Cumulative Top-up等活动页签，属于实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:52.103574+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/CSWSXkVL5B0/maxresdefault.jpg",
+          "caption": "Katana Skin Topup Event Free Fire Max ...",
+          "source_url": "https://www.youtube.com/watch?v=CSWSXkVL5B0",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+top+up+promo",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max top up promo",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:53:44.006233+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:22:50.527530+00:00",
+            "load_time_ms": 622,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/CSWSXkVL5B0/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图中有明确的'Free Fire MAX Promo'标题，且展示了'TOTAL TOP-UP'进度条和'CLAIM'领取按钮，符合活动内玩法界面描述。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:52.103574+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/noT5232MeM0/maxresdefault.jpg",
+          "caption": "Free Fire Max Mein Redeem Code ...",
+          "source_url": "https://www.youtube.com/watch?v=noT5232MeM0",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+top+up+promo",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max top up promo",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:53:44.006233+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:22:52.452416+00:00",
+            "load_time_ms": 695,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/noT5232MeM0/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "图片主要展示了Google Play充值码和游戏基础钻石购买界面，虽与充值有关，但未体现具体的Top-up Promo活动内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:52.103574+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "web_events",
+      "display_name": "Web Event / 外部网页活动",
+      "description": "官方支持页把可在浏览器中打开的事件页归为 Web Event。这类活动常用于抽奖、分享、签到或区域运营活动。",
+      "examples": [
+        "Web Event",
+        "regional web campaigns"
+      ],
+      "market_research_notes": "适合做轻量互动和传播，不完全受客户端 UI 限制，也便于区域化运营。",
+      "images": [
+        {
+          "url": "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2025/03/garena-free-fire-max-redeem-codes-for-january-19-1743334405.jpg",
+          "caption": "Free Fire MAX introduces a new event ...",
+          "source_url": "https://www.indiatvnews.com/technology/news/free-fire-max-introduces-a-new-event-get-fell-the-electricity-emote-2025-03-30-983055",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+web+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max web events",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:54:08.124258+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:22:53.694255+00:00",
+            "load_time_ms": 1034,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 675,
+            "content_type": "image/jpeg",
+            "current_src": "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2025/03/garena-free-fire-max-redeem-codes-for-january-19-1743334405.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片为Free Fire MAX的品牌宣传图或加载图，无法确认为特定的Web Event。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:56.444118+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/NShHMBP-Gsc/maxresdefault.jpg",
+          "caption": "Event Free Fire Calendar | FF Max ...",
+          "source_url": "https://www.youtube.com/watch?v=NShHMBP-Gsc",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+web+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max web events",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:54:08.124258+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:22:54.106589+00:00",
+            "load_time_ms": 407,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/NShHMBP-Gsc/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "展示了活动任务列表、奖励进度条和收集资源界面，符合Web Event常见的轻量交互UI特征。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:56.444118+00:00"
+          }
+        },
+        {
+          "url": "https://img-cdn.publive.online/fit-in/1200x675/pcq/media/media_files/2025/07/14/free-fire-max-arrival-animation-event-2025-07-14-11-23-48.jpg",
+          "caption": "Free Fire MAX Arrival Animation Event ...",
+          "source_url": "https://www.pcquest.com/gaming/free-fire-max-arrival-animation-event-get-the-stylish-grand-debut-arrival-animation-9493208",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+web+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max web events",
+          "width": 1200,
+          "height": 675,
+          "aspect_ratio": 1.7778,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:54:08.124258+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:22:55.675530+00:00",
+            "load_time_ms": 1563,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 511,
+            "content_type": "image/jpeg",
+            "current_src": "https://img-cdn.publive.online/fit-in/1200x675/pcq/media/media_files/2025/07/14/free-fire-max-arrival-animation-event-2025-07-14-11-23-48.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了游戏内的抽奖轮盘（Faded Wheel）界面，属于具体的活动玩法操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:56.444118+00:00"
+          }
+        },
+        {
+          "url": "https://sm.ign.com/t/ign_in/screenshot/default/hq720-1-1_d6tm.1200.jpg",
+          "caption": "Free Fire Max Teases 2025 Holi Event ...",
+          "source_url": "https://in.ign.com/garena-free-fire/225382/news/free-fire-max-teases-2025-holi-event-revealing-free-rewards-skins-and-much-more",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+web+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max web events",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:54:08.124258+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:22:56.899970+00:00",
+            "load_time_ms": 1216,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 675,
+            "content_type": "image/webp",
+            "current_src": "https://sm.ign.com/t/ign_in/screenshot/default/hq720-1-1_d6tm.1200.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "这是2025年Holi活动的预告宣传海报，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:29:56.444118+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "major_theme_campaign",
+      "display_name": "Major Theme Campaign / 大型主题版本活动",
+      "description": "围绕版本或季节主题组织的多玩法活动，通常包括新模式、新道具、登录奖励、任务、抽奖和商店内容。",
+      "examples": [
+        "Undersea Mystery",
+        "Beat Carnival",
+        "Lost Treasure",
+        "Winterlands: Dreamspace",
+        "Light Fest"
+      ],
+      "market_research_notes": "Free Fire 的主题战役式运营。它不是单一活动，而是一组多入口活动的包装层，适合研究活动矩阵如何服务版本叙事。",
+      "images": [
+        {
+          "url": "https://dl.dir.freefiremobile.com/common/web_event/official2.ff.garena.all/20261/c7531ed84594fbdd55628c8975212ba9.jpeg",
+          "caption": "Awaken the Curse: Jujutsu Kaisen will ...",
+          "source_url": "https://ff.garena.com/en/article/1601/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+major+theme+campaign",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max major theme campaign",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:54:44.614911+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:22:58.208512+00:00",
+            "load_time_ms": 1301,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 900,
+            "content_type": "image/jpeg",
+            "current_src": "https://dl.dir.freefiremobile.com/common/web_event/official2.ff.garena.all/20261/c7531ed84594fbdd55628c8975212ba9.jpeg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "Free Fire 与 咒术回战 的大型联动主题活动宣传图，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:30:02.290645+00:00"
+          }
+        },
+        {
+          "url": "https://cmosmagazine.com/wp-content/uploads/2021/11/Free-Fire-seeks-to-inspire-with-its-first-global-brand-campaign-Battle-In-Style.jpg",
+          "caption": "Global Brand Campaign, Battle ...",
+          "source_url": "https://cmosmagazine.com/en/free-fire-seeks-to-inspire-with-its-first-global-brand-campaign-battle-in-style/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+major+theme+campaign",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max major theme campaign",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:54:44.614911+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:22:59.554998+00:00",
+            "load_time_ms": 1341,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 900,
+            "natural_height": 506,
+            "content_type": "image/jpeg",
+            "current_src": "https://cmosmagazine.com/wp-content/uploads/2021/11/Free-Fire-seeks-to-inspire-with-its-first-global-brand-campaign-Battle-In-Style.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "Free Fire 的全球品牌宣传图图（Battle In Style），属于通用品牌宣传，非特定大型主题活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:30:02.290645+00:00"
+          }
+        },
+        {
+          "url": "https://static.toiimg.com/thumb/msid-113891581,width-1070,height-580,imgsize-86276,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+          "caption": "Garena Free Fire MAX redeem codes for ...",
+          "source_url": "https://timesofindia.indiatimes.com/technology/gaming/garena-free-fire-max-redeem-codes-for-october-3-win-free-diamonds-skins-and-more/articleshow/113891481.cms",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+major+theme+campaign",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max major theme campaign",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:54:44.614911+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:04.372742+00:00",
+            "load_time_ms": 4811,
+            "long_load": true,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1069,
+            "natural_height": 580,
+            "content_type": "image/avif",
+            "current_src": "https://static.toiimg.com/thumb/msid-113891581,width-1070,height-580,imgsize-86276,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "包含 Free Fire 标志和角色，风格符合大型叙事活动外观，但无玩法界面，判定为宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:30:02.290645+00:00"
+          }
+        },
+        {
+          "url": "https://dl.dir.freefiremobile.com/common/web_event/official2.ff.garena.all/20264/e9d86cb6372eb1a24a0a73e248a417b3.jpeg",
+          "caption": "Dive Into “Undersea Mystery”: Free Fire ...",
+          "source_url": "https://ff.garena.com/en/article/1649/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+major+theme+campaign",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max major theme campaign",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:54:44.614911+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:04.474757+00:00",
+            "load_time_ms": 90,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 900,
+            "content_type": "image/jpeg",
+            "current_src": "https://dl.dir.freefiremobile.com/common/web_event/official2.ff.garena.all/20264/e9d86cb6372eb1a24a0a73e248a417b3.jpeg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "明确对应活动示例中的 Undersea Mystery 主题活动宣传海报，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:30:02.290645+00:00"
+          }
+        },
+        {
+          "url": "https://static.toiimg.com/thumb/msid-113891581,width-1280,height-720,imgsize-86276,resizemode-6,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+          "caption": "Garena Free Fire MAX - Top 5 tips to ...",
+          "source_url": "https://timesofindia.indiatimes.com/technology/gaming/garena-free-fire-max-redeem-codes-for-october-3-win-free-diamonds-skins-and-more/articleshow/113891481.cms",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+major+theme+campaign",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max major theme campaign",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:54:44.614911+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:04.756069+00:00",
+            "load_time_ms": 273,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/avif",
+            "current_src": "https://static.toiimg.com/thumb/msid-113891581,width-1280,height-720,imgsize-86276,resizemode-6,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "与 image_index 3 内容一致，属于 Free Fire 的活动或版本宣传图，无玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:30:02.290645+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "collaboration_events",
+      "display_name": "Collaboration Events / IP 联动",
+      "description": "官方新闻持续发布联动活动，常把角色、皮肤、模式、登录奖励和任务串联在一起。",
+      "examples": [
+        "Free Fire x GINTAMA",
+        "Jujutsu Kaisen",
+        "Digimon Adventure",
+        "Sholay"
+      ],
+      "market_research_notes": "联动是皮肤和回流的强刺激器，重点看 IP 奖励如何拆到抽奖、充值、任务和免费登录路径。",
+      "images": [
+        {
+          "url": "https://dl.dir.freefiremobile.com/common/web_event/official2.ff.garena.all/202310/4d8f4bb9253c029813dffd457012ed7e.jpg",
+          "caption": "Garena Free Fire. Best survival Battle ...",
+          "source_url": "https://ff.garena.com/en/news/32/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+collaboration+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max collaboration events",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:55:20.909369+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:04.994576+00:00",
+            "load_time_ms": 232,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 900,
+            "content_type": "image/jpeg",
+            "current_src": "https://dl.dir.freefiremobile.com/common/web_event/official2.ff.garena.all/202310/4d8f4bb9253c029813dffd457012ed7e.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图片展示了 Free Fire 与 Devil May Cry 5 的联动海报，属于联动活动宣传图，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:30:08.053252+00:00"
+          }
+        },
+        {
+          "url": "https://dl.dir.freefiremobile.com/common/web_event/official2.ff.garena.all/20235/adb0c0fd64c416653870ab2bd25df0b4.jpg",
+          "caption": "Garena Free Fire. Best survival Battle ...",
+          "source_url": "https://ff.garena.com/en/news/32/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+collaboration+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max collaboration events",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:55:20.909369+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:05.089926+00:00",
+            "load_time_ms": 91,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 900,
+            "content_type": "image/jpeg",
+            "current_src": "https://dl.dir.freefiremobile.com/common/web_event/official2.ff.garena.all/20235/adb0c0fd64c416653870ab2bd25df0b4.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图片为 Free Fire 与 Spider-Man: Across the Spider-Verse 的联动海报，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:30:08.053252+00:00"
+          }
+        },
+        {
+          "url": "https://dl.dir.freefiremobile.com/common/web_event/official2.ff.garena.all/20239/9b0da9a9ed0b7efc57a2e7a075ec2cf3.jpg",
+          "caption": "Garena Free Fire. Best survival Battle ...",
+          "source_url": "https://ff.garena.com/en/news/32/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+collaboration+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max collaboration events",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:55:20.909369+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:05.274080+00:00",
+            "load_time_ms": 180,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 900,
+            "content_type": "image/jpeg",
+            "current_src": "https://dl.dir.freefiremobile.com/common/web_event/official2.ff.garena.all/20239/9b0da9a9ed0b7efc57a2e7a075ec2cf3.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图片为 Free Fire 与 Demon Slayer (鬼灭之刃) 的联动海报，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:30:08.053252+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/7Juif32lEFM/maxresdefault.jpg",
+          "caption": "Free Fire MaX ...",
+          "source_url": "https://www.youtube.com/watch?v=7Juif32lEFM",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+collaboration+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max collaboration events",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:55:20.909369+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:05.676451+00:00",
+            "load_time_ms": 397,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/7Juif32lEFM/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了游戏内联动 Ben 10 的活动任务列表和奖励领取界面，属于实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:30:08.053252+00:00"
+          }
+        },
+        {
+          "url": "https://dl.dir.freefiremobile.com/common/web_event/official2.ff.garena.all/20258/9183577762f0c5b038a89792663a6528.jpg",
+          "caption": "Garena Free Fire. Best survival Battle ...",
+          "source_url": "https://ff.garena.com/en/news/32/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+collaboration+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max collaboration events",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:55:20.909369+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:05.857320+00:00",
+            "load_time_ms": 176,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/jpeg",
+            "current_src": "https://dl.dir.freefiremobile.com/common/web_event/official2.ff.garena.all/20258/9183577762f0c5b038a89792663a6528.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图片为 Free Fire 与 Naruto Shippuden (火影忍者疾风传) 的联动海报，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:30:08.053252+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "esports_events",
+      "display_name": "Esports Events / 电竞赛事",
+      "description": "围绕 Free Fire World Series、区域杯赛、Clash Squad 赛事等组织的官方电竞内容，并常配套观看、里程碑或游戏内奖励。",
+      "examples": [
+        "FFWS",
+        "Free Fire Ramadan Cup",
+        "Clash Squad tournament",
+        "Esports Roadmap"
+      ],
+      "market_research_notes": "电竞事件兼具内容营销和活跃运营，可观察观看奖励、预测、任务和赛事皮肤的组合。",
+      "images": [
+        {
+          "url": "https://cdn.theesports.club/SMALL%20Banner%20%283%29-66ae9808-92e6-41ff-bbe6-ce11d0bbb1aa.png",
+          "caption": "Community Showdown - Esports Tournament ...",
+          "source_url": "https://theesports.club/tournament/Free-Fire-Max-Community-Showdownz-QfvJ",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+esports+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max esports events",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:55:56.752732+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:06.474824+00:00",
+            "load_time_ms": 608,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 380,
+            "natural_height": 250,
+            "content_type": "image/png",
+            "current_src": "https://cdn.theesports.club/SMALL%20Banner%20%283%29-66ae9808-92e6-41ff-bbe6-ce11d0bbb1aa.png"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了Free Fire MAX社区赛事的宣传海报，包含赛事名称、地点和奖金池，属于电竞赛事宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:30:14.505824+00:00"
+          }
+        },
+        {
+          "url": "https://esportsinsider.com/wp-content/uploads/2025/07/Screenshot-2025-07-01-163424.png",
+          "caption": "Free Fire Max esports returns to India ...",
+          "source_url": "https://esportsinsider.com/2025/07/free-fire-max-esports-returns-to-india-following-three-year-hiatus",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+esports+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max esports events",
+          "width": 294,
+          "height": 171,
+          "aspect_ratio": 1.7193,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:55:56.752732+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:07.782025+00:00",
+            "load_time_ms": 1301,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 475,
+            "natural_height": 277,
+            "content_type": "image/png",
+            "current_src": "https://esportsinsider.com/wp-content/uploads/2025/07/Screenshot-2025-07-01-163424.png"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片为India Cup 2025电竞赛事的宣传Banner，包含游戏Logo和赛事标题，属于典型的电竞赛事海报。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:30:14.505824+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/uezy3fAatXU/maxresdefault.jpg",
+          "caption": "FREE FIRE MAX ESPORTS ...",
+          "source_url": "https://www.youtube.com/watch?v=uezy3fAatXU",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+esports+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max esports events",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:55:56.752732+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:08.172408+00:00",
+            "load_time_ms": 385,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/uezy3fAatXU/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "图片是电竞赛事Clash of Champions 2025总决赛的直播封面或宣传条幅，展示了参赛队伍和赛事名称。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:30:14.505824+00:00"
+          }
+        },
+        {
+          "url": "https://gamingxpress.com/wp-content/uploads/2023/02/Banner.png",
+          "caption": "KhiladiAdda announces 'Free Fire Max ...",
+          "source_url": "https://gamingxpress.com/games/khiladiadda-announces-free-fire-max-gaming-tournament-season-five",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+esports+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max esports events",
+          "width": 278,
+          "height": 181,
+          "aspect_ratio": 1.5359,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:55:56.752732+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:09.506373+00:00",
+            "load_time_ms": 1328,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1237,
+            "natural_height": 808,
+            "content_type": "image/png",
+            "current_src": "https://gamingxpress.com/wp-content/uploads/2023/02/Banner.png"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片是KhiladiAdda组织的Free Fire MAX邀请赛海报，包含日期及奖金信息，属于赛事宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:30:14.505824+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/uezy3fAatXU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBEVbz8YC9gRkfWir09YX5mvaRlqg",
+          "caption": "FFMIC SPRING GRAND FINALE WATCH PARTY ...",
+          "source_url": "https://www.youtube.com/watch?v=uezy3fAatXU",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+esports+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max esports events",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:55:56.752732+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:09.901214+00:00",
+            "load_time_ms": 387,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/uezy3fAatXU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBEVbz8YC9gRkfWir09YX5mvaRlqg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "图片与image_index 3相同，是Clash of Champions 2025总决赛的赛事宣传图，无实际游戏内玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:30:14.505824+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "booyah_day_rampage",
+      "display_name": "Booyah Day / Rampage / 周年主活动",
+      "description": "Fandom 把 Rampage、Booyah Day、FFWS 列为主活动；这些通常是 Free Fire 的大型年度/品牌活动，包含主题皮肤、任务和特殊玩法。",
+      "examples": [
+        "Rampage",
+        "Booyah Day",
+        "FFWS"
+      ],
+      "market_research_notes": "品牌化年度事件适合看长期运营资产复用，比如主题系列皮肤、返场、任务链和社区传播。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/uq1W8Oa5t1Y/maxresdefault.jpg",
+          "caption": "Free Fire Max New OB41 Update Booyah ...",
+          "source_url": "https://www.youtube.com/watch?v=uq1W8Oa5t1Y",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+booyah+day+rampage",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max booyah day rampage",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:56:17.460243+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:10.275994+00:00",
+            "load_time_ms": 367,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/uq1W8Oa5t1Y/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片明确包含 Free Fire Max Booyah Day 文字及活动主题图，属于宣传性质的背景图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:30:19.447804+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/3MJhUbIRe1U/maxresdefault.jpg",
+          "caption": "Music Video | Garena Free Fire MAX ...",
+          "source_url": "https://www.youtube.com/watch?v=3MJhUbIRe1U",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+booyah+day+rampage",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max booyah day rampage",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:56:17.460243+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:10.687949+00:00",
+            "load_time_ms": 404,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/3MJhUbIRe1U/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片明确包含 Booyah Day 2022 文字，且为音乐视频宣传封面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:30:19.447804+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Gfbyo-dz9dM/maxresdefault.jpg",
+          "caption": "RAMPAGE BUNDLE VS BOOYAH DAY BUNDLE ...",
+          "source_url": "https://www.youtube.com/watch?v=Gfbyo-dz9dM",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+booyah+day+rampage",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max booyah day rampage",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:56:17.460243+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:11.098355+00:00",
+            "load_time_ms": 404,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/Gfbyo-dz9dM/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了 Booyah Day 和 Rampage 活动的特有皮肤套装对比，属于活动相关的资源展示宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:30:19.447804+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/jbWdMPIjRBY/maxresdefault.jpg",
+          "caption": "EVO BUNDLE IN GARENA FREEFIRE ...",
+          "source_url": "https://www.youtube.com/watch?v=jbWdMPIjRBY",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+booyah+day+rampage",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max booyah day rampage",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:56:17.460243+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:11.518204+00:00",
+            "load_time_ms": 413,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/jbWdMPIjRBY/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了具有 Rampage United 和 Booyah Day 2021 标识的活动套装，属于宣传海报性质。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:30:19.447804+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/AMujzu7do-w/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAdDygQiIIUtpWsaXMK0B0xHlLuQA",
+          "caption": "17 KILLS BOOYAH 😈 | Solo Rampage | Free ...",
+          "source_url": "https://www.youtube.com/watch?v=AMujzu7do-w",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=free+fire+max+booyah+day+rampage",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "free fire max booyah day rampage",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:56:17.460243+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:11.852837+00:00",
+            "load_time_ms": 328,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/AMujzu7do-w/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAdDygQiIIUtpWsaXMK0B0xHlLuQA"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "虽然标题有 Booyah 字样，但其内容主要展示个人战绩结算风格的宣传图，且 Booyah 是 Free Fire 通用的获胜语，难以确认为特定主活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:30:19.447804+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "Free Fire MAX 和 Free Fire 的活动体系高度共享。本轮以官方支持页的类型为主、官网新闻主题为辅；后续可按单个大 campaign 拆更细的子活动和奖励池。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T07:56:17.460243+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:30:19.447804+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

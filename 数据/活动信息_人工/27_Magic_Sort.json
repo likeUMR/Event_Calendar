@@ -1,0 +1,1036 @@
+{
+  "rank": 27,
+  "name": "Magic Sort!",
+  "manual_research_status": "done_first_pass_low_confidence",
+  "research_method": "人工搜索 Magic Sort! + Grand Games 的 App Store、Google Play 镜像、第三方商店页和游戏官网。未发现稳定 wiki 或官方活动帮助中心，因此只记录可由商店说明直接验证的活动/运营系统，不把无来源的同类休闲游戏机制硬套进去。",
+  "source_pages": [
+    {
+      "title": "App Store - Magic Sort! by Grand Games",
+      "url": "https://apps.apple.com/us/app/magic-sort/id6499209744",
+      "notes": "商店页说明开发者为 Grand Games A.S.，年龄标签包含 frequent competitions、loot boxes、advertising、messages and chat；内购包含 Coins、Apprentice/Magician/Sorcerer Bundle、Endless Portal、Special Offer 等。"
+    },
+    {
+      "title": "PG.io - Magic Sort! Store Review",
+      "url": "https://pg.io/store-game/magic-sort",
+      "notes": "第三方商店镜像确认游戏为 Grand Games A.S. 的 Magic Sort!，提供截图、下载入口和基础信息。"
+    },
+    {
+      "title": "Magic Sort App - Download Page",
+      "url": "https://magicsort.app/download",
+      "notes": "非官方/介绍型页面，描述 Magic Sort 为水排序 puzzle，强调 1000+ levels、offline play、undo/restart 等基础玩法。"
+    },
+    {
+      "title": "App Store - Magic Sort - Water Sorting by Arizona",
+      "url": "https://apps.apple.com/ca/app/jungle-treasure-01/id6481261917/",
+      "notes": "同名近似竞品，不是本榜单的 Grand Games 版本；只用于提醒同名污染，里面的 Jungle Treasure、Magic Pass 不纳入本条主结论。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "tournaments_and_leagues",
+      "display_name": "Tournaments / Leagues / 竞赛与联赛",
+      "description": "App Store 年龄标签明确出现 competitions，商店说明/相关镜像强调益智闯关和玩家竞争；可确认 Magic Sort! 至少存在竞赛/排行榜类运营入口，但开放网页没有可验证的具体活动名称、周期和规则表。",
+      "examples": [
+        "Tournaments",
+        "Leagues",
+        "competitions"
+      ],
+      "market_research_notes": "低信心项。建议后续用真机、App Store in-app events、广告素材或玩家截图补充具体赛事名称与奖励。",
+      "images": [
+        {
+          "url": "https://images.ctfassets.net/ryplwhabvmmk/1bP3qnGuiUnbLZd4PAlfft/dc9fc12a2a64f8b4080ad602bce3042d/1920x1080_In_Store_Play_PT_Announce.png",
+          "caption": "Magic: The Gathering Pro Tour",
+          "source_url": "https://magic.gg/pro-tour",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=magic+sort+tournaments+and+leagues",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "magic sort tournaments and leagues",
+          "width": 1920,
+          "height": 1080,
+          "aspect_ratio": 1.7778,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:16:59.599820+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:31.345469+00:00",
+            "load_time_ms": 1424,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/png",
+            "current_src": "https://images.ctfassets.net/ryplwhabvmmk/1bP3qnGuiUnbLZd4PAlfft/dc9fc12a2a64f8b4080ad602bce3042d/1920x1080_In_Store_Play_PT_Announce.png"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 1.0,
+            "reason": "图片内容为《万智牌》（Magic: The Gathering）的线下桌游活动，与益智手游 Magic Sort! 无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:19:40.044308+00:00"
+          }
+        },
+        {
+          "url": "https://images.ctfassets.net/ryplwhabvmmk/6gXv70qElAHMI4vsHEDFJb/4c20c5744b00efc87d2ac62d09576a45/Trophy_Photo_Plate_1600.jpg",
+          "caption": "The Future of Magic Esports",
+          "source_url": "https://www.magic.gg/news/the-future-of-magic-esports",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=magic+sort+tournaments+and+leagues",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "magic sort tournaments and leagues",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:16:59.599820+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:31.396593+00:00",
+            "load_time_ms": 47,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 1060,
+            "content_type": "image/jpeg",
+            "current_src": "https://images.ctfassets.net/ryplwhabvmmk/6gXv70qElAHMI4vsHEDFJb/4c20c5744b00efc87d2ac62d09576a45/Trophy_Photo_Plate_1600.jpg"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 1.0,
+            "reason": "图片为《万智牌》（Magic: The Gathering）电竞赛事的奖杯，与手游 Magic Sort! 无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:19:40.044308+00:00"
+          }
+        },
+        {
+          "url": "https://imageio.forbes.com/blogs-images/laurenorsini/files/2019/08/The-Future-of-Magic-Esports.jpg?format=jpg&height=900&width=1600&fit=bounds",
+          "caption": "Competitive Play Strategy in 2020",
+          "source_url": "https://www.forbes.com/sites/laurenorsini/2019/08/14/magic-the-gathering-drastically-updates-competitive-play-strategy-in-2020/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=magic+sort+tournaments+and+leagues",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "magic sort tournaments and leagues",
+          "width": 1600,
+          "height": 900,
+          "aspect_ratio": 1.7778,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:16:59.599820+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:32.541398+00:00",
+            "load_time_ms": 1139,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1024,
+            "natural_height": 683,
+            "content_type": "image/webp",
+            "current_src": "https://imageio.forbes.com/blogs-images/laurenorsini/files/2019/08/The-Future-of-Magic-Esports.jpg?format=jpg&height=900&width=1600&fit=bounds"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 1.0,
+            "reason": "图片为《万智牌》（Magic: The Gathering）电竞宣传图，与手游 Magic Sort! 无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:19:40.044308+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/-4Tf-K08Cug/maxresdefault.jpg",
+          "caption": "Magic Sort - Level 1 - 15 - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=-4Tf-K08Cug",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=magic+sort+tournaments+and+leagues",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "magic sort tournaments and leagues",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:16:59.599820+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:32.922488+00:00",
+            "load_time_ms": 375,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/-4Tf-K08Cug/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片展示了 Magic Sort! 的基础关卡玩法，属于本游戏，但属于普通关卡而非特定竞赛活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:19:40.044308+00:00"
+          }
+        },
+        {
+          "url": "https://images.ctfassets.net/ryplwhabvmmk/4HsdiRQimoaF26aHuRTmFJ/e7ab26e0702834c97ff188d1e69aba4f/Slide2.png",
+          "caption": "The Future of Magic Esports",
+          "source_url": "https://www.magic.gg/news/the-future-of-magic-esports",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=magic+sort+tournaments+and+leagues",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "magic sort tournaments and leagues",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:16:59.599820+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:33.065310+00:00",
+            "load_time_ms": 133,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/png",
+            "current_src": "https://images.ctfassets.net/ryplwhabvmmk/4HsdiRQimoaF26aHuRTmFJ/e7ab26e0702834c97ff188d1e69aba4f/Slide2.png"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 1.0,
+            "reason": "图片展示了 Magic Pro League（万智牌职业职业联赛）的赛季晋级规则，与手游 Magic Sort! 无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:19:40.044308+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "daily_challenges",
+      "display_name": "Daily Challenges / 每日挑战",
+      "description": "公开商店文案提到 daily challenges，用于让玩家每天完成额外排序关卡或目标；未找到官方帮助页说明奖励结构。",
+      "examples": [
+        "Daily Challenge"
+      ],
+      "market_research_notes": "这是休闲 puzzle 常见的日活入口，但本轮只记录为已在商店页出现的功能，不推断更多阶段奖励。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/7VwAOBNJ7eY/maxresdefault.jpg",
+          "caption": "Magic Sort! - Daily Challenges - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=7VwAOBNJ7eY",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=magic+sort+daily+challenges",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "magic sort daily challenges",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:17:52.036589+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:33.385073+00:00",
+            "load_time_ms": 311,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/7VwAOBNJ7eY/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了游戏实际排序关卡玩法，上方显示具体日期（Dec 4）及倒计时，符合每日挑战关卡的玩法界面特征。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:19:50.284976+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/u972dmx6wt0/maxresdefault.jpg",
+          "caption": "Gameplay - Satisfying Puzzle Solving ...",
+          "source_url": "https://www.youtube.com/watch?v=u972dmx6wt0",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=magic+sort+daily+challenges",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "magic sort daily challenges",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:17:52.036589+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:33.835173+00:00",
+            "load_time_ms": 444,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/u972dmx6wt0/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片展示了游戏核心玩法瓶子分类，虽来自每日挑战搜索词，但画面中无任何‘每日挑战’相关的UI文字或标志，仅能作为通用游戏宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:19:50.284976+00:00"
+          }
+        },
+        {
+          "url": "https://r2.magicsortlevel.com/answer_screenshots/20260427/2a907d648886d0a55c1c9232134ea03d.webp",
+          "caption": "Magic Sort 100 Walkthrough & Solution ...",
+          "source_url": "https://magicsortlevel.com/levels/100",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=magic+sort+daily+challenges",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "magic sort daily challenges",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:17:52.036589+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:34.924957+00:00",
+            "load_time_ms": 1085,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 886,
+            "natural_height": 1920,
+            "content_type": "image/webp",
+            "current_src": "https://r2.magicsortlevel.com/answer_screenshots/20260427/2a907d648886d0a55c1c9232134ea03d.webp"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图示为游戏第100关的常规关卡玩法截图，并非每日挑战活动的特定界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:19:50.284976+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/O0PMQCEfp9g/oardefault.jpg?sqp=-oaymwEYCM0CENAFSFqQAgHyq4qpAwcIARUAAIhC&rs=AOn4CLCSMBl-Rqk9krktncWppHp0a3bY3w&usqp=CCk",
+          "caption": "Magic Sort Daily Challenge 20 April ...",
+          "source_url": "https://www.youtube.com/shorts/O0PMQCEfp9g",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=magic+sort+daily+challenges",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "magic sort daily challenges",
+          "width": 153,
+          "height": 330,
+          "aspect_ratio": 0.4636,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:17:52.036589+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:35.242993+00:00",
+            "load_time_ms": 312,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 333,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/O0PMQCEfp9g/oardefault.jpg?sqp=-oaymwEYCM0CENAFSFqQAgHyq4qpAwcIARUAAIhC&rs=AOn4CLCSMBl-Rqk9krktncWppHp0a3bY3w&usqp=CCk"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片上方带有日期标识 (Apr 20) 和计时器，展示了每日挑战活动的实际关卡玩法界面，符合活动描述。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:19:50.284976+00:00"
+          }
+        },
+        {
+          "url": "https://magic-sort.com/assets/covers/magic sort-cover.webp",
+          "caption": "Play the Relaxing Color Sorting Puzzle",
+          "source_url": "https://magic-sort.com/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=magic+sort+daily+challenges",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "magic sort daily challenges",
+          "width": 277,
+          "height": 182,
+          "aspect_ratio": 1.522,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:17:52.036589+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:37.890705+00:00",
+            "load_time_ms": 2643,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1000,
+            "natural_height": 658,
+            "content_type": "image/webp",
+            "current_src": "https://magic-sort.com/assets/covers/magic%20sort-cover.webp"
+          },
+          "llm_image_filter": {
+            "category": 2,
+            "category_label": "无法确定是否和本游戏无关",
+            "confidence": 0.0,
+            "reason": "模型接口无法读取或接受该图片 URL，已按无法确定处理：Error code: 400 - {'error': {'message': 'Invalid URL format: https://***.com/***/***/*** ***.webp ({\"provider_name\":\"Google\"})', 'type': 'upstream_error', 'param': '', 'code': 400, 'metadata': {'provider_name': 'Google'}}, 'trace_id': '20260513171949986911493LY6KZb2m'}",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:19:50.284976+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "level_content_updates",
+      "display_name": "Weekly New Levels / 新关卡更新",
+      "description": "App Store 版本记录反复出现 new levels / new 100 levels / new levels coming every week，说明内容更新本身是主要运营节奏。",
+      "examples": [
+        "new 100 levels",
+        "weekly new levels"
+      ],
+      "market_research_notes": "对纯 puzzle 产品来说，新关卡更新常替代复杂 LiveOps 活动，承担回流和长期推进目标。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/-2AKx4EBosE/maxresdefault.jpg",
+          "caption": "Magic Sort *updated 1/2026* Level 931 ...",
+          "source_url": "https://www.youtube.com/watch?v=-2AKx4EBosE",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=magic+sort+level+content+updates",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "magic sort level content updates",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:18:22.290177+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:38.210759+00:00",
+            "load_time_ms": 315,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/-2AKx4EBosE/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了游戏的实际玩法界面，且由于活动定义为常态化的新关卡更新，图中的Level 937属于该活动内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:19:54.167644+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/sY6rhGMT5ic/maxresdefault.jpg",
+          "caption": "Magic Sort *updated 1/2026* Level 881 ...",
+          "source_url": "https://www.youtube.com/watch?v=sY6rhGMT5ic",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=magic+sort+level+content+updates",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "magic sort level content updates",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:18:22.290177+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:38.533287+00:00",
+            "load_time_ms": 316,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/sY6rhGMT5ic/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了游戏的实际玩法界面，Level 887体现了周更关卡的内容更新。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:19:54.167644+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/KM_enVTWr3c/maxresdefault.jpg",
+          "caption": "Magic Sort *updated 1/2026* Level 671 ...",
+          "source_url": "https://www.youtube.com/watch?v=KM_enVTWr3c",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=magic+sort+level+content+updates",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "magic sort level content updates",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:18:22.290177+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:38.850408+00:00",
+            "load_time_ms": 312,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/KM_enVTWr3c/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了游戏的实际玩法界面，Level 675体现了周更关卡的内容更新。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:19:54.167644+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/1IInRYHCEQRALj-uefH7vxGajttYXCiQ4OHIyqw5vo1PYMAKxOuRUYFe7gcppK9RAEuP",
+          "caption": "Magic Sort Puzzle – Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.blu.wsp&hl=en_GB",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=magic+sort+level+content+updates",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "magic sort level content updates",
+          "width": 166,
+          "height": 296,
+          "aspect_ratio": 0.5608,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:18:22.290177+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:39.123831+00:00",
+            "load_time_ms": 267,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/1IInRYHCEQRALj-uefH7vxGajttYXCiQ4OHIyqw5vo1PYMAKxOuRUYFe7gcppK9RAEuP"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片为游戏的商店图标或通用宣传海报，无法具体关联到“每周新关卡”这一特定活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:19:54.167644+00:00"
+          }
+        },
+        {
+          "url": "https://r2.magicsortlevel.com/20251206/1cc377e3bf63e05e21bec4bd388b27b3.jpg",
+          "caption": "Magic Sort Levels 5–1158 Walkthroughs ...",
+          "source_url": "https://magicsortlevel.com/levels",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=magic+sort+level+content+updates",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "magic sort level content updates",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:18:22.290177+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:39.341295+00:00",
+            "load_time_ms": 208,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 480,
+            "natural_height": 360,
+            "content_type": "image/jpeg",
+            "current_src": "https://r2.magicsortlevel.com/20251206/1cc377e3bf63e05e21bec4bd388b27b3.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了游戏的实际玩法界面，Level 159体现了周更关卡的内容更新。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:19:54.167644+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "limited_offers_and_bundles",
+      "display_name": "Limited Offers / Bundles / 限时礼包",
+      "description": "内购列表包含 Starter Bundle、Apprentice Bundle、Magician Bundle、Sorcerer Bundle、Special Offer、Coins 等，说明存在礼包和限时/分层付费包。",
+      "examples": [
+        "Starter Bundle",
+        "Apprentice Bundle",
+        "Magician Bundle",
+        "Sorcerer Bundle",
+        "Special Offer",
+        "1000 Coins",
+        "5000 Coins",
+        "10000 Coins"
+      ],
+      "market_research_notes": "这是目前最明确的商业化活动线索；缺少活动页，不能确认礼包是否按事件周期刷新。",
+      "images": [
+        {
+          "url": "https://magic-sort.com/assets/covers/magic sort-cover.webp",
+          "caption": "Play the Relaxing Color Sorting Puzzle",
+          "source_url": "https://magic-sort.com/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=magic+sort+limited+offers+and+bundles",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "magic sort limited offers and bundles",
+          "width": 277,
+          "height": 182,
+          "aspect_ratio": 1.522,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:18:58.402736+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:37.890705+00:00",
+            "load_time_ms": 2643,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1000,
+            "natural_height": 658,
+            "content_type": "image/webp",
+            "current_src": "https://magic-sort.com/assets/covers/magic%20sort-cover.webp"
+          },
+          "llm_image_filter": {
+            "category": 2,
+            "category_label": "无法确定是否和本游戏无关",
+            "confidence": 0.0,
+            "reason": "模型接口无法读取或接受该图片 URL，已按无法确定处理：Error code: 400 - {'error': {'message': 'Invalid URL format: https://***.com/***/***/*** ***.webp ({\"provider_name\":\"Google\"})', 'type': 'upstream_error', 'param': '', 'code': 400, 'metadata': {'provider_name': 'Google'}}, 'trace_id': '20260513171954671705262SWb5bXaj'}",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:19:55.390284+00:00"
+          }
+        },
+        {
+          "url": "https://magic-sort.com/assets/icons/magic sort-icon.webp",
+          "caption": "Play the Relaxing Color Sorting Puzzle",
+          "source_url": "https://magic-sort.com/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=magic+sort+limited+offers+and+bundles",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "magic sort limited offers and bundles",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:18:58.402736+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:39.652591+00:00",
+            "load_time_ms": 300,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/webp",
+            "current_src": "https://magic-sort.com/assets/icons/magic%20sort-icon.webp"
+          },
+          "llm_image_filter": {
+            "category": 2,
+            "category_label": "无法确定是否和本游戏无关",
+            "confidence": 0.0,
+            "reason": "模型接口无法读取或接受该图片 URL，已按无法确定处理：Error code: 400 - {'error': {'message': 'Invalid URL format: https://***.com/***/***/*** ***.webp ({\"provider_name\":\"Google\"})', 'type': 'upstream_error', 'param': '', 'code': 400, 'metadata': {'provider_name': 'Google'}}, 'trace_id': '2026051317195587417567ylQAhr9a'}",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:19:55.390284+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "endless_portal",
+      "display_name": "Endless Portal / 付费特殊入口",
+      "description": "App Store 内购项包含 Endless Portal，名称暗示可能是特殊关卡、无限模式或资源入口；公开网页未说明机制。",
+      "examples": [
+        "Endless Portal"
+      ],
+      "market_research_notes": "只作为可验证内购/功能名记录，后续需要真机确认它是活动、订阅、礼包还是游戏模式。",
+      "images": [
+        {
+          "url": "https://magic-sort.com/assets/covers/magic sort-cover.webp",
+          "caption": "Play the Relaxing Color Sorting Puzzle",
+          "source_url": "https://magic-sort.com/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=magic+sort+endless+portal",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "magic sort endless portal",
+          "width": 277,
+          "height": 182,
+          "aspect_ratio": 1.522,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:19:27.254649+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:37.890705+00:00",
+            "load_time_ms": 2643,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1000,
+            "natural_height": 658,
+            "content_type": "image/webp",
+            "current_src": "https://magic-sort.com/assets/covers/magic%20sort-cover.webp"
+          },
+          "llm_image_filter": {
+            "category": 2,
+            "category_label": "无法确定是否和本游戏无关",
+            "confidence": 0.0,
+            "reason": "模型接口无法读取或接受该图片 URL，已按无法确定处理：Error code: 400 - {'error': {'message': 'Invalid URL format: https://***.com/***/***/*** ***.webp ({\"provider_name\":\"Google\"})', 'type': 'upstream_error', 'param': '', 'code': 400, 'metadata': {'provider_name': 'Google'}}, 'trace_id': '20260513171956379790267GJBXMYGu'}",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:03.042513+00:00"
+          }
+        },
+        {
+          "url": "https://thumbs.dreamstime.com/b/magical-portal-opening-up-to-realm-endless-possibilities-fantasy-art-ai-generation-magical-portal-opening-up-to-realm-269355214.jpg",
+          "caption": "Fantasy Art, AI Generation ...",
+          "source_url": "https://www.dreamstime.com/magical-portal-opening-up-to-realm-endless-possibilities-fantasy-art-ai-generation-magical-portal-opening-up-to-realm-image269355214",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=magic+sort+endless+portal",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "magic sort endless portal",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:19:27.254649+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:41.005118+00:00",
+            "load_time_ms": 1346,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 800,
+            "natural_height": 800,
+            "content_type": "image/webp",
+            "current_src": "https://thumbs.dreamstime.com/b/magical-portal-opening-up-to-realm-endless-possibilities-fantasy-art-ai-generation-magical-portal-opening-up-to-realm-269355214.jpg"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.98,
+            "reason": "图片来源为第三方素材库的AI生成奇幻插图，含有Dreamstime水印，与游戏Magic Sort!及其活动完全无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:03.042513+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/would-this-actually-work-v0-p5j5fd54jupd1.jpeg?width=640&crop=smart&auto=webp&s=d587952512f64f9e096b6c323cf90418499ca675",
+          "caption": "Would this actually work? : r/physicsmemes",
+          "source_url": "https://www.reddit.com/r/physicsmemes/comments/1fkxl2w/would_this_actually_work/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=magic+sort+endless+portal",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "magic sort endless portal",
+          "width": 223,
+          "height": 226,
+          "aspect_ratio": 0.9867,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:19:27.254649+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:41.095366+00:00",
+            "load_time_ms": 85,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 647,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/would-this-actually-work-v0-p5j5fd54jupd1.jpeg?width=640&crop=smart&auto=webp&s=d587952512f64f9e096b6c323cf90418499ca675"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.98,
+            "reason": "图片内容为关于物理悖论的Meme图，来源于Reddit和4chan，与手游Magic Sort!及其实际活动完全无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:03.042513+00:00"
+          }
+        },
+        {
+          "url": "https://magic-sort.com/assets/icons/magic sort-icon.webp",
+          "caption": "Play the Relaxing Color Sorting Puzzle",
+          "source_url": "https://magic-sort.com/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=magic+sort+endless+portal",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "magic sort endless portal",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:19:27.254649+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:39.652591+00:00",
+            "load_time_ms": 300,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/webp",
+            "current_src": "https://magic-sort.com/assets/icons/magic%20sort-icon.webp"
+          },
+          "llm_image_filter": {
+            "category": 2,
+            "category_label": "无法确定是否和本游戏无关",
+            "confidence": 0.0,
+            "reason": "模型接口无法读取或接受该图片 URL，已按无法确定处理：Error code: 400 - {'error': {'message': 'Invalid URL format: https://***.com/***/***/*** ***.webp ({\"provider_name\":\"Google\"})', 'type': 'upstream_error', 'param': '', 'code': 400, 'metadata': {'provider_name': 'Google'}}, 'trace_id': '20260513172000623882303gHoER4aF'}",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:03.042513+00:00"
+          }
+        },
+        {
+          "url": "http://wiki.alexissmolensk.com/images/a/ad/Hold_Portal_%28spell%29.jpg",
+          "caption": "Hold Portal (spell) - The Authentic D&D ...",
+          "source_url": "https://wiki.alexissmolensk.com/index.php/Hold_Portal_(spell)",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=magic+sort+endless+portal",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "magic sort endless portal",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:19:27.254649+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:43.073080+00:00",
+            "load_time_ms": 1972,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1024,
+            "natural_height": 1024,
+            "content_type": "image/jpeg",
+            "current_src": "http://wiki.alexissmolensk.com/images/a/ad/Hold_Portal_%28spell%29.jpg"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 1.0,
+            "reason": "图片来源于龙与地下城（D&D）百科网站，展示的是龙与地下城中的法术插图，与手游 Magic Sort! 及其活动完全无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:03.042513+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "not_verified_magic_pass",
+      "display_name": "Magic Pass / 通行证线索（未确认本游戏）",
+      "description": "搜索结果中出现同名 Magic Sort - Water Sorting 的 Magic Pass 内购，但该页面开发者为 Arizona，不是本榜单 Grand Games 版本。因此本轮不把 Magic Pass 记为 Magic Sort! 的已确认活动。",
+      "examples": [
+        "Magic Pass (same-name competitor, not verified for Grand Games Magic Sort!)"
+      ],
+      "market_research_notes": "同名污染很严重，程序化采集容易误抓；本条保留为排除说明。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/WpTMBQdhAVa2y3tzsw5T4h9aT5C9Ng1fo3m5JGp0fi4bCD3Gcw8hOPodjjbs2moXX71FH21eSfPMVpR3OL6B",
+          "caption": "Magic Sort! - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.grandgames.magicsort",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=magic+sort+not+verified+magic+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "magic sort not verified magic pass",
+          "width": 194,
+          "height": 259,
+          "aspect_ratio": 0.749,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:19:50.393687+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:43.358353+00:00",
+            "load_time_ms": 278,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/WpTMBQdhAVa2y3tzsw5T4h9aT5C9Ng1fo3m5JGp0fi4bCD3Gcw8hOPodjjbs2moXX71FH21eSfPMVpR3OL6B"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "目标游戏Magic Sort!的商店应用图标，属于通用品牌图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:06.018607+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/1IInRYHCEQRALj-uefH7vxGajttYXCiQ4OHIyqw5vo1PYMAKxOuRUYFe7gcppK9RAEuP",
+          "caption": "Magic Sort: Water Color Puzzle - Apps ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.blu.wsp",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=magic+sort+not+verified+magic+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "magic sort not verified magic pass",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:19:50.393687+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:39.123831+00:00",
+            "load_time_ms": 267,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/1IInRYHCEQRALj-uefH7vxGajttYXCiQ4OHIyqw5vo1PYMAKxOuRUYFe7gcppK9RAEuP"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 1.0,
+            "reason": "包名为com.blu.wsp，属于竞品Magic Sort: Water Color Puzzle，与本游戏完全无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:06.018607+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/RxpU59sjF3kBFxCJRMwWGAZ4pdRuZvk5C4i0_48tFsKOt1oKi7RzirbDm0sRDfLTWA=w526-h296-rw",
+          "caption": "Magic Sort! - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.grandgames.magicsort",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=magic+sort+not+verified+magic+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "magic sort not verified magic pass",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:19:50.393687+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:43.528795+00:00",
+            "load_time_ms": 165,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 166,
+            "natural_height": 296,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/RxpU59sjF3kBFxCJRMwWGAZ4pdRuZvk5C4i0_48tFsKOt1oKi7RzirbDm0sRDfLTWA=w526-h296-rw"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "目标游戏Magic Sort!的商店宣传截图，展示通用玩法而非特定Magic Pass活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:06.018607+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/pAVd0-tchKSP3IT47BNiKTgZd5sxNniTYqQxjhirft2nbq1OlPfunqcJ_kVq3wqXcx6ccGj1TsPzik7fywMQbj4=w526-h296-rw",
+          "caption": "Magic Sort: Water Color Puzzle - Apps ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.blu.wsp",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=magic+sort+not+verified+magic+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "magic sort not verified magic pass",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:19:50.393687+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:43.729781+00:00",
+            "load_time_ms": 196,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 166,
+            "natural_height": 296,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/pAVd0-tchKSP3IT47BNiKTgZd5sxNniTYqQxjhirft2nbq1OlPfunqcJ_kVq3wqXcx6ccGj1TsPzik7fywMQbj4=w526-h296-rw"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 1.0,
+            "reason": "包名为com.blu.wsp，属于竞品游戏的宣传图，与本游戏完全无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:06.018607+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "Magic Sort! 暂未找到 wiki、官方帮助中心或可公开访问的活动目录。本轮只记录公开商店页能支撑的活动/运营系统，避免把同名竞品或泛化推断写成事实。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T06:19:50.393687+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:20:06.018607+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

@@ -1,0 +1,1062 @@
+{
+  "rank": 60,
+  "name": "Top Heroes: Kingdom Saga",
+  "manual_research_status": "done_first_pass_low_confidence",
+  "research_method": "人工查看官方 App Store 商店页、Top Heroes Guide 的活动总览页，以及公开攻略/日常清单页面。未找到官方 wiki、官方帮助中心活动目录或开发者公告归档，因此本轮以可公开验证的社区活动框架为主，并明确标注低信心部分。",
+  "source_pages": [
+    {
+      "title": "App Store - Top Heroes: Kingdom Saga",
+      "url": "https://apps.apple.com/us/app/top-heroes-kingdom-saga/id6450953550",
+      "notes": "官方商店页确认这是一款强调 build territory、forge alliances、guilds、epic wars 的策略 RPG，并有 Discord 社区入口。"
+    },
+    {
+      "title": "Top Heroes Guide - Top Heroes: Kingdom Saga Guide",
+      "url": "https://topheroesguides.com/",
+      "notes": "社区导览页直接列出 Event Guides：Guild Arms Race、Kingdom Duel (KvK)、Top Lord、Guild Boss、Dark Empire Invasion、Butterfly Collector，并说明 Event Optimizer 支持 GAR、KvK、Top Lord。"
+    },
+    {
+      "title": "Packsify - Top Heroes: Kingdom Saga Beginner's Guide",
+      "url": "https://www.packsify.com/blogs/top-heroes-kingdom-saga-beginners-guide",
+      "notes": "公开攻略明确提到 Kingdom Duel 是 6-stage server war，Guild choice、Guild Help、War rallies 和活动资源使用节奏对竞争结果影响极大。"
+    },
+    {
+      "title": "LootBar - Top Heroes Daily Checklist",
+      "url": "https://lootbar.gg/blog/en/top-heroes-daily-checklist-every-task.html",
+      "notes": "公开日常清单提到 hero shards、pet food、magicite、relic scrolls 等资源应在 Guild Arms Race、Kingdom Duel、Guild Race 等对应活动日使用，可作为活动周节奏的旁证。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "guild_arms_race",
+      "display_name": "Guild Arms Race / GAR",
+      "description": "社区活动总览已明确列出 Guild Arms Race，并标注为 full 6-stage point breakdown。结合公开攻略可判断这是一种按天/按阶段消耗资源、训练、养成和战力行为来冲分的联盟竞赛。",
+      "examples": [
+        "Guild Arms Race",
+        "GAR"
+      ],
+      "market_research_notes": "这是 Top Heroes 最像典型 SLG 日周循环活动的一层，适合研究资源囤积与爆发消耗节奏。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/guide-guild-arms-race-gar-event-and-point-breakdown-v0-xgycpw3ai3ef1.jpeg?auto=webp&s=551fb54159cb5cd79faa3fe435edf02822b74677",
+          "caption": "Guide: Guild Arms Race (GAR) Event and ...",
+          "source_url": "https://www.reddit.com/r/TopHeroes/comments/1m50dt3/guide_guild_arms_race_gar_event_and_point/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+guild+arms+race",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga guild arms race",
+          "width": 163,
+          "height": 310,
+          "aspect_ratio": 0.5258,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T09:25:47.007189+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片为玩家自制的Guild Arms Race活动积分明细表，属于非实际玩法的活动介绍宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:35.151298+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/updated-easy-to-use-event-guides-kvk-guild-arms-race-guild-v0-m050wnuzo3mf1.jpg?width=640&crop=smart&auto=webp&s=85e62e110be656d26985d8487408ba1a01dbb923",
+          "caption": "KvK, Guild Arms Race, Guild Race ...",
+          "source_url": "https://www.reddit.com/r/TopHeroes/comments/1n3uk7a/updated_easy_to_use_event_guides_kvk_guild_arms/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+guild+arms+race",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga guild arms race",
+          "width": 197,
+          "height": 255,
+          "aspect_ratio": 0.7725,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T09:25:47.007189+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图片为带有游戏Logo的Guild Arms Race活动流程攻略海报，展示了各阶段主题，无实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:35.151298+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/guild-arms-race-quick-guide-version-2-season-1-v0-9pwsme7h18bf1.png?width=2048&format=png&auto=webp&s=9787da78313daeddfd3ee9b24f5cce8a17bb1c01",
+          "caption": "Guild arms Race Quick guide Version 2 ...",
+          "source_url": "https://www.reddit.com/r/TopHeroes/comments/1lsx3gf/guild_arms_race_quick_guide_version_2_season_1/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+guild+arms+race",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga guild arms race",
+          "width": 183,
+          "height": 275,
+          "aspect_ratio": 0.6655,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T09:25:47.007189+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "图片为Guild Arms Race的快速指南，由游戏内元素拼贴而成，说明各阶段任务，非原生玩法截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:35.151298+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/guild-arms-race-and-kingdom-vs-kingdom-guide-v0-oxbgk2nt95eg1.png?auto=webp&s=504da09a02cda0704d217aef63253a1685154f40",
+          "caption": "Guild Arms Race and Kingdom vs Kingdom ...",
+          "source_url": "https://www.reddit.com/r/TopHeroes/comments/1qgf691/guild_arms_race_and_kingdom_vs_kingdom_guide/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+guild+arms+race",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga guild arms race",
+          "width": 168,
+          "height": 301,
+          "aspect_ratio": 0.5581,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T09:25:47.007189+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片为玩家整理的GAR与KvK活动资源消耗时间表，属于数据分析类工具图，非游戏实际界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:35.151298+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/updated-easy-to-use-event-guides-kvk-guild-arms-race-guild-v0-b0crir81p3mf1.jpg?width=2550&format=pjpg&auto=webp&s=15278c24fc79d27c6131381c73a92bc7b4b05a0d",
+          "caption": "KvK, Guild Arms Race, Guild Race ...",
+          "source_url": "https://www.reddit.com/r/TopHeroes/comments/1n3uk7a/updated_easy_to_use_event_guides_kvk_guild_arms/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+guild+arms+race",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga guild arms race",
+          "width": 197,
+          "height": 255,
+          "aspect_ratio": 0.7725,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T09:25:47.007189+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图片为Guild Race活动的任务规则与奖励积分说明海报，属于活动介绍性质的二次创作图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:35.151298+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "kingdom_duel_kvk",
+      "display_name": "Kingdom Duel / KvK",
+      "description": "公开指南明确说 Kingdom Duel 是 6-stage 的 server war / kingdom war。玩家和联盟围绕跨服竞争、阶段积分和 war-stage 行为组织资源与阵容。",
+      "examples": [
+        "Kingdom Duel",
+        "KvK"
+      ],
+      "market_research_notes": "这是产品最高价值的中长期竞争节点，通常决定联盟结构、氪金节奏和资源使用窗口。",
+      "images": [
+        {
+          "url": "https://i.redd.it/1wxe28qpi3ef1.jpeg",
+          "caption": "Guide: Kingdom Duel (KvK) Event and ...",
+          "source_url": "https://www.reddit.com/r/TopHeroes/comments/1m50f0x/guide_kingdom_duel_kvk_event_and_point_breakdown/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+kingdom+duel+kvk",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga kingdom duel kvk",
+          "width": 159,
+          "height": 317,
+          "aspect_ratio": 0.5016,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T09:26:20.837739+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图是玩家整理的关于Kingdom Duel活动的积分规则表，无实际游戏玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:33.670623+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/easy-to-use-kingdom-vs-kingdom-infographic-v0-nbpx6zh1n7if1.jpeg?width=640&crop=smart&auto=webp&s=e2f4fa720a8599e8548b76d0cbb4ee128026c826",
+          "caption": "Kingdom vs Kingdom infographic ...",
+          "source_url": "https://www.reddit.com/r/TopHeroes/comments/1mmlqnr/easy_to_use_kingdom_vs_kingdom_infographic/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+kingdom+duel+kvk",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga kingdom duel kvk",
+          "width": 197,
+          "height": 255,
+          "aspect_ratio": 0.7725,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T09:26:20.837739+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "包含Top Heroes Logo及Kingdom vs Kingdom标题的玩家自制攻略长图，由游戏素材拼接而成而非单一游戏截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:33.670623+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Xi_LXDiFE9M/maxresdefault.jpg",
+          "caption": "KvK Kingdom Duel Event Guide - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=Xi_LXDiFE9M",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+kingdom+duel+kvk",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga kingdom duel kvk",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T09:26:20.837739+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "视频封面图，包含活动标题和对战示意素材，非游戏内实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:33.670623+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/guild-arms-race-and-kingdom-vs-kingdom-guide-v0-oxbgk2nt95eg1.png?auto=webp&s=504da09a02cda0704d217aef63253a1685154f40",
+          "caption": "Guild Arms Race and Kingdom vs Kingdom ...",
+          "source_url": "https://www.reddit.com/r/TopHeroes/comments/1qgf691/guild_arms_race_and_kingdom_vs_kingdom_guide/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+kingdom+duel+kvk",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga kingdom duel kvk",
+          "width": 168,
+          "height": 301,
+          "aspect_ratio": 0.5581,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T09:26:20.837739+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "针对Kingdom vs Kingdom活动的资源投入建议表格，属于攻略类指南图片。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:33.670623+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/what-is-this-event-v0-lcrtc8om8ahe1.jpeg?auto=webp&s=594a74b3490ae4a70df9af86a14c74544bf23441",
+          "caption": "What is this event : r/TopHeroes",
+          "source_url": "https://www.reddit.com/r/TopHeroes/comments/1ii5o5w/what_is_this_event/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+kingdom+duel+kvk",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga kingdom duel kvk",
+          "width": 238,
+          "height": 212,
+          "aspect_ratio": 1.1226,
+          "orientation": "square",
+          "collected_at": "2026-05-13T09:26:20.837739+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "展示了Kingdom Duel活动在游戏内的实际预览/奖励界面，包含活动名称、倒计时及具体奖励内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:33.670623+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "top_lord",
+      "display_name": "Top Lord / 领主成长排行活动",
+      "description": "Top Heroes Guide 直接列出 Top Lord，并说明它有 7-stage breakdown，含 dual-track Stage 7。可判断这是围绕成长、消耗和最终排行的多阶段冲榜活动。",
+      "examples": [
+        "Top Lord"
+      ],
+      "market_research_notes": "这类活动常用于把建筑、科技、英雄、兵力等多线成长统一折算成积分，是 SLG 常见的大型个人冲榜框架。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/xkkGPGQuSuY/hqdefault.jpg",
+          "caption": "Top Heroes Kingdom Saga Gameplay 2025 ...",
+          "source_url": "https://www.youtube.com/watch?v=xkkGPGQuSuY",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+top+lord",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga top lord",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T09:26:53.287196+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "Top Heroes 游戏的通用玩法介绍截图，无法确认与 Top Lord 活动的具体关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:34.447114+00:00"
+          }
+        },
+        {
+          "url": "https://cdn-www.bluestacks.com/bs-images/featured_com.greenmushroom.boomblitz.gp.jpg",
+          "caption": "Download & Play Top Heroes: Kingdom ...",
+          "source_url": "https://www.bluestacks.com/apps/adventure/top-heroes-on-pc.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+top+lord",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga top lord",
+          "width": 194,
+          "height": 260,
+          "aspect_ratio": 0.7462,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T09:26:53.287196+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "Top Heroes 游戏的品牌宣传图或加载图，不涉及具体活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:34.447114+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/top-lord-event-scoring-v0-6fp8vhh9v0qg1.png?width=640&crop=smart&auto=webp&s=9d6f0168f841571e03b523111f552a8c1f191e9f",
+          "caption": "Top Lord Event scoring : r/TopHeroes",
+          "source_url": "https://www.reddit.com/r/TopHeroes/comments/1ry3vus/top_lord_event_scoring/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+top+lord",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga top lord",
+          "width": 150,
+          "height": 337,
+          "aspect_ratio": 0.4451,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T09:26:53.287196+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "明确展示了 Top Lord 活动的任务和积分细则表，属于说明性活动图片。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:34.447114+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/DkGhCtZYWoE/maxresdefault.jpg",
+          "caption": "Top Heroes: Kingdom Saga | Tutorial ...",
+          "source_url": "https://www.youtube.com/watch?v=DkGhCtZYWoE",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+top+lord",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga top lord",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T09:26:53.287196+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "Top Heroes 游戏的商店宣传封面或通用海报，不包含具体活动信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:34.447114+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/PXBy2jnRXKA/sddefault.jpg",
+          "caption": "Top Heroes: Kingdom Saga- Gameplay ...",
+          "source_url": "https://www.youtube.com/watch?v=PXBy2jnRXKA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+top+lord",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga top lord",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T09:26:53.287196+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "游戏内英雄角色和战斗的实际截图，但无法直接关联到 Top Lord 活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:34.447114+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "guild_boss",
+      "display_name": "Guild Boss / 公会 Boss 活动",
+      "description": "社区活动总览明确列出 Guild Boss，并提到 auto-rally setup、timing 和 reward tiers，说明它是联盟协作击杀 Boss、按参与和伤害发奖励的活动。",
+      "examples": [
+        "Guild Boss"
+      ],
+      "market_research_notes": "它既是联盟协作 PvE，也是组织度检验点，通常和日常在线时段、集合效率强相关。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/guild-boss-guide-v0-71cwmvdygyif1.jpeg?width=640&crop=smart&auto=webp&s=15b67c94c8169a4d4160668fcd6704cb4b5345e6",
+          "caption": "Guild Boss Guide : r/TopHeroes",
+          "source_url": "https://www.reddit.com/r/TopHeroes/comments/1mpvyv8/guild_boss_guide/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+guild+boss",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga guild boss",
+          "width": 204,
+          "height": 247,
+          "aspect_ratio": 0.8259,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T09:27:24.973641+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图是玩家制作的公会Boss活动攻略长图，包含了活动机制说明和带标注的界面截图，属于宣传与介绍性质。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:34.686489+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/guild-boss-v0-ngjozzyjgmtd1.jpeg?auto=webp&s=621bccf829d5d452990efd49e84599f47528aefe",
+          "caption": "Guild Boss : r/TopHeroes",
+          "source_url": "https://www.reddit.com/r/TopHeroes/comments/1fzei0g/guild_boss/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+guild+boss",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga guild boss",
+          "width": 188,
+          "height": 268,
+          "aspect_ratio": 0.7015,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T09:27:24.973641+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图片展示了公会Boss活动中的难度选择和时间预约设置界面，属于实际可操作的活动玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:34.686489+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/q2hp58vas5wc1.jpeg",
+          "caption": "Timezone : r/TopHeroes",
+          "source_url": "https://www.reddit.com/r/TopHeroes/comments/1cavzh4/timezone/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+guild+boss",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga guild boss",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T09:27:24.973641+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图片展示了公会Boss活动的主界面，包含倒计时、奖励说明、捐献按钮以及底部的活动标签页，属于实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:34.686489+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/YZJyqNBimbM/maxresdefault.jpg",
+          "caption": "Top Heroes Guild Boss Event - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=YZJyqNBimbM",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+guild+boss",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga guild boss",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T09:27:24.973641+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "视频封面图，虽带有活动标题，但并非游戏内截图，属于活动相关的视频宣传素材。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:34.686489+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/YZJyqNBimbM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBvffll38mrNmUS4EIbOOXme7CtHA",
+          "caption": "Guild Boss Top Heroes | TikTok",
+          "source_url": "https://www.youtube.com/watch?v=YZJyqNBimbM",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+guild+boss",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga guild boss",
+          "width": 252,
+          "height": 200,
+          "aspect_ratio": 1.26,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T09:27:24.973641+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "与图4基本一致，为视频节目的缩略图，属于外部宣传性质。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:34.686489+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "dark_empire_invasion",
+      "display_name": "Dark Empire Invasion / 联盟防守与清剿活动",
+      "description": "活动总览明确列出 Dark Empire Invasion，并提到 requirements、elimination mechanics、defense strategies，说明它是带有入侵、清剿或防守性质的阶段活动。",
+      "examples": [
+        "Dark Empire Invasion"
+      ],
+      "market_research_notes": "这类活动通常承担联盟协作 PvE 和资源消耗出口，可能是中期公会活跃的重要来源。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/dark-empire-invasion-guide-v0-s7pd074rxsmf1.png?auto=webp&s=51a74c42dd420328ae12d49eeca86dde274a487d",
+          "caption": "Dark Empire Invasion Guide : r/TopHeroes",
+          "source_url": "https://www.reddit.com/r/TopHeroes/comments/1n6su0k/dark_empire_invasion_guide/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+dark+empire+invasion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga dark empire invasion",
+          "width": 197,
+          "height": 255,
+          "aspect_ratio": 0.7725,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T09:28:07.097109+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片展示的是Kingdom vs Kingdom活动的攻略长图，属于该游戏但非本次Dark Empire Invasion活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:39.353805+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/kFHi-2SM0CU/maxresdefault.jpg",
+          "caption": "Top Heroes Dark Empire Invasion Event ...",
+          "source_url": "https://www.youtube.com/watch?v=kFHi-2SM0CU",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+dark+empire+invasion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga dark empire invasion",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T09:28:07.097109+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图片为Dark Empire Invasion活动的视频封面宣传图，包含活动标题和艺术插画，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:39.353805+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/dark-empire-invasion-v0-icy29to5g0ce1.jpeg?auto=webp&s=cc2ed6800a95c794285147dc048c3d96ce398e4f",
+          "caption": "Dark Empire invasion : r/TopHeroes",
+          "source_url": "https://www.reddit.com/r/TopHeroes/comments/1hxjcoj/dark_empire_invasion/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+dark+empire+invasion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga dark empire invasion",
+          "width": 152,
+          "height": 330,
+          "aspect_ratio": 0.4606,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T09:28:07.097109+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图片展示了活动内的‘Defense Points Rewards’奖励列表、进度条和具体奖励项，属于典型的实际玩法界面截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:39.353805+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/dark-empire-invasion-v0-ff4w94mi9aee1.jpeg?auto=webp&s=4e2b94b15fa23f42521508cea21ab9448f2b9c57",
+          "caption": "Dark Empire Invasion : r/TopHeroes",
+          "source_url": "https://www.reddit.com/r/TopHeroes/comments/1i6bkwc/dark_empire_invasion/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+dark+empire+invasion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga dark empire invasion",
+          "width": 205,
+          "height": 246,
+          "aspect_ratio": 0.8333,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T09:28:07.097109+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图片展示了地图上的Defense Post防御哨点及Reinforce加固操作界面，与活动描述中的防守机制和阶段活动深度相关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:39.353805+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/pAUCdewbZkU/mqdefault.jpg",
+          "caption": "Top heroes s1 dark invasion #topheroes ...",
+          "source_url": "https://www.youtube.com/watch?v=pAUCdewbZkU",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+dark+empire+invasion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga dark empire invasion",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T09:28:07.097109+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "图片是带有活动标题‘DARK INVASION’的内容封面/加载图，展现的是插画而非实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:39.353805+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "butterfly_collector",
+      "display_name": "Butterfly Collector / 收集活动",
+      "description": "社区导览页明确写到 Butterfly Collector，并提到 Nectar、lemons 和 20K collective threshold，说明它是带共享门槛或集体进度条的收集活动。",
+      "examples": [
+        "Butterfly Collector"
+      ],
+      "market_research_notes": "相比 GAR / KvK 这类硬核活动，它更像轻量收集运营层，用来增加日常参与度和社交目标。",
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/Gl6ZSNVbYAAfJfR.jpg",
+          "caption": "Sneak Peek!👀👀👀 Butterfly Collector【Beta ...",
+          "source_url": "https://x.com/TopHeroes_/status/1900124655576637773",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+butterfly+collector",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga butterfly collector",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T09:28:42.813527+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了该游戏的LOGO并带有明确的活动名称Butterfly Collector，属于活动宣传海报。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:39.108206+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/is-butterfly-pairing-random-v0-srpwvq6dq0qe1.jpeg?width=640&crop=smart&auto=webp&s=7f98407c1e945a1f607ced26e0e821b25ea87675",
+          "caption": "Is butterfly pairing random? : r/TopHeroes",
+          "source_url": "https://www.reddit.com/r/TopHeroes/comments/1jgdijf/is_butterfly_pairing_random/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+butterfly+collector",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga butterfly collector",
+          "width": 178,
+          "height": 283,
+          "aspect_ratio": 0.629,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T09:28:42.813527+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "这是活动内的实际玩法界面，展示了蝴蝶图鉴（Butterfly Album）、收集奖励和进度条。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:39.108206+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/the-butterfly-collector-event-tips-by-topheroguide-v0-26jgrjf7d6rg1.png?width=794&format=png&auto=webp&s=252b0516def49b77235dc9aca29b14668498f11a",
+          "caption": "The Butterfly Collector Event Tips by ...",
+          "source_url": "https://www.reddit.com/r/TopHeroes/comments/1s37vtk/the_butterfly_collector_event_tips_by_topheroguide/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+butterfly+collector",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga butterfly collector",
+          "width": 368,
+          "height": 137,
+          "aspect_ratio": 2.6861,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T09:28:42.813527+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "虽然是纯文字攻略图，但内容完全围绕该收集活动，属于活动介绍资料。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:39.108206+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/adCXVrp2klc/maxresdefault.jpg",
+          "caption": "Top heroes s1 (Butterfly event day 1 ...",
+          "source_url": "https://www.youtube.com/watch?v=adCXVrp2klc",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+butterfly+collector",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga butterfly collector",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T09:28:42.813527+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "展示的是游戏的通用英雄列表界面，虽然视频标题提到活动，但画面内无活动特有元素。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:39.108206+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/PqtiOxKYClk/sddefault.jpg",
+          "caption": "Top heroes s1 Butterfly event war day ...",
+          "source_url": "https://www.youtube.com/watch?v=PqtiOxKYClk",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+butterfly+collector",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga butterfly collector",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T09:28:42.813527+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.92,
+            "reason": "图片展示的是Kingdom Duel（王国对决/KvK）活动的宣传图，而非本活动Butterfly Collector。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:39.108206+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "guild_war_and_frostfield",
+      "display_name": "Guild War / Frostfield Battle / 联盟战争活动",
+      "description": "公开高阶阵容攻略反复把 Guild War、Frostfield Battle 和 Kingdom Duel 并列为决定 server dominance 的核心模式，说明 Top Heroes 的活动体系里存在多层联盟战争内容，而不仅仅是单一 KvK。",
+      "examples": [
+        "Guild War",
+        "Frostfield Battle"
+      ],
+      "market_research_notes": "这一层来源于社区攻略而非官方活动页，因此信心略低，但它很可能是产品 endgame 活动结构的重要组成部分。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/6y96hy6SBLs/maxresdefault.jpg",
+          "caption": "Top Heroes Frostfield Battlefield Guide ...",
+          "source_url": "https://www.youtube.com/watch?v=6y96hy6SBLs",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+guild+war+and+frostfield",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga guild war and frostfield",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T09:29:21.580229+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了 Frostfield 战场的结算界面（Total Battlefield Score），包含实际玩法产出的数据统计，属于活动内截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:39.179314+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/guild-arms-race-and-kingdom-vs-kingdom-guide-v0-oxbgk2nt95eg1.png?width=640&crop=smart&auto=webp&s=98374a48cc8551fd4bbd485463f7c937d826a49d",
+          "caption": "Guild Arms Race and Kingdom vs Kingdom ...",
+          "source_url": "https://www.reddit.com/r/TopHeroes/comments/1qgf691/guild_arms_race_and_kingdom_vs_kingdom_guide/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+guild+war+and+frostfield",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga guild war and frostfield",
+          "width": 168,
+          "height": 301,
+          "aspect_ratio": 0.5581,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T09:29:21.580229+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图片展示了 Kingdom vs Kingdom (KvK) 和 Guild Arms Race 的活动日程和资源配置攻略，明确指向本活动类型，但属于玩家制作的指引图而非实际游戏内操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:39.179314+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/MRMsgVmsjYg/maxresdefault.jpg",
+          "caption": "Top Heroes: Kingdom Saga Gameplay - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=MRMsgVmsjYg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+guild+war+and+frostfield",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga guild war and frostfield",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T09:29:21.580229+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "带有游戏 Logo 的通用宣传图或加载图，展示的是基础营地界面，无法确认与联盟战争活动有关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:39.179314+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/EHrlmyQ26kOPDQAgJs6eLXvEpu7sEbyWHY-3AuXzKSTwSoUKjWDfVA-L2IaQZ835VQ=w526-h296-rw",
+          "caption": "Top Heroes: Kingdom Saga - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.greenmushroom.boomblitz.gp",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+guild+war+and+frostfield",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga guild war and frostfield",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T09:29:21.580229+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "展示的是游戏的酒馆招募（Hero Recruit）功能，属于游戏的通用玩法，与特定的联盟战争活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:39.179314+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/5wI0xOdjefA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD5gjkhBqmRG8BZzw7pl399BHEMfg",
+          "caption": "Top Heroes Kingdom Saga Gameplay ...",
+          "source_url": "https://www.youtube.com/watch?v=5wI0xOdjefA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+guild+war+and+frostfield",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga guild war and frostfield",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T09:29:21.580229+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是一张针对新手的通用教学视频封面（New Player Progress），内容涉及基础升级，不属于高阶的联盟战争或 Frostfield 活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:39.179314+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "event_day_resource_alignment",
+      "display_name": "活动日资源消耗节奏 / Resource Alignment",
+      "description": "公开攻略明确建议把 hero shards、pet food、magicite、relic scrolls 等资源留到对应活动日使用，说明这款产品的核心体验不是孤立活动，而是多个阶段活动驱动的资源对时消耗。",
+      "examples": [
+        "hero upgrades on Thursday of KvK/GvG",
+        "save resources for related event days"
+      ],
+      "market_research_notes": "这是典型 SLG / RPG live ops 特征，说明活动设计深度嵌入资源经济与周节奏，而非只做表层换皮。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/guide-kingdom-duel-kvk-event-and-point-breakdown-v0-1wxe28qpi3ef1.jpeg?auto=webp&s=94bae43d2702cde8317925c106c25546d64287ec",
+          "caption": "Guide: Kingdom Duel (KvK) Event and ...",
+          "source_url": "https://www.reddit.com/r/TopHeroes/comments/1m50f0x/guide_kingdom_duel_kvk_event_and_point_breakdown/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+event+day+resource+alignment",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga event day resource alignment",
+          "width": 159,
+          "height": 317,
+          "aspect_ratio": 0.5016,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T09:30:00.358628+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了 Kingdom Duel (KvK) 活动的每日积分明细表，属于活动规则介绍图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:40.312153+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/guide-what-am-i-saving-this-thing-for-v0-a9acztnroxdf1.png?width=1080&crop=smart&auto=webp&s=f4bffa6d4beff69d026336dfaefdd104d5d1f73a",
+          "caption": "r/TopHeroes",
+          "source_url": "https://www.reddit.com/r/TopHeroes/comments/1m4cw8f/guide_what_am_i_saving_this_thing_for/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+event+day+resource+alignment",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga event day resource alignment",
+          "width": 197,
+          "height": 255,
+          "aspect_ratio": 0.7725,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T09:30:00.358628+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "该图是玩家整理的资源囤积与活动对应关系表，直接体现了“资源消耗节奏”这一活动设计，属于宣传/攻略汇总图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:40.312153+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/easy-to-use-kingdom-vs-kingdom-infographic-v0-nbpx6zh1n7if1.jpeg?width=640&crop=smart&auto=webp&s=e2f4fa720a8599e8548b76d0cbb4ee128026c826",
+          "caption": "Kingdom vs Kingdom infographic ...",
+          "source_url": "https://www.reddit.com/r/TopHeroes/comments/1mmlqnr/easy_to_use_kingdom_vs_kingdom_infographic/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+event+day+resource+alignment",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga event day resource alignment",
+          "width": 197,
+          "height": 255,
+          "aspect_ratio": 0.7725,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T09:30:00.358628+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图是 Kingdom VS Kingdom 活动的每日资源消耗指引海报，含有活动元素但非游戏内实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:40.312153+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/top-lord-event-scoring-v0-6fp8vhh9v0qg1.png?width=640&crop=smart&auto=webp&s=9d6f0168f841571e03b523111f552a8c1f191e9f",
+          "caption": "Top Lord Event scoring : r/TopHeroes",
+          "source_url": "https://www.reddit.com/r/TopHeroes/comments/1ry3vus/top_lord_event_scoring/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+event+day+resource+alignment",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga event day resource alignment",
+          "width": 150,
+          "height": 337,
+          "aspect_ratio": 0.4451,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T09:30:00.358628+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "图片为 Top Lord 活动阶段得分任务表，属于活动规则明细图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:40.312153+00:00"
+          }
+        },
+        {
+          "url": "https://lblog.fp.guinfra.com/file/688c8de3236760917f3cc850GLEP23hO03",
+          "caption": "Best Top Heroes Team Building Guide ...",
+          "source_url": "https://lootbar.gg/blog/en/best-top-heroes-team-building-guide-ultimate-hero-synergy.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=top+heroes+kingdom+saga+event+day+resource+alignment",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "top heroes kingdom saga event day resource alignment",
+          "width": 275,
+          "height": 183,
+          "aspect_ratio": 1.5027,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T09:30:00.358628+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该图为游戏的通用品牌宣传图，虽然包含游戏名称和角色，但未体现特定活动信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:40.312153+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "60 的公开活动信息明显少于成熟 wiki 游戏，但已经足够证明它不是‘只有联盟战’这么简单，而是至少有 GAR、KvK、Top Lord、Guild Boss、Dark Empire Invasion、Butterfly Collector 几条活动线。低信心点在于这些结论主要来自高质量玩家站，而不是官方活动中心。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T09:30:35.984568+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:40:40.312153+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

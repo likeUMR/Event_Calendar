@@ -1,0 +1,429 @@
+{
+  "rank": 56,
+  "name": "Yarn Loop: Knit Puzzle",
+  "manual_research_status": "done_first_pass_low_confidence",
+  "research_method": "人工查看 App Store 官方商店页、版本历史和公开关卡攻略站。未找到官方活动帮助中心、wiki、App Store in-app events 页面或稳定社区活动总表，因此本轮重点确认这款产品是否存在可公开验证的 live ops；结论是公开证据极弱，更像以持续加关和基础付费包为主的轻度关卡产品。",
+  "source_pages": [
+    {
+      "title": "App Store - Yarn Loop: Knit Puzzle",
+      "url": "https://apps.apple.com/us/app/yarn-loop-knit-puzzle/id6755183085",
+      "notes": "官方商店页说明核心是 knitted pattern 关卡推进、hundreds of levels、cozy aesthetic；版本历史几乎全部是 bug fixes、performance 和 visual polish，没有明确活动名。"
+    },
+    {
+      "title": "App Store - Yarn Loop: Knit Puzzle Version History",
+      "url": "https://apps.apple.com/us/app/yarn-loop-knit-puzzle/id6755183085?l=zh-Hans-CN",
+      "notes": "可直接看到 2026 年 1-5 月多次更新，更新说明反复是 smoother gameplay、bug fixes、polish，没有 tournament、season、pass、challenge 等公开活动文案。"
+    },
+    {
+      "title": "YarnLoopLevel - Yarn Loop Answers, Walkthrough & Solutions Guide",
+      "url": "https://yarnlooplevel.com/",
+      "notes": "非官方攻略站，内容聚焦具体关卡解法，覆盖 Levels 1-600；进一步侧证公开生态更偏关卡攻略，而不是活动汇总。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "level_content_updates",
+      "display_name": "持续加关 / Content Update",
+      "description": "目前最稳定可验证的运营方式是持续更新关卡内容。公开介绍和攻略站都强调大量关卡与持续推进，而版本历史则持续做性能优化和视觉打磨，服务于长期刷关留存。",
+      "examples": [
+        "hundreds of engaging levels",
+        "level walkthrough ecosystem"
+      ],
+      "market_research_notes": "对超轻度 puzzle 来说，持续加关本身就是主要运营节奏；在没有活动总表的情况下，这是最可靠的公开结论。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/CXjr3n1Ncxo/maxresdefault.jpg",
+          "caption": "Yarn Loop Knit Puzzle - level 140 ...",
+          "source_url": "https://www.youtube.com/watch?v=CXjr3n1Ncxo",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=yarn+loop+knit+puzzle+level+content+updates",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "yarn loop knit puzzle level content updates",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:50:25.366402+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图示为游戏第140关的实际玩法界面，符合持续加关活动的玩法展示。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:39:58.189711+00:00"
+          }
+        },
+        {
+          "url": "https://p16-common-sign.tiktokcdn-us.com/tos-no1a-p-0037-no/ocv94yciz4IbCIVEJAi0AHXBwGyGcC2hv0fCNx~tplv-photomode-zoomcover:720:720.jpeg?dr=9616&x-expires=1778720400&x-signature=zLiqW/oFLVFeI7Ol0O245IUCvGQ=&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=0d52deaf&idc=useast8&ftpl=1",
+          "caption": "Yarn Loop App Game Help | TikTok",
+          "source_url": "https://www.tiktok.com/content/yarn-loop-app-game-help",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=yarn+loop+knit+puzzle+level+content+updates",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "yarn loop knit puzzle level content updates",
+          "width": 153,
+          "height": 329,
+          "aspect_ratio": 0.465,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:50:25.366402+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片展示了该游戏的商店封面或启动宣传图，未体现具体的关卡更新内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:39:58.189711+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/ZnxuvTsry3Q/maxresdefault.jpg",
+          "caption": "Yarn Loop Knit Puzzle - level 260 ...",
+          "source_url": "https://www.youtube.com/watch?v=ZnxuvTsry3Q",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=yarn+loop+knit+puzzle+level+content+updates",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "yarn loop knit puzzle level content updates",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:50:25.366402+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图示为游戏第260关的实际玩法界面，展示了更高关卡的内容更新。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:39:58.189711+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/jDy9bUdmfRQ/maxresdefault.jpg",
+          "caption": "Yarn Loop: Knit Puzzle - Level 11-15 ...",
+          "source_url": "https://www.youtube.com/watch?v=jDy9bUdmfRQ",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=yarn+loop+knit+puzzle+level+content+updates",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "yarn loop knit puzzle level content updates",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:50:25.366402+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图示为游戏第14关的实际关卡挑战界面，属于关卡内容展示。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:39:58.189711+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/8GecMhkmbms/maxresdefault.jpg",
+          "caption": "Yarn Loop Knit Puzzle - level 257 ...",
+          "source_url": "https://www.youtube.com/watch?v=8GecMhkmbms",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=yarn+loop+knit+puzzle+level+content+updates",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "yarn loop knit puzzle level content updates",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:50:25.366402+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图示为游戏第257关的实际玩法界面，体现了持续更新的高级关卡内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:39:58.189711+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "basic_iap_offers",
+      "display_name": "基础内购包 / Coins & Consumables",
+      "description": "App Store 可验证该游戏存在多档 Yarn Flow 内购，说明有常见的轻度 puzzle 资源包与续玩/辅助付费层，但没有公开证据显示这些内购与特定限时活动绑定。",
+      "examples": [
+        "Yarn Flow 1",
+        "Yarn Flow 2",
+        "Yarn Flow 4",
+        "Yarn Flow 40"
+      ],
+      "market_research_notes": "这更像常驻 monetization，而不是明确的活动型运营。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/w5N9s6u3YCo/maxresdefault.jpg",
+          "caption": "Yarn Loop: Knit Puzzle - Level 1-10 ...",
+          "source_url": "https://www.youtube.com/watch?v=w5N9s6u3YCo",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=yarn+loop+knit+puzzle+basic+iap+offers",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "yarn loop knit puzzle basic iap offers",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:50:44.185263+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "属于该游戏的实际关卡玩法界面，但与'基础内购包'活动无直接关联证据。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:39:57.688449+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/_dCKCx2dxhQ/maxresdefault.jpg",
+          "caption": "Yarn Loop: Knit Puzzle (by Combo Games ...",
+          "source_url": "https://www.youtube.com/watch?v=_dCKCx2dxhQ",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=yarn+loop+knit+puzzle+basic+iap+offers",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "yarn loop knit puzzle basic iap offers",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:50:44.185263+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该游戏的品牌宣传宣传图/封面，属于游戏相关但非特定活动内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:39:57.688449+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/oRwlvOCEs98/maxresdefault.jpg",
+          "caption": "Yarn Loop Knit Puzzle - level 219 ...",
+          "source_url": "https://www.youtube.com/watch?v=oRwlvOCEs98",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=yarn+loop+knit+puzzle+basic+iap+offers",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "yarn loop knit puzzle basic iap offers",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:50:44.185263+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "属于该游戏的实际关卡玩法界面，无法体现内购包相关的活动信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:39:57.688449+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Dm2xu16TyDE/maxresdefault.jpg",
+          "caption": "Yarn Loop Knit Puzzle - level 110 ...",
+          "source_url": "https://www.youtube.com/watch?v=Dm2xu16TyDE",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=yarn+loop+knit+puzzle+basic+iap+offers",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "yarn loop knit puzzle basic iap offers",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:50:44.185263+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "属于该游戏的实际关卡玩法界面，未展示任何内购或特定活动UI。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:39:57.688449+00:00"
+          }
+        },
+        {
+          "url": "https://www.gamerefinery.com/wp-content/uploads/2026/03/analyst-bulletin-feb-2026-1024x535.png",
+          "caption": "Mobile game market review February 2026",
+          "source_url": "https://www.gamerefinery.com/mobile-game-market-review-february-2026/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=yarn+loop+knit+puzzle+basic+iap+offers",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "yarn loop knit puzzle basic iap offers",
+          "width": 1024,
+          "height": 535,
+          "aspect_ratio": 1.914,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:50:44.185263+00:00",
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.98,
+            "reason": "行业分析文章配图，包含多个其他游戏（如荒野乱斗），与本游戏及活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:39:57.688449+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "no_verified_liveops_event",
+      "display_name": "未验证到明确限时活动 / No Verified LiveOps",
+      "description": "在公开网页层面，没有找到可确认的 tournament、season pass、daily event、collection event、leaderboard event 或 holiday event 证据。程序化结果把无关页面误识别为活动，本轮人工排除了这些噪声。",
+      "examples": [
+        "no verified tournaments",
+        "no verified pass",
+        "no verified event calendar"
+      ],
+      "market_research_notes": "这是本条最重要的结论。若后续需要继续深挖，必须依赖真机、广告素材或 App Store in-app events 抓取，而不能继续从开放网页硬推断。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/w5N9s6u3YCo/maxresdefault.jpg",
+          "caption": "Yarn Loop: Knit Puzzle - Level 1-10 ...",
+          "source_url": "https://www.youtube.com/watch?v=w5N9s6u3YCo",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=yarn+loop+knit+puzzle+no+verified+liveops+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "yarn loop knit puzzle no verified liveops event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:51:01.138638+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片展示的是游戏第10关的实际玩法界面，属于该游戏的常规关卡内容，而非特定的限时活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:39:57.835910+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/B21Py0L1OHw/maxresdefault.jpg",
+          "caption": "Yarn Loop Knit Puzzle - level 119 ...",
+          "source_url": "https://www.youtube.com/watch?v=B21Py0L1OHw",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=yarn+loop+knit+puzzle+no+verified+liveops+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "yarn loop knit puzzle no verified liveops event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:51:01.138638+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片展示的是游戏第119关的实际玩法界面，根据活动描述目前未验证到特定活动，归类为游戏通用截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:39:57.835910+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/In0g2PPhUrg/maxresdefault.jpg",
+          "caption": "Yarn Loop Knit Puzzle - level 248 ...",
+          "source_url": "https://www.youtube.com/watch?v=In0g2PPhUrg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=yarn+loop+knit+puzzle+no+verified+liveops+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "yarn loop knit puzzle no verified liveops event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:51:01.138638+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片展示的是游戏第248关的实际玩法界面，属于常规游戏关卡。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:39:57.835910+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/_dCKCx2dxhQ/maxresdefault.jpg",
+          "caption": "Yarn Loop: Knit Puzzle (by Combo Games ...",
+          "source_url": "https://www.youtube.com/watch?v=_dCKCx2dxhQ",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=yarn+loop+knit+puzzle+no+verified+liveops+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "yarn loop knit puzzle no verified liveops event",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:51:01.138638+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片为游戏的通用宣传海报或商店展示图，包含游戏Logo和角色，无活动特定信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:39:57.835910+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Bob6RTlz-rU/maxresdefault.jpg",
+          "caption": "Yarn Loop Knit Puzzle - level 242 ...",
+          "source_url": "https://www.youtube.com/watch?v=Bob6RTlz-rU",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=yarn+loop+knit+puzzle+no+verified+liveops+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "yarn loop knit puzzle no verified liveops event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:51:01.138638+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片展示的是游戏第242关的实际玩法界面，属于常规游戏过程截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:39:57.835910+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "56 的公开活动证据比 53 还弱。当前能稳妥写下来的不是一串活动名，而是一个负结论：公开可验证的 live ops 几乎没有，产品更像依赖持续加关和常驻内购存活的轻度 puzzle。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T08:51:01.138638+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:39:58.189711+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "rank": 59,
+  "name": "EA SPORTS FC Soccer Mobile 26",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 EA SPORTS FC Mobile 官方站点、News & Updates、LALIGA / Glorious Eras / Rivals / Drafts / Club Challenge 等公开文章，按当前 FC Mobile 的长期活动与模式层整理，而不是只用某个版本页的零散关键词。",
+  "source_pages": [
+    {
+      "title": "EA SPORTS FC™ Mobile Official",
+      "url": "https://www.ea.com/games/ea-sports-fc/fc-mobile",
+      "notes": "官方总入口，明确提到 Division Rivals、Daily Training、news feed、FCM TV 与实时内容入口。"
+    },
+    {
+      "title": "EA SPORTS FC™ Mobile - News & Updates",
+      "url": "https://www.ea.com/en/games/ea-sports-fc/fc-mobile/news",
+      "notes": "官方新闻索引，能看到 Glorious Eras、Rivals Update、Drafts、MLS 直播奖励、Club Challenge 等公开活动/模式文章。"
+    },
+    {
+      "title": "EA SPORTS FC™ Mobile - EA SPORTS LALIGA Event 2025",
+      "url": "https://www.ea.com/en/games/ea-sports-fc/fc-mobile/news/laliga-2025",
+      "notes": "官方活动指南，明确给出主题章节、每周可玩比赛、LALIGA Points、奖励球员、FCM TV 观看奖励。"
+    },
+    {
+      "title": "EA SPORTS FC™ Mobile - GLORIOUS ERAS EVENT GUIDE",
+      "url": "https://www.ea.com/fi/games/ea-sports-fc/fc-mobile/news/glorious-eras-event-guide",
+      "notes": "官方活动指南，说明每周解锁一个俱乐部章节，进行 historic matches、skill games、收集 shards 和兑换奖励。"
+    },
+    {
+      "title": "EA SPORTS FC™ Mobile - Rivals Update - Division Rivals Deep Dive",
+      "url": "https://www.ea.com/games/ea-sports-fc/fc-mobile/news/rivals-update-division-rivals",
+      "notes": "官方说明新 Division Rivals 的赛季、奖励、星级排名系统，并提到每个 Division Rivals season 会和主 campaign 连接。"
+    },
+    {
+      "title": "EA SPORTS FC™ Mobile - Leagues Deep Dive",
+      "url": "https://www.ea.com/games/ea-sports-fc/fc-mobile/news/leagues-deep-dive-2025",
+      "notes": "官方说明 Leagues 的 collaborative quests、league seasons、divisions、group/global leaderboards、tournaments、season points、league tokens 和 bonus rewards。"
+    },
+    {
+      "title": "EA SPORTS FC™ Mobile - Introducing Drafts",
+      "url": "https://www.ea.com/en/games/ea-sports-fc/fc-mobile/news/drafts-deep-dive",
+      "notes": "官方说明 Drafts 与 Phase Exchanges：玩家通过 vouchers、tokens 和 exchanges 获取 player items。"
+    },
+    {
+      "title": "EA Sports FC™ Mobile | Anniversary Update",
+      "url": "https://www.ea.com/en/games/ea-sports-fc/fc-mobile/news/fc-mobile-2024-anniversary-update",
+      "notes": "官方说明 Club Challenge 模式和 Anniversary event，用于补充真实球队淘汰赛与年度庆典活动。"
+    },
+    {
+      "title": "EA SPORTS FC™ MOBILE - ANNIVERSARY: THE CLUB IS YOURS",
+      "url": "https://www.ea.com/en/games/ea-sports-fc/fc-mobile/anniversary",
+      "notes": "官方周年活动页，能看到 player vote、kit/ball/boots vote、soundtrack vote 这类社区参与型活动。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "event_campaigns",
+      "display_name": "主题活动主线 / Event Campaigns",
+      "description": "FC Mobile 会持续推出大型主题活动 campaign，通过主章节、每周解锁、PVE 比赛、Skill Games、积分货币和奖励商店构成完整活动闭环。",
+      "examples": [
+        "EA SPORTS LALIGA",
+        "Glorious Eras",
+        "Anniversary event",
+        "Founders event"
+      ],
+      "market_research_notes": "这是 FC Mobile 最接近传统手游 live ops 的核心层，把现实足球 IP、历史时刻和 collect / redeem 结构结合起来。",
+      "images": []
+    },
+    {
+      "type": "division_rivals",
+      "display_name": "Division Rivals / 赛季 PvP",
+      "description": "核心 PvP 活动系统。官方 Deep Dive 说明有星级升降段位、promotion rewards、season recap，并且每个 Division Rivals season 会与当期主活动 campaign 联动。",
+      "examples": [
+        "Division Rivals",
+        "Rivals Update",
+        "weekly leaderboards"
+      ],
+      "market_research_notes": "它是 FC Mobile 的长期竞技支柱，和一次性活动不同，几乎承担整年的 PvP 留存。",
+      "images": []
+    },
+    {
+      "type": "leagues",
+      "display_name": "Leagues / 联盟赛季与联盟锦标赛",
+      "description": "Leagues 更新后，公会系统被明确活动化：有 collaborative quests、League Seasons、Divisions、Group / Global Leaderboards、League Tokens、Bonus Rewards 和 League Tournaments。",
+      "examples": [
+        "League Seasons",
+        "Grouped Leaderboards",
+        "Global Leaderboards",
+        "League Tournaments"
+      ],
+      "market_research_notes": "这一层把传统联盟功能彻底运营化，是 FC Mobile 近年的重要长期活动升级。",
+      "images": []
+    },
+    {
+      "type": "daily_training_and_quests",
+      "display_name": "Daily Training / Quests / Achievements",
+      "description": "官方主页明确写到玩家可在 Daily Training 中完成 football-themed quests，并解锁 achievements 与日常奖励。",
+      "examples": [
+        "Daily Training",
+        "Quests",
+        "Achievements"
+      ],
+      "market_research_notes": "这是最基础的日常活跃层，也是把新手和回流玩家拉回主循环的重要入口。",
+      "images": []
+    },
+    {
+      "type": "drafts_and_exchanges",
+      "display_name": "Drafts / Phase Exchanges / 抽签兑换活动",
+      "description": "2026 年新增的 Drafts 以 vouchers 为门票，分 Pool A/B/C 抽取 Player Items；同时可通过 Phase Exchanges 把合格球员转成 token，再兑换 picks 和 vouchers。",
+      "examples": [
+        "Drafts",
+        "Phase Exchanges",
+        "Draft Vouchers"
+      ],
+      "market_research_notes": "这是更偏收藏和 roster growth 的活动层，兼具消耗旧球员库存和刺激抽取的作用。",
+      "images": []
+    },
+    {
+      "type": "club_challenge",
+      "display_name": "Club Challenge / 真实球队淘汰赛模式",
+      "description": "周年更新引入的 Club Challenge 允许玩家直接使用真实俱乐部阵容参与 knockout tournament，赢球推进并给 Ultimate Team 发奖励。",
+      "examples": [
+        "Club Challenge"
+      ],
+      "market_research_notes": "这是非常典型的体育 IP 内容活动，把现实联赛授权直接转成短周期玩法脉冲。",
+      "images": []
+    },
+    {
+      "type": "watch_to_earn",
+      "display_name": "FCM TV / 观赛领奖励活动",
+      "description": "官方新闻多次提到在 FCM TV 中观看 MLS、Telekom Cup、Summer Series 等真实比赛直播或 highlights，可领取额外 rewards。",
+      "examples": [
+        "Watch 3 MLS Games Live in FC Mobile",
+        "Apple TV / MLS offer",
+        "watch highlights on FCM TV"
+      ],
+      "market_research_notes": "这是 FC Mobile 很特别的一层，把真实体育转播、品牌合作和游戏内奖励串在一起。",
+      "images": []
+    },
+    {
+      "type": "anniversary_and_founders",
+      "display_name": "周年 / Founders / 社区投票活动",
+      "description": "FC Mobile 会在赛季过渡或周年节点推出 Founders、Anniversary 及社区投票活动，玩家可通过登录、特定比赛和投票互动获得新赛季福利或周年限定内容。",
+      "examples": [
+        "Anniversary event",
+        "The Club Is Yours",
+        "Founders event",
+        "player vote",
+        "kit vote"
+      ],
+      "market_research_notes": "这部分承担大版本换季、品牌周年和社区参与感塑造的角色。",
+      "images": []
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "59 的关键不是“有活动”，而是活动层次很多：主题 campaign、PvP 赛季、Leagues、公会任务、Drafts、真实赛事观赛奖励、周年投票。程序化版本只抓到了一些关键词，没有把这些层次拆开。"
+}

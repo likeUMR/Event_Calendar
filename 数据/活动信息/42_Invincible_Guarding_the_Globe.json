@@ -1,0 +1,161 @@
+{
+  "rank": 42,
+  "name": "Invincible: Guarding the Globe",
+  "source_confidence": "medium",
+  "source_notes": "搜索结果更偏 IP 原作 wiki，游戏活动资料较少。",
+  "collected_at": "2026-05-12T04:02:47.247Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Invincible: Guarding the Globe Official",
+      "source_type": "official",
+      "source_url": "https://www.ubisoft.com/en-us/game/invincible-guarding-the-globe",
+      "fetched_url": "https://www.ubisoft.com/en-us/game/invincible-guarding-the-globe",
+      "status": 200,
+      "page_title": "",
+      "meta_description": "Invincible: Guarding the Globe is a mobile squad RPG set in the Invincible universe featuring a storyline brand new to the series. The first Invincible mobile game, offering graphic multi-battle action, character collection, squad management, idle features and super-powered visuals.",
+      "relevant_text_blocks": [
+        "Invincible: Guarding The Globe",
+        "The World of Invincible on Mobile!",
+        "Invincible: Guarding the Globe is an idle squad RPG set in the Invincible universe featuring a new storyline never seen in the comics or Amazon Prime TV series, with graphic multi-battle action, character collection, squad management, idle features and, of course, super-powered visuals.",
+        "A Brand New Storyline",
+        "Super-Powered Idle Battles",
+        "Assemble your line-up of heroes and deploy them into blood-soaked fights. Each squad member has a role: Attacker, Defender, or Support, and it's up to you to choose the best combination for every encounter. Run idle battles in the background while you’re AFK & send your team on GDA Ops: secondary battles that run separate from the main storyline, played simultaneously."
+      ],
+      "inferred_event_types": [
+        "collection_album",
+        "team_alliance"
+      ],
+      "images": [
+        {
+          "url": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4cO5P7jlumEHhpiSFqf1GW/38c1f645c578645777e6a340423703d7/Invincible-tn.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4skAwr51NYICk9jkEEcl5P/8bd293458946fe9ad42fbd87aa190871/AtomEve-tn.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/Vf1PmhQqzA3I8xDxM2qb1/29222f9b0b26b62466ed3b4b04c805f7/Omni-Man-tn.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6mzol78jkMQbhesfMXywqa/f14b83333e5a44491b764b9d2222b977/Robot-tn.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/23sKyCnWSHMk4bi11Rn1nF/d3b6fe5a52a938e62a743c05d161523f/Rex-Splode-tn.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6ePcbjBZGJENICk6AMj5Bp/33d7be3bbfbcbb11de98b2d5e2f7e538/War-Woman-th.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5JQz6Rcjf7JUT2jxOqhXpS/71311ad3596c455733e0d85fd14c7a5a/BlackSamson-tn.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3IRIIvaE5LnSe0hSGHF8jN/6bd5891fdd3679c5cc47bb5ea1810fdc/Dupli-Kate-tn.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/22sc70ZdHA68EkAXHv8LPF/408d0ede56c56059b4b7335664e9421b/TheImmortal.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5WS46adkpk4B3iqnegvlz2/a71fca27b4b721352926d5a8c4f5f115/GreenGhost-tn.jpg",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Invincible Wiki",
+      "source_type": "fandom_reference",
+      "source_url": "https://amazon-invincible.fandom.com/wiki/Invincible_Wiki",
+      "status": 403,
+      "error": "fetch_failed"
+    }
+  ],
+  "event_detail_pages": [],
+  "event_catalog": [],
+  "inferred_event_type_summary": [
+    "collection_album",
+    "team_alliance"
+  ],
+  "screenshots_or_images": [
+    {
+      "url": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4cO5P7jlumEHhpiSFqf1GW/38c1f645c578645777e6a340423703d7/Invincible-tn.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.ubisoft.com/en-us/game/invincible-guarding-the-globe"
+    },
+    {
+      "url": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4skAwr51NYICk9jkEEcl5P/8bd293458946fe9ad42fbd87aa190871/AtomEve-tn.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.ubisoft.com/en-us/game/invincible-guarding-the-globe"
+    },
+    {
+      "url": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/Vf1PmhQqzA3I8xDxM2qb1/29222f9b0b26b62466ed3b4b04c805f7/Omni-Man-tn.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.ubisoft.com/en-us/game/invincible-guarding-the-globe"
+    },
+    {
+      "url": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6mzol78jkMQbhesfMXywqa/f14b83333e5a44491b764b9d2222b977/Robot-tn.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.ubisoft.com/en-us/game/invincible-guarding-the-globe"
+    },
+    {
+      "url": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/23sKyCnWSHMk4bi11Rn1nF/d3b6fe5a52a938e62a743c05d161523f/Rex-Splode-tn.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.ubisoft.com/en-us/game/invincible-guarding-the-globe"
+    },
+    {
+      "url": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6ePcbjBZGJENICk6AMj5Bp/33d7be3bbfbcbb11de98b2d5e2f7e538/War-Woman-th.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.ubisoft.com/en-us/game/invincible-guarding-the-globe"
+    },
+    {
+      "url": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5JQz6Rcjf7JUT2jxOqhXpS/71311ad3596c455733e0d85fd14c7a5a/BlackSamson-tn.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.ubisoft.com/en-us/game/invincible-guarding-the-globe"
+    },
+    {
+      "url": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3IRIIvaE5LnSe0hSGHF8jN/6bd5891fdd3679c5cc47bb5ea1810fdc/Dupli-Kate-tn.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.ubisoft.com/en-us/game/invincible-guarding-the-globe"
+    },
+    {
+      "url": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/22sc70ZdHA68EkAXHv8LPF/408d0ede56c56059b4b7335664e9421b/TheImmortal.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.ubisoft.com/en-us/game/invincible-guarding-the-globe"
+    },
+    {
+      "url": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5WS46adkpk4B3iqnegvlz2/a71fca27b4b721352926d5a8c4f5f115/GreenGhost-tn.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.ubisoft.com/en-us/game/invincible-guarding-the-globe"
+    }
+  ],
+  "collection_warnings": [
+    "Fetch failed: https://amazon-invincible.fandom.com/wiki/Invincible_Wiki"
+  ]
+}

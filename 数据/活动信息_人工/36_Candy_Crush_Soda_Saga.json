@@ -1,0 +1,1326 @@
+{
+  "rank": 36,
+  "name": "Candy Crush Soda Saga",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 Candy Crush Soda Wiki 的 Events 总表、Bubblegum Hill、Soda Cup、Soda Pass、Bake a Cake 等详情页，并补充 King 官方帮助中心的 Soda Race / Rocket Rush 页面。按活动机制归类，而不是按社区首页的零散帖子归类。",
+  "source_pages": [
+    {
+      "title": "Candy Crush Soda Wiki - Events",
+      "url": "https://candycrushsoda.fandom.com/wiki/Events",
+      "notes": "活动总表说明 Events 是关卡外基础功能，多个活动可同时存在，并列出 Rainbow Road、Soda Race、Soda Cup、Soda Pass、Bubblegum Hill、Fishing Tournament、Star Chaser、Rescue Buddies、Bake a Cake 等活动。"
+    },
+    {
+      "title": "King Support - Soda Race",
+      "url": "https://candycrushsoda.zendesk.com/hc/en-us/articles/360000846498--Soda-Race",
+      "notes": "官方说明 Soda Race 是 5 人竞速，按完成 episode 速度排名，前 3 名获得 Gold Bars，并有 Classic / Elite / Champion tiers。"
+    },
+    {
+      "title": "Candy Crush Soda Wiki - Bubblegum Hill",
+      "url": "https://candycrushsoda.fandom.com/wiki/Bubblegum_hill",
+      "notes": "限时 5 关连胜活动，用 1 条命通关全部关卡即可夺冠，奖励 boosters、unlimited lives、gold bars，并有被其他玩家夺走王座的机制。"
+    },
+    {
+      "title": "Candy Crush Soda Wiki - Soda Cup",
+      "url": "https://candycrushsoda.fandom.com/wiki/Soda_Cup",
+      "notes": "Soda Cup 是与其他玩家竞争、赢取 gold bars 并晋级 qualifiers 的杯赛，页面列出 2024-2025 多个 edition。"
+    },
+    {
+      "title": "Candy Crush Soda Wiki - Bake a Cake",
+      "url": "https://candycrushsoda.fandom.com/wiki/Bake_a_Cake",
+      "notes": "团队活动，加入 team 后可参与；成员消耗 chef hat 玩 recipe levels，逐层烤蛋糕，完成切片/层数获得 boosters，并有 top chefs leaderboard。"
+    },
+    {
+      "title": "King Support - Rocket Rush",
+      "url": "https://candycrushsoda.zendesk.com/hc/en-us/articles/13421130345757--Rocket-Rush",
+      "notes": "官方说明 Rocket Rush 通过收集 Color Bombs 与其他玩家竞速，推动火箭升向 Wonderball Planet。"
+    },
+    {
+      "title": "Candy Crush Soda Wiki - Rescue Buddies",
+      "url": "https://candycrushsoda.fandom.com/wiki/Rescue_Buddies",
+      "notes": "双人/对手协作竞争活动，通关收集 stars 填充 meter，用 cannon 打目标救熊，命中更多目标者获得更稀有 Wonderball；页面称每周三开新一轮。"
+    },
+    {
+      "title": "Candy Crush Soda Wiki - Star Chaser",
+      "url": "https://candycrushsoda.fandom.com/wiki/Star_Chaser",
+      "notes": "收集 stars 进入榜单竞赛，类似 Fishing Tournament / Striped Candy Contest，通关才计入收集物，排名奖励 boosters。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "episode_race",
+      "display_name": "Soda Race / Episode Race / 章节竞速",
+      "description": "玩家与随机 4 名玩家竞速完成当前 episode，最快完成者获胜；前 3 名获得 Gold Bars，胜者会进入更高 tier，奖励随 Classic、Elite、Champion 等 tier 提升。",
+      "examples": [
+        "Soda Race",
+        "Classic tier",
+        "Elite tier",
+        "Champion tier"
+      ],
+      "market_research_notes": "典型三消竞速活动，把连续通关转化为与少量玩家的短周期竞争，Gold Bars 奖励直接刺激回流和连胜消耗。",
+      "images": [
+        {
+          "url": "https://scontent-hkg1-2.xx.fbcdn.net/v/t15.5256-10/52454358_354333325420610_1089593929814245376_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a27664&_nc_ohc=FblM4hVI_OsQ7kNvwEbp-JS&_nc_oc=AdpsB6YaydJU7OCDmHPcfD1n1S8H6rD1-5gSQtwTatXj6KFCxGXah_tzY6Xcdxn0YoI&_nc_zt=23&_nc_ht=scontent-hkg1-2.xx&_nc_gid=NWVdhixWE6QwtB3-i5b7NQ&_nc_ss=7c20f&oh=00_Af7GqWK2F0dD9u5SYUWAObaQl7wTRg1-pkYEjtgudtRT6Q&oe=6A0A1270",
+          "caption": "EPISODE RACE GIVEAWAY! Do you think you ...",
+          "source_url": "https://www.facebook.com/CandyCrushSodaSaga/videos/episode-race/354328222087787/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+episode+race",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga episode race",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:17:24.992502+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:39.709663+00:00",
+            "load_time_ms": 96,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 900,
+            "natural_height": 900,
+            "content_type": "image/jpeg",
+            "current_src": "https://scontent-hkg1-2.xx.fbcdn.net/v/t15.5256-10/52454358_354333325420610_1089593929814245376_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a27664&_nc_ohc=FblM4hVI_OsQ7kNvwEbp-JS&_nc_oc=AdpsB6YaydJU7OCDmHPcfD1n1S8H6rD1-5gSQtwTatXj6KFCxGXah_tzY6Xcdxn0YoI&_nc_zt=23&_nc_ht=scontent-hkg1-2.xx&_nc_gid=NWVdhixWE6QwtB3-i5b7NQ&_nc_ss=7c20f&oh=00_Af7GqWK2F0dD9u5SYUWAObaQl7wTRg1-pkYEjtgudtRT6Q&oe=6A0A1270"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片包含活动标题'The Race Is On'及游戏角色，属于无UI界面的社交媒体宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:54.632154+00:00"
+          }
+        },
+        {
+          "url": "https://scontent-hkg1-2.xx.fbcdn.net/v/t15.5256-10/52290443_305818986956477_574747060352319488_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a27664&_nc_ohc=GJPdC4SgpnkQ7kNvwEsgcw6&_nc_oc=AdqJtEQDjbQcGIqW1DmppFJiAYnexejDZetLi8aBXdrOzfoREjRCdwMQJUcpPGytuvs&_nc_zt=23&_nc_ht=scontent-hkg1-2.xx&_nc_gid=CheSfFYmjKEafB0Q_vgmxA&_nc_ss=7c20f&oh=00_Af5Id6mHLejkahg-YCGiEkUfsCR7B8jai9Q97eBuWRUNnw&oe=6A09E1D9",
+          "caption": "Win bars in Candy Crush Soda Saga's new ...",
+          "source_url": "https://www.facebook.com/AppStore/videos/candy-crush-soda-saga/305818840289825/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+episode+race",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga episode race",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:17:24.992502+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:40.109816+00:00",
+            "load_time_ms": 394,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/jpeg",
+            "current_src": "https://scontent-hkg1-2.xx.fbcdn.net/v/t15.5256-10/52290443_305818986956477_574747060352319488_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a27664&_nc_ohc=GJPdC4SgpnkQ7kNvwEsgcw6&_nc_oc=AdqJtEQDjbQcGIqW1DmppFJiAYnexejDZetLi8aBXdrOzfoREjRCdwMQJUcpPGytuvs&_nc_zt=23&_nc_ht=scontent-hkg1-2.xx&_nc_gid=CheSfFYmjKEafB0Q_vgmxA&_nc_ss=7c20f&oh=00_Af5Id6mHLejkahg-YCGiEkUfsCR7B8jai9Q97eBuWRUNnw&oe=6A09E1D9"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了活动结算获胜的艺术化包装图，包含Gold Bars奖励且带有游戏LOGO，属于宣传合辑中的封面类图片。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:54.632154+00:00"
+          }
+        },
+        {
+          "url": "https://us.v-cdn.net/6030983/uploads/25YQE8GBKCH1/img-4855.png",
+          "caption": "Soda Race No of levels - King Community",
+          "source_url": "https://community.king.com/en/candy-crush-soda-saga/discussion/426072/soda-race-no-of-levels",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+episode+race",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga episode race",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:17:24.992502+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:41.422350+00:00",
+            "load_time_ms": 1304,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 646,
+            "natural_height": 1400,
+            "content_type": "image/png",
+            "current_src": "https://us.v-cdn.net/6030983/uploads/25YQE8GBKCH1/img-4855.png"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 1.0,
+            "reason": "展示了Soda Race活动的实际玩法界面，包含Classic/Elite/Champion段位标识、赛事进度棋盘及玩家头像排布。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:54.632154+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "cup_tournament",
+      "display_name": "Soda Cup / 杯赛晋级活动",
+      "description": "多人竞赛型活动，玩家与其他 10 名玩家竞争，赢取 Gold Bars 并争取进入 qualifiers；历史 edition 包括 Soda 10 Cup、Soda Cup Hall of Fame、Soda Cup Ice Hockey 等。",
+      "examples": [
+        "Soda Cup",
+        "Soda 10 Cup",
+        "Soda Cup Hall of Fame",
+        "Soda Cup Ice Hockey"
+      ],
+      "market_research_notes": "比 Soda Race 更赛季化/赛事化，适合观察资格赛、分组榜单和阶段淘汰如何拉长活动周期。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/q4votoOaF0s/maxresdefault.jpg",
+          "caption": "Candy Crush Soda - Winter Cup ...",
+          "source_url": "https://www.youtube.com/watch?v=q4votoOaF0s",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+cup+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga cup tournament",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:17:45.896364+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:41.793240+00:00",
+            "load_time_ms": 366,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/q4votoOaF0s/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了活动的标题 'Winter Cup Tournament' 以及游戏角色和金条，属于典型的活动宣传海报/Banner，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:59.072349+00:00"
+          }
+        },
+        {
+          "url": "https://scontent-hkg1-1.xx.fbcdn.net/v/t15.5256-10/401340002_255014600917690_8649724412970072445_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=596eb7&_nc_ohc=LVc7kG7PJ7IQ7kNvwFLPQR5&_nc_oc=AdpAynHlAMZxVR72men5k4OWmrIlgJ4GHNK72a-u-sgHCQ85bBwA5q2tyB8p0RwExvg&_nc_zt=23&_nc_ht=scontent-hkg1-1.xx&_nc_gid=TENuM3DctfIFC-55P7mrxA&_nc_ss=7c20f&oh=00_Af4BMNSao1NFhuQ_NvsuW4ulDI8kc-QRQzyZvRk_M1Rz4g&oe=6A0A05BD",
+          "caption": "Winter Cup Tournament has arrived ...",
+          "source_url": "https://www.facebook.com/CandyCrushSodaSaga/videos/join-the-winter-cup-tournament/2111081762563665/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+cup+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga cup tournament",
+          "width": 168,
+          "height": 300,
+          "aspect_ratio": 0.56,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:17:45.896364+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:43.335690+00:00",
+            "load_time_ms": 1533,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 1920,
+            "content_type": "image/jpeg",
+            "current_src": "https://scontent-hkg1-1.xx.fbcdn.net/v/t15.5256-10/401340002_255014600917690_8649724412970072445_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=596eb7&_nc_ohc=LVc7kG7PJ7IQ7kNvwFLPQR5&_nc_oc=AdpAynHlAMZxVR72men5k4OWmrIlgJ4GHNK72a-u-sgHCQ85bBwA5q2tyB8p0RwExvg&_nc_zt=23&_nc_ht=scontent-hkg1-1.xx&_nc_gid=TENuM3DctfIFC-55P7mrxA&_nc_ss=7c20f&oh=00_Af4BMNSao1NFhuQ_NvsuW4ulDI8kc-QRQzyZvRk_M1Rz4g&oe=6A0A05BD"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "该图为活动的宣传海报，带有 'Play Now' 按钮和活动日期说明，明确提及 'Winter Cup Tournament'，但无实际游戏操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:59.072349+00:00"
+          }
+        },
+        {
+          "url": "https://scontent-hkg4-1.xx.fbcdn.net/v/t15.5256-10/438050789_450076140952574_5314072194893151222_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=596eb7&_nc_ohc=ChTr2jYr0H4Q7kNvwFmCLxP&_nc_oc=AdqNWmGEtnga7f2YLFfy-mMVa3lpjMjzFdR33x6epiwvhlHCj1aBlQ2EZSvYhdm-5M4&_nc_zt=23&_nc_ht=scontent-hkg4-1.xx&_nc_gid=sdxlcNS-KB5SECOhTHJiYA&_nc_ss=7c20f&oh=00_Af4AKdmK3ozOTSD4_a6u1C3bq5NZcK06PbVPr1DPrzV5Wg&oe=6A09E25E",
+          "caption": "Candy Crush Soda Saga ...",
+          "source_url": "https://www.facebook.com/CandyCrushSodaSaga/videos/soda-cup-is-here/2827610650739236/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+cup+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga cup tournament",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:17:45.896364+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:43.833904+00:00",
+            "load_time_ms": 489,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 1080,
+            "content_type": "image/jpeg",
+            "current_src": "https://scontent-hkg4-1.xx.fbcdn.net/v/t15.5256-10/438050789_450076140952574_5314072194893151222_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=596eb7&_nc_ohc=ChTr2jYr0H4Q7kNvwFmCLxP&_nc_oc=AdqNWmGEtnga7f2YLFfy-mMVa3lpjMjzFdR33x6epiwvhlHCj1aBlQ2EZSvYhdm-5M4&_nc_zt=23&_nc_ht=scontent-hkg4-1.xx&_nc_gid=sdxlcNS-KB5SECOhTHJiYA&_nc_ss=7c20f&oh=00_Af4AKdmK3ozOTSD4_a6u1C3bq5NZcK06PbVPr1DPrzV5Wg&oe=6A09E25E"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了 'Soda Cup is Here!' 标题及活动主题元素（如金条和竞赛主题角色），属于活动开启的宣传海报，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:59.072349+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "streak_booster",
+      "display_name": "Rainbow Road / Rainbow Streak / 连胜增益",
+      "description": "玩家连续通关且不失败时获得逐级增强的开局 boosters 或奖励；失败或退出会丢失当前 streak 增益。",
+      "examples": [
+        "Rainbow Road",
+        "Rainbow Streak"
+      ],
+      "market_research_notes": "连胜增益是 King 系三消的高频留存工具，能让玩家为了保持开局优势而继续玩或购买续关。",
+      "images": [
+        {
+          "url": "https://us.v-cdn.net/6030983/uploads/F2HQDXNC4A50/screenshot-20250828-144656-candy-crush-soda.jpg",
+          "caption": "Why do my streak bonuses keep resetting ...",
+          "source_url": "https://community.king.com/en/candy-crush-soda-saga/discussion/507081/why-do-my-streak-bonuses-keep-resetting",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+streak+booster",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga streak booster",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:18:09.164931+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:44.126003+00:00",
+            "load_time_ms": 286,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 369,
+            "natural_height": 800,
+            "content_type": "image/jpeg",
+            "current_src": "https://us.v-cdn.net/6030983/uploads/F2HQDXNC4A50/screenshot-20250828-144656-candy-crush-soda.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图中底部清晰显示了 Rainbow Streak 的连胜进度条界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:01.999026+00:00"
+          }
+        },
+        {
+          "url": "https://us.v-cdn.net/6030983/uploads/070/URFPLZODAQ25.jpg",
+          "caption": "Rainbow Streak - King Community",
+          "source_url": "https://community.king.com/en/candy-crush-soda-saga/discussion/281767/rainbow-streak",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+streak+booster",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga streak booster",
+          "width": 156,
+          "height": 322,
+          "aspect_ratio": 0.4845,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:18:09.164931+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:44.188420+00:00",
+            "load_time_ms": 56,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 681,
+            "natural_height": 1400,
+            "content_type": "image/jpeg",
+            "current_src": "https://us.v-cdn.net/6030983/uploads/070/URFPLZODAQ25.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图中展示了完整的 Rainbow Streak 连胜奖励进度条，且处于最高级的瓶子状态。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:01.999026+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/cyM-qEc3D08/maxresdefault.jpg",
+          "caption": "Level 2451 Candy Crush Saga ...",
+          "source_url": "https://www.youtube.com/watch?v=cyM-qEc3D08",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+streak+booster",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga streak booster",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:18:09.164931+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:44.631453+00:00",
+            "load_time_ms": 437,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/cyM-qEc3D08/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "虽然是 Candy Crush Saga 的截图，但展示了 Sam's Streak 等连胜排行榜和底部连胜奖励轨。属于本活动类型的玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:01.999026+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "bubblegum_hill",
+      "display_name": "Bubblegum Hill / 5 关夺冠挑战",
+      "description": "限时挑战活动，玩家用一条命连续通过 5 个特殊关卡夺取王座；统治期间奖励可能累积，其他玩家可夺走王座。",
+      "examples": [
+        "Bubblegum Hill",
+        "Earn Crown",
+        "Royal Treasures"
+      ],
+      "market_research_notes": "短挑战 + 异步夺位的组合，兼具闯关压力、排行榜感和随机 Gold Bars 奖励。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/ZJbqclkJU8Y/maxresdefault.jpg",
+          "caption": "Bubblegum Hill Candy Crush Soda Jan 1 ...",
+          "source_url": "https://www.youtube.com/watch?v=ZJbqclkJU8Y",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+bubblegum+hill",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga bubblegum hill",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:18:39.657035+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:45.077278+00:00",
+            "load_time_ms": 438,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/ZJbqclkJU8Y/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了 Bubblegum Hill 活动的实际关卡地图进度界面，包含 1-5 关卡点位和排行榜。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:05.079650+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/8n0ZLY5YEFg/maxresdefault.jpg",
+          "caption": "Candy Crush Soda Saga - Bubblegum Hill ...",
+          "source_url": "https://www.youtube.com/watch?v=8n0ZLY5YEFg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+bubblegum+hill",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga bubblegum hill",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:18:39.657035+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:45.437047+00:00",
+            "load_time_ms": 352,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/8n0ZLY5YEFg/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "活动宣传过场图，展示了角色与活动主题场景，无实际玩法操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:05.079650+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/OiMZnf3fY2c/maxresdefault.jpg",
+          "caption": "Bubblegum Hill - play tomorrow! - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=OiMZnf3fY2c",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+bubblegum+hill",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga bubblegum hill",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:18:39.657035+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:45.844747+00:00",
+            "load_time_ms": 401,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/OiMZnf3fY2c/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "活动的标题宣传图，带有 Capture the Crown 字样及活动角色，无玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:05.079650+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/WUalYv_ec24/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDwL9nMMCwrW_PWoWmP4-7TRLIUVQ",
+          "caption": "Candy Crush Soda Saga ...",
+          "source_url": "https://www.youtube.com/watch?v=WUalYv_ec24",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+bubblegum+hill",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga bubblegum hill",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:18:39.657035+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:46.226312+00:00",
+            "load_time_ms": 377,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/WUalYv_ec24/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDwL9nMMCwrW_PWoWmP4-7TRLIUVQ"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "多图拼接展示了 Bubblegum Hill 活动的地图界面以及该活动下的 5 个实际消除关卡玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:05.079650+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "team_baking",
+      "display_name": "Bake a Cake / 团队烤蛋糕",
+      "description": "加入 team 后开放。成员使用 chef hat 挑战 recipe levels，完成切片与层数推进整块蛋糕；过程中可获得 boosters，并有 top chefs leaderboard 奖励。",
+      "examples": [
+        "Bake a Cake",
+        "recipe levels",
+        "top chefs leaderboard"
+      ],
+      "market_research_notes": "团队协作活动，个人通关贡献转成团队进度，同时用帽子/失败惩罚和贡献榜强化成员压力。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/-UNR5jOIVuA/maxresdefault.jpg",
+          "caption": "Candy Crush SODA Saga | Bake A Cake ...",
+          "source_url": "https://www.youtube.com/watch?v=-UNR5jOIVuA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+team+baking",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga team baking",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:18:59.839326+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:46.621757+00:00",
+            "load_time_ms": 388,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/-UNR5jOIVuA/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图是活动的入场介绍弹窗，包含活动名称Bake a Cake和简单文案，属于宣传/封面性质。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:09.716915+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/s3FT_kPR1UE/maxresdefault.jpg",
+          "caption": "Candy Crush Soda Saga (Bake a Cake ...",
+          "source_url": "https://www.youtube.com/watch?v=s3FT_kPR1UE",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+team+baking",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga team baking",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:18:59.839326+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:47.064663+00:00",
+            "load_time_ms": 436,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/s3FT_kPR1UE/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "该图为拼接的视频封面海报，展示了蛋糕素材和活动标题，无实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:09.716915+00:00"
+          }
+        },
+        {
+          "url": "https://us.v-cdn.net/6030983/uploads/G7ZPZ4URVWMV/img-4779.jpeg",
+          "caption": "How to release bakery members - King ...",
+          "source_url": "https://community.king.com/en/candy-crush-soda-saga/discussion/425383/how-to-release-bakery-members",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+team+baking",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga team baking",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:18:59.839326+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:47.122127+00:00",
+            "load_time_ms": 52,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 646,
+            "natural_height": 1400,
+            "content_type": "image/jpeg",
+            "current_src": "https://us.v-cdn.net/6030983/uploads/G7ZPZ4URVWMV/img-4779.jpeg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图展示了活动内的具体交互功能：花费金条解救/释放队友，可见具体的货币消耗和操作按钮，属于玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:09.716915+00:00"
+          }
+        },
+        {
+          "url": "https://us.v-cdn.net/6030983/uploads/YVGS792R8MKX/bakeacake.png",
+          "caption": "🎂 A new update to Bake A Cake 🎂 - King ...",
+          "source_url": "https://community.king.com/en/candy-crush-soda-saga/discussion/comment/2807860",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+team+baking",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga team baking",
+          "width": 341,
+          "height": 148,
+          "aspect_ratio": 2.3041,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:18:59.839326+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:47.496264+00:00",
+            "load_time_ms": 369,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2495,
+            "natural_height": 1080,
+            "content_type": "image/png",
+            "current_src": "https://us.v-cdn.net/6030983/uploads/YVGS792R8MKX/bakeacake.png"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "该拼接图全面展示了活动的规则说明、团队成员贡献排行榜、以及活动的实际任务进度界面（蛋糕层数及收集进度）。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:09.716915+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "collection_contests",
+      "display_name": "Collection Contests / 收集物排行榜",
+      "description": "玩家在关卡中制造或收集指定物并通关后计入活动分，再进入榜单排名领取 boosters。不同活动收集目标不同，例如 stars、striped candies、fish、green candies、color bombs。",
+      "examples": [
+        "Star Chaser",
+        "Fishing Tournament",
+        "Striped Candy Contest",
+        "Rocket Race",
+        "Rocket Rush"
+      ],
+      "market_research_notes": "同一套榜单框架可换不同关卡内目标，复用度高；目标物会改变玩家在关卡里的策略选择。",
+      "images": [
+        {
+          "url": "https://us.v-cdn.net/6030983/uploads/PQOFYK7R5JV2/screenshot-20250303-084712-candy-crush-soda.jpg",
+          "caption": "Weekly Contest - King Community",
+          "source_url": "https://community.king.com/en/candy-crush-soda-saga/discussion/489060/weekly-contest",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+collection+contests",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga collection contests",
+          "width": 150,
+          "height": 335,
+          "aspect_ratio": 0.4478,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:19:23.113472+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:47.556434+00:00",
+            "load_time_ms": 53,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 900,
+            "natural_height": 2000,
+            "content_type": "image/jpeg",
+            "current_src": "https://us.v-cdn.net/6030983/uploads/PQOFYK7R5JV2/screenshot-20250303-084712-candy-crush-soda.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了 Weekly Contest 的活动排行榜界面，包含玩家头像、排名及对应的积分（绿色卡片状目标）。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:12.871872+00:00"
+          }
+        },
+        {
+          "url": "https://us.v-cdn.net/6030983/uploads/PWRRDXDZG98D/screenshot-20230130-082144-candy-crush-soda.jpg",
+          "caption": "Regarding a contest - King Community",
+          "source_url": "https://community.king.com/en/candy-crush-soda-saga/discussion/393490/regarding-a-contest",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+collection+contests",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga collection contests",
+          "width": 150,
+          "height": 335,
+          "aspect_ratio": 0.4478,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:19:23.113472+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:47.615125+00:00",
+            "load_time_ms": 53,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 630,
+            "natural_height": 1400,
+            "content_type": "image/jpeg",
+            "current_src": "https://us.v-cdn.net/6030983/uploads/PWRRDXDZG98D/screenshot-20230130-082144-candy-crush-soda.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了名为 Kimmy's Candy Hunt 的收集排行榜，清晰列出了玩家名次、收集的数量（金蛋）以及奖励。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:12.871872+00:00"
+          }
+        },
+        {
+          "url": "https://us.v-cdn.net/6030983/uploads/ZFFDLS43SZHR/screenshot-20200816-092126-candy-crush-soda.jpg",
+          "caption": "Weekly contest - King Community",
+          "source_url": "https://community.king.com/en/candy-crush-soda-saga/discussion/309350/weekly-contest",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+collection+contests",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga collection contests",
+          "width": 177,
+          "height": 284,
+          "aspect_ratio": 0.6232,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:19:23.113472+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:47.674644+00:00",
+            "load_time_ms": 55,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 800,
+            "natural_height": 1280,
+            "content_type": "image/jpeg",
+            "current_src": "https://us.v-cdn.net/6030983/uploads/ZFFDLS43SZHR/screenshot-20200816-092126-candy-crush-soda.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了 Weekly Contest 活动界面，明确指出通过过关（收集绿色糖果/点数）进行排名，属于典型的收集排行榜玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:12.871872+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "duel_or_pair_event",
+      "display_name": "Rescue Buddies / 双人救援",
+      "description": "玩家与对手/伙伴通过通关收集 stars 填充 meter，触发 cannon 打目标救出 bear；命中更多目标的一方获得更稀有 Wonderball。",
+      "examples": [
+        "Rescue Buddies",
+        "Wonderball"
+      ],
+      "market_research_notes": "比团队活动更小规模，适合观察轻社交匹配、每周重置和奖励稀有度驱动。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/voFEKaugZG4/mqdefault.jpg",
+          "caption": "Candy Crush Soda Saga Celebrates Its ...",
+          "source_url": "https://bleedingcool.com/games/candy-crush-soda-saga-celebrates-its-10th-anniversary/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+duel+or+pair+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga duel or pair event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:20:13.052752+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:47.982988+00:00",
+            "load_time_ms": 301,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 320,
+            "natural_height": 180,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/voFEKaugZG4/mqdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "这是游戏10周年的通用宣传图，属于本游戏但无法确定与'双人救援'活动有关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:16.668638+00:00"
+          }
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/ugmJjgV_PrNncBvAMnz3dLLuIoqTOmxQonznNmvtrpR8ktzwMWuU2cmBrEhBue2eUmLoRB_vh3sNyyMyxMsP9XH56H1pVbO0XuJaislEcwbD9-t9D7ZozSwGy0utIZlelecbgLNLZDULwgtgmMYfP8Cphog7xqhpXjFnlr3z3-QVSMTiAFTzR5zm4PDbUg",
+          "caption": "🍫🍬 Battle Season - Compete for control ...",
+          "source_url": "https://community.king.com/en/candy-crush-soda-saga/discussion/388768/battle-season-compete-for-control-of-soda-town/p2",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+duel+or+pair+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga duel or pair event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:20:13.052752+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:49.892975+00:00",
+            "load_time_ms": 1905,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 900,
+            "content_type": "image/jpeg",
+            "current_src": "https://lh3.googleusercontent.com/ugmJjgV_PrNncBvAMnz3dLLuIoqTOmxQonznNmvtrpR8ktzwMWuU2cmBrEhBue2eUmLoRB_vh3sNyyMyxMsP9XH56H1pVbO0XuJaislEcwbD9-t9D7ZozSwGy0utIZlelecbgLNLZDULwgtgmMYfP8Cphog7xqhpXjFnlr3z3-QVSMTiAFTzR5zm4PDbUg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "虽然标题提到Battle Season，但图中展示的是通用角色和积分概念，未明确体现双人救熊的具体玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:16.668638+00:00"
+          }
+        },
+        {
+          "url": "https://mma.prnewswire.com/media/2202223/Candy_Crush_Soda_Saga_x_World_Surf_League.jpg?w=300",
+          "caption": "CANDY CRUSH SODA SAGA® AND KYLE GORDON ...",
+          "source_url": "https://www.prnewswire.com/news-releases/candy-crush-soda-saga-and-kyle-gordon-team-up-for-a-rip-curl-wsl-finals-takeover-301919131.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+duel+or+pair+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga duel or pair event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:20:13.052752+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:49.992919+00:00",
+            "load_time_ms": 93,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 300,
+            "natural_height": 169,
+            "content_type": "image/jpeg",
+            "current_src": "https://mma.prnewswire.com/media/2202223/Candy_Crush_Soda_Saga_x_World_Surf_League.jpg?w=300"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "这是游戏与WSL（世界冲浪联盟）联动的宣传海报，与本活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:16.668638+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/TkZFF4eQ1Hc/maxresdefault.jpg",
+          "caption": "Candy Crush Soda Saga Level 11576 To ...",
+          "source_url": "https://www.youtube.com/watch?v=TkZFF4eQ1Hc",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+duel+or+pair+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga duel or pair event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:20:13.052752+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:50.375063+00:00",
+            "load_time_ms": 376,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/TkZFF4eQ1Hc/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是游戏的关卡地图界面，属于通用游戏界面，未展现特定的活动玩法内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:16.668638+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/BE4AuqcHHMU/maxresdefault.jpg",
+          "caption": "The party continues with 30 NEW LEVELS ...",
+          "source_url": "https://www.youtube.com/watch?v=BE4AuqcHHMU",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+duel+or+pair+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga duel or pair event",
+          "width": 329,
+          "height": 153,
+          "aspect_ratio": 2.1503,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:20:13.052752+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:50.836542+00:00",
+            "load_time_ms": 455,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/BE4AuqcHHMU/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.98,
+            "reason": "这是Candy Crush系列多款游戏的图标和启动界面集合，属于通用品牌/商店截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:16.668638+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "pass_and_reward_track",
+      "display_name": "Soda Pass / Reward Pass / 通行证奖励轨",
+      "description": "活动总表列出 Soda Pass 与 Reward Pass。公开 wiki 详情有限，但可确认其作为奖励轨/通行证类系统存在，通常围绕关卡完成和阶段奖励运作。",
+      "examples": [
+        "Soda Pass",
+        "Reward Pass"
+      ],
+      "market_research_notes": "需要二轮真机或官方帮助页补免费/付费轨、任务和奖励档位；本轮先作为已出现的活动系统记录。",
+      "images": [
+        {
+          "url": "https://us.v-cdn.net/6030983/uploads/Y6D7G26QAP40/img-2069-png.png",
+          "caption": "Rewards Pass---new version - King Community",
+          "source_url": "https://community.king.com/en/candy-crush-soda-saga/discussion/451551/rewards-pass-new-version",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+pass+and+reward+track",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga pass and reward track",
+          "width": 168,
+          "height": 300,
+          "aspect_ratio": 0.56,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:20:47.213140+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:50.895058+00:00",
+            "load_time_ms": 51,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 372,
+            "natural_height": 355,
+            "content_type": "image/jpeg",
+            "current_src": "https://us.v-cdn.net/6030983/uploads/Y6D7G26QAP40/img-2069-png.png"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了活动的入口图标或简单封面，包含活动名称Rewards Pass和倒计时，但未展示实际的奖励轨玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:18.287367+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "hunt_events",
+      "display_name": "Hunt Events / 主题收集狩猎",
+      "description": "活动总表列出 Candy Hunt、Kimmy Candy Hunt、Pumpkin Hunt、Anniversary Hunt、Treasure Hunt、Gold Nuggets、Gold Dive 等。机制通常围绕主题收集物、关卡掉落或目标链。",
+      "examples": [
+        "Candy Hunt",
+        "Kimmy Candy Hunt",
+        "Pumpkin Hunt",
+        "Anniversary Hunt",
+        "Treasure Hunt",
+        "Gold Nuggets",
+        "Gold Dive"
+      ],
+      "market_research_notes": "这类活动承担节日包装和关卡外收集目标，具体奖励表需要逐页补全。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/wYivN9OvxA0/hqdefault.jpg",
+          "caption": "Candy crush soda kimmy's egg hunt new ...",
+          "source_url": "https://www.youtube.com/watch?v=wYivN9OvxA0",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+hunt+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga hunt events",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:21:17.056495+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:51.297162+00:00",
+            "load_time_ms": 394,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 480,
+            "natural_height": 360,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/wYivN9OvxA0/hqdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片明确显示为 Kimmy's Egg Hunt 活动的获胜/奖励領取弹窗，属于该游戏 Hunt 系列活动，非玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:21.183024+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/pPtQ9cFhJ0M/maxresdefault.jpg",
+          "caption": "Candy crush soda saga levels 11-15 ...",
+          "source_url": "https://www.youtube.com/watch?v=pPtQ9cFhJ0M",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+hunt+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga hunt events",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:21:17.056495+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:51.714858+00:00",
+            "load_time_ms": 413,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/pPtQ9cFhJ0M/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "展示了活动专属的关卡进度条（11-15关）和特定的活动地图界面，属于实际玩法界面截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:21.183024+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "daily_weekly_rewards",
+      "display_name": "Daily / Weekly Reward Events / 日周常奖励",
+      "description": "活动总表列出 Weekly Contest、Gumball Goodies、Sales、Double Delish Fish 等长期或高频活动/优惠入口；部分偏奖励、部分偏促销或短时增益。",
+      "examples": [
+        "Weekly Contest",
+        "Gumball Goodies",
+        "Sales",
+        "Double Delish Fish"
+      ],
+      "market_research_notes": "高频低成本运营层，和主活动叠加给玩家每日打开游戏的理由。",
+      "images": [
+        {
+          "url": "https://us.v-cdn.net/6030942/uploads/0beaada1616c0c9b3066826168d3de3e.jpg",
+          "caption": "✓ Solved) I didn't get my Daily Reward ...",
+          "source_url": "https://community.king.com/en/candy-crush-soda-saga/discussion/497869/solved-i-didnt-get-my-daily-reward",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+daily+weekly+rewards",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga daily weekly rewards",
+          "width": 187,
+          "height": 269,
+          "aspect_ratio": 0.6952,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:21:45.427256+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:09:29.517311+00:00",
+            "load_time_ms": 1188,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 128,
+            "natural_height": 128,
+            "content_type": "image/jpeg",
+            "current_src": "https://us.v-cdn.net/6030942/uploads/0beaada1616c0c9b3066826168d3de3e.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片仅展示开发商King的Logo，属于通用品牌图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:25.713451+00:00"
+          }
+        },
+        {
+          "url": "https://us.v-cdn.net/6030983/uploads/GUMU1IPFS1A7/image.png",
+          "caption": "Candy Crush Soda Daily Booster : r ...",
+          "source_url": "https://community.king.com/en/candy-crush-soda-saga/discussion/497869/solved-i-didnt-get-my-daily-reward",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+daily+weekly+rewards",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga daily weekly rewards",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:21:45.427256+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:52.040710+00:00",
+            "load_time_ms": 319,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1389,
+            "natural_height": 2000,
+            "content_type": "image/png",
+            "current_src": "https://us.v-cdn.net/6030983/uploads/GUMU1IPFS1A7/image.png"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图片展示了Daily Bonus（每日奖励）的实际领取界面及断签补签提示。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:25.713451+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/csVIPFJjQwc/maxresdefault.jpg",
+          "caption": "Candy Crush Saga | Candy Crush ...",
+          "source_url": "https://www.youtube.com/watch?v=csVIPFJjQwc",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+daily+weekly+rewards",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga daily weekly rewards",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:21:45.427256+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:52.450984+00:00",
+            "load_time_ms": 405,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/csVIPFJjQwc/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "图片展示了Daily Win和Weekly Contest等活动的奖励领取及排行榜界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:25.713451+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/candy-crush-soda-daily-booster-v0-v4faayhsdu9f1.jpg?width=1080&format=pjpg&auto=webp&s=926c5aecd293a45b612c24d289c47139e458ba01",
+          "caption": "Daily Bonus | Candy Crush Soda Wiki ...",
+          "source_url": "https://www.reddit.com/r/candycrush/comments/1lmiu6u/candy_crush_soda_daily_booster/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=candy+crush+soda+saga+daily+weekly+rewards",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "candy crush soda saga daily weekly rewards",
+          "width": 177,
+          "height": 284,
+          "aspect_ratio": 0.6232,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:21:45.427256+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:52.677867+00:00",
+            "load_time_ms": 221,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 2340,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/candy-crush-soda-daily-booster-v0-v4faayhsdu9f1.jpg?width=1080&format=pjpg&auto=webp&s=926c5aecd293a45b612c24d289c47139e458ba01"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了Daily Bonus的累计签到奖励路径和具体玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:25.713451+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "Candy Crush Soda Saga 的 wiki 活动总表虽然标注不完整，但已明显优于程序化抓取社区首页。已覆盖竞速、杯赛、连胜、5关挑战、团队蛋糕、收集榜单、双人救援、通行证和日周常。后续可逐个打开 Events 总表中的所有条目补解锁条件、奖励表和活动是否已停用。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T07:21:45.427256+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:25:25.713451+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

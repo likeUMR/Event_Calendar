@@ -1,0 +1,938 @@
+{
+  "rank": 23,
+  "name": "Evony",
+  "source_confidence": "high",
+  "source_notes": null,
+  "collected_at": "2026-05-12T04:00:35.897Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Evony The King's Return Wiki - Regular Events",
+      "source_type": "fandom",
+      "source_url": "https://evony-the-kings-return.fandom.com/wiki/Regular_Events",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "source_title": "Evony Guide Wiki - Event",
+      "source_type": "dedicated_guide",
+      "source_url": "https://evonyguidewiki.com/en/category/event-en/",
+      "fetched_url": "https://evonyguidewiki.com/en/category/event-en/",
+      "status": 200,
+      "page_title": "Evony: The King's Return GUIDE WIKI",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Event | Evony: The King's Return GUIDE WIKI Skip to the content Evony: The King's Return GUIDE WIKI ARTICLE LIST Monster Hunt Battle Mechanics (Monster, Boss)",
+        "Boss Battle Simulator (RSS balance, Win/Lose, Wounded count, Zero-wound troops, etc)",
+        "How to get generals 20+ Methods to Acquire Generals: vouchers, events, packages, etc.",
+        "Subordinate City Generals (Mayor) Debuff Comparison Tool (Red Star & Specialty can be specified)",
+        "Civilization Treasure",
+        "Art Treasure Guide (Buff list, Upgrade requirement, etc)",
+        "Battlefield: Clash of Civilizations (CoC)",
+        "Event Arctic Barbarians Invasion Guide",
+        "Alliance Competition Event",
+        "Consuming Return Event",
+        "Cleopatra’s Treasure",
+        "Dawn of Civilization / Monarch Sciences – How to complete all quests",
+        "Lucky Composing Event",
+        "Quiz Answers List: Gladiator’s Trial Event",
+        "Revelation of Horus Event",
+        "Revelation of Maya Event",
+        "Treasure Hunt Event (Pyramid)",
+        "What is KE (Kill Event)?"
+      ],
+      "inferred_event_types": [
+        "collection_album",
+        "tournament_competition",
+        "team_alliance",
+        "pve_boss",
+        "pvp_war",
+        "mini_game"
+      ],
+      "images": []
+    }
+  ],
+  "event_detail_pages": [
+    {
+      "source_title": "Skip to the content",
+      "source_type": "event_detail",
+      "source_url": "https://evonyguidewiki.com/en/category/event-en/#site-content",
+      "fetched_url": "https://evonyguidewiki.com/en/category/event-en/#site-content",
+      "status": 200,
+      "page_title": "Evony: The King's Return GUIDE WIKI",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Event | Evony: The King's Return GUIDE WIKI Skip to the content Evony: The King's Return GUIDE WIKI ARTICLE LIST Monster Hunt Battle Mechanics (Monster, Boss)",
+        "Boss Battle Simulator (RSS balance, Win/Lose, Wounded count, Zero-wound troops, etc)",
+        "How to get generals 20+ Methods to Acquire Generals: vouchers, events, packages, etc.",
+        "Subordinate City Generals (Mayor) Debuff Comparison Tool (Red Star & Specialty can be specified)",
+        "Civilization Treasure",
+        "Art Treasure Guide (Buff list, Upgrade requirement, etc)",
+        "Battlefield: Clash of Civilizations (CoC)",
+        "Event Arctic Barbarians Invasion Guide",
+        "Alliance Competition Event",
+        "Consuming Return Event",
+        "Cleopatra’s Treasure",
+        "Dawn of Civilization / Monarch Sciences – How to complete all quests",
+        "Lucky Composing Event",
+        "Quiz Answers List: Gladiator’s Trial Event",
+        "Revelation of Horus Event",
+        "Revelation of Maya Event",
+        "Treasure Hunt Event (Pyramid)",
+        "What is KE (Kill Event)?"
+      ],
+      "inferred_event_types": [
+        "collection_album",
+        "tournament_competition",
+        "team_alliance",
+        "pve_boss",
+        "pvp_war",
+        "mini_game"
+      ],
+      "images": []
+    },
+    {
+      "source_title": "Battle Mechanics (Monster, Boss)",
+      "source_type": "event_detail",
+      "source_url": "https://evonyguidewiki.com/en/monster-battle-mechanics-en/",
+      "fetched_url": "https://evonyguidewiki.com/en/monster-battle-mechanics-en/",
+      "status": 200,
+      "page_title": "Evony: The King's Return GUIDE WIKI",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Battle Mechanics (Monster, Boss) | Evony: The King's Return GUIDE WIKI Skip to the content Evony: The King's Return GUIDE WIKI ARTICLE LIST Monster Hunt Battle Mechanics (Monster, Boss)",
+        "Boss Battle Simulator (RSS balance, Win/Lose, Wounded count, Zero-wound troops, etc)",
+        "How to get generals 20+ Methods to Acquire Generals: vouchers, events, packages, etc.",
+        "Subordinate City Generals (Mayor) Debuff Comparison Tool (Red Star & Specialty can be specified)",
+        "Civilization Treasure",
+        "Art Treasure Guide (Buff list, Upgrade requirement, etc)",
+        "Battlefield: Clash of Civilizations (CoC)",
+        "Event Arctic Barbarians Invasion Guide",
+        "Alliance Competition Event",
+        "Consuming Return Event",
+        "Cleopatra’s Treasure",
+        "Dawn of Civilization / Monarch Sciences – How to complete all quests",
+        "Lucky Composing Event",
+        "Quiz Answers List: Gladiator’s Trial Event",
+        "Revelation of Horus Event",
+        "Revelation of Maya Event",
+        "Treasure Hunt Event (Pyramid)",
+        "What is KE (Kill Event)?"
+      ],
+      "inferred_event_types": [
+        "collection_album",
+        "tournament_competition",
+        "team_alliance",
+        "pve_boss",
+        "pvp_war",
+        "mini_game"
+      ],
+      "images": [
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2020/11/hidora-e1611734213680.jpg",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/07/s-wounds_vs_num-troop_en.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/08/IMG_3506-e1630057386977-300x200.jpeg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/06/5c68f21077aef4fd7d796e8db0b1574a-300x200.png",
+          "alt": "ボスバトルシミュレーター",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2020/11/IMG_9950-300x200.jpeg",
+          "alt": "ボスを倒せる兵数",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2020/10/IMG_9487-scaled-e1636034487146-300x201.jpeg",
+          "alt": "ボスの戦力（パワー）",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/09/IMG_3974-e1631008062496-300x200.jpeg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/09/IMG_0102-e1630999426527-300x199.jpeg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/09/IMG_0110-e1630663917377-300x199.jpeg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/09/IMG_3785-e1630658825657-300x203.jpeg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/09/IMG_9894-e1630461256870-300x200.jpeg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/09/IMG_9903-e1630685935676-300x200.jpeg",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Boss Battle Simulator (RSS balance, Win/Lose, Wounded count, Zero-wound troops, etc)",
+      "source_type": "event_detail",
+      "source_url": "https://evonyguidewiki.com/en/calculator-number-of-troops-to-kill-boss-en/",
+      "fetched_url": "https://evonyguidewiki.com/en/calculator-number-of-troops-to-kill-boss-en/",
+      "status": 200,
+      "page_title": "Evony: The King's Return GUIDE WIKI",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Boss Battle Simulator (RSS balance, Win/Lose, Wounded count, Zero-wound troops, etc) | Evony: The King's Return GUIDE WIKI Skip to the content Evony: The King's Return GUIDE WIKI ARTICLE LIST Monster Hunt Battle Mechanics (Monster, Boss)",
+        "Boss Battle Simulator (RSS balance, Win/Lose, Wounded count, Zero-wound troops, etc)",
+        "How to get generals 20+ Methods to Acquire Generals: vouchers, events, packages, etc.",
+        "Subordinate City Generals (Mayor) Debuff Comparison Tool (Red Star & Specialty can be specified)",
+        "Civilization Treasure",
+        "Art Treasure Guide (Buff list, Upgrade requirement, etc)",
+        "Battlefield: Clash of Civilizations (CoC)",
+        "Event Arctic Barbarians Invasion Guide",
+        "Alliance Competition Event",
+        "Consuming Return Event",
+        "Cleopatra’s Treasure",
+        "Dawn of Civilization / Monarch Sciences – How to complete all quests",
+        "Lucky Composing Event",
+        "Quiz Answers List: Gladiator’s Trial Event",
+        "Revelation of Horus Event",
+        "Revelation of Maya Event",
+        "Treasure Hunt Event (Pyramid)",
+        "What is KE (Kill Event)?"
+      ],
+      "inferred_event_types": [
+        "collection_album",
+        "tournament_competition",
+        "team_alliance",
+        "pve_boss",
+        "pvp_war",
+        "mini_game"
+      ],
+      "images": [
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/06/5c68f21077aef4fd7d796e8db0b1574a.png",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/07/IMG_2304-e1627113879367-300x200.jpg",
+          "alt": "バフ・デバフ",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2020/11/IMG_9950-300x200.jpeg",
+          "alt": "ボスを倒せる兵数",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2020/11/hidora-e1611734213680-300x200.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2020/10/IMG_9487-scaled-e1636034487146-300x201.jpeg",
+          "alt": "ボスの戦力（パワー）",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2025/11/2025-11-20-183907-300x248.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/06/Screenshot_20240809-200101-129x300.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/06/Screenshot_20240809-200051-129x300.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/06/Screenshot_20240809-200027-129x300.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/06/Screenshot_20240809-200023-129x300.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/06/Screenshot_20240809-200019-129x300.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/06/Screenshot_20240809-200012-129x300.jpg",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Best Generals & Ranking",
+      "source_type": "event_detail",
+      "source_url": "https://evonyguidewiki.com/en/category/event-en/#",
+      "fetched_url": "https://evonyguidewiki.com/en/category/event-en/#",
+      "status": 200,
+      "page_title": "Evony: The King's Return GUIDE WIKI",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Event | Evony: The King's Return GUIDE WIKI Skip to the content Evony: The King's Return GUIDE WIKI ARTICLE LIST Monster Hunt Battle Mechanics (Monster, Boss)",
+        "Boss Battle Simulator (RSS balance, Win/Lose, Wounded count, Zero-wound troops, etc)",
+        "How to get generals 20+ Methods to Acquire Generals: vouchers, events, packages, etc.",
+        "Subordinate City Generals (Mayor) Debuff Comparison Tool (Red Star & Specialty can be specified)",
+        "Civilization Treasure",
+        "Art Treasure Guide (Buff list, Upgrade requirement, etc)",
+        "Battlefield: Clash of Civilizations (CoC)",
+        "Event Arctic Barbarians Invasion Guide",
+        "Alliance Competition Event",
+        "Consuming Return Event",
+        "Cleopatra’s Treasure",
+        "Dawn of Civilization / Monarch Sciences – How to complete all quests",
+        "Lucky Composing Event",
+        "Quiz Answers List: Gladiator’s Trial Event",
+        "Revelation of Horus Event",
+        "Revelation of Maya Event",
+        "Treasure Hunt Event (Pyramid)",
+        "What is KE (Kill Event)?"
+      ],
+      "inferred_event_types": [
+        "collection_album",
+        "tournament_competition",
+        "team_alliance",
+        "pve_boss",
+        "pvp_war",
+        "mini_game"
+      ],
+      "images": []
+    },
+    {
+      "source_title": "Specialty Guide",
+      "source_type": "event_detail",
+      "source_url": "https://evonyguidewiki.com/en/specialty-en/",
+      "fetched_url": "https://evonyguidewiki.com/en/specialty-en/",
+      "status": 200,
+      "page_title": "Evony: The King's Return GUIDE WIKI",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Specialty Guide | Evony: The King's Return GUIDE WIKI Skip to the content Evony: The King's Return GUIDE WIKI ARTICLE LIST Monster Hunt Battle Mechanics (Monster, Boss)",
+        "Boss Battle Simulator (RSS balance, Win/Lose, Wounded count, Zero-wound troops, etc)",
+        "How to get generals 20+ Methods to Acquire Generals: vouchers, events, packages, etc.",
+        "Subordinate City Generals (Mayor) Debuff Comparison Tool (Red Star & Specialty can be specified)",
+        "Civilization Treasure",
+        "Art Treasure Guide (Buff list, Upgrade requirement, etc)",
+        "Battlefield: Clash of Civilizations (CoC)",
+        "Event Arctic Barbarians Invasion Guide",
+        "Alliance Competition Event",
+        "Consuming Return Event",
+        "Cleopatra’s Treasure",
+        "Dawn of Civilization / Monarch Sciences – How to complete all quests",
+        "Lucky Composing Event",
+        "Quiz Answers List: Gladiator’s Trial Event",
+        "Revelation of Horus Event",
+        "Revelation of Maya Event",
+        "Treasure Hunt Event (Pyramid)",
+        "What is KE (Kill Event)?"
+      ],
+      "inferred_event_types": [
+        "collection_album",
+        "tournament_competition",
+        "team_alliance",
+        "pve_boss",
+        "pvp_war",
+        "mini_game"
+      ],
+      "images": [
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/07/IMG_8148-e1627434294766.jpeg",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/07/IMG_8148-e1627434294766-700x466.jpeg",
+          "alt": "Specialty Guide",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/07/IMG_8039-576x1024.jpeg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/07/IMG_8040-576x1024.jpeg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/07/IMG_8254-576x1024.jpeg",
+          "alt": "Example of increasing the learning level to purple (Expert)",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/07/IMG_8084-576x1024.jpeg",
+          "alt": "Example of using a lucky stone",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/07/IMG_8043-576x1024.jpeg",
+          "alt": "An example of the 4th specialty",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2022/04/IMG_0921_wm-501x1024.jpeg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2022/04/IMG_6730_wm-501x1024.jpeg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2022/04/IMG_6731_wm-501x1024.jpeg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2023/03/IMG_6424-300x200.jpeg",
+          "alt": "ルーンストーン",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/07/IMG_2457-576x1024.jpg",
+          "alt": "An example of a runestone and lucky stone drop",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "20+ Methods to Acquire Generals: vouchers, events, packages, etc.",
+      "source_type": "event_detail",
+      "source_url": "https://evonyguidewiki.com/en/how-to-get-generals-en/",
+      "fetched_url": "https://evonyguidewiki.com/en/how-to-get-generals-en/",
+      "status": 200,
+      "page_title": "Evony: The King's Return GUIDE WIKI",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "20+ Methods to Acquire Generals: vouchers, events, packages, etc. | Evony: The King's Return GUIDE WIKI Skip to the content Evony: The King's Return GUIDE WIKI ARTICLE LIST Monster Hunt Battle Mechanics (Monster, Boss)",
+        "Boss Battle Simulator (RSS balance, Win/Lose, Wounded count, Zero-wound troops, etc)",
+        "How to get generals 20+ Methods to Acquire Generals: vouchers, events, packages, etc.",
+        "Subordinate City Generals (Mayor) Debuff Comparison Tool (Red Star & Specialty can be specified)",
+        "Civilization Treasure",
+        "Art Treasure Guide (Buff list, Upgrade requirement, etc)",
+        "Battlefield: Clash of Civilizations (CoC)",
+        "Event Arctic Barbarians Invasion Guide",
+        "Alliance Competition Event",
+        "Consuming Return Event",
+        "Cleopatra’s Treasure",
+        "Dawn of Civilization / Monarch Sciences – How to complete all quests",
+        "Lucky Composing Event",
+        "Quiz Answers List: Gladiator’s Trial Event",
+        "Revelation of Horus Event",
+        "Revelation of Maya Event",
+        "Treasure Hunt Event (Pyramid)",
+        "What is KE (Kill Event)?"
+      ],
+      "inferred_event_types": [
+        "collection_album",
+        "tournament_competition",
+        "team_alliance",
+        "pve_boss",
+        "pvp_war",
+        "mini_game"
+      ],
+      "images": [
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/01/IMG_4516.jpeg",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/01/IMG_4516-700x467.jpeg",
+          "alt": "20+ Methods to Acquire Generals: vouchers, events, packages, etc.",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2022/11/IMG_2991_wm-501x1024.jpeg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2020/10/IMG_0499-e1611730049394-300x200.jpeg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2025/09/s-IMG_0098-502x1024.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2025/09/s-Picsew_20250910104448.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2025/09/s-Picsew_20250910104519.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/01/IMG_4123_wm-501x1024.jpeg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/01/IMG_4126_wm-501x1024.jpeg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/01/IMG_4133_wm-532x1024.jpeg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/01/epic_historic_premium_wm.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/01/epic_historic_glory_wm.jpg",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "event_catalog": [
+    {
+      "title": "Evony: The King's Return GUIDE WIKI",
+      "url": "https://evonyguidewiki.com/en/category/event-en/#site-content",
+      "discovered_from": "https://evonyguidewiki.com/en/category/event-en/",
+      "description": "Event | Evony: The King's Return GUIDE WIKI Skip to the content Evony: The King's Return GUIDE WIKI ARTICLE LIST Monster Hunt Battle Mechanics (Monster, Boss)",
+      "inferred_event_types": [
+        "collection_album",
+        "tournament_competition",
+        "team_alliance",
+        "pve_boss",
+        "pvp_war",
+        "mini_game"
+      ],
+      "images": []
+    },
+    {
+      "title": "Evony: The King's Return GUIDE WIKI",
+      "url": "https://evonyguidewiki.com/en/monster-battle-mechanics-en/",
+      "discovered_from": "https://evonyguidewiki.com/en/category/event-en/",
+      "description": "Battle Mechanics (Monster, Boss) | Evony: The King's Return GUIDE WIKI Skip to the content Evony: The King's Return GUIDE WIKI ARTICLE LIST Monster Hunt Battle Mechanics (Monster, Boss)",
+      "inferred_event_types": [
+        "collection_album",
+        "tournament_competition",
+        "team_alliance",
+        "pve_boss",
+        "pvp_war",
+        "mini_game"
+      ],
+      "images": [
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2020/11/hidora-e1611734213680.jpg",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/07/s-wounds_vs_num-troop_en.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/08/IMG_3506-e1630057386977-300x200.jpeg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/06/5c68f21077aef4fd7d796e8db0b1574a-300x200.png",
+          "alt": "ボスバトルシミュレーター",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2020/11/IMG_9950-300x200.jpeg",
+          "alt": "ボスを倒せる兵数",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2020/10/IMG_9487-scaled-e1636034487146-300x201.jpeg",
+          "alt": "ボスの戦力（パワー）",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Evony: The King's Return GUIDE WIKI",
+      "url": "https://evonyguidewiki.com/en/calculator-number-of-troops-to-kill-boss-en/",
+      "discovered_from": "https://evonyguidewiki.com/en/category/event-en/",
+      "description": "Boss Battle Simulator (RSS balance, Win/Lose, Wounded count, Zero-wound troops, etc) | Evony: The King's Return GUIDE WIKI Skip to the content Evony: The King's Return GUIDE WIKI ARTICLE LIST Monster Hunt Battle Mechanics (Monster, Boss)",
+      "inferred_event_types": [
+        "collection_album",
+        "tournament_competition",
+        "team_alliance",
+        "pve_boss",
+        "pvp_war",
+        "mini_game"
+      ],
+      "images": [
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/06/5c68f21077aef4fd7d796e8db0b1574a.png",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/07/IMG_2304-e1627113879367-300x200.jpg",
+          "alt": "バフ・デバフ",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2020/11/IMG_9950-300x200.jpeg",
+          "alt": "ボスを倒せる兵数",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2020/11/hidora-e1611734213680-300x200.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2020/10/IMG_9487-scaled-e1636034487146-300x201.jpeg",
+          "alt": "ボスの戦力（パワー）",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2025/11/2025-11-20-183907-300x248.jpg",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Evony: The King's Return GUIDE WIKI",
+      "url": "https://evonyguidewiki.com/en/category/event-en/#",
+      "discovered_from": "https://evonyguidewiki.com/en/category/event-en/",
+      "description": "Event | Evony: The King's Return GUIDE WIKI Skip to the content Evony: The King's Return GUIDE WIKI ARTICLE LIST Monster Hunt Battle Mechanics (Monster, Boss)",
+      "inferred_event_types": [
+        "collection_album",
+        "tournament_competition",
+        "team_alliance",
+        "pve_boss",
+        "pvp_war",
+        "mini_game"
+      ],
+      "images": []
+    },
+    {
+      "title": "Evony: The King's Return GUIDE WIKI",
+      "url": "https://evonyguidewiki.com/en/specialty-en/",
+      "discovered_from": "https://evonyguidewiki.com/en/category/event-en/",
+      "description": "Specialty Guide | Evony: The King's Return GUIDE WIKI Skip to the content Evony: The King's Return GUIDE WIKI ARTICLE LIST Monster Hunt Battle Mechanics (Monster, Boss)",
+      "inferred_event_types": [
+        "collection_album",
+        "tournament_competition",
+        "team_alliance",
+        "pve_boss",
+        "pvp_war",
+        "mini_game"
+      ],
+      "images": [
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/07/IMG_8148-e1627434294766.jpeg",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/07/IMG_8148-e1627434294766-700x466.jpeg",
+          "alt": "Specialty Guide",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/07/IMG_8039-576x1024.jpeg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/07/IMG_8040-576x1024.jpeg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/07/IMG_8254-576x1024.jpeg",
+          "alt": "Example of increasing the learning level to purple (Expert)",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/07/IMG_8084-576x1024.jpeg",
+          "alt": "Example of using a lucky stone",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Evony: The King's Return GUIDE WIKI",
+      "url": "https://evonyguidewiki.com/en/how-to-get-generals-en/",
+      "discovered_from": "https://evonyguidewiki.com/en/category/event-en/",
+      "description": "20+ Methods to Acquire Generals: vouchers, events, packages, etc. | Evony: The King's Return GUIDE WIKI Skip to the content Evony: The King's Return GUIDE WIKI ARTICLE LIST Monster Hunt Battle Mechanics (Monster, Boss)",
+      "inferred_event_types": [
+        "collection_album",
+        "tournament_competition",
+        "team_alliance",
+        "pve_boss",
+        "pvp_war",
+        "mini_game"
+      ],
+      "images": [
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/01/IMG_4516.jpeg",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/01/IMG_4516-700x467.jpeg",
+          "alt": "20+ Methods to Acquire Generals: vouchers, events, packages, etc.",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2022/11/IMG_2991_wm-501x1024.jpeg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2020/10/IMG_0499-e1611730049394-300x200.jpeg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2025/09/s-IMG_0098-502x1024.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2025/09/s-Picsew_20250910104448.jpg",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "inferred_event_type_summary": [
+    "collection_album",
+    "mini_game",
+    "pve_boss",
+    "pvp_war",
+    "team_alliance",
+    "tournament_competition"
+  ],
+  "screenshots_or_images": [
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2020/11/hidora-e1611734213680.jpg",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://evonyguidewiki.com/en/monster-battle-mechanics-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/07/s-wounds_vs_num-troop_en.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://evonyguidewiki.com/en/monster-battle-mechanics-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/08/IMG_3506-e1630057386977-300x200.jpeg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://evonyguidewiki.com/en/monster-battle-mechanics-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/06/5c68f21077aef4fd7d796e8db0b1574a-300x200.png",
+      "alt": "ボスバトルシミュレーター",
+      "kind": "page_image",
+      "source_url": "https://evonyguidewiki.com/en/monster-battle-mechanics-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2020/11/IMG_9950-300x200.jpeg",
+      "alt": "ボスを倒せる兵数",
+      "kind": "page_image",
+      "source_url": "https://evonyguidewiki.com/en/monster-battle-mechanics-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2020/10/IMG_9487-scaled-e1636034487146-300x201.jpeg",
+      "alt": "ボスの戦力（パワー）",
+      "kind": "page_image",
+      "source_url": "https://evonyguidewiki.com/en/monster-battle-mechanics-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/09/IMG_3974-e1631008062496-300x200.jpeg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://evonyguidewiki.com/en/monster-battle-mechanics-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/09/IMG_0102-e1630999426527-300x199.jpeg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://evonyguidewiki.com/en/monster-battle-mechanics-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/09/IMG_0110-e1630663917377-300x199.jpeg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://evonyguidewiki.com/en/monster-battle-mechanics-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/09/IMG_3785-e1630658825657-300x203.jpeg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://evonyguidewiki.com/en/monster-battle-mechanics-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/09/IMG_9894-e1630461256870-300x200.jpeg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://evonyguidewiki.com/en/monster-battle-mechanics-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/09/IMG_9903-e1630685935676-300x200.jpeg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://evonyguidewiki.com/en/monster-battle-mechanics-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/06/5c68f21077aef4fd7d796e8db0b1574a.png",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://evonyguidewiki.com/en/calculator-number-of-troops-to-kill-boss-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/07/IMG_2304-e1627113879367-300x200.jpg",
+      "alt": "バフ・デバフ",
+      "kind": "page_image",
+      "source_url": "https://evonyguidewiki.com/en/calculator-number-of-troops-to-kill-boss-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2020/11/hidora-e1611734213680-300x200.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://evonyguidewiki.com/en/calculator-number-of-troops-to-kill-boss-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2025/11/2025-11-20-183907-300x248.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://evonyguidewiki.com/en/calculator-number-of-troops-to-kill-boss-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/06/Screenshot_20240809-200101-129x300.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://evonyguidewiki.com/en/calculator-number-of-troops-to-kill-boss-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/06/Screenshot_20240809-200051-129x300.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://evonyguidewiki.com/en/calculator-number-of-troops-to-kill-boss-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/06/Screenshot_20240809-200027-129x300.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://evonyguidewiki.com/en/calculator-number-of-troops-to-kill-boss-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/06/Screenshot_20240809-200023-129x300.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://evonyguidewiki.com/en/calculator-number-of-troops-to-kill-boss-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/06/Screenshot_20240809-200019-129x300.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://evonyguidewiki.com/en/calculator-number-of-troops-to-kill-boss-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2024/06/Screenshot_20240809-200012-129x300.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://evonyguidewiki.com/en/calculator-number-of-troops-to-kill-boss-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/07/IMG_8148-e1627434294766.jpeg",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://evonyguidewiki.com/en/specialty-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/07/IMG_8148-e1627434294766-700x466.jpeg",
+      "alt": "Specialty Guide",
+      "kind": "page_image",
+      "source_url": "https://evonyguidewiki.com/en/specialty-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/07/IMG_8039-576x1024.jpeg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://evonyguidewiki.com/en/specialty-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/07/IMG_8040-576x1024.jpeg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://evonyguidewiki.com/en/specialty-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/07/IMG_8254-576x1024.jpeg",
+      "alt": "Example of increasing the learning level to purple (Expert)",
+      "kind": "page_image",
+      "source_url": "https://evonyguidewiki.com/en/specialty-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/07/IMG_8084-576x1024.jpeg",
+      "alt": "Example of using a lucky stone",
+      "kind": "page_image",
+      "source_url": "https://evonyguidewiki.com/en/specialty-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2021/07/IMG_8043-576x1024.jpeg",
+      "alt": "An example of the 4th specialty",
+      "kind": "page_image",
+      "source_url": "https://evonyguidewiki.com/en/specialty-en/"
+    },
+    {
+      "url": "https://evonyguidewiki.com/wp-panda/wp-content/uploads/2022/04/IMG_0921_wm-501x1024.jpeg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://evonyguidewiki.com/en/specialty-en/"
+    }
+  ],
+  "collection_warnings": [
+    "Fetch failed: https://evony-the-kings-return.fandom.com/wiki/Regular_Events"
+  ]
+}

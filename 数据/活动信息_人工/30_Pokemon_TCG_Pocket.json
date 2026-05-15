@@ -1,0 +1,1594 @@
+{
+  "rank": 30,
+  "name": "Pokemon TCG Pocket",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 Serebii 的 Pokemon TCG Pocket Events / Drop Events / 具体事件页、Bulbapedia Mass Outbreak 与 Game8/GameWith/社区攻略，按官方/资料站反复出现的活动机制归类。",
+  "source_pages": [
+    {
+      "title": "Serebii - Pokemon TCG Pocket Events",
+      "url": "https://www.serebii.net/tcgpocket/events.shtml",
+      "notes": "完整事件索引，列出 Wonder Pick Events、Drop Events、Emblem Events、Mass Outbreak Events、Bonus Week Missions、Community Week Missions、Special Missions、30 Days of Gifts 等历史和当前活动。"
+    },
+    {
+      "title": "Serebii - Pokemon TCG Pocket Drop Events",
+      "url": "https://www.serebii.net/tcgpocket/dropevents.shtml",
+      "notes": "总览 Drop Events：Solo Battle Style、专属 stamina、Event Hourglass、胜利掉落道具和 Promo booster packs。"
+    },
+    {
+      "title": "Serebii - Gible Drop Event",
+      "url": "https://www.serebii.net/tcgpocket/events/gibledropevent.shtml",
+      "notes": "具体 Drop Event 示例：对战特殊 event decks，赢取 Promo Pack A Series Vol. 5 和 Promo-A 卡。"
+    },
+    {
+      "title": "Serebii - Fire-type Mass Outbreak Event",
+      "url": "https://www.serebii.net/tcgpocket/events/fire-typemassoutbreakevent.shtml",
+      "notes": "具体 Mass Outbreak 示例：Wonder Pick 中出现 Bonus Pick / Rare Pick、限定 flair、收集/抽取任务奖励。"
+    },
+    {
+      "title": "Serebii - Mythical Island Emblem Event",
+      "url": "https://www.serebii.net/tcgpocket/events/mythicalislandemblemevent.shtml",
+      "notes": "具体 Emblem Event 示例：参与/胜利 versus battle，按 win 数获得 participation、bronze、silver、gold emblem。"
+    },
+    {
+      "title": "Bulbapedia - Mass Outbreak event",
+      "url": "https://bulbapedia.bulbagarden.net/wiki/Mass_Outbreak_event",
+      "notes": "定义 Mass Outbreak 为 TCG Pocket 限时活动类型：通过 Wonder Pick 获得特定卡和物品，并提供任务。"
+    },
+    {
+      "title": "Bulbapedia - Mission (TCG Pocket)",
+      "url": "https://m.bulbapedia.bulbagarden.net/wiki/Mission_%28TCG_Pocket%29",
+      "notes": "说明 Event Missions 是各事件内开放的限时任务。"
+    },
+    {
+      "title": "Pokemon Zone - Mass Outbreak Wonder Pick Guide",
+      "url": "https://www.pokemon-zone.com/articles/the-ultimate-guide-to-mass-outbreak-wonder-pick-events-in-pokemon-tcg-pocket/",
+      "notes": "攻略解释 Mass Outbreak 中 Rare Pick、Bonus Pick、限时 flair、event-exclusive missions、hourglasses、Shop Tickets。"
+    },
+    {
+      "title": "Limitless TCG Pocket Database",
+      "url": "https://pocket.limitlesstcg.com/",
+      "notes": "卡牌数据库和赛事/牌组资料，不是活动目录；用于确认卡牌收集、对战生态和 tournament decks 数据。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "drop_event",
+      "display_name": "Drop Events / Solo Battle 掉落活动",
+      "description": "限时 PvE Solo Battle 活动。玩家挑战特殊 event decks，胜利后掉落道具，常包含 Promo Booster Packs；活动有专属 stamina，赢得战斗时消耗，Event Hourglass 可缩短恢复时间。",
+      "examples": [
+        "Lapras ex Drop Event",
+        "Venusaur Drop Event",
+        "Blastoise Drop Event",
+        "Cresselia ex Drop Event",
+        "Gible Drop Event",
+        "Rayquaza ex Drop Event",
+        "Slowpoke Drop Event",
+        "Charcadet Drop Event",
+        "PROMO Reissue Drop Event 2025"
+      ],
+      "market_research_notes": "最典型的 PvE 活动，利用 promo 卡和 stamina 创造重复刷本动机；难度越高掉落更好。",
+      "images": []
+    },
+    {
+      "type": "wonder_pick_event",
+      "display_name": "Wonder Pick Events / Wonder Pick 活动",
+      "description": "围绕 Wonder Pick 的限时活动，通常提供特殊 promo cards、活动商店兑换物、限定配件或 missions。玩家定期查看 Wonder Pick，消耗 Wonder Stamina 或使用免费 pick 获取目标卡。",
+      "examples": [
+        "Wonder Pick Event Part 1",
+        "Wonder Pick Event Part 2",
+        "Wonder Pick Event January 2025",
+        "Wonder Pick Event February 2025",
+        "Wonder Pick Event April 2026"
+      ],
+      "market_research_notes": "利用 TCG Pocket 核心抽卡/他人开包回收机制做轻活动，不需要长时间战斗，但强依赖定时回访。",
+      "images": [
+        {
+          "url": "https://assets-prd.ignimgs.com/2024/11/08/screenshot-2024-11-08-103502-1731062165428.png?width=1280&format=jpg&auto=webp&quality=80",
+          "caption": "Pokémon TCG Pocket Adds New Rewards and ...",
+          "source_url": "https://www.ign.com/articles/pokmon-tcg-pocket-adds-new-rewards-and-missions-to-wonder-pick-event",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+wonder+pick+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket wonder pick event",
+          "width": 218,
+          "height": 232,
+          "aspect_ratio": 0.9397,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:42:55.489393+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:59.738848+00:00",
+            "load_time_ms": 1672,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 649,
+            "natural_height": 365,
+            "content_type": "image/webp",
+            "current_src": "https://assets-prd.ignimgs.com/2024/11/08/screenshot-2024-11-08-103502-1731062165428.png?width=1280&format=jpg&auto=webp&quality=80"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "图片仅展示了喵喵卡面插画的一部分，属于游戏相关内容，但无法直接体现Wonder Pick活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:51.849351+00:00"
+          }
+        },
+        {
+          "url": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/tcg-pocket/2025/11/27/01/pokemon-tcg-pocket-169-en.png",
+          "caption": "Pokémon TCG Pocket Wonder Pick Event ...",
+          "source_url": "https://www.pokemon.com/us/pokemon-news/pokemon-tcg-pocket-wonder-pick-event-torchic-and-psyduck",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+wonder+pick+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket wonder pick event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:42:55.489393+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:17:59.932119+00:00",
+            "load_time_ms": 188,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 578,
+            "natural_height": 325,
+            "content_type": "image/png",
+            "current_src": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/tcg-pocket/2025/11/27/01/pokemon-tcg-pocket-169-en.png"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "包含游戏Logo并展示了Wonder Pick活动限定的带印章Promo卡牌，属于活动的宣传海报形式。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:51.849351+00:00"
+          }
+        },
+        {
+          "url": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/tcg-pocket/2025/09/15/pokemon-tcg-pocket-169-en.png",
+          "caption": "TCG Pocket Wonder Pick Event | Pokemon.com",
+          "source_url": "https://www.pokemon.com/us/pokemon-news/miltank-and-phanpy-star-in-this-pokemon-tcg-pocket-wonder-pick-event",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+wonder+pick+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket wonder pick event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:42:55.489393+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:01.286330+00:00",
+            "load_time_ms": 1350,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 578,
+            "natural_height": 325,
+            "content_type": "image/png",
+            "current_src": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/tcg-pocket/2025/09/15/pokemon-tcg-pocket-169-en.png"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了Wonder Pick活动中特定的Miltank和Phanpy奖励卡牌宣传图，带有活动专属印章。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:51.849351+00:00"
+          }
+        },
+        {
+          "url": "https://static0.thegamerimages.com/wordpress/wp-content/uploads/wm/2025/01/bulbasaur-and-magnemite-promo-cards-in-pokemon-tcg-pocket.jpg?w=1600&h=900&fit=crop",
+          "caption": "Pokemon TCG Pocket",
+          "source_url": "https://www.thegamer.com/pokemon-tcg-pocket-squirtle-charmander-wonder-pick-event-info-rewards-guide/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+wonder+pick+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket wonder pick event",
+          "width": 1600,
+          "height": 900,
+          "aspect_ratio": 1.7778,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:42:55.489393+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:03.239100+00:00",
+            "load_time_ms": 1948,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 900,
+            "content_type": "image/avif",
+            "current_src": "https://static0.thegamerimages.com/wordpress/wp-content/uploads/wm/2025/01/bulbasaur-and-magnemite-promo-cards-in-pokemon-tcg-pocket.jpg?w=1600&h=900&fit=crop"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了活动专属的Charmander和Squirtle卡牌宣传图，卡面印有Wonder Pick活动标记。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:51.849351+00:00"
+          }
+        },
+        {
+          "url": "https://static0.thegamerimages.com/wordpress/wp-content/uploads/wm/2025/01/squirtle-and-charmander-wonder-pick-event-shop-items-in-pokemon-tcg-pocket.jpg?q=70&fit=crop&w=825&dpr=1",
+          "caption": "PROMO Reissue Wonder Pick Event 2025 ...",
+          "source_url": "https://www.thegamer.com/pokemon-tcg-pocket-squirtle-charmander-wonder-pick-event-info-rewards-guide/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+wonder+pick+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket wonder pick event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:42:55.489393+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:03.645926+00:00",
+            "load_time_ms": 402,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 825,
+            "natural_height": 519,
+            "content_type": "image/avif",
+            "current_src": "https://static0.thegamerimages.com/wordpress/wp-content/uploads/wm/2025/01/squirtle-and-charmander-wonder-pick-event-shop-items-in-pokemon-tcg-pocket.jpg?q=70&fit=crop&w=825&dpr=1"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展现了实际的活动商店兑换界面，包含活动标题Wonder Pick Event、时限、商品名称及消耗资源。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:51.849351+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "mass_outbreak_event",
+      "display_name": "Mass Outbreak Events / 属性大量发生",
+      "description": "Wonder Pick 的特殊变体，指定属性或主题的卡更容易出现在 Bonus Pick / Rare Pick 中。Bonus Pick 通常免费但卡稀有度较低，Rare Pick 常要求 3 Wonder Stamina 并至少含高稀有目标；同时开放收集任务、Shop Tickets、Wonder Hourglass 和限定 flair。",
+      "examples": [
+        "Fire-type Mass Outbreak Event",
+        "Lightning-type Mass Outbreak Event",
+        "Psychic-type Mass Outbreak Event",
+        "Darkness-type Mass Outbreak Event",
+        "Grass-type Mass Outbreak Event",
+        "Fighting-type Mass Outbreak Event",
+        "Metal-type Mass Outbreak Event",
+        "Ultra Beast Mass Outbreak Event"
+      ],
+      "market_research_notes": "这是 collection gap filler：围绕属性、ex 卡或 meta 卡做短时收集窗口，同时用 Wonder Stamina 驱动资源消耗。",
+      "images": [
+        {
+          "url": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/tcg-pocket/2025/02/21/pokemon-tcg-pocket-169-en.png",
+          "caption": "Trading Card Game Pocket | Pokemon.com",
+          "source_url": "https://www.pokemon.com/us/pokemon-news/darkness-type-pokemon-mass-outbreak-in-pokemon-trading-card-game-pocket",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+mass+outbreak+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket mass outbreak event",
+          "width": 299,
+          "height": 169,
+          "aspect_ratio": 1.7692,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:43:31.941013+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:03.819500+00:00",
+            "load_time_ms": 169,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 578,
+            "natural_height": 327,
+            "content_type": "image/png",
+            "current_src": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/tcg-pocket/2025/02/21/pokemon-tcg-pocket-169-en.png"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图片展示了Darkness属性卡牌，对应Darkness-type Mass Outbreak Event的宣传图，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:56.035569+00:00"
+          }
+        },
+        {
+          "url": "https://ptcgpocket.gg/wp-content/uploads/sites/51/2024/11/Pokemon-TCG-Pocket-Fire-Pokemon-Mass-Outbreak-Event.jpg",
+          "caption": "Fire Pokémon Mass Outbreak Event ...",
+          "source_url": "https://ptcgpocket.gg/fire-pokemon-mass-outbreak-event/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+mass+outbreak+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket mass outbreak event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:43:31.941013+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:06.130432+00:00",
+            "load_time_ms": 2305,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://ptcgpocket.gg/wp-content/uploads/sites/51/2024/11/Pokemon-TCG-Pocket-Fire-Pokemon-Mass-Outbreak-Event.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片明确标识为Fire Pokémon Mass Outbreak Event，且右侧手机模型内展示了Wonder Pick活动的实际玩法操作界面截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:56.035569+00:00"
+          }
+        },
+        {
+          "url": "https://assets.newsweek.com/wp-content/uploads/2025/08/2592856-pokemon-tcg-pocket-darkness-event.jpg?w=1600&quality=80&webp=1",
+          "caption": "TCG Pocket Darkness Mass Outbreak Event ...",
+          "source_url": "https://www.newsweek.com/entertainment/video-games/guide-all-missions-rewards-pokemon-tcg-pocket-darkness-mass-outbreak-event-2034254",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+mass+outbreak+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket mass outbreak event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:43:31.941013+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:07.745402+00:00",
+            "load_time_ms": 1609,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/webp",
+            "current_src": "https://assets.newsweek.com/wp-content/uploads/2025/08/2592856-pokemon-tcg-pocket-darkness-event.jpg?w=1600&quality=80&webp=1"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "虽然卡牌属于该游戏，但仅为单一卡牌特写，虽背景有活动相关卡牌，但更接近通用宣传图或卡牌展示。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:56.035569+00:00"
+          }
+        },
+        {
+          "url": "https://pbs.twimg.com/media/G39lfu1XsAAoPki.jpg",
+          "caption": "A new Mass Outbreak event has started!",
+          "source_url": "https://x.com/PokemonTCGP/status/1981604067999727874",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+mass+outbreak+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket mass outbreak event",
+          "width": 201,
+          "height": 251,
+          "aspect_ratio": 0.8008,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:43:31.941013+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:08.011809+00:00",
+            "load_time_ms": 261,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 960,
+            "natural_height": 1200,
+            "content_type": "image/jpeg",
+            "current_src": "https://pbs.twimg.com/media/G39lfu1XsAAoPki.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "包含活动标题Parallel Foil Cards Mass Outbreak Event和时间日期，属于典型的活动宣传海报。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:20:56.035569+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "emblem_event",
+      "display_name": "Emblem Events / PvP 胜场徽章活动",
+      "description": "限时 versus battle 活动。玩家参与和赢得 PvP 对战完成任务，并按胜场获得 participation、bronze、silver、gold 等徽章。",
+      "examples": [
+        "Genetic Apex Emblem Event 1",
+        "Genetic Apex SP Emblem Event 1",
+        "Mythical Island Emblem Event",
+        "Space-Time Smackdown Emblem Event",
+        "Triumphant Light SP Emblem Event",
+        "Pulsing Aura Emblem Event",
+        "Mega Shine Emblem Event"
+      ],
+      "market_research_notes": "把收藏型卡牌游戏拉到 PvP 活跃峰值，奖励多为展示性徽章和资源，适合促使玩家构筑/优化卡组。",
+      "images": [
+        {
+          "url": "https://assetsio.gnwcdn.com/Pokemon_TCG_Pocket_Genetic_Apex_Emblem_Event_1_Header.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+          "caption": "TCG Pocket Genetic Apex Emblem Event ...",
+          "source_url": "https://www.eurogamer.net/pokemon-tcg-pocket-genetic-apex-emblem-event-1-missions-rewards",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+emblem+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket emblem event",
+          "width": 1200,
+          "height": 630,
+          "aspect_ratio": 1.9048,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:43:53.897044+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:08.447557+00:00",
+            "load_time_ms": 429,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 630,
+            "content_type": "image/webp",
+            "current_src": "https://assetsio.gnwcdn.com/Pokemon_TCG_Pocket_Genetic_Apex_Emblem_Event_1_Header.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了活动奖励徽章的特写图，属于本活动的宣传/素材图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:00.118186+00:00"
+          }
+        },
+        {
+          "url": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/tcg-pocket/2025/11/07/pokemon-tcg-pocket-169-en.png",
+          "caption": "Mega Rising Emblem Event Is Underway in ...",
+          "source_url": "https://www.pokemon.com/us/pokemon-news/mega-rising-emblem-event-is-underway-in-pokemon-tcg-pocket",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+emblem+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket emblem event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:43:53.897044+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:09.626968+00:00",
+            "load_time_ms": 1174,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 578,
+            "natural_height": 325,
+            "content_type": "image/png",
+            "current_src": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/tcg-pocket/2025/11/07/pokemon-tcg-pocket-169-en.png"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "带有游戏Logo和活动徽章阶梯的官方宣传KV图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:00.118186+00:00"
+          }
+        },
+        {
+          "url": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/11/pokemontcg-pocket.jpg?w=1600&h=900&fit=crop",
+          "caption": "Genetic Apex Emblem Event Guide for ...",
+          "source_url": "https://gamerant.com/pokemon-tcg-pocket-genetic-apex-emblem-event-1-guide-rewards-end-time/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+emblem+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket emblem event",
+          "width": 1600,
+          "height": 900,
+          "aspect_ratio": 1.7778,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:43:53.897044+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:11.480882+00:00",
+            "load_time_ms": 1847,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 900,
+            "content_type": "image/avif",
+            "current_src": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/11/pokemontcg-pocket.jpg?w=1600&h=900&fit=crop"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "媒体文章的宣传海报，展示了活动徽章，属于非实际玩法的封面图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:00.118186+00:00"
+          }
+        },
+        {
+          "url": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-tcg-pocket/0/0e/Emblem-event-1.png",
+          "caption": "Pokemon TCG Pocket Genetic Apex Emblem ...",
+          "source_url": "https://www.ign.com/wikis/pokemon-tcg-pocket/Pokemon_TCG_Pocket_Genetic_Apex_Emblem_Event_1",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+emblem+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket emblem event",
+          "width": 397,
+          "height": 127,
+          "aspect_ratio": 3.126,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:43:53.897044+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:13.033021+00:00",
+            "load_time_ms": 1548,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1197,
+            "natural_height": 384,
+            "content_type": "image/webp",
+            "current_src": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-tcg-pocket/0/0e/Emblem-event-1.png"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "活动的背景Header图，结合了棋盘装饰和活动奖励徽章素材。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:00.118186+00:00"
+          }
+        },
+        {
+          "url": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/wm/2024/11/pokemon-tcg-pocket-genetic-apex-emblem-event-1.jpg?q=49&fit=crop&w=825&dpr=2",
+          "caption": "Triumphant Light SP Emblem Event ...",
+          "source_url": "https://gamerant.com/pokemon-tcg-pocket-genetic-apex-emblem-event-1-guide-rewards-end-time/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+emblem+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket emblem event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:43:53.897044+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:13.655013+00:00",
+            "load_time_ms": 616,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1650,
+            "natural_height": 825,
+            "content_type": "image/avif",
+            "current_src": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/wm/2024/11/pokemon-tcg-pocket-genetic-apex-emblem-event-1.jpg?q=49&fit=crop&w=825&dpr=2"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了活动实际任务列表（versus battles任务）和徽章选择界面，属于实际玩法界面截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:00.118186+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "event_missions",
+      "display_name": "Event Missions / 限时任务",
+      "description": "各事件内开放的限时任务，包括参与 battle、赢得 battle、Wonder Pick 次数、收集指定属性卡、清 mission 数等，奖励 Pack Hourglass、Wonder Hourglass、Shop Tickets、Shinedust 等。",
+      "examples": [
+        "New Year Event Missions",
+        "Holiday Event Missions",
+        "Bonus Week Missions",
+        "Community Week Missions",
+        "Special Missions 2025",
+        "ex Starter Deck Missions"
+      ],
+      "market_research_notes": "Event Missions 是横跨所有活动的任务层，把抽卡、收集、PvE、PvP 行为转成可量化目标。",
+      "images": [
+        {
+          "url": "https://ptcgpocket.gg/wp-content/uploads/sites/51/2024/12/Holiday-Event-Missions.jpg",
+          "caption": "Holiday Event Missions - Pokémon TCG ...",
+          "source_url": "https://ptcgpocket.gg/holiday-event-missions/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+event+missions",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket event missions",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:44:16.439041+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:14.050216+00:00",
+            "load_time_ms": 389,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://ptcgpocket.gg/wp-content/uploads/sites/51/2024/12/Holiday-Event-Missions.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图是 Holiday Event Missions 的官方宣传图，展示了活动奖励明细和时间，属于无实际玩法的宣传海报。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:05.492988+00:00"
+          }
+        },
+        {
+          "url": "https://ptcgpocket.gg/wp-content/uploads/sites/51/2024/12/Holiday-Event-Missions-1024x576.jpg",
+          "caption": "Where can I find event missions? : r/PTCGP",
+          "source_url": "https://ptcgpocket.gg/holiday-event-missions/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+event+missions",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket event missions",
+          "width": 1024,
+          "height": 576,
+          "aspect_ratio": 1.7778,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:44:16.439041+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:14.933721+00:00",
+            "load_time_ms": 879,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1024,
+            "natural_height": 576,
+            "content_type": "image/jpeg",
+            "current_src": "https://ptcgpocket.gg/wp-content/uploads/sites/51/2024/12/Holiday-Event-Missions-1024x576.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图与第一张相同，是 Holiday Event Missions 的官方宣传图，展示奖励信息，无实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:05.492988+00:00"
+          }
+        },
+        {
+          "url": "https://sm.ign.com/t/ign_pk/news/p/pokemon-tc/pokemon-tcg-pocket-adds-new-rewards-and-missions-to-wonder-p_tkkn.1200.jpg",
+          "caption": "Pokémon TCG Pocket Adds New Rewards and ...",
+          "source_url": "https://pk.ign.com/pokemon-trading-card-game-pocket/233064/news/pokemon-tcg-pocket-adds-new-rewards-and-missions-to-wonder-pick-event",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+event+missions",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket event missions",
+          "width": 218,
+          "height": 232,
+          "aspect_ratio": 0.9397,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:44:16.439041+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:16.582441+00:00",
+            "load_time_ms": 1642,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 649,
+            "natural_height": 365,
+            "content_type": "image/webp",
+            "current_src": "https://sm.ign.com/t/ign_pk/news/p/pokemon-tc/pokemon-tcg-pocket-adds-new-rewards-and-missions-to-wonder-p_tkkn.1200.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "图片仅展示了喵喵卡面局部，虽来源于相关报道，但未直接展示任务或活动信息，属于通用游戏内素材。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:05.492988+00:00"
+          }
+        },
+        {
+          "url": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/tcg-pocket/2025/12/25/pokemon-tcg-pocket-169-en.png",
+          "caption": "Trading Card Game Pocket Holiday 2025 ...",
+          "source_url": "https://www.pokemon.com/us/pokemon-news/pokemon-trading-card-game-pocket-holiday-2025-event-missions-underway",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+event+missions",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket event missions",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:44:16.439041+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:17.271660+00:00",
+            "load_time_ms": 684,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 578,
+            "natural_height": 325,
+            "content_type": "image/png",
+            "current_src": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/tcg-pocket/2025/12/25/pokemon-tcg-pocket-169-en.png"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图中展示了卡包和沙漏奖励，并带有游戏Logo，属于 Holiday 2025 活动的一般性宣传图，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:05.492988+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "special_drop_reissue",
+      "display_name": "Special / PROMO Reissue Drop Events",
+      "description": "复刻型 Drop Event，通常集中开放过去 Drop Event 的最终 decks 或 promo packs，并通过 special tickets 兑换历史 promo cards。",
+      "examples": [
+        "PROMO Reissue Drop Event 2025",
+        "Special Drop Event 2026"
+      ],
+      "market_research_notes": "解决新玩家错过 promo 卡的问题，同时复用已有 PvE 内容和收集需求。",
+      "images": [
+        {
+          "url": "https://www.serebii.net/tcgpocket/promoreissuedropevent2025.jpg",
+          "caption": "PROMO Reissue Drop Event 2025 - Pokémon ...",
+          "source_url": "https://www.serebii.net/tcgpocket/events/promoreissuedropevent2025.shtml",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+special+drop+reissue",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket special drop reissue",
+          "width": 371,
+          "height": 136,
+          "aspect_ratio": 2.7279,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:44:39.576145+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:18.442971+00:00",
+            "load_time_ms": 1166,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 235,
+            "content_type": "image/jpeg",
+            "current_src": "https://www.serebii.net/tcgpocket/promoreissuedropevent2025.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图展示了活动相关的Promo限定卡牌（如带有活动标识的Lapras EX），属于活动的宣传海报图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:09.734931+00:00"
+          }
+        },
+        {
+          "url": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/tcg-pocket/2025/10/30/inline/01.png",
+          "caption": "Pokémon TCG Pocket's 1st Anniversary ...",
+          "source_url": "https://www.pokemon.com/us/pokemon-news/pokemon-tcg-pockets-1st-anniversary-celebration-event",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+special+drop+reissue",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket special drop reissue",
+          "width": 394,
+          "height": 128,
+          "aspect_ratio": 3.0781,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:44:39.576145+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:18.597315+00:00",
+            "load_time_ms": 146,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 578,
+            "natural_height": 188,
+            "content_type": "image/png",
+            "current_src": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/tcg-pocket/2025/10/30/inline/01.png"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "虽然是游戏的周年庆卡牌展示图，但并未直接体现出是Special Drop Reissue活动特定的内容，更偏向通用的游戏品牌宣传。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:09.734931+00:00"
+          }
+        },
+        {
+          "url": "https://www.serebii.net/tcgpocket/specialdropevent2026.jpg",
+          "caption": "Special Drop Event 2026 - Pokémon TCG ...",
+          "source_url": "https://www.serebii.net/tcgpocket/events/specialdropevent2026.shtml",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+special+drop+reissue",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket special drop reissue",
+          "width": 319,
+          "height": 158,
+          "aspect_ratio": 2.019,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:44:39.576145+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:19.069053+00:00",
+            "load_time_ms": 463,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 728,
+            "natural_height": 360,
+            "content_type": "image/jpeg",
+            "current_src": "https://www.serebii.net/tcgpocket/specialdropevent2026.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了2026年Special Drop活动中预期的奖励卡牌及饰品，属于活动宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:09.734931+00:00"
+          }
+        },
+        {
+          "url": "https://www.screenhype.co.uk/wp-content/uploads/2025/10/Screenshot_20251030-191322.png",
+          "caption": "Pokémon TCG Pocket Promo Series A - All ...",
+          "source_url": "https://www.screenhype.co.uk/pokemon-tcg-pocket-promo-series-a-all-cards-in-each-volume/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+special+drop+reissue",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket special drop reissue",
+          "width": 290,
+          "height": 174,
+          "aspect_ratio": 1.6667,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:44:39.576145+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:22.057766+00:00",
+            "load_time_ms": 2983,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 821,
+            "content_type": "image/png",
+            "current_src": "https://www.screenhype.co.uk/wp-content/uploads/2025/10/Screenshot_20251030-191322.png"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是Promo Series A系列所有卡牌的列表展示图，属于游戏的通用卡牌图鉴展示，而非特定活动的玩法或封面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:09.734931+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "login_gift_campaign",
+      "display_name": "Login Gifts / Gift Campaigns / 登录赠礼",
+      "description": "限时登录或纪念活动，向玩家发放 Pack Hourglass、Wonder Hourglass、promo card、Trade Hourglass、display board 等资源或装饰。",
+      "examples": [
+        "30 Days of Gifts",
+        "New Year Event Missions",
+        "Holiday Event Missions",
+        "Summer event rewards"
+      ],
+      "market_research_notes": "轻量回流活动，常与节日、周年、扩展包发布或大型节点配套。",
+      "images": [
+        {
+          "url": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/wm/2026/02/pokemon-tcg-pocket-gardevoir-holding-pack-hourglass.jpg?w=1600&h=900&fit=crop",
+          "caption": "Pokemon TCG Pocket Reveals New Login ...",
+          "source_url": "https://gamerant.com/pokemon-tcg-pocket-30th-anniversary-login-event-rewards/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+login+gift+campaign",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket login gift campaign",
+          "width": 1600,
+          "height": 900,
+          "aspect_ratio": 1.7778,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:45:02.458936+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:22.912998+00:00",
+            "load_time_ms": 849,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 900,
+            "content_type": "image/avif",
+            "current_src": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/wm/2026/02/pokemon-tcg-pocket-gardevoir-holding-pack-hourglass.jpg?w=1600&h=900&fit=crop"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了游戏内角色沙奈朵和活动道具Pack Hourglass，背景为节日氛围，属于活动的宣传CG图或Key Art。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:12.900899+00:00"
+          }
+        },
+        {
+          "url": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/02/pokemon-tcg-pocket-30-days-of-gifts-day-1-rewards.jpg?q=49&fit=contain&w=1600&h=900&dpr=2",
+          "caption": "Holiday Campaign Event Missions ...",
+          "source_url": "https://gamerant.com/pokemon-tcg-pocket-30th-anniversary-login-event-rewards/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+login+gift+campaign",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket login gift campaign",
+          "width": 1600,
+          "height": 900,
+          "aspect_ratio": 1.7778,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:45:02.458936+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:23.341389+00:00",
+            "load_time_ms": 423,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 900,
+            "content_type": "image/avif",
+            "current_src": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/02/pokemon-tcg-pocket-30-days-of-gifts-day-1-rewards.jpg?q=49&fit=contain&w=1600&h=900&dpr=2"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图片展示了完成活动任务后的任务结算或奖励获取界面（Mission Complete），显示了具体的装饰性奖励内容，属于实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:12.900899+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ranked_match_season",
+      "display_name": "Ranked Match / 对战赛季",
+      "description": "资料显示 TCG Pocket 已加入 ranked competitive online battles 和 leaderboard；与 Emblem Event 不同，Ranked 更像常驻/赛季化竞技模式。",
+      "examples": [
+        "Ranked Match",
+        "competitive online battles",
+        "leaderboard"
+      ],
+      "market_research_notes": "Ranked 提供长期 PvP 目标，和 Emblem Event 的短期胜场徽章活动形成互补。",
+      "images": [
+        {
+          "url": "https://media.pocketmonsters.net/news/8568/2.png",
+          "caption": "TCG Pocket - Ranked Match Season A2b ...",
+          "source_url": "https://www.pocketmonsters.net/news/8568",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+ranked+match+season",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket ranked match season",
+          "width": 280,
+          "height": 180,
+          "aspect_ratio": 1.5556,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:45:40.795364+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:25.734360+00:00",
+            "load_time_ms": 2386,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 872,
+            "natural_height": 560,
+            "content_type": "image/png",
+            "current_src": "https://media.pocketmonsters.net/news/8568/2.png"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了天梯赛赛季A2b的段位图标进度条，属于活动相关的展示图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:17.093576+00:00"
+          }
+        },
+        {
+          "url": "https://ptcgpocket.gg/wp-content/uploads/sites/51/2025/10/555001085_17924433666116210_3292097297066796635_n.jpg",
+          "caption": "Ranked Match Season A4b - Ranking Guide ...",
+          "source_url": "https://ptcgpocket.gg/ranked-match-season-a4b-ranking-guide-all-rewards/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+ranked+match+season",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket ranked match season",
+          "width": 275,
+          "height": 183,
+          "aspect_ratio": 1.5027,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:45:40.795364+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:26.426878+00:00",
+            "load_time_ms": 687,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1536,
+            "natural_height": 1024,
+            "content_type": "image/jpeg",
+            "current_src": "https://ptcgpocket.gg/wp-content/uploads/sites/51/2025/10/555001085_17924433666116210_3292097297066796635_n.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了天梯赛赛季A4b的各种段位奖杯和徽章素材，属于活动装饰或奖励示意图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:17.093576+00:00"
+          }
+        },
+        {
+          "url": "https://media.pocketmonsters.net/news/8568/main.jpg",
+          "caption": "TCG Pocket - Ranked Match Season A2b ...",
+          "source_url": "https://www.pocketmonsters.net/news/8568",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+ranked+match+season",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket ranked match season",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:45:40.795364+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:27.061356+00:00",
+            "load_time_ms": 622,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://media.pocketmonsters.net/news/8568/main.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图片展示了含有Ranked Matches入口的游戏内实际界面截图以及段位进度条。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:17.093576+00:00"
+          }
+        },
+        {
+          "url": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/tcg-pocket/2025/11/27/02/pokemon-tcg-pocket-169-en.png",
+          "caption": "Trading Card Game Pocket | Pokemon.com",
+          "source_url": "https://www.pokemon.com/us/pokemon-news/mega-rising-ranked-matches-have-begun-in-pokemon-trading-card-game-pocket",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+ranked+match+season",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket ranked match season",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:45:40.795364+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:27.197320+00:00",
+            "load_time_ms": 128,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 578,
+            "natural_height": 325,
+            "content_type": "image/png",
+            "current_src": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/tcg-pocket/2025/11/27/02/pokemon-tcg-pocket-169-en.png"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "属于该游戏的通用品牌宣传图，未体现天梯对战赛季的特定活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:17.093576+00:00"
+          }
+        },
+        {
+          "url": "https://s3.amazonaws.com/media.pokemon-zone.com/news/original_images/ranked-match-guide.webp",
+          "caption": "Ranked Matches guide for Pokémon TCG ...",
+          "source_url": "https://www.pokemon-zone.com/articles/ranked-match-guide-tcg-pocket/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+ranked+match+season",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket ranked match season",
+          "width": 260,
+          "height": 194,
+          "aspect_ratio": 1.3402,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:45:40.795364+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:29.309859+00:00",
+            "load_time_ms": 2107,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 512,
+            "content_type": "image/webp",
+            "current_src": "https://s3.amazonaws.com/media.pokemon-zone.com/news/original_images/ranked-match-guide.webp"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了天梯分段阶梯的示意图，属于无玩法界面的活动介绍宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:17.093576+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "premium_pass",
+      "display_name": "Premium Pass / Premium Missions",
+      "description": "Premium Pass 是月度订阅型权益，可额外开包；相关资料中还出现 Premium Missions / pass-related missions。",
+      "examples": [
+        "Premium Pass",
+        "Premium Missions"
+      ],
+      "market_research_notes": "这是主要订阅商业化层，不完全等同限时活动，但会与 missions 和资源获取节奏交织。",
+      "images": [
+        {
+          "url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2024/10/jlee_241030_1001_ptcgp_pass.jpg?w=1600&h=900&fit=crop",
+          "caption": "TCG Pocket Premium Pass worth ...",
+          "source_url": "https://www.polygon.com/pokemon-tcg-pocket-guides/473299/premium-pass-worth-it-free-trial/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+premium+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket premium pass",
+          "width": 1600,
+          "height": 900,
+          "aspect_ratio": 1.7778,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:46:20.620452+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:31.209234+00:00",
+            "load_time_ms": 1893,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 900,
+            "content_type": "image/avif",
+            "current_src": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2024/10/jlee_241030_1001_ptcgp_pass.jpg?w=1600&h=900&fit=crop"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图片展示了Premium Pass的订阅会员卡资产图，属于活动/订阅相关的宣传图示。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:21.198667+00:00"
+          }
+        },
+        {
+          "url": "https://s3.amazonaws.com/media.pokemon-zone.com/news/original_images/PASS_PREMIUM_Yzq7xTQ.png",
+          "caption": "Premium Tickets in Pokémon TCG Pocket ...",
+          "source_url": "https://www.pokemon-zone.com/articles/premium-pass/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+premium+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket premium pass",
+          "width": 261,
+          "height": 193,
+          "aspect_ratio": 1.3523,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:46:20.620452+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:32.054592+00:00",
+            "load_time_ms": 840,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 486,
+            "natural_height": 359,
+            "content_type": "image/png",
+            "current_src": "https://s3.amazonaws.com/media.pokemon-zone.com/news/original_images/PASS_PREMIUM_Yzq7xTQ.png"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "Premium Pass高级通行证的标志性卡片素材图，无实际玩法操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:21.198667+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/new-premium-pass-accessories-and-card-april-v0-d5vcb4ut6xre1.jpeg?auto=webp&s=42fc00bfade4f3cfeb8f55398c971a4696fbbf1b",
+          "caption": "Is the Pokemon TCG Pocket Premium Pass ...",
+          "source_url": "https://www.reddit.com/r/PTCGP/comments/1jnqwkz/new_premium_pass_accessories_and_card_april/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+premium+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket premium pass",
+          "width": 168,
+          "height": 300,
+          "aspect_ratio": 0.56,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:46:20.620452+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:33.488659+00:00",
+            "load_time_ms": 1426,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2048,
+            "natural_height": 1593,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/new-premium-pass-accessories-and-card-april-v0-d5vcb4ut6xre1.jpeg?auto=webp&s=42fc00bfade4f3cfeb8f55398c971a4696fbbf1b"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "展示了Premium Pass订阅奖励中的特定卡牌和配件素材预览，属于宣传海报性质。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:21.198667+00:00"
+          }
+        },
+        {
+          "url": "https://ptcgpocket.gg/wp-content/uploads/sites/51/2025/05/May-2025-Premium-Pass-New-Promo-Mimikyu-Missions-All-Rewards.jpg",
+          "caption": "Promo Mimikyu, Missions & All Rewards ...",
+          "source_url": "https://ptcgpocket.gg/premium-pass-may-2025/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+premium+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket premium pass",
+          "width": 201,
+          "height": 251,
+          "aspect_ratio": 0.8008,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T06:46:20.620452+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:33.770214+00:00",
+            "load_time_ms": 272,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 1350,
+            "content_type": "image/jpeg",
+            "current_src": "https://ptcgpocket.gg/wp-content/uploads/sites/51/2025/05/May-2025-Premium-Pass-New-Promo-Mimikyu-Missions-All-Rewards.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "带有官方标题'Premium Pass Benefits Update'的宣传图，展示了该订阅项下的新奖励预览。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:21.198667+00:00"
+          }
+        },
+        {
+          "url": "https://media.pokemon-zone.com/news/original_images/premium-pass-tcg-pocket_q657VFP.webp",
+          "caption": "Premium Tickets in Pokémon TCG Pocket ...",
+          "source_url": "https://www.pokemon-zone.com/articles/premium-pass/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+premium+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket premium pass",
+          "width": 260,
+          "height": 194,
+          "aspect_ratio": 1.3402,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:46:20.620452+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:34.967097+00:00",
+            "load_time_ms": 1188,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 512,
+            "content_type": "image/webp",
+            "current_src": "https://media.pokemon-zone.com/news/original_images/premium-pass-tcg-pocket_q657VFP.webp"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "Premium Pass相关的宣传背景图与会员卡素材，属于非玩法界面的活动资源图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:21.198667+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "new_set_release_cycle",
+      "display_name": "New Expansion / New Set Release Cycle / 新卡包周期",
+      "description": "Serebii 事件列表和卡牌数据库显示新扩展包、mini set 与活动密集绑定。新卡包发布通常伴随 Wonder Pick、Drop、Emblem、Special Missions 等活动。",
+      "examples": [
+        "Genetic Apex",
+        "Mythical Island",
+        "Space-Time Smackdown",
+        "Triumphant Light",
+        "Shining Revelry",
+        "Celestial Guardians",
+        "Eevee Grove",
+        "Mega Rising",
+        "Pulsing Aura"
+      ],
+      "market_research_notes": "TCG Pocket 的活动节奏高度围绕新卡集合和 meta 变化设计；活动既服务收集，也服务 PvP 构筑更新。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/new-expansion-dates-v0-vy0vs8gifwzd1.jpeg?auto=webp&s=98aae3d77b89e0887ba190ee0d3bc104c478cdf6",
+          "caption": "New Expansion Dates : r/PTCGP",
+          "source_url": "https://www.reddit.com/r/PTCGP/comments/1gnd8d7/new_expansion_dates/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+new+set+release+cycle",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket new set release cycle",
+          "width": 218,
+          "height": 231,
+          "aspect_ratio": 0.9437,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:46:52.507614+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:35.144595+00:00",
+            "load_time_ms": 171,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1320,
+            "natural_height": 1394,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/new-expansion-dates-v0-vy0vs8gifwzd1.jpeg?auto=webp&s=98aae3d77b89e0887ba190ee0d3bc104c478cdf6"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图展示了游戏新扩展包Genetic Apex的宣传图及发布计划，属于本活动的宣传海报类图片。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:25.985399+00:00"
+          }
+        },
+        {
+          "url": "https://ptcgpocket.gg/wp-content/uploads/sites/51/2024/11/Pokemon-TCG-Pocket-Schedule.webp",
+          "caption": "Pokémon TCG Pocket Schedule - PTCGPocket.gg",
+          "source_url": "https://ptcgpocket.gg/schedule/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+new+set+release+cycle",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket new set release cycle",
+          "width": 374,
+          "height": 135,
+          "aspect_ratio": 2.7704,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:46:52.507614+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:35.395526+00:00",
+            "load_time_ms": 247,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 550,
+            "natural_height": 309,
+            "content_type": "image/webp",
+            "current_src": "https://ptcgpocket.gg/wp-content/uploads/sites/51/2024/11/Pokemon-TCG-Pocket-Schedule.webp"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "图片展示了皮卡丘和时钟以及SCHEDULE字样，虽然caption提到是活动时间表，但图片本身是通用品牌宣传风格，未直接体现活动具体信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:25.985399+00:00"
+          }
+        },
+        {
+          "url": "https://www.dexerto.com/cdn-image/wp-content/uploads/2025/07/24/Pokemon-TCG-Pocket-all-sets-expansions.jpg",
+          "caption": "Next Pokemon TCG Pocket expansions: All ...",
+          "source_url": "https://www.dexerto.com/pokemon/next-pokemon-tcg-pocket-expansions-all-upcoming-sets-3230294/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+new+set+release+cycle",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket new set release cycle",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:46:52.507614+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:37.064421+00:00",
+            "load_time_ms": 1663,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 900,
+            "content_type": "image/avif",
+            "current_src": "https://www.dexerto.com/cdn-image/wp-content/uploads/2025/07/24/Pokemon-TCG-Pocket-all-sets-expansions.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了新卡包Genetic Apex和Space-Time Smackdown的宣传封面图，属于本活动的宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:25.985399+00:00"
+          }
+        },
+        {
+          "url": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/tcg-pocket/2025/09/25/announce/pokemon-tcg-pocket-169-en.png",
+          "caption": "TCG Pocket | Pokemon ...",
+          "source_url": "https://www.pokemon.com/us/pokemon-news/deluxe-pack-ex-is-coming-to-pokemon-tcg-pocket",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+new+set+release+cycle",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket new set release cycle",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:46:52.507614+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:37.214614+00:00",
+            "load_time_ms": 145,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 578,
+            "natural_height": 325,
+            "content_type": "image/png",
+            "current_src": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/tcg-pocket/2025/09/25/announce/pokemon-tcg-pocket-169-en.png"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图片展示了Deluxe Pack ex宣传海报，属于新卡包周期活动的宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:25.985399+00:00"
+          }
+        },
+        {
+          "url": "https://images.thedirect.com/media/article_full/arceuspokemon.jpg",
+          "caption": "Pokemon TCG Pocket Next Expansion A2a ...",
+          "source_url": "https://thedirect.com/article/pokemon-tcg-pocket-expansion-a2a-release-card",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=pokemon+tcg+pocket+new+set+release+cycle",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "pokemon tcg pocket new set release cycle",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:46:52.507614+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:38.480041+00:00",
+            "load_time_ms": 1259,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://images.thedirect.com/media/article_full/arceuspokemon.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "展示了即将推出的新卡牌Arceus V及游戏Logo，属于新扩展包内容的宣传海报。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:25.985399+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "Pokemon TCG Pocket 有 Serebii 级别的完整事件索引，本轮覆盖 Drop、Wonder Pick、Mass Outbreak、Emblem、Event Missions、复刻、登录赠礼、Ranked、Premium Pass 和新卡包周期；未处理图片。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T06:46:52.507614+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:21:25.985399+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

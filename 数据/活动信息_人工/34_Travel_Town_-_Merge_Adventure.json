@@ -1,0 +1,1606 @@
+{
+  "rank": 34,
+  "name": "Travel Town - Merge Adventure",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 Travel Town 官方 Help Center 的 Dream Quest、Fantasy Island、Board Events 文章，并补充 Travel Town (Mobile Game) Wiki 的 Events、Seasonal Cards、Treasure Hunt 页面。按 recurring event 类型归纳。",
+  "source_pages": [
+    {
+      "title": "Travel Town Support - What is Dream Quest?",
+      "url": "https://support.traveltowngame.com/hc/en-us/articles/34826180115858-What-is-Dream-Quest",
+      "notes": "官方解释 Dream Quest：限时世界地图、清路、隐藏宝藏、Golden Idol、Flags、progress bar、Prize Bag、leftover Potions/Keys 转资源。"
+    },
+    {
+      "title": "Travel Town Support - Fantasy Island Event",
+      "url": "https://support.traveltowngame.com/hc/en-us/articles/12708712511890-What-is-the-Fantasy-Island-Event",
+      "notes": "官方解释 Fantasy Island：通过订单、事件和 Mission Events 收集 tokens，在 Fantasy Island Shop 买装饰、提升 progress bar、解锁阶段和奖励。"
+    },
+    {
+      "title": "Travel Town Support - Board Events Energy and Resources",
+      "url": "https://support.traveltowngame.com/hc/en-us/articles/31856079640338-How-can-I-boost-my-Energy-and-resources-for-Board-Events",
+      "notes": "官方确认 Board Events 多日持续，核心资源来自 energy、daily missions、event challenges、special offers、in-game bonuses。"
+    },
+    {
+      "title": "Travel Town (Mobile Game) Wiki - Events",
+      "url": "https://travel-town-mobile-game.fandom.com/wiki/Events",
+      "notes": "玩家 wiki 汇总 recurring events：Daily Challenge、Weekly Goals、Fantasy Island、Seasonal Cards、Travel Pass、Star Burst，以及 Town Chase、Treasure Hunt、Race、Order Sprint、Partners、Travel Mission 等。"
+    },
+    {
+      "title": "Travel Town (Mobile Game) Wiki - Seasonal Cards Event",
+      "url": "https://travel-town-mobile-game.fandom.com/wiki/Seasonal_Cards_Event",
+      "notes": "解释 Seasonal Cards：约 56 天，18 套 x 9 张卡，common/gold cards、duplicate trade、cards rewards、jokers、splitters 等。"
+    },
+    {
+      "title": "Travel Town (Mobile Game) Wiki - Treasure Hunt Event",
+      "url": "https://travel-town-mobile-game.fandom.com/wiki/Treasure_Hunt_Event",
+      "notes": "解释 Treasure Hunt：用 keys 开 chests，寻找 Golden Idol 推进多阶段，奖励进入 reward bag，剩余 keys 转奖励。"
+    },
+    {
+      "title": "Travel Town Free Energy Links - Town Chase Event",
+      "url": "https://traveltownfreeenergylinks.com/events/town-chase/",
+      "notes": "非官方攻略，解释 Town Chase 是 1-2 日进度条活动，通过完成不同游戏动作得分。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "daily_challenge",
+      "display_name": "Daily Challenge / 每日挑战",
+      "description": "每日任务/奖励系统，奖励可能包括 scratch cards、energy、diamonds、toolbox、item box、chests、cards、joker、splitter，也常提供其他事件所需物品。",
+      "examples": [
+        "Daily Challenge",
+        "Golden Challenge"
+      ],
+      "market_research_notes": "Travel Town 的日活基础层，其他活动经常依赖它产出 key、tokens、card packs 等资源。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/eLOXvGf80lc/maxresdefault.jpg",
+          "caption": "DAILY CHALLENGE - Travel Town (Android ...",
+          "source_url": "https://www.youtube.com/watch?v=eLOXvGf80lc",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+daily+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure daily challenge",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:04:23.377520+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:50.573166+00:00",
+            "load_time_ms": 429,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/eLOXvGf80lc/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图右侧清晰展示了 Daily Challenge 活动的奖励进度条、任务目标和倒计时界面，属于实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:07.365730+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/6q-GxwWMmwg/maxresdefault.jpg",
+          "caption": "travel town - merge adventure: daily ...",
+          "source_url": "https://www.youtube.com/watch?v=6q-GxwWMmwg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+daily+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure daily challenge",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:04:23.377520+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:51.026128+00:00",
+            "load_time_ms": 447,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/6q-GxwWMmwg/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片展示的是游戏主棋盘合成界面，虽然右上角有活动入口图标，但并未展开活动具体内容，更倾向于通用玩法截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:07.365730+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/how-do-i-complete-daily-challenges-v0-1b0ypj48sh6b1.jpg?width=1080&crop=smart&auto=webp&s=a9c8149c18c9aed02a479f0d0c3a64b875d61e53",
+          "caption": "How do I complete daily challenges? : r ...",
+          "source_url": "https://www.reddit.com/r/TravelTown/comments/14bfdkc/how_do_i_complete_daily_challenges/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+daily+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure daily challenge",
+          "width": 150,
+          "height": 335,
+          "aspect_ratio": 0.4478,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:04:23.377520+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:51.185935+00:00",
+            "load_time_ms": 154,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 2400,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/how-do-i-complete-daily-challenges-v0-1b0ypj48sh6b1.jpg?width=1080&crop=smart&auto=webp&s=a9c8149c18c9aed02a479f0d0c3a64b875d61e53"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片为游戏核心合成玩法界面，上方展示的是常规订单任务，而非 Daily Challenge 的任务进度列表。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:07.365730+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "weekly_goals",
+      "display_name": "Weekly Goals / 周目标",
+      "description": "周维度目标活动，围绕订单、能量消耗和主板进度给予阶段奖励，奖励类型与 Daily Challenge 类似。",
+      "examples": [
+        "Weekly Goals",
+        "Stretch Goals"
+      ],
+      "market_research_notes": "比每日挑战周期更长，常被玩家用来规划 joker、card pack 或高价值奖励获取。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/new-weekly-goal-style-v0-4vi0wydlg7ef1.jpeg?auto=webp&s=3c4d34623747bc71d4db345ff87f513c78784cc9",
+          "caption": "New weekly goal style : r/TravelTown",
+          "source_url": "https://www.reddit.com/r/TravelTown/comments/1m5ff3c/new_weekly_goal_style/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+weekly+goals",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure weekly goals",
+          "width": 182,
+          "height": 277,
+          "aspect_ratio": 0.657,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:05:04.954940+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:51.586121+00:00",
+            "load_time_ms": 395,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1488,
+            "natural_height": 2266,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/new-weekly-goal-style-v0-4vi0wydlg7ef1.jpeg?auto=webp&s=3c4d34623747bc71d4db345ff87f513c78784cc9"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 1.0,
+            "reason": "图中有明确的 Weekly Goals 标题，展示了多项活动任务进度条、奖励轨和倒计时，属于活动实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:13.126186+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/4vi0wydlg7ef1.jpeg",
+          "caption": "New weekly goal style : r/TravelTown",
+          "source_url": "https://www.reddit.com/r/TravelTown/comments/1m5ff3c/new_weekly_goal_style/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+weekly+goals",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure weekly goals",
+          "width": 182,
+          "height": 277,
+          "aspect_ratio": 0.657,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:05:04.954940+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:51.948019+00:00",
+            "load_time_ms": 357,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1488,
+            "natural_height": 2266,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/4vi0wydlg7ef1.jpeg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 1.0,
+            "reason": "内容与图1一致，是 Weekly Goals 活动的详细任务列表和进度界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:13.126186+00:00"
+          }
+        },
+        {
+          "url": "https://scontent-hkg1-2.xx.fbcdn.net/v/t51.71878-15/527260029_1552796489027142_7508042588095131186_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a27664&_nc_ohc=SeuFzknrqxgQ7kNvwEnGgLg&_nc_oc=AdocfPUpJ2F_zfMm12chQ-Xf0bcJiOOakfLZWx58hbohjzJQKCdcQUDfjfIO8fUakk8&_nc_zt=23&_nc_ht=scontent-hkg1-2.xx&_nc_gid=C5cUzyV7ehyVdPqBJ5GRaA&_nc_ss=7c20f&oh=00_Af6sNVXk2uOOkN1ClF0HQMv8qmc98XYvDckff519iZL-0Q&oe=6A09D9F2",
+          "caption": "WEEKLY GOALS IS LIVE 🤩🥳 (lvl 17+) 𝐃𝐫𝐨𝐩 ...",
+          "source_url": "https://www.facebook.com/TravelTownGame/videos/weekly-goals-is-live-lvl-17-%F0%9D%90%83%F0%9D%90%AB%F0%9D%90%A8%F0%9D%90%A9-%F0%9D%90%9A-%F0%9D%90%A2%F0%9D%90%9F-%F0%9D%90%B2%F0%9D%90%A8%F0%9D%90%AE%F0%9D%90%AB%F0%9D%90%9E-%F0%9D%90%AB%F0%9D%90%9E%F0%9D%90%9A%F0%9D%90%9D%F0%9D%90%B2-%F0%9D%90%AD%F0%9D%90%A8-%F0%9D%90%9A%F0%9D%90%9C%F0%9D%90%A1%F0%9D%90%A2%F0%9D%90%9E%F0%9D%90%AF%F0%9D%90%9E-%F0%9D%90%9A%F0%9D%90%A5%F0%9D%90%A5-%F0%9D%90%B2%F0%9D%90%A8%F0%9D%90%AE%F0%9D%90%AB-%F0%9D%90%A0%F0%9D%90%A8%F0%9D%90%9A%F0%9D%90%A5%F0%9D%90%AC-%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%9D-/811244891229367/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+weekly+goals",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure weekly goals",
+          "width": 168,
+          "height": 299,
+          "aspect_ratio": 0.5619,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:05:04.954940+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:52.325293+00:00",
+            "load_time_ms": 370,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 1136,
+            "content_type": "image/jpeg",
+            "current_src": "https://scontent-hkg1-2.xx.fbcdn.net/v/t51.71878-15/527260029_1552796489027142_7508042588095131186_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a27664&_nc_ohc=SeuFzknrqxgQ7kNvwEnGgLg&_nc_oc=AdocfPUpJ2F_zfMm12chQ-Xf0bcJiOOakfLZWx58hbohjzJQKCdcQUDfjfIO8fUakk8&_nc_zt=23&_nc_ht=scontent-hkg1-2.xx&_nc_gid=C5cUzyV7ehyVdPqBJ5GRaA&_nc_ss=7c20f&oh=00_Af6sNVXk2uOOkN1ClF0HQMv8qmc98XYvDckff519iZL-0Q&oe=6A09D9F2"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "虽然有角色立绘遮挡，但背景清晰显示了 Weekly Goals 任务清单和进度条，属于玩法界面截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:13.126186+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/weekly-goal-v0-6h9roorld0kf1.jpeg?width=640&crop=smart&auto=webp&s=18ada4f4dc59a04d952c83aa679a5b2e85dac0d3",
+          "caption": "weekly goal : r/TravelTown",
+          "source_url": "https://www.reddit.com/r/TravelTown/comments/1muoh5o/weekly_goal/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+weekly+goals",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure weekly goals",
+          "width": 152,
+          "height": 330,
+          "aspect_ratio": 0.4606,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:05:04.954940+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:52.661288+00:00",
+            "load_time_ms": 330,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 1385,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/weekly-goal-v0-6h9roorld0kf1.jpeg?width=640&crop=smart&auto=webp&s=18ada4f4dc59a04d952c83aa679a5b2e85dac0d3"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 1.0,
+            "reason": "展示了 Weekly Goals 的具体任务（如登录、消耗能量、完成订单）、奖励信息及对应的 7 天进度图标。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:13.126186+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/new-weekly-goal-style-v0-g11fwq2218ef1.png?width=2340&format=png&auto=webp&s=e1dff620dbc0ee597167ab1271fdc867d88564dd",
+          "caption": "New weekly goal style : r/TravelTown",
+          "source_url": "https://www.reddit.com/r/TravelTown/comments/1m5ff3c/new_weekly_goal_style/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+weekly+goals",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure weekly goals",
+          "width": 152,
+          "height": 330,
+          "aspect_ratio": 0.4606,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:05:04.954940+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:53.326266+00:00",
+            "load_time_ms": 659,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2340,
+            "natural_height": 5064,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/new-weekly-goal-style-v0-g11fwq2218ef1.png?width=2340&format=png&auto=webp&s=e1dff620dbc0ee597167ab1271fdc867d88564dd"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 1.0,
+            "reason": "图片展示了不同天数（Day 1 到 Day 4）下的 Weekly Goals 任务变化和详细进度界面，属于核心玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:13.126186+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "seasonal_cards",
+      "display_name": "Seasonal Cards / 卡牌相册季",
+      "description": "约 56 天的卡牌收集活动。玩家收集 18 套、每套 9 张卡，包含 common 和 gold cards；重复卡可开启交易，其他活动会产出 card packs、joker、golden joker、splitter 等。",
+      "examples": [
+        "Seasonal Cards Event",
+        "Card Boom",
+        "Card Crush",
+        "Star Shop",
+        "Trading",
+        "Flame Cards"
+      ],
+      "market_research_notes": "长期留存主线，几乎所有短活动都可作为卡包供给或卡牌补全机会。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/seasonal-card-event-guide-v0-vpm0ljap53gf1.png?width=640&crop=smart&auto=webp&s=2ff6f1c8e8deb014323418f917df99c4ce88c5ce",
+          "caption": "Seasonal Card Event - Guide : r/TravelTown",
+          "source_url": "https://www.reddit.com/r/TravelTown/comments/1mdkvoe/seasonal_card_event_guide/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+seasonal+cards",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure seasonal cards",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:05:38.896054+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:53.459721+00:00",
+            "load_time_ms": 125,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 480,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/seasonal-card-event-guide-v0-vpm0ljap53gf1.png?width=640&crop=smart&auto=webp&s=2ff6f1c8e8deb014323418f917df99c4ce88c5ce"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了卡牌季节活动配套的Star Shop规则说明和奖励预览，属于活动介绍海报类图片，无实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:15.930196+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "fantasy_island",
+      "display_name": "Fantasy Island / 装饰岛活动",
+      "description": "玩家通过完成 orders、playing events 和 Mission Events 收集 unique tokens，在 Fantasy Island Shop 购买装饰，放置后推进 progress bar、解锁新阶段和奖励；活动结束后剩余 tokens 转奖励，岛屿保留在地图上。",
+      "examples": [
+        "Fantasy Island"
+      ],
+      "market_research_notes": "长期装饰/收集活动，把订单和活动资源导向岛屿建设，奖励和叙事展示都比单纯进度条更强。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/fantasy-island-v0-ntzc654hhndd1.jpeg?auto=webp&s=6b717b9e3ce44d63e42fd18b84fb5eaaae6635d9",
+          "caption": "fantasy island : r/TravelTown",
+          "source_url": "https://www.reddit.com/r/TravelTown/comments/1e7sjgf/fantasy_island/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+fantasy+island",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure fantasy island",
+          "width": 153,
+          "height": 330,
+          "aspect_ratio": 0.4636,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:06:27.892772+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:53.695995+00:00",
+            "load_time_ms": 230,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1283,
+            "natural_height": 2768,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/fantasy-island-v0-ntzc654hhndd1.jpeg?auto=webp&s=6b717b9e3ce44d63e42fd18b84fb5eaaae6635d9"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了Fantasy Island活动的实际装饰岛屿玩法界面及活动倒计时，包含UI元素。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:18.735420+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Q_9j-agtA74/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AG-BIACgAqKAgwIABABGCIgWShyMA8=&rs=AOn4CLBs9iSJgw5VYpcUo-00884ga6fpUQ",
+          "caption": "travel town - merge adventure : Fantasy ...",
+          "source_url": "https://www.youtube.com/watch?v=Q_9j-agtA74",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+fantasy+island",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure fantasy island",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:06:27.892772+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:54.009648+00:00",
+            "load_time_ms": 306,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/Q_9j-agtA74/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AG-BIACgAqKAgwIABABGCIgWShyMA8=&rs=AOn4CLBs9iSJgw5VYpcUo-00884ga6fpUQ"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了装饰岛活动的实际操作界面，包含购买并放置装饰物的交互弹出框。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:18.735420+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/fantasy-island-points-post-jan-2024-v0-v8wgzn67q6ec1.jpeg?auto=webp&s=378f09af8aaf2927d92b9d93c537825782295cb9",
+          "caption": "Fantasy island points post (Jan 2024 ...",
+          "source_url": "https://www.reddit.com/r/TravelTown/comments/19dniaj/fantasy_island_points_post_jan_2024/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+fantasy+island",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure fantasy island",
+          "width": 152,
+          "height": 330,
+          "aspect_ratio": 0.4606,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:06:27.892772+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:54.163383+00:00",
+            "load_time_ms": 149,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1284,
+            "natural_height": 2778,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/fantasy-island-points-post-jan-2024-v0-v8wgzn67q6ec1.jpeg?auto=webp&s=378f09af8aaf2927d92b9d93c537825782295cb9"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "详细展示了Fantasy Island活动的商店界面，包含代币、装饰品兑换、阶段进度等实际玩法元素。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:18.735420+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "dream_quest",
+      "display_name": "Dream Quest / 世界地图探索",
+      "description": "限时探索地图。玩家清除障碍、跟随红旗路径、收集 Flags 填充进度条，并在 treasure tile 网格中寻找 Golden Idol 进入下一层；奖励进入 Prize Bag，离开或完成时统一领取。",
+      "examples": [
+        "Dream Quest"
+      ],
+      "market_research_notes": "类似 Playrix 探索副玩法：地图清障 + 网格找物 + 奖励袋，适合用能量和钥匙控制活动节奏。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/JUd09-Jkgctks6QibZBPeqnpPA-6A6nMXZqAW9Fa0MKOsolbvGKSXEnuq9nxiKNCFVOT",
+          "caption": "Travel Town - Merge Adventure - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=io.randomco.travel",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+dream+quest",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure dream quest",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:06:54.106073+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:54.835109+00:00",
+            "load_time_ms": 666,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/JUd09-Jkgctks6QibZBPeqnpPA-6A6nMXZqAW9Fa0MKOsolbvGKSXEnuq9nxiKNCFVOT"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片为游戏的App图标或通用物品图，无法确认与Dream Quest活动直接相关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:23.922258+00:00"
+          }
+        },
+        {
+          "url": "https://scontent-hkg1-2.xx.fbcdn.net/v/t15.5256-10/480549940_981560246675769_3264409549977182756_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a27664&_nc_ohc=U-cSF6a0-d0Q7kNvwHuveHL&_nc_oc=Adp2xlnYcTJfJD9vYMY38o8PGpvXxYLbkAN9sYb5tB0CpDugl95__Ht_i3FT2nLSAWw&_nc_zt=23&_nc_ht=scontent-hkg1-2.xx&_nc_gid=WGD3MmPKcu2jEP2IQ8_62w&_nc_ss=7c20f&oh=00_Af6g0u0NN9YBKykxcdTtjT_Kw7bOR_LJ7lK-ZyziFACphg&oe=6A0A04EF",
+          "caption": "Travel Town - Merge Adventure ...",
+          "source_url": "https://www.facebook.com/TravelTownGame/videos/this-game-is-unbelievable/507002038736142/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+dream+quest",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure dream quest",
+          "width": 168,
+          "height": 300,
+          "aspect_ratio": 0.56,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:06:54.106073+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:55.228958+00:00",
+            "load_time_ms": 387,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 1920,
+            "content_type": "image/jpeg",
+            "current_src": "https://scontent-hkg1-2.xx.fbcdn.net/v/t15.5256-10/480549940_981560246675769_3264409549977182756_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a27664&_nc_ohc=U-cSF6a0-d0Q7kNvwHuveHL&_nc_oc=Adp2xlnYcTJfJD9vYMY38o8PGpvXxYLbkAN9sYb5tB0CpDugl95__Ht_i3FT2nLSAWw&_nc_zt=23&_nc_ht=scontent-hkg1-2.xx&_nc_gid=WGD3MmPKcu2jEP2IQ8_62w&_nc_ss=7c20f&oh=00_Af6g0u0NN9YBKykxcdTtjT_Kw7bOR_LJ7lK-ZyziFACphg&oe=6A0A04EF"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示的是游戏的主城镇建设界面，属于通用玩法展示，非Dream Quest活动的探索地图界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:23.922258+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/hQbAu4TKAfpnlJGpJBGe62dXtmni8JSTJatlo52MHSgoFapYT-uofpU78ktahJpFS6c=w526-h296-rw",
+          "caption": "Travel Town - Merge Adventure – Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=io.randomco.travel&hl=en_IN",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+dream+quest",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure dream quest",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:06:54.106073+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:55.548357+00:00",
+            "load_time_ms": 314,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 222,
+            "natural_height": 296,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/hQbAu4TKAfpnlJGpJBGe62dXtmni8JSTJatlo52MHSgoFapYT-uofpU78ktahJpFS6c=w526-h296-rw"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "典型的商店宣传海报图，展示游戏通用角色和题材，与特定活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:23.922258+00:00"
+          }
+        },
+        {
+          "url": "https://scontent-hkg4-1.xx.fbcdn.net/v/t15.5256-10/622722149_1461314315508056_3335736935238267344_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a27664&_nc_ohc=gT32LlhLqewQ7kNvwEiDGCb&_nc_oc=AdqWag_ewkyZG4PEB4upGlMmMyGgdzTMNqqvYDMVrNmggAQKCIz_JhUYcS1-u07Ok_M&_nc_zt=23&_nc_ht=scontent-hkg4-1.xx&_nc_gid=gZ7JwH6PRVJ0C10UMLEoOQ&_nc_ss=7c20f&oh=00_Af7eTQ9uQ1hWlwxwLjmhYBViMFq4A_7O7TUPjWerzvwPpA&oe=6A0A012B",
+          "caption": "Travel Town - Merge Adventure ...",
+          "source_url": "https://www.facebook.com/TravelTownGame/videos/can-you-merge-all-the-items/877055151736187/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+dream+quest",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure dream quest",
+          "width": 168,
+          "height": 300,
+          "aspect_ratio": 0.56,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:06:54.106073+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:55.879983+00:00",
+            "load_time_ms": 323,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 1920,
+            "content_type": "image/jpeg",
+            "current_src": "https://scontent-hkg4-1.xx.fbcdn.net/v/t15.5256-10/622722149_1461314315508056_3335736935238267344_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a27664&_nc_ohc=gT32LlhLqewQ7kNvwEiDGCb&_nc_oc=AdqWag_ewkyZG4PEB4upGlMmMyGgdzTMNqqvYDMVrNmggAQKCIz_JhUYcS1-u07Ok_M&_nc_zt=23&_nc_ht=scontent-hkg4-1.xx&_nc_gid=gZ7JwH6PRVJ0C10UMLEoOQ&_nc_ss=7c20f&oh=00_Af7eTQ9uQ1hWlwxwLjmhYBViMFq4A_7O7TUPjWerzvwPpA&oe=6A0A012B"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "常见的叙事型广告宣传图，虽有UI元素但属于通用推广内容，无法确定为Dream Quest活动截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:23.922258+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/JuSBvIKDuoE/maxresdefault.jpg",
+          "caption": "Travel Town - Merge Adventure - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=io.randomco.travel",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+dream+quest",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure dream quest",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:06:54.106073+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:56.289690+00:00",
+            "load_time_ms": 406,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/JuSBvIKDuoE/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示的是核心合成（Merge）棋盘界面，非Dream Quest活动的探索地图或宝藏网格界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:23.922258+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "board_events",
+      "display_name": "Board Events / 活动棋盘",
+      "description": "多日活动板。玩家用 Energy 点击 Producers 获得 event resources，完成 daily missions、event challenges、special offers 和 bonuses 来补充资源。",
+      "examples": [
+        "Board Events",
+        "Caleb's Farm",
+        "Kitchen Catch",
+        "Room Rush",
+        "Travel Mission"
+      ],
+      "market_research_notes": "独立活动板是 merge 游戏常见副玩法，和主板能量/订单互相拉动。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/board-strategy-v0-o1r8do98vw9b1.jpg?width=640&crop=smart&auto=webp&s=72c386fa183bcc668ab1ed6dd565f91dda4b7f3a",
+          "caption": "Board strategy : r/TravelTown",
+          "source_url": "https://www.reddit.com/r/TravelTown/comments/14q9imm/board_strategy/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+board+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure board events",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:07:25.530254+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:56.392718+00:00",
+            "load_time_ms": 98,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 1386,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/board-strategy-v0-o1r8do98vw9b1.jpg?width=640&crop=smart&auto=webp&s=72c386fa183bcc668ab1ed6dd565f91dda4b7f3a"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了Travel Town中的独立活动棋盘界面，具有特定的能量条、限时任务以及完全不同于主板的活动道具。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:27.656404+00:00"
+          }
+        },
+        {
+          "url": "https://media.pocketgamer.biz/images/123632/82532/olga-semykina-lead-game-designer-rnd-belka-games_l890.jpg",
+          "caption": "Deconstructing Travel Town: How to ...",
+          "source_url": "https://www.pocketgamer.biz/deconstructing-magmatic-games-travel-town/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+board+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure board events",
+          "width": 316,
+          "height": 160,
+          "aspect_ratio": 1.975,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:07:25.530254+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:58.225671+00:00",
+            "load_time_ms": 1828,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 890,
+            "natural_height": 445,
+            "content_type": "image/jpeg",
+            "current_src": "https://media.pocketgamer.biz/images/123632/82532/olga-semykina-lead-game-designer-rnd-belka-games_l890.jpg"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 1.0,
+            "reason": "图片为人物生活照，与游戏内容完全无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:27.656404+00:00"
+          }
+        },
+        {
+          "url": "https://media.pocketgamer.biz/images/123649/82532/travel-town-15_orig.webp",
+          "caption": "Deconstructing Travel Town: How to ...",
+          "source_url": "https://www.pocketgamer.biz/deconstructing-magmatic-games-travel-town/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+board+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure board events",
+          "width": 270,
+          "height": 187,
+          "aspect_ratio": 1.4439,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:07:25.530254+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:58.523768+00:00",
+            "load_time_ms": 291,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 818,
+            "natural_height": 568,
+            "content_type": "image/webp",
+            "current_src": "https://media.pocketgamer.biz/images/123649/82532/travel-town-15_orig.webp"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "展示了游戏的‘Christmas in July’活动宣传弹窗及机制介绍，虽然包含部分玩法说明，但属于宣传性质的覆盖层。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:27.656404+00:00"
+          }
+        },
+        {
+          "url": "https://media.pocketgamer.biz/images/123650/82532/travel-town-16_orig.webp",
+          "caption": "Deconstructing Travel Town: How to ...",
+          "source_url": "https://www.pocketgamer.biz/deconstructing-magmatic-games-travel-town/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+board+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure board events",
+          "width": 271,
+          "height": 186,
+          "aspect_ratio": 1.457,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:07:25.530254+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:59.522610+00:00",
+            "load_time_ms": 992,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 938,
+            "natural_height": 646,
+            "content_type": "image/webp",
+            "current_src": "https://media.pocketgamer.biz/images/123650/82532/travel-town-16_orig.webp"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片展示的是Travel Town游戏主界面的常规玩法以及庆祝关注者数量的通用Boost奖励，并非Board Events特定活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:27.656404+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "treasure_hunt",
+      "display_name": "Treasure Hunt / 开箱找 Golden Idol",
+      "description": "玩家使用 keys 打开 chests 寻找 Golden Idol。找到 Idol 后进入下一阶段，奖励进入 reward bag；活动结束后剩余 keys 转奖励。",
+      "examples": [
+        "Treasure Hunt"
+      ],
+      "market_research_notes": "开箱找目标小游戏，核心是 key 产出来源、阶段数、空箱消耗和大奖可见性。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/treasure-hunt-v0-jtv8moze599c1.jpeg?auto=webp&s=1531e7c2eb31b330187fe11211e93d142c92ad6c",
+          "caption": "Treasure Hunt : r/TravelTown",
+          "source_url": "https://www.reddit.com/r/TravelTown/comments/18tpmb0/treasure_hunt/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+treasure+hunt",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure treasure hunt",
+          "width": 153,
+          "height": 329,
+          "aspect_ratio": 0.465,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:08:12.056865+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:59.624967+00:00",
+            "load_time_ms": 97,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 2312,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/treasure-hunt-v0-jtv8moze599c1.jpeg?auto=webp&s=1531e7c2eb31b330187fe11211e93d142c92ad6c"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "该截图展示了Treasure Hunt活动的实际玩法界面，包含开箱寻找Golden Idol的机制、进度条、钥匙资源及剩余时间。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:31.171111+00:00"
+          }
+        },
+        {
+          "url": "https://external-preview.redd.it/what-is-the-worst-mini-game-in-travel-town-and-why-is-it-v0-NGQ1eXVoa2M3YnNjMcfFU9QaAc49euc97uSEsvSuaXrnMwzrat54aEgzFQF4.png?width=640&crop=smart&format=pjpg&auto=webp&s=779d54f51f71b1c70e00f113b802b9358f02c500",
+          "caption": "Travel Town and why is it Treasure Hunt ...",
+          "source_url": "https://www.reddit.com/r/TravelTown/comments/1bv0gvw/what_is_the_worst_mini_game_in_travel_town_and/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+treasure+hunt",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure treasure hunt",
+          "width": 153,
+          "height": 329,
+          "aspect_ratio": 0.465,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:08:12.056865+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:00.833038+00:00",
+            "load_time_ms": 1202,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 1373,
+            "content_type": "image/webp",
+            "current_src": "https://external-preview.redd.it/what-is-the-worst-mini-game-in-travel-town-and-why-is-it-v0-NGQ1eXVoa2M3YnNjMcfFU9QaAc49euc97uSEsvSuaXrnMwzrat54aEgzFQF4.png?width=640&crop=smart&format=pjpg&auto=webp&s=779d54f51f71b1c70e00f113b802b9358f02c500"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该截图为游戏常规的合成主界面，虽然左侧任务栏出现了活动相关的Golden Idol图标，但主体并非活动玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:31.171111+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/JUd09-Jkgctks6QibZBPeqnpPA-6A6nMXZqAW9Fa0MKOsolbvGKSXEnuq9nxiKNCFVOT",
+          "caption": "Travel Town - Merge Adventure - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=io.randomco.travel",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+treasure+hunt",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure treasure hunt",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:08:12.056865+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:54.835109+00:00",
+            "load_time_ms": 666,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/JUd09-Jkgctks6QibZBPeqnpPA-6A6nMXZqAW9Fa0MKOsolbvGKSXEnuq9nxiKNCFVOT"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为游戏的App图标或通用品牌素材，与特定活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:31.171111+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/JuSBvIKDuoE/hqdefault.jpg",
+          "caption": "Merge Treasure Hunt – Relaxing Merge ...",
+          "source_url": "https://play.google.com/store/apps/details?id=io.randomco.travel",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+treasure+hunt",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure treasure hunt",
+          "width": 177,
+          "height": 284,
+          "aspect_ratio": 0.6232,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:08:12.056865+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:01.142022+00:00",
+            "load_time_ms": 302,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 480,
+            "natural_height": 360,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/JuSBvIKDuoE/hqdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "该图展示的是通用的合成元素展示，背景模糊且无Treasure Hunt活动特有的UI或玩法元素。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:31.171111+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "town_chase_and_progress_bar",
+      "display_name": "Town Chase / Progress Bar Events",
+      "description": "1-2 日主板进度条活动。玩家通过完成订单、点击生产器、消耗能量、合成或其他指定行为获得 points/tokens，推进进度条领取阶段奖励。",
+      "examples": [
+        "Town Chase",
+        "Reward Road",
+        "Reward Runway",
+        "Order Sprint",
+        "Firework Frenzy",
+        "Taffy's Quest"
+      ],
+      "market_research_notes": "短周期进度条活动，常作为 Daily/Weekly/Card 活动的资源供给层。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/for-new-players-v0-31e0ed49r0he1.png?auto=webp&s=0a77ad541c0d5777d25344b93ae35f7a31b81af8",
+          "caption": "For new players : r/TravelTown",
+          "source_url": "https://www.reddit.com/r/TravelTown/comments/1ih53v4/for_new_players/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+town+chase+and+progress+bar",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure town chase and progress bar",
+          "width": 184,
+          "height": 274,
+          "aspect_ratio": 0.6715,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:08:43.021826+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:01.320661+00:00",
+            "load_time_ms": 173,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 1604,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/for-new-players-v0-31e0ed49r0he1.png?auto=webp&s=0a77ad541c0d5777d25344b93ae35f7a31b81af8"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "展示的是 Travel Town 的主棋盘合并玩法界面，虽然与积累资源有关，但未直接展示 Town Chase 或 Progress Bar 的活动进度条或任务界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:35.210715+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/J5g25AdYkBU/maxresdefault.jpg",
+          "caption": "Travel Town - Merge Adventure #19 ...",
+          "source_url": "https://www.youtube.com/watch?v=J5g25AdYkBU",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+town+chase+and+progress+bar",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure town chase and progress bar",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:08:43.021826+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:01.766955+00:00",
+            "load_time_ms": 440,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/J5g25AdYkBU/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "左上角展示了 Daily Challenge 的进度条（1/3），属于描述中的短周期进度条活动类型。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:35.210715+00:00"
+          }
+        },
+        {
+          "url": "https://media.pocketgamer.biz/images/123632/82532/olga-semykina-lead-game-designer-rnd-belka-games_l890.jpg",
+          "caption": "Deconstructing Travel Town: How to ...",
+          "source_url": "https://www.pocketgamer.biz/deconstructing-magmatic-games-travel-town/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+town+chase+and+progress+bar",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure town chase and progress bar",
+          "width": 316,
+          "height": 160,
+          "aspect_ratio": 1.975,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:08:43.021826+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:58.225671+00:00",
+            "load_time_ms": 1828,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 890,
+            "natural_height": 445,
+            "content_type": "image/jpeg",
+            "current_src": "https://media.pocketgamer.biz/images/123632/82532/olga-semykina-lead-game-designer-rnd-belka-games_l890.jpg"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 1.0,
+            "reason": "图片内容为人物头像，与游戏内容和活动玩法完全无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:35.210715+00:00"
+          }
+        },
+        {
+          "url": "https://media.pocketgamer.biz/images/123652/82532/travel-town-18_orig.webp",
+          "caption": "Travel Town - Merge Adventure #56 ...",
+          "source_url": "https://www.pocketgamer.biz/deconstructing-magmatic-games-travel-town/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+town+chase+and+progress+bar",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure town chase and progress bar",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:08:43.021826+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:02.337041+00:00",
+            "load_time_ms": 564,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1265,
+            "natural_height": 641,
+            "content_type": "image/webp",
+            "current_src": "https://media.pocketgamer.biz/images/123652/82532/travel-town-18_orig.webp"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图片包含多个活动界面，其中 Taffy's Quest 是活动示例之一，清晰展示了阶梯式进度奖励轨（Reward Road），属于典型的进度条活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:35.210715+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "race_and_tournament_events",
+      "display_name": "Race / Town Tournament / 竞速排行",
+      "description": "围绕订单或主板行为的竞速/排行活动，通常持续 1-2 天，按玩家进度或积分排名发奖。",
+      "examples": [
+        "Race",
+        "Town Tournament",
+        "Aqua Duel",
+        "Mine Streak"
+      ],
+      "market_research_notes": "把 merge 行为转化为相对竞争，适合在卡季或周目标中制造短期冲刺。",
+      "images": [
+        {
+          "url": "https://media.pocketgamer.biz/images/123632/82532/olga-semykina-lead-game-designer-rnd-belka-games_l890.jpg",
+          "caption": "Deconstructing Travel Town: How to ...",
+          "source_url": "https://www.pocketgamer.biz/deconstructing-magmatic-games-travel-town/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+race+and+tournament+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure race and tournament events",
+          "width": 316,
+          "height": 160,
+          "aspect_ratio": 1.975,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:09:17.422380+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:58.225671+00:00",
+            "load_time_ms": 1828,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 890,
+            "natural_height": 445,
+            "content_type": "image/jpeg",
+            "current_src": "https://media.pocketgamer.biz/images/123632/82532/olga-semykina-lead-game-designer-rnd-belka-games_l890.jpg"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 1.0,
+            "reason": "图中为职场人物照片，与游戏内容和活动完全无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:38.647953+00:00"
+          }
+        },
+        {
+          "url": "https://media.pocketgamer.biz/images/123646/82532/travel-town-13_orig.webp",
+          "caption": "Deconstructing Travel Town: How to ...",
+          "source_url": "https://www.pocketgamer.biz/deconstructing-magmatic-games-travel-town/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+race+and+tournament+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure race and tournament events",
+          "width": 218,
+          "height": 231,
+          "aspect_ratio": 0.9437,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:09:17.422380+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:02.583864+00:00",
+            "load_time_ms": 240,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 599,
+            "natural_height": 633,
+            "content_type": "image/webp",
+            "current_src": "https://media.pocketgamer.biz/images/123646/82532/travel-town-13_orig.webp"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示了游戏的付费礼包界面（Christmas in July相关），属于通用促销而非竞速排行活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:38.647953+00:00"
+          }
+        },
+        {
+          "url": "https://media.pocketgamer.biz/images/123644/82532/travel-town-11_890.jpg",
+          "caption": "Deconstructing Travel Town: How to ...",
+          "source_url": "https://www.pocketgamer.biz/deconstructing-magmatic-games-travel-town/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+race+and+tournament+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure race and tournament events",
+          "width": 280,
+          "height": 180,
+          "aspect_ratio": 1.5556,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:09:17.422380+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:02.887683+00:00",
+            "load_time_ms": 296,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 890,
+            "natural_height": 571,
+            "content_type": "image/jpeg",
+            "current_src": "https://media.pocketgamer.biz/images/123644/82532/travel-town-11_890.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "展示了游戏的主棋盘核心玩法界面，虽有积分/订单元素，但未展示竞速或排行榜相关界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:38.647953+00:00"
+          }
+        },
+        {
+          "url": "https://media.pocketgamer.biz/images/123649/82532/travel-town-15_orig.webp",
+          "caption": "Deconstructing Travel Town: How to ...",
+          "source_url": "https://www.pocketgamer.biz/deconstructing-magmatic-games-travel-town/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+race+and+tournament+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure race and tournament events",
+          "width": 270,
+          "height": 187,
+          "aspect_ratio": 1.4439,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:09:17.422380+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:58.523768+00:00",
+            "load_time_ms": 291,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 818,
+            "natural_height": 568,
+            "content_type": "image/webp",
+            "current_src": "https://media.pocketgamer.biz/images/123649/82532/travel-town-15_orig.webp"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示了节日相关的Power Boost介绍和合成树界面，与竞速排行活动无直接对应关系。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:38.647953+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "travel_pass",
+      "display_name": "Travel Pass / VIP Pass",
+      "description": "通行证类活动。玩家完成目标推进奖励轨，免费轨提供 scratch cards、energy、diamonds、toolbox、item box、cards 等；VIP Pass 提供更多奖励。",
+      "examples": [
+        "Travel Pass",
+        "VIP Pass"
+      ],
+      "market_research_notes": "付费奖励轨与 merge 订单、日常任务和卡季资源强绑定。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/JUd09-Jkgctks6QibZBPeqnpPA-6A6nMXZqAW9Fa0MKOsolbvGKSXEnuq9nxiKNCFVOT",
+          "caption": "Travel Town - Merge Adventure - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=io.randomco.travel",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+travel+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure travel pass",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:09:42.788154+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:54.835109+00:00",
+            "load_time_ms": 666,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/JUd09-Jkgctks6QibZBPeqnpPA-6A6nMXZqAW9Fa0MKOsolbvGKSXEnuq9nxiKNCFVOT"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片为游戏的App图标或通用素材图，与特定活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:42.400273+00:00"
+          }
+        },
+        {
+          "url": "https://media.pocketgamer.biz/images/123632/82532/olga-semykina-lead-game-designer-rnd-belka-games_l890.jpg",
+          "caption": "Deconstructing Travel Town: How to ...",
+          "source_url": "https://www.pocketgamer.biz/deconstructing-magmatic-games-travel-town/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+travel+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure travel pass",
+          "width": 316,
+          "height": 160,
+          "aspect_ratio": 1.975,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:09:42.788154+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:19:58.225671+00:00",
+            "load_time_ms": 1828,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 890,
+            "natural_height": 445,
+            "content_type": "image/jpeg",
+            "current_src": "https://media.pocketgamer.biz/images/123632/82532/olga-semykina-lead-game-designer-rnd-belka-games_l890.jpg"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.98,
+            "reason": "图片为人物照片，与游戏内容及活动完全无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:42.400273+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/9DHBubP9AAbKdjnT1pqO42IoYe7PWNyQL9iHvn7WD3YkdD_1qV2HpWUPXpoWyy0WjLo=w526-h296-rw",
+          "caption": "Travel Town - Merge Adventure - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=io.randomco.travel",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+travel+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure travel pass",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:09:42.788154+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:03.150998+00:00",
+            "load_time_ms": 256,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 166,
+            "natural_height": 296,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/9DHBubP9AAbKdjnT1pqO42IoYe7PWNyQL9iHvn7WD3YkdD_1qV2HpWUPXpoWyy0WjLo=w526-h296-rw"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片展示了游戏的主城镇地图界面，属于通用游戏截图，未直接体现Travel Pass活动玩法。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:42.400273+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/travel-pass-v0-14cg7f4uoheg1.jpeg?width=640&crop=smart&auto=webp&s=6d03c52d40bbf8a4ed6dfcdd09d73edbef2a7209",
+          "caption": "Travel pass : r/TravelTown",
+          "source_url": "https://www.reddit.com/r/TravelTown/comments/1qhyme2/travel_pass/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+travel+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure travel pass",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:09:42.788154+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:03.325567+00:00",
+            "load_time_ms": 168,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 1387,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/travel-pass-v0-14cg7f4uoheg1.jpeg?width=640&crop=smart&auto=webp&s=6d03c52d40bbf8a4ed6dfcdd09d73edbef2a7209"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片清晰展示了Travel Pass的付费购买界面，包含VIP Pass和Deluxe Pass的奖励对比，属于活动实际玩法/付费界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:42.400273+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/2YQC-60tC5Q/maxresdefault.jpg",
+          "caption": "Travel Town - Merge Adventure - Game ...",
+          "source_url": "https://www.youtube.com/watch?v=2YQC-60tC5Q",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+travel+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure travel pass",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:09:42.788154+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:03.750182+00:00",
+            "load_time_ms": 414,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/2YQC-60tC5Q/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片为游戏的通用宣传海报或YouTube封面图，未涉及特定活动内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:42.400273+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "partner_event",
+      "display_name": "Partners / 协作活动",
+      "description": "Wiki 列出 Partners 为约 4 天、board 外活动。公开资料未给完整规则，但从命名和同类 merge 游戏看，可能是多人协作推进奖励。",
+      "examples": [
+        "Partners"
+      ],
+      "market_research_notes": "低细节但高价值的社交活动类型，后续应优先真机或玩家截图补规则。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/completing-partner-events-v0-zlnfulrjihuf1.jpeg?width=640&crop=smart&auto=webp&s=440c64a1c2130743fede77142208906544187660",
+          "caption": "Completing Partner Events : r/TravelTown",
+          "source_url": "https://www.reddit.com/r/TravelTown/comments/1o3vu8x/completing_partner_events/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+partner+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure partner event",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:10:14.321057+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:03.903115+00:00",
+            "load_time_ms": 147,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 1391,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/completing-partner-events-v0-zlnfulrjihuf1.jpeg?width=640&crop=smart&auto=webp&s=440c64a1c2130743fede77142208906544187660"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了协作活动Partners完成后的结算界面，包含合作伙伴头像、活动奖励和收集目标（robots），属于活动实际产出界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:45.926950+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/event-partners-v0-wnugjb85g8jf1.png?width=640&crop=smart&auto=webp&s=e06a5775fb0a66885e07fa00044463a3f9a98e09",
+          "caption": "Event Partners : r/TravelTown",
+          "source_url": "https://www.reddit.com/r/TravelTown/comments/1mr7cts/event_partners/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=travel+town+merge+adventure+partner+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "travel town merge adventure partner event",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:10:14.321057+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:04.008922+00:00",
+            "load_time_ms": 100,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 1386,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/event-partners-v0-wnugjb85g8jf1.png?width=640&crop=smart&auto=webp&s=e06a5775fb0a66885e07fa00044463a3f9a98e09"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了协作活动Partners的实际玩法界面，包含合作伙伴积分对比、活动进度条、奖励轨道以及转盘抽奖机制。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:45.926950+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "Travel Town 的官方帮助页和玩家 wiki 互补：官方覆盖 Dream Quest、Fantasy Island、Board Events，wiki 补出 Daily、Weekly、Cards、Town Chase、Treasure Hunt、Race、Travel Pass、Partners 等活动矩阵。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T07:10:14.321057+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:23:45.926950+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

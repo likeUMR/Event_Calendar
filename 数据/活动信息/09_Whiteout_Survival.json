@@ -1,0 +1,345 @@
+{
+  "rank": 9,
+  "name": "Whiteout Survival",
+  "source_confidence": "high",
+  "source_notes": null,
+  "collected_at": "2026-05-12T03:59:12.469Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Whiteout Survival Wiki - Events",
+      "source_type": "dedicated_wiki",
+      "source_url": "https://www.whiteoutsurvival.wiki/events/",
+      "fetched_url": "https://www.whiteoutsurvival.wiki/events/",
+      "status": 200,
+      "page_title": "Events - Whiteout Survival Wiki",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Whiteout Survival - Official Wiki | Century Games &copy; 2026"
+      ],
+      "inferred_event_types": [],
+      "images": []
+    },
+    {
+      "source_title": "Whiteout Survival Data - Events",
+      "source_type": "dedicated_guide",
+      "source_url": "https://whiteoutdata.com/events/state-of-power-svs/",
+      "fetched_url": "https://whiteoutdata.com/events/state-of-power-svs/",
+      "status": 200,
+      "page_title": "State of Power (SVS)",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "The State of Power, also known as the State vs. State event, is a mega event in Whiteout Survival where different states compete against each other for big rewards like skins, Sunfire Tokens, buffs, and the prestigious title of Supreme President.",
+        "This event takes place in several stages: Matchmaking Phase, Preparation Phase, Battle Phase, and Field Triage Phase. Let’s go through each of these stages step by step to understand them better.",
+        "The initial step in the State of Power event is the matchmaking phase, where states having similar or very close power levels are paired together. This phase lasts over two days.",
+        "On the second day, you’ll discover which state your team will be facing off against in the State vs State (SVS) event. During this stage, you’ll have the opportunity to examine your opponent’s information and prepare accordingly.",
+        "After the matchmaking phase concludes, the preparation phase kicks in. This phase spans a period of six days. During the first five days, both participating states must obtain points by completing specific tasks, similar to the challenges seen in events like the Hall of Chiefs or King of Icefield.",
+        "During the battle phase, the state with the lower point total will host the battle, and the state with the higher points will initiate the attack on the Sunfire Castle of the state with the lower points.",
+        "Day 1: City Construction",
+        "Day 2: Basic Skills Up",
+        "Day 4: Hero Development",
+        "Preparation Phase Rewards",
+        "On the sixth day, the victor of the preparation phase is officially declared. Both the winning state and the state that did not secure victory are rewarded with Sunfire Tokens, teleports, gems, speedups, and resources. However, the winning state receives twice the amount of rewards compared to the losing state.",
+        "In addition to the mentioned rewards, there are also Personal Ranking Rewards distributed daily throughout the Preparation Phase. These rewards are given to all participating Chiefs, but the top 100 Chiefs with the highest points receive the most valuable rewards.",
+        "Furthermore, there’s another type of reward called Alliance Ranking Rewards, which are allocated to alliance members each day of the preparation phase, depending on their individual points.",
+        "Total Ranking Rewards",
+        "The major rewards come from the Total Ranking Rewards, which are distributed at the conclusion of the preparation phase. These rewards comprise hero shards of a mythic hero specific to that season.",
+        "The top 150 Chiefs with the highest obtained points throughout the entire preparation phase receive mythic hero shards for the hero featured in that particular season.",
+        "After the preparation phase, the battle phase begins. In this phase, the state that obtained more points during the preparation phase launches an attack on the Sunfire Castle of the opposing state. On the other hand, the Sunfire Castle of the attacking state remains protected and cannot be targeted by the other state.",
+        "Once the cross-state battle begins, players from both states have the opportunity to teleport to the other state. They can then proceed to attack the cities of Chiefs in that state or partake in the castle battle. These teleports are facilitated using cross-state teleporters."
+      ],
+      "inferred_event_types": [
+        "tournament_competition",
+        "team_alliance",
+        "seasonal_festival",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://whiteoutdata.com/wp-content/uploads/2024/05/state_of_power_event_whiteout_survival.webp",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://whiteoutdata.com/wp-content/uploads/2024/05/state_of_power_event_whiteout_survival-300x169.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://whiteoutdata.com/wp-content/uploads/2024/05/preparation-phase-winner.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://whiteoutdata.com/wp-content/uploads/2024/05/preparation-phase-loser.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://whiteoutdata.com/wp-content/uploads/2024/05/total-ranking-rewards.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://whiteoutdata.com/wp-content/uploads/2024/05/battle-phase-winner-rewards.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://whiteoutdata.com/wp-content/uploads/2024/05/battle-phase-loser-rewards.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://whiteoutdata.com/wp-content/uploads/2024/05/personal-ranking-rewards-battle-phase-1536x392-1.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://whiteoutdata.com/wp-content/uploads/2024/05/alliance-rewards.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://whiteoutdata.com/wp-content/uploads/2024/05/field-triage-stage-691x1536-1.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://whiteoutdata.com/wp-content/uploads/2025/03/eleonora-252x300.webp",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://whiteoutdata.com/wp-content/uploads/2025/02/jewel-secrets-300x287.webp",
+          "alt": "Jewel Secrets Whiteout Survival",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "event_detail_pages": [
+    {
+      "source_title": "Events",
+      "source_type": "event_detail",
+      "source_url": "https://www.whiteoutsurvival.wiki/events",
+      "fetched_url": "https://www.whiteoutsurvival.wiki/events/",
+      "status": 200,
+      "page_title": "Events - Whiteout Survival Wiki",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Whiteout Survival - Official Wiki | Century Games &copy; 2026"
+      ],
+      "inferred_event_types": [],
+      "images": []
+    },
+    {
+      "source_title": "English",
+      "source_type": "event_detail",
+      "source_url": "https://www.whiteoutsurvival.wiki/events/",
+      "fetched_url": "https://www.whiteoutsurvival.wiki/events/",
+      "status": 200,
+      "page_title": "Events - Whiteout Survival Wiki",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Whiteout Survival - Official Wiki | Century Games &copy; 2026"
+      ],
+      "inferred_event_types": [],
+      "images": []
+    },
+    {
+      "source_title": "繁體中文",
+      "source_type": "event_detail",
+      "source_url": "https://www.whiteoutsurvival.wiki/tw/events/",
+      "fetched_url": "https://www.whiteoutsurvival.wiki/tw/events/",
+      "status": 200,
+      "page_title": "Events - 寒霜啟示錄",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Whiteout Survival - Official Wiki | Century Games &copy; 2026"
+      ],
+      "inferred_event_types": [],
+      "images": []
+    },
+    {
+      "source_title": "Français",
+      "source_type": "event_detail",
+      "source_url": "https://www.whiteoutsurvival.wiki/fr/events/",
+      "fetched_url": "https://www.whiteoutsurvival.wiki/fr/events/",
+      "status": 200,
+      "page_title": "Events - Whiteout Survival Wiki",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Evènements d'Alliance",
+        "Évènements pour Débutants",
+        "Événements de vacances",
+        "Whiteout Survival - Official Wiki | Century Games &copy; 2026"
+      ],
+      "inferred_event_types": [
+        "team_alliance"
+      ],
+      "images": []
+    },
+    {
+      "source_title": "日本語",
+      "source_type": "event_detail",
+      "source_url": "https://www.whiteoutsurvival.wiki/ja/events/",
+      "fetched_url": "https://www.whiteoutsurvival.wiki/ja/events/",
+      "status": 200,
+      "page_title": "Events - ホワサバ公式wiki",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Whiteout Survival - Official Wiki | Century Games &copy; 2026"
+      ],
+      "inferred_event_types": [],
+      "images": []
+    },
+    {
+      "source_title": "한국어",
+      "source_type": "event_detail",
+      "source_url": "https://www.whiteoutsurvival.wiki/ko/events/",
+      "fetched_url": "https://www.whiteoutsurvival.wiki/ko/events/",
+      "status": 200,
+      "page_title": "Events - Whiteout Survival Wiki",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Whiteout Survival - Official Wiki | Century Games &copy; 2026"
+      ],
+      "inferred_event_types": [],
+      "images": []
+    }
+  ],
+  "event_catalog": [
+    {
+      "title": "Events - Whiteout Survival Wiki",
+      "url": "https://www.whiteoutsurvival.wiki/events",
+      "discovered_from": "https://www.whiteoutsurvival.wiki/events/",
+      "description": "Whiteout Survival - Official Wiki | Century Games &copy; 2026",
+      "inferred_event_types": [],
+      "images": []
+    },
+    {
+      "title": "Events - Whiteout Survival Wiki",
+      "url": "https://www.whiteoutsurvival.wiki/events/",
+      "discovered_from": "https://www.whiteoutsurvival.wiki/events/",
+      "description": "Whiteout Survival - Official Wiki | Century Games &copy; 2026",
+      "inferred_event_types": [],
+      "images": []
+    },
+    {
+      "title": "Events - 寒霜啟示錄",
+      "url": "https://www.whiteoutsurvival.wiki/tw/events/",
+      "discovered_from": "https://www.whiteoutsurvival.wiki/events/",
+      "description": "Whiteout Survival - Official Wiki | Century Games &copy; 2026",
+      "inferred_event_types": [],
+      "images": []
+    },
+    {
+      "title": "Events - Whiteout Survival Wiki",
+      "url": "https://www.whiteoutsurvival.wiki/fr/events/",
+      "discovered_from": "https://www.whiteoutsurvival.wiki/events/",
+      "description": "Whiteout Survival - Official Wiki | Century Games &copy; 2026",
+      "inferred_event_types": [
+        "team_alliance"
+      ],
+      "images": []
+    },
+    {
+      "title": "Events - ホワサバ公式wiki",
+      "url": "https://www.whiteoutsurvival.wiki/ja/events/",
+      "discovered_from": "https://www.whiteoutsurvival.wiki/events/",
+      "description": "Whiteout Survival - Official Wiki | Century Games &copy; 2026",
+      "inferred_event_types": [],
+      "images": []
+    },
+    {
+      "title": "Events - Whiteout Survival Wiki",
+      "url": "https://www.whiteoutsurvival.wiki/ko/events/",
+      "discovered_from": "https://www.whiteoutsurvival.wiki/events/",
+      "description": "Whiteout Survival - Official Wiki | Century Games &copy; 2026",
+      "inferred_event_types": [],
+      "images": []
+    }
+  ],
+  "inferred_event_type_summary": [
+    "pvp_war",
+    "seasonal_festival",
+    "team_alliance",
+    "tournament_competition"
+  ],
+  "screenshots_or_images": [
+    {
+      "url": "https://whiteoutdata.com/wp-content/uploads/2024/05/state_of_power_event_whiteout_survival.webp",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://whiteoutdata.com/events/state-of-power-svs/"
+    },
+    {
+      "url": "https://whiteoutdata.com/wp-content/uploads/2024/05/state_of_power_event_whiteout_survival-300x169.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://whiteoutdata.com/events/state-of-power-svs/"
+    },
+    {
+      "url": "https://whiteoutdata.com/wp-content/uploads/2024/05/preparation-phase-winner.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://whiteoutdata.com/events/state-of-power-svs/"
+    },
+    {
+      "url": "https://whiteoutdata.com/wp-content/uploads/2024/05/preparation-phase-loser.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://whiteoutdata.com/events/state-of-power-svs/"
+    },
+    {
+      "url": "https://whiteoutdata.com/wp-content/uploads/2024/05/total-ranking-rewards.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://whiteoutdata.com/events/state-of-power-svs/"
+    },
+    {
+      "url": "https://whiteoutdata.com/wp-content/uploads/2024/05/battle-phase-winner-rewards.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://whiteoutdata.com/events/state-of-power-svs/"
+    },
+    {
+      "url": "https://whiteoutdata.com/wp-content/uploads/2024/05/battle-phase-loser-rewards.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://whiteoutdata.com/events/state-of-power-svs/"
+    },
+    {
+      "url": "https://whiteoutdata.com/wp-content/uploads/2024/05/personal-ranking-rewards-battle-phase-1536x392-1.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://whiteoutdata.com/events/state-of-power-svs/"
+    },
+    {
+      "url": "https://whiteoutdata.com/wp-content/uploads/2024/05/alliance-rewards.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://whiteoutdata.com/events/state-of-power-svs/"
+    },
+    {
+      "url": "https://whiteoutdata.com/wp-content/uploads/2024/05/field-triage-stage-691x1536-1.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://whiteoutdata.com/events/state-of-power-svs/"
+    },
+    {
+      "url": "https://whiteoutdata.com/wp-content/uploads/2025/03/eleonora-252x300.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://whiteoutdata.com/events/state-of-power-svs/"
+    },
+    {
+      "url": "https://whiteoutdata.com/wp-content/uploads/2025/02/jewel-secrets-300x287.webp",
+      "alt": "Jewel Secrets Whiteout Survival",
+      "kind": "page_image",
+      "source_url": "https://whiteoutdata.com/events/state-of-power-svs/"
+    }
+  ],
+  "collection_warnings": []
+}

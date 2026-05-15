@@ -1,0 +1,32 @@
+{
+  "rank": 16,
+  "name": "Coin Master",
+  "source_confidence": "high",
+  "source_notes": null,
+  "collected_at": "2026-05-12T04:00:08.247Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Coin Master Support - Events & Rewards",
+      "source_type": "official_support",
+      "source_url": "https://support.coinmastergame.com/hc/en-us/sections/360000286454-Events-Rewards",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "source_title": "Pocket Tactics - Coin Master events",
+      "source_type": "guide",
+      "source_url": "https://www.pockettactics.com/coin-master/events",
+      "status": 403,
+      "error": "fetch_failed"
+    }
+  ],
+  "event_detail_pages": [],
+  "event_catalog": [],
+  "inferred_event_type_summary": [],
+  "screenshots_or_images": [],
+  "collection_warnings": [
+    "Fetch failed: https://support.coinmastergame.com/hc/en-us/sections/360000286454-Events-Rewards",
+    "Fetch failed: https://www.pockettactics.com/coin-master/events"
+  ]
+}

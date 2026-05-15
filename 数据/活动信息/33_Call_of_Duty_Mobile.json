@@ -1,0 +1,1606 @@
+{
+  "rank": 33,
+  "name": "Call of Duty®: Mobile",
+  "source_confidence": "high",
+  "source_notes": null,
+  "collected_at": "2026-05-12T04:01:43.457Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Call of Duty Wiki - Call of Duty: Mobile",
+      "source_type": "fandom",
+      "source_url": "https://callofduty.fandom.com/wiki/Call_of_Duty:_Mobile",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "source_title": "Call of Duty Blog - Mobile",
+      "source_type": "official_news",
+      "source_url": "https://www.callofduty.com/blog?category=cod-mobile",
+      "fetched_url": "https://www.callofduty.com/blog?category=cod-mobile",
+      "status": 200,
+      "page_title": "Call of Duty®: Blog",
+      "meta_description": "Find up-to-date information regarding recent game developments, strategies, and more to enhance your Call of Duty experience.",
+      "relevant_text_blocks": [
+        "Esports Call of Duty League",
+        "Esports Call of Duty League",
+        "This May, the Call of Duty Endowment celebrates Military Appreciation Month presented by USAA, with the release of the Call of Duty Endowment (C.O.D.E.) Navigator: Tracer Pack, inspired by and created in collaboration with CAPT Chris Cassidy, (USN, ret.), a former U.S. Navy SEAL and NASA astronaut. Players can also earn in-game rewards through the C.O.D.E. Navigator Challenge.",
+        "Skip To Main Content Menu dropdown Blog Black Ops 7",
+        "Call of Duty Mobile World Championship",
+        "World Series of Warzone",
+        "Choose your region Selected region - United States United States Selected region: United States Close Menu + United States",
+        "©/TM/ ® 2026 Activision Publishing, Inc.",
+        "Selected region - United States United States",
+        "Selected region: United States"
+      ],
+      "inferred_event_types": [
+        "collection_album",
+        "tournament_competition",
+        "pvp_war"
+      ],
+      "images": []
+    }
+  ],
+  "event_detail_pages": [
+    {
+      "source_title": "Black Ops 7 Season 03 Reloaded: Full Intel",
+      "source_type": "event_detail",
+      "source_url": "https://www.callofduty.com/blog/2026/04/call-of-duty-black-ops-7-warzone-season-03-reloaded-announcement",
+      "fetched_url": "https://www.callofduty.com/blog/2026/04/call-of-duty-black-ops-7-warzone-season-03-reloaded-announcement",
+      "status": 200,
+      "page_title": "Reloaded Recon: Black Ops 7 and Call of Duty: Warzone Season 03 Mid-Season Content Drop: Everything You Need to Know",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Esports Call of Duty League",
+        "Esports Call of Duty League",
+        "New Main Quest, Rewards, and Challenges",
+        "Season 03 Reloaded amps up the pace as players race against the clock in the new Freerun mode in Multiplayer and engage in high-speed chases across Avalon in Hot Pursuit, joined by Prop Hunt Royale in Rebirth Island. In Endgame, take on new challenges and earn rewards in Operation Broken Mirror, while Zombies introduces the new Round-Based Map, Totenreich. And that’s only the initial intel. Season 03 Reloaded launches on April 30.",
+        "Operation Broken Mirror Rewards",
+        "1 Hour Double Battle Pass XP Token and 2,500 XP",
+        "New Activity: Mega Abomination",
+        "New Major Ability: Thermal Spike",
+        "Black Ops 7: Season 03 Reloaded Multiplayer",
+        "MULTIPLAYER CONTENT SUMMARY",
+        "Freerun: Put your movement skills to the ultimate test as The Guild recruits volunteers for a new training program. Compete against fellow Operators through 10 different zones of dexterity and marksmanship to see who can get the best time and earn rewards for completing objectives.",
+        "Multiplayer Modes: Support your teammates and play the objective to raise your Heat level and gain Operator bonuses in Heat Wave Havoc. For a cooler experience, play a game of Freeze Tag where it’s your team’s goal to chill the enemy while keeping your allies in the fight.",
+        "Assault a remote onsen in Yamanashi as a clandestine deal falls apart and fighting erupts. Pass by the oni statue on your way into the hot springs, the rising steam obscuring visuals across. Take the plunge or climb up the opposite building into the war room featuring a powerful balcony vantage point and access to the outer cliffside. Relax along the pool, terrace, and sauna, or cut enemy foes off at the underpass.",
+        "Transform the spa’s amenities into tactical opportunities to outplay opponents in this new Mid-Season map. The bath house will be waiting for you to celebrate your imminent victory.",
+        "This remastered version offers the most detailed incarnation of Summit to date, with Wall Jumping adding a new twist to the many battles head.",
+        "First seen in 2018, Hacienda fits right into Black Ops 7 , bringing both new and classic environments to the Mid-Season map pool.",
+        "The Guild is seeking early volunteers for a new Project Synapse training program, providing contestants the opportunity to prove themselves as you race against the clock while overcoming obstacles.",
+        "Overseen by Dr. Atwood, the Freerun course takes place on the Ascent map, a Guild Tower construct designed specifically for the Freerun mode. When the race begins, follow the track to progress through an increasingly demanding 10 zones, testing your abilities across a variety of challenges. Pull off difficult Wall Jumps, slide under low walls, hop across spinning platforms, and, as the course ramps up, use a variety of weapons to hit targets, opening the path forward."
+      ],
+      "inferred_event_types": [
+        "battle_pass",
+        "tournament_competition",
+        "team_alliance",
+        "seasonal_festival",
+        "pve_boss",
+        "pvp_war",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-001.webp",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:07:06.016580+00:00",
+            "load_time_ms": 570,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/webp",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-001.webp"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-002.webp",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:07:06.367907+00:00",
+            "load_time_ms": 348,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/webp",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-002.webp"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-003.webp",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:07:06.765440+00:00",
+            "load_time_ms": 395,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/webp",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-003.webp"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-004.webp",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:07:07.203355+00:00",
+            "load_time_ms": 435,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/webp",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-004.webp"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-005.webp",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:07:07.581127+00:00",
+            "load_time_ms": 375,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/webp",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-005.webp"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-006.webp",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:07:07.902920+00:00",
+            "load_time_ms": 318,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/webp",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-006.webp"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-007.webp",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:07:09.701882+00:00",
+            "load_time_ms": 1796,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/webp",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-007.webp"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-008.webp",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:07:10.019641+00:00",
+            "load_time_ms": 314,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/webp",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-008.webp"
+          }
+        }
+      ]
+    },
+    {
+      "source_title": "Black Ops 7 Season 03 Patch Notes",
+      "source_type": "event_detail",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/04/call-of-duty-black-ops-7-season-03-patch-notes",
+      "fetched_url": "https://www.callofduty.com/patchnotes/2026/04/call-of-duty-black-ops-7-season-03-patch-notes",
+      "status": 200,
+      "page_title": "Call of Duty: Black Ops 7 Season 03 Patch Notes",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Esports Call of Duty League",
+        "Esports Call of Duty League",
+        "Season 03 Reloaded Overview",
+        "Addressed an issue with gun shaking during a side quest.",
+        "Closed an exploit to trigger special rounds more frequently.",
+        "Addressed an issue that prevented ice on a frozen ascender from being visible when loading a save file.",
+        "Addressed an issue that prevented the Geiger Gunner Challenge from tracking properly.",
+        "Ashwood Survival Addressed an issue that prevented zombies from pathing to the player in the Sheriff’s Office.",
+        "Paradox Junction Addressed an issue that prevented players from interacting with the piano again if they did not play any notes.",
+        "WELCOME TO SEASON 03 RELOADED",
+        "The ongoing battle between JSOC and The Guild heats up as the balance of power shifts. With guidance from Karma, expert infiltrator Cole “Javelin” Donovan has successfully hacked into The Guild’s system using his C-Link device, allowing JSOC to turn The Guild’s own defenses against them. Will they use this newfound advantage to push toward victory and tear apart the oppressive conglomerate? Or will their enemies regroup in time for the counterattack?",
+        "Season 03 Reloaded fans the flames with a firestorm of new content across all modes, including new experiences like Heat Wave Havoc and Free Run joined by extra maps, game modes, the next Round-Based Zombies Map, Totenreich, and additional Weapons, Blueprints, Operator Skins and more earned across Mid-Season Events and Weekly Challenges.",
+        "New and Returning Maps",
+        "Siren (Special Weapon, Event Reward)",
+        "Charge energy weapon. Fires a high-damage, slow-moving projectile that passes through foes. Charge to improve projectile velocity.",
+        "Inflict high damage on enemies with this Special Weapon that fires a slow-moving projectile, its velocity increasing as you charge the weapon before letting loose on your target.",
+        "Katana (Melee, Event Reward)",
+        "New Weapon Attachments"
+      ],
+      "inferred_event_types": [
+        "battle_pass",
+        "tournament_competition",
+        "team_alliance",
+        "seasonal_festival",
+        "merge_event",
+        "pve_boss",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/mp/season-03/BO7-S03_PATCHNOTES-BO7.jpg",
+          "alt": "og:image",
+          "kind": "preview",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:07:10.093181+00:00",
+            "load_time_ms": 70,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1081,
+            "content_type": "application/octet-stream",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/mp/season-03/BO7-S03_PATCHNOTES-BO7.jpg"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/all/Strider300.png",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:07:10.144519+00:00",
+            "load_time_ms": 47,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1024,
+            "natural_height": 576,
+            "content_type": "application/octet-stream",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/all/Strider300.png"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/mp/season-03/season03reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-TOUT.jpg",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:07:10.202898+00:00",
+            "load_time_ms": 55,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/jpeg",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/mp/season-03/season03reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-TOUT.jpg"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/mp/season-03/season03reloaded/BO7_S3.5_GEN_NewAttachments_02.webp",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:25.571379+00:00",
+            "load_time_ms": 321,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/webp",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/mp/season-03/season03reloaded/BO7_S3.5_GEN_NewAttachments_02.webp"
+          }
+        }
+      ]
+    },
+    {
+      "source_title": "Call of Duty: Warzone Season 03 Reloaded Patch Notes",
+      "source_type": "event_detail",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/04/call-of-duty-bo7-warzone-season-03-reloaded-patch-notes",
+      "fetched_url": "https://www.callofduty.com/patchnotes/2026/04/call-of-duty-bo7-warzone-season-03-reloaded-patch-notes",
+      "status": 200,
+      "page_title": "Call of Duty: Warzone Season 03 Reloaded Patch Notes",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Esports Call of Duty League",
+        "Esports Call of Duty League",
+        "MONDAY MAY 11 BUG FIXES Fixed an issue that prevented controller users from navigating during the Winner’s Circle.",
+        "Fixed an issue that prevented the robbery splash audio from working in Hot Pursuit mode.",
+        "Fixed an issue in Hot Pursuit where the arrest warrant event would not trigger until the player entered and exited a vehicle.",
+        "We’re continuing to strengthen our anti-cheat systems to better protect players and ensure fair matches across all platforms. These changes do not apply until Season 04, at which point you can expect the following:",
+        "Microsoft Azure Attestation (MAA) will be required on PC to access most playlists. This system will help us verify that your PC environment hasn’t been tampered with, which is a key step in preventing cheating.",
+        "Players without these features enabled will be placed into limited matchmaking.",
+        "If you are placed into a limited matchmaking pool you will be:",
+        "Battle Royale Casual",
+        "RoboCop Event Pass Part man. Part machine. All Operator. RoboCop doles out justice with the RoboCop Event Pass arriving in Season 03’s Mid-Season. Unlock limited-time rewards by earning XP in any mode. Serve the public trust with the new Siren Special Weapon plus additional Operator Skins, Weapon Blueprints, and more items inspired by the RoboCop film franchise.",
+        "Call of Duty Endowment C.O.D.E. Navigator Challenge In honor of Military Appreciation Month, the Call of Duty Endowment (C.O.D.E.) introduces the C.O.D.E. Navigator Challenge Event to help veterans navigate their next chapter. Drop in for limited-time event rewards.",
+        "Prestige Master Title Challenges Unstoppable - Win 5 Warzone matches in a 12 hour period (excluding Casual)",
+        "CALL OF DUTY: WARZONE",
+        "Battle Royale Casual Map Rotation (In-Season) Big Map rotation will be introduced during Season 03, featuring both Avalon and Verdansk.",
+        "Hot Pursuit Limited-Time Mode Summary: A mode where Police hunt down Thieves in a fast-paced, vehicle-driven experience.",
+        "Players play as either Police or Thieves, with access to team-specific vehicles and abilities.",
+        "Use vehicles (ATV, JLTV, Light Heli) with special abilities: Radar pulse (sirens): reveals nearby Thieves on the mini-map."
+      ],
+      "inferred_event_types": [
+        "battle_pass",
+        "tournament_competition",
+        "team_alliance",
+        "seasonal_festival",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/wz/s03r/BO7-S03R_PATCHNOTES-WZ.jpg",
+          "alt": "og:image",
+          "kind": "preview",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:25.694728+00:00",
+            "load_time_ms": 120,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1081,
+            "content_type": "application/octet-stream",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/wz/s03r/BO7-S03R_PATCHNOTES-WZ.jpg"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/common/line_1.png",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:25.745687+00:00",
+            "load_time_ms": 46,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 25,
+            "content_type": "image/png",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/common/line_1.png"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/common/line_2.png",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:25.801212+00:00",
+            "load_time_ms": 53,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 25,
+            "content_type": "application/octet-stream",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/common/line_2.png"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/wz/s03r/police.jpg",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:25.855452+00:00",
+            "load_time_ms": 51,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 540,
+            "content_type": "image/jpeg",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/wz/s03r/police.jpg"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/wz/s03r/vehicle-action-1.jpg",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:25.909994+00:00",
+            "load_time_ms": 52,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 540,
+            "content_type": "application/octet-stream",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/wz/s03r/vehicle-action-1.jpg"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/wz/s03r/Season-03-Reloaded-Week-1.jpg",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:25.971701+00:00",
+            "load_time_ms": 58,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1700,
+            "natural_height": 1700,
+            "content_type": "application/octet-stream",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/wz/s03r/Season-03-Reloaded-Week-1.jpg"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/wz/s03r/buy-station.jpg",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:26.076407+00:00",
+            "load_time_ms": 102,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 540,
+            "content_type": "application/octet-stream",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/wz/s03r/buy-station.jpg"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/all/DS20Mirage.png",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:26.126596+00:00",
+            "load_time_ms": 47,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 791,
+            "natural_height": 576,
+            "content_type": "application/octet-stream",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/all/DS20Mirage.png"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/all/EGRT17.png",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:26.176518+00:00",
+            "load_time_ms": 48,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1024,
+            "natural_height": 576,
+            "content_type": "application/octet-stream",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/all/EGRT17.png"
+          }
+        }
+      ]
+    },
+    {
+      "source_title": "Call of Duty: Warzone Season 03 Patch Notes",
+      "source_type": "event_detail",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/04/call-of-duty-bo7-warzone-season-03-patch-notes",
+      "fetched_url": "https://www.callofduty.com/patchnotes/2026/04/call-of-duty-bo7-warzone-season-03-patch-notes",
+      "status": 200,
+      "page_title": "Call of Duty: Warzone Season 03 Patch Notes",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Esports Call of Duty League",
+        "Esports Call of Duty League",
+        "Reduced Armor Satchel drop rate by 6%. These changes are intended to better smooth player power progression throughout a match. Legendary Supply Boxes were previously contributing to faster-than-intended power spikes. These adjustments also increase loot variety and reduce the likelihood of duplicate rewards.",
+        "Idle Loot Cleanup Quality of Life Specialist will no longer despawn after a set duration when dropped by players voluntarily or on death.",
+        "Classified Weapon Removed shotguns from the Classified Weapons event.",
+        "» Battle Royale, Resurgence «",
+        "» Battle Royale, Resurgence «",
+        "Objective now selects Buy Stations based on current circle size. Supply Run distance was previously determined by a fixed range from the player, which often made the contract difficult to complete in later circles. The objective distance will now scale with circle size, improving viability in late-game scenarios. The team is also exploring additional updates to improve Supply Run, as well as having it spawn at match start on Haven's Hollow.",
+        "MK35 ISR Damage Adjustments",
+        "Peacekeeper MK1 Damage Adjustments",
+        "MPC-25 Damage Adjustments",
+        "Razor 9mm Damage Adjustments",
+        "VST Damage Adjustments",
+        "14\" LTI Expedition Barrel Damage Range benefit improved from 12% to 18%.",
+        "Sniper Rifle Adjustments",
+        "Battle Royale Map Rotation Quads Battle Royale is now playable on Avalon.",
+        "Fixed an issue that prevented the Genesis, Infestation, and Apocalypse Mastery Camos from animating when fired.",
+        "Fixed an issue where players were unable to progress the “Absolute Zero” mastery camo challenge for the VST SMG."
+      ],
+      "inferred_event_types": [
+        "collection_album",
+        "tournament_competition",
+        "team_alliance",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/wz/s03/BO7-S03_PATCHNOTES-WZ.jpg",
+          "alt": "og:image",
+          "kind": "preview",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:26.311884+00:00",
+            "load_time_ms": 132,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1081,
+            "content_type": "image/jpeg",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/wz/s03/BO7-S03_PATCHNOTES-WZ.jpg"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/common/line_1.png",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:25.745687+00:00",
+            "load_time_ms": 46,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 25,
+            "content_type": "image/png",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/common/line_1.png"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/all/AK27.png",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:26.365639+00:00",
+            "load_time_ms": 50,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 791,
+            "natural_height": 576,
+            "content_type": "application/octet-stream",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/all/AK27.png"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/all/MK35ISR.png",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:26.415182+00:00",
+            "load_time_ms": 47,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1024,
+            "natural_height": 576,
+            "content_type": "application/octet-stream",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/all/MK35ISR.png"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/all/PeacekeeperMK1.png",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:26.464080+00:00",
+            "load_time_ms": 45,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 791,
+            "natural_height": 576,
+            "content_type": "application/octet-stream",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/all/PeacekeeperMK1.png"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/all/Carbon57.png",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:26.513871+00:00",
+            "load_time_ms": 47,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 791,
+            "natural_height": 576,
+            "content_type": "application/octet-stream",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/all/Carbon57.png"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/all/MPC25.png",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:26.561578+00:00",
+            "load_time_ms": 46,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 791,
+            "natural_height": 576,
+            "content_type": "application/octet-stream",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/all/MPC25.png"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/all/Razor9mm.png",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:26.610899+00:00",
+            "load_time_ms": 46,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 791,
+            "natural_height": 576,
+            "content_type": "application/octet-stream",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/all/Razor9mm.png"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/all/VST.png",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:26.660410+00:00",
+            "load_time_ms": 46,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1024,
+            "natural_height": 576,
+            "content_type": "application/octet-stream",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/all/VST.png"
+          }
+        }
+      ]
+    },
+    {
+      "source_title": "Introducing Call of Duty: Mobile Season 4 — Eternal Prison",
+      "source_type": "event_detail",
+      "source_url": "https://www.callofduty.com/blog/2026/04/call-of-duty-mobile-season-4-2026-eternal-prison",
+      "fetched_url": "https://www.callofduty.com/blog/2026/04/call-of-duty-mobile-season-4-2026-eternal-prison",
+      "status": 200,
+      "page_title": "Introducing Call of Duty: Mobile Season 4 — Eternal Prison",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Esports Call of Duty League",
+        "Esports Call of Duty League",
+        "Battle Royale: Rebirth Island",
+        "Eternal Prison Battle Pass",
+        "Season 4 Seasonal Store",
+        "Drop into Rebirth Island in Battle Royale and DMZ: Recon, arriving with a host of updates for the fan-favorite extraction mode. Face off against Operators inspired by Kong and Godzilla in an epic seasonal collaboration, wield the new DP27 LMG, become the Toxic Overload Battle Royale class, and more, including a brand-new Battle Pass and multiple events bringing new rewards into the mix.",
+        "Take on all challengers big and small with the impending arrival of Call of Duty®: Mobile Season 4, delivering updates to Rebirth Island including the map’s addition to DMZ: Recon! Discover a new way to extract… if you can get past the boss first. In Battle Royale, Rebirth Island also arrives with new match features like UAV Towers, Contracts, and Buy Stations.",
+        "The new season brings a monstrous collaboration featuring inspired operator skins from Titans Godzilla and Kong, straight out of the Monsterverse with their own Titan-themed event and Draws, plus get the DP27 LMG and the Toxic Overload Battle Royale class, progress through a brand-new Battle Pass, anticipate extra additions to the Store, and more.",
+        "Season 4 — Eternal Prison launches on April 22 at 5PM PT."
+      ],
+      "inferred_event_types": [
+        "battle_pass",
+        "tournament_competition",
+        "seasonal_festival",
+        "pve_boss",
+        "pvp_war",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/codm/s4-eternal-prison/CODM-S4-ETERNAL-PRISON-TOUT.jpg",
+          "alt": "og:image",
+          "kind": "preview",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:27.073795+00:00",
+            "load_time_ms": 410,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 3840,
+            "natural_height": 2160,
+            "content_type": "image/jpeg",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/codm/s4-eternal-prison/CODM-S4-ETERNAL-PRISON-TOUT.jpg"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/codm/s4-eternal-prison/CODM-S4-ETERNAL-PRISON-001.webp",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:27.292528+00:00",
+            "load_time_ms": 215,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 960,
+            "content_type": "image/webp",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/codm/s4-eternal-prison/CODM-S4-ETERNAL-PRISON-001.webp"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/codm/s4-eternal-prison/CODM-S4-ETERNAL-PRISON-002.webp",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:27.345077+00:00",
+            "load_time_ms": 49,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 960,
+            "content_type": "image/webp",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/codm/s4-eternal-prison/CODM-S4-ETERNAL-PRISON-002.webp"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/codm/s4-eternal-prison/CODM-S4-ETERNAL-PRISON-003.webp",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:27.396166+00:00",
+            "load_time_ms": 49,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/webp",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/codm/s4-eternal-prison/CODM-S4-ETERNAL-PRISON-003.webp"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/codm/s4-eternal-prison/CODM-S4-ETERNAL-PRISON-004.webp",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:27.446367+00:00",
+            "load_time_ms": 48,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 960,
+            "content_type": "image/webp",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/codm/s4-eternal-prison/CODM-S4-ETERNAL-PRISON-004.webp"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/codm/s4-eternal-prison/CODM-S4-ETERNAL-PRISON-005.webp",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:27.501393+00:00",
+            "load_time_ms": 51,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/webp",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/codm/s4-eternal-prison/CODM-S4-ETERNAL-PRISON-005.webp"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/codm/s4-eternal-prison/CODM-S4-ETERNAL-PRISON-006.webp",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:27.551531+00:00",
+            "load_time_ms": 48,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/webp",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/codm/s4-eternal-prison/CODM-S4-ETERNAL-PRISON-006.webp"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/codm/s4-eternal-prison/CODM-S4-ETERNAL-PRISON-007.webp",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:27.602792+00:00",
+            "load_time_ms": 48,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/webp",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/codm/s4-eternal-prison/CODM-S4-ETERNAL-PRISON-007.webp"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/codm/s4-eternal-prison/CODM-S4-ETERNAL-PRISON-008.webp",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:27.653842+00:00",
+            "load_time_ms": 48,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/webp",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/codm/s4-eternal-prison/CODM-S4-ETERNAL-PRISON-008.webp"
+          }
+        }
+      ]
+    },
+    {
+      "source_title": "#TeamRICOCHET Season 03 Update",
+      "source_type": "event_detail",
+      "source_url": "https://www.callofduty.com/blog/2026/04/call-of-duty-black-ops-7-ricochet-anti-cheat-season-03",
+      "fetched_url": "https://www.callofduty.com/blog/2026/04/call-of-duty-black-ops-7-ricochet-anti-cheat-season-03",
+      "status": 200,
+      "page_title": "RICOCHET Anti-Cheat™ Update – Season 03",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Esports Call of Duty League",
+        "Esports Call of Duty League",
+        "Updates to device detections and new account security measures help keep matches clean in Season 03",
+        "Skip To Main Content Menu dropdown Blog Black Ops 7",
+        "Call of Duty Mobile World Championship",
+        "World Series of Warzone",
+        "Choose your region Selected region - United States United States Selected region: United States Close Menu + United States",
+        "©/TM/ ® 2026 Activision Publishing, Inc.",
+        "Selected region - United States United States",
+        "Selected region: United States"
+      ],
+      "inferred_event_types": [
+        "tournament_competition",
+        "seasonal_festival",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/BO7-S03_RICOCHET-TOUT.jpg",
+          "alt": "og:image",
+          "kind": "preview",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:27.781535+00:00",
+            "load_time_ms": 123,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1081,
+            "content_type": "application/octet-stream",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/BO7-S03_RICOCHET-TOUT.jpg"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/BO7-S03_RICOCHET-001.webp",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:27.886187+00:00",
+            "load_time_ms": 101,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2018,
+            "natural_height": 1022,
+            "content_type": "image/webp",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/BO7-S03_RICOCHET-001.webp"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/BO7-S03_RICOCHET-002.webp",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:27.941775+00:00",
+            "load_time_ms": 53,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1856,
+            "natural_height": 940,
+            "content_type": "image/webp",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/BO7-S03_RICOCHET-002.webp"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/global/ratings/esrb/cod-hub-esrb-en.png",
+          "alt": "Mature 17+: Blood and Gore, Intense Violence, Strong Language, Suggestive Themes, Use of Drugs, In-game Purchases / Users Interact",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:09:28.107005+00:00",
+            "load_time_ms": 46,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 424,
+            "natural_height": 251,
+            "content_type": "application/octet-stream",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/global/ratings/esrb/cod-hub-esrb-en.png"
+          }
+        }
+      ]
+    }
+  ],
+  "event_catalog": [
+    {
+      "title": "Reloaded Recon: Black Ops 7 and Call of Duty: Warzone Season 03 Mid-Season Content Drop: Everything You Need to Know",
+      "url": "https://www.callofduty.com/blog/2026/04/call-of-duty-black-ops-7-warzone-season-03-reloaded-announcement",
+      "discovered_from": "https://www.callofduty.com/blog?category=cod-mobile",
+      "description": "Season 03 Reloaded amps up the pace as players race against the clock in the new Freerun mode in Multiplayer and engage in high-speed chases across Avalon in Hot Pursuit, joined by Prop Hunt Royale in Rebirth Island. In Endgame, take on new challenges and earn rewards in Operation Broken Mirror, while Zombies introduces the new Round-Based Map, Totenreich. And that’s only the initial intel. Season 03 Reloaded launches on April 30.",
+      "inferred_event_types": [
+        "battle_pass",
+        "tournament_competition",
+        "team_alliance",
+        "seasonal_festival",
+        "pve_boss",
+        "pvp_war",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-001.webp",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:07:06.016580+00:00",
+            "load_time_ms": 570,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/webp",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-001.webp"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-002.webp",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:07:06.367907+00:00",
+            "load_time_ms": 348,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/webp",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-002.webp"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Call of Duty: Black Ops 7 Season 03 Patch Notes",
+      "url": "https://www.callofduty.com/patchnotes/2026/04/call-of-duty-black-ops-7-season-03-patch-notes",
+      "discovered_from": "https://www.callofduty.com/blog?category=cod-mobile",
+      "description": "Addressed an issue with gun shaking during a side quest.",
+      "inferred_event_types": [
+        "battle_pass",
+        "tournament_competition",
+        "team_alliance",
+        "seasonal_festival",
+        "merge_event",
+        "pve_boss",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/mp/season-03/BO7-S03_PATCHNOTES-BO7.jpg",
+          "alt": "og:image",
+          "kind": "preview",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:07:10.093181+00:00",
+            "load_time_ms": 70,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1081,
+            "content_type": "application/octet-stream",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/mp/season-03/BO7-S03_PATCHNOTES-BO7.jpg"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/all/Strider300.png",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:07:10.144519+00:00",
+            "load_time_ms": 47,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1024,
+            "natural_height": 576,
+            "content_type": "application/octet-stream",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/all/Strider300.png"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/mp/season-03/season03reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-TOUT.jpg",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:07:10.202898+00:00",
+            "load_time_ms": 55,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/jpeg",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/mp/season-03/season03reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-TOUT.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Call of Duty: Warzone Season 03 Reloaded Patch Notes",
+      "url": "https://www.callofduty.com/patchnotes/2026/04/call-of-duty-bo7-warzone-season-03-reloaded-patch-notes",
+      "discovered_from": "https://www.callofduty.com/blog?category=cod-mobile",
+      "description": "MONDAY MAY 11 BUG FIXES Fixed an issue that prevented controller users from navigating during the Winner’s Circle.",
+      "inferred_event_types": [
+        "battle_pass",
+        "tournament_competition",
+        "team_alliance",
+        "seasonal_festival",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/wz/s03r/BO7-S03R_PATCHNOTES-WZ.jpg",
+          "alt": "og:image",
+          "kind": "preview",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:25.694728+00:00",
+            "load_time_ms": 120,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1081,
+            "content_type": "application/octet-stream",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/wz/s03r/BO7-S03R_PATCHNOTES-WZ.jpg"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/common/line_1.png",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:25.745687+00:00",
+            "load_time_ms": 46,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 25,
+            "content_type": "image/png",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/common/line_1.png"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/common/line_2.png",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:25.801212+00:00",
+            "load_time_ms": 53,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 25,
+            "content_type": "application/octet-stream",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/common/line_2.png"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Call of Duty: Warzone Season 03 Patch Notes",
+      "url": "https://www.callofduty.com/patchnotes/2026/04/call-of-duty-bo7-warzone-season-03-patch-notes",
+      "discovered_from": "https://www.callofduty.com/blog?category=cod-mobile",
+      "description": "Reduced Armor Satchel drop rate by 6%. These changes are intended to better smooth player power progression throughout a match. Legendary Supply Boxes were previously contributing to faster-than-intended power spikes. These adjustments also increase loot variety and reduce the likelihood of duplicate rewards.",
+      "inferred_event_types": [
+        "collection_album",
+        "tournament_competition",
+        "team_alliance",
+        "seasonal_festival",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/wz/s03/BO7-S03_PATCHNOTES-WZ.jpg",
+          "alt": "og:image",
+          "kind": "preview",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:26.311884+00:00",
+            "load_time_ms": 132,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1081,
+            "content_type": "image/jpeg",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/wz/s03/BO7-S03_PATCHNOTES-WZ.jpg"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/common/line_1.png",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:25.745687+00:00",
+            "load_time_ms": 46,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 25,
+            "content_type": "image/png",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/common/line_1.png"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/all/AK27.png",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:26.365639+00:00",
+            "load_time_ms": 50,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 791,
+            "natural_height": 576,
+            "content_type": "application/octet-stream",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/all/AK27.png"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Introducing Call of Duty: Mobile Season 4 — Eternal Prison",
+      "url": "https://www.callofduty.com/blog/2026/04/call-of-duty-mobile-season-4-2026-eternal-prison",
+      "discovered_from": "https://www.callofduty.com/blog?category=cod-mobile",
+      "description": "Drop into Rebirth Island in Battle Royale and DMZ: Recon, arriving with a host of updates for the fan-favorite extraction mode. Face off against Operators inspired by Kong and Godzilla in an epic seasonal collaboration, wield the new DP27 LMG, become the Toxic Overload Battle Royale class, and more, including a brand-new Battle Pass and multiple events bringing new rewards into the mix.",
+      "inferred_event_types": [
+        "battle_pass",
+        "tournament_competition",
+        "seasonal_festival",
+        "pve_boss",
+        "pvp_war",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/codm/s4-eternal-prison/CODM-S4-ETERNAL-PRISON-TOUT.jpg",
+          "alt": "og:image",
+          "kind": "preview",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:27.073795+00:00",
+            "load_time_ms": 410,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 3840,
+            "natural_height": 2160,
+            "content_type": "image/jpeg",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/codm/s4-eternal-prison/CODM-S4-ETERNAL-PRISON-TOUT.jpg"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/codm/s4-eternal-prison/CODM-S4-ETERNAL-PRISON-001.webp",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:27.292528+00:00",
+            "load_time_ms": 215,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 960,
+            "content_type": "image/webp",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/codm/s4-eternal-prison/CODM-S4-ETERNAL-PRISON-001.webp"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/codm/s4-eternal-prison/CODM-S4-ETERNAL-PRISON-002.webp",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:27.345077+00:00",
+            "load_time_ms": 49,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 960,
+            "content_type": "image/webp",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/codm/s4-eternal-prison/CODM-S4-ETERNAL-PRISON-002.webp"
+          }
+        }
+      ]
+    },
+    {
+      "title": "RICOCHET Anti-Cheat™ Update – Season 03",
+      "url": "https://www.callofduty.com/blog/2026/04/call-of-duty-black-ops-7-ricochet-anti-cheat-season-03",
+      "discovered_from": "https://www.callofduty.com/blog?category=cod-mobile",
+      "description": "Updates to device detections and new account security measures help keep matches clean in Season 03",
+      "inferred_event_types": [
+        "tournament_competition",
+        "seasonal_festival",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/BO7-S03_RICOCHET-TOUT.jpg",
+          "alt": "og:image",
+          "kind": "preview",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:27.781535+00:00",
+            "load_time_ms": 123,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1081,
+            "content_type": "application/octet-stream",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/BO7-S03_RICOCHET-TOUT.jpg"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/BO7-S03_RICOCHET-001.webp",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:27.886187+00:00",
+            "load_time_ms": 101,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2018,
+            "natural_height": 1022,
+            "content_type": "image/webp",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/BO7-S03_RICOCHET-001.webp"
+          }
+        },
+        {
+          "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/BO7-S03_RICOCHET-002.webp",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:08:27.941775+00:00",
+            "load_time_ms": 53,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1856,
+            "natural_height": 940,
+            "content_type": "image/webp",
+            "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/BO7-S03_RICOCHET-002.webp"
+          }
+        }
+      ]
+    }
+  ],
+  "inferred_event_type_summary": [
+    "battle_pass",
+    "collection_album",
+    "merge_event",
+    "pve_boss",
+    "pvp_war",
+    "seasonal_festival",
+    "store_offer",
+    "team_alliance",
+    "tournament_competition"
+  ],
+  "screenshots_or_images": [
+    {
+      "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-001.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.callofduty.com/blog/2026/04/call-of-duty-black-ops-7-warzone-season-03-reloaded-announcement",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:07:06.016580+00:00",
+        "load_time_ms": 570,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/webp",
+        "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-001.webp"
+      }
+    },
+    {
+      "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-002.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.callofduty.com/blog/2026/04/call-of-duty-black-ops-7-warzone-season-03-reloaded-announcement",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:07:06.367907+00:00",
+        "load_time_ms": 348,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/webp",
+        "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-002.webp"
+      }
+    },
+    {
+      "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-003.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.callofduty.com/blog/2026/04/call-of-duty-black-ops-7-warzone-season-03-reloaded-announcement",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:07:06.765440+00:00",
+        "load_time_ms": 395,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/webp",
+        "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-003.webp"
+      }
+    },
+    {
+      "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-004.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.callofduty.com/blog/2026/04/call-of-duty-black-ops-7-warzone-season-03-reloaded-announcement",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:07:07.203355+00:00",
+        "load_time_ms": 435,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/webp",
+        "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-004.webp"
+      }
+    },
+    {
+      "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-005.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.callofduty.com/blog/2026/04/call-of-duty-black-ops-7-warzone-season-03-reloaded-announcement",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:07:07.581127+00:00",
+        "load_time_ms": 375,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/webp",
+        "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-005.webp"
+      }
+    },
+    {
+      "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-006.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.callofduty.com/blog/2026/04/call-of-duty-black-ops-7-warzone-season-03-reloaded-announcement",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:07:07.902920+00:00",
+        "load_time_ms": 318,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/webp",
+        "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-006.webp"
+      }
+    },
+    {
+      "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-007.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.callofduty.com/blog/2026/04/call-of-duty-black-ops-7-warzone-season-03-reloaded-announcement",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:07:09.701882+00:00",
+        "load_time_ms": 1796,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/webp",
+        "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-007.webp"
+      }
+    },
+    {
+      "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-008.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.callofduty.com/blog/2026/04/call-of-duty-black-ops-7-warzone-season-03-reloaded-announcement",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:07:10.019641+00:00",
+        "load_time_ms": 314,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/webp",
+        "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/bo7/bo7-s03-reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-008.webp"
+      }
+    },
+    {
+      "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/mp/season-03/BO7-S03_PATCHNOTES-BO7.jpg",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/04/call-of-duty-black-ops-7-season-03-patch-notes",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:07:10.093181+00:00",
+        "load_time_ms": 70,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1081,
+        "content_type": "application/octet-stream",
+        "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/mp/season-03/BO7-S03_PATCHNOTES-BO7.jpg"
+      }
+    },
+    {
+      "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/all/Strider300.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/04/call-of-duty-black-ops-7-season-03-patch-notes",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:07:10.144519+00:00",
+        "load_time_ms": 47,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1024,
+        "natural_height": 576,
+        "content_type": "application/octet-stream",
+        "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/all/Strider300.png"
+      }
+    },
+    {
+      "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/mp/season-03/season03reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-TOUT.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/04/call-of-duty-black-ops-7-season-03-patch-notes",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:07:10.202898+00:00",
+        "load_time_ms": 55,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/jpeg",
+        "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/mp/season-03/season03reloaded/BO7-S03-RELOADED-ANNOUNCEMENT-TOUT.jpg"
+      }
+    },
+    {
+      "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/mp/season-03/season03reloaded/BO7_S3.5_GEN_NewAttachments_02.webp",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/04/call-of-duty-black-ops-7-season-03-patch-notes",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:08:25.571379+00:00",
+        "load_time_ms": 321,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/webp",
+        "current_src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/bo7/mp/season-03/season03reloaded/BO7_S3.5_GEN_NewAttachments_02.webp"
+      }
+    }
+  ],
+  "collection_warnings": [
+    "Fetch failed: https://callofduty.fandom.com/wiki/Call_of_Duty:_Mobile"
+  ]
+}

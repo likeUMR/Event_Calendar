@@ -1,0 +1,1767 @@
+{
+  "rank": 45,
+  "name": "Merge Mansion: Puzzles & Story",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 Merge Mansion Fandom 的 Events 总页、Seasonal Events/Eventlist、Roddy's Mystery、The Daily Scoop，以及官方 Help Center 的 Mystery Pass 页面；未处理图片。",
+  "source_pages": [
+    {
+      "title": "Merge Mansion Wiki - Events",
+      "url": "https://merge-mansion.fandom.com/wiki/Events",
+      "notes": "非常完整的活动总页，解释 Events 是限时内容，并按 Story/Permanent、Seasonal、Generic、Mystery、Leaderboard、Collectible Board、Garage Cleanup、Daily Scoop、Secret Supply、Teatime Delight、Boulton Legacy、Clue Collection 等类型梳理。"
+    },
+    {
+      "title": "Merge Mansion Wiki - Seasonal Events/Eventlist",
+      "url": "https://merge-mansion.fandom.com/wiki/Seasonal_Events/Eventlist",
+      "notes": "季节活动列表，用于补充装饰/节庆类事件样本。"
+    },
+    {
+      "title": "Merge Mansion Wiki - Roddy's Mystery",
+      "url": "https://merge-mansion.fandom.com/wiki/Roddy%27s_Mystery",
+      "notes": "Mystery Pass 样本：28 天活动，收集 Roddy's Merit Badges 推进奖励轨，含 F2P 和 Premium rewards。"
+    },
+    {
+      "title": "Merge Mansion Wiki - The Daily Scoop",
+      "url": "https://merge-mansion.fandom.com/wiki/The%20Daily%20Scoop",
+      "notes": "近乎常驻的每日/每周任务活动，24 小时日任务和 7 天周奖励。"
+    },
+    {
+      "title": "Merge Mansion Help Center - Mystery Pass",
+      "url": "https://everyweargames.helpshift.com/hc/en/11-merge-mansion/faq/1330-mystery-pass-how-does-it-work/?l=en%2F1000&p=all",
+      "notes": "官方支持页确认 Mystery Pass 是 Merge Mansion 的季节性 progression system。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "story_permanent_events",
+      "display_name": "Story / Permanent Events / 剧情常驻事件",
+      "description": "随区域进度解锁的常驻剧情事件。每个事件包含限时重复关卡和后续交付链，玩家一次只能玩一个，且通常要按顺序完成。",
+      "examples": [
+        "Ignatius Boulton",
+        "Lindsay's New York Story",
+        "Casey & Skatie"
+      ],
+      "market_research_notes": "这是 Merge Mansion 早期核心事件形态，把主线物品需求拆成独立事件 board，形成短期冲刺和长期目标结合。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/tl660A4JSn8/maxresdefault.jpg",
+          "caption": "Merge Mansion Mystery & Story ...",
+          "source_url": "https://www.youtube.com/watch?v=tl660A4JSn8",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+story+permanent+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story story permanent events",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:01:56.722064+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:43.625441+00:00",
+            "load_time_ms": 426,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/tl660A4JSn8/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "这是 Merge Mansion 的 App 图标及关联宣传角色素材，属于通用品牌/角色展示，不涉及具体活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:05.952017+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/why-does-my-story-event-keep-restarting-itself-v0-4z9nhvfj6n4d1.jpeg?width=640&crop=smart&auto=webp&s=c74ca1c08b8040a8cc490e938e1c2b3298c207e3",
+          "caption": "story event keep restarting itself ...",
+          "source_url": "https://www.reddit.com/r/MergeMansion/comments/1d8bx1t/why_does_my_story_event_keep_restarting_itself/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+story+permanent+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story story permanent events",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:01:56.722064+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:43.929976+00:00",
+            "load_time_ms": 298,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 1387,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/why-does-my-story-event-keep-restarting-itself-v0-4z9nhvfj6n4d1.jpeg?width=640&crop=smart&auto=webp&s=c74ca1c08b8040a8cc490e938e1c2b3298c207e3"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了常驻剧情事件 'Ignatius Boulton' 的实际棋盘玩法界面（包含特定数值物品和碎纸机生成器）。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:05.952017+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/anniversary-event-completed-all-story-lines-v0-3hj9s91yelpf1.jpeg?width=1080&crop=smart&auto=webp&s=76923240c06c92594638b3265520cfa8f3935d1c",
+          "caption": "Anniversary event - completed all story ...",
+          "source_url": "https://www.reddit.com/r/MergeMansion/comments/1niu0v0/anniversary_event_completed_all_story_lines/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+story+permanent+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story story permanent events",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:01:56.722064+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:44.241239+00:00",
+            "load_time_ms": 304,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 2340,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/anniversary-event-completed-all-story-lines-v0-3hj9s91yelpf1.jpeg?width=1080&crop=smart&auto=webp&s=76923240c06c92594638b3265520cfa8f3935d1c"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "虽然标题包含 Story 字样，但这是五周年庆典活动（Anniversary event）的奖励轨道界面，不属于常驻剧情事件类别。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:05.952017+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/ulipgqst8fs91.jpg",
+          "caption": "Story event : r/MergeMansion",
+          "source_url": "https://www.reddit.com/r/MergeMansion/comments/xy5isw/story_event/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+story+permanent+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story story permanent events",
+          "width": 251,
+          "height": 201,
+          "aspect_ratio": 1.2488,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:01:56.722064+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:44.517024+00:00",
+            "load_time_ms": 270,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1125,
+            "natural_height": 902,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/ulipgqst8fs91.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "明确标注为 Story Event，展示了 Ignatius Boulton 事件的任务交付界面（收集罐头物品）。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:05.952017+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "seasonal_decoration_events",
+      "display_name": "Seasonal / Decoration Events / 季节装饰活动",
+      "description": "围绕节庆或主题开放的限时 event board，常奖励 mansion grounds 装饰。Wiki 说明 seasonal events 通常要求玩家达到 Level 12 且设备内存满足要求。",
+      "examples": [
+        "Halloween events",
+        "Christmas events",
+        "Seasonal Events",
+        "Decoration Events"
+      ],
+      "market_research_notes": "装饰奖励让叙事场景可视化变化，是 Merge 类游戏区别于纯数值奖励的重要留存点。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/h5lTjrTZaGg/maxresdefault.jpg",
+          "caption": "First Christmas Holiday Decorations ...",
+          "source_url": "https://www.youtube.com/watch?v=h5lTjrTZaGg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+seasonal+decoration+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story seasonal decoration events",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:02:17.591079+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:44.977725+00:00",
+            "load_time_ms": 446,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/h5lTjrTZaGg/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了Merge Mansion游戏内的圣诞主题装饰（Seasonal Decoration），属于实际的游戏场景截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:08.911315+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/FqFh7Fs4qtQ/maxresdefault.jpg",
+          "caption": "Gameplay Walkthrough |Part 306 ...",
+          "source_url": "https://www.youtube.com/watch?v=FqFh7Fs4qtQ",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+seasonal+decoration+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story seasonal decoration events",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:02:17.591079+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:45.383973+00:00",
+            "load_time_ms": 399,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/FqFh7Fs4qtQ/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了游戏内庭院的雪地版及节日喷泉装饰，属于季节性活动（Holiday Event）的实际玩法或装饰成果展示。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:08.911315+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/jFGX8ZrVkkQ/maxresdefault.jpg",
+          "caption": "Holiday Oddities as New Chritmas Event ...",
+          "source_url": "https://www.youtube.com/watch?v=jFGX8ZrVkkQ",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+seasonal+decoration+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story seasonal decoration events",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:02:17.591079+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:45.778703+00:00",
+            "load_time_ms": 389,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/jFGX8ZrVkkQ/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "该图为活动的宣传插画/封面图，展示了角色和节日元素，没有实际的操作界面或棋盘。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:08.911315+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "generic_events",
+      "display_name": "Generic Events / 周期泛用活动",
+      "description": "一年中周期性出现、甚至同年多次出现的活动，常用于提供 Piggy Bank、Brown Chest、Fancy Blue Chest 等奖励。",
+      "examples": [
+        "Generic Events",
+        "Lucky Catch",
+        "Lucky Snap"
+      ],
+      "market_research_notes": "用于填充活动日历和资源补给，重点看与主 board 生产行为的关联。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/tl660A4JSn8/maxresdefault.jpg",
+          "caption": "Merge Mansion Mystery & Story ...",
+          "source_url": "https://www.youtube.com/watch?v=tl660A4JSn8",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+generic+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story generic events",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:02:41.446681+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:43.625441+00:00",
+            "load_time_ms": 426,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/tl660A4JSn8/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "展示了游戏的App图标和代表性角色，属于通用品牌图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:13.279810+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Hbd7mRLR8_U/maxresdefault.jpg",
+          "caption": "MERGE MANSION- REVAMPED IGNATIUS ...",
+          "source_url": "https://www.youtube.com/watch?v=Hbd7mRLR8_U",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+generic+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story generic events",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:02:41.446681+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:46.155452+00:00",
+            "load_time_ms": 369,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/Hbd7mRLR8_U/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了Ignatius Boulton活动的详细任务、物品链及活动进度界面，属于实际玩法截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:13.279810+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/why-does-my-story-event-keep-restarting-itself-v0-4z9nhvfj6n4d1.jpeg?auto=webp&s=9782eec8f1815bb9bf553b8566edc54f5ec27075",
+          "caption": "story event keep restarting itself ...",
+          "source_url": "https://www.reddit.com/r/MergeMansion/comments/1d8bx1t/why_does_my_story_event_keep_restarting_itself/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+generic+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story generic events",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:02:41.446681+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:46.500405+00:00",
+            "load_time_ms": 340,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1179,
+            "natural_height": 2556,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/why-does-my-story-event-keep-restarting-itself-v0-4z9nhvfj6n4d1.jpeg?auto=webp&s=9782eec8f1815bb9bf553b8566edc54f5ec27075"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "展示了活动专属的合成棋盘界面，包含了具体的活动数值和可操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:13.279810+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/ulipgqst8fs91.jpg",
+          "caption": "Story event : r/MergeMansion",
+          "source_url": "https://www.reddit.com/r/MergeMansion/comments/xy5isw/story_event/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+generic+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story generic events",
+          "width": 251,
+          "height": 201,
+          "aspect_ratio": 1.2488,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:02:41.446681+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:44.517024+00:00",
+            "load_time_ms": 270,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1125,
+            "natural_height": 902,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/ulipgqst8fs91.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.88,
+            "reason": "展示了名为Story Event的任务提示弹窗，主要是信息告知而非具体的合成或玩法操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:13.279810+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Hco3Cl3mNpw/maxresdefault.jpg",
+          "caption": "Merge Mansion | Five-Year Secret ...",
+          "source_url": "https://www.youtube.com/watch?v=Hco3Cl3mNpw",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+generic+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story generic events",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:02:41.446681+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:46.883264+00:00",
+            "load_time_ms": 375,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/Hco3Cl3mNpw/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "右侧清晰展示了Five-Year Secret庆典活动的合成棋盘（Board）及任务进度，属于玩法截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:13.279810+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "mystery_pass",
+      "display_name": "Mystery / Mystery Pass / 月度通行证",
+      "description": "季节性 progression system。玩家通过合成/收集活动点数物品推进奖励轨，通常有免费轨和 Premium Pass 轨。",
+      "examples": [
+        "Roddy's Mystery",
+        "Amy's Mystery",
+        "Julius' Mystery",
+        "Something Ours"
+      ],
+      "market_research_notes": "Merge Mansion 的长期商业化层，把日常合成掉落转为 pass 经验，付费轨通常给装饰、资源和加速道具。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/tl660A4JSn8/maxresdefault.jpg",
+          "caption": "Merge Mansion Mystery & Story ...",
+          "source_url": "https://www.youtube.com/watch?v=tl660A4JSn8",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+mystery+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story mystery pass",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:03:14.238919+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:43.625441+00:00",
+            "load_time_ms": 426,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/tl660A4JSn8/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "展示了游戏内角色的宣传图和应用图标，属于通用品牌宣传内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:18.525208+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/is-the-mystery-pass-worth-it-v0-zfzj6l1r8l5g1.png?auto=webp&s=75bd4773cb5c2f400b55bbc2313a095e3a84fc83",
+          "caption": "mystery pass worth it ? : r/MergeMansion",
+          "source_url": "https://www.reddit.com/r/MergeMansion/comments/1pfpr02/is_the_mystery_pass_worth_it/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+mystery+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story mystery pass",
+          "width": 188,
+          "height": 269,
+          "aspect_ratio": 0.6989,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:03:14.238919+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:47.250408+00:00",
+            "load_time_ms": 358,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1940,
+            "natural_height": 2778,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/is-the-mystery-pass-worth-it-v0-zfzj6l1r8l5g1.png?auto=webp&s=75bd4773cb5c2f400b55bbc2313a095e3a84fc83"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了活动实际奖励轨界面，包含进度条和点数信息，确认属于 Mystery Pass 活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:18.525208+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/updated-mystery-pass-v0-fbsyw9rpz1zd1.jpeg?auto=webp&s=045d9b02e10a8699c9e910798140529d806efc90",
+          "caption": "Updated Mystery Pass : r/MergeMansion",
+          "source_url": "https://www.reddit.com/r/MergeMansion/comments/1gk30jo/updated_mystery_pass/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+mystery+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story mystery pass",
+          "width": 167,
+          "height": 301,
+          "aspect_ratio": 0.5548,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:03:14.238919+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:47.557852+00:00",
+            "load_time_ms": 297,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 755,
+            "natural_height": 1360,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/updated-mystery-pass-v0-fbsyw9rpz1zd1.jpeg?auto=webp&s=045d9b02e10a8699c9e910798140529d806efc90"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了 Mystery Pass 的付费购买说明界面，侧重于权益介绍和价格展示，非直接玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:18.525208+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/mystery-pass-v0-wls5rqmdwyic1.jpeg?auto=webp&s=d652021b7fe92aec6bf2be4278ce14237c82e30e",
+          "caption": "Mystery pass : r/MergeMansion",
+          "source_url": "https://www.reddit.com/r/MergeMansion/comments/1asblnr/mystery_pass/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+mystery+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story mystery pass",
+          "width": 177,
+          "height": 284,
+          "aspect_ratio": 0.6232,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:03:14.238919+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:47.942222+00:00",
+            "load_time_ms": 379,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1752,
+            "natural_height": 2800,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/mystery-pass-v0-wls5rqmdwyic1.jpeg?auto=webp&s=d652021b7fe92aec6bf2be4278ce14237c82e30e"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了 Valentine's Mystery 的活动奖励轨、关卡进度及收集状态，属于实际活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:18.525208+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/-h5raJwvlwUJO5AeAW6uEwlsu53q19Njzg5d24StRCZCFVnRy-8gbQgUQWNEQQk6qOiA",
+          "caption": "Merge Mansion: Puzzles & Story - Apps ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.everywear.game5",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+mystery+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story mystery pass",
+          "width": 137,
+          "height": 296,
+          "aspect_ratio": 0.4628,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:03:14.238919+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:48.869157+00:00",
+            "load_time_ms": 922,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/-h5raJwvlwUJO5AeAW6uEwlsu53q19Njzg5d24StRCZCFVnRy-8gbQgUQWNEQQk6qOiA"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为游戏的商店图标截图，属于通用品牌素材。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:18.525208+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "leaderboard_events",
+      "display_name": "Leaderboard Events / 排行榜活动",
+      "description": "玩家领取 event gate 后进入最多约 8 人的小组，通过活动点数竞争排名。通常使用独立蓝色能量，可从主游戏其他区域获取。",
+      "examples": [
+        "Leaderboard Events",
+        "seasonal leaderboard variants",
+        "Boulton Legacy"
+      ],
+      "market_research_notes": "小组竞争降低挫败感，同时把主 board 行为与活动能量相连，适合研究轻度游戏里的温和 PvP。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/tl660A4JSn8/maxresdefault.jpg",
+          "caption": "Merge Mansion Mystery & Story ...",
+          "source_url": "https://www.youtube.com/watch?v=tl660A4JSn8",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+leaderboard+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story leaderboard events",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:03:55.499674+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:43.625441+00:00",
+            "load_time_ms": 426,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/tl660A4JSn8/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 1.0,
+            "reason": "包含Merge Mansion游戏图标及角色头像，但无特定活动信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:21.345296+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/how-do-these-leaderboards-work-and-why-am-i-at-the-top-v0-ihkatc698w5e1.jpeg?width=1080&crop=smart&auto=webp&s=f92877abaeef50777be245df11e00c1963a6db60",
+          "caption": "How do these leaderboards work and why ...",
+          "source_url": "https://www.reddit.com/r/MergeMansion/comments/1halc7m/how_do_these_leaderboards_work_and_why_am_i_at/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+leaderboard+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story leaderboard events",
+          "width": 171,
+          "height": 294,
+          "aspect_ratio": 0.5816,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:03:55.499674+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:49.217730+00:00",
+            "load_time_ms": 342,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 1854,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/how-do-these-leaderboards-work-and-why-am-i-at-the-top-v0-ihkatc698w5e1.jpeg?width=1080&crop=smart&auto=webp&s=f92877abaeef50777be245df11e00c1963a6db60"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 1.0,
+            "reason": "展示了名为“Gingerbread Jamboree”的活动排行榜界面，包含玩家排名、积分和奖励信息，属于实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:21.345296+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Hbd7mRLR8_U/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBSWNhUcH15WQkaUSJkuQvWAU_y0Q",
+          "caption": "MERGE MANSION- REVAMPED IGNATIUS ...",
+          "source_url": "https://www.youtube.com/watch?v=Hbd7mRLR8_U",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+leaderboard+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story leaderboard events",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:03:55.499674+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:49.579801+00:00",
+            "load_time_ms": 356,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/Hbd7mRLR8_U/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBSWNhUcH15WQkaUSJkuQvWAU_y0Q"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了“Ignatius Boulton”活动的任务进度、收集目标及奖励，属于该游戏特定活动内的实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:21.345296+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "collectible_board_events",
+      "display_name": "Collectible Board Events / 收集图鉴事件",
+      "description": "目标之一是在多轮活动中完成某种 item collection。活动有单次进度奖励，也有跨轮收集进度奖励。",
+      "examples": [
+        "Veil of Fate",
+        "Lost Gemstones",
+        "Lucky Catch",
+        "Lucky Snap"
+      ],
+      "market_research_notes": "跨期收集能让活动复刻更有意义，降低每次从零开始的疲劳感。",
+      "images": [
+        {
+          "url": "https://i.redd.it/62j64cmwlrtg1.jpeg",
+          "caption": "Too many events! : r/MergeMansion",
+          "source_url": "https://www.reddit.com/r/MergeMansion/comments/1sev1rb/too_many_events/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+collectible+board+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story collectible board events",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:04:16.153108+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:50.058889+00:00",
+            "load_time_ms": 472,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 2340,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/62j64cmwlrtg1.jpeg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是游戏的主棋盘界面（Main Board），虽然右下角圈出了活动入口，但主体不是活动玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:25.995572+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/tl660A4JSn8/maxresdefault.jpg",
+          "caption": "Merge Mansion Mystery & Story ...",
+          "source_url": "https://www.youtube.com/watch?v=tl660A4JSn8",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+collectible+board+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story collectible board events",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:04:16.153108+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:43.625441+00:00",
+            "load_time_ms": 426,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/tl660A4JSn8/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "展示的是手机桌面图标（App Icons），包含本游戏图标，属于通用品牌/商店类。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:25.995572+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/e80Qk4chXqM/maxresdefault.jpg",
+          "caption": "Merge Mansion | The Great Bush Bonanza ...",
+          "source_url": "https://www.youtube.com/watch?v=e80Qk4chXqM",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+collectible+board+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story collectible board events",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:04:16.153108+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:50.457942+00:00",
+            "load_time_ms": 391,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/e80Qk4chXqM/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "图中右侧展示的是 The Great Bush Bonanza 活动的独立合成棋盘，属于活动内实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:25.995572+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/TnFucT6jxAc/maxresdefault.jpg",
+          "caption": "Merge Mansion | Five-Year Secret ...",
+          "source_url": "https://www.youtube.com/watch?v=TnFucT6jxAc",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+collectible+board+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story collectible board events",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:04:16.153108+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:50.845129+00:00",
+            "load_time_ms": 382,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/TnFucT6jxAc/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "图中右侧展示的是 Five-Year Secret 剧情活动对应的独立合成棋盘，属于活动内实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:25.995572+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/best-event-v0-nht80ab1xgmd1.jpeg?auto=webp&s=46aa41947513d634811978f2787997eecafe27b5",
+          "caption": "Best event : r/MergeMansion",
+          "source_url": "https://www.reddit.com/r/MergeMansion/comments/1f7j6j3/best_event/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+collectible+board+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story collectible board events",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:04:16.153108+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:51.259351+00:00",
+            "load_time_ms": 406,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1125,
+            "natural_height": 2436,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/best-event-v0-nht80ab1xgmd1.jpeg?auto=webp&s=46aa41947513d634811978f2787997eecafe27b5"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "这是 Lucky Catch（幸运捕鱼）活动的合成棋盘界面，包含了活动专属生成器和资源，属于实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:25.995572+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "garage_cleanup",
+      "display_name": "Garage Cleanup / Bingo 式清理活动",
+      "description": "玩家把主 garage board 上产出的物品交到类似 Bingo 卡的特殊面板，完成行、列、对角线、图案或整板获得更多奖励。",
+      "examples": [
+        "Garage Cleanup",
+        "Event Garage Cleanup"
+      ],
+      "market_research_notes": "巧妙消耗库存和主 board 物品，既缓解背包压力，也引导玩家生产指定链条。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/Brze8r0QlcU/maxresdefault.jpg",
+          "caption": "Merge Mansion | Frosty Garage Cleanup ...",
+          "source_url": "https://www.youtube.com/watch?v=Brze8r0QlcU",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+garage+cleanup",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story garage cleanup",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:04:42.220338+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:51.621384+00:00",
+            "load_time_ms": 357,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/Brze8r0QlcU/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了Frosty Garage Cleanup活动的实际玩法界面，包含典型的Bingo网格板和奖励进度。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:29.155716+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/g0NRJbAcJ2Q/maxresdefault.jpg",
+          "caption": "Merge Mansion | Easter Garage Cleanup ...",
+          "source_url": "https://www.youtube.com/watch?v=g0NRJbAcJ2Q",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+garage+cleanup",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story garage cleanup",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:04:42.220338+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:52.002173+00:00",
+            "load_time_ms": 375,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/g0NRJbAcJ2Q/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "属于Easter Garage Cleanup活动的启动或宣传弹窗，虽然包含活动信息但非实际操作玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:29.155716+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/garage-cleanup-v0-9rcjf2xs2a2d1.jpeg?auto=webp&s=adc390cb46b0b0cbf26ca12144c30a2e22cb39ba",
+          "caption": "Garage Cleanup #4 : r/MergeMansion",
+          "source_url": "https://www.reddit.com/r/MergeMansion/comments/1cz9cqh/garage_cleanup_4/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+garage+cleanup",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story garage cleanup",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:04:42.220338+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:52.387454+00:00",
+            "load_time_ms": 380,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1290,
+            "natural_height": 2796,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/garage-cleanup-v0-9rcjf2xs2a2d1.jpeg?auto=webp&s=adc390cb46b0b0cbf26ca12144c30a2e22cb39ba"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了Love on the Vine Garage Cleanup活动的实际Bingo任务面板界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:29.155716+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Ee60k1e6xH0/hqdefault.jpg",
+          "caption": "Merge Mansion | Ursula's Garage Cleanup ...",
+          "source_url": "https://www.youtube.com/watch?v=Ee60k1e6xH0",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+garage+cleanup",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story garage cleanup",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:04:42.220338+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:52.727437+00:00",
+            "load_time_ms": 334,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 480,
+            "natural_height": 360,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/Ee60k1e6xH0/hqdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "这是视频封面或拼贴宣传图，虽然包含了活动截图，但属于二次加工的宣传形式。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:29.155716+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "daily_scoop",
+      "display_name": "The Daily Scoop / 日周任务",
+      "description": "近乎常驻的每日任务和每周奖励活动。通常每天 24 小时完成一组任务，7 天推进周奖励，任务和奖励会随周变化。",
+      "examples": [
+        "The Daily Scoop"
+      ],
+      "market_research_notes": "日常活跃框架，用 XP、合成、任务完成等行为驱动每日登录和周目标。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/the-daily-scoop-v0-6hfyp3ea5spd1.jpeg?width=640&crop=smart&auto=webp&s=899ec7272536e71c2c9ca96b9083535efe573f24",
+          "caption": "The Daily Scoop : r/MergeMansion",
+          "source_url": "https://www.reddit.com/r/MergeMansion/comments/1fkmuf0/the_daily_scoop/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+daily+scoop",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story daily scoop",
+          "width": 152,
+          "height": 330,
+          "aspect_ratio": 0.4606,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:05:23.347370+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:53.022240+00:00",
+            "load_time_ms": 287,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 1385,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/the-daily-scoop-v0-6hfyp3ea5spd1.jpeg?width=640&crop=smart&auto=webp&s=899ec7272536e71c2c9ca96b9083535efe573f24"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了 The Daily Scoop 活动的任务列表、每日进度条和每周奖励轨等实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:33.069150+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/daily-scoop-how-to-finish-v0-ea36pnopv1ld1.jpeg?auto=webp&s=dc4ac7319000ea7e55c729ebe330481af56b7df0",
+          "caption": "Daily Scoop: how to finish? : r ...",
+          "source_url": "https://www.reddit.com/r/MergeMansion/comments/1f1v7vc/daily_scoop_how_to_finish/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+daily+scoop",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story daily scoop",
+          "width": 194,
+          "height": 259,
+          "aspect_ratio": 0.749,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:05:23.347370+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:53.364850+00:00",
+            "load_time_ms": 336,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2048,
+            "natural_height": 2732,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/daily-scoop-how-to-finish-v0-ea36pnopv1ld1.jpeg?auto=webp&s=dc4ac7319000ea7e55c729ebe330481af56b7df0"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了 The Daily Scoop 日常任务完成情况、剩余时间以及周奖励进度条。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:33.069150+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/04w2mwqqvamd1.jpeg",
+          "caption": "Daily Scoop : r/MergeMansion",
+          "source_url": "https://www.reddit.com/r/MergeMansion/comments/1f6ovc1/daily_scoop/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+daily+scoop",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story daily scoop",
+          "width": 176,
+          "height": 286,
+          "aspect_ratio": 0.6154,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:05:23.347370+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:53.787145+00:00",
+            "load_time_ms": 415,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1242,
+            "natural_height": 2007,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/04w2mwqqvamd1.jpeg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了 The Daily Scoop 的具体任务目标（Collect 2500 XP）和底部的周进度奖励详情。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:33.069150+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/daily-scoop-impossible-to-complete-v0-6qkb4iwf9xvd1.jpeg?width=2716&format=pjpg&auto=webp&s=a2295fb705654896d40b5724715ce3f46b758abb",
+          "caption": "Daily scoop impossible to complete : r ...",
+          "source_url": "https://www.reddit.com/r/MergeMansion/comments/1g7tfde/daily_scoop_impossible_to_complete/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+daily+scoop",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story daily scoop",
+          "width": 187,
+          "height": 270,
+          "aspect_ratio": 0.6926,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:05:23.347370+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:54.472403+00:00",
+            "load_time_ms": 678,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2716,
+            "natural_height": 3913,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/daily-scoop-impossible-to-complete-v0-6qkb4iwf9xvd1.jpeg?width=2716&format=pjpg&auto=webp&s=a2295fb705654896d40b5724715ce3f46b758abb"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了 The Daily Scoop 活动内多个阶梯任务及其对应的奖励图标和解锁状态。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:33.069150+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/xlhbr1sin9wd1.jpeg",
+          "caption": "Daily scoop impossible to complete : r ...",
+          "source_url": "https://www.reddit.com/r/MergeMansion/comments/1g7tfde/daily_scoop_impossible_to_complete/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+daily+scoop",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story daily scoop",
+          "width": 258,
+          "height": 195,
+          "aspect_ratio": 1.3231,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:05:23.347370+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:54.932451+00:00",
+            "load_time_ms": 450,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1043,
+            "natural_height": 791,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/xlhbr1sin9wd1.jpeg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "展示了 Merge Mansion 的棋盘格子和物品，虽然包含活动相关的 XP 经验值物品，但未直接展示 The Daily Scoop 的活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:33.069150+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "secret_supply",
+      "display_name": "Secret Supply / 机器抽奖事件",
+      "description": "周期复现的高随机活动，Wiki 描述其类似 slot machine，通常在带 Mystery Pass 的 Mystery Event 后段出现，使用独立能量且主要通过活动商店/付费获取额外能量。",
+      "examples": [
+        "Secret Supply"
+      ],
+      "market_research_notes": "比普通合成更强随机和付费压力，适合观察休闲游戏如何嵌入老虎机式事件。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/3XPWGbBQMA0/maxresdefault.jpg",
+          "caption": "Merge Mansion | Secret Supply Part 1 ⚽️ ...",
+          "source_url": "https://www.youtube.com/watch?v=3XPWGbBQMA0",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+secret+supply",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story secret supply",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:05:53.297341+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:55.314807+00:00",
+            "load_time_ms": 376,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/3XPWGbBQMA0/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "左右拼接图，右侧清晰展示了Secret Supply活动的扭蛋/老虎机式实际玩法界面、积分条及资源条。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:37.174606+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/secret-supply-event-guide-v0-46fpkbaxp7yc1.jpeg?width=640&crop=smart&auto=webp&s=f132eda787b0b1561b6e6acf7707505167da19a1",
+          "caption": "Secret Supply Event Guide : r/MergeMansion",
+          "source_url": "https://www.reddit.com/r/MergeMansion/comments/1cj8k4t/secret_supply_event_guide/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+secret+supply",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story secret supply",
+          "width": 153,
+          "height": 329,
+          "aspect_ratio": 0.465,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:05:53.297341+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:55.603772+00:00",
+            "load_time_ms": 284,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 1372,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/secret-supply-event-guide-v0-46fpkbaxp7yc1.jpeg?width=640&crop=smart&auto=webp&s=f132eda787b0b1561b6e6acf7707505167da19a1"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了活动的完整实际操作界面，包含积分计数器、掉落物、倍率选择和底部活动商店。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:37.174606+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/6ZUgC9Nsk_k/maxresdefault.jpg",
+          "caption": "Special Secret Supply Event ! 🏡 Merge ...",
+          "source_url": "https://www.youtube.com/watch?v=6ZUgC9Nsk_k",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+secret+supply",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story secret supply",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:05:53.297341+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:56.296709+00:00",
+            "load_time_ms": 688,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/6ZUgC9Nsk_k/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "视频封面图，主要由活动宣传原画、游戏Logo和装饰性文字组成，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:37.174606+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/rZ7QXclRTBA/hqdefault.jpg",
+          "caption": "Merge Mansion | Secret Supply Part 2 ⚽️ ...",
+          "source_url": "https://www.youtube.com/watch?v=rZ7QXclRTBA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+secret+supply",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story secret supply",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:05:53.297341+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:56.652246+00:00",
+            "load_time_ms": 343,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 480,
+            "natural_height": 360,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/rZ7QXclRTBA/hqdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "包含活动内的任务列表弹窗（Outstanding Orders），展示了活动进度和目标，属于玩法界面截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:37.174606+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "teatime_delight",
+      "display_name": "Teatime Delight / 主线行为积分活动",
+      "description": "玩家通过其他部分游戏行为获得 event points，例如点击 producer 产物、购买 bubbles、完成任务、商店购买等。",
+      "examples": [
+        "Teatime Delight"
+      ],
+      "market_research_notes": "不强制玩家切换 board，而是让主线行为自然产生活动进度，属于低摩擦活动层。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/WvDd_tLRjxY/maxresdefault.jpg",
+          "caption": "Merge Mansion | Teatime Delight ☕️ ...",
+          "source_url": "https://www.youtube.com/watch?v=WvDd_tLRjxY",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+teatime+delight",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story teatime delight",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:06:41.592266+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:57.024393+00:00",
+            "load_time_ms": 362,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/WvDd_tLRjxY/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了活动的积分获取方式、进度条、剩余时间以及奖励信息，属于活动内的实际交互/说明界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:41.585091+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/i-finally-completed-tea-time-delight-v0-y75sfplwuwgf1.jpeg?auto=webp&s=c300aeddf2788b4c7720159253db388aa5372926",
+          "caption": "I finally completed tea time delight ...",
+          "source_url": "https://www.reddit.com/r/MergeMansion/comments/1mh18ba/i_finally_completed_tea_time_delight/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+teatime+delight",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story teatime delight",
+          "width": 194,
+          "height": 259,
+          "aspect_ratio": 0.749,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:06:41.592266+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:57.256850+00:00",
+            "load_time_ms": 226,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1668,
+            "natural_height": 2224,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/i-finally-completed-tea-time-delight-v0-y75sfplwuwgf1.jpeg?auto=webp&s=c300aeddf2788b4c7720159253db388aa5372926"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示的是游戏的主线合成棋盘界面，虽然属于该游戏，但没有明显的 Teatime Delight 活动进度或特有 UI 元素。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:41.585091+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/i-finished-teatime-delight-already-v0-tozb8f82bcmf1.jpeg?width=640&crop=smart&auto=webp&s=f2eed0dc553b7e8ddc235d7fbcc04ec5b716c2d7",
+          "caption": "I finished Teatime Delight already : r ...",
+          "source_url": "https://www.reddit.com/r/MergeMansion/comments/1n4s7y0/i_finished_teatime_delight_already/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+teatime+delight",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story teatime delight",
+          "width": 150,
+          "height": 335,
+          "aspect_ratio": 0.4478,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:06:41.592266+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:57.316969+00:00",
+            "load_time_ms": 52,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 1422,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/i-finished-teatime-delight-already-v0-tozb8f82bcmf1.jpeg?width=640&crop=smart&auto=webp&s=f2eed0dc553b7e8ddc235d7fbcc04ec5b716c2d7"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了活动结束后的总结/感谢弹窗，包含活动标题和主视觉图，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:41.585091+00:00"
+          }
+        },
+        {
+          "url": "https://external-preview.redd.it/tea-time-delight-dont-waste-your-time-or-money-v0-ZXB0Z2Jrdjh0OGxkMYhsbR5U1wQgRDLF7bIVv3NbdEDFAQbo8yTec4DZejP4.png?format=pjpg&auto=webp&s=bda00023e942463a9fedf79e0442a57978d520c7",
+          "caption": "Tea Time Delight - Don't waste your ...",
+          "source_url": "https://www.reddit.com/r/MergeMansion/comments/1f2n426/tea_time_delight_dont_waste_your_time_or_money/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+teatime+delight",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story teatime delight",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:06:41.592266+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:58.513492+00:00",
+            "load_time_ms": 1191,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 886,
+            "natural_height": 1920,
+            "content_type": "image/webp",
+            "current_src": "https://external-preview.redd.it/tea-time-delight-dont-waste-your-time-or-money-v0-ZXB0Z2Jrdjh0OGxkMYhsbR5U1wQgRDLF7bIVv3NbdEDFAQbo8yTec4DZejP4.png?format=pjpg&auto=webp&s=bda00023e942463a9fedf79e0442a57978d520c7"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "主界面底部中央出现了本活动特有的积分收集容器（茶篮图标），且该图标处于代表收集进度的发光状态，展示了活动在主线界面的入口和表现。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:41.585091+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "clue_collection",
+      "display_name": "Clue Collection / 卡牌照片收集",
+      "description": "玩家收集 clue/card/photo，完成单组获得奖励，完成整个 case 获得大奖；重复卡转为 stars，可购买卡包或能量。",
+      "examples": [
+        "Clue Collection"
+      ],
+      "market_research_notes": "把卡册收集机制嵌入 Merge 游戏，增加长期目标和重复掉落消耗口。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/tl660A4JSn8/maxresdefault.jpg",
+          "caption": "Merge Mansion Mystery & Story ...",
+          "source_url": "https://www.youtube.com/watch?v=tl660A4JSn8",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+clue+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story clue collection",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:07:09.922650+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:43.625441+00:00",
+            "load_time_ms": 426,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/tl660A4JSn8/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图中展示了Merge Mansion的App图标及角色宣传图，属于通用品牌宣传，无法关联到具体的卡牌收集活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:45.632030+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/-h5raJwvlwUJO5AeAW6uEwlsu53q19Njzg5d24StRCZCFVnRy-8gbQgUQWNEQQk6qOiA",
+          "caption": "Merge Mansion: Puzzles & Story - Apps ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.everywear.game5",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+clue+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story clue collection",
+          "width": 137,
+          "height": 296,
+          "aspect_ratio": 0.4628,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:07:09.922650+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:48.869157+00:00",
+            "load_time_ms": 922,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/-h5raJwvlwUJO5AeAW6uEwlsu53q19Njzg5d24StRCZCFVnRy-8gbQgUQWNEQQk6qOiA"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该图为Merge Mansion的官方商店/宣传头像，展示了核心角色大嬷嬷，属于通用品牌图，与卡牌活动无直接证据关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:45.632030+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/1Vf88uwVhoHeVh08f-9UHog3NXeHbBsMYeWdaZkW18Hr_b-5iiZST61_xXmWtJhT9ot_JE6QcDQpGOf7ibWJfg=w526-h296-rw",
+          "caption": "Merge Mansion: Puzzles & Story - Apps ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.everywear.game5",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=merge+mansion+puzzles+story+clue+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "merge mansion puzzles story clue collection",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:07:09.922650+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:23:58.766020+00:00",
+            "load_time_ms": 241,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 222,
+            "natural_height": 296,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/1Vf88uwVhoHeVh08f-9UHog3NXeHbBsMYeWdaZkW18Hr_b-5iiZST61_xXmWtJhT9ot_JE6QcDQpGOf7ibWJfg=w526-h296-rw"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.92,
+            "reason": "该图展示了游戏的主棋盘合成玩法界面，而非卡牌照片收集（Clue Collection）的专项活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:31:45.632030+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "Merge Mansion Wiki 对活动类型整理非常细。本轮已覆盖主要机制；后续可进一步按每类活动补 event board、能量类型、点数物品链、免费/付费奖励轨和结束清算规则。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T08:07:09.922650+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:31:45.632030+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

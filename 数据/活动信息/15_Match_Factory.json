@@ -1,0 +1,144 @@
+{
+  "rank": 15,
+  "name": "Match Factory!",
+  "source_confidence": "high",
+  "source_notes": null,
+  "collected_at": "2026-05-12T04:00:02.789Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Match Factory Help - Merge Event",
+      "source_type": "official_support",
+      "source_url": "https://peakgames.helpshift.com/hc/en/16-match-factory/faq/656-what-is-merge/",
+      "fetched_url": "https://peakgames.helpshift.com/hc/en/16-match-factory/faq/656-what-is-merge/",
+      "status": 200,
+      "page_title": "What is Merge? — Match Factory Help Center",
+      "meta_description": "Merge is a time-limited event with different themes where you can earn rewards by merging items. It becomes available after reaching Level 90.",
+      "relevant_text_blocks": [
+        "Merge is a time-limited event with different themes where you can earn rewards by merging items. It becomes available after reaching Level 90. Tap the Energy button to generate a random item on the board. Drag identical items together to merge them into a higher-level item. Continue merging to unlock various items in the collection and earn great rewards. The event ends once you have collected all items and rewards.",
+        "This website uses only the necessary cookies required for the site's proper functioning. By using the website, you consent to all cookies in accordance with the cookie policy. To know more, refer Cookie Policy. Match Factory Support Home"
+      ],
+      "inferred_event_types": [
+        "collection_album",
+        "merge_event",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://d2duuy9yo5pldo.cloudfront.net/dashboard-resources/peakgames/320/e9bb5b67-15de-46d0-a450-ccbe6b1b3af6.webp",
+          "alt": "Match Factory Support",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Match Factory Help - Collection Event",
+      "source_type": "official_support",
+      "source_url": "https://peakgames.helpshift.com/hc/en/16-match-factory/section/163-collection/",
+      "fetched_url": "https://peakgames.helpshift.com/hc/en/16-match-factory/section/163-collection-1765277882/",
+      "status": 200,
+      "page_title": "Collection🃏 — Match Factory Help Center",
+      "meta_description": "Are you looking for help with Collection🃏 for Match Factory?",
+      "relevant_text_blocks": [
+        "What is the Collection? Collection is a time-limited event available in the game.It unlocks at Level 35.You can access the event from the Collection tab.There are 1...",
+        "What happens when the Collection is finished? When the Collection is finished, you can no longer progress in it. To access the new Collection, you need to update and spend some time in t...",
+        "What are sets, and when do I get a new set? Each collection event has 15 sets, and you need to find 9 new cards to complete them.You earn a reward for completing each set.Each set has ...",
+        "What happens when I complete a Collection? The Collection has two stages. After completing stage 1, you earn a big reward and unlock stage 2. When you complete stage 2, you receive an...",
+        "How can I equip a Badge? Badges can be claimed as a collection reward.You can equip any unlocked Badge from the Profile section by selecting its avatar.You can switc...",
+        "What is the Wild Card? A Wild Card is a special card that can turn into a card you don't have.By using a Wild Card, you can complete the collection or finish any s...",
+        "What is a Badge, and how can I earn it? Each collection has 2 Badges you can claim by:Completing the first stage of the collection.Completing the second stage of the collection. Yo...",
+        "How can I open Duck Chest? The copy cards you earn do not count towards your collection progress, but they accumulate to open Duck Chests.A Common Card adds as many du...",
+        "What are Packs? Packs contain cards needed to complete sets in the Collection event.Packs can include both new and copy cards.There are five types of packs,...",
+        "What are Cards? You can collect cards by opening card packs that you gather from Events, Factory Pass, Hard/Super Hard/Ultra Hard Levels, or receiving them ...",
+        "How can I request cards from my teammates? You can request cards from teammates in 2 ways.Tap the “Request” button in the “Team” tab, choose the card you need, and confirm your reques..."
+      ],
+      "inferred_event_types": [
+        "battle_pass",
+        "collection_album",
+        "team_alliance",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://d2duuy9yo5pldo.cloudfront.net/dashboard-resources/peakgames/320/e9bb5b67-15de-46d0-a450-ccbe6b1b3af6.webp",
+          "alt": "Match Factory Support",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "event_detail_pages": [
+    {
+      "source_title": "Collection🃏",
+      "source_type": "event_detail",
+      "source_url": "https://peakgames.helpshift.com/hc/en/16-match-factory/section/163-collection-1765277882/",
+      "fetched_url": "https://peakgames.helpshift.com/hc/en/16-match-factory/section/163-collection-1765277882/",
+      "status": 200,
+      "page_title": "Collection🃏 — Match Factory Help Center",
+      "meta_description": "Are you looking for help with Collection🃏 for Match Factory?",
+      "relevant_text_blocks": [
+        "What is the Collection? Collection is a time-limited event available in the game.It unlocks at Level 35.You can access the event from the Collection tab.There are 1...",
+        "What happens when the Collection is finished? When the Collection is finished, you can no longer progress in it. To access the new Collection, you need to update and spend some time in t...",
+        "What are sets, and when do I get a new set? Each collection event has 15 sets, and you need to find 9 new cards to complete them.You earn a reward for completing each set.Each set has ...",
+        "What happens when I complete a Collection? The Collection has two stages. After completing stage 1, you earn a big reward and unlock stage 2. When you complete stage 2, you receive an...",
+        "How can I equip a Badge? Badges can be claimed as a collection reward.You can equip any unlocked Badge from the Profile section by selecting its avatar.You can switc...",
+        "What is the Wild Card? A Wild Card is a special card that can turn into a card you don't have.By using a Wild Card, you can complete the collection or finish any s...",
+        "What is a Badge, and how can I earn it? Each collection has 2 Badges you can claim by:Completing the first stage of the collection.Completing the second stage of the collection. Yo...",
+        "How can I open Duck Chest? The copy cards you earn do not count towards your collection progress, but they accumulate to open Duck Chests.A Common Card adds as many du...",
+        "What are Packs? Packs contain cards needed to complete sets in the Collection event.Packs can include both new and copy cards.There are five types of packs,...",
+        "What are Cards? You can collect cards by opening card packs that you gather from Events, Factory Pass, Hard/Super Hard/Ultra Hard Levels, or receiving them ...",
+        "How can I request cards from my teammates? You can request cards from teammates in 2 ways.Tap the “Request” button in the “Team” tab, choose the card you need, and confirm your reques..."
+      ],
+      "inferred_event_types": [
+        "battle_pass",
+        "collection_album",
+        "team_alliance",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://d2duuy9yo5pldo.cloudfront.net/dashboard-resources/peakgames/320/e9bb5b67-15de-46d0-a450-ccbe6b1b3af6.webp",
+          "alt": "Match Factory Support",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "event_catalog": [
+    {
+      "title": "Collection🃏 — Match Factory Help Center",
+      "url": "https://peakgames.helpshift.com/hc/en/16-match-factory/section/163-collection-1765277882/",
+      "discovered_from": "https://peakgames.helpshift.com/hc/en/16-match-factory/section/163-collection/",
+      "description": "Are you looking for help with Collection🃏 for Match Factory?",
+      "inferred_event_types": [
+        "battle_pass",
+        "collection_album",
+        "team_alliance",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://d2duuy9yo5pldo.cloudfront.net/dashboard-resources/peakgames/320/e9bb5b67-15de-46d0-a450-ccbe6b1b3af6.webp",
+          "alt": "Match Factory Support",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "inferred_event_type_summary": [
+    "battle_pass",
+    "collection_album",
+    "merge_event",
+    "pvp_war",
+    "team_alliance"
+  ],
+  "screenshots_or_images": [
+    {
+      "url": "https://d2duuy9yo5pldo.cloudfront.net/dashboard-resources/peakgames/320/e9bb5b67-15de-46d0-a450-ccbe6b1b3af6.webp",
+      "alt": "Match Factory Support",
+      "kind": "page_image",
+      "source_url": "https://peakgames.helpshift.com/hc/en/16-match-factory/faq/656-what-is-merge/"
+    }
+  ],
+  "collection_warnings": []
+}

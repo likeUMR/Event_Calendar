@@ -1,0 +1,1156 @@
+{
+  "rank": 32,
+  "name": "Cashman Casino Slots Games",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 Product Madness 官方 Support Center 的 Cashman Casino 文章，并补充 App Store / 官方品牌信息。程序化结果抓错了 Helpshift 路径，本轮以 support.productmadness.com 的 Cashman Casino 文章为主。",
+  "source_pages": [
+    {
+      "title": "Product Madness Support - Jackpot Showdown",
+      "url": "https://support.productmadness.com/hc/en-us/articles/24279875070221-Jackpot-Showdown",
+      "notes": "官方解释每周收集 Jackpot Cases、周日 gameshow mini-game、选箱/开箱，case 来源包括 Login Reward、Cashman's Fortune Daily Missions、Coin Shop。"
+    },
+    {
+      "title": "Product Madness Support - Cashman's Fortune: Daily Missions and Rewards",
+      "url": "https://support.productmadness.com/hc/en-us/articles/27542246086157-Cashman-s-Fortune-Daily-Missions-and-Rewards",
+      "notes": "官方解释季节性任务：Daily Missions、Rewards Progress Bar、gems、Tiers、Premium Pass、Power Tiers、Tier 7。"
+    },
+    {
+      "title": "Product Madness Support - Slot Challenges: Complete Missions For Gems",
+      "url": "https://support.productmadness.com/hc/en-us/articles/39503425953421-Slot-Challenges-Complete-Missions-For-Gems",
+      "notes": "官方解释指定 slot 中的 mission event，完成 featured slots 任务获得 Gems，Slot Challenges 会轮换。"
+    },
+    {
+      "title": "Product Madness Support - Enjoy Merge Millions on Cashman Casino",
+      "url": "https://support.productmadness.com/hc/en-us/articles/28219939704845-Enjoy-Merge-Millions-on-Cashman-Casino",
+      "notes": "官方解释 Merge Millions：spin 或购买获得 emeralds，用 emeralds 创建 board items，三合一合成材料，升级建筑并拿 Grand Prize。"
+    },
+    {
+      "title": "Product Madness Support - Jigsaw Jackpot HOLIDAY",
+      "url": "https://support.productmadness.com/hc/en-us/articles/40676716352525-Jigsaw-Jackpot-HOLIDAY",
+      "notes": "官方解释 Jigsaw Jackpot：spin 或购买获得 Puzzle Points，开 Puzzle Boxes 找拼图碎片，重复碎片转 points，完成区域/整图领奖。"
+    },
+    {
+      "title": "Product Madness Support - Cashman Rewards: Daily Jackpot, Login Reward",
+      "url": "https://support.productmadness.com/hc/en-us/articles/39472757334157-Cashman-Rewards-Daily-Jackpot-Login-Reward",
+      "notes": "官方解释 Daily Jackpot、Login Reward、Turbo Reward、Instant Reward、Multiplier，并与 Jackpot Showdown daily case 关联。"
+    },
+    {
+      "title": "App Store - Cashman Casino Slots Games",
+      "url": "https://apps.apple.com/us/app/cashman-casino-slots-games/id1123582513",
+      "notes": "商店页确认 Cashman Casino 是 Product Madness/Aristocrat 系社交 casino，围绕虚拟 coins 和老虎机玩法。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "cashmans_fortune",
+      "display_name": "Cashman's Fortune / Daily Missions and Rewards",
+      "description": "季节性任务系统。玩家完成 Daily Missions、spin slots、参与游戏事件获得 gems，gems 推进 Rewards Progress Bar 与 Tiers；可购买 Premium Pass 解锁额外奖励，并通过 Power Tiers 获得更大回报。",
+      "examples": [
+        "Cashman's Fortune",
+        "Daily Missions",
+        "Rewards Progress Bar",
+        "Premium Pass",
+        "Power Tiers",
+        "Tier 7"
+      ],
+      "market_research_notes": "这是 Cashman 的 battle pass / mission hub 核心，任务、slot spin 和付费 pass 共同推进季节进度。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/Sz5sYzWY3Bggxg52mtJdJCbwZDVlWnSB4jN7eyTcmBOTikKJRO879rwxFMd2ucEkFAuW4AFLaO8VgnefMQI2zQ",
+          "caption": "Cashman Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.productmadness.cashmancasino",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+cashmans+fortune",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games cashmans fortune",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:55:04.854282+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:49.769397+00:00",
+            "load_time_ms": 342,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/Sz5sYzWY3Bggxg52mtJdJCbwZDVlWnSB4jN7eyTcmBOTikKJRO879rwxFMd2ucEkFAuW4AFLaO8VgnefMQI2zQ"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片为游戏的App图标或品牌通用素材，展示了游戏名称和代表性角色，但未体现具体活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:53.759429+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/gRqaDBeKaKk/maxresdefault.jpg",
+          "caption": "Cashman Casino Slots Gameplay Red and ...",
+          "source_url": "https://www.youtube.com/watch?v=gRqaDBeKaKk",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+cashmans+fortune",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games cashmans fortune",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:55:04.854282+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:50.226329+00:00",
+            "load_time_ms": 452,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/gRqaDBeKaKk/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "截图展示了处于该游戏内的老虎机玩法界面，顶部状态栏出现了该活动的任务进度条（GET 150 WINS），属于活动实际玩法展示。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:53.759429+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/25kWFtekz7E/maxresdefault.jpg",
+          "caption": "Cashman Casino Slots Gameplay Grand ...",
+          "source_url": "https://www.youtube.com/watch?v=25kWFtekz7E",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+cashmans+fortune",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games cashmans fortune",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:55:04.854282+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:50.668965+00:00",
+            "load_time_ms": 438,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/25kWFtekz7E/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图片清晰显示了Cashman's Fortune的活动标识，包括顶部的进度条（330/1750）、Tier等级以及下方关联的Premium Pass入口和Rewards入口，属于活动主界面截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:53.759429+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/XQv9HaNYWBvlnR7UBp23Jll-qDUXTru78OYtUa6c3PcVEtmatjmAsMDin_CRLVQSNumnjF475to_tDDvEtJv=w526-h296-rw",
+          "caption": "Cashman Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.productmadness.cashmancasino",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+cashmans+fortune",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games cashmans fortune",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:55:04.854282+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:50.942290+00:00",
+            "load_time_ms": 264,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 222,
+            "natural_height": 296,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/XQv9HaNYWBvlnR7UBp23Jll-qDUXTru78OYtUa6c3PcVEtmatjmAsMDin_CRLVQSNumnjF475to_tDDvEtJv=w526-h296-rw"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "图片展示的是游戏的普通老虎机玩法界面，虽然顶部有通用的任务提醒，但没有明确且独特的Cashman's Fortune活动UI元素。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:53.759429+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "slot_challenges",
+      "display_name": "Slot Challenges / Featured Slot Missions",
+      "description": "活动出现在指定 slot games 中，玩家在 lobby 中找到标记机台，进入后通过 Challenge icon 查看任务、倒计时和奖励；完成 featured slots 的 spin/win 任务获得 gems。",
+      "examples": [
+        "Slot Challenges",
+        "Wins Challenge Missions For Gems"
+      ],
+      "market_research_notes": "用于把流量导向重点老虎机，并把单机台游玩转化成 Cashman's Fortune gems。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/Sz5sYzWY3Bggxg52mtJdJCbwZDVlWnSB4jN7eyTcmBOTikKJRO879rwxFMd2ucEkFAuW4AFLaO8VgnefMQI2zQ",
+          "caption": "Cashman Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.productmadness.cashmancasino",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+slot+challenges",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games slot challenges",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:55:57.423873+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:49.769397+00:00",
+            "load_time_ms": 342,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/Sz5sYzWY3Bggxg52mtJdJCbwZDVlWnSB4jN7eyTcmBOTikKJRO879rwxFMd2ucEkFAuW4AFLaO8VgnefMQI2zQ"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片为游戏的App图标/品牌Logo图，属于本游戏但与具体活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:57.684164+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/tp-jyzL_QWr1uiDzT8dTt86kKU2YIe0uHznzhN4FIhImEj_LIvI0B8lXAuTRjoy5mmCnEMk1eh5_MR1n9YTt-M0=w526-h296-rw",
+          "caption": "Cashman Casino Pokies Slots – Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.productmadness.cashmancasino&hl=en_AU",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+slot+challenges",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games slot challenges",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:55:57.423873+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:51.275924+00:00",
+            "load_time_ms": 323,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 526,
+            "natural_height": 296,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/tp-jyzL_QWr1uiDzT8dTt86kKU2YIe0uHznzhN4FIhImEj_LIvI0B8lXAuTRjoy5mmCnEMk1eh5_MR1n9YTt-M0=w526-h296-rw"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "截图顶部显示了‘CHALLENGES AVAILABLE! 25/25 COMPLETED’进度条，属于描述中的Slot Challenges玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:57.684164+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/rADqe3K-Hgo/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGHIgYSg_MA8=&rs=AOn4CLAVZ7DXCaPM8v7FFqIjn-Fye3qovg",
+          "caption": "Cashman Casino Las Vegas Slots Gameplay ...",
+          "source_url": "https://www.youtube.com/watch?v=rADqe3K-Hgo",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+slot+challenges",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games slot challenges",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:55:57.423873+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:51.670326+00:00",
+            "load_time_ms": 383,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 480,
+            "natural_height": 360,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/rADqe3K-Hgo/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGHIgYSg_MA8=&rs=AOn4CLAVZ7DXCaPM8v7FFqIjn-Fye3qovg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "截图顶部清晰显示了‘CHALLENGES AVAILABLE!’及任务完成进度，并展示了特定的Slot机台界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:57.684164+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/kWECr8V8TOM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDrr1M8vwAdUid7P1cvHjnys0I4PQ",
+          "caption": "Cashman Casino Slots Gameplay Merge ...",
+          "source_url": "https://www.youtube.com/watch?v=kWECr8V8TOM",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+slot+challenges",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games slot challenges",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:55:57.423873+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:52.075220+00:00",
+            "load_time_ms": 399,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/kWECr8V8TOM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDrr1M8vwAdUid7P1cvHjnys0I4PQ"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.88,
+            "reason": "展示了Cashman's Fortune的Daily Missions任务列表界面，包含旋转次数、倍率等具体挑战任务，属于活动实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:21:57.684164+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "jackpot_showdown",
+      "display_name": "Jackpot Showdown / 周日选箱小游戏",
+      "description": "玩家一周内通过登录、Cashman's Fortune、Coin Shop 等收集 Jackpot Cases。周日进入 gameshow-inspired mini-game，在屏幕上的箱子和安慰奖中选择，决定 open case 或 pick again，最终获得奖励。",
+      "examples": [
+        "Jackpot Showdown",
+        "Jackpot Cases",
+        "Sunday gameshow mini-game"
+      ],
+      "market_research_notes": "非常清晰的周循环：平日收集钥匙/箱子，周日集中开奖；同时把购买和日常任务都接入大奖预期。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/Sz5sYzWY3Bggxg52mtJdJCbwZDVlWnSB4jN7eyTcmBOTikKJRO879rwxFMd2ucEkFAuW4AFLaO8VgnefMQI2zQ",
+          "caption": "Cashman Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.productmadness.cashmancasino",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+jackpot+showdown",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games jackpot showdown",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:56:18.619755+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:49.769397+00:00",
+            "load_time_ms": 342,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/Sz5sYzWY3Bggxg52mtJdJCbwZDVlWnSB4jN7eyTcmBOTikKJRO879rwxFMd2ucEkFAuW4AFLaO8VgnefMQI2zQ"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 1.0,
+            "reason": "该图片是 Cashman Casino 的官方 App 图标/通用品牌宣传图，与特定活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:01.206463+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/3RfmLl59fSc/maxresdefault.jpg",
+          "caption": "Cashman Casino Slots Gameplay Jackpot ...",
+          "source_url": "https://www.youtube.com/watch?v=3RfmLl59fSc",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+jackpot+showdown",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games jackpot showdown",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:56:18.619755+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:52.484083+00:00",
+            "load_time_ms": 402,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/3RfmLl59fSc/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片展示的是游戏内的 Merge Millions 活动加载界面，并非 Jackpot Showdown 活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:01.206463+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/MX75zS4ZumI/maxresdefault.jpg",
+          "caption": "Cashman Casino Slots ...",
+          "source_url": "https://www.youtube.com/watch?v=MX75zS4ZumI",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+jackpot+showdown",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games jackpot showdown",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:56:18.619755+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:52.990609+00:00",
+            "load_time_ms": 502,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/MX75zS4ZumI/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片下方 UI 明确出现了 Jackpot Showdown 的入口图标及问号箱子元素，属于展示了包含活动入口在内的实际游戏玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:01.206463+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "merge_millions",
+      "display_name": "Merge Millions / 合成建造活动",
+      "description": "玩家通过 spin slots 或商店购买获得 emeralds，用 emeralds 在 board 上生成 items，三合一合成更高级物品，制作 building materials。每栋建筑可升级 3 次，完成城市建筑获得更大奖励，全 3 星完成可拿 Grand Prize。",
+      "examples": [
+        "Merge Millions",
+        "Cosmic City season",
+        "Emeralds",
+        "Grand Prize"
+      ],
+      "market_research_notes": "社交 casino 中嵌入 merge meta，给 slot spin 之外增加可视化建造目标和多日进度。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/kWECr8V8TOM/maxresdefault.jpg",
+          "caption": "Cashman Casino Slots Gameplay Merge ...",
+          "source_url": "https://www.youtube.com/watch?v=kWECr8V8TOM",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+merge+millions",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games merge millions",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:56:40.838049+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:53.741804+00:00",
+            "load_time_ms": 745,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/kWECr8V8TOM/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图中显示了Cashman's Fortune活动的任务列表界面，明确包含了'Merge 1 times'任务以及Emeralds奖励资源，属于活动内实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:03.987164+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/Sz5sYzWY3Bggxg52mtJdJCbwZDVlWnSB4jN7eyTcmBOTikKJRO879rwxFMd2ucEkFAuW4AFLaO8VgnefMQI2zQ",
+          "caption": "Cashman Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.productmadness.cashmancasino",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+merge+millions",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games merge millions",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:56:40.838049+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:49.769397+00:00",
+            "load_time_ms": 342,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/Sz5sYzWY3Bggxg52mtJdJCbwZDVlWnSB4jN7eyTcmBOTikKJRO879rwxFMd2ucEkFAuW4AFLaO8VgnefMQI2zQ"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.98,
+            "reason": "该图仅为游戏的App图标/品牌Logo图，属于游戏通用资源，无法对应到具体的Merge Millions活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:03.987164+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "jigsaw_jackpot",
+      "display_name": "Jigsaw Jackpot / 拼图收集活动",
+      "description": "玩家通过 spin slots 或商店购买获得 Puzzle Points，每天查看功能并领取 Free Box，用 Puzzle Points 开 Puzzle Boxes 找不同稀有度的拼图碎片；重复碎片自动转回 Puzzle Points，完成区域和整张拼图领取大奖。",
+      "examples": [
+        "Jigsaw Jackpot",
+        "Jigsaw Jackpot HOLIDAY",
+        "Puzzle Points",
+        "Puzzle Boxes"
+      ],
+      "market_research_notes": "相册/拼图收集型活动，重复碎片转点数形成回收机制，适合做节日主题和长期大奖。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/Sz5sYzWY3Bggxg52mtJdJCbwZDVlWnSB4jN7eyTcmBOTikKJRO879rwxFMd2ucEkFAuW4AFLaO8VgnefMQI2zQ",
+          "caption": "Cashman Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.productmadness.cashmancasino",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+jigsaw+jackpot",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games jigsaw jackpot",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:57:06.395340+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:49.769397+00:00",
+            "load_time_ms": 342,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/Sz5sYzWY3Bggxg52mtJdJCbwZDVlWnSB4jN7eyTcmBOTikKJRO879rwxFMd2ucEkFAuW4AFLaO8VgnefMQI2zQ"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为游戏的App图标或应用商店Logo图，属于通用品牌图，与具体拼图活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:06.843502+00:00"
+          }
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/71O6IUPhPnL.jpg",
+          "caption": "Cashman Casino - App on Amazon Appstore",
+          "source_url": "https://www.amazon.com/Product-Madness-Cashman-Casino/dp/B01HBJ4MPQ",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+jigsaw+jackpot",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games jigsaw jackpot",
+          "width": 321,
+          "height": 157,
+          "aspect_ratio": 2.0446,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:57:06.395340+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:54.974902+00:00",
+            "load_time_ms": 1224,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1024,
+            "natural_height": 500,
+            "content_type": "image/jpeg",
+            "current_src": "https://m.media-amazon.com/images/I/71O6IUPhPnL.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为游戏的通用宣传海报或商店KV图，展示了游戏内多个角色，未体现Jigsaw Jackpot活动相关信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:06.843502+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "cashman_rewards",
+      "display_name": "Cashman Rewards / Daily Jackpot / Login Reward",
+      "description": "每日和短周期免费奖励系统。Daily Jackpot 每 18 小时转一次 wheel；还有 Login Reward、Turbo Reward 每 3 小时、Instant Reward 每 15 分钟，以及通过 spin 构建、24 小时重置的 Multiplier。",
+      "examples": [
+        "Daily Jackpot",
+        "Login Reward",
+        "Turbo Reward",
+        "Instant Reward",
+        "Multiplier"
+      ],
+      "market_research_notes": "社交 casino 的资源续航核心，用高频免费币入口维持 session 与回访，同时给 Jackpot Showdown 提供 daily case。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/Sz5sYzWY3Bggxg52mtJdJCbwZDVlWnSB4jN7eyTcmBOTikKJRO879rwxFMd2ucEkFAuW4AFLaO8VgnefMQI2zQ",
+          "caption": "Cashman Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.productmadness.cashmancasino",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+cashman+rewards",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games cashman rewards",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:57:32.220440+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:49.769397+00:00",
+            "load_time_ms": 342,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/Sz5sYzWY3Bggxg52mtJdJCbwZDVlWnSB4jN7eyTcmBOTikKJRO879rwxFMd2ucEkFAuW4AFLaO8VgnefMQI2zQ"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片为游戏的App图标或通用品牌图，属于本游戏但未体现具体活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:11.417461+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/Agj4SQm4DojWYf6f9j4_8cyWmgOFI9gJ7u-KRNYiqKafGEIR1TwxchkE96tEo6n6Ghtmc29DV1iXWNP8H-Ca5JE=w526-h296-rw",
+          "caption": "Cashman Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.productmadness.cashmancasino",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+cashman+rewards",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games cashman rewards",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:57:32.220440+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:55.363799+00:00",
+            "load_time_ms": 383,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 222,
+            "natural_height": 296,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/Agj4SQm4DojWYf6f9j4_8cyWmgOFI9gJ7u-KRNYiqKafGEIR1TwxchkE96tEo6n6Ghtmc29DV1iXWNP8H-Ca5JE=w526-h296-rw"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示了老虎机实际玩法界面，但与Cashman Rewards等免费奖励活动系统无直接关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:11.417461+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/cCDx1ZM3T7M/maxresdefault.jpg",
+          "caption": "Cashman Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.productmadness.cashmancasino",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+cashman+rewards",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games cashman rewards",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:57:32.220440+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:55.773402+00:00",
+            "load_time_ms": 404,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/cCDx1ZM3T7M/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "底部明确出现了Rewards转盘入口（Daily Jackpot/Wheel相关的入口），属于描述中的奖励系统玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:11.417461+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/DjJ529VnR_4/maxresdefault.jpg",
+          "caption": "Cashman Casino Slots Games (by Product ...",
+          "source_url": "https://www.youtube.com/watch?v=DjJ529VnR_4",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+cashman+rewards",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games cashman rewards",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:57:32.220440+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:56.243006+00:00",
+            "load_time_ms": 464,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/DjJ529VnR_4/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.92,
+            "reason": "属于通用的品牌宣传海报，展示了游戏角色，并非特定活动的玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:11.417461+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "coin_shop_and_purchase_cases",
+      "display_name": "Coin Shop / Purchase-linked Rewards",
+      "description": "Coin Shop 购买可产出 Jackpot Showdown cases；Merge Millions 和 Jigsaw Jackpot 也允许通过商店购买 emeralds 或 Puzzle Points 来加速。",
+      "examples": [
+        "Coin Shop",
+        "purchase Jackpot cases",
+        "buy Emeralds",
+        "buy Puzzle Points"
+      ],
+      "market_research_notes": "把 IAP 直接接到活动资源和周大奖箱上，是 Cashman 活动商业化的关键。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/Sz5sYzWY3Bggxg52mtJdJCbwZDVlWnSB4jN7eyTcmBOTikKJRO879rwxFMd2ucEkFAuW4AFLaO8VgnefMQI2zQ",
+          "caption": "Cashman Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.productmadness.cashmancasino",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+coin+shop+and+purchase+cases",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games coin shop and purchase cases",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:57:55.557378+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:49.769397+00:00",
+            "load_time_ms": 342,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/Sz5sYzWY3Bggxg52mtJdJCbwZDVlWnSB4jN7eyTcmBOTikKJRO879rwxFMd2ucEkFAuW4AFLaO8VgnefMQI2zQ"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片为游戏App图标或封面图，包含游戏名称，但未展示特定活动内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:15.200355+00:00"
+          }
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/714Ku33UCiL._h1_.png",
+          "caption": "Cashman Casino - App on Amazon Appstore",
+          "source_url": "https://www.amazon.com/Product-Madness-Cashman-Casino/dp/B01HBJ4MPQ",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+coin+shop+and+purchase+cases",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games coin shop and purchase cases",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:57:55.557378+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:56.462248+00:00",
+            "load_time_ms": 212,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://m.media-amazon.com/images/I/714Ku33UCiL._h1_.png"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片为游戏的品牌图标，属于通用宣传图，无法关联到具体的Coin Shop活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:15.200355+00:00"
+          }
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/714Ku33UCiL.png",
+          "caption": "Cashman Casino - App on Amazon Appstore",
+          "source_url": "https://www.amazon.com/Product-Madness-Cashman-Casino/dp/B01HBJ4MPQ",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+coin+shop+and+purchase+cases",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games coin shop and purchase cases",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:57:55.557378+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:56.571045+00:00",
+            "load_time_ms": 103,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://m.media-amazon.com/images/I/714Ku33UCiL.png"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片为游戏的品牌图标，属于通用宣传图，无法关联到具体的Coin Shop活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:15.200355+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/Agj4SQm4DojWYf6f9j4_8cyWmgOFI9gJ7u-KRNYiqKafGEIR1TwxchkE96tEo6n6Ghtmc29DV1iXWNP8H-Ca5JE=w526-h296-rw",
+          "caption": "Cashman Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.productmadness.cashmancasino",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+coin+shop+and+purchase+cases",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games coin shop and purchase cases",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:57:55.557378+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:55.363799+00:00",
+            "load_time_ms": 383,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 222,
+            "natural_height": 296,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/Agj4SQm4DojWYf6f9j4_8cyWmgOFI9gJ7u-KRNYiqKafGEIR1TwxchkE96tEo6n6Ghtmc29DV1iXWNP8H-Ca5JE=w526-h296-rw"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "图片展示的是游戏内的普通老虎机玩法界面，虽然上方有商店按钮，但并非活动专属界面或Coin Shop详情页。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:15.200355+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "fan_page_live_events",
+      "display_name": "Fan Page Freebies / Social Live Events",
+      "description": "Product Madness 跨游戏帮助页提到 Cashman Casino Facebook 页面会提供 daily free coins、promotion and event updates，并有 live events / competitions。",
+      "examples": [
+        "Facebook free coins",
+        "live events",
+        "competitions"
+      ],
+      "market_research_notes": "社交 casino 常把 Facebook 免费币和社区活动作为外部回流渠道；本轮只作辅助活动入口记录。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/Sz5sYzWY3Bggxg52mtJdJCbwZDVlWnSB4jN7eyTcmBOTikKJRO879rwxFMd2ucEkFAuW4AFLaO8VgnefMQI2zQ",
+          "caption": "Cashman Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.productmadness.cashmancasino",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+fan+page+live+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games fan page live events",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T06:58:37.617902+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:49.769397+00:00",
+            "load_time_ms": 342,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/Sz5sYzWY3Bggxg52mtJdJCbwZDVlWnSB4jN7eyTcmBOTikKJRO879rwxFMd2ucEkFAuW4AFLaO8VgnefMQI2zQ"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 1.0,
+            "reason": "这是游戏的App图标，属于通用品牌图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:18.612259+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/Agj4SQm4DojWYf6f9j4_8cyWmgOFI9gJ7u-KRNYiqKafGEIR1TwxchkE96tEo6n6Ghtmc29DV1iXWNP8H-Ca5JE=w526-h296-rw",
+          "caption": "Cashman Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.productmadness.cashmancasino",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+fan+page+live+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games fan page live events",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:58:37.617902+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:55.363799+00:00",
+            "load_time_ms": 383,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 222,
+            "natural_height": 296,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/Agj4SQm4DojWYf6f9j4_8cyWmgOFI9gJ7u-KRNYiqKafGEIR1TwxchkE96tEo6n6Ghtmc29DV1iXWNP8H-Ca5JE=w526-h296-rw"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示的是游戏内的普通Slots老虎机玩法界面，无法确认为Facebook社区特定活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:18.612259+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/4GZtUj6qk628KQ0zXXHvu178QJXggwqu1zfQxOb74cL-jhxOJXwSmLAT_7LW1P3ZkOrMvZrRPv5kwAipNueY1uA=w648-h364-rw",
+          "caption": "Cashman Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.productmadness.cashmancasino",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+fan+page+live+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games fan page live events",
+          "width": 648,
+          "height": 364,
+          "aspect_ratio": 1.7802,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:58:37.617902+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:56.937655+00:00",
+            "load_time_ms": 326,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 648,
+            "natural_height": 364,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/4GZtUj6qk628KQ0zXXHvu178QJXggwqu1zfQxOb74cL-jhxOJXwSmLAT_7LW1P3ZkOrMvZrRPv5kwAipNueY1uA=w648-h364-rw"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示的是游戏内的普通Slots老虎机玩法宣传图，无法确认为Facebook社区特定活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:18.612259+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/lmiqbJw1IuddyMQrCLYgxdi1KZQ4hqgXci8LhfLaNH1KQzReAo_XM0WtOfioZ1eyja_dyOJYLmjm6yZrAeL_hw=w648-h364-rw",
+          "caption": "Cashman Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.productmadness.cashmancasino",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+fan+page+live+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games fan page live events",
+          "width": 648,
+          "height": 364,
+          "aspect_ratio": 1.7802,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:58:37.617902+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:57.303757+00:00",
+            "load_time_ms": 361,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 648,
+            "natural_height": 364,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/lmiqbJw1IuddyMQrCLYgxdi1KZQ4hqgXci8LhfLaNH1KQzReAo_XM0WtOfioZ1eyja_dyOJYLmjm6yZrAeL_hw=w648-h364-rw"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示的是新虚拟老虎机Aussie Boomer的宣传图，属于通用游戏更新内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:18.612259+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/pTq6LYk6IHi1llq23jB41mUsFpthV7tjQeyYKTMBbZjm3JK9jmcOCQwGSgfnJCU2io_TIL2nCPBdVosu07S__A=w526-h296-rw",
+          "caption": "Cashman Casino Slots Games - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.productmadness.cashmancasino",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=cashman+casino+slots+games+fan+page+live+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "cashman casino slots games fan page live events",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T06:58:37.617902+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:18:57.889355+00:00",
+            "load_time_ms": 582,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 222,
+            "natural_height": 296,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/pTq6LYk6IHi1llq23jB41mUsFpthV7tjQeyYKTMBbZjm3JK9jmcOCQwGSgfnJCU2io_TIL2nCPBdVosu07S__A=w526-h296-rw"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示的是游戏内的普通Slots老虎机玩法界面，无法确认为Facebook社区特定活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:22:18.612259+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "Cashman Casino 官方支持页可验证活动很多，本轮覆盖任务通行证、指定机台任务、周日开箱、merge、拼图、每日奖励和购买联动。未处理图片。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T06:58:37.617902+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:22:18.612259+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

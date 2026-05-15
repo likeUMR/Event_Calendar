@@ -1,0 +1,1893 @@
+{
+  "rank": 37,
+  "name": "Block Out! - Color Sort Puzzle",
+  "manual_research_status": "done_first_pass_low_confidence",
+  "research_method": "人工查看 App Store 官方页、版本历史和第三方 app intelligence 页面。未找到稳定 wiki 或官方活动帮助中心，因此只记录商店页版本记录中可直接验证的活动名和系统。",
+  "source_pages": [
+    {
+      "title": "App Store - Block Out! - Color Sort Puzzle",
+      "url": "https://apps.apple.com/us/app/block-out-color-sort-puzzle/id6752672568",
+      "notes": "官方商店页确认开发者 Grand Games A.S.、核心玩法为彩色方块滑向目标门；版本历史明确列出 Journey、UFO Rise、Mission Hub、Block Pass、Rocket Race、Daily Bonus、Sky Jump Tournament、Star Blaze、Block Tournament、Streak Race Tournament 等。"
+    },
+    {
+      "title": "Marlvel.ai - Block Out! - Color Sort Puzzle Intel Report",
+      "url": "https://marlvel.ai/intel-report/games/com-grandgames-catblockjam",
+      "notes": "第三方报告确认产品定位、动态障碍、timer 争议和内购/排名表现；用于辅助理解活动和付费压力，不作为活动规则主来源。"
+    },
+    {
+      "title": "App Store - Magic Sort! by Grand Games",
+      "url": "https://apps.apple.com/us/app/magic-sort/id6499209744",
+      "notes": "同开发者产品，用于识别 Grand Games 轻 puzzle 常见活动包装和内购命名，但不把 Magic Sort 的活动直接迁移到 Block Out。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "block_tournament",
+      "display_name": "Block Tournament / 方块锦标赛",
+      "description": "版本历史写到 Jump into the Block Tournament and compete against the best，说明存在限时排行榜或锦标赛入口。公开页面未披露具体计分、分组和奖励。",
+      "examples": [
+        "Block Tournament"
+      ],
+      "market_research_notes": "低信心但有官方版本记录支撑。适合后续真机确认排行榜规模、参赛门槛和奖励消耗点。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/zxeby5lr_7ULgAt5HRWJoqWQ-bkt2UrfyxBRno_w9pVAtXBUkiucOx6fMnfVGQtWEn5E",
+          "caption": "Block Out Color Puzzle Game - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.fc.block.out.wood.puzzle",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+block+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle block tournament",
+          "width": 177,
+          "height": 284,
+          "aspect_ratio": 0.6232,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:22:12.386026+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:53.540872+00:00",
+            "load_time_ms": 854,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/zxeby5lr_7ULgAt5HRWJoqWQ-bkt2UrfyxBRno_w9pVAtXBUkiucOx6fMnfVGQtWEn5E"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该图为游戏的App图标或通用品牌宣传图，未体现特定的方块锦标赛内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:29.551537+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/SlE8CieefE4/maxresdefault.jpg",
+          "caption": "Block Out! - Color Sort Puzzle Levels ...",
+          "source_url": "https://www.youtube.com/watch?v=SlE8CieefE4",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+block+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle block tournament",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:22:12.386026+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:53.948317+00:00",
+            "load_time_ms": 402,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/SlE8CieefE4/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "该图展示了游戏的常规关卡玩法界面（如Lv 194, Lv 199），虽然有计时器但无法确认是锦标赛专属界面，而非普通关卡。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:29.551537+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/SlE8CieefE4/sddefault.jpg",
+          "caption": "Block Out - Color Sort Puzzle for ...",
+          "source_url": "https://www.youtube.com/watch?v=SlE8CieefE4",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+block+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle block tournament",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:22:12.386026+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:54.297402+00:00",
+            "load_time_ms": 344,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 480,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/SlE8CieefE4/sddefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "内容与image_index 2一致，为游戏的常规关卡和选关界面，缺乏锦标赛（排行榜、分组等）相关明确证据。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:29.551537+00:00"
+          }
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/71VwoxDK+QL._h1_.png",
+          "caption": "Block Sort Puzzle Match 3 Triple ...",
+          "source_url": "https://www.amazon.com/Block-Puzzle-Match-Triple-Sorting/dp/B0CQVSSWTX",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+block+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle block tournament",
+          "width": 321,
+          "height": 157,
+          "aspect_ratio": 2.0446,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:22:12.386026+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:55.562539+00:00",
+            "load_time_ms": 1259,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://m.media-amazon.com/images/I/71VwoxDK+QL._h1_.png"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.95,
+            "reason": "图片展示的是试管分类玩法，与本项目定义的方块滑动拼图（Block Out!）核心玩法不符，且来源指向其他App。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:29.551537+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "streak_race",
+      "display_name": "Streak Race Tournament / 连胜竞速赛",
+      "description": "版本历史明确写到 STREAK RACE Tournament is here，玩家通过连胜或连续闯关与他人竞争并提升排名。",
+      "examples": [
+        "STREAK RACE Tournament"
+      ],
+      "market_research_notes": "与用户评论中提到的 streak rewards 呼应，核心价值是让玩家为了保住连胜继续购买时间、生命或道具。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/Lo9Vg6rv0w4/maxresdefault.jpg",
+          "caption": "Block Out! - Color Sort Puzzle Levels ...",
+          "source_url": "https://www.youtube.com/watch?v=Lo9Vg6rv0w4",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+streak+race",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle streak race",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:22:33.449522+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:55.973621+00:00",
+            "load_time_ms": 404,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/Lo9Vg6rv0w4/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该图展示的是游戏的常规关卡玩法界面（Level 331, 334, 339），虽然属于本游戏，但没有明显的连胜竞速赛（Streak Race）活动元素。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:33.448836+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/zxeby5lr_7ULgAt5HRWJoqWQ-bkt2UrfyxBRno_w9pVAtXBUkiucOx6fMnfVGQtWEn5E",
+          "caption": "Block Out Color Puzzle Game - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.fc.block.out.wood.puzzle",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+streak+race",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle streak race",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:22:33.449522+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:53.540872+00:00",
+            "load_time_ms": 854,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/zxeby5lr_7ULgAt5HRWJoqWQ-bkt2UrfyxBRno_w9pVAtXBUkiucOx6fMnfVGQtWEn5E"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为游戏的App Store或商店展示用的特写素材图，属于通用品牌宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:33.448836+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Xcxh2tY3mZ0/maxresdefault.jpg",
+          "caption": "Block Out! - Color Sort Puzzle Levels ...",
+          "source_url": "https://www.youtube.com/watch?v=Xcxh2tY3mZ0",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+streak+race",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle streak race",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:22:33.449522+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:56.608225+00:00",
+            "load_time_ms": 629,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/Xcxh2tY3mZ0/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "该图展示了通用关卡和主界面入口，虽有'Super Hard'标签，但未明确体现Streak Race活动特有的连胜进度条或竞赛排行榜。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:33.448836+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/G5BjR-Clfy4/maxresdefault.jpg",
+          "caption": "Block Out! - Color Sort Puzzle Levels ...",
+          "source_url": "https://www.youtube.com/watch?v=G5BjR-Clfy4",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+streak+race",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle streak race",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:22:33.449522+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:56.989868+00:00",
+            "load_time_ms": 376,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/G5BjR-Clfy4/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该图展示的是游戏第98关的实际玩法界面，属于本游戏常规内容，无法确定与本活动有关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:33.448836+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "rocket_race",
+      "display_name": "Rocket Race / 火箭竞速",
+      "description": "版本历史写到 Speed through levels, pass your rivals, and explore the galaxy in Rocket Race，说明这是通关推进/超越对手的竞速活动。",
+      "examples": [
+        "Rocket Race"
+      ],
+      "market_research_notes": "休闲 puzzle 常用竞速模板，把单人通关包装为多人进度赛，适合观察短期活动如何拉动闯关速度。",
+      "images": [
+        {
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/8b/24/c38b24d8-a083-b856-f189-b9fe21c889a9/ss.5size3.png/471x1024.jpeg",
+          "caption": "Block Out! - Color Sort Puzzle - Games ...",
+          "source_url": "https://mwm.ai/apps/block-out-color-sort-puzzle/6752672568",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+rocket+race",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle rocket race",
+          "width": 471,
+          "height": 1024,
+          "aspect_ratio": 0.46,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:23:01.062923+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:57.336311+00:00",
+            "load_time_ms": 340,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 471,
+            "natural_height": 1023,
+            "content_type": "image/jpeg",
+            "current_src": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/8b/24/c38b24d8-a083-b856-f189-b9fe21c889a9/ss.5size3.png/471x1024.jpeg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图展示了Rocket Race（火箭竞速）活动的品牌海报/启动封面图，包含火箭元素与游戏名，属于无玩法界面的宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:38.738521+00:00"
+          }
+        },
+        {
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/ac/1f/59ac1f36-9afc-73d0-aa45-bc6c6e171c7f/SS_4_1320x2868.png/471x1024.jpeg",
+          "caption": "Block Out! - Color Sort Puzzle - Games ...",
+          "source_url": "https://mwm.ai/apps/block-out-color-sort-puzzle/6752672568",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+rocket+race",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle rocket race",
+          "width": 471,
+          "height": 1024,
+          "aspect_ratio": 0.46,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:23:01.062923+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:57.482637+00:00",
+            "load_time_ms": 141,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 471,
+            "natural_height": 1023,
+            "content_type": "image/jpeg",
+            "current_src": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/ac/1f/59ac1f36-9afc-73d0-aa45-bc6c6e171c7f/SS_4_1320x2868.png/471x1024.jpeg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图中展示的是游戏标准关卡玩法，下方虽然出现了火箭图标，但它是作为通用的道具/技能存在，并非特指火箭竞速活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:38.738521+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Xcxh2tY3mZ0/maxresdefault.jpg",
+          "caption": "Block Out! - Color Sort Puzzle Levels ...",
+          "source_url": "https://www.youtube.com/watch?v=Xcxh2tY3mZ0",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+rocket+race",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle rocket race",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:23:01.062923+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:56.608225+00:00",
+            "load_time_ms": 629,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/Xcxh2tY3mZ0/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "展示的是游戏的常规关卡界面和选关大厅，没有看到火箭竞速相关的排名、进度条或活动标识。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:38.738521+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/zxeby5lr_7ULgAt5HRWJoqWQ-bkt2UrfyxBRno_w9pVAtXBUkiucOx6fMnfVGQtWEn5E",
+          "caption": "Block Out Color Puzzle Game - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.fc.block.out.wood.puzzle",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+rocket+race",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle rocket race",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:23:01.062923+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:53.540872+00:00",
+            "load_time_ms": 854,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/zxeby5lr_7ULgAt5HRWJoqWQ-bkt2UrfyxBRno_w9pVAtXBUkiucOx6fMnfVGQtWEn5E"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "该图仅为游戏App图标或局部玩法示意图，不包含任何与火箭竞速活动相关的特定信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:38.738521+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/VU9mQ_gleN8/maxresdefault.jpg",
+          "caption": "Color Sort Puzzle Levels 1-20 Gameplay ...",
+          "source_url": "https://www.youtube.com/watch?v=VU9mQ_gleN8",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+rocket+race",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle rocket race",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:23:01.062923+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:57.881932+00:00",
+            "load_time_ms": 388,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/VU9mQ_gleN8/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图中包含与image_index 1相同的火箭竞速活动封面宣传图，其他部分为常规玩法，整体应判定为与活动相关的海报展示。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:38.738521+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "sky_jump_tournament",
+      "display_name": "Sky Jump Tournament / 跳跃锦标赛",
+      "description": "版本历史写到 Win levels, jump further and grab amazing rewards in the brand-new Sky Jump Tournament，玩家赢关推进跳跃距离并获取奖励。",
+      "examples": [
+        "Sky Jump Tournament"
+      ],
+      "market_research_notes": "是通关数/连胜数换皮成距离进度的活动，和 Rocket Race、Streak Race 都属于轻竞技包装。",
+      "images": [
+        {
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/91/bd/c8/91bdc865-d9b6-d99e-7cf1-69054196fc9a/ss.5size2.png/2064x2752bb.png",
+          "caption": "Color Sort Puzzle on Decrypt IPA Store",
+          "source_url": "https://decrypt.day/app/id6752672568",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+sky+jump+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle sky jump tournament",
+          "width": 2064,
+          "height": 2752,
+          "aspect_ratio": 0.75,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:23:25.891557+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:57.976211+00:00",
+            "load_time_ms": 89,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2064,
+            "natural_height": 2752,
+            "content_type": "image/png",
+            "current_src": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/91/bd/c8/91bdc865-d9b6-d99e-7cf1-69054196fc9a/ss.5size2.png/2064x2752bb.png"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图是游戏的通用品牌宣传图或加载图，包含游戏名称和核心元素，无法确认与跳跃锦标赛活动直接相关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:47.893135+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/QJDAu15vVM0/hqdefault.jpg",
+          "caption": "Color Sort Puzzle (by Grand Games ...",
+          "source_url": "https://www.youtube.com/watch?v=QJDAu15vVM0",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+sky+jump+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle sky jump tournament",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:23:25.891557+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:58.316382+00:00",
+            "load_time_ms": 332,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 480,
+            "natural_height": 360,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/QJDAu15vVM0/hqdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "包含游戏Logo的通用宣传图片，未体现活动特定的锦标赛或锦标赛进度内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:47.893135+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Xcxh2tY3mZ0/maxresdefault.jpg",
+          "caption": "Block Out! - Color Sort Puzzle Levels ...",
+          "source_url": "https://www.youtube.com/watch?v=Xcxh2tY3mZ0",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+sky+jump+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle sky jump tournament",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:23:25.891557+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:56.608225+00:00",
+            "load_time_ms": 629,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/Xcxh2tY3mZ0/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "展示了游戏的常规关卡玩法和主界面截图，属于通用玩法展示，未见锦标赛活动入口或竞技排名元素。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:47.893135+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/bubLu34q7ng/maxresdefault.jpg",
+          "caption": "Sort Puzzle Levels 1-20 Walkthrough ...",
+          "source_url": "https://www.youtube.com/watch?v=bubLu34q7ng",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+sky+jump+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle sky jump tournament",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:23:25.891557+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:58.726542+00:00",
+            "load_time_ms": 405,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/bubLu34q7ng/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "属于游戏常规关卡解谜界面的拼接图，无证据表明即为Sky Jump Tournament活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:47.893135+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "star_blaze",
+      "display_name": "Star Blaze / 星星收集奖励",
+      "description": "版本历史写到 Clear levels, collect shiny stars, and blast your way to awesome prizes in Star Blaze，说明该活动以通关收集星星并兑换/领取奖励为核心。",
+      "examples": [
+        "Star Blaze"
+      ],
+      "market_research_notes": "收集进度型活动，适合与竞速类活动对比：一个强调名次，一个强调个人进度和阶段奖励。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/zxeby5lr_7ULgAt5HRWJoqWQ-bkt2UrfyxBRno_w9pVAtXBUkiucOx6fMnfVGQtWEn5E",
+          "caption": "Block Out Color Puzzle Game - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.fc.block.out.wood.puzzle",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+star+blaze",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle star blaze",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:23:49.065083+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:53.540872+00:00",
+            "load_time_ms": 854,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/zxeby5lr_7ULgAt5HRWJoqWQ-bkt2UrfyxBRno_w9pVAtXBUkiucOx6fMnfVGQtWEn5E"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片为游戏的App图标或通用品牌素材，属于本游戏但无法关联至特定活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:51.285347+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/VU9mQ_gleN8/maxresdefault.jpg",
+          "caption": "Color Sort Puzzle Levels 1-20 Gameplay ...",
+          "source_url": "https://www.youtube.com/watch?v=VU9mQ_gleN8",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+star+blaze",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle star blaze",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:23:49.065083+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:57.881932+00:00",
+            "load_time_ms": 388,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/VU9mQ_gleN8/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片展示了游戏的常规玩法截图和商店宣传图，未体现Star Blaze活动的核心元素（星星收集/奖励轨）。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:51.285347+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/qMBft0DERGb9tLbyZQEnxt7PRM3ZQHtTFeuC8sfdKGsR_KceArjUxLVTmz9D3A45Cabd=w526-h296-rw",
+          "caption": "Block Out Color Puzzle Game - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.fc.block.out.wood.puzzle",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+star+blaze",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle star blaze",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:23:49.065083+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:58.949041+00:00",
+            "load_time_ms": 214,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 166,
+            "natural_height": 296,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/qMBft0DERGb9tLbyZQEnxt7PRM3ZQHtTFeuC8sfdKGsR_KceArjUxLVTmz9D3A45Cabd=w526-h296-rw"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是本游戏的常规关卡玩法截图，顶部UI仅显示金币和等级，无活动相关标识。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:51.285347+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/yvJV7DesQvY/maxresdefault.jpg",
+          "caption": "Block Out! Color Sort Puzzle Levels 161 ...",
+          "source_url": "https://www.youtube.com/watch?v=yvJV7DesQvY",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+star+blaze",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle star blaze",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:23:49.065083+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:59.314945+00:00",
+            "load_time_ms": 360,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/yvJV7DesQvY/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "虽然图中方块带有星星特效，但更多属于特定关卡机制或道具效果，难以明确确认为Star Blaze活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:51.285347+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "mission_hub",
+      "display_name": "Mission Hub / 任务中心",
+      "description": "版本历史写到 Complete, progress, unlock! Amazing rewards await in Mission Hub，说明存在任务中心或目标链系统。",
+      "examples": [
+        "Mission Hub"
+      ],
+      "market_research_notes": "任务中心可以承接每日、活动、通行证目标；目前只确认名称和奖励导向，规则需真机补充。",
+      "images": [
+        {
+          "url": "https://apps.apple.com//assets/images/share/app-store.png",
+          "caption": "Block Out! - Color Sort Puzzle App ...",
+          "source_url": "https://apps.apple.com/zw/app/block-out-color-sort-puzzle/id6752672568",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+mission+hub",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle mission hub",
+          "width": 310,
+          "height": 163,
+          "aspect_ratio": 1.9018,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:24:06.627763+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:03:46.448362+00:00",
+            "load_time_ms": 287,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 630,
+            "content_type": "image/png",
+            "current_src": "https://apps.apple.com//assets/images/share/app-store.png"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 1.0,
+            "reason": "图片仅为App Store的通用图标，与游戏内容及本活动无直接关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:54.862060+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Lo9Vg6rv0w4/maxresdefault.jpg",
+          "caption": "Block Out! - Color Sort Puzzle Levels ...",
+          "source_url": "https://www.youtube.com/watch?v=Lo9Vg6rv0w4",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+mission+hub",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle mission hub",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:24:06.627763+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:55.973621+00:00",
+            "load_time_ms": 404,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/Lo9Vg6rv0w4/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "展示了游戏的常规消除玩法关卡界面，属于本游戏但未体现任务中心活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:54.862060+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/zd1FflvQLWw/maxresdefault.jpg",
+          "caption": "Block Out! - Color Sort Puzzle Levels ...",
+          "source_url": "https://www.youtube.com/watch?v=zd1FflvQLWw",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+mission+hub",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle mission hub",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:24:06.627763+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:59.668369+00:00",
+            "load_time_ms": 348,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/zd1FflvQLWw/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "展示了游戏的常规消除玩法关卡界面，属于本游戏但未体现任务中心活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:54.862060+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Xcxh2tY3mZ0/maxresdefault.jpg",
+          "caption": "Block Out! - Color Sort Puzzle Levels ...",
+          "source_url": "https://www.youtube.com/watch?v=Xcxh2tY3mZ0",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+mission+hub",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle mission hub",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:24:06.627763+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:56.608225+00:00",
+            "load_time_ms": 629,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/Xcxh2tY3mZ0/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "展示了游戏的常规关卡玩法及过场界面，属于本游戏但未体现任务中心活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:54.862060+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Gditx0fcINo/maxresdefault.jpg",
+          "caption": "Color Sort Puzzle Levels 381-390 ...",
+          "source_url": "https://www.youtube.com/watch?v=Gditx0fcINo",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+mission+hub",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle mission hub",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:24:06.627763+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:00.107026+00:00",
+            "load_time_ms": 433,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/Gditx0fcINo/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "展示了游戏主界面，上方进度条和左侧图标体现了积分收集、奖励目标及限时任务系统，符合任务中心的描述。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:54.862060+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ufo_rise",
+      "display_name": "UFO Rise / UFO 上升活动",
+      "description": "版本历史写到 Fly higher, win bigger in UFO Rise，说明该活动以完成关卡推动 UFO 上升或进度条，越高奖励越大。",
+      "examples": [
+        "UFO Rise"
+      ],
+      "market_research_notes": "又一个通关进度换皮活动，主题上与 Rocket Race/Sky Jump 区分，机制可能相近。",
+      "images": [
+        {
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/ac/1f/59ac1f36-9afc-73d0-aa45-bc6c6e171c7f/SS_4_1320x2868.png/471x1024.jpeg",
+          "caption": "Block Out! - Color Sort Puzzle - Games ...",
+          "source_url": "https://mwm.ai/apps/block-out-color-sort-puzzle/6752672568",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+ufo+rise",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle ufo rise",
+          "width": 471,
+          "height": 1024,
+          "aspect_ratio": 0.46,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:24:31.179160+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:57.482637+00:00",
+            "load_time_ms": 141,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 471,
+            "natural_height": 1023,
+            "content_type": "image/jpeg",
+            "current_src": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/ac/1f/59ac1f36-9afc-73d0-aa45-bc6c6e171c7f/SS_4_1320x2868.png/471x1024.jpeg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "包含UFO元素，但属于商店宣传图，展示通用拼图玩法，无法确定为特定活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:58.458128+00:00"
+          }
+        },
+        {
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/8b/24/c38b24d8-a083-b856-f189-b9fe21c889a9/ss.5size3.png/471x1024.jpeg",
+          "caption": "Block Out! - Color Sort Puzzle - Games ...",
+          "source_url": "https://mwm.ai/apps/block-out-color-sort-puzzle/6752672568",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+ufo+rise",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle ufo rise",
+          "width": 471,
+          "height": 1024,
+          "aspect_ratio": 0.46,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:24:31.179160+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:57.336311+00:00",
+            "load_time_ms": 340,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 471,
+            "natural_height": 1023,
+            "content_type": "image/jpeg",
+            "current_src": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/8b/24/c38b24d8-a083-b856-f189-b9fe21c889a9/ss.5size3.png/471x1024.jpeg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该游戏的品牌宣传图，包含UFO元素但为通用封面性质。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:58.458128+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/zxeby5lr_7ULgAt5HRWJoqWQ-bkt2UrfyxBRno_w9pVAtXBUkiucOx6fMnfVGQtWEn5E",
+          "caption": "Block Out Color Puzzle Game - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.fc.block.out.wood.puzzle",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+ufo+rise",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle ufo rise",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:24:31.179160+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:53.540872+00:00",
+            "load_time_ms": 854,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/zxeby5lr_7ULgAt5HRWJoqWQ-bkt2UrfyxBRno_w9pVAtXBUkiucOx6fMnfVGQtWEn5E"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "游戏App图标，属于通用品牌资产。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:58.458128+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/h8TaWyH3YIg/maxresdefault.jpg",
+          "caption": "Block Out! - Color Sort Puzzle Levels ...",
+          "source_url": "https://www.youtube.com/watch?v=h8TaWyH3YIg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+ufo+rise",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle ufo rise",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:24:31.179160+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:00.524272+00:00",
+            "load_time_ms": 412,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/h8TaWyH3YIg/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "展示游戏关卡玩法，虽包含收集元素但未明确体现UFO Rise活动的进度或结算界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:58.458128+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Xcxh2tY3mZ0/maxresdefault.jpg",
+          "caption": "Block Out! - Color Sort Puzzle Levels ...",
+          "source_url": "https://www.youtube.com/watch?v=Xcxh2tY3mZ0",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+ufo+rise",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle ufo rise",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:24:31.179160+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:56.608225+00:00",
+            "load_time_ms": 629,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/Xcxh2tY3mZ0/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "展示关卡与关卡入口界面，未直接展示UFO Rise活动的特定玩法界面或进度条。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:25:58.458128+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "block_pass",
+      "display_name": "Block Pass / 通行证",
+      "description": "版本历史明确写到 Collect keys and unlock premium rewards and customizations with the brand-new Block Pass；内购列表也包含 Block Pass 10。",
+      "examples": [
+        "Block Pass",
+        "Block Pass 10"
+      ],
+      "market_research_notes": "最明确的付费奖励轨。钥匙收集、premium rewards 和 customization 是后续重点拆解对象。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/zxeby5lr_7ULgAt5HRWJoqWQ-bkt2UrfyxBRno_w9pVAtXBUkiucOx6fMnfVGQtWEn5E",
+          "caption": "Block Out Color Puzzle Game - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.fc.block.out.wood.puzzle",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+block+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle block pass",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:24:53.246835+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:53.540872+00:00",
+            "load_time_ms": 854,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/zxeby5lr_7ULgAt5HRWJoqWQ-bkt2UrfyxBRno_w9pVAtXBUkiucOx6fMnfVGQtWEn5E"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图是游戏的App图标或通用品牌图，与本活动Block Pass无直接关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:01.989241+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/c0jG-I8tvAZie8-WCcoXb4vlV91_mnmhDG1dIZxVl-OYXlYV0XCUAPE_TL3GcPFcVMU=w526-h296-rw",
+          "caption": "Block Out Color Puzzle Game - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.fc.block.out.wood.puzzle",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+block+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle block pass",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:24:53.246835+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:00.727223+00:00",
+            "load_time_ms": 197,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 185,
+            "natural_height": 296,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/c0jG-I8tvAZie8-WCcoXb4vlV91_mnmhDG1dIZxVl-OYXlYV0XCUAPE_TL3GcPFcVMU=w526-h296-rw"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "该图展示了核心关卡玩法，虽有棋盘元素但未体现通行证相关的奖励轨、任务或钥匙收集界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:01.989241+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/VU9mQ_gleN8/maxresdefault.jpg",
+          "caption": "Color Sort Puzzle Levels 1-20 Gameplay ...",
+          "source_url": "https://www.youtube.com/watch?v=VU9mQ_gleN8",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+block+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle block pass",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:24:53.246835+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:57.881932+00:00",
+            "load_time_ms": 388,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/VU9mQ_gleN8/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "包含游戏Logo宣传图和标准关卡截图，属于通用宣传素材，未见Block Pass活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:01.989241+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/l7j7dmxLkLA/maxresdefault.jpg",
+          "caption": "Block Out! - Color Sort Puzzle Level 80 ...",
+          "source_url": "https://www.youtube.com/watch?v=l7j7dmxLkLA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+block+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle block pass",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:24:53.246835+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:01.094656+00:00",
+            "load_time_ms": 361,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/l7j7dmxLkLA/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该图为游戏的常规关卡（Level 80）玩法截图，未展示任何通行证活动信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:01.989241+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "daily_bonus",
+      "display_name": "Daily Bonus / 每日奖励",
+      "description": "版本历史写到 A sweet surprise awaits you every day - don't miss your Daily Bonus，说明有每日登录或每日领取奖励。",
+      "examples": [
+        "Daily Bonus"
+      ],
+      "market_research_notes": "基础回流入口，通常与付费货币、道具、连胜保护或活动门票关联。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/PDp5rUmLlhM/maxresdefault.jpg",
+          "caption": "Sort Puzzle Level 110 Gameplay ...",
+          "source_url": "https://www.youtube.com/watch?v=PDp5rUmLlhM",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+daily+bonus",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle daily bonus",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:25:15.601382+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:01.463493+00:00",
+            "load_time_ms": 361,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/PDp5rUmLlhM/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片展示的是游戏第110关的常规玩法界面，没有每日奖励活动的特征。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:05.371121+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/zxeby5lr_7ULgAt5HRWJoqWQ-bkt2UrfyxBRno_w9pVAtXBUkiucOx6fMnfVGQtWEn5E",
+          "caption": "Block Out Color Puzzle Game - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.fc.block.out.wood.puzzle",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+daily+bonus",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle daily bonus",
+          "width": 177,
+          "height": 284,
+          "aspect_ratio": 0.6232,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:25:15.601382+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:53.540872+00:00",
+            "load_time_ms": 854,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/zxeby5lr_7ULgAt5HRWJoqWQ-bkt2UrfyxBRno_w9pVAtXBUkiucOx6fMnfVGQtWEn5E"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片是游戏的应用商店图标或元素展示图，属于通用品牌/素材图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:05.371121+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/SlE8CieefE4/maxresdefault.jpg",
+          "caption": "Block Out! - Color Sort Puzzle Levels ...",
+          "source_url": "https://www.youtube.com/watch?v=SlE8CieefE4",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+daily+bonus",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle daily bonus",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:25:15.601382+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:53.948317+00:00",
+            "load_time_ms": 402,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/SlE8CieefE4/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片展示了游戏的关卡玩法和选关界面，未见每日奖励相关内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:05.371121+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/VU9mQ_gleN8/maxresdefault.jpg",
+          "caption": "Color Sort Puzzle Levels 1-20 Gameplay ...",
+          "source_url": "https://www.youtube.com/watch?v=VU9mQ_gleN8",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+daily+bonus",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle daily bonus",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:25:15.601382+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:57.881932+00:00",
+            "load_time_ms": 388,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/VU9mQ_gleN8/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "包含关卡玩法和通用宣传海报，并非每日奖励活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:05.371121+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/E5-gBW4iW2g/maxresdefault.jpg",
+          "caption": "Sort Puzzle Level 294 Gameplay ...",
+          "source_url": "https://www.youtube.com/watch?v=E5-gBW4iW2g",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+daily+bonus",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle daily bonus",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:25:15.601382+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:01.807962+00:00",
+            "load_time_ms": 340,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/E5-gBW4iW2g/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片展示的是游戏第294关的常规玩法界面，与每日奖励活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:05.371121+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "new_levels_and_blockers",
+      "display_name": "New Levels / New Blockers / 新关卡与新障碍",
+      "description": "版本历史高频更新 new levels、new Journey，以及 Board Generator、Connected Blocks、Duration Blocks、Grinder、Colored Grid 等新 blocker。",
+      "examples": [
+        "Journey",
+        "Board Generator",
+        "Connected Blocks",
+        "Duration Blocks",
+        "Grinder",
+        "Colored Grid"
+      ],
+      "market_research_notes": "对超休闲/混合休闲 puzzle 来说，新关卡和新障碍本身就是内容运营节奏，补足复杂 LiveOps 不足。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/zxeby5lr_7ULgAt5HRWJoqWQ-bkt2UrfyxBRno_w9pVAtXBUkiucOx6fMnfVGQtWEn5E",
+          "caption": "Block Out Color Puzzle Game - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.fc.block.out.wood.puzzle",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+new+levels+and+blockers",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle new levels and blockers",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:25:37.760946+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:53.540872+00:00",
+            "load_time_ms": 854,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/zxeby5lr_7ULgAt5HRWJoqWQ-bkt2UrfyxBRno_w9pVAtXBUkiucOx6fMnfVGQtWEn5E"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片为游戏App图标或封面性质的特写图，未展示具体的活动界面或特定关卡逻辑。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:09.751358+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/lQo9WHXSgVg/maxresdefault.jpg",
+          "caption": "Color Sort Puzzle Levels 391-400 ...",
+          "source_url": "https://www.youtube.com/watch?v=lQo9WHXSgVg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+new+levels+and+blockers",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle new levels and blockers",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:25:37.760946+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:02.255477+00:00",
+            "load_time_ms": 442,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/lQo9WHXSgVg/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了游戏的实际玩法界面，且图片上方显示了具体的关卡数（如Level 394），由于该活动定义新关卡即为活动内容，故判定为5。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:09.751358+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/TtORCuXPiNM/maxresdefault.jpg",
+          "caption": "Block Out! - Color Sort Puzzle Levels ...",
+          "source_url": "https://www.youtube.com/watch?v=TtORCuXPiNM",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+new+levels+and+blockers",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle new levels and blockers",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:25:37.760946+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:02.683123+00:00",
+            "load_time_ms": 422,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/TtORCuXPiNM/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了带有计时器和具体关卡号（Lv 34等）的实际玩法截图，符合新关卡的内容展示。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:09.751358+00:00"
+          }
+        },
+        {
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fe/cd/f1/fecdf11d-fe93-0902-4313-f2d8dc30e42a/SS_1_1320x2868.png/471x1024.jpeg",
+          "caption": "Block Out! - Color Sort Puzzle - Games ...",
+          "source_url": "https://mwm.ai/apps/block-out-color-sort-puzzle/6752672568",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+new+levels+and+blockers",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle new levels and blockers",
+          "width": 471,
+          "height": 1024,
+          "aspect_ratio": 0.46,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:25:37.760946+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:02.699458+00:00",
+            "load_time_ms": 11,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 471,
+            "natural_height": 1023,
+            "content_type": "image/jpeg",
+            "current_src": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fe/cd/f1/fecdf11d-fe93-0902-4313-f2d8dc30e42a/SS_1_1320x2868.png/471x1024.jpeg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了关卡Lv 72的实际游戏画面，包含棋盘和操作元素，属于新关卡内容的体现。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:09.751358+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/rmjXEpmhxA8/maxresdefault.jpg",
+          "caption": "Block Out! - Color Sort Puzzle Levels ...",
+          "source_url": "https://www.youtube.com/watch?v=rmjXEpmhxA8",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+new+levels+and+blockers",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle new levels and blockers",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:25:37.760946+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:03.076038+00:00",
+            "load_time_ms": 371,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/rmjXEpmhxA8/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了关卡Lv 26的实际玩法界面，包含道具栏和具体障碍布局，属于新关卡/新障碍的实际展示。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:09.751358+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "offers_and_currency",
+      "display_name": "Coins / Bundles / 限时礼包与货币",
+      "description": "内购列表包含 Coins、Brick Bundle、Starter Bundle、Premium Bundle、Deluxe Bundle 等，玩家评论也提到额外时间、helpers、store 和 lives。",
+      "examples": [
+        "1000 Coins",
+        "5000 Coins",
+        "10000 Coins",
+        "Brick Bundle",
+        "Starter Bundle",
+        "Premium Bundle",
+        "Deluxe Bundle"
+      ],
+      "market_research_notes": "活动失败、时间限制和连胜中断会把玩家导向 coins / extra time / helpers，是该产品商业化的关键压力点。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/zxeby5lr_7ULgAt5HRWJoqWQ-bkt2UrfyxBRno_w9pVAtXBUkiucOx6fMnfVGQtWEn5E",
+          "caption": "Block Out Color Puzzle Game - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.fc.block.out.wood.puzzle",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+offers+and+currency",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle offers and currency",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:26:04.498273+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:53.540872+00:00",
+            "load_time_ms": 854,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/zxeby5lr_7ULgAt5HRWJoqWQ-bkt2UrfyxBRno_w9pVAtXBUkiucOx6fMnfVGQtWEn5E"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 1.0,
+            "reason": "图片是该游戏的App图标或通用品牌宣传图，不包含具体的内购礼包或货币活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:13.858097+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/yA6SAGWN0t7SDzWed2ZfszSHAGnuuzedDRnOsQtWcphrMiCCvQCVJRc9EiG8K5QOm1f1=w526-h296-rw",
+          "caption": "Block Out Color Puzzle Game - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.fc.block.out.wood.puzzle",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+offers+and+currency",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle offers and currency",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:26:04.498273+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:03.278465+00:00",
+            "load_time_ms": 195,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 185,
+            "natural_height": 296,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/yA6SAGWN0t7SDzWed2ZfszSHAGnuuzedDRnOsQtWcphrMiCCvQCVJRc9EiG8K5QOm1f1=w526-h296-rw"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图片展示了实际玩法界面，顶部UI显示了金币(Coins)资源位及其增加按钮（+号），与描述中的Coins及内购货币压力点直接相关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:13.858097+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Xcxh2tY3mZ0/maxresdefault.jpg",
+          "caption": "Block Out! - Color Sort Puzzle Levels ...",
+          "source_url": "https://www.youtube.com/watch?v=Xcxh2tY3mZ0",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+offers+and+currency",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle offers and currency",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:26:04.498273+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:56.608225+00:00",
+            "load_time_ms": 629,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/Xcxh2tY3mZ0/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图片展示了多个实际关卡和开始界面，UI顶部清晰显示了金币余额和体力(lives)，属于活动描述中提到的货币展示与消耗场景。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:13.858097+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/zxeby5lr_7ULgAt5HRWJoqWQ-bkt2UrfyxBRno_w9pVAtXBUkiucOx6fMnfVGQtWEn5E=w600-h300-pc0xffffff-pd",
+          "caption": "Block Out Color Puzzle Game - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.fc.block.out.wood.puzzle",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=block+out+color+sort+puzzle+offers+and+currency",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "block out color sort puzzle offers and currency",
+          "width": 600,
+          "height": 300,
+          "aspect_ratio": 2.0,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:26:04.498273+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:03.553099+00:00",
+            "load_time_ms": 269,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 600,
+            "natural_height": 300,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/zxeby5lr_7ULgAt5HRWJoqWQ-bkt2UrfyxBRno_w9pVAtXBUkiucOx6fMnfVGQtWEn5E=w600-h300-pc0xffffff-pd"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 1.0,
+            "reason": "图片是该游戏的通用宣传海报或商店截图，主要展示核心玩法，未体现内购礼包或货币活动细则。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:13.858097+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "Block Out 未找到 wiki，但 App Store 版本历史反而给出了较多活动名。本轮只把版本记录可验证的名称写入；具体规则、周期、奖励表仍需真机或广告素材补充。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T07:26:04.498273+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:26:13.858097+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

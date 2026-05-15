@@ -1,0 +1,632 @@
+{
+  "rank": 25,
+  "name": "NYT Games: Wordle & Crossword",
+  "source_confidence": "low",
+  "source_notes": "未找到适合活动类型调研的开放 wiki；该产品更偏每日内容更新，不是典型 LiveOps 活动框架。",
+  "collected_at": "2026-05-12T04:00:46.743Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "NYT Games Official",
+      "source_type": "official",
+      "source_url": "https://www.nytimes.com/crosswords",
+      "fetched_url": "https://www.nytimes.com/crosswords",
+      "status": 200,
+      "page_title": "The Crossword — The New York Times",
+      "meta_description": "Play the Daily New York Times Crossword puzzle edited by Will Shortz online. Try\n        free NYT games like the Mini Crossword, Ken Ken, Sudoku & SET plus our new\n        subscriber-only puzzle Spelling Bee.",
+      "relevant_text_blocks": [
+        "Back Subscribe Skip Advertisement About New York Times Games Since the launch of the Crossword in 1942, The Times has captivated solvers by providing engaging word and logic games. In 2014, we introduced the Mini Crossword — followed by Spelling Bee, Letter Boxed, Tiles, Wordle, Connections and more. We strive to offer puzzles for all skill levels that everyone can enjoy playing every day. Subscribe now for unlimited access. New York Times Games Crossplay",
+        "Shop the Games Collection"
+      ],
+      "inferred_event_types": [
+        "collection_album",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "https://mwcm.nyt.com/dam/mkt_assets/img/games/hub.png",
+          "alt": "og:image",
+          "kind": "preview"
+        }
+      ]
+    },
+    {
+      "source_title": "Wordle - Wikipedia",
+      "source_type": "reference",
+      "source_url": "https://en.wikipedia.org/wiki/Wordle",
+      "fetched_url": "https://en.wikipedia.org/wiki/Wordle",
+      "status": 200,
+      "page_title": "Wordle",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Originally developed as a personal project for Wardle and his partner, Wordle was publicly released in October 2021. It gained widespread popularity in late 2021 after the introduction of a shareable emoji-based results format, which led to viral discussion on social media. The game's success spurred the creation of numerous clones, adaptations in other languages, and variations with unique twists. It has been well-received, being played 4.8 billion times during 2023.",
+        "In the years that followed, Wardle created the online social experiments The Button and Place while working for Reddit . [ 16 ] [ 25 ] When the COVID-19 pandemic struck, he and his partner \"got really into\" The New York Times 's Spelling Bee and daily crossword puzzle . [ 16 ] [ 27 ] This reignited his interest in Wordle , and he drew inspiration from Spelling Bee's minimalist web design and its one-puzzle-per-day format. By January 2021, Wardle had published Wordle on the web, shared only with himself and his partner. He named it Wordle as a pun on his surname. [ 16 ]",
+        "Acquisition by the New York Times Company",
+        "Reception and legacy",
+        "Adaptations and clones",
+        "The Brazilian version of the game was developed by Google engineer Fernando Serboncini under the title Termo . Originally from São Paulo and based in Canada, Serboncini had previously created games in 2012 and 2015, before beginning to release one title per year from 2018 to 2020, two in 2021, and eventually Termo in 2022. It was launched on January 5, 2022, and reached 100,000 daily players within ten days of release. The sudden growth caused the game's server to crash, leading Serboncini to migrate it to a system with four times the previous capacity. The game has also achieved popularity in Portugal. [ 89 ]",
+        "Television game show",
+        "^ a b Cao, Steffi; Dahir, Ikran (January 15, 2022). \"How A Group Of Twitter Colleagues Blew Up Wordle\" . BuzzFeed News . Archived from the original on January 16, 2022 . Retrieved January 18, 2022 .",
+        "^ Livingston, Christopher (February 14, 2022). \" Wordle , inevitably, has been turned into a battle royale\" . PCGamer . Archived from the original on November 23, 2023 . Retrieved November 22, 2023 ."
+      ],
+      "inferred_event_types": [
+        "tournament_competition",
+        "team_alliance",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/94/Symbol_support_vote.svg/20px-Symbol_support_vote.svg.png",
+          "alt": "This is a good article. Click here for more information.",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Semi-protection-shackle.svg/20px-Semi-protection-shackle.svg.png",
+          "alt": "Page semi-protected",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Wordle_Lockup.svg/250px-Wordle_Lockup.svg.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wordle_196_example.svg/250px-Wordle_196_example.svg.png",
+          "alt": "A four-row grid of white letters in coloured square tiles, with 5 letters in each row, reading ARISE, ROUTE, RULES, REBUS. The A, I, O, T, and L are in grey squares; the R, S, and E of ARISE, U and E of ROUTE, and U and E of RULES are in yellow squares, and the R of ROUTE, R and S of RULES, and all letters of REBUS are in green squares.",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Wordle_Emoji_Screenshot.png",
+          "alt": "Text saying \"Wordle 196 4/6\", followed by four lines of five emoji boxes each: white, yellow, white, yellow, yellow; green, white, yellow, white, yellow; green, yellow, white, yellow, green; green, green, green, green, green.",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Tracy_Bennett_in_2025_%28cropped%29.jpg/250px-Tracy_Bennett_in_2025_%28cropped%29.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png",
+          "alt": "Edit this at Wikidata",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Symbol_category_class.svg/20px-Symbol_category_class.svg.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/WPVG_icon_2016.svg/20px-WPVG_icon_2016.svg.png",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "event_detail_pages": [
+    {
+      "source_title": "Shop the Games Collection",
+      "source_type": "event_detail",
+      "source_url": "https://store.nytimes.com/collections/games?utm_campaign=games_collection&utm_content=footer&utm_medium=referral&utm_source=nyt_games",
+      "fetched_url": "https://store.nytimes.com/collections/games?utm_campaign=games_collection&utm_content=footer&utm_medium=referral&utm_source=nyt_games",
+      "status": 200,
+      "page_title": "Games &ndash; The New York Times Store",
+      "meta_description": "Brandish your brilliance with our New York Times Games collection. Pangram people, word wranglers and streak-driven solvers can accessorize with puzzle-themed pieces that add delight to your daily routine.",
+      "relevant_text_blocks": [
+        "Featured Collections A1",
+        "Featured Collections A1",
+        "Featured Collections A1",
+        "The Midi and The Mini",
+        "Subscription Gift Set",
+        "Skip to content Best Sellers",
+        "Subscription Gift Sets",
+        "Shop By Category Apparel",
+        "Give the gift of play with a one-year digital subscription to New York Times Games, plus a copy of the first-ever “Puzzle Mania!” book.",
+        "Sign up for exclusive offers and get 10% off your first order"
+      ],
+      "inferred_event_types": [
+        "collection_album",
+        "mini_game",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "http://cdn.shopify.com/s/files/1/1722/0531/files/nyt-cover.png?v=16956563511454026261",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/1722/0531/files/genius-bee-cap-1_130x.jpg?v=1777903713",
+          "alt": "Genius Bee Baseball Cap",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/1722/0531/files/genius-bee-cap-2_130x.jpg?v=1777903719",
+          "alt": "Genius Bee Baseball Cap",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/1722/0531/files/genius-bee-embroidered-sweatshirt_130x.jpg?v=1777904255",
+          "alt": "Genius Bee Embroidered Sweatshirt",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/1722/0531/files/genius-bee-embroidered-sweatshirt-detail_130x.jpg?v=1777904259",
+          "alt": "Genius Bee Embroidered Sweatshirt",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/1722/0531/files/heart-bee-hat-front_130x.jpg?v=1777061514",
+          "alt": "Spelling Bee Hat with Heart Emoji",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/1722/0531/files/heart-bee-hat-back_130x.jpg?v=1777903489",
+          "alt": "Heart Bee Baseball Cap",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/1722/0531/files/queen-bee-embroidered-sweatshirt-1_130x.jpg?v=1773760488",
+          "alt": "dark gray crewneck sweatshirt with small yellow embroidered bee on chest",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Current events",
+      "source_type": "event_detail",
+      "source_url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+      "fetched_url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+      "status": 200,
+      "page_title": "Portal : Current events",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Portal maintenance status: (October 2020) This portal's subpages have been checked by an editor, and are needed. Please take care when editing, especially if using automated editing software . Learn how to update the maintenance information here .",
+        "Worldwide current events",
+        "Passengers from the cruise ship MV Hondius (pictured) disembark in Tenerife after being quarantined due to a hantavirus outbreak .",
+        "Israel 's parliament passes a law that allows military trials for Palestinian suspects involved in the October 7, 2023 attacks by Hamas . ( The New York Times )",
+        "2026 FIFA World Cup Mexico's Secretariat of Public Education reverses a proposal to shorten the academic year ahead of the 2026 FIFA World Cup following criticism from parents, local authorities, and education groups. (AFP via RFI)",
+        "MV Hondius hantavirus outbreak MV Hondius arrives on Tenerife , Spain , after being anchored at the Canary Islands . Passengers on the ship evacuate after previously being exposed to the hantavirus . (AP)",
+        "A Malta -flagged tanker carrying 1 million barrels of crude oil arrived off South Korea ’s west coast Friday after passing through the Strait of Hormuz in mid-April. (AP)",
+        "61st Venice Biennale Gaza war protests Pavilions at the 61st Venice Biennale close after artists go on a strike in protest of Israel 's entry into the event organized by the Art Not Genocide Alliance over Israel's role in the Gaza war . ( Times of Israel )",
+        "Frontier Airlines Flight 4345 An Airbus A321neo operated by Frontier Airlines strikes and kills a person while taking off from Denver International Airport in Colorado , U.S., leading to an engine fire and aborted takeoff that injures 12 passengers. (ABC7) (BBC News)",
+        "The U.S. Centers for Disease Control and Prevention reports that 115 people on the cruise ship Caribbean Princess have been infected by a norovirus outbreak. (ABC News)",
+        "International sporting sanctions during the Russian invasion of Ukraine Belarus at the Olympics The International Olympic Committee lifts restrictions on Belarusian athletes participating in the Olympic Games from 2028 , while Russian athletes remain limited to individual neutral participation because of the Russian Olympic Committee 's suspension. (AFP via RFI) (BBC News)",
+        "2027 NCAA Division I men's basketball tournament , 2027 NCAA Division I women's basketball tournament In basketball , the NCAA Division I men's and women's tournaments will expand to 76 teams beginning next year. (AP) ( The Athletic via The New York Times )",
+        "The Islamic Revolutionary Guard Corps Navy says that safe passage on the Strait of Hormuz will be assured with new procedures and guidelines following the U.S. pause in Operation Project Freedom . (Reuters)",
+        "2026 United States military buildup in the Middle East USS Gerald R. Ford officially exits the Mediterranean Sea and enters the Atlantic Ocean after its longest deployment since the Cold War during which it participated in both the Iran war and the Maduro raid . (USNI) ( Stars and Stripes )",
+        "2026 North Musi Rawas collision At least 16 people are killed and four others are injured when a passenger bus crashes into a tanker truck in Sumatra , Indonesia . (AFP via Al Arabiya)",
+        "MV Hondius hantavirus outbreak Three passengers infected with hantavirus pulmonary syndrome from the Andes virus are evacuated off the MV Hondius cruise ship while it is stationed off the coast of Cape Verde to receive treatment in the Netherlands . At least 145 people remain on board, including two suspected asymptomatic cases. (ABC News) (NBC News) (Fox News)",
+        "Spanish authorities allow the ship to dock at the Canary Islands as several passengers are Spanish citizens . (BBC News) (Reuters)",
+        "More May 2026 events..."
+      ],
+      "inferred_event_types": [
+        "battle_pass",
+        "tournament_competition",
+        "team_alliance",
+        "pve_boss",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Full-protection-shackle.svg/20px-Full-protection-shackle.svg.png",
+          "alt": "Page protected",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Darkgreen_flag_waving.svg/40px-Darkgreen_flag_waving.svg.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Ambox_globe_Asia_Australia.svg/40px-Ambox_globe_Asia_Australia.svg.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/2025_Hondius_-_IMO_9818709_by_2eight_-_9SC5017.jpg/250px-2025_Hondius_-_IMO_9818709_by_2eight_-_9SC5017.jpg",
+          "alt": "MV Hondius",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Lorentzian_Wormhole.svg/40px-Lorentzian_Wormhole.svg.png",
+          "alt": "icon",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Nuvola_apps_package_graphics.png/40px-Nuvola_apps_package_graphics.png",
+          "alt": "icon",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/69/P_vip.svg/40px-P_vip.svg.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Terra.png/40px-Terra.png",
+          "alt": "icon",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/P_history.svg/40px-P_history.svg.png",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Random article",
+      "source_type": "event_detail",
+      "source_url": "https://en.wikipedia.org/wiki/Special:Random",
+      "fetched_url": "https://en.wikipedia.org/wiki/Stone_Pier",
+      "status": 200,
+      "page_title": "Stone Pier",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Jump to content Main menu Main menu move to sidebar hide Navigation Main page",
+        "Stone Pier as seen from the Nothe Fort",
+        "Stone Pier , also known as South Pier , is a pier located on the southern side of the entrance of Weymouth Harbour , in Dorset, England . It extends out from the Nothe Peninsula, which is the location of the Nothe Fort and Nothe Gardens .",
+        "View from the end of the pier towards Nothe Fort",
+        "^ William Simpson. \"True description of the situation of Waymouth and Melcombe Regis 1626\" . Royal Museums Greenwich . Retrieved 12 January 2023 .",
+        "^ \"Sailing Directions for the English Channel ...: South coast of England - United States. Hydrographic Office - Google Books\" . 1872 . Retrieved 20 February 2018 .",
+        "^ Prowse, Eddie (15 June 2014). Weymouth From Old Photographs - Eddie Prowse - Google Books . ISBN 9781445623030 . Retrieved 20 February 2018 .",
+        "^ Rose, Debby (15 December 2008). Weymouth Through Time - Debby Rose - Google Books . ISBN 9781445632162 . Retrieved 20 February 2018 .",
+        "^ \"Weymouth's historic harbouriside is a top tourism attraction\" . Dorset Echo. 22 August 2011 . Retrieved 20 February 2018 .",
+        "^ \"Archived copy\" (PDF) . www.dorsetforyou.gov.uk . Archived from the original (PDF) on 20 February 2018 . Retrieved 17 January 2022 . {{ cite web }} : CS1 maint: archived copy as title ( link )"
+      ],
+      "inferred_event_types": [
+        "collection_album",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Weymouth%2C_searchlight_and_South_Pier_-_geograph.org.uk_-_474177.jpg",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Weymouth%2C_searchlight_and_South_Pier_-_geograph.org.uk_-_474177.jpg/250px-Weymouth%2C_searchlight_and_South_Pier_-_geograph.org.uk_-_474177.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/South_Pier%2C_Weymouth%2C_Dorset%2C_England_02.jpg/250px-South_Pier%2C_Weymouth%2C_Dorset%2C_England_02.jpg",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Recent changes",
+      "source_type": "event_detail",
+      "source_url": "https://en.wikipedia.org/wiki/Special:RecentChanges",
+      "fetched_url": "https://en.wikipedia.org/wiki/Special:RecentChanges",
+      "status": 200,
+      "page_title": "Recent changes",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "all (Article) Talk User User talk Wikipedia Wikipedia talk File File talk MediaWiki MediaWiki talk Template Template talk Help Help talk Category Category talk Portal Portal talk Draft Draft talk MOS MOS talk TimedText TimedText talk Module Module talk Event Event talk Invert selection Associated namespace",
+        "diff hist m 1960 Grand Prix motorcycle racing season 04:00 +4 FromCzech talk contribs",
+        "diff hist Draft:Montejo expedition 04:00 +1,801 Asdfjrjjj talk contribs ( → Refs : update (by SublimeText.Mediawiker))",
+        "diff hist Kanchanaburi Power F.C. 04:00 +50 ยุทธนาสาระขันธ์ talk contribs ( → Season by season record ) Tag : Visual edit",
+        "diff hist 2026 NCAA men's volleyball tournament 04:00 +3 Socalphoto talk contribs ( → All Tournament Team )",
+        "Jump to content Main menu Main menu move to sidebar hide Navigation Main page",
+        "This is a list of recent changes to Wikipedia.",
+        "Discuss this page – What does this page mean? Recent changes for: Featured articles – Good articles – Living people – Vital articles",
+        "RC patrol – New pages – Unregistered contribs – Mobile contribs – Edit filter log – Cleanup – Vandalism – Deletion – RfC – Backlogs",
+        "Introduction / FAQ / Policy – Stats – News – Village pump – Mailing lists – Chat – Wikipedia Signpost"
+      ],
+      "inferred_event_types": [
+        "tournament_competition",
+        "team_alliance",
+        "seasonal_festival"
+      ],
+      "images": []
+    },
+    {
+      "source_title": "Special pages",
+      "source_type": "event_detail",
+      "source_url": "https://en.wikipedia.org/wiki/Special:SpecialPages",
+      "fetched_url": "https://en.wikipedia.org/wiki/Special:SpecialPages",
+      "status": 200,
+      "page_title": "Special pages",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "8 Redirecting special pages",
+        "15 Other special pages",
+        "This page contains a list of special pages . Most of the content of these pages is automatically generated and cannot be edited. To suggest a change to the parts that can be edited, find the appropriate text on Special:AllMessages and then request your change on the talk page of the message (using {{ editprotected }} to draw the attention of administrators).",
+        "You can also see what message names are used on a page by adding ?uselang=qqx to the end of its URL, e.g. https://en.wikipedia.org/wiki/Special:SpecialPages?uselang=qqx will show (specialpages-summary) in place of this message, which allows you to find MediaWiki:Specialpages-summary .",
+        "For an index of special pages, see Help:SpecialPages .",
+        "Global user account rename request",
+        "Global user account vanish request",
+        "Recent changes and logs",
+        "Media reports and uploads",
+        "Redirecting special pages",
+        "Cancel your registration for an event",
+        "Delete event registration",
+        "Edit event registration",
+        "Register for an event"
+      ],
+      "inferred_event_types": [],
+      "images": []
+    },
+    {
+      "source_title": "Search",
+      "source_type": "event_detail",
+      "source_url": "https://en.wikipedia.org/wiki/Special:Search",
+      "fetched_url": "https://en.wikipedia.org/wiki/Special:Search",
+      "status": 200,
+      "page_title": "Search",
+      "meta_description": "",
+      "relevant_text_blocks": [
+        "Jump to content Main menu Main menu move to sidebar hide Navigation Main page",
+        "Legal & safety contacts"
+      ],
+      "inferred_event_types": [],
+      "images": []
+    }
+  ],
+  "event_catalog": [
+    {
+      "title": "Games &ndash; The New York Times Store",
+      "url": "https://store.nytimes.com/collections/games?utm_campaign=games_collection&utm_content=footer&utm_medium=referral&utm_source=nyt_games",
+      "discovered_from": "https://www.nytimes.com/crosswords",
+      "description": "Brandish your brilliance with our New York Times Games collection. Pangram people, word wranglers and streak-driven solvers can accessorize with puzzle-themed pieces that add delight to your daily routine.",
+      "inferred_event_types": [
+        "collection_album",
+        "mini_game",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "http://cdn.shopify.com/s/files/1/1722/0531/files/nyt-cover.png?v=16956563511454026261",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/1722/0531/files/genius-bee-cap-1_130x.jpg?v=1777903713",
+          "alt": "Genius Bee Baseball Cap",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Portal : Current events",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+      "discovered_from": "https://en.wikipedia.org/wiki/Wordle",
+      "description": "Portal maintenance status: (October 2020) This portal's subpages have been checked by an editor, and are needed. Please take care when editing, especially if using automated editing software . Learn how to update the maintenance information here .",
+      "inferred_event_types": [
+        "battle_pass",
+        "tournament_competition",
+        "team_alliance",
+        "pve_boss",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Full-protection-shackle.svg/20px-Full-protection-shackle.svg.png",
+          "alt": "Page protected",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Darkgreen_flag_waving.svg/40px-Darkgreen_flag_waving.svg.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Ambox_globe_Asia_Australia.svg/40px-Ambox_globe_Asia_Australia.svg.png",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Stone Pier",
+      "url": "https://en.wikipedia.org/wiki/Special:Random",
+      "discovered_from": "https://en.wikipedia.org/wiki/Wordle",
+      "description": "Jump to content Main menu Main menu move to sidebar hide Navigation Main page",
+      "inferred_event_types": [
+        "collection_album",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Weymouth%2C_searchlight_and_South_Pier_-_geograph.org.uk_-_474177.jpg",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Weymouth%2C_searchlight_and_South_Pier_-_geograph.org.uk_-_474177.jpg/250px-Weymouth%2C_searchlight_and_South_Pier_-_geograph.org.uk_-_474177.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/South_Pier%2C_Weymouth%2C_Dorset%2C_England_02.jpg/250px-South_Pier%2C_Weymouth%2C_Dorset%2C_England_02.jpg",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Recent changes",
+      "url": "https://en.wikipedia.org/wiki/Special:RecentChanges",
+      "discovered_from": "https://en.wikipedia.org/wiki/Wordle",
+      "description": "all (Article) Talk User User talk Wikipedia Wikipedia talk File File talk MediaWiki MediaWiki talk Template Template talk Help Help talk Category Category talk Portal Portal talk Draft Draft talk MOS MOS talk TimedText TimedText talk Module Module talk Event Event talk Invert selection Associated namespace",
+      "inferred_event_types": [
+        "tournament_competition",
+        "team_alliance",
+        "seasonal_festival"
+      ],
+      "images": []
+    },
+    {
+      "title": "Special pages",
+      "url": "https://en.wikipedia.org/wiki/Special:SpecialPages",
+      "discovered_from": "https://en.wikipedia.org/wiki/Wordle",
+      "description": "This page contains a list of special pages . Most of the content of these pages is automatically generated and cannot be edited. To suggest a change to the parts that can be edited, find the appropriate text on Special:AllMessages and then request your change on the talk page of the message (using {{ editprotected }} to draw the attention of administrators).",
+      "inferred_event_types": [],
+      "images": []
+    },
+    {
+      "title": "Search",
+      "url": "https://en.wikipedia.org/wiki/Special:Search",
+      "discovered_from": "https://en.wikipedia.org/wiki/Wordle",
+      "description": "Jump to content Main menu Main menu move to sidebar hide Navigation Main page",
+      "inferred_event_types": [],
+      "images": []
+    }
+  ],
+  "inferred_event_type_summary": [
+    "battle_pass",
+    "collection_album",
+    "mini_game",
+    "pve_boss",
+    "pvp_war",
+    "seasonal_festival",
+    "store_offer",
+    "team_alliance",
+    "tournament_competition"
+  ],
+  "screenshots_or_images": [
+    {
+      "url": "https://mwcm.nyt.com/dam/mkt_assets/img/games/hub.png",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://www.nytimes.com/crosswords"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/94/Symbol_support_vote.svg/20px-Symbol_support_vote.svg.png",
+      "alt": "This is a good article. Click here for more information.",
+      "kind": "page_image",
+      "source_url": "https://en.wikipedia.org/wiki/Wordle"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Semi-protection-shackle.svg/20px-Semi-protection-shackle.svg.png",
+      "alt": "Page semi-protected",
+      "kind": "page_image",
+      "source_url": "https://en.wikipedia.org/wiki/Wordle"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Wordle_Lockup.svg/250px-Wordle_Lockup.svg.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://en.wikipedia.org/wiki/Wordle"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wordle_196_example.svg/250px-Wordle_196_example.svg.png",
+      "alt": "A four-row grid of white letters in coloured square tiles, with 5 letters in each row, reading ARISE, ROUTE, RULES, REBUS. The A, I, O, T, and L are in grey squares; the R, S, and E of ARISE, U and E of ROUTE, and U and E of RULES are in yellow squares, and the R of ROUTE, R and S of RULES, and all letters of REBUS are in green squares.",
+      "kind": "page_image",
+      "source_url": "https://en.wikipedia.org/wiki/Wordle"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Wordle_Emoji_Screenshot.png",
+      "alt": "Text saying \"Wordle 196 4/6\", followed by four lines of five emoji boxes each: white, yellow, white, yellow, yellow; green, white, yellow, white, yellow; green, yellow, white, yellow, green; green, green, green, green, green.",
+      "kind": "page_image",
+      "source_url": "https://en.wikipedia.org/wiki/Wordle"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Tracy_Bennett_in_2025_%28cropped%29.jpg/250px-Tracy_Bennett_in_2025_%28cropped%29.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://en.wikipedia.org/wiki/Wordle"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png",
+      "alt": "Edit this at Wikidata",
+      "kind": "page_image",
+      "source_url": "https://en.wikipedia.org/wiki/Wordle"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Symbol_category_class.svg/20px-Symbol_category_class.svg.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://en.wikipedia.org/wiki/Wordle"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/WPVG_icon_2016.svg/20px-WPVG_icon_2016.svg.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://en.wikipedia.org/wiki/Wordle"
+    },
+    {
+      "url": "http://cdn.shopify.com/s/files/1/1722/0531/files/nyt-cover.png?v=16956563511454026261",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://store.nytimes.com/collections/games?utm_campaign=games_collection&utm_content=footer&utm_medium=referral&utm_source=nyt_games"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1722/0531/files/genius-bee-cap-1_130x.jpg?v=1777903713",
+      "alt": "Genius Bee Baseball Cap",
+      "kind": "page_image",
+      "source_url": "https://store.nytimes.com/collections/games?utm_campaign=games_collection&utm_content=footer&utm_medium=referral&utm_source=nyt_games"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1722/0531/files/genius-bee-cap-2_130x.jpg?v=1777903719",
+      "alt": "Genius Bee Baseball Cap",
+      "kind": "page_image",
+      "source_url": "https://store.nytimes.com/collections/games?utm_campaign=games_collection&utm_content=footer&utm_medium=referral&utm_source=nyt_games"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1722/0531/files/genius-bee-embroidered-sweatshirt_130x.jpg?v=1777904255",
+      "alt": "Genius Bee Embroidered Sweatshirt",
+      "kind": "page_image",
+      "source_url": "https://store.nytimes.com/collections/games?utm_campaign=games_collection&utm_content=footer&utm_medium=referral&utm_source=nyt_games"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1722/0531/files/genius-bee-embroidered-sweatshirt-detail_130x.jpg?v=1777904259",
+      "alt": "Genius Bee Embroidered Sweatshirt",
+      "kind": "page_image",
+      "source_url": "https://store.nytimes.com/collections/games?utm_campaign=games_collection&utm_content=footer&utm_medium=referral&utm_source=nyt_games"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1722/0531/files/heart-bee-hat-front_130x.jpg?v=1777061514",
+      "alt": "Spelling Bee Hat with Heart Emoji",
+      "kind": "page_image",
+      "source_url": "https://store.nytimes.com/collections/games?utm_campaign=games_collection&utm_content=footer&utm_medium=referral&utm_source=nyt_games"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1722/0531/files/heart-bee-hat-back_130x.jpg?v=1777903489",
+      "alt": "Heart Bee Baseball Cap",
+      "kind": "page_image",
+      "source_url": "https://store.nytimes.com/collections/games?utm_campaign=games_collection&utm_content=footer&utm_medium=referral&utm_source=nyt_games"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1722/0531/files/queen-bee-embroidered-sweatshirt-1_130x.jpg?v=1773760488",
+      "alt": "dark gray crewneck sweatshirt with small yellow embroidered bee on chest",
+      "kind": "page_image",
+      "source_url": "https://store.nytimes.com/collections/games?utm_campaign=games_collection&utm_content=footer&utm_medium=referral&utm_source=nyt_games"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Full-protection-shackle.svg/20px-Full-protection-shackle.svg.png",
+      "alt": "Page protected",
+      "kind": "page_image",
+      "source_url": "https://en.wikipedia.org/wiki/Portal:Current_events"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Darkgreen_flag_waving.svg/40px-Darkgreen_flag_waving.svg.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://en.wikipedia.org/wiki/Portal:Current_events"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Ambox_globe_Asia_Australia.svg/40px-Ambox_globe_Asia_Australia.svg.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://en.wikipedia.org/wiki/Portal:Current_events"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/2025_Hondius_-_IMO_9818709_by_2eight_-_9SC5017.jpg/250px-2025_Hondius_-_IMO_9818709_by_2eight_-_9SC5017.jpg",
+      "alt": "MV Hondius",
+      "kind": "page_image",
+      "source_url": "https://en.wikipedia.org/wiki/Portal:Current_events"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Lorentzian_Wormhole.svg/40px-Lorentzian_Wormhole.svg.png",
+      "alt": "icon",
+      "kind": "page_image",
+      "source_url": "https://en.wikipedia.org/wiki/Portal:Current_events"
+    }
+  ],
+  "collection_warnings": []
+}

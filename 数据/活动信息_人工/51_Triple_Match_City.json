@@ -1,0 +1,568 @@
+{
+  "rank": 51,
+  "name": "Triple Match City",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 Google Play 公开商店页与 AppsHunter 的事件流，按可验证的活动形态整理；未使用自动归类结果。",
+  "source_pages": [
+    {
+      "title": "Google Play - Triple Match City",
+      "url": "https://play.google.com/store/apps/details?hl=en-US&id=com.rc.cityCleaner",
+      "notes": "确认产品是限时找物+三消式收集玩法，核心循环是地图内找物、限时通关、使用提示/放大等辅助。"
+    },
+    {
+      "title": "AppsHunter - Triple Match City App Page",
+      "url": "https://appshunter.io/ios/app/6450110217",
+      "notes": "汇总产品说明与用户反馈，可确认其公开活动长期围绕 challenge / competition 两类轮换。"
+    },
+    {
+      "title": "AppsHunter - Events Forum: Triple Match City",
+      "url": "https://appshunter.io/ios/app/6450110217/events",
+      "notes": "能看到连续多期节日主题活动，如 Jazz Challenge、Rainy Challenge、Cleaning Challenge、Festival Challenge、Ice Cream 等。"
+    },
+    {
+      "title": "AppsHunter - Winter Challenge",
+      "url": "https://play.google.com/store/apps/eventdetails/4830009941040255087",
+      "notes": "Google Play 活动页，说明活动机制是进入关卡后收集季节物件并解锁限定奖励。"
+    },
+    {
+      "title": "AppsHunter - Ice Cream",
+      "url": "https://appshunter.io/events/6746551412",
+      "notes": "搜索摘要显示该活动被标注为 Competition，说明除收集挑战外还有竞速/排名型活动。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "seasonal_collection_challenge",
+      "display_name": "季节收集挑战 / Seasonal Collection Challenge",
+      "description": "最稳定出现的活动形态。玩家在常规地图里额外收集节日主题物件，活动通常持续约 7 天，达成收集进度后领取奖励。",
+      "examples": [
+        "Winter Challenge",
+        "Rainy Challenge",
+        "St Patrick's Challenge",
+        "Cleaning Challenge",
+        "Festival Challenge",
+        "Happy Hour Challenge",
+        "Tropical Challenge",
+        "Easter Egg Hunt!"
+      ],
+      "market_research_notes": "活动并不改核心玩法，而是在既有找物地图中增加“活动掉落物”目标，是典型的低开发成本、高频主题换皮 live ops。",
+      "images": [
+        {
+          "url": "https://scontent-hkg1-2.xx.fbcdn.net/v/t51.71878-15/590426602_1607207490507923_8116227778044936294_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a27664&_nc_ohc=3etcrSdYVaAQ7kNvwEoL7f2&_nc_oc=AdohNA7fpNpfaOOhDibBulJ-MteDIP4S5-A8okxttQgSY9d29CcTkQy0x0W4oYZ-XWg&_nc_zt=23&_nc_ht=scontent-hkg1-2.xx&_nc_gid=t0Mt0oczfLpSoXl0dgHoAw&_nc_ss=7c20f&oh=00_Af4BTYh2UV6Dln3AdBAtIUjbxHrMCnAy4KuBLwGdBML2TA&oe=6A09EE8D",
+          "caption": "Triple Match City! ❄️ Beat levels ...",
+          "source_url": "https://www.facebook.com/61557168444864/videos/-the-christmas-challenge-has-begun-in-triple-match-city-%EF%B8%8F-beat-levels-collect-fe/1617182582991610/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=triple+match+city+seasonal+collection+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "triple match city seasonal collection challenge",
+          "width": 168,
+          "height": 299,
+          "aspect_ratio": 0.5619,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:33:55.906804+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了Christmas Challenge字样，属于活动标题宣传图，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:35.695781+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/LcJuwTlbcMXy7KF6z8meK4dqx-5HukmGAPyTY8ZIwh51cAqYZ-tlvgEiW7q4LTc7Rg=w526-h296-rw",
+          "caption": "Triple Match City – Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.rc.cityCleaner&hl=en_SG",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=triple+match+city+seasonal+collection+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "triple match city seasonal collection challenge",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:33:55.906804+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "图片展示了在常规地图中收集特定主题物件（南瓜）的玩法，符合季节收集挑战的描述。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:35.695781+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/dF_3jYjmpbGvKDi0LzWfjwecqir9z2xQJ_8t5T8f86j0PPKLE-uLrrDX5fXxWIRb_w=w526-h296-rw",
+          "caption": "Triple Match City – Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.rc.cityCleaner&hl=en_SG",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=triple+match+city+seasonal+collection+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "triple match city seasonal collection challenge",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:33:55.906804+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "图片展示了在地图中搜索并收集特定物件的实际玩法界面，属于活动内截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:35.695781+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/C_S77ujAV1c/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCKxpbxR35GV7WDwI_h3_IQxG-b4g",
+          "caption": "Triple Match City - Levels 1-20 - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=C_S77ujAV1c",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=triple+match+city+seasonal+collection+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "triple match city seasonal collection challenge",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:33:55.906804+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "虽然是本游戏的实际关卡截图，但属于常规关卡（Level 20），无法确定与特定季节收集活动有关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:35.695781+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/u-SP4e8uOBk/maxresdefault.jpg",
+          "caption": "Triple Match City Level 323 (Extra Hard ...",
+          "source_url": "https://www.youtube.com/watch?v=u-SP4e8uOBk",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=triple+match+city+seasonal+collection+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "triple match city seasonal collection challenge",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:33:55.906804+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示的是本游戏的高等级常规关卡截图，未体现明显的季节性收集挑战活动元素。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:35.695781+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "holiday_event",
+      "display_name": "节日主题活动 / Holiday Event",
+      "description": "以节日或季节包装同一套收集机制，奖励和 UI 文案随主题变化，强调短周期回流。",
+      "examples": [
+        "Easter Egg Hunt!",
+        "St Patrick's Challenge",
+        "Winter Challenge"
+      ],
+      "market_research_notes": "和上面的 collection challenge 机制重合，但从市场角度值得单列，因为该游戏公开活动几乎都依靠节日主题驱动点击和回流。",
+      "images": [
+        {
+          "url": "https://scontent-hkg1-2.xx.fbcdn.net/v/t51.71878-15/590426602_1607207490507923_8116227778044936294_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a27664&_nc_ohc=3etcrSdYVaAQ7kNvwEoL7f2&_nc_oc=AdohNA7fpNpfaOOhDibBulJ-MteDIP4S5-A8okxttQgSY9d29CcTkQy0x0W4oYZ-XWg&_nc_zt=23&_nc_ht=scontent-hkg1-2.xx&_nc_gid=NedrRyCKxxhh6gR6rr4Cww&_nc_ss=7c20f&oh=00_Af6AXpudFJPXpNvX0M_aUF6Vsq5tbczT62Or0fJw8cQiEQ&oe=6A09EE8D",
+          "caption": "Triple Match City! ❄️ Beat levels ...",
+          "source_url": "https://www.facebook.com/61557168444864/videos/-the-christmas-challenge-has-begun-in-triple-match-city-%EF%B8%8F-beat-levels-collect-fe/1617182582991610/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=triple+match+city+holiday+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "triple match city holiday event",
+          "width": 168,
+          "height": 299,
+          "aspect_ratio": 0.5619,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:34:48.231341+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片包含文字'Christmas Challenge'且来源确认为Triple Match City，属于节庆活动的宣传/标题图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:40.430917+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/2WudoItwXC4APE_YgYd0v1sZNj4Uw2XuvQ0jWlsoCHy1RFSdY7iX04LgqLpOQTBA7J17hcEHRgEmiCTNyJ6M",
+          "caption": "Christmas Triple Match: Reward - Apps ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.match.three.user.christmas.shelf",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=triple+match+city+holiday+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "triple match city holiday event",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:34:48.231341+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该图虽然带有圣诞元素，但根据URL和内容判断是该游戏的圣诞版本App图标或应用商店图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:40.430917+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/bZKQBoNWlVg/maxresdefault.jpg",
+          "caption": "casual (Match 3D) games ...",
+          "source_url": "https://www.youtube.com/watch?v=bZKQBoNWlVg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=triple+match+city+holiday+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "triple match city holiday event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:34:48.231341+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图中展示了Triple Match City的游戏Logo和通用宣传内容，无法确定属于特定的节日活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:40.430917+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/QGELibco3Rc/mqdefault.jpg",
+          "caption": "Match Holiday!™ – 3D Puzzles - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.LuckyPlanetGames.MatchHoliday",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=triple+match+city+holiday+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "triple match city holiday event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:34:48.231341+00:00",
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.98,
+            "reason": "图片展示的是另一款游戏'Match Holiday!'，与本游戏Triple Match City无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:40.430917+00:00"
+          }
+        },
+        {
+          "url": "https://platform.cagesideseats.com/wp-content/uploads/sites/54/2025/12/BaltHT.jpg?quality=90&strip=all&crop=7.8125,0,84.375,100",
+          "caption": "WWE kicks off Holiday Tour with triple ...",
+          "source_url": "https://www.cagesideseats.com/wwe/406212/wwe-kicks-off-holiday-tour-triple-main-event",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=triple+match+city+holiday+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "triple match city holiday event",
+          "width": 274,
+          "height": 184,
+          "aspect_ratio": 1.4891,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:34:48.231341+00:00",
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 1.0,
+            "reason": "图片内容为WWE体育赛事宣传图，与移动游戏完全无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:40.430917+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "timed_competition",
+      "display_name": "限时竞赛 / Competition",
+      "description": "除纯收集挑战外，公开事件流里还能看到被单独标注为 Competition 的活动，通常强调在限定时间内冲刺分数或收集量。",
+      "examples": [
+        "Ice Cream"
+      ],
+      "market_research_notes": "说明产品不只做单人进度条，也在尝试排行榜/竞速层，把同一关卡消耗转成更强的资源竞争。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/9VLUCIT5P1vjQHkkX7UBQrIBxNQ5NeZVHNZYtG8RG8CWWc9ZL97Q6G4PsyqAkW77Kw",
+          "caption": "Triple Match City – Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.rc.cityCleaner&hl=en_SG",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=triple+match+city+timed+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "triple match city timed competition",
+          "width": 166,
+          "height": 296,
+          "aspect_ratio": 0.5608,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:35:20.977116+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该图为游戏的App图标或通用品牌素材，无法关联到具体的限时竞赛活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:44.064623+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/9VLUCIT5P1vjQHkkX7UBQrIBxNQ5NeZVHNZYtG8RG8CWWc9ZL97Q6G4PsyqAkW77Kw=w240-h480-rw",
+          "caption": "Triple Match City – Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.rc.cityCleaner&hl=en_SG",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=triple+match+city+timed+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "triple match city timed competition",
+          "width": 240,
+          "height": 480,
+          "aspect_ratio": 0.5,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:35:20.977116+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "同图1，为缩略版的App图标或品牌图，属于游戏通用素材。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:44.064623+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/MDCuINkJLWM8ZZWIZaOSws5lNKjV3HUIO5Dq-r1v6qwIj5kSbuYpnDyXL-rRLTRq0dlf=w526-h296-rw",
+          "caption": "Triple Match City – Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.rc.cityCleaner&hl=en_SG",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=triple+match+city+timed+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "triple match city timed competition",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:35:20.977116+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "展示了游戏基础的寻物玩法界面，但未体现限时、排行榜或竞赛相关元素。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:44.064623+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/qM65DuQ9NoQjZNkWYS4qHEjUoXmZM27666WGJVIglEHkfe_2bBLHYRuW7D4eqcD87Q=w526-h296-rw",
+          "caption": "Triple Match City – Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.rc.cityCleaner&hl=en_SG",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=triple+match+city+timed+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "triple match city timed competition",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:35:20.977116+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "展示了游戏商店宣传图和基础玩法，未出现竞赛活动的特定UI或描述。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:44.064623+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/LcJuwTlbcMXy7KF6z8meK4dqx-5HukmGAPyTY8ZIwh51cAqYZ-tlvgEiW7q4LTc7Rg=w526-h296-rw",
+          "caption": "Triple Match City – Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.rc.cityCleaner&hl=en_SG",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=triple+match+city+timed+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "triple match city timed competition",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:35:20.977116+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "展示了收集南瓜的玩法界面，虽可能属于某种收集活动，但图中无竞赛、排名或倒计时等确认限时竞赛的直接证据。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:44.064623+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "core_level_progression",
+      "display_name": "常规关卡推进 / Core Time-Limited Hidden Object Levels",
+      "description": "虽然不是限时活动，但它是所有活动的承载底盘：玩家在大地图中找出散落物件并三连消除，受时间限制，必要时用提示和缩放辅助。",
+      "examples": [
+        "base map progression"
+      ],
+      "market_research_notes": "这个底盘决定了活动只能优先做“额外收集目标”“节日换皮”“短期竞赛”，不太像 SLG 那样能承载复杂多层系统活动。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/C_S77ujAV1c/maxresdefault.jpg",
+          "caption": "Triple Match City - Levels 1-20 - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=C_S77ujAV1c",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=triple+match+city+core+level+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "triple match city core level progression",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:35:41.899960+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了第20关的实际玩法界面，包含顶部收集目标、倒计时和下方的物品栏。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:49.443974+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/kyLFtKLzLQ4/hqdefault.jpg",
+          "caption": "Triple Match City Game iOS Gameplay ...",
+          "source_url": "https://www.youtube.com/watch?v=kyLFtKLzLQ4",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=triple+match+city+core+level+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "triple match city core level progression",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:35:41.899960+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "游戏标题Logo海报，属于通用品牌宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:49.443974+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/6y-nKHejtC0/maxresdefault.jpg",
+          "caption": "Triple Match City - Levels 21-30 - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=6y-nKHejtC0",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=triple+match+city+core+level+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "triple match city core level progression",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:35:41.899960+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了第28关的实际玩法界面，包含城市大地图寻物、关卡进度及物品栏。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:49.443974+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/UCuY0Uihe8o/maxresdefault.jpg",
+          "caption": "Triple Match City - Levels 41-50 - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=UCuY0Uihe8o",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=triple+match+city+core+level+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "triple match city core level progression",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:35:41.899960+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了第50关的实际玩法界面，呈现了动物主题的寻物场景和核心UI。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:49.443974+00:00"
+          }
+        },
+        {
+          "url": "https://img.utdstc.com/icon/8cc/dea/8ccdeaac08075e348122e6253342d59f2cc450eaa8cc4c57a0cbcbf0fd0babfe:600",
+          "caption": "Triple Match City for Android ...",
+          "source_url": "https://triple-match-city.en.uptodown.com/android",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=triple+match+city+core+level+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "triple match city core level progression",
+          "width": 168,
+          "height": 299,
+          "aspect_ratio": 0.5619,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:35:41.899960+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该游戏的App图标或商店展示位素材，属于通用品牌图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:49.443974+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "目前能稳定公开验证到的活动类型主要是季节收集挑战和少量 competition。没有找到官方 wiki、FAQ 或更深的活动系统总览，因此这份手工稿重点是把真实可见的活动轮换模式写清楚，而不是硬凑出更多类别。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T08:35:41.901399+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:35:49.443974+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

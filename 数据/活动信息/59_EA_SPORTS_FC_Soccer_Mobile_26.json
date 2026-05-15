@@ -1,0 +1,1475 @@
+{
+  "rank": 59,
+  "name": "EA SPORTS FC Soccer Mobile 26",
+  "source_confidence": "medium",
+  "source_notes": null,
+  "collected_at": "2026-05-12T04:04:16.878Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "FIFA Mobile Wiki - Events",
+      "source_type": "fandom",
+      "source_url": "https://fifa-mobile.fandom.com/wiki/Events",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "source_title": "EA SPORTS FC Mobile Official",
+      "source_type": "official",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile",
+      "fetched_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile",
+      "status": 200,
+      "page_title": "EA SPORTS FC™ Mobile",
+      "meta_description": "Build your Ultimate Team and challenge friends in a EA SPORTS FC™ Mobile football game for iOS and Android! Get it on Apple App Store or Google Play.",
+      "relevant_text_blocks": [
+        "EA SPORTS FC™ Mobile Experience the most true-to-life mobile experience of The World’s Game featuring football’s biggest stars and teams. With 19,000+ players from 690 teams, across 35 leagues, The Club is Yours, Anywhere.",
+        "Available on Features EA SPORTS FC™ MOBILE 26 UPDATE The EA SPORTS FC™ Mobile 26 Update is packed with features inspired by the fans, delivering an improved, authentic, and rewarding football experience for all players.",
+        "AUTHENTIC GAMEPLAY IMPROVEMENTS",
+        "Driven by your feedback, defenders react more intelligently. Passing, crossing, and headers are more balanced, and seven new formations boost tactical options.",
+        "COMPETE IN HEAD TO HEAD PVP",
+        "Compete head-to-head in PvP and put your skills to the test. Climb the ranks in Division Rivals, with an improved ranking system and enhanced matchmaking, battling for a spot on the weekly leaderboards and earning rewards along the way.",
+        "BUILD YOUR ULTIMATE TEAM™",
+        "Play with football's biggest stars like Jude Bellingham, Jamal Musiala, Virgil van Dijk, and Cole Palmer or legendary ICONs like Zlatan Ibrahimović, Xabi Alonso, and Marcelo. With 19,000+ players, from 690 teams, across 35 leagues, FC Mobile offers unrivaled authenticity in the mobile game space, with the largest catalogue of football competitions, teams, and players from around the world.",
+        "LEVEL UP YOUR SKILLS",
+        "Earn rewards in Daily Training to sharpen your skills by completing football-themed Quests and unlocking Achievements.",
+        "News Article April 17, 2026 EA SPORTS FC™ Mobile - UNLOCK APPLE TV OFFER*. WATCH MLS LIVE IN FC MOBILE EA SPORTS FC™ MOBILE celebrates the 2026 season of MLS with a free 1-month trial of Apple TV and MLS matches broadcasted LIVE in FCM TV.",
+        "News Article April 15, 2026 EA SPORTS FC™ Mobile - PlayStyles Limited Beta PlayStyles are coming to FC Mobile! Be among the first to experience PlayStyles with the Limited Beta.",
+        "News Article November 20, 2025 EA SPORTS FC™ Mobile - GLORIOUS ERAS EVENT GUIDE - Relive Legendary Club Eras Experience iconic moments from Real Madrid, Liverpool, Bayern München & Juventus in FC Mobile’s Glorious Eras event until Dec 18!",
+        "News Article September 24, 2025 EA SPORTS FC™ Mobile - Team Badge Deep Dive Make your squad stand out with the all-new Team Badge feature! Learn everything you need to know about Badges in this Deep Dive!",
+        "News Article September 12, 2025 EA SPORTS FC™ Mobile - WATCH 3 MLS GAMES LIVE IN FC MOBILE - EA SPORTS Official Site Catch 3 MLS games LIVE in EA SPORTS FC Mobile! LAFC vs Real Salt Lake on Sept 17, plus a Sept 27 doubleheader. Watch live on FCM TV and earn rewards.",
+        "News Article September 12, 2025 EA SPORTS FC 25 - 2025 MLS Season Pass Offer - EA SPORTS Official Site EA SPORTS FC™ 25 players can get the 2025 MLS Season Pass for free*.",
+        "News Article August 19, 2025 EA SPORTS FC™ Mobile - Limited Beta Join EA SPORTS FC™ Limited Beta from August 19th to September 11th and explore new features and improvements!",
+        "News Article August 1, 2025 FC MOBILE | WATCH FC BAYERN MÜNCHEN VS. TOTTENHAM HOTSPUR LIVE Get ready for an exciting showdown as FC Bayern München hosts Tottenham Hotspur in the 2025 Telekom Cup. Watch live in FC Mobile!"
+      ],
+      "inferred_event_types": [
+        "battle_pass",
+        "collection_album",
+        "tournament_competition",
+        "team_alliance",
+        "seasonal_festival",
+        "pvp_war",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "https://drop-assets.ea.com/images/3QNNZ0JxE7JSjC44wXJ8F2/a5d728a2150b551a37a75dfcad4fe8cf/Untitled-1.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.303",
+          "alt": "og:image",
+          "kind": "preview",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:23.262714+00:00",
+            "load_time_ms": 2038,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1000,
+            "natural_height": 563,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/3QNNZ0JxE7JSjC44wXJ8F2/a5d728a2150b551a37a75dfcad4fe8cf/Untitled-1.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.303"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/k9lknJ17V2E/maxresdefault.jpg",
+          "alt": "",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:25.992203+00:00",
+            "load_time_ms": 2725,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/k9lknJ17V2E/maxresdefault.jpg"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/4WYTXOaxZFBq9sLDeCyhjZ/213720d986f469ddf19b3484d7149997/FCM26_Website_KickOff_Jude_1920x1080.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+          "alt": "Digital rendition of Jude Bellingham on a football field in the FC Mobile. A player item card, match score and controls are displayed on screen.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:28.653099+00:00",
+            "load_time_ms": 1433,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/4WYTXOaxZFBq9sLDeCyhjZ/213720d986f469ddf19b3484d7149997/FCM26_Website_KickOff_Jude_1920x1080.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/CEl1XVmDnYsu80LdVfQQO/098bf8e6edcf8d36d1389e21ad970d6a/FCM26_Website_Gameplay_Improvements_1920x1080.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+          "alt": "Screenshot of an ongoing match in the FC Mobile game, with red and blue players on the field and user interface controls visible.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:28.765754+00:00",
+            "load_time_ms": 106,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/CEl1XVmDnYsu80LdVfQQO/098bf8e6edcf8d36d1389e21ad970d6a/FCM26_Website_Gameplay_Improvements_1920x1080.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/0kL1ePgMYlbEPKHvJycyy/9cf12ed917de09fc01fbb5db1f9033af/FCM26_Website_Compete_PVP_1920x1080.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+          "alt": "A PvP matching screen in FC Mobile showing two player avatars standing in an arena and countdown timer.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:28.824482+00:00",
+            "load_time_ms": 54,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/0kL1ePgMYlbEPKHvJycyy/9cf12ed917de09fc01fbb5db1f9033af/FCM26_Website_Compete_PVP_1920x1080.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/6SolLixI8WNmqFoyVlRGIZ/c681a43c68fcb42a8f9af5c26b5712b6/FCM26_Website_Ultimate_Team_1920x1080.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+          "alt": "Player item shields in FC Mobile are arranged in a tactical view of the football pitch.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:28.890598+00:00",
+            "load_time_ms": 61,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/6SolLixI8WNmqFoyVlRGIZ/c681a43c68fcb42a8f9af5c26b5712b6/FCM26_Website_Ultimate_Team_1920x1080.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/4yFFYNFFKAsnTgYl3YS26O/1e30c512eb47f238c8df2879c6d34641/FCM26_Website_Level_Up_1920x1080.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+          "alt": "An in-game view of a football player in a practice session, aiming a kick towards the goal.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:29.007635+00:00",
+            "load_time_ms": 112,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/4yFFYNFFKAsnTgYl3YS26O/1e30c512eb47f238c8df2879c6d34641/FCM26_Website_Level_Up_1920x1080.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/2CsoW5TeKrDs4NOu89pWm9/1a5d8a5cb8785d1daa6bc2d58c996a99/MLS_APPLETV_FCM_16x9.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+          "alt": "Four soccer players in MLS kits on a orange-to-blue gradient background, with a central player kicking a ball; MLS and Apple TV logos appear in the bottom right. EA FC Mobile appears in the bottom left.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:29.069835+00:00",
+            "load_time_ms": 57,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/2CsoW5TeKrDs4NOu89pWm9/1a5d8a5cb8785d1daa6bc2d58c996a99/MLS_APPLETV_FCM_16x9.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/5h89nFMKeZJ5Yu9G5Ly6MT/a03d02383b11e93094bca248b63242e2/EA_FCM_Playstyles-Teaser_Thumbnail-16x9.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+          "alt": "EA Sports FC Mobile graphic reading “PlayStyles Beta” with floating hexagonal icons representing player abilities on a green and black gradient background.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:29.121440+00:00",
+            "load_time_ms": 47,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/5h89nFMKeZJ5Yu9G5Ly6MT/a03d02383b11e93094bca248b63242e2/EA_FCM_Playstyles-Teaser_Thumbnail-16x9.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/2JnG2W7ahU2ELTsNWGKGqB/76971649e91d9286ccb59211de0b4145/GE26_TeaserBanners_16x9.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+          "alt": "Text overlay featuring \"FC MOBILE\" and \"GLORIOUS ERAS\" with a shimmering, golden background and stylized design elements.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:29.176983+00:00",
+            "load_time_ms": 50,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/2JnG2W7ahU2ELTsNWGKGqB/76971649e91d9286ccb59211de0b4145/GE26_TeaserBanners_16x9.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/6JhClvXpp0muSwB2EDPqC3/8a1dfdd430ead31a29e19182b6d94fea/fcm-patch-notes-2026-thumbnail.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+          "alt": "Two football players of different teams entering the pitch surrounded by an energized crowd and security persons. The text reads \"26 Update\".",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:29.247134+00:00",
+            "load_time_ms": 66,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/6JhClvXpp0muSwB2EDPqC3/8a1dfdd430ead31a29e19182b6d94fea/fcm-patch-notes-2026-thumbnail.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5"
+          }
+        }
+      ]
+    }
+  ],
+  "event_detail_pages": [
+    {
+      "source_title": "Game Updates January 13, 2025 EA SPORTS FC™ MOBILE - Leagues Deep Dive",
+      "source_type": "event_detail",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile/news/leagues-deep-dive-2025",
+      "fetched_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile/news/leagues-deep-dive-2025",
+      "status": 200,
+      "page_title": "EA SPORTS FC™ MOBILE - Leagues Deep Dive",
+      "meta_description": "Learn all about the new Leagues in EA SPORTS FC™ Mobile!",
+      "relevant_text_blocks": [
+        "Experience bigger and better Leagues with the Leagues Update! Enjoy new Features like: Divisions, collaborative Quests, League Seasons, new Rewards, Passes, fan-based tags, and an increased League capacity of up to 100 members!",
+        "In this Deep Dive we’ll go over all the different aspects and intricacies of the new Leagues, let’s dive right in!",
+        "Introducing a new way to showcase your League’s prestige and earn Rewards with Divisions! Divisions are a Rank that is earned by your League through promotion and relegation during League Seasons based on Grouped Leaderboards.",
+        "Collaborate with your League to earn Season Points by completing Quests, competing in Tournaments, and through Division Rivals. Battle for the top Leaderboard positions to get promoted and earn higher Rewards!",
+        "The new Leagues include two Leaderboards: Group Leaderboards and Global Leaderboards.",
+        "Group Leaderboards are a group of 20 Leagues in the same Division. They battle for promotion and Rewards during each League Season.",
+        "Global Leaderboards show Leagues that have earned the most amount of Season Points during a League Season.",
+        "Season Points are earned by completing Quests, competing in Tournaments, and through individual contributions from playing Division Rivals. They are vital to progress on the Leaderboards.",
+        "Grouped Leaderboards",
+        "Leagues can get promoted and relegated during each League Season on the Grouped Leaderboards based on their Leaderboard position. The position is determined by the amount of Season Points their League has earned at the end of each week.",
+        "The top 3 Leagues get promoted to the next Division.",
+        "The bottom 3 Leagues get relegated to the lower Division.",
+        "Leagues that aren’t in the top or bottom 3 will retain their Division.",
+        "Rewards are earned on the League’s Division and Leaderboard position. The higher your League’s Division and Leaderboard position, the better the Rewards!",
+        "While you battle other Leagues for promotion and Rewards by earning Season Points, you are also placed on the Global Leaderboards. Top the Leaderboards with your League to showcase your League’s prestige!",
+        "The Global Leaderboards are reset at the end of each Season, giving your League a new opportunity to aim for the top!",
+        "As a League you collaborate to complete Quests to earn Season Points and League Tokens. Quests can include many different tasks like Scoring Goals, Playing Division Rivals Matches, Acquiring Store Packs, and much more.",
+        "Each Quest can have different tiers, completing them will earn your League Season Points as well as League Tokens for individual members. Your individual contribution for completing those Quests will earn you Activity Points that help you earn additional League Tokens from Bonus Rewards."
+      ],
+      "inferred_event_types": [
+        "battle_pass",
+        "collection_album",
+        "tournament_competition",
+        "seasonal_festival",
+        "pvp_war",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "https://drop-assets.ea.com/images/23On0epc79CWDZt1jDjesJ/dd3655d11b0c18adb7e5e3205d50dbac/fcm-leagues-deep-dive-featured-image.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+          "alt": "og:image",
+          "kind": "preview",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:30.383240+00:00",
+            "load_time_ms": 1130,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 900,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/23On0epc79CWDZt1jDjesJ/dd3655d11b0c18adb7e5e3205d50dbac/fcm-leagues-deep-dive-featured-image.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/52bcuNuiYwIjfNCmyMwrly/641fb183fa3209b27782c0faa7525c0f/the-5-different-divisions.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "In-game screenshot showing 5 tiers of player ranks and corresponding gem rewards.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:30.436604+00:00",
+            "load_time_ms": 46,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/52bcuNuiYwIjfNCmyMwrly/641fb183fa3209b27782c0faa7525c0f/the-5-different-divisions.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/7cy8jTt6MvTVXI6pmbT6ms/d5a1cf97c1f98686aa7c883118284d23/grouped-leaderboard.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "A leaderboard showing various league teams and corresponding gem rewards.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:30.546323+00:00",
+            "load_time_ms": 104,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/7cy8jTt6MvTVXI6pmbT6ms/d5a1cf97c1f98686aa7c883118284d23/grouped-leaderboard.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/1wf3TE8UnNE5uWhWRJY3Mh/3b3adffc12b92cdf041ee2dfa2493cd3/global-leaderboards-1.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "A global leaderboard showing various league teams and corresponding gem rewards.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:31.680503+00:00",
+            "load_time_ms": 1040,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/1wf3TE8UnNE5uWhWRJY3Mh/3b3adffc12b92cdf041ee2dfa2493cd3/global-leaderboards-1.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/2wOGRGxBihfNpO5Gz8ea8G/9197338a1a890ca4caca031a6233ec9c/quest.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "In-game screenshot showing various quest challenges, progress and buttons to go to the quest or claim rewards.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:32.709285+00:00",
+            "load_time_ms": 1024,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/2wOGRGxBihfNpO5Gz8ea8G/9197338a1a890ca4caca031a6233ec9c/quest.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/6RHkXEwzRJwuAsXDhRPg53/4c527808a5da505decc0d03c4047670a/a-tournament-in-progress.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "In-game screenshot showing league players and their corresponding league tokens in a tournament.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:33.529167+00:00",
+            "load_time_ms": 815,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/6RHkXEwzRJwuAsXDhRPg53/4c527808a5da505decc0d03c4047670a/a-tournament-in-progress.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/5eYFUw2B13h5q3DEvotkdi/da626739fb78526d3516f651b94ca325/how-many-rewards-you-ll-receive.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "In-game screenshot showing a league season summary indicating a player's achieved ranks.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:33.578989+00:00",
+            "load_time_ms": 44,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/5eYFUw2B13h5q3DEvotkdi/da626739fb78526d3516f651b94ca325/how-many-rewards-you-ll-receive.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/2YWrqmHgXD1KtFkDFCgzMH/88106b3f67145613f76422d5cfcb7383/image-104.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "In-game screenshot of a seasons rewards screen, indicating ranks and their corresponding rewards.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:35.412313+00:00",
+            "load_time_ms": 1828,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/2YWrqmHgXD1KtFkDFCgzMH/88106b3f67145613f76422d5cfcb7383/image-104.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/4u9LITjt1Ml0K4xqyNUw4E/3fffd2a8f118a4c6d64116caf9e5cf50/bonus-rewards.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "In-game screenshot of the Bonus Rewards screen showing rank benchmarks and corresponding bonus rewards in a list form.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:36.313240+00:00",
+            "load_time_ms": 894,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/4u9LITjt1Ml0K4xqyNUw4E/3fffd2a8f118a4c6d64116caf9e5cf50/bonus-rewards.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/31jO5UEzm2YiWQIRH35FNm/e07221da5b917b6094d05a71428ee782/league-home-achievements.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "Achievements screen showing various trophies and the date each achievement was unlocked. A side panel shows the summary of achievements.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:36.368932+00:00",
+            "load_time_ms": 51,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/31jO5UEzm2YiWQIRH35FNm/e07221da5b917b6094d05a71428ee782/league-home-achievements.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/2WsbYhvBaDgQ9sYgk2TPUw/40ee743fa50c6a2c60d64d9fd1ea79c5/show-a-tournament-in-progress-2.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "FC Mobile's tournament mode sign-up screen showing icons of various members signed-up in a league.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:37.402789+00:00",
+            "load_time_ms": 1027,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/2WsbYhvBaDgQ9sYgk2TPUw/40ee743fa50c6a2c60d64d9fd1ea79c5/show-a-tournament-in-progress-2.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        }
+      ]
+    },
+    {
+      "source_title": "Game Updates January 8, 2025 EA SPORTS FC™ MOBILE - New Leagues Update 2025 - Patch Notes",
+      "source_type": "event_detail",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile/news/leagues-update-2025",
+      "fetched_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile/news/leagues-update-2025",
+      "status": 200,
+      "page_title": "EA SPORTS FC™ MOBILE - New Leagues Update 2025 - Patch Notes",
+      "meta_description": "Check out the new Leagues, Gameplay Updates and more in FC Mobile!",
+      "relevant_text_blocks": [
+        "EA SPORTS FC Mobile's Leagues Update is here! Packed with League Updates and key gameplay enhancements to elevate your game experience.",
+        "The Leagues Update increases League capacity to 100 members, improving community interaction and collaboration. Dive into Seasonal Quests and collaborate with your League members to earn Rewards. Scale the Leaderboards as you compete in League vs. League Tournaments, ensuring that every match and every victory brings tangible benefits. Explore new gameplay improvements to refine your control over passing and defending.",
+        "Get ready for the Updated Leagues, now expanded to accommodate up to 100 members, compete alongside your teammates in the League, achieve together, and earn the shared rewards! To make way for these exciting updates, all existing leagues will be reset as part of the Leagues Update.",
+        "Collaborative Quests: Join forces in dynamic, season-long Quests that harness the power of teamwork. Achieving these goals together brings rewards and elevates your League’s rank and level, directly impacting your standing on the leaderboards.",
+        "Seasonal Rewards: Secure Seasonal rewards along with the rewards based on your contributions to the League. These rewards recognize both individual effort and League-wide achievements, and underscore your League’s power and skill level.",
+        "Leaderboards and Tournaments: Engage in updated Tournaments that influence your position on Global and Group Leaderboards. Advance through the Ranks to gain recognition and earn Rewards that signify your League’s standing.",
+        "League Achievements: Boost your league's prestige with fresh achievements that highlight your team's collective feats. These accolades are perfect for showing your league's commitment and success across various challenges.",
+        "Enhanced Management Tools: Gain control with improved tools designed to streamline league management. These tools simplify managing memberships, customizing settings, and overseeing the league.",
+        "Gameplay Enhancements",
+        "Pass Mastery : Enjoy more accurate and reliable Ground and Ground Through Passes. Now you can better maneuver the ball into open spaces or execute precise passes in crowded areas.",
+        "Dynamic Defending : Defence has been upgraded to reward skill, accuracy, and timing. Successful Stand Tackles may now cause the Opponent Dribbler to stumble or even fall, greatly increasing your chances of retrieving the ball.",
+        "Improved End of Half Decision : Gameplay now continues more seamlessly around half-time, preventing abrupt stops and ensuring a fair end to each half.",
+        "H2H Balancing: We completely removed any kind of Skill Move Stun effect in H2H Gameplay, ensuring a fair battle between Dribbler and Defender. We've also balanced some Skill Moves like Heel to Heel or Open Fake Shot to be more in line with the Balance of Gameplay.",
+        "Club Challenge Icons: Corrected a misrepresentation by swapping the icons for Top Scorer and Most Assists in the Club Challenge winner screen.",
+        "Club Challenge Winning Page: Fixed a visual issue where UI remained visible during the screen wipe transition.",
+        "The League Update introduces new anti-cheat measures for Versus Attack (VSA) matches. While our efforts to prevent cheating are ongoing, we are committed to improving the state of fair play in FC Mobile so please expect further improvements in future updates.",
+        "As we roll into the new year, we're excited for you to experience all the updates in EA SPORTS FC™ Mobile. This update is about bringing everyone closer in the spirit of teamwork. With up to 100 members, your League can achieve even more and earn more rewards! Challenge yourselves in the updated Leagues feature, scale the Leaderboards, and enjoy a more precise gameplay experience.",
+        "– The FC Mobile Team"
+      ],
+      "inferred_event_types": [
+        "battle_pass",
+        "collection_album",
+        "tournament_competition",
+        "team_alliance",
+        "seasonal_festival",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://drop-assets.ea.com/images/3bTkbOKAsoCAUuo1IWuWhv/105c8009e5ddc865148f5cf9067cbf4f/fcm-gr5-release-notes-featured-image.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+          "alt": "og:image",
+          "kind": "preview",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:37.456652+00:00",
+            "load_time_ms": 49,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 900,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/3bTkbOKAsoCAUuo1IWuWhv/105c8009e5ddc865148f5cf9067cbf4f/fcm-gr5-release-notes-featured-image.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5"
+          }
+        }
+      ]
+    },
+    {
+      "source_title": "Game Updates January 3, 2025 EA SPORTS FC™ MOBILE - Leagues Update - Gameplay Improvements 2025",
+      "source_type": "event_detail",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile/news/gameplay-improvements-2025",
+      "fetched_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile/news/gameplay-improvements-2025",
+      "status": 200,
+      "page_title": "EA SPORTS FC™ MOBILE - Leagues Update - Gameplay Improvements 2025",
+      "meta_description": "Check out the new Gameplay Improvements in EA SPORTS FC™ Mobile!",
+      "relevant_text_blocks": [
+        "## Pass Improvements In this new update, we’ve taken the passing system to another level, building on initial improvements from earlier this year to give you more control and fluidity in your build-up play. Each pass feels sharper and more dependable.",
+        "Ground Through Passes: These now better assess space and positioning of your teammates, letting you guide them into open areas while preserving their forward momentum or delivering the ball directly to their feet in tight situations.",
+        "- Regular Ground Passes: These are now faster and more reliable, with smarter avoidance of defenders and greater precision in reaching your teammate. ## Defending Improvements Defending is an art that demands skill, precision, and great timing, and we’re committed to rewarding you for mastering it. We’ve made improvements to Stand Tackles and chase down defending:",
+        "- Defending While Chasing: We improved your ability to defend while chasing down an opponent from behind. Previously, you might have been stuck behind the dribbler, but now you’ll be able to battle and challenge for the ball more effectively, putting you back in control of the situation. ## Skill Move Balancing Skill move balancing in Head-to-Head matches has been fine-tuned based on community feedback. This means that the exit speed of certain skill moves will be adjusted to better balance gameplay. The following skill moves will be affected by this adjustment:",
+        "We also removed the Skill Move Stun effect in Head to Head, ensuring a fairer battle between the Dribbler and Defender.",
+        "The Leagues Update includes over 100 updated Star Heads. You can now see improved likeness for certain players in the game. Notable players with newly-updated Star Heads:",
+        "Additional Improvements",
+        "Addressed an issue where attacking players would launch a diving header when receiving a Ground Pass."
+      ],
+      "inferred_event_types": [
+        "battle_pass",
+        "tournament_competition",
+        "team_alliance",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://drop-assets.ea.com/images/7kfN28NXv8FyRrtwgqT0XY/7c13d60ef709a0b28446d82fb7c6f5e6/fc-mobile-2025-gameplay-improvements-thumbnail.png?im=AspectCrop=(16,9),xPosition=0.46875,yPosition=0.5044444444444445",
+          "alt": "og:image",
+          "kind": "preview",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:37.515761+00:00",
+            "load_time_ms": 52,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 900,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/7kfN28NXv8FyRrtwgqT0XY/7c13d60ef709a0b28446d82fb7c6f5e6/fc-mobile-2025-gameplay-improvements-thumbnail.png?im=AspectCrop=(16,9),xPosition=0.46875,yPosition=0.5044444444444445"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/xL3T15C9xWiRpeAcluNK6/c83c50edab08074ad82c27c6b82f15ae/fc-mobile-gamplay-improvements-yt.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "A rendition of a football match in FC Mobile, featuring players in action and the text 'Gameplay Improvements' prominently displayed.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:38.369734+00:00",
+            "load_time_ms": 844,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/xL3T15C9xWiRpeAcluNK6/c83c50edab08074ad82c27c6b82f15ae/fc-mobile-gamplay-improvements-yt.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/5KleU4DhZFlWsIMbKFIdVL/9318d44bb0283d772d3d72cde043b602/Leagues_Update_-_Ground_Through_Passing.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "A stylized illustration of a football match, featuring blue and red players in motion, with a football approaching the goal.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:39.271522+00:00",
+            "load_time_ms": 893,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/5KleU4DhZFlWsIMbKFIdVL/9318d44bb0283d772d3d72cde043b602/Leagues_Update_-_Ground_Through_Passing.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/6qRBg9lTpqf1ie8xvLPrnH/46eb9212279f03b5e0fb927f5a10ae4a/Leagues_Update_-_Through_Passing.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "A stylized illustration of a football match featuring teams in red and blue jerseys; players are in various positions on a green field, mid-game action.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:40.740458+00:00",
+            "load_time_ms": 1463,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://drop-assets.ea.com/images/6qRBg9lTpqf1ie8xvLPrnH/46eb9212279f03b5e0fb927f5a10ae4a/Leagues_Update_-_Through_Passing.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/3HsI8l8xCthCzTWwLoqmzt/b9172b22dbcd8391a7a5442f1294432a/Leagues_Update_-_Ground_Passing.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "A stylized illustration of a football match featuring teams in red and blue jerseys with players positioned around the ball near the goal.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:41.426434+00:00",
+            "load_time_ms": 680,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/3HsI8l8xCthCzTWwLoqmzt/b9172b22dbcd8391a7a5442f1294432a/Leagues_Update_-_Ground_Passing.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/29nRYoLLPP8vsKZ7pEqIHK/314597ae4f6b7f099fa316efc646dc80/Leagues_Update_-_Tackle_Fall.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "A stylized illustration of a football match featuring teams in red and blue jerseys; with one blue player falling as the ball rolls nearby.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:43.482660+00:00",
+            "load_time_ms": 2048,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/29nRYoLLPP8vsKZ7pEqIHK/314597ae4f6b7f099fa316efc646dc80/Leagues_Update_-_Tackle_Fall.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/7hhhhV9y2UyatCae755qVE/6f9796eb3944cf80da7eca76cfe63a16/Leagues_Update_-_Chase_Down_Tackle.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "A stylized illustration of a football match with a red figure running with a soccer ball while a blue figure trails behind.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:44.171966+00:00",
+            "load_time_ms": 684,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/7hhhhV9y2UyatCae755qVE/6f9796eb3944cf80da7eca76cfe63a16/Leagues_Update_-_Chase_Down_Tackle.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/4ZvlU5GsmPXCf5KMeqvsMa/ea245c9267920f83875c1a02b34dbcaa/fc-mobile-2025-gameplay-improvements-02.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "Screenshot of FC Mobile showcasing snow on a football pitch during a match.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:45.198829+00:00",
+            "load_time_ms": 1019,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 900,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/4ZvlU5GsmPXCf5KMeqvsMa/ea245c9267920f83875c1a02b34dbcaa/fc-mobile-2025-gameplay-improvements-02.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/5maSe2G5Ltii8xaQhQNoB4/baac801bba323e4a8fe98f1c2c47f6b7/fc-mobile-2025-gameplay-improvements-06.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "Featured star head of Mohamed Salah in FC Mobile.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:46.715736+00:00",
+            "load_time_ms": 1509,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 900,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/5maSe2G5Ltii8xaQhQNoB4/baac801bba323e4a8fe98f1c2c47f6b7/fc-mobile-2025-gameplay-improvements-06.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/39AjF3npviIdwpiRdbM2LQ/1a5777770b937b94329b2527bc2ae31b/fc-mobile-2025-gameplay-improvements-11.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "Featured star head of Carlos Soler in FC Mobile.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:48.116542+00:00",
+            "load_time_ms": 1396,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 900,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/39AjF3npviIdwpiRdbM2LQ/1a5777770b937b94329b2527bc2ae31b/fc-mobile-2025-gameplay-improvements-11.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/7ljJNVgs7VmwR1Pwgwoug3/68007c52dfe2111414a287e481e96b76/fc-mobile-2025-gameplay-improvements-04.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "Featured star head of Igor Thiago in FC Mobile.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:49.552716+00:00",
+            "load_time_ms": 1431,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 900,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/7ljJNVgs7VmwR1Pwgwoug3/68007c52dfe2111414a287e481e96b76/fc-mobile-2025-gameplay-improvements-04.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/6yXgqX9W4ntB0OHnFXWjuX/ad96ee68dc0baef18ab07093681eb738/fc-mobile-2025-gameplay-improvements-05.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "Featured star head of Savinho in FC Mobile.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:51.150288+00:00",
+            "load_time_ms": 1591,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 900,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/6yXgqX9W4ntB0OHnFXWjuX/ad96ee68dc0baef18ab07093681eb738/fc-mobile-2025-gameplay-improvements-05.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        }
+      ]
+    }
+  ],
+  "event_catalog": [
+    {
+      "title": "EA SPORTS FC™ MOBILE - Leagues Deep Dive",
+      "url": "https://www.ea.com/games/ea-sports-fc/fc-mobile/news/leagues-deep-dive-2025",
+      "discovered_from": "https://www.ea.com/games/ea-sports-fc/fc-mobile",
+      "description": "Learn all about the new Leagues in EA SPORTS FC™ Mobile!",
+      "inferred_event_types": [
+        "battle_pass",
+        "collection_album",
+        "tournament_competition",
+        "seasonal_festival",
+        "pvp_war",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "https://drop-assets.ea.com/images/23On0epc79CWDZt1jDjesJ/dd3655d11b0c18adb7e5e3205d50dbac/fcm-leagues-deep-dive-featured-image.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+          "alt": "og:image",
+          "kind": "preview",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:30.383240+00:00",
+            "load_time_ms": 1130,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 900,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/23On0epc79CWDZt1jDjesJ/dd3655d11b0c18adb7e5e3205d50dbac/fcm-leagues-deep-dive-featured-image.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/52bcuNuiYwIjfNCmyMwrly/641fb183fa3209b27782c0faa7525c0f/the-5-different-divisions.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "In-game screenshot showing 5 tiers of player ranks and corresponding gem rewards.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:30.436604+00:00",
+            "load_time_ms": 46,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/52bcuNuiYwIjfNCmyMwrly/641fb183fa3209b27782c0faa7525c0f/the-5-different-divisions.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/7cy8jTt6MvTVXI6pmbT6ms/d5a1cf97c1f98686aa7c883118284d23/grouped-leaderboard.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "A leaderboard showing various league teams and corresponding gem rewards.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:30.546323+00:00",
+            "load_time_ms": 104,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/7cy8jTt6MvTVXI6pmbT6ms/d5a1cf97c1f98686aa7c883118284d23/grouped-leaderboard.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/1wf3TE8UnNE5uWhWRJY3Mh/3b3adffc12b92cdf041ee2dfa2493cd3/global-leaderboards-1.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "A global leaderboard showing various league teams and corresponding gem rewards.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:31.680503+00:00",
+            "load_time_ms": 1040,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/1wf3TE8UnNE5uWhWRJY3Mh/3b3adffc12b92cdf041ee2dfa2493cd3/global-leaderboards-1.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/2wOGRGxBihfNpO5Gz8ea8G/9197338a1a890ca4caca031a6233ec9c/quest.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "In-game screenshot showing various quest challenges, progress and buttons to go to the quest or claim rewards.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:32.709285+00:00",
+            "load_time_ms": 1024,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/2wOGRGxBihfNpO5Gz8ea8G/9197338a1a890ca4caca031a6233ec9c/quest.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        }
+      ]
+    },
+    {
+      "title": "EA SPORTS FC™ MOBILE - New Leagues Update 2025 - Patch Notes",
+      "url": "https://www.ea.com/games/ea-sports-fc/fc-mobile/news/leagues-update-2025",
+      "discovered_from": "https://www.ea.com/games/ea-sports-fc/fc-mobile",
+      "description": "Check out the new Leagues, Gameplay Updates and more in FC Mobile!",
+      "inferred_event_types": [
+        "battle_pass",
+        "collection_album",
+        "tournament_competition",
+        "team_alliance",
+        "seasonal_festival",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://drop-assets.ea.com/images/3bTkbOKAsoCAUuo1IWuWhv/105c8009e5ddc865148f5cf9067cbf4f/fcm-gr5-release-notes-featured-image.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+          "alt": "og:image",
+          "kind": "preview",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:37.456652+00:00",
+            "load_time_ms": 49,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 900,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/3bTkbOKAsoCAUuo1IWuWhv/105c8009e5ddc865148f5cf9067cbf4f/fcm-gr5-release-notes-featured-image.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5"
+          }
+        }
+      ]
+    },
+    {
+      "title": "EA SPORTS FC™ MOBILE - Leagues Update - Gameplay Improvements 2025",
+      "url": "https://www.ea.com/games/ea-sports-fc/fc-mobile/news/gameplay-improvements-2025",
+      "discovered_from": "https://www.ea.com/games/ea-sports-fc/fc-mobile",
+      "description": "Check out the new Gameplay Improvements in EA SPORTS FC™ Mobile!",
+      "inferred_event_types": [
+        "battle_pass",
+        "tournament_competition",
+        "team_alliance",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://drop-assets.ea.com/images/7kfN28NXv8FyRrtwgqT0XY/7c13d60ef709a0b28446d82fb7c6f5e6/fc-mobile-2025-gameplay-improvements-thumbnail.png?im=AspectCrop=(16,9),xPosition=0.46875,yPosition=0.5044444444444445",
+          "alt": "og:image",
+          "kind": "preview",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:37.515761+00:00",
+            "load_time_ms": 52,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 900,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/7kfN28NXv8FyRrtwgqT0XY/7c13d60ef709a0b28446d82fb7c6f5e6/fc-mobile-2025-gameplay-improvements-thumbnail.png?im=AspectCrop=(16,9),xPosition=0.46875,yPosition=0.5044444444444445"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/xL3T15C9xWiRpeAcluNK6/c83c50edab08074ad82c27c6b82f15ae/fc-mobile-gamplay-improvements-yt.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "A rendition of a football match in FC Mobile, featuring players in action and the text 'Gameplay Improvements' prominently displayed.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:38.369734+00:00",
+            "load_time_ms": 844,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/xL3T15C9xWiRpeAcluNK6/c83c50edab08074ad82c27c6b82f15ae/fc-mobile-gamplay-improvements-yt.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/5KleU4DhZFlWsIMbKFIdVL/9318d44bb0283d772d3d72cde043b602/Leagues_Update_-_Ground_Through_Passing.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "A stylized illustration of a football match, featuring blue and red players in motion, with a football approaching the goal.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:39.271522+00:00",
+            "load_time_ms": 893,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/5KleU4DhZFlWsIMbKFIdVL/9318d44bb0283d772d3d72cde043b602/Leagues_Update_-_Ground_Through_Passing.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/6qRBg9lTpqf1ie8xvLPrnH/46eb9212279f03b5e0fb927f5a10ae4a/Leagues_Update_-_Through_Passing.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "A stylized illustration of a football match featuring teams in red and blue jerseys; players are in various positions on a green field, mid-game action.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:40.740458+00:00",
+            "load_time_ms": 1463,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://drop-assets.ea.com/images/6qRBg9lTpqf1ie8xvLPrnH/46eb9212279f03b5e0fb927f5a10ae4a/Leagues_Update_-_Through_Passing.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/3HsI8l8xCthCzTWwLoqmzt/b9172b22dbcd8391a7a5442f1294432a/Leagues_Update_-_Ground_Passing.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "A stylized illustration of a football match featuring teams in red and blue jerseys with players positioned around the ball near the goal.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:41.426434+00:00",
+            "load_time_ms": 680,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/3HsI8l8xCthCzTWwLoqmzt/b9172b22dbcd8391a7a5442f1294432a/Leagues_Update_-_Ground_Passing.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        },
+        {
+          "url": "https://drop-assets.ea.com/images/29nRYoLLPP8vsKZ7pEqIHK/314597ae4f6b7f099fa316efc646dc80/Leagues_Update_-_Tackle_Fall.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+          "alt": "A stylized illustration of a football match featuring teams in red and blue jerseys; with one blue player falling as the ball rolls nearby.",
+          "kind": "page_image",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:10:43.482660+00:00",
+            "load_time_ms": 2048,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/avif",
+            "current_src": "https://drop-assets.ea.com/images/29nRYoLLPP8vsKZ7pEqIHK/314597ae4f6b7f099fa316efc646dc80/Leagues_Update_-_Tackle_Fall.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+          }
+        }
+      ]
+    }
+  ],
+  "inferred_event_type_summary": [
+    "battle_pass",
+    "collection_album",
+    "pvp_war",
+    "seasonal_festival",
+    "store_offer",
+    "team_alliance",
+    "tournament_competition"
+  ],
+  "screenshots_or_images": [
+    {
+      "url": "https://drop-assets.ea.com/images/3QNNZ0JxE7JSjC44wXJ8F2/a5d728a2150b551a37a75dfcad4fe8cf/Untitled-1.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.303",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:10:23.262714+00:00",
+        "load_time_ms": 2038,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1000,
+        "natural_height": 563,
+        "content_type": "image/avif",
+        "current_src": "https://drop-assets.ea.com/images/3QNNZ0JxE7JSjC44wXJ8F2/a5d728a2150b551a37a75dfcad4fe8cf/Untitled-1.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.303"
+      }
+    },
+    {
+      "url": "https://i.ytimg.com/vi/k9lknJ17V2E/maxresdefault.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:10:25.992203+00:00",
+        "load_time_ms": 2725,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1280,
+        "natural_height": 720,
+        "content_type": "image/jpeg",
+        "current_src": "https://i.ytimg.com/vi/k9lknJ17V2E/maxresdefault.jpg"
+      }
+    },
+    {
+      "url": "https://drop-assets.ea.com/images/4WYTXOaxZFBq9sLDeCyhjZ/213720d986f469ddf19b3484d7149997/FCM26_Website_KickOff_Jude_1920x1080.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "alt": "Digital rendition of Jude Bellingham on a football field in the FC Mobile. A player item card, match score and controls are displayed on screen.",
+      "kind": "page_image",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:10:28.653099+00:00",
+        "load_time_ms": 1433,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/avif",
+        "current_src": "https://drop-assets.ea.com/images/4WYTXOaxZFBq9sLDeCyhjZ/213720d986f469ddf19b3484d7149997/FCM26_Website_KickOff_Jude_1920x1080.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5"
+      }
+    },
+    {
+      "url": "https://drop-assets.ea.com/images/CEl1XVmDnYsu80LdVfQQO/098bf8e6edcf8d36d1389e21ad970d6a/FCM26_Website_Gameplay_Improvements_1920x1080.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "alt": "Screenshot of an ongoing match in the FC Mobile game, with red and blue players on the field and user interface controls visible.",
+      "kind": "page_image",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:10:28.765754+00:00",
+        "load_time_ms": 106,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/avif",
+        "current_src": "https://drop-assets.ea.com/images/CEl1XVmDnYsu80LdVfQQO/098bf8e6edcf8d36d1389e21ad970d6a/FCM26_Website_Gameplay_Improvements_1920x1080.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5"
+      }
+    },
+    {
+      "url": "https://drop-assets.ea.com/images/0kL1ePgMYlbEPKHvJycyy/9cf12ed917de09fc01fbb5db1f9033af/FCM26_Website_Compete_PVP_1920x1080.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "alt": "A PvP matching screen in FC Mobile showing two player avatars standing in an arena and countdown timer.",
+      "kind": "page_image",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:10:28.824482+00:00",
+        "load_time_ms": 54,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/avif",
+        "current_src": "https://drop-assets.ea.com/images/0kL1ePgMYlbEPKHvJycyy/9cf12ed917de09fc01fbb5db1f9033af/FCM26_Website_Compete_PVP_1920x1080.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5"
+      }
+    },
+    {
+      "url": "https://drop-assets.ea.com/images/6SolLixI8WNmqFoyVlRGIZ/c681a43c68fcb42a8f9af5c26b5712b6/FCM26_Website_Ultimate_Team_1920x1080.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "alt": "Player item shields in FC Mobile are arranged in a tactical view of the football pitch.",
+      "kind": "page_image",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:10:28.890598+00:00",
+        "load_time_ms": 61,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/avif",
+        "current_src": "https://drop-assets.ea.com/images/6SolLixI8WNmqFoyVlRGIZ/c681a43c68fcb42a8f9af5c26b5712b6/FCM26_Website_Ultimate_Team_1920x1080.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5"
+      }
+    },
+    {
+      "url": "https://drop-assets.ea.com/images/4yFFYNFFKAsnTgYl3YS26O/1e30c512eb47f238c8df2879c6d34641/FCM26_Website_Level_Up_1920x1080.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "alt": "An in-game view of a football player in a practice session, aiming a kick towards the goal.",
+      "kind": "page_image",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:10:29.007635+00:00",
+        "load_time_ms": 112,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/avif",
+        "current_src": "https://drop-assets.ea.com/images/4yFFYNFFKAsnTgYl3YS26O/1e30c512eb47f238c8df2879c6d34641/FCM26_Website_Level_Up_1920x1080.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5"
+      }
+    },
+    {
+      "url": "https://drop-assets.ea.com/images/2CsoW5TeKrDs4NOu89pWm9/1a5d8a5cb8785d1daa6bc2d58c996a99/MLS_APPLETV_FCM_16x9.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "alt": "Four soccer players in MLS kits on a orange-to-blue gradient background, with a central player kicking a ball; MLS and Apple TV logos appear in the bottom right. EA FC Mobile appears in the bottom left.",
+      "kind": "page_image",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:10:29.069835+00:00",
+        "load_time_ms": 57,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/avif",
+        "current_src": "https://drop-assets.ea.com/images/2CsoW5TeKrDs4NOu89pWm9/1a5d8a5cb8785d1daa6bc2d58c996a99/MLS_APPLETV_FCM_16x9.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5"
+      }
+    },
+    {
+      "url": "https://drop-assets.ea.com/images/5h89nFMKeZJ5Yu9G5Ly6MT/a03d02383b11e93094bca248b63242e2/EA_FCM_Playstyles-Teaser_Thumbnail-16x9.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "alt": "EA Sports FC Mobile graphic reading “PlayStyles Beta” with floating hexagonal icons representing player abilities on a green and black gradient background.",
+      "kind": "page_image",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:10:29.121440+00:00",
+        "load_time_ms": 47,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/avif",
+        "current_src": "https://drop-assets.ea.com/images/5h89nFMKeZJ5Yu9G5Ly6MT/a03d02383b11e93094bca248b63242e2/EA_FCM_Playstyles-Teaser_Thumbnail-16x9.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5"
+      }
+    },
+    {
+      "url": "https://drop-assets.ea.com/images/2JnG2W7ahU2ELTsNWGKGqB/76971649e91d9286ccb59211de0b4145/GE26_TeaserBanners_16x9.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "alt": "Text overlay featuring \"FC MOBILE\" and \"GLORIOUS ERAS\" with a shimmering, golden background and stylized design elements.",
+      "kind": "page_image",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:10:29.176983+00:00",
+        "load_time_ms": 50,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/avif",
+        "current_src": "https://drop-assets.ea.com/images/2JnG2W7ahU2ELTsNWGKGqB/76971649e91d9286ccb59211de0b4145/GE26_TeaserBanners_16x9.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5"
+      }
+    },
+    {
+      "url": "https://drop-assets.ea.com/images/6JhClvXpp0muSwB2EDPqC3/8a1dfdd430ead31a29e19182b6d94fea/fcm-patch-notes-2026-thumbnail.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "alt": "Two football players of different teams entering the pitch surrounded by an energized crowd and security persons. The text reads \"26 Update\".",
+      "kind": "page_image",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:10:29.247134+00:00",
+        "load_time_ms": 66,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/avif",
+        "current_src": "https://drop-assets.ea.com/images/6JhClvXpp0muSwB2EDPqC3/8a1dfdd430ead31a29e19182b6d94fea/fcm-patch-notes-2026-thumbnail.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5"
+      }
+    },
+    {
+      "url": "https://drop-assets.ea.com/images/23On0epc79CWDZt1jDjesJ/dd3655d11b0c18adb7e5e3205d50dbac/fcm-leagues-deep-dive-featured-image.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile/news/leagues-deep-dive-2025",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:10:30.383240+00:00",
+        "load_time_ms": 1130,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1600,
+        "natural_height": 900,
+        "content_type": "image/avif",
+        "current_src": "https://drop-assets.ea.com/images/23On0epc79CWDZt1jDjesJ/dd3655d11b0c18adb7e5e3205d50dbac/fcm-leagues-deep-dive-featured-image.png?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5"
+      }
+    },
+    {
+      "url": "https://drop-assets.ea.com/images/52bcuNuiYwIjfNCmyMwrly/641fb183fa3209b27782c0faa7525c0f/the-5-different-divisions.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+      "alt": "In-game screenshot showing 5 tiers of player ranks and corresponding gem rewards.",
+      "kind": "page_image",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile/news/leagues-deep-dive-2025",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:10:30.436604+00:00",
+        "load_time_ms": 46,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/avif",
+        "current_src": "https://drop-assets.ea.com/images/52bcuNuiYwIjfNCmyMwrly/641fb183fa3209b27782c0faa7525c0f/the-5-different-divisions.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+      }
+    },
+    {
+      "url": "https://drop-assets.ea.com/images/7cy8jTt6MvTVXI6pmbT6ms/d5a1cf97c1f98686aa7c883118284d23/grouped-leaderboard.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+      "alt": "A leaderboard showing various league teams and corresponding gem rewards.",
+      "kind": "page_image",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile/news/leagues-deep-dive-2025",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:10:30.546323+00:00",
+        "load_time_ms": 104,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/avif",
+        "current_src": "https://drop-assets.ea.com/images/7cy8jTt6MvTVXI6pmbT6ms/d5a1cf97c1f98686aa7c883118284d23/grouped-leaderboard.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+      }
+    },
+    {
+      "url": "https://drop-assets.ea.com/images/1wf3TE8UnNE5uWhWRJY3Mh/3b3adffc12b92cdf041ee2dfa2493cd3/global-leaderboards-1.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+      "alt": "A global leaderboard showing various league teams and corresponding gem rewards.",
+      "kind": "page_image",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile/news/leagues-deep-dive-2025",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:10:31.680503+00:00",
+        "load_time_ms": 1040,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/avif",
+        "current_src": "https://drop-assets.ea.com/images/1wf3TE8UnNE5uWhWRJY3Mh/3b3adffc12b92cdf041ee2dfa2493cd3/global-leaderboards-1.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+      }
+    },
+    {
+      "url": "https://drop-assets.ea.com/images/2wOGRGxBihfNpO5Gz8ea8G/9197338a1a890ca4caca031a6233ec9c/quest.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+      "alt": "In-game screenshot showing various quest challenges, progress and buttons to go to the quest or claim rewards.",
+      "kind": "page_image",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile/news/leagues-deep-dive-2025",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:10:32.709285+00:00",
+        "load_time_ms": 1024,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/avif",
+        "current_src": "https://drop-assets.ea.com/images/2wOGRGxBihfNpO5Gz8ea8G/9197338a1a890ca4caca031a6233ec9c/quest.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+      }
+    },
+    {
+      "url": "https://drop-assets.ea.com/images/6RHkXEwzRJwuAsXDhRPg53/4c527808a5da505decc0d03c4047670a/a-tournament-in-progress.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+      "alt": "In-game screenshot showing league players and their corresponding league tokens in a tournament.",
+      "kind": "page_image",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile/news/leagues-deep-dive-2025",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:10:33.529167+00:00",
+        "load_time_ms": 815,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/avif",
+        "current_src": "https://drop-assets.ea.com/images/6RHkXEwzRJwuAsXDhRPg53/4c527808a5da505decc0d03c4047670a/a-tournament-in-progress.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+      }
+    },
+    {
+      "url": "https://drop-assets.ea.com/images/5eYFUw2B13h5q3DEvotkdi/da626739fb78526d3516f651b94ca325/how-many-rewards-you-ll-receive.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+      "alt": "In-game screenshot showing a league season summary indicating a player's achieved ranks.",
+      "kind": "page_image",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile/news/leagues-deep-dive-2025",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:10:33.578989+00:00",
+        "load_time_ms": 44,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/avif",
+        "current_src": "https://drop-assets.ea.com/images/5eYFUw2B13h5q3DEvotkdi/da626739fb78526d3516f651b94ca325/how-many-rewards-you-ll-receive.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+      }
+    },
+    {
+      "url": "https://drop-assets.ea.com/images/2YWrqmHgXD1KtFkDFCgzMH/88106b3f67145613f76422d5cfcb7383/image-104.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+      "alt": "In-game screenshot of a seasons rewards screen, indicating ranks and their corresponding rewards.",
+      "kind": "page_image",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile/news/leagues-deep-dive-2025",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:10:35.412313+00:00",
+        "load_time_ms": 1828,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/avif",
+        "current_src": "https://drop-assets.ea.com/images/2YWrqmHgXD1KtFkDFCgzMH/88106b3f67145613f76422d5cfcb7383/image-104.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+      }
+    },
+    {
+      "url": "https://drop-assets.ea.com/images/4u9LITjt1Ml0K4xqyNUw4E/3fffd2a8f118a4c6d64116caf9e5cf50/bonus-rewards.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+      "alt": "In-game screenshot of the Bonus Rewards screen showing rank benchmarks and corresponding bonus rewards in a list form.",
+      "kind": "page_image",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile/news/leagues-deep-dive-2025",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:10:36.313240+00:00",
+        "load_time_ms": 894,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/avif",
+        "current_src": "https://drop-assets.ea.com/images/4u9LITjt1Ml0K4xqyNUw4E/3fffd2a8f118a4c6d64116caf9e5cf50/bonus-rewards.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+      }
+    },
+    {
+      "url": "https://drop-assets.ea.com/images/31jO5UEzm2YiWQIRH35FNm/e07221da5b917b6094d05a71428ee782/league-home-achievements.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+      "alt": "Achievements screen showing various trophies and the date each achievement was unlocked. A side panel shows the summary of achievements.",
+      "kind": "page_image",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile/news/leagues-deep-dive-2025",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:10:36.368932+00:00",
+        "load_time_ms": 51,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/avif",
+        "current_src": "https://drop-assets.ea.com/images/31jO5UEzm2YiWQIRH35FNm/e07221da5b917b6094d05a71428ee782/league-home-achievements.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+      }
+    },
+    {
+      "url": "https://drop-assets.ea.com/images/2WsbYhvBaDgQ9sYgk2TPUw/40ee743fa50c6a2c60d64d9fd1ea79c5/show-a-tournament-in-progress-2.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+      "alt": "FC Mobile's tournament mode sign-up screen showing icons of various members signed-up in a league.",
+      "kind": "page_image",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile/news/leagues-deep-dive-2025",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:10:37.402789+00:00",
+        "load_time_ms": 1027,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1920,
+        "natural_height": 1080,
+        "content_type": "image/avif",
+        "current_src": "https://drop-assets.ea.com/images/2WsbYhvBaDgQ9sYgk2TPUw/40ee743fa50c6a2c60d64d9fd1ea79c5/show-a-tournament-in-progress-2.png?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+      }
+    },
+    {
+      "url": "https://drop-assets.ea.com/images/3bTkbOKAsoCAUuo1IWuWhv/105c8009e5ddc865148f5cf9067cbf4f/fcm-gr5-release-notes-featured-image.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile/news/leagues-update-2025",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:10:37.456652+00:00",
+        "load_time_ms": 49,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1600,
+        "natural_height": 900,
+        "content_type": "image/avif",
+        "current_src": "https://drop-assets.ea.com/images/3bTkbOKAsoCAUuo1IWuWhv/105c8009e5ddc865148f5cf9067cbf4f/fcm-gr5-release-notes-featured-image.jpg?im=AspectCrop=(16,9),xPosition=0.5,yPosition=0.5"
+      }
+    },
+    {
+      "url": "https://drop-assets.ea.com/images/7kfN28NXv8FyRrtwgqT0XY/7c13d60ef709a0b28446d82fb7c6f5e6/fc-mobile-2025-gameplay-improvements-thumbnail.png?im=AspectCrop=(16,9),xPosition=0.46875,yPosition=0.5044444444444445",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile/news/gameplay-improvements-2025",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:10:37.515761+00:00",
+        "load_time_ms": 52,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1600,
+        "natural_height": 900,
+        "content_type": "image/avif",
+        "current_src": "https://drop-assets.ea.com/images/7kfN28NXv8FyRrtwgqT0XY/7c13d60ef709a0b28446d82fb7c6f5e6/fc-mobile-2025-gameplay-improvements-thumbnail.png?im=AspectCrop=(16,9),xPosition=0.46875,yPosition=0.5044444444444445"
+      }
+    },
+    {
+      "url": "https://drop-assets.ea.com/images/xL3T15C9xWiRpeAcluNK6/c83c50edab08074ad82c27c6b82f15ae/fc-mobile-gamplay-improvements-yt.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5",
+      "alt": "A rendition of a football match in FC Mobile, featuring players in action and the text 'Gameplay Improvements' prominently displayed.",
+      "kind": "page_image",
+      "source_url": "https://www.ea.com/games/ea-sports-fc/fc-mobile/news/gameplay-improvements-2025",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T08:10:38.369734+00:00",
+        "load_time_ms": 844,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 1280,
+        "natural_height": 720,
+        "content_type": "image/avif",
+        "current_src": "https://drop-assets.ea.com/images/xL3T15C9xWiRpeAcluNK6/c83c50edab08074ad82c27c6b82f15ae/fc-mobile-gamplay-improvements-yt.jpg?im=AspectCrop=%2816,9%29,xPosition=0.5,yPosition=0.5"
+      }
+    }
+  ],
+  "collection_warnings": [
+    "Fetch failed: https://fifa-mobile.fandom.com/wiki/Events"
+  ]
+}

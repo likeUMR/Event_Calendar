@@ -1,0 +1,78 @@
+{
+  "rank": 26,
+  "name": "Fishdom",
+  "source_confidence": "medium",
+  "source_notes": null,
+  "collected_at": "2026-05-12T04:01:00.327Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Fishdom Wiki",
+      "source_type": "fandom",
+      "source_url": "https://fishdom.fandom.com/wiki/Fishdom_Wiki",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "source_title": "Playrix Support - Fishdom",
+      "source_type": "official_support",
+      "source_url": "https://playrix.helpshift.com/hc/en/4-fishdom/",
+      "fetched_url": "https://playrix.helpshift.com/hc/en/4-fishdom/",
+      "status": 200,
+      "page_title": "We're here to help!",
+      "meta_description": "Are you looking for help with Fishdom? Learn more about Gameplay Guide, Game progress, In-app Purchases and Diamonds, Troubleshooting, Profile & Friends, Events and Competitions, Teams, Boosters and Power-ups, Match-3 Elements, Fish and Aquarium, Safe and fair play, Privacy Policy, Parental Guide.",
+      "relevant_text_blocks": [
+        "This website uses only the necessary cookies required for the site's proper functioning. By using the website, you consent to all cookies in accordance with the cookie policy. To know more, refer Cookie Policy. Playrix Support We're here to help! Popular articles Saving, Transferring, and Syncing Progress Game progress Known issues Troubleshooting Report Inappropriate Content and Content Rules Safe and fair play New Fishdom update 🎉 Gameplay Guide ⚓️ Treasure Island Events and Competitions I lost my game progress Game progress Browse articles Gameplay Guide New Fishdom update 🎉",
+        "In-app Purchases and Diamonds",
+        "Events and Competitions",
+        "🎟️ Season Challenges",
+        "Teams updates and new features",
+        "What can a team leader do?",
+        "Boosters and Power-ups"
+      ],
+      "inferred_event_types": [
+        "tournament_competition",
+        "team_alliance",
+        "seasonal_festival",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "https://d2duuy9yo5pldo.cloudfront.net/dashboard-resources/playrix/320/b76428ff-103d-4b62-b4c3-f1cd2ac7e37b.webp",
+          "alt": "Playrix Support",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://d2duuy9yo5pldo.cloudfront.net/dashboard-resources/playrix/dd6acabc-5fd1-4a74-9bea-ea46c5bd7a10.jpg",
+          "alt": "Banner Image",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "event_detail_pages": [],
+  "event_catalog": [],
+  "inferred_event_type_summary": [
+    "seasonal_festival",
+    "store_offer",
+    "team_alliance",
+    "tournament_competition"
+  ],
+  "screenshots_or_images": [
+    {
+      "url": "https://d2duuy9yo5pldo.cloudfront.net/dashboard-resources/playrix/320/b76428ff-103d-4b62-b4c3-f1cd2ac7e37b.webp",
+      "alt": "Playrix Support",
+      "kind": "page_image",
+      "source_url": "https://playrix.helpshift.com/hc/en/4-fishdom/"
+    },
+    {
+      "url": "https://d2duuy9yo5pldo.cloudfront.net/dashboard-resources/playrix/dd6acabc-5fd1-4a74-9bea-ea46c5bd7a10.jpg",
+      "alt": "Banner Image",
+      "kind": "page_image",
+      "source_url": "https://playrix.helpshift.com/hc/en/4-fishdom/"
+    }
+  ],
+  "collection_warnings": [
+    "Fetch failed: https://fishdom.fandom.com/wiki/Fishdom_Wiki"
+  ]
+}

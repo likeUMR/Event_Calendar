@@ -1,0 +1,1460 @@
+{
+  "rank": 50,
+  "name": "Tiles Survive!",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 App Store 商店页、AppsHunter 事件流，以及 Reservoir Raid 的社区攻略页，重点确认 Tiles Survive! 中可公开验证的联盟战、赛季主题、通行证、主题小游戏、事件商店与派遣系统更新。",
+  "source_pages": [
+    {
+      "title": "App Store - Tiles Survive!",
+      "url": "https://apps.apple.com/us/app/tiles-survive/id6738109752",
+      "notes": "官方商店页，用于确认活动关键词、版本记录和事件商店类描述。"
+    },
+    {
+      "title": "AppsHunter - Tiles Survive! App Page",
+      "url": "https://appshunter.io/ios/app/6738109752",
+      "notes": "用于查看近期 App Store 事件流和版本更新摘要。"
+    },
+    {
+      "title": "AppsHunter - Celebrate Christmas Together!",
+      "url": "https://appshunter.io/events/6752379518",
+      "notes": "用于确认圣诞主题活动与装饰奖励。"
+    },
+    {
+      "title": "AppsHunter - Maddie's Protection",
+      "url": "https://appshunter.io/events/6758604145",
+      "notes": "用于确认角色主题 special event 的存在。"
+    },
+    {
+      "title": "AppsHunter - St. Patrick's: Ode to Emerald",
+      "url": "https://appshunter.io/events/6759767046",
+      "notes": "用于确认节日货币与主题活动包装。"
+    },
+    {
+      "title": "AppsHunter - Spring Expedition now live!",
+      "url": "https://appshunter.io/events/6761456303",
+      "notes": "用于确认探索/小游戏向主题活动。"
+    },
+    {
+      "title": "AppsHunter - Labor Fest now live!",
+      "url": "https://appshunter.io/events/6764262481",
+      "notes": "用于确认带 pass、奖杯和事件货币的节庆活动。"
+    },
+    {
+      "title": "Clashiverse - Tiles Survive Reservoir Raid Guide",
+      "url": "https://clashiverse.com/tiles-survive-reservoir-raid-guide/",
+      "notes": "用于确认 Reservoir Raid 的联盟对抗结构和玩法定位。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "alliance_battle",
+      "display_name": "Reservoir Raid / 联盟争夺战",
+      "description": "偏联盟 PvP 的大规模对抗活动，常见要素包括水点/据点争夺、队伍协作、时间窗和联盟排名奖励。",
+      "examples": [
+        "Reservoir Raid"
+      ],
+      "market_research_notes": "这是产品里最明确的联盟战活动，承担中后期组织协作价值。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/VRk6yl6i8NI/maxresdefault.jpg",
+          "caption": "Tiles Survive: Alliance Duel VS info ...",
+          "source_url": "https://www.youtube.com/watch?v=VRk6yl6i8NI",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+alliance+battle",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive alliance battle",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:28:29.345789+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "Youtube封面图，明确提到Alliance Duel活动及相关奖励，为活动说明性质图片。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:45.287533+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/AS4SWGsHpsg/maxresdefault.jpg",
+          "caption": "Tiles Survive Copper Clash faction ...",
+          "source_url": "https://www.youtube.com/watch?v=AS4SWGsHpsg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+alliance+battle",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive alliance battle",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:28:29.345789+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.7,
+            "reason": "展示了Copper Clash活动的积分规则，虽然是联盟对抗类，但与指定的Reservoir Raid活动名称不符，归类为游戏相关但非本活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:45.287533+00:00"
+          }
+        },
+        {
+          "url": "https://kg-web-cdn.akamaized.net/prod/official-website/sd-official-website/dist/public/og-preview.png",
+          "caption": "Tiles Survive",
+          "source_url": "https://tilesurvivegame.com/en/blog/828",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+alliance+battle",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive alliance battle",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:28:29.345789+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "游戏的通用品牌宣传图，未体现具体活动内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:45.287533+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/kz3xyk0Ra3E/maxresdefault.jpg",
+          "caption": "Tiles Survive Reservoir Raid Guide and ...",
+          "source_url": "https://www.youtube.com/watch?v=kz3xyk0Ra3E",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+alliance+battle",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive alliance battle",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:28:29.345789+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "包含了Reservoir Raid活动的实际玩法界面，如匹配对阵信息、历史战绩列表和活动倒计时。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:45.287533+00:00"
+          }
+        },
+        {
+          "url": "https://cdn-www.bluestacks.com/bs-images/unnamed-2025-08-29T152709.499.jpg",
+          "caption": "Forming Alliances in Tiles Survive ...",
+          "source_url": "https://www.bluestacks.com/blog/game-guides/tiles-survive/tse-recruiting-heroes-and-forming-alliances-en.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+alliance+battle",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive alliance battle",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:28:29.345789+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "关于联盟合作的通用宣传图，没有具体Reservoir Raid活动特有的界面或标识。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:45.287533+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "season_faction_event",
+      "display_name": "Copper Clash / 赛季阵营活动",
+      "description": "以赛季名义包装的 faction-based competition，强调阵营对抗、阶段目标和赛季主题。",
+      "examples": [
+        "Season III: Copper Clash"
+      ],
+      "market_research_notes": "说明游戏不只是零散活动，而是开始有成体系的赛季包装。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/5MF1DJ3O8eY/maxresdefault.jpg",
+          "caption": "Tiles Survive ALL Marine Faction Heroes ...",
+          "source_url": "https://www.youtube.com/watch?v=5MF1DJ3O8eY",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+season+faction+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive season faction event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:28:47.734726+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示了游戏的阵营角色图，虽然提及阵营（Faction），但属于通用角色展示海报，无法确认为特定Copper Clash活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:51.224296+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/NenJWKyvOdk/maxresdefault.jpg",
+          "caption": "Tiles Survive ALL YELLOW Faction Heroes ...",
+          "source_url": "https://www.youtube.com/watch?v=NenJWKyvOdk",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+season+faction+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive season faction event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:28:47.734726+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示了游戏的阵营角色图，属于通用的角色宣传海报，而非特定的赛季活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:51.224296+00:00"
+          }
+        },
+        {
+          "url": "https://lblog.fp.guinfra.com/file/69b6d604184e3c200e794ac0AU0X1c0E03",
+          "caption": "Tiles Survive Copper Clash Guide 2026 ...",
+          "source_url": "https://lootbar.gg/blog/en/tiles-survive-copper-clash-guide.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+season+faction+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive season faction event",
+          "width": 167,
+          "height": 302,
+          "aspect_ratio": 0.553,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:28:47.734726+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片明确包含活动名称 'Copper Clash'，但属于宣传性质的主视觉图/封面图，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:51.224296+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/uT-plXF01xk/maxresdefault.jpg",
+          "caption": "Tiles Survive - Season 3: what's new ...",
+          "source_url": "https://www.youtube.com/watch?v=uT-plXF01xk",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+season+faction+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive season faction event",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:28:47.734726+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "图片明确提及 'S3 Copper Clash Event'，并展示了活动内的图标、UI元素和升级相关的玩法指引界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:51.224296+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/3eeqVnumBVc/maxresdefault.jpg",
+          "caption": "Tiles Survive ALL GREEN faction heroes ...",
+          "source_url": "https://www.youtube.com/watch?v=3eeqVnumBVc",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+season+faction+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive season faction event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:28:47.734726+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示了游戏的阵营角色图，属于通用的角色宣传海报，无法直接等同于赛季对抗活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:51.224296+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "tech_event",
+      "display_name": "Infected Conquest / 科技主题活动",
+      "description": "围绕科技、感染题材或系统升级展开的活动/版本主题，更偏功能更新与事件包装结合。",
+      "examples": [
+        "Infected Conquest"
+      ],
+      "market_research_notes": "介于玩法更新和活动包装之间，属于系统事件化表达。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/elnLiw0Kq_A/maxresdefault.jpg",
+          "caption": "guide to the Turbo Turtle event ...",
+          "source_url": "https://www.youtube.com/watch?v=elnLiw0Kq_A",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+tech+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive tech event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:29:06.724941+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "图片展示的是游戏内的Turbo Turtle活动，虽属于本游戏活动，但与Infected Conquest科技主题不直接相关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:55.764307+00:00"
+          }
+        },
+        {
+          "url": "https://kg-web-cdn.akamaized.net/prod/official-website/sd-official-website/dist/public/og-preview.png",
+          "caption": "Tiles Survive",
+          "source_url": "https://tilesurvivegame.com/en/blog/883",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+tech+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive tech event",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:29:06.724941+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是游戏的通用预览图/官方网站背景图，不针对特定活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:55.764307+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/O1cy-Awf500/maxresdefault.jpg",
+          "caption": "Tiles Survive technology research ...",
+          "source_url": "https://www.youtube.com/watch?v=O1cy-Awf500",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+tech+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive tech event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:29:06.724941+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了Infected Conquest卡片以及相关的科技研究（Technology Research）系统界面，属于活动实际玩法截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:55.764307+00:00"
+          }
+        },
+        {
+          "url": "https://media.pocketgamer.com/artwork/na-37694-1752914756/ts-loading-header.jpg",
+          "caption": "Tiles Survive brings strategic survival ...",
+          "source_url": "https://www.pocketgamer.com/tiles-survive/official-launch-android-ios/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+tech+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive tech event",
+          "width": 318,
+          "height": 159,
+          "aspect_ratio": 2.0,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:29:06.724941+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是游戏上线时的通用宣传图或加载图，与特定活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:55.764307+00:00"
+          }
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/661f895d656bb1a7251835cc/69a5637ba493b6b9703eb19b_tiles_survive_.png",
+          "caption": "Tiles Survive Event Spending Guide ...",
+          "source_url": "https://www.packsify.com/blogs/tiles-survive-event-spending-guide",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+tech+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive tech event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:29:06.724941+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "这是站外攻略站的通用背景图，虽标题提到Guide，但图片本身是通用品牌宣传背景。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:34:55.764307+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "hero_featured_event",
+      "display_name": "Maddie's Protection / 英雄主题活动",
+      "description": "围绕指定 SSR 英雄或角色主题展开的 special event，通常会带专属奖励、限定任务或角色曝光。",
+      "examples": [
+        "Maddie's Protection"
+      ],
+      "market_research_notes": "更像 hero spotlight event，用于提升角色价值和抽取/养成意愿。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/8f5aI9w7w8Q/maxresdefault.jpg",
+          "caption": "Tiles Survive! Best Hero for your first ...",
+          "source_url": "https://www.youtube.com/watch?v=8f5aI9w7w8Q",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+hero+featured+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive hero featured event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:29:26.113663+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "带有游戏Logo和角色的通用宣传图/攻略封面，无法确认与Maddie's Protection活动直接相关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:00.568221+00:00"
+          }
+        },
+        {
+          "url": "https://cdn-www.bluestacks.com/bs-images/unnamed-2025-08-29T152709.499.jpg",
+          "caption": "Forming Alliances in Tiles Survive ...",
+          "source_url": "https://www.bluestacks.com/blog/game-guides/tiles-survive/tse-recruiting-heroes-and-forming-alliances-en.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+hero+featured+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive hero featured event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:29:26.113663+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "展现游戏联盟/战斗概念的通用品牌宣传图，不含活动特定界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:00.568221+00:00"
+          }
+        },
+        {
+          "url": "https://lblog.fp.guinfra.com/file/69246f6de11f53d9f2b3c161t1wYYpJd03",
+          "caption": "Tiles Survive Recruiting & Alliance ...",
+          "source_url": "https://lootbar.gg/blog/en/tiles-survive-recruiting-and-alliance-guide-how-to-recruit-heroes-and-form-alliances.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+hero+featured+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive hero featured event",
+          "width": 155,
+          "height": 324,
+          "aspect_ratio": 0.4784,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:29:26.113663+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "关于英雄招募和联盟的通用攻略海报，属于通用内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:00.568221+00:00"
+          }
+        },
+        {
+          "url": "https://kg-web-cdn.akamaized.net/prod/official-website/sd-official-website/dist/public/og-preview.png",
+          "caption": "Tiles Survive",
+          "source_url": "https://tilesurvivegame.com/en/blog/883",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+hero+featured+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive hero featured event",
+          "width": 244,
+          "height": 206,
+          "aspect_ratio": 1.1845,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:29:26.113663+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "游戏官网宣传原画，属于通用品牌图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:00.568221+00:00"
+          }
+        },
+        {
+          "url": "https://cdn-www.bluestacks.com/bs-images/TS_RH_ENG03.webp",
+          "caption": "Tiles Survive Hero Tier List: Best ...",
+          "source_url": "https://www.bluestacks.com/blog/game-guides/tiles-survive/tse-recruiting-heroes-and-forming-alliances-en.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+hero+featured+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive hero featured event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:29:26.113663+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "与图2相同的通用宣传海报，主要展示玩法概念而非特定活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:00.568221+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "festival_decoration_event",
+      "display_name": "Christmas Carnival / 节日装饰活动",
+      "description": "以圣诞主题为核心，奖励常包含 settlement decoration、头像框、皮肤或节日收藏物。",
+      "examples": [
+        "Celebrate Christmas Together!",
+        "Christmas Carnival"
+      ],
+      "market_research_notes": "这是常见的 SLG 节庆包装层，重点在视觉主题和限定奖励。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/_f3ryHd7LcI/maxresdefault.jpg",
+          "caption": "Play Partner Paradise Event in Tiles ...",
+          "source_url": "https://www.youtube.com/watch?v=_f3ryHd7LcI",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+festival+decoration+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive festival decoration event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:30:03.067746+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了游戏内Partner Paradise活动，且包含奖励预览和任务进度描述（2/4），属于玩法界面的一部分。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:04.791875+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/5Zfp3WGIzRo/maxresdefault.jpg",
+          "caption": "Tiles survive Fishing event guide: tips ...",
+          "source_url": "https://www.youtube.com/watch?v=5Zfp3WGIzRo",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+festival+decoration+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive festival decoration event",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:30:03.067746+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "属于Tiles Survive游戏的钓鱼活动攻略视频封面，与要求的圣诞装饰活动不符，仅属于本游戏的相关图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:04.791875+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/5Zfp3WGIzRo/hqdefault.jpg",
+          "caption": "Tiles Survive",
+          "source_url": "https://www.youtube.com/watch?v=5Zfp3WGIzRo",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+festival+decoration+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive festival decoration event",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:30:03.067746+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "同图2，内容为本游戏的钓鱼活动，与本活动（圣诞/装饰类）不相关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:04.791875+00:00"
+          }
+        },
+        {
+          "url": "https://www.tileletter.com/wp-content/uploads/2026/01/TileFest-26-resize.jpg",
+          "caption": "The TileWorks of Bucks County and Tile ...",
+          "source_url": "https://www.tileletter.com/tilefest-26-the-tileworks-of-bucks-county-and-tile-heritage-foundation-will-co-host-nationally-recognized-ceramic-tile-festival/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+festival+decoration+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive festival decoration event",
+          "width": 262,
+          "height": 192,
+          "aspect_ratio": 1.3646,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:30:03.067746+00:00",
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 1.0,
+            "reason": "这是现实中的陶瓷瓷砖节宣传图，与移动游戏完全无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:04.791875+00:00"
+          }
+        },
+        {
+          "url": "https://d15h26rducpaui.cloudfront.net/kg-face/dev/ss_d/declaration/74e80c5e78c4e2ddc4f87ba9abc82f05.jpg",
+          "caption": "Tiles Survive",
+          "source_url": "https://tilesurvivegame.com/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+festival+decoration+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive festival decoration event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:30:03.067746+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "这是Tiles Survive游戏的通用品牌概念图或加载海报，没有表现具体的圣诞装饰活动特征。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:04.791875+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "festival_currency_event",
+      "display_name": "St. Patrick's: Ode to Emerald / 节日货币活动",
+      "description": "通过节日代币、兑换道具或 Lucky Pinballs 一类机制驱动玩家在活动窗口内集中参与。",
+      "examples": [
+        "St. Patrick's: Ode to Emerald"
+      ],
+      "market_research_notes": "典型 event currency 玩法，适合和商店、任务、抽奖联动。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/5Zfp3WGIzRo/maxresdefault.jpg",
+          "caption": "Tiles survive Fishing event guide: tips ...",
+          "source_url": "https://www.youtube.com/watch?v=5Zfp3WGIzRo",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+festival+currency+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive festival currency event",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:30:41.016774+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "虽提及Fishing Event，但与St. Patrick's活动主题不符，仅能确认是该游戏的另一活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:08.539000+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/YED-KOS1kT4/maxresdefault.jpg",
+          "caption": "Tiles Survive: Generate resources from ...",
+          "source_url": "https://www.youtube.com/watch?v=YED-KOS1kT4",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+festival+currency+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive festival currency event",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:30:41.016774+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "展示游戏资源产出机制，属于游戏通用教学或玩法，无法关联到具体的节日货币活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:08.539000+00:00"
+          }
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HHuIGtSa4AA7dgj.jpg",
+          "caption": "Tiles Survive! (@TilesSurvive) / Posts / X",
+          "source_url": "https://x.com/TilesSurvive",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+festival+currency+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive festival currency event",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:30:41.016774+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "属于游戏的玩家评论宣传图，不包含特定活动信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:08.539000+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/elnLiw0Kq_A/mqdefault.jpg",
+          "caption": "Tiles Survive",
+          "source_url": "https://www.youtube.com/watch?v=elnLiw0Kq_A",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+festival+currency+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive festival currency event",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:30:41.016774+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示的是Turtle Event的相关内容，与目标St. Patrick's活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:08.539000+00:00"
+          }
+        },
+        {
+          "url": "https://d15h26rducpaui.cloudfront.net/kg-face/dev/ss_d/declaration/74e80c5e78c4e2ddc4f87ba9abc82f05.jpg",
+          "caption": "Tiles Survive",
+          "source_url": "https://tilesurvivegame.com/en/blog/883",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+festival+currency+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive festival currency event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:30:41.016774+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "这是该游戏的通用品牌宣传海报，展示美术风格与基本概念，无具体活动信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:08.539000+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "theme_minigame_event",
+      "display_name": "Spring Expedition / 主题小游戏活动",
+      "description": "以春季探索或小游戏形式承载的主题活动，通常搭配关卡外玩法、皮肤奖励和节日包装。",
+      "examples": [
+        "Spring Expedition",
+        "Spring Savory"
+      ],
+      "market_research_notes": "更像内容调味层，用来丰富主循环之外的体验。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/q7JftEBCAsM/maxresdefault.jpg",
+          "caption": "Tiles Survive - beginner's guide to the ...",
+          "source_url": "https://www.youtube.com/watch?v=q7JftEBCAsM",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+theme+minigame+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive theme minigame event",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:31:15.393775+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图片展示了Tiles Survive游戏的Turbo Turtle活动宣传海报，包含活动名称、排名奖励说明，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:12.610926+00:00"
+          }
+        },
+        {
+          "url": "https://cdn-www.bluestacks.com/bs-images/unnamed-2025-08-29T152709.499.jpg",
+          "caption": "Forming Alliances in Tiles Survive ...",
+          "source_url": "https://www.bluestacks.com/blog/game-guides/tiles-survive/tse-recruiting-heroes-and-forming-alliances-en.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+theme+minigame+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive theme minigame event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:31:15.393775+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "图片是游戏的通用宣传图，展示了核心的区块建设和联盟玩法，未体现Spring Expedition等特定主题小游戏活动信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:12.610926+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/elnLiw0Kq_A/maxresdefault.jpg",
+          "caption": "guide to the Turbo Turtle event ...",
+          "source_url": "https://www.youtube.com/watch?v=elnLiw0Kq_A",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+theme+minigame+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive theme minigame event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:31:15.393775+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图片为Turtle活动的宣传封面，展示了活动奖励、积分要求和吉祥物，属于无玩法界面的宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:12.610926+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/elnLiw0Kq_A/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCEhU1lWZi2f8QB3LCdKu6d-xxdag",
+          "caption": "FunPlus' hit strategy survival game ...",
+          "source_url": "https://www.youtube.com/watch?v=elnLiw0Kq_A",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+theme+minigame+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive theme minigame event",
+          "width": 318,
+          "height": 159,
+          "aspect_ratio": 2.0,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:31:15.393775+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "与图3内容一致，属于Turtle活动的活动介绍和宣传海报。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:12.610926+00:00"
+          }
+        },
+        {
+          "url": "https://media.pocketgamer.com/artwork/na-37694-1776682229/tiles-survive-store-screen_jpg_820.jpg",
+          "caption": "Tiles Survive - FunPlus",
+          "source_url": "https://www.pocketgamer.com/tiles-survive/20-million-players/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+theme+minigame+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive theme minigame event",
+          "width": 331,
+          "height": 152,
+          "aspect_ratio": 2.1776,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:31:15.393775+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "图片为游戏的商店宣传截图，展示了基础的建造玩法和UI，无法确认与Spring Expedition特定活动有关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:12.610926+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "festival_pass_event",
+      "display_name": "Labor Fest / Advanced Pass / 节庆通行证",
+      "description": "把节庆任务、奖杯制作、事件货币和 Advanced Pass 放在同一套活动框架内，兼顾留存和付费。",
+      "examples": [
+        "Labor Fest"
+      ],
+      "market_research_notes": "说明该产品已经把 crafting、currency、pass 做成可复用的复合活动模板。",
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HHuIGtSa4AA7dgj.jpg",
+          "caption": "To celebrate Tiles Survive ...",
+          "source_url": "https://x.com/TilesSurvive",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+festival+pass+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive festival pass event",
+          "width": 158,
+          "height": 319,
+          "aspect_ratio": 0.4953,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:31:51.219271+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片展示的是游戏月度好评宣传图，虽属于本游戏但与Labor Fest或节庆通行证活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:16.221946+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/_f3ryHd7LcI/maxresdefault.jpg",
+          "caption": "Play Partner Paradise Event in Tiles ...",
+          "source_url": "https://www.youtube.com/watch?v=_f3ryHd7LcI",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+festival+pass+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive festival pass event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:31:51.219271+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "展示了Partner Paradise活动界面，包含建筑进度、奖励图标等实际玩法元素，虽非Labor Fest但属于此类复合活动模板的变体。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:16.221946+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/_8Lpkc-544I/maxresdefault.jpg",
+          "caption": "Faster | Tiles Survive ...",
+          "source_url": "https://www.youtube.com/watch?v=_8Lpkc-544I",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+festival+pass+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive festival pass event",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:31:51.219271+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "属于该游戏的YouTube视频封面，展示角色等级提升，非特定节庆活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:16.221946+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/_8Lpkc-544I/hqdefault.jpg",
+          "caption": "Tiles Survive Reservoir Raid Guide and ...",
+          "source_url": "https://www.youtube.com/watch?v=_8Lpkc-544I",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+festival+pass+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive festival pass event",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:31:51.219271+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "与图3内容一致，为同一视频封面，非本活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:16.221946+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/kz3xyk0Ra3E/hqdefault.jpg",
+          "caption": "To celebrate Tiles Survive ...",
+          "source_url": "https://www.youtube.com/watch?v=kz3xyk0Ra3E",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+festival+pass+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive festival pass event",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:31:51.219271+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示的是游戏的Reservoir Raid（水库突袭）玩法界面和排行榜，与节庆通行证活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:16.221946+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "event_store",
+      "display_name": "Paw-some Puzzle Party / Gourmet Rush / 事件商店",
+      "description": "围绕 Game Tokens 或活动积分开启限时商店，玩家通过参与活动换取资源、外观或成长道具。",
+      "examples": [
+        "Paw-some Puzzle Party",
+        "Gourmet Rush"
+      ],
+      "market_research_notes": "这是比较标准的 token + event store 组合，适合拉动参与深度。",
+      "images": [
+        {
+          "url": "https://kg-web-cdn.akamaized.net/online/user-platform-web/web-pay-hub/dist_online/static/1774972800/img/ssd-01.12517efb.jpeg",
+          "caption": "Tiles Survive! Official Top-Up Center",
+          "source_url": "https://store.funplus.com/tilessurvive/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+event+store",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive event store",
+          "width": 318,
+          "height": 159,
+          "aspect_ratio": 2.0,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:32:15.043362+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示的是游戏的常规充值商城和礼包界面，包含宝石、角色礼包等，未见与 Paw-some Puzzle Party 等活动商店相关的特定代币或活动标识。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:21.425207+00:00"
+          }
+        },
+        {
+          "url": "https://cdn-www.bluestacks.com/bs-images/unnamed-2025-08-27T113355.982.jpg",
+          "caption": "Tiles Survive! Latest Redeem Codes You ...",
+          "source_url": "https://www.bluestacks.com/blog/redeem-codes/tiles-survive-redeem-codes-en.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+event+store",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive event store",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:32:15.043362+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "这是游戏的通用玩法宣传图，展示基础的资源开采经营，与特定限时活动商店无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:21.425207+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/YED-KOS1kT4/maxresdefault.jpg",
+          "caption": "Tiles Survive: Generate resources from ...",
+          "source_url": "https://www.youtube.com/watch?v=YED-KOS1kT4",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+event+store",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive event store",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:32:15.043362+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是 YouTube 的视频缩略图，内容为游戏资源说明，属于通用生存/资源管理教学，非活动特定界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:21.425207+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/zckZa4Pytdr9QxK-Xv6XlbJo62tZV4pk3VPLBnuUXzR-pmM5nWWHUbo3MT1Lu9xxIRye",
+          "caption": "Tiles Survive! - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=com.funplus.ts.global",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+event+store",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive event store",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:32:15.043362+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 1.0,
+            "reason": "这是游戏在 Google Play 商店的 App 图标，属于通用品牌图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:21.425207+00:00"
+          }
+        },
+        {
+          "url": "https://seagm-media.seagmcdn.com/material/3194.jpg?x-oss-process=image/resize,s_1/resize,w_1200,limit_0/crop,h_630/watermark,image_YXJ0L3Y2L29nL2l0ZW1fb2dfYmcucG5n,g_center/watermark,image_bWF0ZXJpYWwvMzE5NC5qcGc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsbF80NDAsbGltaXRfMC9yb3VuZGVkLWNvcm5lcnMscl8zMA==,g_center",
+          "caption": "Top Up Tiles Survive! | Online Game ...",
+          "source_url": "https://www.seagm.com/en-th/tiles-survive-top-up?srsltid=AfmBOoq9kp2nXpn4ibR3SKbxS9uR2L_d37DKmcUJEa6UpbfkAqk5PFW_",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+event+store",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive event store",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:32:15.043362+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 1.0,
+            "reason": "这是第三方平台的充值宣传图，包含游戏 Logo 和通用主视觉图，不涉及具体活动内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:21.425207+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "fishing_event",
+      "display_name": "Fishing Event / 钓鱼活动",
+      "description": "独立主题小游戏或收集玩法，通常包含专属掉落、限定道具与阶段奖励。",
+      "examples": [
+        "Fishing event"
+      ],
+      "market_research_notes": "从公开描述看，它承担的是玩法变化和活动包装双重角色。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/5Zfp3WGIzRo/maxresdefault.jpg",
+          "caption": "Tiles survive Fishing event guide: tips ...",
+          "source_url": "https://www.youtube.com/watch?v=5Zfp3WGIzRo",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+fishing+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive fishing event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:32:35.441604+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片明确包含游戏名和Fishing Event字样，内容为钓鱼主题宣传图，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:25.152351+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/x2GeBPuwdEo/hqdefault.jpg",
+          "caption": "Tiles Survive! - Fishing Turnament ...",
+          "source_url": "https://www.youtube.com/watch?v=x2GeBPuwdEo",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+fishing+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive fishing event",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:32:35.441604+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图片展现了与活动一致的钓鱼角色及场景，属于视频封面或海报类宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:25.152351+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/vMjKD-roZqU/maxresdefault.jpg",
+          "caption": "Tiles Survive — Event Fishing Dimulai ...",
+          "source_url": "https://www.youtube.com/watch?v=vMjKD-roZqU",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+fishing+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive fishing event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:32:35.441604+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片带有游戏Logo及明确的Fishing Events标题，属于典型的活动宣传海报。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:25.152351+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/OvatcrW-hdo/hqdefault.jpg",
+          "caption": "Fishing Turnament - Arena - Gameplay ...",
+          "source_url": "https://www.youtube.com/watch?v=OvatcrW-hdo",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+fishing+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive fishing event",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:32:35.441604+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图片为钓鱼主题的视觉素材，对应视频标题中的钓鱼锦标赛，无UI界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:25.152351+00:00"
+          }
+        },
+        {
+          "url": "https://kg-web-cdn.akamaized.net/prod/official-website/sd-official-website/dist/public/og-preview.png",
+          "caption": "Tiles Survive",
+          "source_url": "https://tilesurvivegame.com/en/blog/961",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+fishing+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive fishing event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:32:35.441604+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片为游戏的通用品牌宣传图，展示了核心生存/战斗玩法，与具体的钓鱼活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:25.152351+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "dispatch_quality_of_life_event",
+      "display_name": "Dire Dispatch / Doomsday Express / 派遣系统更新",
+      "description": "偏派遣玩法强化或系统更新，强调快速刷新、自动英雄、多队派遣等 QoL 改进，并以活动名形式对外包装。",
+      "examples": [
+        "Dire Dispatch",
+        "Doomsday Express"
+      ],
+      "market_research_notes": "更像 major update 结合系统活动的表达，不是纯独立玩法。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/S5gp-lvgcmg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDGukn9FKapN09PvPGLG-13-8rbOA",
+          "caption": "To celebrate Tiles Survive ...",
+          "source_url": "https://m.youtube.com/watch?v=S5gp-lvgcmg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+dispatch+quality+of+life+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive dispatch quality of life event",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:33:03.479569+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片展示了游戏Tiles Survive的Rising Legend活动，而非派遣系统更新(Dire Dispatch)活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:31.597533+00:00"
+          }
+        },
+        {
+          "url": "https://cdn-www.bluestacks.com/bs-images/unnamed-2025-08-29T132658.130.jpg",
+          "caption": "Tiles Survive! – Base Management and ...",
+          "source_url": "https://www.bluestacks.com/blog/game-guides/tiles-survive/tse-resource-strategy-guide-en.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+dispatch+quality+of+life+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive dispatch quality of life event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:33:03.479569+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "展示的是游戏的基地建设和电力系统介绍图，属于通用经营玩法展示，无法确定与派遣系统更新活动有关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:31.597533+00:00"
+          }
+        },
+        {
+          "url": "https://cdn-www.bluestacks.com/bs-images/uy5r.webp",
+          "caption": "A Beginner's Guide to Tiles Survive ...",
+          "source_url": "https://www.bluestacks.com/blog/game-guides/tiles-survive/tse-beginners-guide-en.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+dispatch+quality+of+life+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive dispatch quality of life event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:33:03.479569+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "这是游戏的新手指南或通用玩法宣传图，展示了资源建筑，与派遣系统更新活动无直接关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:31.597533+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/S5gp-lvgcmg/maxresdefault.jpg",
+          "caption": "Tiles Survive - Rising Legend ...",
+          "source_url": "https://m.youtube.com/watch?v=S5gp-lvgcmg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+dispatch+quality+of+life+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive dispatch quality of life event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:33:03.479569+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "与图1内容一致，是Rising Legend活动的视频封面，不属于所查询的派遣系统活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:31.597533+00:00"
+          }
+        },
+        {
+          "url": "https://d15h26rducpaui.cloudfront.net/kg-face/prod/ss_d/down/8b53cff6946ce29a5b9871721e586c73.png",
+          "caption": "Tiles Survive",
+          "source_url": "https://tilesurvivegame.com/en/blog/835",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=tiles+survive+dispatch+quality+of+life+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "tiles survive dispatch quality of life event",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:33:03.479569+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "这是游戏官方博客的通用角色宣传图或品牌配图，与特定派遣活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:35:31.597533+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "Tiles Survive! 没有完整官方 wiki，公开信息主要来自 App Store、AppsHunter 和少量社区攻略。可以确认它并不只是简单的关卡或基地成长产品，而是已经具备联盟战、赛季阵营活动、节庆活动、事件商店、通行证和派遣系统更新等多层活动包装；不过不少活动目前只能看到名称和商店/更新文案，因此本轮优先保留可公开验证的框架。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T08:33:03.480570+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:35:31.597533+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

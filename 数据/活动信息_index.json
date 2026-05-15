@@ -1,0 +1,873 @@
+﻿[
+    {
+        "rank":  1,
+        "name":  "MONOPOLY GO!",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\01_MONOPOLY_GO.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  5,
+        "image_count":  26,
+        "warning_count":  1,
+        "inferred_event_types":  [
+                                     "collection_album",
+                                     "mini_game",
+                                     "pvp_war",
+                                     "seasonal_festival",
+                                     "store_offer",
+                                     "team_alliance",
+                                     "tournament_competition"
+                                 ]
+    },
+    {
+        "rank":  2,
+        "name":  "Royal Match",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\02_Royal_Match.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  0,
+        "image_count":  12,
+        "warning_count":  0,
+        "inferred_event_types":  [
+                                     "seasonal_festival",
+                                     "team_alliance",
+                                     "tournament_competition"
+                                 ]
+    },
+    {
+        "rank":  3,
+        "name":  "Candy Crush Saga",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\03_Candy_Crush_Saga.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  0,
+        "image_count":  0,
+        "warning_count":  2,
+        "inferred_event_types":  [
+
+                                 ]
+    },
+    {
+        "rank":  4,
+        "name":  "Gossip Harbor®: Merge \u0026 Story",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\04_Gossip_Harbor_Merge_Story.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  1,
+        "image_count":  23,
+        "warning_count":  1,
+        "inferred_event_types":  [
+                                     "battle_pass",
+                                     "collection_album",
+                                     "merge_event",
+                                     "mini_game",
+                                     "pvp_war",
+                                     "seasonal_festival",
+                                     "store_offer",
+                                     "tournament_competition"
+                                 ]
+    },
+    {
+        "rank":  5,
+        "name":  "Last War:Survival",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\05_Last_WarSurvival.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  6,
+        "image_count":  18,
+        "warning_count":  1,
+        "inferred_event_types":  [
+                                     "collection_album",
+                                     "pvp_war",
+                                     "seasonal_festival",
+                                     "store_offer",
+                                     "team_alliance"
+                                 ]
+    },
+    {
+        "rank":  6,
+        "name":  "Kingshot",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\06_Kingshot.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  6,
+        "image_count":  30,
+        "warning_count":  1,
+        "inferred_event_types":  [
+                                     "collection_album",
+                                     "mini_game",
+                                     "pve_boss",
+                                     "pvp_war",
+                                     "seasonal_festival",
+                                     "team_alliance",
+                                     "tournament_competition"
+                                 ]
+    },
+    {
+        "rank":  7,
+        "name":  "Royal Kingdom",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\07_Royal_Kingdom.json",
+        "source_confidence":  "medium",
+        "event_catalog_count":  0,
+        "image_count":  0,
+        "warning_count":  2,
+        "inferred_event_types":  [
+
+                                 ]
+    },
+    {
+        "rank":  8,
+        "name":  "Township",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\08_Township.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  0,
+        "image_count":  0,
+        "warning_count":  2,
+        "inferred_event_types":  [
+
+                                 ]
+    },
+    {
+        "rank":  9,
+        "name":  "Whiteout Survival",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\09_Whiteout_Survival.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  6,
+        "image_count":  13,
+        "warning_count":  0,
+        "inferred_event_types":  [
+                                     "pvp_war",
+                                     "seasonal_festival",
+                                     "team_alliance",
+                                     "tournament_competition"
+                                 ]
+    },
+    {
+        "rank":  10,
+        "name":  "Toon Blast",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\10_Toon_Blast.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  0,
+        "image_count":  0,
+        "warning_count":  2,
+        "inferred_event_types":  [
+
+                                 ]
+    },
+    {
+        "rank":  11,
+        "name":  "Pixel Flow!",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\11_Pixel_Flow.json",
+        "source_confidence":  "medium",
+        "event_catalog_count":  0,
+        "image_count":  6,
+        "warning_count":  0,
+        "inferred_event_types":  [
+
+                                 ]
+    },
+    {
+        "rank":  12,
+        "name":  "Last Z: Survival Shooter",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\12_Last_Z_Survival_Shooter.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  4,
+        "image_count":  30,
+        "warning_count":  1,
+        "inferred_event_types":  [
+                                     "pve_boss",
+                                     "pvp_war",
+                                     "team_alliance",
+                                     "tournament_competition"
+                                 ]
+    },
+    {
+        "rank":  13,
+        "name":  "Free Fire: Undersea Mystery",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\13_Free_Fire_Undersea_Mystery.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  3,
+        "image_count":  9,
+        "warning_count":  1,
+        "inferred_event_types":  [
+                                     "pvp_war",
+                                     "team_alliance"
+                                 ]
+    },
+    {
+        "rank":  14,
+        "name":  "Tasty Travels: Merge Game",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\14_Tasty_Travels_Merge_Game.json",
+        "source_confidence":  "medium",
+        "event_catalog_count":  5,
+        "image_count":  26,
+        "warning_count":  0,
+        "inferred_event_types":  [
+                                     "collection_album",
+                                     "merge_event",
+                                     "pve_boss",
+                                     "store_offer",
+                                     "team_alliance"
+                                 ]
+    },
+    {
+        "rank":  15,
+        "name":  "Match Factory!",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\15_Match_Factory.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  1,
+        "image_count":  1,
+        "warning_count":  0,
+        "inferred_event_types":  [
+                                     "battle_pass",
+                                     "collection_album",
+                                     "merge_event",
+                                     "pvp_war",
+                                     "team_alliance"
+                                 ]
+    },
+    {
+        "rank":  16,
+        "name":  "Coin Master",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\16_Coin_Master.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  0,
+        "image_count":  0,
+        "warning_count":  2,
+        "inferred_event_types":  [
+
+                                 ]
+    },
+    {
+        "rank":  17,
+        "name":  "Gardenscapes",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\17_Gardenscapes.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  0,
+        "image_count":  0,
+        "warning_count":  1,
+        "inferred_event_types":  [
+
+                                 ]
+    },
+    {
+        "rank":  18,
+        "name":  "Pokémon GO",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\18_Pokemon_GO.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  5,
+        "image_count":  29,
+        "warning_count":  1,
+        "inferred_event_types":  [
+                                     "battle_pass",
+                                     "collection_album",
+                                     "pve_boss",
+                                     "pvp_war",
+                                     "seasonal_festival",
+                                     "store_offer",
+                                     "tournament_competition"
+                                 ]
+    },
+    {
+        "rank":  19,
+        "name":  "Merge Cooking®",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\19_Merge_Cooking.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  0,
+        "image_count":  0,
+        "warning_count":  2,
+        "inferred_event_types":  [
+
+                                 ]
+    },
+    {
+        "rank":  20,
+        "name":  "Disney Solitaire",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\20_Disney_Solitaire.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  0,
+        "image_count":  0,
+        "warning_count":  2,
+        "inferred_event_types":  [
+
+                                 ]
+    },
+    {
+        "rank":  21,
+        "name":  "Homescapes: Puzzle \u0026 Design",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\21_Homescapes_Puzzle_Design.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  0,
+        "image_count":  0,
+        "warning_count":  2,
+        "inferred_event_types":  [
+
+                                 ]
+    },
+    {
+        "rank":  22,
+        "name":  "Brawl Stars",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\22_Brawl_Stars.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  0,
+        "image_count":  0,
+        "warning_count":  2,
+        "inferred_event_types":  [
+
+                                 ]
+    },
+    {
+        "rank":  23,
+        "name":  "Evony",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\23_Evony.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  6,
+        "image_count":  30,
+        "warning_count":  1,
+        "inferred_event_types":  [
+                                     "collection_album",
+                                     "mini_game",
+                                     "pve_boss",
+                                     "pvp_war",
+                                     "team_alliance",
+                                     "tournament_competition"
+                                 ]
+    },
+    {
+        "rank":  24,
+        "name":  "Clash of Clans",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\24_Clash_of_Clans.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  0,
+        "image_count":  0,
+        "warning_count":  1,
+        "inferred_event_types":  [
+
+                                 ]
+    },
+    {
+        "rank":  25,
+        "name":  "NYT Games: Wordle \u0026 Crossword",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\25_NYT_Games_Wordle_Crossword.json",
+        "source_confidence":  "low",
+        "event_catalog_count":  6,
+        "image_count":  30,
+        "warning_count":  0,
+        "inferred_event_types":  [
+                                     "battle_pass",
+                                     "collection_album",
+                                     "mini_game",
+                                     "pve_boss",
+                                     "pvp_war",
+                                     "seasonal_festival",
+                                     "store_offer",
+                                     "team_alliance",
+                                     "tournament_competition"
+                                 ]
+    },
+    {
+        "rank":  26,
+        "name":  "Fishdom",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\26_Fishdom.json",
+        "source_confidence":  "medium",
+        "event_catalog_count":  0,
+        "image_count":  2,
+        "warning_count":  1,
+        "inferred_event_types":  [
+                                     "seasonal_festival",
+                                     "store_offer",
+                                     "team_alliance",
+                                     "tournament_competition"
+                                 ]
+    },
+    {
+        "rank":  27,
+        "name":  "Magic Sort!",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\27_Magic_Sort.json",
+        "source_confidence":  "low",
+        "event_catalog_count":  4,
+        "image_count":  9,
+        "warning_count":  0,
+        "inferred_event_types":  [
+                                     "collection_album",
+                                     "pve_boss",
+                                     "store_offer"
+                                 ]
+    },
+    {
+        "rank":  28,
+        "name":  "Jackpot Party - Casino Slots",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\28_Jackpot_Party_-_Casino_Slots.json",
+        "source_confidence":  "medium",
+        "event_catalog_count":  4,
+        "image_count":  9,
+        "warning_count":  1,
+        "inferred_event_types":  [
+                                     "collection_album",
+                                     "pve_boss",
+                                     "store_offer"
+                                 ]
+    },
+    {
+        "rank":  29,
+        "name":  "Lightning Link Casino Slots",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\29_Lightning_Link_Casino_Slots.json",
+        "source_confidence":  "medium",
+        "event_catalog_count":  4,
+        "image_count":  9,
+        "warning_count":  1,
+        "inferred_event_types":  [
+                                     "collection_album",
+                                     "pve_boss",
+                                     "store_offer"
+                                 ]
+    },
+    {
+        "rank":  30,
+        "name":  "Pokémon TCG Pocket",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\30_Pokemon_TCG_Pocket.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  1,
+        "image_count":  19,
+        "warning_count":  1,
+        "inferred_event_types":  [
+                                     "battle_pass",
+                                     "collection_album",
+                                     "pve_boss",
+                                     "tournament_competition"
+                                 ]
+    },
+    {
+        "rank":  31,
+        "name":  "All in Hole: Black Hole Games",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\31_All_in_Hole_Black_Hole_Games.json",
+        "source_confidence":  "low",
+        "event_catalog_count":  4,
+        "image_count":  9,
+        "warning_count":  0,
+        "inferred_event_types":  [
+                                     "collection_album",
+                                     "pve_boss",
+                                     "store_offer"
+                                 ]
+    },
+    {
+        "rank":  32,
+        "name":  "Cashman Casino Slots Games",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\32_Cashman_Casino_Slots_Games.json",
+        "source_confidence":  "medium",
+        "event_catalog_count":  4,
+        "image_count":  9,
+        "warning_count":  1,
+        "inferred_event_types":  [
+                                     "collection_album",
+                                     "pve_boss",
+                                     "store_offer"
+                                 ]
+    },
+    {
+        "rank":  33,
+        "name":  "Call of Duty®: Mobile",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\33_Call_of_Duty_Mobile.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  6,
+        "image_count":  30,
+        "warning_count":  1,
+        "inferred_event_types":  [
+                                     "battle_pass",
+                                     "collection_album",
+                                     "merge_event",
+                                     "pve_boss",
+                                     "pvp_war",
+                                     "seasonal_festival",
+                                     "store_offer",
+                                     "team_alliance",
+                                     "tournament_competition"
+                                 ]
+    },
+    {
+        "rank":  34,
+        "name":  "Travel Town - Merge Adventure",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\34_Travel_Town_-_Merge_Adventure.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  3,
+        "image_count":  9,
+        "warning_count":  1,
+        "inferred_event_types":  [
+                                     "collection_album",
+                                     "merge_event",
+                                     "pvp_war",
+                                     "store_offer",
+                                     "tournament_competition"
+                                 ]
+    },
+    {
+        "rank":  35,
+        "name":  "Clash Royale",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\35_Clash_Royale.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  0,
+        "image_count":  0,
+        "warning_count":  1,
+        "inferred_event_types":  [
+
+                                 ]
+    },
+    {
+        "rank":  36,
+        "name":  "Candy Crush Soda Saga",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\36_Candy_Crush_Soda_Saga.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  6,
+        "image_count":  30,
+        "warning_count":  1,
+        "inferred_event_types":  [
+                                     "battle_pass",
+                                     "collection_album",
+                                     "merge_event",
+                                     "mini_game",
+                                     "pve_boss",
+                                     "pvp_war",
+                                     "seasonal_festival",
+                                     "team_alliance",
+                                     "tournament_competition"
+                                 ]
+    },
+    {
+        "rank":  37,
+        "name":  "Block Out! - Color Sort Puzzle",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\37_Block_Out_-_Color_Sort_Puzzle.json",
+        "source_confidence":  "low",
+        "event_catalog_count":  4,
+        "image_count":  9,
+        "warning_count":  0,
+        "inferred_event_types":  [
+                                     "collection_album",
+                                     "pve_boss",
+                                     "store_offer"
+                                 ]
+    },
+    {
+        "rank":  38,
+        "name":  "Screwdom",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\38_Screwdom.json",
+        "source_confidence":  "low",
+        "event_catalog_count":  4,
+        "image_count":  9,
+        "warning_count":  0,
+        "inferred_event_types":  [
+                                     "collection_album",
+                                     "pve_boss",
+                                     "store_offer"
+                                 ]
+    },
+    {
+        "rank":  39,
+        "name":  "Color Block Jam",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\39_Color_Block_Jam.json",
+        "source_confidence":  "low",
+        "event_catalog_count":  4,
+        "image_count":  9,
+        "warning_count":  0,
+        "inferred_event_types":  [
+                                     "collection_album",
+                                     "pve_boss",
+                                     "store_offer"
+                                 ]
+    },
+    {
+        "rank":  40,
+        "name":  "Age of Origins:Tower Defense",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\40_Age_of_OriginsTower_Defense.json",
+        "source_confidence":  "medium",
+        "event_catalog_count":  1,
+        "image_count":  21,
+        "warning_count":  1,
+        "inferred_event_types":  [
+                                     "collection_album",
+                                     "mini_game",
+                                     "pve_boss",
+                                     "pvp_war",
+                                     "seasonal_festival",
+                                     "store_offer",
+                                     "team_alliance"
+                                 ]
+    },
+    {
+        "rank":  41,
+        "name":  "Total Battle: Strategy Game",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\41_Total_Battle_Strategy_Game.json",
+        "source_confidence":  "medium",
+        "event_catalog_count":  5,
+        "image_count":  14,
+        "warning_count":  1,
+        "inferred_event_types":  [
+                                     "battle_pass",
+                                     "mini_game",
+                                     "pve_boss",
+                                     "pvp_war",
+                                     "seasonal_festival",
+                                     "store_offer",
+                                     "team_alliance",
+                                     "tournament_competition"
+                                 ]
+    },
+    {
+        "rank":  42,
+        "name":  "Invincible: Guarding the Globe",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\42_Invincible_Guarding_the_Globe.json",
+        "source_confidence":  "medium",
+        "event_catalog_count":  0,
+        "image_count":  10,
+        "warning_count":  1,
+        "inferred_event_types":  [
+                                     "collection_album",
+                                     "team_alliance"
+                                 ]
+    },
+    {
+        "rank":  43,
+        "name":  "Free Fire MAX",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\43_Free_Fire_MAX.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  4,
+        "image_count":  9,
+        "warning_count":  1,
+        "inferred_event_types":  [
+                                     "collection_album",
+                                     "pve_boss",
+                                     "store_offer"
+                                 ]
+    },
+    {
+        "rank":  44,
+        "name":  "Love and Deepspace",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\44_Love_and_Deepspace.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  0,
+        "image_count":  12,
+        "warning_count":  1,
+        "inferred_event_types":  [
+
+                                 ]
+    },
+    {
+        "rank":  45,
+        "name":  "Merge Mansion: Puzzles \u0026 Story",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\45_Merge_Mansion_Puzzles_Story.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  0,
+        "image_count":  0,
+        "warning_count":  2,
+        "inferred_event_types":  [
+
+                                 ]
+    },
+    {
+        "rank":  46,
+        "name":  "Dark War:Survival",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\46_Dark_WarSurvival.json",
+        "source_confidence":  "low",
+        "event_catalog_count":  4,
+        "image_count":  9,
+        "warning_count":  0,
+        "inferred_event_types":  [
+                                     "collection_album",
+                                     "pve_boss",
+                                     "store_offer"
+                                 ]
+    },
+    {
+        "rank":  47,
+        "name":  "Toy Blast",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\47_Toy_Blast.json",
+        "source_confidence":  "medium",
+        "event_catalog_count":  0,
+        "image_count":  2,
+        "warning_count":  1,
+        "inferred_event_types":  [
+                                     "battle_pass",
+                                     "collection_album",
+                                     "store_offer",
+                                     "team_alliance",
+                                     "tournament_competition"
+                                 ]
+    },
+    {
+        "rank":  48,
+        "name":  "Marble Sort!",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\48_Marble_Sort.json",
+        "source_confidence":  "low",
+        "event_catalog_count":  4,
+        "image_count":  9,
+        "warning_count":  0,
+        "inferred_event_types":  [
+                                     "collection_album",
+                                     "pve_boss",
+                                     "store_offer"
+                                 ]
+    },
+    {
+        "rank":  49,
+        "name":  "Bingo Blitz™ - BINGO Games",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\49_Bingo_BlitzTM_-_BINGO_Games.json",
+        "source_confidence":  "medium",
+        "event_catalog_count":  0,
+        "image_count":  0,
+        "warning_count":  2,
+        "inferred_event_types":  [
+
+                                 ]
+    },
+    {
+        "rank":  50,
+        "name":  "Tiles Survive!",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\50_Tiles_Survive.json",
+        "source_confidence":  "low",
+        "event_catalog_count":  4,
+        "image_count":  9,
+        "warning_count":  0,
+        "inferred_event_types":  [
+                                     "collection_album",
+                                     "pve_boss",
+                                     "store_offer"
+                                 ]
+    },
+    {
+        "rank":  51,
+        "name":  "Triple Match City",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\51_Triple_Match_City.json",
+        "source_confidence":  "low",
+        "event_catalog_count":  4,
+        "image_count":  9,
+        "warning_count":  0,
+        "inferred_event_types":  [
+                                     "collection_album",
+                                     "pve_boss",
+                                     "store_offer"
+                                 ]
+    },
+    {
+        "rank":  52,
+        "name":  "Flambé®: Merge and Cook",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\52_Flambe_Merge_and_Cook.json",
+        "source_confidence":  "low",
+        "event_catalog_count":  4,
+        "image_count":  9,
+        "warning_count":  0,
+        "inferred_event_types":  [
+                                     "collection_album",
+                                     "pve_boss",
+                                     "store_offer"
+                                 ]
+    },
+    {
+        "rank":  53,
+        "name":  "Solitaire Associations Journey",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\53_Solitaire_Associations_Journey.json",
+        "source_confidence":  "low",
+        "event_catalog_count":  4,
+        "image_count":  9,
+        "warning_count":  0,
+        "inferred_event_types":  [
+                                     "collection_album",
+                                     "pve_boss",
+                                     "store_offer"
+                                 ]
+    },
+    {
+        "rank":  54,
+        "name":  "Quick Hit Casino - Vegas Slots",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\54_Quick_Hit_Casino_-_Vegas_Slots.json",
+        "source_confidence":  "medium",
+        "event_catalog_count":  4,
+        "image_count":  9,
+        "warning_count":  1,
+        "inferred_event_types":  [
+                                     "collection_album",
+                                     "pve_boss",
+                                     "store_offer"
+                                 ]
+    },
+    {
+        "rank":  55,
+        "name":  "MapleStory : Idle RPG",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\55_MapleStory_Idle_RPG.json",
+        "source_confidence":  "medium",
+        "event_catalog_count":  0,
+        "image_count":  0,
+        "warning_count":  1,
+        "inferred_event_types":  [
+
+                                 ]
+    },
+    {
+        "rank":  56,
+        "name":  "Yarn Loop: Knit Puzzle",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\56_Yarn_Loop_Knit_Puzzle.json",
+        "source_confidence":  "low",
+        "event_catalog_count":  4,
+        "image_count":  9,
+        "warning_count":  0,
+        "inferred_event_types":  [
+                                     "collection_album",
+                                     "pve_boss",
+                                     "store_offer"
+                                 ]
+    },
+    {
+        "rank":  57,
+        "name":  "Coin Master - Board Adventure",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\57_Coin_Master_-_Board_Adventure.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  4,
+        "image_count":  7,
+        "warning_count":  1,
+        "inferred_event_types":  [
+                                     "battle_pass",
+                                     "collection_album",
+                                     "merge_event",
+                                     "mini_game",
+                                     "pve_boss",
+                                     "pvp_war",
+                                     "seasonal_festival",
+                                     "store_offer"
+                                 ]
+    },
+    {
+        "rank":  58,
+        "name":  "Star Wars™: Galaxy of Heroes",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\58_Star_WarsTM_Galaxy_of_Heroes.json",
+        "source_confidence":  "high",
+        "event_catalog_count":  5,
+        "image_count":  23,
+        "warning_count":  0,
+        "inferred_event_types":  [
+                                     "pvp_war",
+                                     "team_alliance"
+                                 ]
+    },
+    {
+        "rank":  59,
+        "name":  "EA SPORTS FC Soccer Mobile 26",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\59_EA_SPORTS_FC_Soccer_Mobile_26.json",
+        "source_confidence":  "medium",
+        "event_catalog_count":  3,
+        "image_count":  30,
+        "warning_count":  1,
+        "inferred_event_types":  [
+                                     "battle_pass",
+                                     "collection_album",
+                                     "pvp_war",
+                                     "seasonal_festival",
+                                     "store_offer",
+                                     "team_alliance",
+                                     "tournament_competition"
+                                 ]
+    },
+    {
+        "rank":  60,
+        "name":  "Top Heroes: Kingdom Saga",
+        "file":  "D:\\Project\\Event_Calendar\\数据\\活动信息\\60_Top_Heroes_Kingdom_Saga.json",
+        "source_confidence":  "medium",
+        "event_catalog_count":  0,
+        "image_count":  1,
+        "warning_count":  1,
+        "inferred_event_types":  [
+
+                                 ]
+    }
+]

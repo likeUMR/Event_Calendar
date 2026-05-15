@@ -1,0 +1,1701 @@
+{
+  "rank": 47,
+  "name": "Toy Blast",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 Toy Blast Help Center 的 Events 分区和相关 FAQ，重点核对 Toy Pass、Cart Race、Cube Party、Stats 等页面，并用 AppsHunter 的 App Store 事件流补充近期活动包装，按稳定活动机制归类。",
+  "source_pages": [
+    {
+      "title": "Toy Blast Help Center - Events",
+      "url": "https://peakgames.helpshift.com/hc/en/5-toy-blast/section/19-events/",
+      "notes": "官方帮助中心的活动入口，可确认目前可见的活动名和活动分区。"
+    },
+    {
+      "title": "Toy Blast Help Center - What is Toy Pass?",
+      "url": "https://peakgames.helpshift.com/hc/en/5-toy-blast/faq/477-what-is-toy-pass/",
+      "notes": "用于确认通行证结构、奖励轨和高级奖励逻辑。"
+    },
+    {
+      "title": "Toy Blast Help Center - What is Cart Race?",
+      "url": "https://peakgames.helpshift.com/hc/en/5-toy-blast/faq/572-what-is-cart-race/",
+      "notes": "用于确认竞速型排行活动的目标、结算和参与方式。"
+    },
+    {
+      "title": "Toy Blast Help Center - What is Cube Party?",
+      "url": "https://peakgames.helpshift.com/hc/en/5-toy-blast/faq/324-what-is-cube-party/",
+      "notes": "用于确认收集步进型活动的推进方式和奖励节点。"
+    },
+    {
+      "title": "Toy Blast Help Center - What are the Stats?",
+      "url": "https://peakgames.helpshift.com/hc/en/5-toy-blast/faq/602-what-are-the-stats/",
+      "notes": "用于确认游戏内统计页与 Star Tournament、Legends Arena 等后期排行体系之间的关系。"
+    },
+    {
+      "title": "AppsHunter - Toy Pass",
+      "url": "https://appshunter.io/events/6474603227",
+      "notes": "用于补充近期 App Store 事件流里出现的活动包装和命名。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "battle_pass",
+      "display_name": "Toy Pass / 通行证",
+      "description": "典型 battle pass 结构，围绕阶段任务、奖励轨、免费层与高级层展开，是 Toy Blast 比较明确的长期商业化活动框架。",
+      "examples": [
+        "Toy Pass"
+      ],
+      "market_research_notes": "这类活动更偏稳定留存与付费转化，不是短期爆发型活动。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/Iqk_dXdn3eE/maxresdefault.jpg",
+          "caption": "DEAD TARGET: ZOMBIE GAME 3D: The Toy ...",
+          "source_url": "https://www.youtube.com/watch?v=Iqk_dXdn3eE",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+battle+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast battle pass",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:14:01.086928+00:00",
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 1.0,
+            "reason": "图片属于僵尸射击游戏《Dead Target》，与《Toy Blast》完全无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:36.833463+00:00"
+          }
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/B19+AsHBPvS.png",
+          "caption": "Toy Blast - App on Amazon Appstore",
+          "source_url": "https://www.amazon.com/Peak-Games-Toy-Blast/dp/B00T9WFIO8",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+battle+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast battle pass",
+          "width": 168,
+          "height": 300,
+          "aspect_ratio": 0.56,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:14:01.086928+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片是《Toy Blast》的常用商店宣传图/封面图，未体现具体活动信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:36.833463+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/_vhjo0qR7JA/maxresdefault.jpg",
+          "caption": "TOY BLAST! / EP9 / 98-109 - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=_vhjo0qR7JA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+battle+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast battle pass",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:14:01.086928+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片是游戏视频推介封面，展示了常规关卡和通用元素，与通行证活动无直接关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:36.833463+00:00"
+          }
+        },
+        {
+          "url": "https://www.levelwinner.com/wp-content/uploads/2021/12/toy-blast-guide-1000x563-1.jpg",
+          "caption": "Toy Blast Guide: Tips, Tricks ...",
+          "source_url": "https://www.levelwinner.com/toy-blast-guide-tips-tricks-strategies-to-complete-every-level-fast/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+battle+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast battle pass",
+          "width": 1000,
+          "height": 563,
+          "aspect_ratio": 1.7762,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:14:01.086928+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片是《Toy Blast》的官方通用品牌宣传图，未包含特定活动内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:36.833463+00:00"
+          }
+        },
+        {
+          "url": "https://blog.fetch.com/wp-content/uploads/2024/11/7496970708_Blog_FetchPlay-ToyBlast_Hero_Nov2024.png",
+          "caption": "What is Toy Blast? | FAQs, Tips ...",
+          "source_url": "https://fetch.com/blog/treat-yourself/earn-free-gift-cards-playing-toy-blast-with-fetch-play",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+battle+pass",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast battle pass",
+          "width": 251,
+          "height": 201,
+          "aspect_ratio": 1.2488,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:14:01.086928+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片是《Toy Blast》的通用营销海报，未展示任何与Toy Pass相关的玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:36.833463+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "step_collection_event",
+      "display_name": "Cube Party / Rotor Party / 收集步进活动",
+      "description": "玩家通过关卡内收集指定物件或累计步骤推进奖励条，属于比较经典的 collection progression event。",
+      "examples": [
+        "Cube Party",
+        "Rotor Party"
+      ],
+      "market_research_notes": "这是休闲三消里很常见的 evergreen 活动模板，低理解成本、易做换皮。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/lGGbD32MtzU/maxresdefault.jpg",
+          "caption": "Toy Blast | Gameplay & Walkthrough (iOS ...",
+          "source_url": "https://www.youtube.com/watch?v=lGGbD32MtzU",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+step+collection+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast step collection event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:14:29.632858+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "展示了包含Toy Blast在内的多款游戏图标，属于通用品牌/应用展示，无法关联到特定活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:41.636777+00:00"
+          }
+        },
+        {
+          "url": "https://games.lol/wp-content/uploads/2022/03/toy-blast-hints-ultimate-guide.jpg",
+          "caption": "Toy Blast Hints to Clear Levels - Your ...",
+          "source_url": "https://games.lol/blog/toy-blast-hints-ultimate-guide-to-clear-levels/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+step+collection+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast step collection event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:14:29.632858+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是游戏的通用攻略或攻略配图，包含游戏角色和元素，但未体现特定收集活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:41.636777+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/uzIGk-ZqUpbSdTErg6fr4wagWHmj_ul9Bw7ZtNqZvOqnM6xgdXnqsl8GKg2u9U0Y",
+          "caption": "Toy Blast - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=net.peakgames.amy",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+step+collection+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast step collection event",
+          "width": 166,
+          "height": 296,
+          "aspect_ratio": 0.5608,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:14:29.632858+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.98,
+            "reason": "这是Toy Blast的官方App图标，属于通用资产。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:41.636777+00:00"
+          }
+        },
+        {
+          "url": "https://games.lol/wp-content/uploads/2022/03/Toy-Blast-Level-3-Stars.jpg",
+          "caption": "What is Toy Blast? | FAQs, Tips ...",
+          "source_url": "https://games.lol/blog/toy-blast-hints-ultimate-guide-to-clear-levels/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+step+collection+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast step collection event",
+          "width": 251,
+          "height": 201,
+          "aspect_ratio": 1.2488,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:14:29.632858+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "展示了常规关卡结算和主关卡界面，虽然有收集元素，但属于常驻核心玩法，无法确认是特定的步进活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:41.636777+00:00"
+          }
+        },
+        {
+          "url": "https://blog.fetch.com/wp-content/uploads/2024/11/7496970708_Blog_FetchPlay-ToyBlast_Hero_Nov2024.png",
+          "caption": "Toy Blast Guide: Tips, Tricks ...",
+          "source_url": "https://fetch.com/blog/treat-yourself/earn-free-gift-cards-playing-toy-blast-with-fetch-play",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+step+collection+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast step collection event",
+          "width": 158,
+          "height": 319,
+          "aspect_ratio": 0.4953,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:14:29.632858+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是游戏的通用宣传图或加载图，没有具体的活动名称、奖励条或任务列表。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:41.636777+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "prelevel_booster_event",
+      "display_name": "Crown Rush / 开局增益冲刺",
+      "description": "更偏短周期增益活动，通常要求玩家保持连胜或快速通关，以获得开局 booster、额外奖励或更高分数。",
+      "examples": [
+        "Crown Rush"
+      ],
+      "market_research_notes": "这类活动常用来提高短期开局体验，带动连续游玩。",
+      "images": [
+        {
+          "url": "https://www.levelwinner.com/wp-content/uploads/2021/12/toy-blast-guide-1000x563-1.jpg",
+          "caption": "Toy Blast Guide: Tips, Tricks ...",
+          "source_url": "https://www.levelwinner.com/toy-blast-guide-tips-tricks-strategies-to-complete-every-level-fast/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+prelevel+booster+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast prelevel booster event",
+          "width": 1000,
+          "height": 563,
+          "aspect_ratio": 1.7762,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:15:11.367691+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "Toy Blast 游戏的通用宣传图，未体现具体活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:45.991847+00:00"
+          }
+        },
+        {
+          "url": "https://www.levelwinner.com/wp-content/uploads/2021/12/toy-blast-booster-only-obstacles-400x814-1.jpg.webp",
+          "caption": "Toy Blast Guide: Tips, Tricks ...",
+          "source_url": "https://www.levelwinner.com/toy-blast-guide-tips-tricks-strategies-to-complete-every-level-fast/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+prelevel+booster+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast prelevel booster event",
+          "width": 400,
+          "height": 814,
+          "aspect_ratio": 0.4914,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:15:11.367691+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "固定的三消玩法关卡截图，虽包含道具，但无法确认是否与 Crown Rush 连胜增益活动直接相关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:45.991847+00:00"
+          }
+        },
+        {
+          "url": "https://www.levelwinner.com/wp-content/uploads/2021/12/toy-blast-tips-1000x454-1.jpg.webp",
+          "caption": "Toy Blast Guide: Tips, Tricks ...",
+          "source_url": "https://www.levelwinner.com/toy-blast-guide-tips-tricks-strategies-to-complete-every-level-fast/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+prelevel+booster+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast prelevel booster event",
+          "width": 1000,
+          "height": 454,
+          "aspect_ratio": 2.2026,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:15:11.367691+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "Toy Blast 游戏的通用宣传海报，未见活动相关特征。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:45.991847+00:00"
+          }
+        },
+        {
+          "url": "https://games.lol/wp-content/uploads/2022/03/toy-blast-hints-ultimate-guide.jpg",
+          "caption": "Toy Blast Hints to Clear Levels - Your ...",
+          "source_url": "https://games.lol/blog/toy-blast-hints-ultimate-guide-to-clear-levels/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+prelevel+booster+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast prelevel booster event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:15:11.367691+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "攻略性质的通用宣传图，展示游戏角色，无具体活动关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:45.991847+00:00"
+          }
+        },
+        {
+          "url": "https://games.lol/wp-content/uploads/2022/03/Toy-Blast-boosters.jpg",
+          "caption": "Rotor, TNT, or puzzle cube ...",
+          "source_url": "https://games.lol/blog/toy-blast-hints-ultimate-guide-to-clear-levels/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+prelevel+booster+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast prelevel booster event",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:15:11.367691+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "游戏关卡截图合集，底部提及 Unlock Boosters 但没有 Crown Rush 活动特有的开局增益界面或图标。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:45.991847+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "race_competition",
+      "display_name": "Cart Race / 竞速排行",
+      "description": "玩家通过持续过关推动自己的进度条，与其他玩家实时比速度或累计成绩，属于经典 race competition。",
+      "examples": [
+        "Cart Race"
+      ],
+      "market_research_notes": "适合做轻量 PvP 氛围，不需要真正实时对战。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/uzIGk-ZqUpbSdTErg6fr4wagWHmj_ul9Bw7ZtNqZvOqnM6xgdXnqsl8GKg2u9U0Y",
+          "caption": "Toy Blast - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=net.peakgames.amy",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+race+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast race competition",
+          "width": 166,
+          "height": 296,
+          "aspect_ratio": 0.5608,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:15:45.884363+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为游戏的App图标，属于通用品牌图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:50.245923+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/F_wehFsTwFA/maxresdefault.jpg",
+          "caption": "TOY BLAST! / EP14 / 180-189 - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=F_wehFsTwFA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+race+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast race competition",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:15:45.884363+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图中包含Cart Race活动的入口/弹窗界面，属于活动的宣传/引导图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:50.245923+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/CaxZaEA5V-wodN_LbFar9__0tbWqT0FtXL7a_-Ag7Z-DdcdKjwIdbUG8baCXFZCZfzM=w526-h296-rw",
+          "caption": "Toy Blast - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=net.peakgames.amy",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+race+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast race competition",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:15:45.884363+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "图中展示的是Knight's Journey活动界面，虽然属于本游戏，但与本次待核查的竞速排行活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:50.245923+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/WyUou3Xep8hRjQdi824jazz228W9F72fdJLU2L3_3y1HLJtz27As_utee5K0Zn8-SVQe=w526-h296-rw",
+          "caption": "Toy Blast - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=net.peakgames.amy",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+race+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast race competition",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:15:45.884363+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "图中展示的是Sky Path活动界面，虽然是进度挑战类，但并非待核查的Cart Race活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:50.245923+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/zDyIfq491rr6SUcKqPIkN0fFvrt4dx6rvK1OULWZbEzxKf0l9jgXdDlDdtJYJhuO6ss=w526-h296-rw",
+          "caption": "Toy Blast - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=net.peakgames.amy",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+race+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast race competition",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:15:45.884363+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图中是Toy Blast的标准三消核心玩法截图，不是特定的活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:50.245923+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "pvp_duel",
+      "display_name": "Puzzle Duel / 1v1 对战",
+      "description": "强调玩家间直接对抗或镜像竞赛，通常以 1v1 形式比较关卡表现、得分或通关速度。",
+      "examples": [
+        "Puzzle Duel"
+      ],
+      "market_research_notes": "比普通 leaderboard 更强调对手感和对局感，是更强的 PvP 包装。",
+      "images": [
+        {
+          "url": "https://www.gamerefinery.com/wp-content/uploads/2024/02/competitive-events-header-image.png",
+          "caption": "Event Spotlight] How Mobile Game ...",
+          "source_url": "https://www.gamerefinery.com/event-spotlight-how-mobile-game-developers-can-boost-engagement-in-the-casual-puzzle-genre-with-competitive-1v1-events/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+pvp+duel",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast pvp duel",
+          "width": 258,
+          "height": 196,
+          "aspect_ratio": 1.3163,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:16:08.428781+00:00",
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.95,
+            "reason": "图片展示的是 Match Masters 的活动界面，并非 Toy Blast。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:55.821590+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/QmGGpYJc034/maxresdefault.jpg",
+          "caption": "TOY BLAST! / EP16 / 200-209 - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=QmGGpYJc034",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+pvp+duel",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast pvp duel",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:16:08.428781+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "右侧图片展示了 Cart Race 活动，这是一种玩家竞赛机制，符合 pvp_duel 描述。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:55.821590+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/uzIGk-ZqUpbSdTErg6fr4wagWHmj_ul9Bw7ZtNqZvOqnM6xgdXnqsl8GKg2u9U0Y",
+          "caption": "Toy Blast - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=net.peakgames.amy",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+pvp+duel",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast pvp duel",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:16:08.428781+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片为 Toy Blast 的常见品牌素材或商店图标素材。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:55.821590+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/aNTFgi3jjjsFo0VS4_ghRZwZ8EqZDh-J16riYQ2VdkiWUgxq0E0nccsgBzcPRVsQFmE=w526-h296-rw",
+          "caption": "Toy Blast - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=net.peakgames.amy",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+pvp+duel",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast pvp duel",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:16:08.428781+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了 Cart Race 活动的实际玩法界面，包含多名玩家进度对比和奖励轨。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:55.821590+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/OHXE1L1p100/maxresdefault.jpg",
+          "caption": "TOY BLAST! / EP10 / 110-121 - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=OHXE1L1p100",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+pvp+duel",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast pvp duel",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:16:08.428781+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "图片展示了 Toy Blast 的常规关卡进度和 Hoop Shot 玩法，难以确认与 pvp_duel 直接相关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:32:55.821590+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "star_tournament",
+      "display_name": "Star Tournament / 星星锦标赛",
+      "description": "围绕星星累计、event wins 或高阶玩家数据展开的锦标赛，常见于主线后期用户池。",
+      "examples": [
+        "Star Tournament"
+      ],
+      "market_research_notes": "说明产品已经把部分后期玩家从主线推进中抽离出来做专门竞技循环。",
+      "images": [
+        {
+          "url": "https://i.redd.it/star-tournament-gone-v0-ldaiov4893lg1.jpg?width=1179&format=pjpg&auto=webp&s=e5825f37a7d6b75645a9f863b4ca329c872fd05a",
+          "caption": "Star Tournament gone : r/ToyBlast",
+          "source_url": "https://www.reddit.com/r/ToyBlast/comments/1rbt9lr/star_tournament_gone/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+star+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast star tournament",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:16:34.064809+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图中国内虽然是Toy Blast角色和UI风格，但活动名为Pancake Masters而非Star Tournament。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:00.116244+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/BIDrjOraSnM/maxresdefault.jpg",
+          "caption": "Toy Blast App - Star Tournament - Did I ...",
+          "source_url": "https://www.youtube.com/watch?v=BIDrjOraSnM",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+star+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast star tournament",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:16:34.064809+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "属于YouTube视频封面图，包含游戏Logo和活动标题，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:00.116244+00:00"
+          }
+        },
+        {
+          "url": "https://scontent-hkg4-1.xx.fbcdn.net/v/t15.5256-10/305283870_1145505603044445_6590794062006335765_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=596eb7&_nc_ohc=HCjeAtIN3osQ7kNvwFhXlge&_nc_oc=Adr543uzk5jwHbwnGs_eRamcFFcdIHqx_RocRDIwIYrS1byAOHMfk1TsGToYfaLhhFw&_nc_zt=23&_nc_ht=scontent-hkg4-1.xx&_nc_gid=7V3nbI2QSosSSLxNRNj0bA&_nc_ss=7c20f&oh=00_Af7fo5DXbcfamjJHcZSm2REMGXP49BxGk4vjXz5UHZJ3UQ&oe=6A0A1765",
+          "caption": "Collect stars to get amazing rewards in ...",
+          "source_url": "https://www.facebook.com/toonblast/videos/collect-stars-to-get-amazing-rewards-in-star-tournament-dont-forget-to-leave-in-/1171743193376021/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+star+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast star tournament",
+          "width": 264,
+          "height": 191,
+          "aspect_ratio": 1.3822,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:16:34.064809+00:00",
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.98,
+            "reason": "图片右下角明确展示为竞品游戏Toon Blast而非Toy Blast。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:00.116244+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/this-was-the-closest-star-tournament-yet-i-won-by-only-one-v0-7yrdviwhknqe1.jpeg?auto=webp&s=7c4fbcf3b9007a379ad6a5be16fcec84cf35d89c",
+          "caption": "Star Tournament by collecting stars ...",
+          "source_url": "https://www.reddit.com/r/ToyBlast/comments/1jistho/this_was_the_closest_star_tournament_yet_i_won_by/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+star+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast star tournament",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:16:34.064809+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了Star Tournament活动的结算排名界面，包含排名、奖励、累计星星数以及底部UI。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:00.116244+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/star-tournament-gone-v0-va5o3t7893lg1.jpg?width=1179&format=pjpg&auto=webp&s=0f2e2f6b522adaeaa94bdd82053f0625d858458f",
+          "caption": "Star Tournament gone : r/ToyBlast",
+          "source_url": "https://www.reddit.com/r/ToyBlast/comments/1rbt9lr/star_tournament_gone/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+star+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast star tournament",
+          "width": 172,
+          "height": 294,
+          "aspect_ratio": 0.585,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:16:34.064809+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了Star Tournament活动的实时/结束排行榜界面，包含团体目标进度条和个人排名。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:00.116244+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "streak_challenge",
+      "display_name": "Sky Path / 连胜路径",
+      "description": "玩家通过连续首通、连胜或不失败推进奖励路径，通常在中后段设置 grand prize。",
+      "examples": [
+        "Sky Path"
+      ],
+      "market_research_notes": "本质上是 streak challenge，适合刺激高活跃玩家集中游玩。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/toy-blast-stretch-goal-is-possible-but-was-it-worth-it-v0-27u86gfuatnd1.png?auto=webp&s=11626e1ec4458e8ec78aa74398a635c7ae75a097",
+          "caption": "Toy Blast Stretch Goal is possible. But ...",
+          "source_url": "https://www.reddit.com/r/SwagBucks/comments/1fctyc4/toy_blast_stretch_goal_is_possible_but_was_it/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+streak+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast streak challenge",
+          "width": 177,
+          "height": 284,
+          "aspect_ratio": 0.6232,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:17:04.067865+00:00",
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.95,
+            "reason": "该图是第三方返利平台 Swagbucks 的任务界面，并非游戏内活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:03.427795+00:00"
+          }
+        },
+        {
+          "url": "https://blog.fetch.com/wp-content/uploads/2024/11/7496970708_Blog_FetchPlay-ToyBlast_Hero_Nov2024.png",
+          "caption": "What is Toy Blast? | FAQs, Tips ...",
+          "source_url": "https://fetch.com/blog/treat-yourself/earn-free-gift-cards-playing-toy-blast-with-fetch-play",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+streak+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast streak challenge",
+          "width": 251,
+          "height": 201,
+          "aspect_ratio": 1.2488,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:17:04.067865+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该图为游戏的通用品牌宣传图，未体现 Sky Path 活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:03.427795+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/uzIGk-ZqUpbSdTErg6fr4wagWHmj_ul9Bw7ZtNqZvOqnM6xgdXnqsl8GKg2u9U0Y",
+          "caption": "Toy Blast - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=net.peakgames.amy",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+streak+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast streak challenge",
+          "width": 166,
+          "height": 296,
+          "aspect_ratio": 0.5608,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:17:04.067865+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为游戏的 App 图标。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:03.427795+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/zDyIfq491rr6SUcKqPIkN0fFvrt4dx6rvK1OULWZbEzxKf0l9jgXdDlDdtJYJhuO6ss=w526-h296-rw",
+          "caption": "Toy Blast - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=net.peakgames.amy",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+streak+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast streak challenge",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:17:04.067865+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "该图为游戏的普通三消玩法关卡截图，未体现 Sky Path 连胜路径相关的 UI 或进度条。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:03.427795+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/F_wehFsTwFA/hqdefault.jpg",
+          "caption": "TOY BLAST! / EP14 / 180-189 - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=F_wehFsTwFA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+streak+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast streak challenge",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:17:04.067865+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "该图为 Youtube 视频封面，包含 Cart Race 等其他活动，不涉及 Sky Path 活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:03.427795+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "team_coop",
+      "display_name": "Team Adventure / 团队协作",
+      "description": "以团队总进度为核心，成员共同完成任务、累计进度并解锁共享奖励。",
+      "examples": [
+        "Team Adventure"
+      ],
+      "market_research_notes": "适合增强队伍黏性，让弱社交产品也有明确的 team-wide progress bar。",
+      "images": [
+        {
+          "url": "https://scontent-hkg1-2.xx.fbcdn.net/v/t15.5256-10/277846060_494812652351987_5790928088605408046_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=596eb7&_nc_ohc=FIk5kcKE5AwQ7kNvwGFJsVk&_nc_oc=AdrKG5bOlMBZmWrR62l5z4j8iXRR1wmJZfTGYiXDDA8mL-R7B4RGK5p6UhgLDrmxFwU&_nc_zt=23&_nc_ht=scontent-hkg1-2.xx&_nc_gid=hXVn6dLRWwch37dH2ltKIA&_nc_ss=7c20f&oh=00_Af6cZmE-LLk6ggMD1BenUpYHHtBPYUCZZHd2n3QE43_h2Q&oe=6A09FF2E",
+          "caption": "Toy Blast ...",
+          "source_url": "https://www.facebook.com/toyblast/videos/anyone-who-believes-in-the-power-of-teamwork-once-you-beat-level-20-you-can-easi/531929435034755/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+team+coop",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast team coop",
+          "width": 224,
+          "height": 225,
+          "aspect_ratio": 0.9956,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:17:42.809622+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了游戏中团队信息、成员列表和加入按钮，属于团队协作（Team）功能相关的实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:08.642395+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/vKczWSFfbXk/maxresdefault.jpg",
+          "caption": "Create A Team In Toy Blast ! Tutorial ...",
+          "source_url": "https://www.youtube.com/watch?v=vKczWSFfbXk",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+team+coop",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast team coop",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:17:42.809622+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "这是解释如何创建团队的教学视频封面图，包含游戏Logo和主题文字，无实际可操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:08.642395+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/CaxZaEA5V-wodN_LbFar9__0tbWqT0FtXL7a_-Ag7Z-DdcdKjwIdbUG8baCXFZCZfzM=w526-h296-rw",
+          "caption": "Toy Blast - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=net.peakgames.amy",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+team+coop",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast team coop",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:17:42.809622+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "展示了名为“Knight's Journey”的活动界面，包含队友进度和“Attack”操作按钮，符合团队协作活动的实际玩法。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:08.642395+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/uzIGk-ZqUpbSdTErg6fr4wagWHmj_ul9Bw7ZtNqZvOqnM6xgdXnqsl8GKg2u9U0Y",
+          "caption": "Toy Blast – Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details/Toy_Blast?id=net.peakgames.amy&hl=en_NZ",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+team+coop",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast team coop",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:17:42.809622+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.98,
+            "reason": "这是游戏在应用商店的App图标，属于通用资产，不涉及具体活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:08.642395+00:00"
+          }
+        },
+        {
+          "url": "http://www.thecoopsquad.com/cdn/shop/files/Coop_Buddies_product_feature_d16e3d80-fc67-4feb-8947-91965870f4be.jpg?v=1755458017",
+          "caption": "The Coop Squad Introduces Our 9th ...",
+          "source_url": "https://www.thecoopsquad.com/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+team+coop",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast team coop",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:17:42.809622+00:00",
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 1.0,
+            "reason": "图片展示的是一个名为'Coop Squad'的实体玩具或贴纸产品，与手游'Toy Blast'没有关系。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:08.642395+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "team_competition",
+      "display_name": "Team Race / 团队竞速",
+      "description": "队伍之间按通关速度或总成绩竞争名次，属于团队版 race event。",
+      "examples": [
+        "Team Race"
+      ],
+      "market_research_notes": "相比 Team Adventure 更强调队伍间竞争，而不是只做内部协作。",
+      "images": [
+        {
+          "url": "https://scontent-hkg4-1.xx.fbcdn.net/v/t15.5256-10/294873666_567614404828312_3177475904847415801_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=596eb7&_nc_ohc=L3D-Koy-M9AQ7kNvwHBdLug&_nc_oc=AdqW-J3mZ3TXhmVQxXEKnB2AhhzrpDkYYPkFZdkU9pMsouWwNYbGcqTHoFGj9oUHKvE&_nc_zt=23&_nc_ht=scontent-hkg4-1.xx&_nc_gid=K7vJ0BRl8NsstSxBEC2FeA&_nc_ss=7c20f&oh=00_Af6HfNaugIcIgu4C0b4NKzqBeC2UvnPdc7_Q-XGBMJyOSw&oe=6A0A09E6",
+          "caption": "Toy Blast ...",
+          "source_url": "https://www.facebook.com/toyblast/videos/have-you-noticed-our-new-event-team-adventure-you-can-work-as-a-team-to-receive-/1145823552675142/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+team+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast team competition",
+          "width": 244,
+          "height": 206,
+          "aspect_ratio": 1.1845,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:18:02.926118+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了名为Team Adventure的活动弹窗，属于团队协作活动，与Team Race高度相关，但为说明性质的封面展示。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:13.368586+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/iIe62mO3JQ4/maxresdefault.jpg",
+          "caption": "Join A Team In Toy Blast ! Tutorial ...",
+          "source_url": "https://www.youtube.com/watch?v=iIe62mO3JQ4",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+team+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast team competition",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:18:02.926118+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是关于如何加入团队的教程封面，属于游戏的通用团队功能引导，而非特定活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:13.368586+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/uzIGk-ZqUpbSdTErg6fr4wagWHmj_ul9Bw7ZtNqZvOqnM6xgdXnqsl8GKg2u9U0Y",
+          "caption": "Toy Blast - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=net.peakgames.amy",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+team+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast team competition",
+          "width": 166,
+          "height": 296,
+          "aspect_ratio": 0.5608,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:18:02.926118+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "这是该游戏的App图标或通用的营销品牌图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:13.368586+00:00"
+          }
+        },
+        {
+          "url": "https://scontent-hkg4-1.xx.fbcdn.net/v/t15.5256-10/166377586_514877732866083_3938345025282584124_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a27664&_nc_ohc=WM66HChtqMYQ7kNvwENcJYV&_nc_oc=AdqYrTwLYKRYhN8DpH-RNvvQUgqveuaF86T9bwRzkcttgCCe-Ys4tvr_-TNFGwgA808&_nc_zt=23&_nc_ht=scontent-hkg4-1.xx&_nc_gid=I4ocQB8mX7sqe3PhEH4gOg&_nc_ss=7c20f&oh=00_Af7VibbDpRjfQXkw1_ZYvm5Kldy-N9yv6V4MRNEPGZBS1Q&oe=6A09FB5B",
+          "caption": "Team” tab! 🌟You can create a team ...",
+          "source_url": "https://www.facebook.com/toyblast/videos/the-team-section-is-now-available-you-can-easily-join-a-team-by-using-the-team-t/514877206199469/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+team+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast team competition",
+          "width": 261,
+          "height": 193,
+          "aspect_ratio": 1.3523,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:18:02.926118+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "展示的是游戏的大地图界面及团队功能的开放提示，属于通用系统介绍图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:13.368586+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/aNTFgi3jjjsFo0VS4_ghRZwZ8EqZDh-J16riYQ2VdkiWUgxq0E0nccsgBzcPRVsQFmE=w526-h296-rw",
+          "caption": "Toy Blast - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=net.peakgames.amy",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+team+competition",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast team competition",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:18:02.926118+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了Cart Race界面，虽然叫Cart Race但玩法逻辑符合描述中的Race Event，且展现了排行榜、进度条及竞争名次的实际玩法。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:13.368586+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "late_game_league",
+      "display_name": "Legends Arena / 高段位联赛",
+      "description": "偏后期或高阶玩家池的联赛体系，用来承接主线外的长期竞技留存。",
+      "examples": [
+        "Legends Arena"
+      ],
+      "market_research_notes": "这类模式一般只对高进度用户开放，是典型 endgame league 设计。",
+      "images": [
+        {
+          "url": "https://games.lol/wp-content/uploads/2022/03/toy-blast-hints-ultimate-guide.jpg",
+          "caption": "Toy Blast Hints to Clear Levels - Your ...",
+          "source_url": "https://games.lol/blog/toy-blast-hints-ultimate-guide-to-clear-levels/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+late+game+league",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast late game league",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:18:37.839215+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "属于Toy Blast游戏的通用攻略宣传图，与Legends Arena活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:16.984931+00:00"
+          }
+        },
+        {
+          "url": "https://games.lol/wp-content/uploads/2020/12/toy-blast-rubix-cube.jpg",
+          "caption": "Toy Blast Hints to Clear Levels - Your ...",
+          "source_url": "https://games.lol/blog/toy-blast-hints-ultimate-guide-to-clear-levels/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+late+game+league",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast late game league",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:18:37.839215+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "属于Toy Blast游戏的常规关卡玩法截图，无法确认与Legends Arena活动有关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:16.984931+00:00"
+          }
+        },
+        {
+          "url": "https://imgix.bustle.com/fatherly/2018/08/toyblast_header.jpg?w=1200&h=1200&fit=crop&crop=faces&fm=jpg",
+          "caption": "Toy Blast ...",
+          "source_url": "https://www.fatherly.com/gear/toy-blast-game-kids-should-kids-play",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+late+game+league",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast late game league",
+          "width": 1200,
+          "height": 1200,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:18:37.839215+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "属于Toy Blast游戏的常规关卡玩法截图，无法确认与Legends Arena活动有关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:16.984931+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/C93jFhq9cNw/maxresdefault.jpg",
+          "caption": "TOY BLAST! / EP12 / 136-157 - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=C93jFhq9cNw",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+late+game+league",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast late game league",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:18:37.839215+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "包含游戏Logo、加载图和常规玩法任务截图（如Cart Race），与Legends Arena活动描述不符。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:16.984931+00:00"
+          }
+        },
+        {
+          "url": "https://i5.walmartimages.com/seo/Rocket-League-Light-Blast-Racer_6a430e07-d0b1-41c4-8675-5ccf39d55f3b.dac977643add80a6ffc9a3bf391c0504.jpeg",
+          "caption": "Rocket League Light Blast Racer - Toy ...",
+          "source_url": "https://www.walmart.com/ip/Rocket-League-Light-Blast-Racer/651092255",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+late+game+league",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast late game league",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:18:37.839215+00:00",
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 1.0,
+            "reason": "这是Rocket League（火箭联盟）的玩具车商品图，与本游戏Toy Blast完全无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:16.984931+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "minigame_event",
+      "display_name": "Treasure Island / 主题小游戏",
+      "description": "以 Treasure Island 这类主题包装承载的小游戏或探索活动，通常用来丰富主玩法之外的节奏。",
+      "examples": [
+        "Treasure Island"
+      ],
+      "market_research_notes": "更像内容调味层，重要的是视觉主题和奖励包装。",
+      "images": [
+        {
+          "url": "https://www.gamerefinery.com/wp-content/uploads/2024/02/toy-blast-puzzle-duel.png",
+          "caption": "event on Toy Blast ...",
+          "source_url": "https://www.gamerefinery.com/event-spotlight-how-mobile-game-developers-can-boost-engagement-in-the-casual-puzzle-genre-with-competitive-1v1-events/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+minigame+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast minigame event",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:19:10.672424+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了名为 Puzzle Duel 的小游戏活动界面，包含进度条、奖励路径和匹配机制，属于 minigame_event。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:23.683754+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/mLwNfq12Trk/maxresdefault.jpg",
+          "caption": "TOY BLAST! / EP17 / 210-219 - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=mLwNfq12Trk",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+minigame+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast minigame event",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:19:10.672424+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了 Cart Race 和 Hoop Shot 等活动入口海报，属于活动宣传封面图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:23.683754+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/managed-to-win-lots-of-money-from-the-sky-race-event-v0-j84g86bvog6g1.jpeg?width=640&crop=smart&auto=webp&s=8b8a12a618570adb05596fba1e285e345bf01bc5",
+          "caption": "ToyBlast",
+          "source_url": "https://www.reddit.com/r/ToyBlast/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+minigame+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast minigame event",
+          "width": 152,
+          "height": 330,
+          "aspect_ratio": 0.4606,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:19:10.672424+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "展示了 Sky Race 活动获胜后的奖励结算界面，属于活动内反馈界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:23.683754+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/w41GMNX0gj4/maxresdefault.jpg",
+          "caption": "Toy Blast Level 2564 - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=w41GMNX0gj4",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+minigame+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast minigame event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:19:10.672424+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示的是 Toy Blast 核心消除玩法关卡界面，无法确认与特定小游戏活动有关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:23.683754+00:00"
+          }
+        },
+        {
+          "url": "https://games.lol/wp-content/uploads/2022/03/Toy-Blast-boosters.jpg",
+          "caption": "Toy Blast Hints to Clear Levels - Your ...",
+          "source_url": "https://games.lol/blog/toy-blast-hints-ultimate-guide-to-clear-levels/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+minigame+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast minigame event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:19:10.672424+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示的是游戏通用宣传图和普通关卡截图，用于介绍道具，与特定活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:23.683754+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "quest_board_event",
+      "display_name": "Hoop Shot / Knight's Journey / 任务板活动",
+      "description": "围绕一组任务节点、路线选择或阶段小目标展开，玩家按任务板逐步清空奖励。",
+      "examples": [
+        "Hoop Shot",
+        "Knight's Journey"
+      ],
+      "market_research_notes": "常用于把多个轻目标串起来，提高短周期留存和完成感。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/Aj9gCxaxj60/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBuSUQxpZtvpa_xHTIgljdbsnlCCg",
+          "caption": "event on Toy Blast ...",
+          "source_url": "https://www.youtube.com/watch?v=Aj9gCxaxj60",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+quest+board+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast quest board event",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:19:44.898834+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片是游戏攻略视频封面，展示了游戏图标和通用品牌图，不涉及具体活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:27.647916+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/mLwNfq12Trk/maxresdefault.jpg",
+          "caption": "TOY BLAST! / EP17 / 210-219 - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=mLwNfq12Trk",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+quest+board+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast quest board event",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:19:44.898834+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "图中出现了Hoop Shot活动的展示图和Cart Race活动弹窗，属于活动宣传展示，非玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:27.647916+00:00"
+          }
+        },
+        {
+          "url": "https://pbs.twimg.com/media/Fv7-lwNWYAQwt0p.jpg",
+          "caption": "Toy Blast (@ToyBlast) / Posts / X",
+          "source_url": "https://x.com/ToyBlast",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+quest+board+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast quest board event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:19:44.898834+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图片展示了活动的官方日历图，包含了Hoop Shot等活动信息，属于宣传介绍性质。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:27.647916+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Aj9gCxaxj60/maxresdefault.jpg",
+          "caption": "How to check events on Toy Blast? - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=Aj9gCxaxj60",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+quest+board+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast quest board event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:19:44.898834+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "同图1，是攻略视频封面，展示通用游戏素材，未关联到具体的任务板活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:27.647916+00:00"
+          }
+        },
+        {
+          "url": "https://images.sftcdn.net/images/t_app-cover-s,f_auto/p/15ce7a46-7a9a-41ad-bdef-8b39ccd44c03/2023381380/toy-blast-bbn-Playing-Toy-Blast-android.jpg",
+          "caption": "Toy Blast for Android - Download",
+          "source_url": "https://toy-blast-bbn.en.softonic.com/android",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+quest+board+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast quest board event",
+          "width": 168,
+          "height": 299,
+          "aspect_ratio": 0.5619,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:19:44.898834+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图是游戏的通用商店展示截图，展示核心消除玩法，而非特定活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:27.647916+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "economy_promo",
+      "display_name": "Toy Coupon / Coin Rush / 经济促销活动",
+      "description": "偏资源加成、优惠券、限时兑换或金币加速类活动，核心是刺激货币消耗与短期转化。",
+      "examples": [
+        "Toy Coupon",
+        "Coin Rush"
+      ],
+      "market_research_notes": "更多承担 economy promo 角色，而不是独立玩法。",
+      "images": [
+        {
+          "url": "https://blog.fetch.com/wp-content/uploads/2024/11/7496970708_Blog_FetchPlay-ToyBlast_Hero_Nov2024.png",
+          "caption": "What is Toy Blast? | FAQs, Tips ...",
+          "source_url": "https://fetch.com/blog/treat-yourself/earn-free-gift-cards-playing-toy-blast-with-fetch-play",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+economy+promo",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast economy promo",
+          "width": 251,
+          "height": 201,
+          "aspect_ratio": 1.2488,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:20:10.995417+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "属于游戏Toy Blast的品牌宣传和Hero图，含有游戏Logo和角色，但由于其内容是通用的品牌展示，无法确认与特定的经济促销活动有关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:32.530445+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/has-anyone-done-the-toy-blast-offer-v0-e0tdwfpplihb1.png?width=640&crop=smart&auto=webp&s=a1499bc56b9a184ed856b0b67cebb4332ff03e9c",
+          "caption": "Has anyone done the Toy Blast offer ...",
+          "source_url": "https://www.reddit.com/r/SwagBucks/comments/15ofzpd/has_anyone_done_the_toy_blast_offer/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+economy+promo",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast economy promo",
+          "width": 149,
+          "height": 339,
+          "aspect_ratio": 0.4395,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:20:10.995417+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是第三方平台Swagbucks的游戏下载任务墙界面，而非游戏内的经济促销活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:32.530445+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/mLwNfq12Trk/maxresdefault.jpg",
+          "caption": "TOY BLAST! / EP17 / 210-219 - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=mLwNfq12Trk",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+economy+promo",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast economy promo",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:20:10.995417+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "图片展示了Cart Race和Hoop Shot等竞技类子活动，与Economy Promo（如优惠券、金币加速）的核心描述不符，属于确定游戏但无法确定属于本类活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:32.530445+00:00"
+          }
+        },
+        {
+          "url": "https://static.wixstatic.com/media/233a52_c12e7e13f48947aca0d13f8cbdd4b796~mv2.jpg/v1/fill/w_1920,h_1080,al_c/233a52_c12e7e13f48947aca0d13f8cbdd4b796~mv2.jpg",
+          "caption": "Toy Blast - Peak Games / Game Trailer",
+          "source_url": "https://www.koffanimation.co.uk/toy-blast-peak-games",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+economy+promo",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast economy promo",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:20:10.995417+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "游戏预告片截图，展示了常规的主地图关卡界面和角色，无明显的Economy Promo活动特征。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:32.530445+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/uzIGk-ZqUpbSdTErg6fr4wagWHmj_ul9Bw7ZtNqZvOqnM6xgdXnqsl8GKg2u9U0Y",
+          "caption": "Toy Blast - Apps on Google Play",
+          "source_url": "https://play.google.com/store/apps/details?id=net.peakgames.amy",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=toy+blast+economy+promo",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "toy blast economy promo",
+          "width": 166,
+          "height": 296,
+          "aspect_ratio": 0.5608,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:20:10.995417+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.98,
+            "reason": "该图为游戏的App Store图标，符合判定要求中对于图标选3的规则。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:32.530445+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "Toy Blast 的公开资料不像 Toon Blast 那么完整，官方帮助中心能确认的核心长期系统主要集中在 Toy Pass、Cart Race、Cube Party、团队玩法、锦标赛与后期联赛。其余像 Treasure Island、Hoop Shot、Knight's Journey、Toy Coupon、Coin Rush 更像阶段性包装或任务板/促销层，所以本轮按机制并拢，没有把每一次命名变化拆成独立玩法。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T08:20:10.999388+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:33:32.530445+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

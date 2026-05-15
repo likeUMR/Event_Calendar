@@ -1,0 +1,172 @@
+{
+  "rank": 44,
+  "name": "Love and Deepspace",
+  "source_confidence": "high",
+  "source_notes": null,
+  "collected_at": "2026-05-12T04:02:57.631Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Love and Deepspace Wiki - Events",
+      "source_type": "fandom",
+      "source_url": "https://loveanddeepspace.fandom.com/wiki/Events",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "source_title": "Love and Deepspace Official",
+      "source_type": "official",
+      "source_url": "https://loveanddeepspace.infoldgames.com/",
+      "fetched_url": "https://loveanddeepspace.infoldgames.com/en-EN/home",
+      "status": 200,
+      "page_title": "Love and Deepspace Website - Romance simulation game with 3D intimate interactions",
+      "meta_description": "Love Is Within Reach! Love and Deepspace Pre-order Starts Now!",
+      "relevant_text_blocks": [
+        "To improve your experience on our website, we use cookies. Learn more"
+      ],
+      "inferred_event_types": [],
+      "images": [
+        {
+          "url": "https://assets.infoldgames.com/resources/cdn/20251230/ade40ded471acd21.jpg",
+          "alt": "og:image",
+          "kind": "preview"
+        },
+        {
+          "url": "https://assets.papegames.com/nikkiweb/deepspace/deepspace-home-other/_next/static/media/home.31bd4e1d.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets.papegames.com/nikkiweb/deepspace/deepspace-home-other/_next/static/media/characters.a4b088f7.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets.papegames.com/nikkiweb/deepspace/deepspace-home-other/_next/static/media/features.fbb2200b.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets.papegames.com/nikkiweb/deepspace/deepspace-home-other/_next/static/media/gallery.d0edd562.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets.papegames.com/nikkiweb/deepspace/deepspace-home-other/_next/static/media/news.ca800484.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets.papegames.com/nikkiweb/deepspace/deepspace-home-other/_next/static/media/charge.a9d078f9.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets.papegames.com/nikkiweb/deepspace/deepspace-home-other/_next/static/media/innercenter.b3d9d5c1.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets.papegames.com/nikkiweb/deepspace/deepspace-home-other/_next/static/media/twitter_light.91b76827.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets.papegames.com/nikkiweb/deepspace/deepspace-home-other/_next/static/media/fb_light.b42d4496.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets.papegames.com/nikkiweb/deepspace/deepspace-home-other/_next/static/media/youtube_light.748a58ca.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets.papegames.com/nikkiweb/deepspace/deepspace-home-other/_next/static/media/discard.caa0edbd.png",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "event_detail_pages": [],
+  "event_catalog": [],
+  "inferred_event_type_summary": [],
+  "screenshots_or_images": [
+    {
+      "url": "https://assets.infoldgames.com/resources/cdn/20251230/ade40ded471acd21.jpg",
+      "alt": "og:image",
+      "kind": "preview",
+      "source_url": "https://loveanddeepspace.infoldgames.com/"
+    },
+    {
+      "url": "https://assets.papegames.com/nikkiweb/deepspace/deepspace-home-other/_next/static/media/home.31bd4e1d.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://loveanddeepspace.infoldgames.com/"
+    },
+    {
+      "url": "https://assets.papegames.com/nikkiweb/deepspace/deepspace-home-other/_next/static/media/characters.a4b088f7.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://loveanddeepspace.infoldgames.com/"
+    },
+    {
+      "url": "https://assets.papegames.com/nikkiweb/deepspace/deepspace-home-other/_next/static/media/features.fbb2200b.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://loveanddeepspace.infoldgames.com/"
+    },
+    {
+      "url": "https://assets.papegames.com/nikkiweb/deepspace/deepspace-home-other/_next/static/media/gallery.d0edd562.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://loveanddeepspace.infoldgames.com/"
+    },
+    {
+      "url": "https://assets.papegames.com/nikkiweb/deepspace/deepspace-home-other/_next/static/media/news.ca800484.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://loveanddeepspace.infoldgames.com/"
+    },
+    {
+      "url": "https://assets.papegames.com/nikkiweb/deepspace/deepspace-home-other/_next/static/media/charge.a9d078f9.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://loveanddeepspace.infoldgames.com/"
+    },
+    {
+      "url": "https://assets.papegames.com/nikkiweb/deepspace/deepspace-home-other/_next/static/media/innercenter.b3d9d5c1.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://loveanddeepspace.infoldgames.com/"
+    },
+    {
+      "url": "https://assets.papegames.com/nikkiweb/deepspace/deepspace-home-other/_next/static/media/twitter_light.91b76827.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://loveanddeepspace.infoldgames.com/"
+    },
+    {
+      "url": "https://assets.papegames.com/nikkiweb/deepspace/deepspace-home-other/_next/static/media/fb_light.b42d4496.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://loveanddeepspace.infoldgames.com/"
+    },
+    {
+      "url": "https://assets.papegames.com/nikkiweb/deepspace/deepspace-home-other/_next/static/media/youtube_light.748a58ca.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://loveanddeepspace.infoldgames.com/"
+    },
+    {
+      "url": "https://assets.papegames.com/nikkiweb/deepspace/deepspace-home-other/_next/static/media/discard.caa0edbd.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://loveanddeepspace.infoldgames.com/"
+    }
+  ],
+  "collection_warnings": [
+    "Fetch failed: https://loveanddeepspace.fandom.com/wiki/Events"
+  ]
+}

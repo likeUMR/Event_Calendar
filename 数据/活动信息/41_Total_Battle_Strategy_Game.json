@@ -1,0 +1,671 @@
+{
+  "rank": 41,
+  "name": "Total Battle: Strategy Game",
+  "source_confidence": "medium",
+  "source_notes": null,
+  "collected_at": "2026-05-12T04:02:33.910Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Total Battle Wiki",
+      "source_type": "official_wiki",
+      "source_url": "https://wiki.totalbattle.com/",
+      "status": 0,
+      "error": "getaddrinfo ENOTFOUND wiki.totalbattle.com"
+    },
+    {
+      "source_title": "Total Battle Official",
+      "source_type": "official",
+      "source_url": "https://totalbattle.com/",
+      "fetched_url": "https://totalbattle.com/en/",
+      "status": 200,
+      "page_title": "Total Battle - Free strategy game",
+      "meta_description": "Total Battle is a new massive online multiplayer (MMO) strategy game. Intense PVP, no download required - join now for free!",
+      "relevant_text_blocks": [
+        "Looking for challenge, Your Majesty? The best way is to face the mightiest warriors in dozens of tournaments which are held every day.",
+        "The friend in need is a friend indeed or the one in the clan is even better. Team up under one banner. The road to the Throne is too dangerous to walk alone on, so team up under one banner.",
+        "Feeling strong enough to challenge other lords in a fight? Show your command and diplomatic skills to get to the Senate and persuade others to reach the Throne!",
+        "The Gods created elves, barbarians, demons, undead, dragons and beasts. These creatures had to fight for their place under sun. Soon, they have found their common enemy - humans. Beat them in a battle in an ultimate free online war game.",
+        "Move troops in online strategy war game",
+        "Online strategy games are famous for multiple long-time marches. Hours of waiting instead of instant action may irritate the most patient lords. This was the problem which our best mages from the Academy tried to solve at all costs. They were working day and night to work out the solution to make your army move across different battlefields. Forget about hours of waiting while your troops march towards enemy. Innovative portal feature is at your service. Be sudden and attack unexpectedly, ruin enemy castles and vanish. The distance in no longer the issue.",
+        "Fantastic mix of strategy games and the heat of politics is in your browser. It won’t be enough to be the strongest lord ever with thousands well-trained soldiers behind your back. The world of Total Battle is built not only on physical force. Negotiations are inevitable if you want to unite hundreds of cities under one common banner. Every week battle drums announce the Clash for Throne. You need to be not only strong enough to win, also you have to persuade the Senate to vote for you. An experience which was never met before.",
+        "Technologies in online strategy war game",
+        "Sometimes the circumstances may change or your Majesty might be looking for a new challenge. In this case the Mages from our Academy have invented Teleporter to another Kingdom, which can help you to restart the things or move closer to your new allies.",
+        "Captains in free online war game",
+        "Aydae knows how to defeat monsters. Dreadful creatures which managed to survive her attacks try to warn others to avoid her. She’s the perfect option to plan your strategy against monsters in this game. Logos is well-known for his scarface and extreme battle skills in duels. All swordsmen praise him like a god of sword mastery, and if you want to challenge some other lord in battle, he will be your best choice to show your enemies who’s stronger in this free online game. Many other captains with their own skills are waiting to be summoned under your banner.",
+        "Treasure hunters would never dream about such amount adventures to have in their lives. Mysterious crypts which contain rare materials for item crafting are full of dangers. Their gifts will be given to the most courageous explorers.",
+        "Construct the Empire",
+        "Global events in online strategy game",
+        "This massive online multiplayer strategy game and the world of Total Battle is a dynamically changing. The new lords are coming to stand their ground on the way to the Throne. They compete with each other in different tournaments, the winners receive generous rewards.",
+        "Try to play for free and your best to challenge other players in individual tournaments. How wise and strong you are in the challenge for the Throne? Finally, the best warriors from each kingdom challenge themselves in the furious battle among all the kingdoms! The winner gets mountains of gold and respect of the others in the free online browser game.",
+        "SCOREWARRIOR LIMITED"
+      ],
+      "inferred_event_types": [
+        "tournament_competition",
+        "team_alliance",
+        "pve_boss",
+        "pvp_war",
+        "mini_game"
+      ],
+      "images": [
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/landings/castle/castle.a49fbf3158891d7de4e2.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_01.aed115336c468dfe143c.jpg",
+          "alt": "Slide 1",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_02.07e1f40258b6f3c16071.jpg",
+          "alt": "Slide 2",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_03.bcdc7b044ef83d48fc73.jpg",
+          "alt": "Slide 3",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_04.ce4a578f06630f8e41a2.jpg",
+          "alt": "Slide 4",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_05.94e62518f2948fc5e7a3.jpg",
+          "alt": "Slide 5",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/girl.2347b8d627fc68197186.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/city_v12.9ee624cd8107b9ebe6c8.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/warrior_v12.6eaa2e938de2c5cc3512.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/crypt.ac69d678049c592b7f0c.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/user_01.dbdad716c7c2a3abfb46.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/user_02.495296b2affffa0e7df3.png",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "event_detail_pages": [
+    {
+      "source_title": "End-User License Agreement",
+      "source_type": "event_detail",
+      "source_url": "https://totalbattle.com/en/#eula_policy",
+      "fetched_url": "https://totalbattle.com/en/#eula_policy",
+      "status": 200,
+      "page_title": "Total Battle - Free strategy game",
+      "meta_description": "Total Battle is a new massive online multiplayer (MMO) strategy game. Intense PVP, no download required - join now for free!",
+      "relevant_text_blocks": [
+        "Looking for challenge, Your Majesty? The best way is to face the mightiest warriors in dozens of tournaments which are held every day.",
+        "The friend in need is a friend indeed or the one in the clan is even better. Team up under one banner. The road to the Throne is too dangerous to walk alone on, so team up under one banner.",
+        "Feeling strong enough to challenge other lords in a fight? Show your command and diplomatic skills to get to the Senate and persuade others to reach the Throne!",
+        "The Gods created elves, barbarians, demons, undead, dragons and beasts. These creatures had to fight for their place under sun. Soon, they have found their common enemy - humans. Beat them in a battle in an ultimate free online war game.",
+        "Move troops in online strategy war game",
+        "Online strategy games are famous for multiple long-time marches. Hours of waiting instead of instant action may irritate the most patient lords. This was the problem which our best mages from the Academy tried to solve at all costs. They were working day and night to work out the solution to make your army move across different battlefields. Forget about hours of waiting while your troops march towards enemy. Innovative portal feature is at your service. Be sudden and attack unexpectedly, ruin enemy castles and vanish. The distance in no longer the issue.",
+        "Fantastic mix of strategy games and the heat of politics is in your browser. It won’t be enough to be the strongest lord ever with thousands well-trained soldiers behind your back. The world of Total Battle is built not only on physical force. Negotiations are inevitable if you want to unite hundreds of cities under one common banner. Every week battle drums announce the Clash for Throne. You need to be not only strong enough to win, also you have to persuade the Senate to vote for you. An experience which was never met before.",
+        "Technologies in online strategy war game",
+        "Sometimes the circumstances may change or your Majesty might be looking for a new challenge. In this case the Mages from our Academy have invented Teleporter to another Kingdom, which can help you to restart the things or move closer to your new allies.",
+        "Captains in free online war game",
+        "Aydae knows how to defeat monsters. Dreadful creatures which managed to survive her attacks try to warn others to avoid her. She’s the perfect option to plan your strategy against monsters in this game. Logos is well-known for his scarface and extreme battle skills in duels. All swordsmen praise him like a god of sword mastery, and if you want to challenge some other lord in battle, he will be your best choice to show your enemies who’s stronger in this free online game. Many other captains with their own skills are waiting to be summoned under your banner.",
+        "Treasure hunters would never dream about such amount adventures to have in their lives. Mysterious crypts which contain rare materials for item crafting are full of dangers. Their gifts will be given to the most courageous explorers.",
+        "Construct the Empire",
+        "Global events in online strategy game",
+        "This massive online multiplayer strategy game and the world of Total Battle is a dynamically changing. The new lords are coming to stand their ground on the way to the Throne. They compete with each other in different tournaments, the winners receive generous rewards.",
+        "Try to play for free and your best to challenge other players in individual tournaments. How wise and strong you are in the challenge for the Throne? Finally, the best warriors from each kingdom challenge themselves in the furious battle among all the kingdoms! The winner gets mountains of gold and respect of the others in the free online browser game.",
+        "SCOREWARRIOR LIMITED"
+      ],
+      "inferred_event_types": [
+        "tournament_competition",
+        "team_alliance",
+        "pve_boss",
+        "pvp_war",
+        "mini_game"
+      ],
+      "images": [
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/landings/castle/castle.a49fbf3158891d7de4e2.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_01.aed115336c468dfe143c.jpg",
+          "alt": "Slide 1",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_02.07e1f40258b6f3c16071.jpg",
+          "alt": "Slide 2",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_03.bcdc7b044ef83d48fc73.jpg",
+          "alt": "Slide 3",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_04.ce4a578f06630f8e41a2.jpg",
+          "alt": "Slide 4",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_05.94e62518f2948fc5e7a3.jpg",
+          "alt": "Slide 5",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/girl.2347b8d627fc68197186.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/city_v12.9ee624cd8107b9ebe6c8.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/warrior_v12.6eaa2e938de2c5cc3512.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/crypt.ac69d678049c592b7f0c.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/user_01.dbdad716c7c2a3abfb46.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/user_02.495296b2affffa0e7df3.png",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Resend",
+      "url": "https://totalbattle.com/resend",
+      "discovered_from": "https://totalbattle.com/",
+      "status": 404,
+      "error": "fetch_failed"
+    },
+    {
+      "source_title": "Support service",
+      "source_type": "event_detail",
+      "source_url": "https://scorewarrior.helpshift.com/a/total-battle/?l=en",
+      "fetched_url": "https://scorewarrior.helpshift.com/hc/en/3-total-battle/?l=en",
+      "status": 200,
+      "page_title": "Hi, how can we help you?",
+      "meta_description": "Are you looking for help with Total Battle? Learn more about What's new?, FAQ, Account Management, Technical issues, Payment issues, Fair & Safe Play, Community, Artifacts, Seasonal Kingdom, Buildings in the City, Army, In-game Resources, Hero & Captains, Dragon, Hall of Fame, Triumphal Challenge, Union of Triumph, Clan, Events, Teleportation, Equipment, Journal, Kingdom Map, Bonuses, DSA Point of Contact (EU-Only).",
+      "relevant_text_blocks": [
+        "This website uses only the necessary cookies required for the site's proper functioning. By using the website, you consent to all cookies in accordance with the cookie policy. To know more, refer Cookie Policy. Total Battle Support Hi, how can we help you? Popular articles How do I unlock Artifacts? Artifacts How can I upgrade Artifacts? Artifacts Can Artifact bonuses be changed? Artifacts How do I keep a specific bonus? Artifacts How do I upgrade Artifact stars? Artifacts How do Artifact stars work? Artifacts Browse articles What's new? [Triumph] Update to the Terms of Service, Privacy Policy and EULA",
+        "[Total Battle] Update to the Terms of Service, Privacy Policy and EULA",
+        "Why didn't I get a reward for fighting a monster?",
+        "How do I claim gifts from Total Battle YouTube channel?",
+        "What is the Seasonal Kingdom?",
+        "Will I be able to choose which game progress I want my rewards to be sent to?",
+        "How can I take part in the Seasonal Kingdom?",
+        "Buildings in the City",
+        "What is the Triumphal Challenge and why should I take part?",
+        "What can I buy in the Triumphal Challenge shop?",
+        "How can I level up my Triumphal Challenge battle pass?",
+        "Why are some rewards locked when I join a new Clan?",
+        "What are Raids and Clan marches?",
+        "All tournaments in the game",
+        "Events related to troop revival",
+        "DSA Point of Contact (EU-Only)"
+      ],
+      "inferred_event_types": [
+        "battle_pass",
+        "tournament_competition",
+        "team_alliance",
+        "seasonal_festival",
+        "pve_boss",
+        "pvp_war",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "https://d2duuy9yo5pldo.cloudfront.net/dashboard-resources/scorewarrior/320/2486198b-f18d-446f-b97d-13c74698a7d5.webp",
+          "alt": "Total Battle Support",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://d2duuy9yo5pldo.cloudfront.net/dashboard-resources/scorewarrior/6ac25bae-0ab1-4fc2-999e-e22214fc01ba.png",
+          "alt": "Banner Image",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Bahasa Indonesia",
+      "source_type": "event_detail",
+      "source_url": "https://totalbattle.com/id/",
+      "fetched_url": "https://totalbattle.com/id/",
+      "status": 200,
+      "page_title": "Total Battle: Game Perang Taktis",
+      "meta_description": "Bangun Kastel megah, latih Tentaramu, gabung dengan Klan, dan masuki Permainan Perang epik penuh dengan strategi licik dan intrik politik.",
+      "relevant_text_blocks": [
+        "SCOREWARRIOR LIMITED",
+        "Company Registration Number",
+        "Registering Authority",
+        "Department of Registrar of Companies and Intellectual Property Corner Makariou III Avenue and Karpenisiou Street “XENIOS” Building 1427 Nicosia, Cyprus www.companies.gov.cy",
+        "16 Spyrou Kyprianou Avenue Devine Clock Tower, 1st Floor 3070 Limassol, Cyprus",
+        "support@scorewarrior.com"
+      ],
+      "inferred_event_types": [
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/landings/castle/castle.a49fbf3158891d7de4e2.jpg",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "Deutsch",
+      "source_type": "event_detail",
+      "source_url": "https://totalbattle.com/de/",
+      "fetched_url": "https://totalbattle.com/de/",
+      "status": 200,
+      "page_title": "Total Battle: Taktisches Kriegsspiel",
+      "meta_description": "Baue eine prächtige Burg, trainiere deine Armee, schließe dich einem Clan an und erlebe ein episches Kriegsspiel voller cleverer Strategien und politischer Intrigen.",
+      "relevant_text_blocks": [
+        "SCOREWARRIOR LIMITED",
+        "Handelsregisternummer",
+        "Registrierungsbehörde",
+        "Department of Registrar of Companies and Intellectual Property Corner Makariou III Avenue and Karpenisiou Street “XENIOS” Building 1427 Nicosia, Cyprus www.companies.gov.cy",
+        "Registrierte Adresse",
+        "16 Spyrou Kyprianou Avenue Devine Clock Tower, 1st Floor 3070 Limassol, Cyprus",
+        "support@scorewarrior.com"
+      ],
+      "inferred_event_types": [
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/landings/castle/castle.a49fbf3158891d7de4e2.jpg",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "source_title": "English",
+      "source_type": "event_detail",
+      "source_url": "https://totalbattle.com/en/",
+      "fetched_url": "https://totalbattle.com/en/",
+      "status": 200,
+      "page_title": "Total Battle - Free strategy game",
+      "meta_description": "Total Battle is a new massive online multiplayer (MMO) strategy game. Intense PVP, no download required - join now for free!",
+      "relevant_text_blocks": [
+        "Looking for challenge, Your Majesty? The best way is to face the mightiest warriors in dozens of tournaments which are held every day.",
+        "The friend in need is a friend indeed or the one in the clan is even better. Team up under one banner. The road to the Throne is too dangerous to walk alone on, so team up under one banner.",
+        "Feeling strong enough to challenge other lords in a fight? Show your command and diplomatic skills to get to the Senate and persuade others to reach the Throne!",
+        "The Gods created elves, barbarians, demons, undead, dragons and beasts. These creatures had to fight for their place under sun. Soon, they have found their common enemy - humans. Beat them in a battle in an ultimate free online war game.",
+        "Move troops in online strategy war game",
+        "Online strategy games are famous for multiple long-time marches. Hours of waiting instead of instant action may irritate the most patient lords. This was the problem which our best mages from the Academy tried to solve at all costs. They were working day and night to work out the solution to make your army move across different battlefields. Forget about hours of waiting while your troops march towards enemy. Innovative portal feature is at your service. Be sudden and attack unexpectedly, ruin enemy castles and vanish. The distance in no longer the issue.",
+        "Fantastic mix of strategy games and the heat of politics is in your browser. It won’t be enough to be the strongest lord ever with thousands well-trained soldiers behind your back. The world of Total Battle is built not only on physical force. Negotiations are inevitable if you want to unite hundreds of cities under one common banner. Every week battle drums announce the Clash for Throne. You need to be not only strong enough to win, also you have to persuade the Senate to vote for you. An experience which was never met before.",
+        "Technologies in online strategy war game",
+        "Sometimes the circumstances may change or your Majesty might be looking for a new challenge. In this case the Mages from our Academy have invented Teleporter to another Kingdom, which can help you to restart the things or move closer to your new allies.",
+        "Captains in free online war game",
+        "Aydae knows how to defeat monsters. Dreadful creatures which managed to survive her attacks try to warn others to avoid her. She’s the perfect option to plan your strategy against monsters in this game. Logos is well-known for his scarface and extreme battle skills in duels. All swordsmen praise him like a god of sword mastery, and if you want to challenge some other lord in battle, he will be your best choice to show your enemies who’s stronger in this free online game. Many other captains with their own skills are waiting to be summoned under your banner.",
+        "Treasure hunters would never dream about such amount adventures to have in their lives. Mysterious crypts which contain rare materials for item crafting are full of dangers. Their gifts will be given to the most courageous explorers.",
+        "Construct the Empire",
+        "Global events in online strategy game",
+        "This massive online multiplayer strategy game and the world of Total Battle is a dynamically changing. The new lords are coming to stand their ground on the way to the Throne. They compete with each other in different tournaments, the winners receive generous rewards.",
+        "Try to play for free and your best to challenge other players in individual tournaments. How wise and strong you are in the challenge for the Throne? Finally, the best warriors from each kingdom challenge themselves in the furious battle among all the kingdoms! The winner gets mountains of gold and respect of the others in the free online browser game.",
+        "SCOREWARRIOR LIMITED"
+      ],
+      "inferred_event_types": [
+        "tournament_competition",
+        "team_alliance",
+        "pve_boss",
+        "pvp_war",
+        "mini_game"
+      ],
+      "images": [
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/landings/castle/castle.a49fbf3158891d7de4e2.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_01.aed115336c468dfe143c.jpg",
+          "alt": "Slide 1",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_02.07e1f40258b6f3c16071.jpg",
+          "alt": "Slide 2",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_03.bcdc7b044ef83d48fc73.jpg",
+          "alt": "Slide 3",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_04.ce4a578f06630f8e41a2.jpg",
+          "alt": "Slide 4",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_05.94e62518f2948fc5e7a3.jpg",
+          "alt": "Slide 5",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/girl.2347b8d627fc68197186.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/city_v12.9ee624cd8107b9ebe6c8.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/warrior_v12.6eaa2e938de2c5cc3512.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/crypt.ac69d678049c592b7f0c.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/user_01.dbdad716c7c2a3abfb46.png",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/user_02.495296b2affffa0e7df3.png",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "event_catalog": [
+    {
+      "title": "Total Battle - Free strategy game",
+      "url": "https://totalbattle.com/en/#eula_policy",
+      "discovered_from": "https://totalbattle.com/",
+      "description": "Total Battle is a new massive online multiplayer (MMO) strategy game. Intense PVP, no download required - join now for free!",
+      "inferred_event_types": [
+        "tournament_competition",
+        "team_alliance",
+        "pve_boss",
+        "pvp_war",
+        "mini_game"
+      ],
+      "images": [
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/landings/castle/castle.a49fbf3158891d7de4e2.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_01.aed115336c468dfe143c.jpg",
+          "alt": "Slide 1",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_02.07e1f40258b6f3c16071.jpg",
+          "alt": "Slide 2",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_03.bcdc7b044ef83d48fc73.jpg",
+          "alt": "Slide 3",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_04.ce4a578f06630f8e41a2.jpg",
+          "alt": "Slide 4",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_05.94e62518f2948fc5e7a3.jpg",
+          "alt": "Slide 5",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Hi, how can we help you?",
+      "url": "https://scorewarrior.helpshift.com/a/total-battle/?l=en",
+      "discovered_from": "https://totalbattle.com/",
+      "description": "Are you looking for help with Total Battle? Learn more about What's new?, FAQ, Account Management, Technical issues, Payment issues, Fair & Safe Play, Community, Artifacts, Seasonal Kingdom, Buildings in the City, Army, In-game Resources, Hero & Captains, Dragon, Hall of Fame, Triumphal Challenge, Union of Triumph, Clan, Events, Teleportation, Equipment, Journal, Kingdom Map, Bonuses, DSA Point of Contact (EU-Only).",
+      "inferred_event_types": [
+        "battle_pass",
+        "tournament_competition",
+        "team_alliance",
+        "seasonal_festival",
+        "pve_boss",
+        "pvp_war",
+        "store_offer"
+      ],
+      "images": [
+        {
+          "url": "https://d2duuy9yo5pldo.cloudfront.net/dashboard-resources/scorewarrior/320/2486198b-f18d-446f-b97d-13c74698a7d5.webp",
+          "alt": "Total Battle Support",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://d2duuy9yo5pldo.cloudfront.net/dashboard-resources/scorewarrior/6ac25bae-0ab1-4fc2-999e-e22214fc01ba.png",
+          "alt": "Banner Image",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Total Battle: Game Perang Taktis",
+      "url": "https://totalbattle.com/id/",
+      "discovered_from": "https://totalbattle.com/",
+      "description": "Bangun Kastel megah, latih Tentaramu, gabung dengan Klan, dan masuki Permainan Perang epik penuh dengan strategi licik dan intrik politik.",
+      "inferred_event_types": [
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/landings/castle/castle.a49fbf3158891d7de4e2.jpg",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Total Battle: Taktisches Kriegsspiel",
+      "url": "https://totalbattle.com/de/",
+      "discovered_from": "https://totalbattle.com/",
+      "description": "Baue eine prächtige Burg, trainiere deine Armee, schließe dich einem Clan an und erlebe ein episches Kriegsspiel voller cleverer Strategien und politischer Intrigen.",
+      "inferred_event_types": [
+        "team_alliance",
+        "pvp_war"
+      ],
+      "images": [
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/landings/castle/castle.a49fbf3158891d7de4e2.jpg",
+          "alt": "",
+          "kind": "page_image"
+        }
+      ]
+    },
+    {
+      "title": "Total Battle - Free strategy game",
+      "url": "https://totalbattle.com/en/",
+      "discovered_from": "https://totalbattle.com/",
+      "description": "Total Battle is a new massive online multiplayer (MMO) strategy game. Intense PVP, no download required - join now for free!",
+      "inferred_event_types": [
+        "tournament_competition",
+        "team_alliance",
+        "pve_boss",
+        "pvp_war",
+        "mini_game"
+      ],
+      "images": [
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/landings/castle/castle.a49fbf3158891d7de4e2.jpg",
+          "alt": "",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_01.aed115336c468dfe143c.jpg",
+          "alt": "Slide 1",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_02.07e1f40258b6f3c16071.jpg",
+          "alt": "Slide 2",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_03.bcdc7b044ef83d48fc73.jpg",
+          "alt": "Slide 3",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_04.ce4a578f06630f8e41a2.jpg",
+          "alt": "Slide 4",
+          "kind": "page_image"
+        },
+        {
+          "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_05.94e62518f2948fc5e7a3.jpg",
+          "alt": "Slide 5",
+          "kind": "page_image"
+        }
+      ]
+    }
+  ],
+  "inferred_event_type_summary": [
+    "battle_pass",
+    "mini_game",
+    "pve_boss",
+    "pvp_war",
+    "seasonal_festival",
+    "store_offer",
+    "team_alliance",
+    "tournament_competition"
+  ],
+  "screenshots_or_images": [
+    {
+      "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/landings/castle/castle.a49fbf3158891d7de4e2.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://totalbattle.com/"
+    },
+    {
+      "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_01.aed115336c468dfe143c.jpg",
+      "alt": "Slide 1",
+      "kind": "page_image",
+      "source_url": "https://totalbattle.com/"
+    },
+    {
+      "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_02.07e1f40258b6f3c16071.jpg",
+      "alt": "Slide 2",
+      "kind": "page_image",
+      "source_url": "https://totalbattle.com/"
+    },
+    {
+      "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_03.bcdc7b044ef83d48fc73.jpg",
+      "alt": "Slide 3",
+      "kind": "page_image",
+      "source_url": "https://totalbattle.com/"
+    },
+    {
+      "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_04.ce4a578f06630f8e41a2.jpg",
+      "alt": "Slide 4",
+      "kind": "page_image",
+      "source_url": "https://totalbattle.com/"
+    },
+    {
+      "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/roll_05.94e62518f2948fc5e7a3.jpg",
+      "alt": "Slide 5",
+      "kind": "page_image",
+      "source_url": "https://totalbattle.com/"
+    },
+    {
+      "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/girl.2347b8d627fc68197186.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://totalbattle.com/"
+    },
+    {
+      "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/city_v12.9ee624cd8107b9ebe6c8.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://totalbattle.com/"
+    },
+    {
+      "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/warrior_v12.6eaa2e938de2c5cc3512.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://totalbattle.com/"
+    },
+    {
+      "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/crypt.ac69d678049c592b7f0c.jpg",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://totalbattle.com/"
+    },
+    {
+      "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/user_01.dbdad716c7c2a3abfb46.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://totalbattle.com/"
+    },
+    {
+      "url": "https://assets-st-web.totalbattle.dev/static/j/i/sources/i/findex/user_02.495296b2affffa0e7df3.png",
+      "alt": "",
+      "kind": "page_image",
+      "source_url": "https://totalbattle.com/"
+    },
+    {
+      "url": "https://d2duuy9yo5pldo.cloudfront.net/dashboard-resources/scorewarrior/320/2486198b-f18d-446f-b97d-13c74698a7d5.webp",
+      "alt": "Total Battle Support",
+      "kind": "page_image",
+      "source_url": "https://scorewarrior.helpshift.com/a/total-battle/?l=en"
+    },
+    {
+      "url": "https://d2duuy9yo5pldo.cloudfront.net/dashboard-resources/scorewarrior/6ac25bae-0ab1-4fc2-999e-e22214fc01ba.png",
+      "alt": "Banner Image",
+      "kind": "page_image",
+      "source_url": "https://scorewarrior.helpshift.com/a/total-battle/?l=en"
+    }
+  ],
+  "collection_warnings": [
+    "Fetch failed: https://wiki.totalbattle.com/"
+  ]
+}

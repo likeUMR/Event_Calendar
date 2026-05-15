@@ -1,0 +1,1345 @@
+{
+  "rank": 58,
+  "name": "Star Wars™: Galaxy of Heroes",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 EA Help 的官方模式说明、SWGOH.GG 的现行事件总表、SWGOH Events 日历站和社区 wiki，按现行长期活动框架整理，而不是只抓某一天的事件排期。",
+  "source_pages": [
+    {
+      "title": "EA Help - What game modes are in STAR WARS™: Galaxy of Heroes?",
+      "url": "https://help.ea.com/uk/help/star-wars/star-wars-galaxy-heroes/star-wars-galaxy-of-heroes-territory-battles/",
+      "notes": "官方模式总览，明确列出 Grand Arena Championships、Conquest、Raids、Territory Events 等关键活动/模式。"
+    },
+    {
+      "title": "SWGOH.GG - Events",
+      "url": "https://swgoh.gg/events/",
+      "notes": "当前最实用的现行事件总表，可直接看到 Galactic Challenges、Journey Guide、Proving Grounds、Ultimate Journey Event、Assault Battles、Omega Battles、Galactic Bounties、Contraband Cargo 等。"
+    },
+    {
+      "title": "SWGoH Events",
+      "url": "https://swgohevents.com/",
+      "notes": "社区事件日历站，强调 Permanent Events 已进入 Journey Guide，同时保留 upcoming / history / calendar 视角。"
+    },
+    {
+      "title": "SWGoH Wiki - Events",
+      "url": "https://swgoh.wiki/wiki/Events",
+      "notes": "较老但仍有价值的总览页，明确把活动分为 player events 和 guild events 两大类。"
+    },
+    {
+      "title": "SWGOH Fan Wiki - Journey Guide",
+      "url": "https://swgoh-fan-wiki.fandom.com/wiki/Journey_Guide",
+      "notes": "说明 Journey Guide 已吸收大量 Legendary / Hero's Journey / Epic Confrontation / Galactic Legend 内容，成为长期可访问的角色解锁活动容器。"
+    },
+    {
+      "title": "StarWars.com - 5 Tips for Conquering the Star Wars: Galaxy of Heroes Grand Arena",
+      "url": "https://www.starwars.com/news/5-tips-for-conquering-the-star-wars-galaxy-of-heroes-grand-arena",
+      "notes": "官方星战站内容，可用于确认 Grand Arena 的跨阵容、多地块 PvP 性质。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "journey_guide",
+      "display_name": "Journey Guide / 常驻角色解锁活动",
+      "description": "大量 Legendary、Hero's Journey、Epic Confrontation、Galactic Legend 等活动已常驻进入 Journey Guide。玩家按阵容要求逐步准备角色，再在对应活动中解锁关键单位或飞船。",
+      "examples": [
+        "Grand Master's Training",
+        "Artist of War",
+        "Emperor's Demise",
+        "Galactic Legend journeys"
+      ],
+      "market_research_notes": "SWGOH 的角色收集和中长期目标，很大程度上就是围绕 Journey Guide 展开。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/best-journey-guide-character-to-go-for-v0-x3e973nhkjzd1.jpeg?width=5117&format=pjpg&auto=webp&s=8554c144c90078d46353588ae2dbdee2f9645904",
+          "caption": "Best journey guide character to go for ...",
+          "source_url": "https://www.reddit.com/r/SWGalaxyOfHeroes/comments/1gm0abg/best_journey_guide_character_to_go_for/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+journey+guide",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes journey guide",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:55:20.276739+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图是玩家制作的2024年Journey Guide角色培养路线指南图，属于非界面的活动宣传/介绍性质图片。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:21.888805+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/journey-guide-v0-ghrlsfv6rw9f1.jpeg?width=1080&crop=smart&auto=webp&s=290ce66a82fe5073967e7a68d9394ecff6de2b81",
+          "caption": "Journey Guide : r/SWGalaxyOfHeroes",
+          "source_url": "https://www.reddit.com/r/SWGalaxyOfHeroes/comments/1lnls4r/journey_guide/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+journey+guide",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes journey guide",
+          "width": 319,
+          "height": 158,
+          "aspect_ratio": 2.019,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:55:20.276739+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了游戏内Journey Guide（德语界面显示为REISEFÜHRER）的实际活动入口界面，属于实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:21.888805+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/journey-guide-recommendations-v0-3ldog7jn31x91.jpg?width=2532&format=pjpg&auto=webp&s=f09fbcd78024457f1a41fe66a95cb126e58a9e1e",
+          "caption": "Journey Guide Recommendations : r ...",
+          "source_url": "https://www.reddit.com/r/SWGalaxyOfHeroes/comments/yhu0nj/journey_guide_recommendations/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+journey+guide",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes journey guide",
+          "width": 31,
+          "height": 91,
+          "aspect_ratio": 0.3407,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:55:20.276739+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "清晰展示了游戏内Journey Guide的实际二级选人界面，包含不同难度的页签选择。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:21.888805+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/journey-guide-lst-v0-o8o6vlx6e9qg1.png?width=574&format=png&auto=webp&s=bea95880180a904c6453c45ad47cd013d2b43354",
+          "caption": "Journey Guide (LST) : r/SWGalaxyOfHeroes",
+          "source_url": "https://www.reddit.com/r/SWGalaxyOfHeroes/comments/1rz7384/journey_guide_lst/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+journey+guide",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes journey guide",
+          "width": 168,
+          "height": 299,
+          "aspect_ratio": 0.5619,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:55:20.276739+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "该图为玩家制作的周年庆LST礼包与其对应的Journey Guide角色要求对照表，属于非界面的介绍图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:21.888805+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/b4koy2faz3i61.png",
+          "caption": "Heroes Legendary Farming Guide Graphic ...",
+          "source_url": "https://www.reddit.com/r/SWGalaxyOfHeroes/comments/lm5osf/2021_star_wars_galaxy_of_heroes_legendary_farming/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+journey+guide",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes journey guide",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:55:20.276739+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图是玩家制作的2021年Journey Guide角色培养关联逻辑图，属于非界面的说明性海报。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:21.888805+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "grand_arena_championships",
+      "display_name": "Grand Arena Championships / GAC",
+      "description": "核心个人 PvP 赛事。玩家用整套角色池布置防守并进攻对手领地，按回合和总分结算排名与奖励。",
+      "examples": [
+        "Grand Arena",
+        "Grand Arena Championships"
+      ],
+      "market_research_notes": "这是最能消化 roster depth 的竞争模式，也是高端玩家长期投入的重要出口。",
+      "images": [
+        {
+          "url": "https://swgoh.wiki/images/thumb/f/f7/Grand_Arena.jpg/1200px-Grand_Arena.jpg",
+          "caption": "Grand Arena Championships",
+          "source_url": "https://swgoh.wiki/wiki/Grand_Arena_Championships",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+grand+arena+championships",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes grand arena championships",
+          "width": 305,
+          "height": 165,
+          "aspect_ratio": 1.8485,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:55:42.957830+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "包含活动名称和Logo的官方宣传图或 loading screen。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:20.503504+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/d97BKugCSjk/maxresdefault.jpg",
+          "caption": "Grand Arena Championships ...",
+          "source_url": "https://www.youtube.com/watch?v=d97BKugCSjk",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+grand+arena+championships",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes grand arena championships",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:55:42.957830+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "带有活动文字和角色立绘的 YouTube 视频封面图，属于宣传素材类。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:20.503504+00:00"
+          }
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/b/b2/Wiki-Screenshot-GAC_Leagues.png/750px-Wiki-Screenshot-GAC_Leagues.png",
+          "caption": "Grand Arena Championships",
+          "source_url": "https://swgoh.wiki/wiki/Grand_Arena_Championships",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+grand+arena+championships",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes grand arena championships",
+          "width": 473,
+          "height": 106,
+          "aspect_ratio": 4.4623,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:55:42.957830+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了活动内的段位（Leagues）进度条和实际等级界面，属于实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:20.503504+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/ni-tQa4DYVo/maxresdefault.jpg",
+          "caption": "Grand Arena Championships ...",
+          "source_url": "https://www.youtube.com/watch?v=ni-tQa4DYVo",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+grand+arena+championships",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes grand arena championships",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:55:42.957830+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "带有活动文字和角色立绘的 YouTube 视频封面图，背景虽有棋盘但不清晰且被修饰。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:20.503504+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/8xPlpNNnIlQ/maxresdefault.jpg",
+          "caption": "SWGOH - Grand Arena Championship 5v5 ...",
+          "source_url": "https://www.youtube.com/watch?v=8xPlpNNnIlQ",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+grand+arena+championships",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes grand arena championships",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:55:42.957830+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "包含活动完整名称的宣传海报或视频封面，无实际游戏交互界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:20.503504+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "territory_wars",
+      "display_name": "Territory Wars / 公会领地战",
+      "description": "Guild 对 Guild 的大规模异步 PvP。成员共同布防和进攻地图区域，按总进度和战果结算奖励。",
+      "examples": [
+        "Territory Wars"
+      ],
+      "market_research_notes": "它把个人阵容价值转成公会协作价值，是 SWGOH 公会生态的核心黏性来源之一。",
+      "images": [
+        {
+          "url": "https://swgoh.wiki/images/0/01/Event-Territory_War.png",
+          "caption": "Territory War",
+          "source_url": "https://swgoh.wiki/wiki/Territory_War",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+territory+wars",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes territory wars",
+          "width": 195,
+          "height": 259,
+          "aspect_ratio": 0.7529,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:56:06.824400+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "带有活动标题的官方宣传海报，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:17.914465+00:00"
+          }
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/6/6f/Territory_Way_Map.jpg/300px-Territory_Way_Map.jpg",
+          "caption": "Territory War",
+          "source_url": "https://swgoh.wiki/wiki/Territory_War",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+territory+wars",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes territory wars",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:56:06.824400+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了领地战（Territory War）的实际玩法地图界面，包含阶段计时和阵营区域。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:17.914465+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Qgi50owAHuY/maxresdefault.jpg",
+          "caption": "Territory Wars In Star Wars ...",
+          "source_url": "https://www.youtube.com/watch?v=Qgi50owAHuY",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+territory+wars",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes territory wars",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:56:06.824400+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "虽有攻略文字遮挡，但背景清晰展示了领地战的活动关卡地图和资源/布防点界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:17.914465+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/JmI7tNVcEeg/maxresdefault.jpg",
+          "caption": "Star Wars: Galaxy Of Heroes - Territory ...",
+          "source_url": "https://www.youtube.com/watch?v=JmI7tNVcEeg",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+territory+wars",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes territory wars",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:56:06.824400+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "游戏实况截图，展示了领地战进攻阶段的完整活动地图界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:17.914465+00:00"
+          }
+        },
+        {
+          "url": "https://gaming-fans.com/wp-content/uploads/2019/06/swgoh-territory-wars_600.jpg",
+          "caption": "SWGoH: How to Win in Territory Wars ...",
+          "source_url": "https://gaming-fans.com/2019/06/swgoh-how-to-win-in-territory-wars/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+territory+wars",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes territory wars",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:56:06.824400+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了领地战的准备阶段界面，包含公会领地分布和防守点设置，属于核心玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:17.914465+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "territory_battles",
+      "display_name": "Territory Battles / 公会领地战役",
+      "description": "公会协作 PvE 活动，成员在多个 phase 和地图区域完成战斗与 special missions，累计星数并领取 guild rewards。",
+      "examples": [
+        "Hoth Territory Battle",
+        "Geonosis Territory Battle",
+        "Rise of the Empire"
+      ],
+      "market_research_notes": "它决定很多公会对 roster、船队和特定阵营的养成优先级。",
+      "images": [
+        {
+          "url": "https://swgoh.wiki/images/thumb/3/3d/Wiki-Territory_Battles-Map_Legend.png/400px-Wiki-Territory_Battles-Map_Legend.png",
+          "caption": "Territory Battle",
+          "source_url": "https://swgoh.wiki/wiki/Territory_Battle",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+territory+battles",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes territory battles",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:56:37.148102+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了Hoth领地战的任务区域和地图结构，但带有教学标注，属于功能图解或宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:18.510706+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/jtSXADYqJ3I/maxresdefault.jpg",
+          "caption": "New Territory Battle, Jabba, and Much ...",
+          "source_url": "https://www.youtube.com/watch?v=jtSXADYqJ3I",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+territory+battles",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes territory battles",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:56:37.148102+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "带有游戏Logo和'Concept Art'字样，属于活动的官方宣传海报或概念图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:18.510706+00:00"
+          }
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/b/b2/Wiki-Territory_Battles_2-Map_Legend.png/400px-Wiki-Territory_Battles_2-Map_Legend.png",
+          "caption": "Territory Battle",
+          "source_url": "https://swgoh.wiki/wiki/Territory_Battle",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+territory+battles",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes territory battles",
+          "width": 299,
+          "height": 169,
+          "aspect_ratio": 1.7692,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:56:37.148102+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了活动星球地图及任务类型说明，属于活动的Wiki介绍或指南类图解。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:18.510706+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/UfzvIWdPaxc/maxresdefault.jpg",
+          "caption": "Territory Battles ...",
+          "source_url": "https://www.youtube.com/watch?v=UfzvIWdPaxc",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+territory+battles",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes territory battles",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:56:37.148102+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "虽然有文字遮盖，但背景是真实的领地战 phase 5 战斗地图界面，包含星数进度条和阶段计时。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:18.510706+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/completing-territory-battles-with-a-mix-of-high-and-low-v0-flhn9l5qw5xz.png?width=640&crop=smart&auto=webp&s=31971c8ba16b25cee14ca5fb8933a49192676ff7",
+          "caption": "Completing Territory Battles with a Mix ...",
+          "source_url": "https://www.reddit.com/r/SWGalaxyOfHeroes/comments/7c1kig/completing_territory_battles_with_a_mix_of_high/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+territory+battles",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes territory battles",
+          "width": 219,
+          "height": 230,
+          "aspect_ratio": 0.9522,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:56:37.148102+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.88,
+            "reason": "图片上半部分展示了针对活动的特定角色阵容管理界面（Inventory），属于活动的养成准备和策略玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:18.510706+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "raids",
+      "display_name": "Raids / 公会首领团本",
+      "description": "Guild 集体挑战大型 Boss 或团本场景，通过分段战斗和总伤害贡献获取个人与公会奖励。",
+      "examples": [
+        "The Pit",
+        "Tank Takedown",
+        "Sith Triumvirate Raid",
+        "Speeder Bike Pursuit Raid"
+      ],
+      "market_research_notes": "Raids 是公会协作和伤害竞速的重要内容层，也常是装备和资源的关键来源。",
+      "images": [
+        {
+          "url": "https://game-assets.swgoh.gg/textures/tex.guild_events_aat.png",
+          "caption": "Star Wars Galaxy of Heroes Raids - SWGOH.GG",
+          "source_url": "https://swgoh.gg/raids/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+raids",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes raids",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:57:03.759721+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图是团本 Tank Takedown (AAT) 的官方艺术宣传图，展示了首领 Grievous 将军。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:22.816195+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/G5CSyebsgpQ/maxresdefault.jpg",
+          "caption": "Heroes - Tank Takedown Raid Trailer ...",
+          "source_url": "https://www.youtube.com/watch?v=G5CSyebsgpQ",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+raids",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes raids",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:57:03.759721+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了 Tank Takedown 团本中的实际战斗场景，属于玩法界面截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:22.816195+00:00"
+          }
+        },
+        {
+          "url": "https://diskingdom.com/wp-content/uploads/2016/04/maxresdefault-67.jpg",
+          "caption": "Galaxy Of Heroes Adds Guilds, Raids ...",
+          "source_url": "https://diskingdom.com/2016/04/25/star-wars-galaxy-of-heroes-adds-guilds-raids-new-characters/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+raids",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes raids",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:57:03.759721+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了 The Pit 团本中挑战大型 Boss Rancor 的实际战斗场景。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:22.816195+00:00"
+          }
+        },
+        {
+          "url": "https://game-assets.swgoh.gg/textures/tex.guild_events_era03_order66.png",
+          "caption": "Star Wars Galaxy of Heroes Raids - SWGOH.GG",
+          "source_url": "https://swgoh.gg/raids/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+raids",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes raids",
+          "width": 159,
+          "height": 318,
+          "aspect_ratio": 0.5,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:57:03.759721+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "这是 Naboo Raid 活动对应的全屏艺术加载图或背景宣传图，无 UI 界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:22.816195+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/ZeRDQWpN8GM/maxresdefault.jpg",
+          "caption": "guild raids? SWGOH ...",
+          "source_url": "https://www.youtube.com/watch?v=ZeRDQWpN8GM",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+raids",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes raids",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:57:03.759721+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了公会主界面，并明确标有 Raids 入口及相关资源 UI，属于活动玩法相关的实际界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:22.816195+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "conquest",
+      "display_name": "Conquest / 征服活动",
+      "description": "高频轮换的大型个人 PvE 活动。玩家在 sector map 上推进多场战斗、收集 data disks、完成 feats、开征服宝箱，并逐步拿到限定角色碎片。",
+      "examples": [
+        "Conquest",
+        "Hard Conquest"
+      ],
+      "market_research_notes": "这是当前 SWGOH 最典型的赛季型重复活动之一，也是新单位分发和高活跃留存的重要容器。",
+      "images": [
+        {
+          "url": "https://swgoh.wiki/images/2/25/Galactic_Battles-Conquest.png",
+          "caption": "Conquest",
+          "source_url": "https://swgoh.wiki/wiki/Conquest",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+conquest",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes conquest",
+          "width": 195,
+          "height": 259,
+          "aspect_ratio": 0.7529,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:57:29.275816+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了活动标题和活动地图样式图，属于典型的活动宣传海报/插画。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:23.968995+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/SrYWMjSBHr0/maxresdefault.jpg",
+          "caption": "SWGOH Conquest Beginner's Guide ...",
+          "source_url": "https://www.youtube.com/watch?v=SrYWMjSBHr0",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+conquest",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes conquest",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:57:29.275816+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了征服活动（Conquest）的难度选择实际界面，包括Easy/Normal/Hard模式及入场要求。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:23.968995+00:00"
+          }
+        },
+        {
+          "url": "https://swgohevents.com/images/news/conquest-header.jpg",
+          "caption": "Galactic Conquest Beginner's Guide ...",
+          "source_url": "https://swgohevents.com/news/conquest-beginners-guide",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+conquest",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes conquest",
+          "width": 320,
+          "height": 158,
+          "aspect_ratio": 2.0253,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:57:29.275816+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "带有活动标题的过场海报或宣传视频截图，无实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:23.968995+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/conquest-19-guide-eg-moon-style-v0-sdvowlvqf5ze1.png?width=640&crop=smart&auto=webp&s=7e8f30a9d1d50745374e5fc984e333596164b868",
+          "caption": "Conquest 19 guide, Eg & Moon style : r ...",
+          "source_url": "https://www.reddit.com/r/SWGalaxyOfHeroes/comments/1kg2d14/conquest_19_guide_eg_moon_style/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+conquest",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes conquest",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:57:29.275816+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "这是玩家制作的第三方攻略信息图，并非游戏内的原生截图或官方宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:23.968995+00:00"
+          }
+        },
+        {
+          "url": "https://swgohevents.com/images/news/conquest-nodes.jpg",
+          "caption": "Conquests Characters Ranked! Who's the ...",
+          "source_url": "https://swgohevents.com/news/conquest-beginners-guide",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+conquest",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes conquest",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:57:29.275816+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "明确展示了征服活动的Sector 1地图节点、战斗详情（Combat Details）、敌方阵容及战斗按钮。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:23.968995+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "galactic_challenges",
+      "display_name": "Galactic Challenges / 银河挑战",
+      "description": "短周期轮换挑战。每期指定敌方阵营、地图与 bonus / feat 条件，玩家用不同 roster 组合完成目标获取奖励。",
+      "examples": [
+        "Malachor: Old Republic",
+        "Nevarro: Mandalorian",
+        "Jakku: Resistance"
+      ],
+      "market_research_notes": "它兼具阵容测试、周常资源投放和新角色营销功能。",
+      "images": [
+        {
+          "url": "https://swgoh.wiki/images/f/f2/Wiki-Galactic_Challenges.png",
+          "caption": "Galactic Challenges",
+          "source_url": "https://swgoh.wiki/wiki/Galactic_Challenges",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+galactic+challenges",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes galactic challenges",
+          "width": 305,
+          "height": 165,
+          "aspect_ratio": 1.8485,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:57:54.004273+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了银河挑战活动的特有UI布局、敌方阵容信息与加成条件，属于活动的说明介绍图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:24.806263+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/u30nrfrr4jxb1.jpg",
+          "caption": "Two galactic challenges at the same ...",
+          "source_url": "https://www.reddit.com/r/SWGalaxyOfHeroes/comments/17kjk6a/two_galactic_challenges_at_the_same_time/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+galactic+challenges",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes galactic challenges",
+          "width": 335,
+          "height": 150,
+          "aspect_ratio": 2.2333,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:57:54.004273+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了游戏内真实的事件选择列表，清楚显示了两个并行的银河挑战关卡及其剩余时间。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:24.806263+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/wmly7Bpk5zM/maxresdefault.jpg",
+          "caption": "Galactic Challenge Rebels vs Empire ...",
+          "source_url": "https://www.youtube.com/watch?v=wmly7Bpk5zM",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+galactic+challenges",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes galactic challenges",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:57:54.004273+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "集合了多个不同星球背景的银河挑战入口图，属于汇总类型的宣传/介绍海报。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:24.806263+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/appw6a7hxdmb1.jpg",
+          "caption": "Galactic challenge : r/SWGalaxyOfHeroes",
+          "source_url": "https://www.reddit.com/r/SWGalaxyOfHeroes/comments/16agwdt/galactic_challenge/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+galactic+challenges",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes galactic challenges",
+          "width": 331,
+          "height": 152,
+          "aspect_ratio": 2.1776,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:57:54.004273+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了银河挑战的具体玩法界面，包含Feats任务列表、敌方敌人预览、当前奖励进度条及战斗按钮。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:24.806263+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/Wd6CabyAdqo/hqdefault.jpg",
+          "caption": "Galactic Challenge ...",
+          "source_url": "https://www.youtube.com/watch?v=Wd6CabyAdqo",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+galactic+challenges",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes galactic challenges",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:57:54.004273+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了Bespin: Droid银河挑战的具体关卡界面，包含关卡分级、Feats列表和进度奖励轨。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:24.806263+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "proving_grounds",
+      "display_name": "Proving Grounds / Conquest Trials",
+      "description": "面向高等级玩家的周期性试炼活动，用于补领旧征服角色碎片。SWGOH.GG 直接把它标作 Conquest Trials。",
+      "examples": [
+        "Proving Grounds",
+        "Bonus Proving Grounds"
+      ],
+      "market_research_notes": "它是 SWGOH 追赶旧限定角色的重要 catch-up 设计。",
+      "images": [
+        {
+          "url": "https://swgoh.wiki/images/8/88/Event-Proving_Grounds.png",
+          "caption": "Proving Grounds",
+          "source_url": "https://swgoh.wiki/wiki/Proving_Grounds",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+proving+grounds",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes proving grounds",
+          "width": 195,
+          "height": 259,
+          "aspect_ratio": 0.7529,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:58:20.923712+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图片展示了 Proving Grounds 活动的标题和宣传图，属于封面/宣传性质。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:26.469212+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/this-is-the-cheapest-way-to-3-star-every-proving-ground-v0-jgtuf3uid4ed1.jpg?width=640&crop=smart&auto=webp&s=73ec47a491ab78587cf388ed2071a1ff2f19cccf",
+          "caption": "proving ground ...",
+          "source_url": "https://www.reddit.com/r/SWGalaxyOfHeroes/comments/1e9mn70/this_is_the_cheapest_way_to_3star_every_proving/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+proving+grounds",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes proving grounds",
+          "width": 219,
+          "height": 230,
+          "aspect_ratio": 0.9522,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:58:20.923712+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了 Proving Grounds 活动内不同关卡的详细界面，包括奖励角色、完成要求和模拟战斗按钮，属于实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:26.469212+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/bekzdmsn2o191.jpg",
+          "caption": "Proving Grounds requires 4 million gp ...",
+          "source_url": "https://www.reddit.com/r/SWGalaxyOfHeroes/comments/uxnz6n/proving_grounds_requires_4_million_gp_to_even_see/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+proving+grounds",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes proving grounds",
+          "width": 330,
+          "height": 152,
+          "aspect_ratio": 2.1711,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:58:20.923712+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了游戏的活动列表界面，其中清晰标记了 Proving Grounds 活动及其准入限制条件，属于活动入口和进度界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:26.469212+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/_adSoFzTpSI/maxresdefault.jpg",
+          "caption": "Character in Star Wars Galaxy of Heroes ...",
+          "source_url": "https://www.youtube.com/watch?v=_adSoFzTpSI",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+proving+grounds",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes proving grounds",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:58:20.923712+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图片是带有活动标题和角色立绘的 YouTube 视频缩略图，属于外部宣传海报性质。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:26.469212+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/this-is-the-cheapest-way-to-3-star-every-proving-ground-v0-lqcsz2uid4ed1.jpg?width=1080&crop=smart&auto=webp&s=162125ba475ae6db077440070ed5cf5dfd16ecd7",
+          "caption": "proving ground ...",
+          "source_url": "https://www.reddit.com/r/SWGalaxyOfHeroes/comments/1e9mn70/this_is_the_cheapest_way_to_3star_every_proving/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+proving+grounds",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes proving grounds",
+          "width": 236,
+          "height": 214,
+          "aspect_ratio": 1.1028,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:58:20.923712+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "虽然标题提到 Interceptor 和 Malgus（本活动相关角色碎片），但界面是游戏通用的角色阵容/编组界面，无法直接通过该图判定为活动特有玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:26.469212+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "assault_and_resource_events",
+      "display_name": "Assault Battles / Resource Events / Omega Battles",
+      "description": "这一层是高频重复的资源与挑战活动，包括 Assault Battles、Omega Battles、Contraband Cargo、Credit Heist、Smuggler's Run、Galactic Bounties 等，通常对阵营有限制并奖励稀缺资源。",
+      "examples": [
+        "Ground War",
+        "Military Might",
+        "Places of Power",
+        "Secrets and Shadows",
+        "Contraband Cargo",
+        "Credit Heist",
+        "Smuggler's Run",
+        "Galactic Bounties I",
+        "Galactic Bounties II"
+      ],
+      "market_research_notes": "这类活动构成玩家每周资源获取节奏，是中后期养成计算的基本盘。",
+      "images": [
+        {
+          "url": "https://media.contentapi.ea.com/content/dam/swgoh/common/articles/october-events-calender-preview/swgoh-cal-oct-1.png.adapt.320w.png",
+          "caption": "October Events Calendar Preview",
+          "source_url": "https://www.ea.com/en-us/news/october-events-calendar-preview",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+assault+and+resource+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes assault and resource events",
+          "width": 251,
+          "height": 201,
+          "aspect_ratio": 1.2488,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:58:55.173033+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了游戏活动日历，明确列出了Assault Battles和Omega等目标活动，属于活动介绍海报。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:28.278370+00:00"
+          }
+        },
+        {
+          "url": "https://swgoh.wiki/images/4/4f/Event-Smuggler%27s_Run.png",
+          "caption": "Resource Event",
+          "source_url": "https://swgoh.wiki/wiki/Resource_Event",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+assault+and+resource+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes assault and resource events",
+          "width": 195,
+          "height": 259,
+          "aspect_ratio": 0.7529,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:58:55.173033+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图片包含活动名称Smuggler's Run和Resource Event字样，是活动宣传封面图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:28.278370+00:00"
+          }
+        },
+        {
+          "url": "https://game-assets.swgoh.gg/textures/tex.events_inquisitor_assault_battle.png",
+          "caption": "Star Wars Galaxy of Heroes Events ...",
+          "source_url": "https://swgoh.gg/events/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+assault+and+resource+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes assault and resource events",
+          "width": 159,
+          "height": 318,
+          "aspect_ratio": 0.5,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:58:55.173033+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "该图展示了该游戏的几名审判官角色，虽然与Inquisitor Assault Battle有关，但画面中无任何活动文字或UI，属于通用角色宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:28.278370+00:00"
+          }
+        },
+        {
+          "url": "https://swgoh.wiki/images/thumb/f/f4/Event-Credit_Heist.png/200px-Event-Credit_Heist.png",
+          "caption": "Resource Event",
+          "source_url": "https://swgoh.wiki/wiki/Resource_Event",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+assault+and+resource+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes assault and resource events",
+          "width": 195,
+          "height": 259,
+          "aspect_ratio": 0.7529,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:58:55.173033+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图片包含活动名称Credit Heist和Resource Event字样，是典型的活动入口封面图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:28.278370+00:00"
+          }
+        },
+        {
+          "url": "https://game-assets.swgoh.gg/textures/tex.events_rebelassult.png",
+          "caption": "Star Wars Galaxy of Heroes Events ...",
+          "source_url": "https://swgoh.gg/events/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+assault+and+resource+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes assault and resource events",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:58:55.173033+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "虽然文件名暗示与Rebel Assault有关，但图片本身仅为一张纯战斗场景宣传插画，无任何活动标题或功能UI。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:28.278370+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "marquee_and_special_events",
+      "display_name": "Marquee / Special Events / 新角色主题活动",
+      "description": "围绕新角色、新阵营或新剧情包装的限时活动，常见形态包括 Special Marquee Event、Special Event、Mythic Event、Fleet Mastery 等。",
+      "examples": [
+        "Imperial Vanguard",
+        "Still Resisting?",
+        "Coven of Shadows",
+        "Dark Sovereign",
+        "Fleet Commander Training"
+      ],
+      "market_research_notes": "这是新内容导入层，负责把新角色曝光、试玩和未来养成目标串起来。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/marquee-events-v0-n48w0xvikpte1.png?auto=webp&s=dab1a52320a7b139d475d6cfba9c99c31e7c8106",
+          "caption": "Marquee Events?? : r/SWGalaxyOfHeroes",
+          "source_url": "https://www.reddit.com/r/SWGalaxyOfHeroes/comments/1jutn9o/marquee_events/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+marquee+and+special+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes marquee and special events",
+          "width": 331,
+          "height": 152,
+          "aspect_ratio": 2.1776,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:59:23.038293+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了名为Marquee Event的具体活动界面，包含关卡(Tier)、角色节点及战斗(Battle)入口。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:29.060929+00:00"
+          }
+        },
+        {
+          "url": "https://swgoh.wiki/images/e/ea/Event-Clone_Training.png",
+          "caption": "Marquee Event",
+          "source_url": "https://swgoh.wiki/wiki/Marquee_Event",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+marquee+and+special+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes marquee and special events",
+          "width": 195,
+          "height": 259,
+          "aspect_ratio": 0.7529,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:59:23.038293+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "属于活动宣传海报/Banner图，带活动标题但无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:29.060929+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/why-are-they-special-marquee-events-v0-w1cimhbbrybf1.jpeg?width=1080&crop=smart&auto=webp&s=ad4dcf2fca290eaceaca751cbfc885d99dbf2c99",
+          "caption": "Why are they special marquee events ...",
+          "source_url": "https://www.reddit.com/r/SWGalaxyOfHeroes/comments/1lw28uq/why_are_they_special_marquee_events/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+marquee+and+special+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes marquee and special events",
+          "width": 278,
+          "height": 181,
+          "aspect_ratio": 1.5359,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:59:23.038293+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了Special Marquee Event的活动开启倒计时入口图，属于宣传/入口封面类。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:29.060929+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/L3nqcSTmc_U/maxresdefault.jpg",
+          "caption": "Special Marquee Event Lost & Found II ...",
+          "source_url": "https://www.youtube.com/watch?v=L3nqcSTmc_U",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+marquee+and+special+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes marquee and special events",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:59:23.038293+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "虽然带有视频大标题遮挡，但底图展示了Marquee Event活动内的实际战斗关卡和对话剧情界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:29.060929+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/marquee-event-rewards-v0-ex3bvnj1vktd1.jpeg?width=2400&format=pjpg&auto=webp&s=74a58312f6b0f677ad61e7ed7d654589ed706435",
+          "caption": "Marquee Event Rewards : r/SWGalaxyOfHeroes",
+          "source_url": "https://www.reddit.com/r/SWGalaxyOfHeroes/comments/1fz76nl/marquee_event_rewards/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=star+wars+galaxy+of+heroes+marquee+and+special+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "star wars galaxy of heroes marquee and special events",
+          "width": 335,
+          "height": 150,
+          "aspect_ratio": 2.2333,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:59:23.038293+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了名为Lightsaber For Hire II的Special Marquee Event活动奖励轨与关卡详情界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:40:29.060929+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "58 的程序化结果把活动识别得太扁平了。人工看下来，SWGOH 的活动体系其实非常成熟，至少要拆成 Journey Guide、GAC、TW、TB、Raids、Conquest、Galactic Challenges、Proving Grounds、资源轮换和 Marquee 十个层次，才能接近真实运营结构。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T08:59:23.038293+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:40:29.060929+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

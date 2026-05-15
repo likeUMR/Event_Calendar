@@ -1,0 +1,2730 @@
+{
+  "rank": 5,
+  "name": "Last War:Survival",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 LastWar.wiki、Last War Fandom、Last War Tutorial 等开放页面。该游戏不像休闲游戏有完整统一活动目录，因此本轮按多个信源交叉整理核心活动。",
+  "source_pages": [
+    {
+      "title": "LastWar.wiki - Alliance Duel (VS)",
+      "url": "https://lastwar.wiki/events/alliance-duel-vs/",
+      "notes": "详细解释 Alliance Duel：两联盟对抗，持续一周以上，每日主题不同，含奖励宝箱和排名奖励。"
+    },
+    {
+      "title": "LastWar.wiki - Event Hub",
+      "url": "https://lastwar.wiki/buildings/event-hub/",
+      "notes": "Event Hub 建筑用于查看当前和即将开始的事件，HQ 10 解锁。"
+    },
+    {
+      "title": "LastWar.wiki - Ammo Bonanza and Bullseye Loot",
+      "url": "https://lastwar.wiki/events/ammo-bonanza-and-bullseye-loot/",
+      "notes": "解释 Ammo Bonanza / Bullseye Loot 双页活动：完成任务拿 Ammo，再用 Ammo 开靶找目标奖励。"
+    },
+    {
+      "title": "Last War: Survival Fandom - Last War: Survival",
+      "url": "https://last-war-survival.fandom.com/wiki/Last_War%3A_Survival",
+      "notes": "概述每日、每周、每月活动，包括资源采集、PvE 打僵尸、PvP、大型联盟活动和排行榜。"
+    },
+    {
+      "title": "Lastwar Fandom - Events",
+      "url": "https://lastwar.fandom.com/wiki/Events",
+      "notes": "简短列出 Radar Tasks、Arms Race、Alliance Duel。"
+    },
+    {
+      "title": "Last War Tutorial - Zombie Invasion",
+      "url": "https://www.lastwartutorial.com/zombie-invasion/",
+      "notes": "解释 Zombie Invasion：世界地图出现 invading zombies，击杀和 rally zombie bosses 获取 Courage Medals。"
+    },
+    {
+      "title": "Last War Tutorial - Zombie Siege",
+      "url": "https://www.lastwartutorial.com/zombie-siege/",
+      "notes": "解释 Zombie Siege：僵尸波次攻击联盟基地，撑过波次获得奖励。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "event_hub",
+      "display_name": "Event Hub / 活动中心",
+      "description": "HQ 10 后可建造的活动建筑，用于查看当前事件、即将开始事件、服务器时间和本地时间，并通过 Go 按钮跳转。",
+      "examples": [
+        "Event Hub"
+      ],
+      "market_research_notes": "这是中重度 SLG 的活动入口聚合器，不是单个活动，但对理解活动矩阵很重要。",
+      "images": [
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/event-hub-fixed-last-war-survival-300x276.webp",
+          "caption": "Event Hub building.",
+          "source_url": "https://lastwar.wiki/buildings/event-hub/",
+          "collection_method": "original_manual_json",
+          "image_source_type": "original",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图是活动中心（Event Hub）的建筑物资产素材图，属于本活动的展示性内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:22:56.617244+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:13.649593+00:00",
+            "load_time_ms": 976,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 300,
+            "natural_height": 276,
+            "content_type": "image/webp",
+            "current_src": "https://lastwar.wiki/wp-content/uploads/2024/10/event-hub-fixed-last-war-survival-300x276.webp"
+          }
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/events-tab-in-event-hub-last-war-survival-1.webp",
+          "caption": "Events tab inside Event Hub.",
+          "source_url": "https://lastwar.wiki/buildings/event-hub/",
+          "collection_method": "original_manual_json",
+          "image_source_type": "original",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了活动中心内部的实际玩法界面，包含待办列表、服务器时间、活动项以及Go跳转按钮。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:22:56.617244+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:14.182821+00:00",
+            "load_time_ms": 526,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 720,
+            "natural_height": 969,
+            "content_type": "image/webp",
+            "current_src": "https://lastwar.wiki/wp-content/uploads/2024/10/events-tab-in-event-hub-last-war-survival-1.webp"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/HoKf0FF3weo/maxresdefault.jpg",
+          "caption": "Last War Survival New Update | New ...",
+          "source_url": "https://www.youtube.com/watch?v=HoKf0FF3weo",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+event+hub",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival event hub",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T04:03:33.072183+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "包含活动中心建筑物的宣传海报/缩略图，属于宣传性质图片。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:22:56.617244+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:14.566475+00:00",
+            "load_time_ms": 376,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/HoKf0FF3weo/maxresdefault.jpg"
+          }
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/event-hub-fixed-last-war-survival.webp",
+          "caption": "Event Hub - Last War: Survival Game Wiki",
+          "source_url": "https://lastwar.wiki/buildings/event-hub/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+event+hub",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival event hub",
+          "width": 234,
+          "height": 215,
+          "aspect_ratio": 1.0884,
+          "orientation": "square",
+          "collected_at": "2026-05-13T04:03:33.072183+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "活动中心建筑物的资产原图，与image_index 1相同，作为展示图处理。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:22:56.617244+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:15.089323+00:00",
+            "load_time_ms": 515,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 521,
+            "natural_height": 479,
+            "content_type": "image/webp",
+            "current_src": "https://lastwar.wiki/wp-content/uploads/2024/10/event-hub-fixed-last-war-survival.webp"
+          }
+        },
+        {
+          "url": "https://cdn-www.bluestacks.com/bs-images/lws-en.jpg",
+          "caption": "Last War Survival Game– Recurring ...",
+          "source_url": "https://www.bluestacks.com/blog/game-guides/last-warsurvival-game/lws-recurring-events-guide-en.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+event+hub",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival event hub",
+          "width": 296,
+          "height": 170,
+          "aspect_ratio": 1.7412,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T04:03:33.072183+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该图是Last War的通用品牌/角色展示图，并未体现活动中心具体的界面或玩法。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:22:56.617244+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:15.214164+00:00",
+            "load_time_ms": 119,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 800,
+            "natural_height": 462,
+            "content_type": "image/jpeg",
+            "current_src": "https://cdn-www.bluestacks.com/bs-images/lws-en.jpg"
+          }
+        },
+        {
+          "url": "https://lblog.fp.guinfra.com/file/69f77bbdf0401786cd6d47f96e9PGc4U03?fop=imageView/2/w/649/h/365/q/80",
+          "caption": "intel in Last War ...",
+          "source_url": "https://lootbar.gg/blog/last-war-survival-hub/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+event+hub",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival event hub",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T09:50:04.818475+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:15.443805+00:00",
+            "load_time_ms": 224,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 649,
+            "natural_height": 365,
+            "content_type": "image/webp; charset=binary",
+            "current_src": "https://lblog.fp.guinfra.com/file/69f77bbdf0401786cd6d47f96e9PGc4U03?fop=imageView/2/w/649/h/365/q/80"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片展示了Last War: Survival的游戏角色和标题，属于通用宣传海报，而非特定的Event Hub界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T10:01:47.098358+00:00"
+          }
+        },
+        {
+          "url": "https://heaven-guardian.com/wp-content/uploads/2026/03/Last-War-Alliance-Center.webp",
+          "caption": "Last War: Maximize Alliance Support Hub ...",
+          "source_url": "https://heaven-guardian.com/last-war-maximize-alliance-support-hub-for-fast-upgrades/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+event+hub",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival event hub",
+          "width": 210,
+          "height": 240,
+          "aspect_ratio": 0.875,
+          "orientation": "square",
+          "collected_at": "2026-05-13T09:50:04.818475+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:17.579602+00:00",
+            "load_time_ms": 2130,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 467,
+            "natural_height": 534,
+            "content_type": "image/webp",
+            "current_src": "https://heaven-guardian.com/wp-content/uploads/2026/03/Last-War-Alliance-Center.webp"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "该建筑模型是Last War: Survival中的Event Hub（活动中心）建筑资源，属于展示活动实际表现形式的资产。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T10:01:47.098358+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "alliance_duel",
+      "display_name": "Alliance Duel / Alliance VS",
+      "description": "两联盟对抗积分活动，持续一周以上。每日主题包括 Radar Training、Base Expansion、Age of Science、Train Heroes、Total Mobilization、Enemy Buster。联盟通过完成任务赚分，最终按 Winning Points 判定胜负。",
+      "examples": [
+        "Alliance Duel",
+        "Alliance VS"
+      ],
+      "market_research_notes": "典型周循环联盟竞赛。把日常养成行为、资源消耗、招募、科技、训练、PvP 击杀全部包装进同一联盟竞争框架。",
+      "images": [
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-last-war-survival-300x273.webp",
+          "caption": "Alliance Duel event image.",
+          "source_url": "https://lastwar.wiki/events/alliance-duel-vs/",
+          "collection_method": "original_manual_json",
+          "image_source_type": "original",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "Alliance Duel 活动的官方图标/Logo。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:02.790284+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:17.860003+00:00",
+            "load_time_ms": 275,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 300,
+            "natural_height": 273,
+            "content_type": "image/webp",
+            "current_src": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-last-war-survival-300x273.webp"
+          }
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-rewards-2-576x1024.webp",
+          "caption": "Alliance Duel reward screen.",
+          "source_url": "https://lastwar.wiki/events/alliance-duel-vs/",
+          "collection_method": "original_manual_json",
+          "image_source_type": "original",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了活动内的段位奖励界面（Alliance Tier Reward）。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:02.790284+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:18.375524+00:00",
+            "load_time_ms": 511,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 576,
+            "natural_height": 1024,
+            "content_type": "image/webp",
+            "current_src": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-rewards-2-576x1024.webp"
+          }
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-rewards-1-576x1024.webp",
+          "caption": "Alliance Duel reward screen.",
+          "source_url": "https://lastwar.wiki/events/alliance-duel-vs/",
+          "collection_method": "original_manual_json",
+          "image_source_type": "original",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了活动内的每日排行奖励界面（Daily Ranking Reward）。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:02.790284+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:18.668536+00:00",
+            "load_time_ms": 287,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 576,
+            "natural_height": 1024,
+            "content_type": "image/webp",
+            "current_src": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-rewards-1-576x1024.webp"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/last-war-survival-game-vs-alliance-duel-diagram-v0-pyteq1wj8l8e1.jpeg?auto=webp&s=9f1644e99120fd970fcb54715e4ecc522bd06f08",
+          "caption": "Last War: Survival Game - VS Alliance ...",
+          "source_url": "https://www.reddit.com/r/LastWarMobileGame/comments/1hkma0j/last_war_survival_game_vs_alliance_duel_diagram/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+alliance+duel",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival alliance duel",
+          "width": 245,
+          "height": 206,
+          "aspect_ratio": 1.1893,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T03:38:56.633525+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "玩家制作的活动日程介绍图，属于宣传/教程类海报。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:02.790284+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:19.105615+00:00",
+            "load_time_ms": 431,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 4048,
+            "natural_height": 3402,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/last-war-survival-game-vs-alliance-duel-diagram-v0-pyteq1wj8l8e1.jpeg?auto=webp&s=9f1644e99120fd970fcb54715e4ecc522bd06f08"
+          }
+        },
+        {
+          "url": "https://www.lastwargame.online/wp-content/uploads/2025/01/izobrazhenie-straniczy.webp",
+          "caption": "Last War: VS Duel Guide — Schedule ...",
+          "source_url": "https://www.lastwargame.online/en/game-alliance-duel/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+alliance+duel",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival alliance duel",
+          "width": 167,
+          "height": 301,
+          "aspect_ratio": 0.5548,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T03:38:56.633525+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "带有活动 Logo 的宣传背景图，无实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:02.790284+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:20.787412+00:00",
+            "load_time_ms": 1673,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 630,
+            "content_type": "image/webp",
+            "current_src": "https://www.lastwargame.online/wp-content/uploads/2025/01/izobrazhenie-straniczy.webp"
+          }
+        },
+        {
+          "url": "https://i.redd.it/dwuxc86ws1af1.png",
+          "caption": "VS Alliance Duel & Arms Race Diagram ...",
+          "source_url": "https://www.reddit.com/r/LastWarMobileGame/comments/1lo4uyc/last_wars_vs_alliance_duel_arms_race_diagram/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+alliance+duel",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival alliance duel",
+          "width": 267,
+          "height": 189,
+          "aspect_ratio": 1.4127,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T03:38:56.633525+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "玩家总结的活动积分任务表，属于介绍性图示。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:02.790284+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:22.380755+00:00",
+            "load_time_ms": 1587,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 5352,
+            "natural_height": 3783,
+            "content_type": "image/png",
+            "current_src": "https://i.redd.it/dwuxc86ws1af1.png"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/xQO47yDiZa0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCPIjY--3C18DKB3UGKR6oC3QQU4Q",
+          "caption": "Alliance Duel and Open All 9 Chests ...",
+          "source_url": "https://www.youtube.com/watch?v=xQO47yDiZa0",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+alliance+duel",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival alliance duel",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T03:38:56.633525+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "视频封面中右侧清晰展示了活动实际任务列表、进度条和奖励箱界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:02.790284+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:22.730024+00:00",
+            "load_time_ms": 344,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/xQO47yDiZa0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCPIjY--3C18DKB3UGKR6oC3QQU4Q"
+          }
+        },
+        {
+          "url": "https://static.wikia.nocookie.net/lastwar/images/2/26/Last-war-vs-tips-ENG.png/revision/latest?cb=20241108195548",
+          "caption": "Alliance Duel | Lastwar Wiki | Fandom",
+          "source_url": "https://lastwar.fandom.com/wiki/Alliance_Duel",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+alliance+duel",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival alliance duel",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T10:30:07.095506+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T10:30:38.008470+00:00",
+            "load_time_ms": 1353,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1017,
+            "natural_height": 1017,
+            "content_type": "image/webp",
+            "current_src": "https://static.wikia.nocookie.net/lastwar/images/2/26/Last-war-vs-tips-ENG.png/revision/latest?cb=20241108195548"
+          }
+        }
+      ]
+    },
+    {
+      "type": "enemy_buster_pvp",
+      "display_name": "Enemy Buster / 跨区 PvP 阶段",
+      "description": "Alliance Duel 第 6 日主题，成员可通过界面传送到对方 Warzone，攻击敌对联盟成员得更多分。",
+      "examples": [
+        "Enemy Buster"
+      ],
+      "market_research_notes": "把平时的养成积累引爆到 PvP 消耗，是活动周的付费和活跃高峰。",
+      "images": [
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-last-war-survival.webp",
+          "caption": "Alliance Duel / VS header; Enemy Buster is the PvP phase inside this event.",
+          "source_url": "https://lastwar.wiki/events/alliance-duel-vs/",
+          "collection_method": "original_manual_json",
+          "image_source_type": "original",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是 Alliance Duel (VS) 活动的通用图标，虽然是该活动的一部分，但属于通用活动标识而非具体玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:08.215929+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:23.268102+00:00",
+            "load_time_ms": 338,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 524,
+            "natural_height": 476,
+            "content_type": "image/webp",
+            "current_src": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-last-war-survival.webp"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/4jPC8FTQdyA/maxresdefault.jpg",
+          "caption": "Last War: Survival Enemy Buster Day ...",
+          "source_url": "https://www.youtube.com/watch?v=4jPC8FTQdyA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+enemy+buster+pvp",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival enemy buster pvp",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T03:39:18.335368+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了 Enemy Buster 期间在世界地图攻击敌方基地及跨区传送的实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:08.215929+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:23.706625+00:00",
+            "load_time_ms": 433,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/4jPC8FTQdyA/maxresdefault.jpg"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/vRQd0U1-OdE/maxresdefault.jpg",
+          "caption": "Last War: Versus Guide (Day 6 - Enemy ...",
+          "source_url": "https://www.youtube.com/watch?v=vRQd0U1-OdE",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+enemy+buster+pvp",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival enemy buster pvp",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T03:39:18.335368+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了活动期间玩家集结和基地详情界面，体现了 PvP 阶段的任务或状态。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:08.215929+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:24.484445+00:00",
+            "load_time_ms": 772,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/vRQd0U1-OdE/maxresdefault.jpg"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/HAfnw_tMrdY/maxresdefault.jpg",
+          "caption": "Last War Survival Game ...",
+          "source_url": "https://www.youtube.com/watch?v=HAfnw_tMrdY",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+enemy+buster+pvp",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival enemy buster pvp",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T03:39:18.335368+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "这是一张 YouTube 封面海报，包含了活动名称 Enemy Buster 和宣传立绘，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:08.215929+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:24.896177+00:00",
+            "load_time_ms": 407,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/HAfnw_tMrdY/maxresdefault.jpg"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/7aVjN3aomAU/maxresdefault.jpg",
+          "caption": "Last War: Survival Enemy Buster Battle ...",
+          "source_url": "https://www.youtube.com/watch?v=7aVjN3aomAU",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+enemy+buster+pvp",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival enemy buster pvp",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T03:39:18.335368+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "清晰展示了 Enemy Buster 活动期间跨区对战的实战地图界面和部队行军。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:08.215929+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:25.346743+00:00",
+            "load_time_ms": 445,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/7aVjN3aomAU/maxresdefault.jpg"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/74yCENT8Tno/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHOBYACgAqKAgwIABABGGIgZSg4MA8=&rs=AOn4CLBClwepyoS8yBbXwE_G5bhUHQbr7w",
+          "caption": "Last War Day 6 Enemy Buster Preparation ...",
+          "source_url": "https://www.youtube.com/watch?v=74yCENT8Tno",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+enemy+buster+pvp",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival enemy buster pvp",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T03:39:18.335368+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "展示的是游戏常规的世界地图界面，虽然可能正处于活动中，但缺乏明显的 Enemy Buster 活动专属 UI 或标志。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:08.215929+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:25.680776+00:00",
+            "load_time_ms": 329,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/74yCENT8Tno/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHOBYACgAqKAgwIABABGGIgZSg4MA8=&rs=AOn4CLBClwepyoS8yBbXwE_G5bhUHQbr7w"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ammo_bonanza",
+      "display_name": "Ammo Bonanza",
+      "description": "5 日活动，玩家完成联盟捐献、雷达任务、训练部队、购买礼包等任务获得 Ammo；免费玩家每日大约可拿 12 Ammo。",
+      "examples": [
+        "Ammo Bonanza"
+      ],
+      "market_research_notes": "任务产出活动货币，既有免费路径也有付费加速入口。",
+      "images": [
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/ammo-bonanza-event-295x300.webp",
+          "caption": "Ammo Bonanza event image.",
+          "source_url": "https://lastwar.wiki/events/ammo-bonanza-and-bullseye-loot/",
+          "collection_method": "original_manual_json",
+          "image_source_type": "original",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片展示的是该活动的专属代币Ammo，属于游戏内资产图标，非玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:13.181242+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:25.909732+00:00",
+            "load_time_ms": 222,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 295,
+            "natural_height": 300,
+            "content_type": "image/webp",
+            "current_src": "https://lastwar.wiki/wp-content/uploads/2024/10/ammo-bonanza-event-295x300.webp"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/whats-the-point-in-saving-ammo-bonanza-v0-02ddbz99b76f1.jpg?width=1280&format=pjpg&auto=webp&s=d78fd3fb42d81f1b434184fd199b9d2ed60b5554",
+          "caption": "Whats the point in saving Ammo Bonanza ...",
+          "source_url": "https://www.reddit.com/r/LastWarMobileGame/comments/1l8gatn/whats_the_point_in_saving_ammo_bonanza/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+ammo+bonanza",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival ammo bonanza",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T03:39:47.361895+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了与Ammo Bonanza配套的Bullseye Loot奖励轨道界面，属于活动实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:13.181242+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:26.067625+00:00",
+            "load_time_ms": 150,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/whats-the-point-in-saving-ammo-bonanza-v0-02ddbz99b76f1.jpg?width=1280&format=pjpg&auto=webp&s=d78fd3fb42d81f1b434184fd199b9d2ed60b5554"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/how-many-ammo-do-you-need-to-get-to-the-mythical-blueprint-v0-arm20bdfmi0e1.jpeg?auto=webp&s=b5846ee99721d5b0978edc03a16bff9b8fb0bd6d",
+          "caption": "mythical blueprint ...",
+          "source_url": "https://www.reddit.com/r/LastWarMobileGame/comments/1gprwo3/how_many_ammo_do_you_need_to_get_to_the_mythical/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+ammo+bonanza",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival ammo bonanza",
+          "width": 152,
+          "height": 330,
+          "aspect_ratio": 0.4606,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T03:39:47.361895+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了活动的抽奖/选择奖励界面，包含进度条和奖励矩阵，属于实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:13.181242+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:26.370976+00:00",
+            "load_time_ms": 298,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1170,
+            "natural_height": 2532,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/how-many-ammo-do-you-need-to-get-to-the-mythical-blueprint-v0-arm20bdfmi0e1.jpeg?auto=webp&s=b5846ee99721d5b0978edc03a16bff9b8fb0bd6d"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/ammo-bonanza-v0-z028xep7rp3f1.jpeg?auto=webp&s=0ea2958bc65b24847128898c5839e16173f5299a",
+          "caption": "Ammo bonanza : r/LastWarMobileGame",
+          "source_url": "https://www.reddit.com/r/LastWarMobileGame/comments/1ky9cwr/ammo_bonanza/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+ammo+bonanza",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival ammo bonanza",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T03:39:47.361895+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "德语版本的活动界面，展示了奖励进度条和可操作的抽奖方块，属于实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:13.181242+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:26.657714+00:00",
+            "load_time_ms": 281,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1290,
+            "natural_height": 2796,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/ammo-bonanza-v0-z028xep7rp3f1.jpeg?auto=webp&s=0ea2958bc65b24847128898c5839e16173f5299a"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/ammo-bonanza-odds-are-wrong-v0-sa6qrvrecvxe1.png?width=1000&format=png&auto=webp&s=469ccce6f06472534eaaad2287a5a3075f74bd17",
+          "caption": "Ammo Bonanza Odds are Wrong : r ...",
+          "source_url": "https://www.reddit.com/r/LastWarMobileGame/comments/1kb42po/ammo_bonanza_odds_are_wrong/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+ammo+bonanza",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival ammo bonanza",
+          "width": 290,
+          "height": 174,
+          "aspect_ratio": 1.6667,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T03:39:47.361895+00:00",
+          "llm_image_filter": {
+            "category": 2,
+            "category_label": "无法确定是否和本游戏无关",
+            "confidence": 0.9,
+            "reason": "这是一张玩家自制的数学概率统计图表，并非游戏内截图或官方宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:13.181242+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:26.740724+00:00",
+            "load_time_ms": 76,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1000,
+            "natural_height": 600,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/ammo-bonanza-odds-are-wrong-v0-sa6qrvrecvxe1.png?width=1000&format=png&auto=webp&s=469ccce6f06472534eaaad2287a5a3075f74bd17"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/7CnZa4BGKKA/maxresdefault.jpg",
+          "caption": "Ammo Bonanza SECRETS Top Players Use in ...",
+          "source_url": "https://www.youtube.com/watch?v=7CnZa4BGKKA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+ammo+bonanza",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival ammo bonanza",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T03:39:47.361895+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "这是YouTube视频封面图，虽包含活动界面元素，但属于经过重度后期加工的宣传性质海报。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:13.181242+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:27.772103+00:00",
+            "load_time_ms": 1025,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/7CnZa4BGKKA/maxresdefault.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "type": "bullseye_loot",
+      "display_name": "Bullseye Loot",
+      "description": "Ammo Bonanza 关联小游戏。玩家用 Ammo 开靶，寻找预选目标奖励，完成关卡并每 5 级领取 super prize，最终高层奖励包含稀有装备材料。",
+      "examples": [
+        "Bullseye Loot"
+      ],
+      "market_research_notes": "抽奖/翻牌/找目标式小游戏，适合研究保底、大奖可视化和货币囤积。",
+      "images": [
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/target-reward-selection-576x1024.webp",
+          "caption": "Bullseye Loot target reward selection.",
+          "source_url": "https://lastwar.wiki/events/ammo-bonanza-and-bullseye-loot/",
+          "collection_method": "original_manual_json",
+          "image_source_type": "original",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了活动内选择大奖的具体交互界面，包含活动名称和奖励轨道界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:19.155468+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:28.055074+00:00",
+            "load_time_ms": 278,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 576,
+            "natural_height": 1024,
+            "content_type": "image/webp",
+            "current_src": "https://lastwar.wiki/wp-content/uploads/2024/10/target-reward-selection-576x1024.webp"
+          }
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/minigame-started-576x1024.webp",
+          "caption": "Bullseye Loot minigame started.",
+          "source_url": "https://lastwar.wiki/events/ammo-bonanza-and-bullseye-loot/",
+          "collection_method": "original_manual_json",
+          "image_source_type": "original",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了活动的主体玩法界面，包括打靶网格图和顶部的进度奖励轨。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:19.155468+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:28.378330+00:00",
+            "load_time_ms": 318,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 576,
+            "natural_height": 1024,
+            "content_type": "image/webp",
+            "current_src": "https://lastwar.wiki/wp-content/uploads/2024/10/minigame-started-576x1024.webp"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/mprMmfDTcls/maxresdefault.jpg",
+          "caption": "Last War: Survival Game - Beat the ...",
+          "source_url": "https://www.youtube.com/watch?v=mprMmfDTcls",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+bullseye+loot",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival bullseye loot",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T03:40:13.863629+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "视频封面宣传图，虽然包含活动元素，但属于经过修饰的展示图，非原生游戏内截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:19.155468+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:28.776388+00:00",
+            "load_time_ms": 392,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/mprMmfDTcls/maxresdefault.jpg"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/bullseye-loot-v0-4zu0dczguezd1.jpeg?auto=webp&s=31512694b86df563cb3d19d6be10df509712022d",
+          "caption": "Bullseye Loot : r/LastWarMobileGame",
+          "source_url": "https://www.reddit.com/r/LastWarMobileGame/comments/1gliqgo/bullseye_loot/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+bullseye+loot",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival bullseye loot",
+          "width": 200,
+          "height": 252,
+          "aspect_ratio": 0.7937,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T03:40:13.863629+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了活动的进度奖励轨和部分代币资源界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:19.155468+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:28.979442+00:00",
+            "load_time_ms": 197,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1178,
+            "natural_height": 1485,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/bullseye-loot-v0-4zu0dczguezd1.jpeg?auto=webp&s=31512694b86df563cb3d19d6be10df509712022d"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/23_4eJr7rzQ/maxresdefault.jpg",
+          "caption": "Last War- Bullet Loot Game- How much ...",
+          "source_url": "https://www.youtube.com/watch?v=23_4eJr7rzQ",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+bullseye+loot",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival bullseye loot",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T03:40:13.863629+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了活动的进度轨界面，明确对应 Bullseye Loot 活动。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:19.155468+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:29.375343+00:00",
+            "load_time_ms": 391,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/23_4eJr7rzQ/maxresdefault.jpg"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/bullseye-loot-math-v0-wpf71zawy8gf1.png?width=1080&format=png&auto=webp&s=8100275815307805b23818d8f591d6192df05e05",
+          "caption": "Bullseye Loot Math : r/LastWarMobileGame",
+          "source_url": "https://www.reddit.com/r/LastWarMobileGame/comments/1mdtyvh/bullseye_loot_math/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+bullseye+loot",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival bullseye loot",
+          "width": 260,
+          "height": 194,
+          "aspect_ratio": 1.3402,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T03:40:13.863629+00:00",
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.95,
+            "reason": "这是玩家或研究者自行制作的数学模拟统计图表，并非游戏内截图或官方宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:19.155468+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:29.459365+00:00",
+            "load_time_ms": 79,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 806,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/bullseye-loot-math-v0-wpf71zawy8gf1.png?width=1080&format=png&auto=webp&s=8100275815307805b23818d8f591d6192df05e05"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/does-bullseye-loot-reset-over-the-5d-period-v0-htcaplsobpxe1.jpeg?width=640&crop=smart&auto=webp&s=e926e44ba8897681c4201542ba9d06f197db061e",
+          "caption": "Bullseye loot reset over the 5d period ...",
+          "source_url": "https://www.reddit.com/r/LastWarMobileGame/comments/1kafhuj/does_bullseye_loot_reset_over_the_5d_period/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+bullseye+loot",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival bullseye loot",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T03:40:13.863629+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "清晰的活动内截图，展示了打靶网格、翻牌结果以及顶部的进度轨和活动标签。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:19.155468+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:29.605705+00:00",
+            "load_time_ms": 141,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 1387,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/does-bullseye-loot-reset-over-the-5d-period-v0-htcaplsobpxe1.jpeg?width=640&crop=smart&auto=webp&s=e926e44ba8897681c4201542ba9d06f197db061e"
+          }
+        }
+      ]
+    },
+    {
+      "type": "zombie_invasion",
+      "display_name": "Zombie Invasion / Invading Zombie",
+      "description": "世界地图 PvE 活动。玩家攻击 invading zombies 并发现 zombie bosses，通过个人或联盟 rally 击杀 boss，获得 Courage Medals 并在活动商店兑换。",
+      "examples": [
+        "Zombie Invasion",
+        "Invading Zombie"
+      ],
+      "market_research_notes": "联盟协作 PvE，利用 stamina 和 rally 机制，同时带活动商店经济。",
+      "images": [
+        {
+          "url": "https://cdn.prod.website-files.com/661f895d656bb1a7251835cc/67f4f0a8b8169713b0003f65_last-war-survival-zombie-siege.png",
+          "caption": "Last War Zombie Siege Guide: Tips ...",
+          "source_url": "https://www.packsify.com/blogs/last-war-survival-zombie-siege",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+zombie+invasion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival zombie invasion",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T04:03:56.079062+00:00",
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.85,
+            "reason": "虽然标题提及Zombie Siege（属于该游戏另一活动），但图中画风和角色与Last War: Survival完全不符，高度疑似AI生成的无关配图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:23.976005+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:29.754381+00:00",
+            "load_time_ms": 144,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2240,
+            "natural_height": 1260,
+            "content_type": "image/png",
+            "current_src": "https://cdn.prod.website-files.com/661f895d656bb1a7251835cc/67f4f0a8b8169713b0003f65_last-war-survival-zombie-siege.png"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/invading-zombie-up-to-lv-60-v0-lthvwsugjt0e1.jpeg?auto=webp&s=63e439428898bd0859485914543067cd6c686fe0",
+          "caption": "Invading Zombie (up to lv 60) : r ...",
+          "source_url": "https://www.reddit.com/r/LastWarMobileGame/comments/1gqzh5s/invading_zombie_up_to_lv_60/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+zombie+invasion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival zombie invasion",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T04:03:56.079062+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是玩家整理的活动Boss属性数据表格，并非游戏内实际截图或官方宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:23.976005+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:29.859503+00:00",
+            "load_time_ms": 99,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1156,
+            "natural_height": 646,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/invading-zombie-up-to-lv-60-v0-lthvwsugjt0e1.jpeg?auto=webp&s=63e439428898bd0859485914543067cd6c686fe0"
+          }
+        },
+        {
+          "url": "https://lblog.fp.guinfra.com/file/690e139d20593a3e2ab6b002FdMQ4GxX03",
+          "caption": "Last War: Survival Zombie Invasion ...",
+          "source_url": "https://lootbar.gg/blog/en/last-war-survival-zombie-invasion-invading-zombies-and-bosses.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+zombie+invasion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival zombie invasion",
+          "width": 264,
+          "height": 191,
+          "aspect_ratio": 1.3822,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T09:52:23.002884+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:29.941615+00:00",
+            "load_time_ms": 77,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 684,
+            "natural_height": 496,
+            "content_type": "image/webp; charset=binary",
+            "current_src": "https://lblog.fp.guinfra.com/file/690e139d20593a3e2ab6b002FdMQ4GxX03"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 1.0,
+            "reason": "图片包含游戏名称 Last War 和活动名称 Zombie Invasion 字样，属于明确的活动宣传封面图，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T10:01:46.498229+00:00"
+          }
+        },
+        {
+          "url": "https://www.lastwartutorial.com/wp-content/uploads/2024/09/image-86.png",
+          "caption": "Kill Zombies and Zombie Bosses to earn ...",
+          "source_url": "https://www.lastwartutorial.com/zombie-invasion/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+zombie+invasion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival zombie invasion",
+          "width": 153,
+          "height": 330,
+          "aspect_ratio": 0.4636,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T10:30:49.347526+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T10:31:14.097739+00:00",
+            "load_time_ms": 3427,
+            "long_load": true,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 411,
+            "natural_height": 885,
+            "content_type": "image/png",
+            "current_src": "https://www.lastwartutorial.com/wp-content/uploads/2024/09/image-86.png"
+          }
+        },
+        {
+          "url": "https://www.lastwartutorial.com/wp-content/uploads/2024/09/image-85.png",
+          "caption": "Kill Zombies and Zombie Bosses to earn ...",
+          "source_url": "https://www.lastwartutorial.com/zombie-invasion/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+zombie+invasion",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival zombie invasion",
+          "width": 230,
+          "height": 219,
+          "aspect_ratio": 1.0502,
+          "orientation": "square",
+          "collected_at": "2026-05-13T10:30:49.347526+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T10:31:15.975484+00:00",
+            "load_time_ms": 518,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 328,
+            "natural_height": 313,
+            "content_type": "image/png",
+            "current_src": "https://www.lastwartutorial.com/wp-content/uploads/2024/09/image-85.png"
+          }
+        }
+      ]
+    },
+    {
+      "type": "zombie_siege",
+      "display_name": "Zombie Siege",
+      "description": "僵尸波次攻击联盟成员或联盟目标，玩家通过驻防和承受波次获得奖励。",
+      "examples": [
+        "Zombie Siege"
+      ],
+      "market_research_notes": "波次防守活动，强调联盟在线协作和战力检验。",
+      "images": [
+        {
+          "url": "https://cdn.prod.website-files.com/661f895d656bb1a7251835cc/67f4f0a8b8169713b0003f65_last-war-survival-zombie-siege.png",
+          "caption": "Last War Zombie Siege Guide: Tips ...",
+          "source_url": "https://www.packsify.com/blogs/last-war-survival-zombie-siege",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+zombie+siege",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival zombie siege",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T03:41:02.714856+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "带有活动标题的宣传图或攻略封面，无实际游戏玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:30.746964+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:29.754381+00:00",
+            "load_time_ms": 144,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2240,
+            "natural_height": 1260,
+            "content_type": "image/png",
+            "current_src": "https://cdn.prod.website-files.com/661f895d656bb1a7251835cc/67f4f0a8b8169713b0003f65_last-war-survival-zombie-siege.png"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/zombie-siege-v0-z9uvqxi6kc4d1.jpeg?auto=webp&s=2e557af57f9385405a02ccb25c7b9327ff91d2ac",
+          "caption": "Zombie Siege : r/LastWarMobileGame",
+          "source_url": "https://www.reddit.com/r/LastWarMobileGame/comments/1d72qsl/zombie_siege/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+zombie+siege",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival zombie siege",
+          "width": 150,
+          "height": 336,
+          "aspect_ratio": 0.4464,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T03:41:02.714856+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了僵尸围城活动的实际交互界面，包含要塞选择、战力提示及进度条。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:30.746964+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:32.117110+00:00",
+            "load_time_ms": 104,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 720,
+            "natural_height": 1612,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/zombie-siege-v0-z9uvqxi6kc4d1.jpeg?auto=webp&s=2e557af57f9385405a02ccb25c7b9327ff91d2ac"
+          }
+        },
+        {
+          "url": "https://res.lootbar.gg/pic/20241101/86e0e152-ee2b-4dd5-9cf2-8098a5648646.jpg",
+          "caption": "Conquer the Last War Zombie Siege: the ...",
+          "source_url": "https://lootbar.gg/blog/en/last-war-zombie-siege-guide.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+zombie+siege",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival zombie siege",
+          "width": 298,
+          "height": 169,
+          "aspect_ratio": 1.7633,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T03:41:02.714856+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "典型的攻略封面/宣传图，使用了游戏素材但非实际玩法截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:30.746964+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:32.835097+00:00",
+            "load_time_ms": 712,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2048,
+            "natural_height": 1166,
+            "content_type": "image/jpeg",
+            "current_src": "https://res.lootbar.gg/pic/20241101/86e0e152-ee2b-4dd5-9cf2-8098a5648646.jpg"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/hybuQ82Y5fw/maxresdefault.jpg",
+          "caption": "Zombie Siege Event Explained 🧟‍♂️ ...",
+          "source_url": "https://www.youtube.com/watch?v=hybuQ82Y5fw",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+zombie+siege",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival zombie siege",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T03:41:02.714856+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了游戏内僵尸波次攻击、防守进度、时间倒计时等实际玩法操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:30.746964+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:33.606323+00:00",
+            "load_time_ms": 764,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/hybuQ82Y5fw/maxresdefault.jpg"
+          }
+        },
+        {
+          "url": "https://c2c.fp.guinfra.com/file/6724388a7c59d7fd62c536aeUfRisF9P03",
+          "caption": "Conquer the Last War Zombie Siege: the ...",
+          "source_url": "https://lootbar.gg/blog/en/last-war-zombie-siege-guide.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+zombie+siege",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival zombie siege",
+          "width": 153,
+          "height": 330,
+          "aspect_ratio": 0.4636,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T09:52:50.599960+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:34.723152+00:00",
+            "load_time_ms": 1112,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 411,
+            "natural_height": 885,
+            "content_type": "image/webp; charset=binary",
+            "current_src": "https://c2c.fp.guinfra.com/file/6724388a7c59d7fd62c536aeUfRisF9P03"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了Last War游戏的活动界面，包含顶部的Zombie Siege页签切换、Zombie Invasion活动标题、倒计时、排行榜入口及底部搜索Boss的玩法交互区域，属于实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T10:01:46.526497+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "arms_race",
+      "display_name": "Arms Race",
+      "description": "Fandom 活动索引列出的核心活动之一，通常围绕养成行为和冲分奖励。",
+      "examples": [
+        "Arms Race"
+      ],
+      "market_research_notes": "需要后续打开更多攻略页补充周期、阶段任务和奖励。",
+      "images": [
+        {
+          "url": "https://cpt-hedge.com/images/guides/arms-race-changes-hero.webp",
+          "caption": "Arms Race Slot Swap Guide ...",
+          "source_url": "https://cpt-hedge.com/guides/arms-race-swap-and-schedule-change",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+arms+race",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival arms race",
+          "width": 209,
+          "height": 241,
+          "aspect_ratio": 0.8672,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T03:41:48.637709+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了Arms Race活动的实际任务界面与切换确认弹窗。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:34.881022+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:35.836734+00:00",
+            "load_time_ms": 1109,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 630,
+            "content_type": "image/webp",
+            "current_src": "https://cpt-hedge.com/images/guides/arms-race-changes-hero.webp"
+          }
+        },
+        {
+          "url": "https://cpt-hedge.com/images/guides/arms-race-changes/5-finished-hero.webp",
+          "caption": "Arms Race Guide : r/LastWarMobileGame",
+          "source_url": "https://cpt-hedge.com/guides/arms-race-swap-and-schedule-change",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+arms+race",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival arms race",
+          "width": 323,
+          "height": 156,
+          "aspect_ratio": 2.0705,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T03:41:48.637709+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了Arms Race中Hero Advancement阶段的实际任务列表、积分进度条和奖励宝箱。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:34.881022+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:36.244994+00:00",
+            "load_time_ms": 403,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1043,
+            "natural_height": 1198,
+            "content_type": "image/webp",
+            "current_src": "https://cpt-hedge.com/images/guides/arms-race-changes/5-finished-hero.webp"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/arms-race-guide-v0-bwktrg6qzw1e1.png?auto=webp&s=9e9640a08e5bf487605eea5b5650ba628d55a3c7",
+          "caption": "Arms Race rewards? : r/LastWarMobileGame",
+          "source_url": "https://www.reddit.com/r/LastWarMobileGame/comments/1gv6ghi/arms_race_guide/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+arms+race",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival arms race",
+          "width": 152,
+          "height": 330,
+          "aspect_ratio": 0.4606,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T03:41:48.637709+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "属于玩家自制的活动奖励参考表，非游戏内实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:34.881022+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:36.350572+00:00",
+            "load_time_ms": 100,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1103,
+            "natural_height": 534,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/arms-race-guide-v0-bwktrg6qzw1e1.png?auto=webp&s=9e9640a08e5bf487605eea5b5650ba628d55a3c7"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/9dFKilqJ_qA/hqdefault.jpg",
+          "caption": "Last War 101: Daily Arms Race!! Easy ...",
+          "source_url": "https://www.youtube.com/watch?v=9dFKilqJ_qA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+arms+race",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival arms race",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T03:41:48.637709+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了活动内每日目标进度条及在该活动下的宝箱领取界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:34.881022+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:36.668500+00:00",
+            "load_time_ms": 311,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 480,
+            "natural_height": 360,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/9dFKilqJ_qA/hqdefault.jpg"
+          }
+        },
+        {
+          "url": "https://lblog.fp.guinfra.com/file/693aea81bbe3ac56fde1d2176GazlvdC03",
+          "caption": "Arms Race Event in Last War: Survival",
+          "source_url": "https://lootbar.gg/blog/en/arms-race-event-in-last-war-survival.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+arms+race",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival arms race",
+          "width": 323,
+          "height": 156,
+          "aspect_ratio": 2.0705,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T09:53:17.423499+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:36.810689+00:00",
+            "load_time_ms": 134,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1945,
+            "natural_height": 1297,
+            "content_type": "image/webp; charset=binary",
+            "current_src": "https://lblog.fp.guinfra.com/file/693aea81bbe3ac56fde1d2176GazlvdC03"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图中有明确的活动名称 ARMS RACE 以及游戏对应的角色美术风格，属于该活动的攻略封面宣传图，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T10:01:46.918855+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "radar_tasks",
+      "display_name": "Radar Tasks / 雷达任务",
+      "description": "Fandom 活动索引列出的核心活动/任务系统，也出现在 Alliance Duel 的得分项中。",
+      "examples": [
+        "Radar Tasks",
+        "Radar Training"
+      ],
+      "market_research_notes": "雷达任务既是日常内容，也是活动积分来源，属于 SLG 活动复用日常系统的典型做法。",
+      "images": [
+        {
+          "url": "https://i.redd.it/mmkd2xjcom4f1.jpeg",
+          "caption": "Proper Way to save Radar Tasks : r ...",
+          "source_url": "https://www.reddit.com/r/LastWarMobileGame/comments/1l1zw67/proper_way_to_save_radar_tasks/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+radar+tasks",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival radar tasks",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T03:53:58.012399+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了雷达任务的具体玩法界面，包括大地图上的任务坐标点及任务奖励详情。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:40.255113+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:37.609164+00:00",
+            "load_time_ms": 793,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 2340,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/mmkd2xjcom4f1.jpeg"
+          }
+        },
+        {
+          "url": "https://i.redd.it/9tly2l2dnc7d1.jpeg",
+          "caption": "radar tasks as I can for the VS radar ...",
+          "source_url": "https://www.reddit.com/r/LastWarMobileGame/comments/1ditl0j/how_do_i_interpret_the_140_number_and_how_do_i/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+radar+tasks",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival radar tasks",
+          "width": 188,
+          "height": 269,
+          "aspect_ratio": 0.6989,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T03:53:58.012399+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了雷达站扫描出的任务地图界面，属于实际玩法截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:40.255113+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:38.248100+00:00",
+            "load_time_ms": 634,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1668,
+            "natural_height": 2388,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/9tly2l2dnc7d1.jpeg"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/radar-tasks-v0-vwewp7lqfh3d1.jpeg?width=828&format=pjpg&auto=webp&s=293ddf5960edab44879bea61f711412335a856bd",
+          "caption": "RADAR TASKS : r/LastWarMobileGame",
+          "source_url": "https://www.reddit.com/r/LastWarMobileGame/comments/1d3szeu/radar_tasks/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+radar+tasks",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival radar tasks",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T03:53:58.012399+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "清晰展示了游戏内雷达扫描后的任务分布地图界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:40.255113+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:38.416480+00:00",
+            "load_time_ms": 164,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 828,
+            "natural_height": 1792,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/radar-tasks-v0-vwewp7lqfh3d1.jpeg?width=828&format=pjpg&auto=webp&s=293ddf5960edab44879bea61f711412335a856bd"
+          }
+        },
+        {
+          "url": "https://cdn.geekvibesnation.com/wp-media-folder-geek-vibes-nation/wp-content/uploads/2025/06/Last_War_Game.jpg",
+          "caption": "Last War Survival Guide To Radar Missions",
+          "source_url": "https://geekvibesnation.com/last-war-survival-guide-to-radar-missions/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+radar+tasks",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival radar tasks",
+          "width": 292,
+          "height": 173,
+          "aspect_ratio": 1.6879,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T03:53:58.012399+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "仅为游戏的通用Logo品牌图，未涉及具体的雷达任务活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:40.255113+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:39.964489+00:00",
+            "load_time_ms": 1539,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1000,
+            "natural_height": 558,
+            "content_type": "image/jpeg",
+            "current_src": "https://cdn.geekvibesnation.com/wp-media-folder-geek-vibes-nation/wp-content/uploads/2025/06/Last_War_Game.jpg"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/no-alliance-tasks-on-radar-v0-hvez2wk791sc1.jpeg?auto=webp&s=62718d7d04067443ff55327da64a16d507f5be01",
+          "caption": "No alliance tasks on radar... : r ...",
+          "source_url": "https://www.reddit.com/r/LastWarMobileGame/comments/1btu5r3/no_alliance_tasks_on_radar/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+radar+tasks",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival radar tasks",
+          "width": 204,
+          "height": 247,
+          "aspect_ratio": 0.8259,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T03:53:58.012399+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了雷达任务在游戏大地图上的分布和列表，属于实际操作玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:40.255113+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:40.127127+00:00",
+            "load_time_ms": 155,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1178,
+            "natural_height": 1430,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/no-alliance-tasks-on-radar-v0-hvez2wk791sc1.jpeg?auto=webp&s=62718d7d04067443ff55327da64a16d507f5be01"
+          }
+        }
+      ]
+    },
+    {
+      "type": "resource_and_growth_events",
+      "display_name": "Resource / Growth Events / 资源与养成活动",
+      "description": "围绕采集、建设、研究、英雄训练、部队训练、招募、装备材料等成长行为设计的活动。",
+      "examples": [
+        "Base Expansion",
+        "Age of Science",
+        "Train Heroes",
+        "Total Mobilization",
+        "resource gathering events"
+      ],
+      "market_research_notes": "这些通常不是孤立活动，而是大型周活动中的日主题，驱动玩家按运营节奏消耗库存。",
+      "images": [
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-last-war-survival-300x273.webp",
+          "caption": "Alliance Duel image; growth themes such as Base Expansion and Train Heroes are daily themes within Alliance Duel.",
+          "source_url": "https://lastwar.wiki/events/alliance-duel-vs/",
+          "collection_method": "original_manual_json",
+          "image_source_type": "original",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是游戏内最强对决(Alliance Duel)的图标，虽然该活动包含成长内容，但此处仅为通用图标。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:45.227335+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:17.860003+00:00",
+            "load_time_ms": 275,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 300,
+            "natural_height": 273,
+            "content_type": "image/webp",
+            "current_src": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-last-war-survival-300x273.webp"
+          }
+        },
+        {
+          "url": "https://cpt-hedge.com/images/guides/hot-deals-events-hero.png",
+          "caption": "Last War Survival - Complete Hot Deal ...",
+          "source_url": "https://cpt-hedge.com/guides/hot-deals-events",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+resource+and+growth+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival resource and growth events",
+          "width": 221,
+          "height": 228,
+          "aspect_ratio": 0.9693,
+          "orientation": "square",
+          "collected_at": "2026-05-13T03:54:20.362781+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "这是针对该游戏Hot Deals活动的第三方攻略封面图，提及了活动时间线，属于无玩法的海报类图片。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:45.227335+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:41.588029+00:00",
+            "load_time_ms": 1456,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/png",
+            "current_src": "https://cpt-hedge.com/images/guides/hot-deals-events-hero.png"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/meQdlx3vOS4/maxresdefault.jpg",
+          "caption": "Last War : Survival ...",
+          "source_url": "https://www.youtube.com/watch?v=meQdlx3vOS4",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+resource+and+growth+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival resource and growth events",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T03:54:20.362781+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "图片展示了游戏内具体的资源产出、背包道具列表以及Doom Elite奖励界面，属于实际资源获取界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:45.227335+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:42.005945+00:00",
+            "load_time_ms": 412,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/meQdlx3vOS4/maxresdefault.jpg"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/meQdlx3vOS4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCOspDcR8ZPSxVhKPj2IzYOj68B5A",
+          "caption": "event calendar",
+          "source_url": "https://www.youtube.com/watch?v=meQdlx3vOS4",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+resource+and+growth+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival resource and growth events",
+          "width": 301,
+          "height": 168,
+          "aspect_ratio": 1.7917,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T03:54:20.362781+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "与图片3内容一致，展示了实际的资源道具界面和领袖奖励，体现了资源与养成。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:45.227335+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:42.685803+00:00",
+            "load_time_ms": 674,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/meQdlx3vOS4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCOspDcR8ZPSxVhKPj2IzYOj68B5A"
+          }
+        },
+        {
+          "url": "https://cdn-www.bluestacks.com/bs-images/lws-en.jpg",
+          "caption": "Last War Survival Game– Recurring ...",
+          "source_url": "https://www.bluestacks.com/blog/game-guides/last-warsurvival-game/lws-recurring-events-guide-en.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+resource+and+growth+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival resource and growth events",
+          "width": 296,
+          "height": 170,
+          "aspect_ratio": 1.7412,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T03:54:20.362781+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图片是游戏的通用品牌宣传图或加载图，没有包含特定活动的玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:45.227335+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:15.214164+00:00",
+            "load_time_ms": 119,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 800,
+            "natural_height": 462,
+            "content_type": "image/jpeg",
+            "current_src": "https://cdn-www.bluestacks.com/bs-images/lws-en.jpg"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/events-and-hot-deals-schedule-v0-7149upbqehce1.png?auto=webp&s=2faea0a5751f6bd6c4af8e0d1181749b2393a5cb",
+          "caption": "Events and Hot Deals Schedule : r ...",
+          "source_url": "https://www.reddit.com/r/LastWarMobileGame/comments/1hzdmah/events_and_hot_deals_schedule/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+resource+and+growth+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival resource and growth events",
+          "width": 304,
+          "height": 166,
+          "aspect_ratio": 1.8313,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T03:54:20.362781+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "这是玩家总结的日历表，明确列出了Total Mobilization, Hero Growth等大量资源养成类活动，属于活动介绍。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:45.227335+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:43.018628+00:00",
+            "load_time_ms": 325,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 3064,
+            "natural_height": 1676,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/events-and-hot-deals-schedule-v0-7149upbqehce1.png?auto=webp&s=2faea0a5751f6bd6c4af8e0d1181749b2393a5cb"
+          }
+        }
+      ]
+    },
+    {
+      "type": "seasonal_alliance_events",
+      "display_name": "Season / Alliance Defense Events / 赛季联盟防守",
+      "description": "赛季内出现的联盟防守或波次活动，例如 Beast Crisis 保护 Alliance Furnace、Crimson Legion 类事件。",
+      "examples": [
+        "Beast Crisis",
+        "Crimson Legion"
+      ],
+      "market_research_notes": "来源为社区攻略站，需后续按赛季分别验证。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/events-and-hot-deals-schedule-v0-7149upbqehce1.png?auto=webp&s=2faea0a5751f6bd6c4af8e0d1181749b2393a5cb",
+          "caption": "Events and Hot Deals Schedule : r ...",
+          "source_url": "https://www.reddit.com/r/LastWarMobileGame/comments/1hzdmah/events_and_hot_deals_schedule/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+seasonal+alliance+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival seasonal alliance events",
+          "width": 304,
+          "height": 166,
+          "aspect_ratio": 1.8313,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T03:43:53.700473+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是游戏通用的活动时间表，包含多种日常和周常活动，虽然属于本游戏，但并非专门针对联盟防守赛季活动的介绍。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:51.391433+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:43.018628+00:00",
+            "load_time_ms": 325,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 3064,
+            "natural_height": 1676,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/events-and-hot-deals-schedule-v0-7149upbqehce1.png?auto=webp&s=2faea0a5751f6bd6c4af8e0d1181749b2393a5cb"
+          }
+        },
+        {
+          "url": "https://cpt-hedge.com/images/guides/hot-deals-events-hero.png",
+          "caption": "Last War Survival - Complete Hot Deal ...",
+          "source_url": "https://cpt-hedge.com/guides/hot-deals-events",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+seasonal+alliance+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival seasonal alliance events",
+          "width": 221,
+          "height": 228,
+          "aspect_ratio": 0.9693,
+          "orientation": "square",
+          "collected_at": "2026-05-13T03:43:53.700473+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "这是网站引导封面图，仅包含通用文字，无法直接确认与特定赛季联盟防守活动相关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:51.391433+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:41.588029+00:00",
+            "load_time_ms": 1456,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/png",
+            "current_src": "https://cpt-hedge.com/images/guides/hot-deals-events-hero.png"
+          }
+        },
+        {
+          "url": "https://cpt-hedge.com/images/guides/infographics/last-war-survival-hot-deals-events-light-v1-1.webp",
+          "caption": "Last War Survival - Complete Hot Deal ...",
+          "source_url": "https://cpt-hedge.com/guides/hot-deals-events",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+seasonal+alliance+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival seasonal alliance events",
+          "width": 221,
+          "height": 228,
+          "aspect_ratio": 0.9693,
+          "orientation": "square",
+          "collected_at": "2026-05-13T03:43:53.700473+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是游戏内付费礼包和轮换活动的汇总表，与赛季联盟防守玩法无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:51.391433+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:43.509577+00:00",
+            "load_time_ms": 485,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1000,
+            "natural_height": 1035,
+            "content_type": "image/webp",
+            "current_src": "https://cpt-hedge.com/images/guides/infographics/last-war-survival-hot-deals-events-light-v1-1.webp"
+          }
+        },
+        {
+          "url": "https://cpt-hedge.com/images/guides/infographics/last-war-survival-hot-deals-events-dark-v1-1.webp",
+          "caption": "🐊 Season 6 – Lost Rainforest – The ...",
+          "source_url": "https://cpt-hedge.com/guides/hot-deals-events",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+seasonal+alliance+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival seasonal alliance events",
+          "width": 255,
+          "height": 198,
+          "aspect_ratio": 1.2879,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T03:43:53.700473+00:00",
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "内容与图3相同，是游戏付费和轮换活动的汇总表，不涉及赛季联盟防守玩法。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:51.391433+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:43.769590+00:00",
+            "load_time_ms": 254,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1000,
+            "natural_height": 1035,
+            "content_type": "image/webp",
+            "current_src": "https://cpt-hedge.com/images/guides/infographics/last-war-survival-hot-deals-events-dark-v1-1.webp"
+          }
+        },
+        {
+          "url": "https://firstfungroup.zendesk.com/hc/theming_assets/01KG73HDZ4ATQG35FHJGF7VYYF",
+          "caption": "Season 1 Event Schedule – Last War Support",
+          "source_url": "https://firstfungroup.zendesk.com/hc/en-us/articles/44328436486035-Season-1-Event-Schedule",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+seasonal+alliance+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival seasonal alliance events",
+          "width": 241,
+          "height": 209,
+          "aspect_ratio": 1.1531,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T10:31:21.696735+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T10:31:51.988569+00:00",
+            "load_time_ms": 1350,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://firstfungroup.zendesk.com/hc/theming_assets/01KG73HDZ4ATQG35FHJGF7VYYF"
+          }
+        }
+      ]
+    },
+    {
+      "type": "leaderboard_rewards",
+      "display_name": "Ranking / League Rewards / 排行奖励",
+      "description": "Alliance Duel 等活动包含每日、每周、赛季奖励，并按联盟 tier、排名发放 Valor Badges、Diamonds、Drone Component Chests、Upgrade Ore、Synthetic Resin、Resource Chests、skins 等。",
+      "examples": [
+        "Reward Chests",
+        "Ranking Rewards",
+        "League Rewards"
+      ],
+      "market_research_notes": "中重度游戏的奖励结构更复杂，建议单独建 reward table。",
+      "images": [
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-rewards-2-576x1024.webp",
+          "caption": "Alliance Duel ranking/reward screen.",
+          "source_url": "https://lastwar.wiki/events/alliance-duel-vs/",
+          "collection_method": "original_manual_json",
+          "image_source_type": "original",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了联盟对决活动中的具体段位奖励界面，包含具体的资源和道具图标。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:56.427922+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:18.375524+00:00",
+            "load_time_ms": 511,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 576,
+            "natural_height": 1024,
+            "content_type": "image/webp",
+            "current_src": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-rewards-2-576x1024.webp"
+          }
+        },
+        {
+          "url": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-rewards-3-576x1024.webp",
+          "caption": "Alliance Duel ranking/reward screen.",
+          "source_url": "https://lastwar.wiki/events/alliance-duel-vs/",
+          "collection_method": "original_manual_json",
+          "image_source_type": "original",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了联盟联赛结算奖励界面，包含具体的排名奖励预览和积分进度条。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:56.427922+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:45.291572+00:00",
+            "load_time_ms": 331,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 576,
+            "natural_height": 1024,
+            "content_type": "image/webp",
+            "current_src": "https://lastwar.wiki/wp-content/uploads/2024/10/alliance-duel-vs-rewards-3-576x1024.webp"
+          }
+        },
+        {
+          "url": "https://cpt-hedge.com/images/guides/crystalgold-tycoon-hero.webp",
+          "caption": "Season 5 CrystalGold Tycoon Complete ...",
+          "source_url": "https://cpt-hedge.com/guides/season-5-crystalgold-tycoon",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+leaderboard+rewards",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival leaderboard rewards",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T03:44:51.753235+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "这是一张攻略海报/宣传封面图，虽然右侧有奖励小图，但整体属于引导宣传性质。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:56.427922+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:45.516051+00:00",
+            "load_time_ms": 218,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 630,
+            "content_type": "image/webp",
+            "current_src": "https://cpt-hedge.com/images/guides/crystalgold-tycoon-hero.webp"
+          }
+        },
+        {
+          "url": "https://cpt-hedge.com/images/guides/s5-crystalgold-tycoon/crystalgold-tycoon-season-rankings-4.webp",
+          "caption": "Season 5 CrystalGold Tycoon Complete ...",
+          "source_url": "https://cpt-hedge.com/guides/season-5-crystalgold-tycoon",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+leaderboard+rewards",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival leaderboard rewards",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T03:44:51.753235+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了赛季活动中的奖励领取/达成条件界面，包含具体的排名要求和奖励列表。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:56.427922+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:45.814095+00:00",
+            "load_time_ms": 293,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 2340,
+            "content_type": "image/webp",
+            "current_src": "https://cpt-hedge.com/images/guides/s5-crystalgold-tycoon/crystalgold-tycoon-season-rankings-4.webp"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/oQbX6E1y81c/maxresdefault.jpg",
+          "caption": "This Leaderboard Spending Rule/Glitch ...",
+          "source_url": "https://www.youtube.com/watch?v=oQbX6E1y81c",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+leaderboard+rewards",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival leaderboard rewards",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T03:44:51.753235+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "视频缩略图，属于宣传性质的组合图，展示了排行榜名称，非原始游戏内玩法操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:56.427922+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:46.247199+00:00",
+            "load_time_ms": 427,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/oQbX6E1y81c/maxresdefault.jpg"
+          }
+        },
+        {
+          "url": "https://cpt-hedge.com/images/guides/season-6-war-merit-hero.webp",
+          "caption": "Last War: Survival - Season 6 War Merit ...",
+          "source_url": "https://cpt-hedge.com/guides/season-6-war-merit",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+leaderboard+rewards",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival leaderboard rewards",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T03:44:51.753235+00:00",
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.8,
+            "reason": "活动攻略海报封面，展示了活动代币和赛季标题，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:56.427922+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:46.656057+00:00",
+            "load_time_ms": 403,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 630,
+            "content_type": "image/webp",
+            "current_src": "https://cpt-hedge.com/images/guides/season-6-war-merit-hero.webp"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/season-rewards-v0-5kg6r8j22yee1.jpeg?auto=webp&s=1c755a6863069ae56b812db0e6982f13feb7eee3",
+          "caption": "Season Rewards : r/LastWarMobileGame",
+          "source_url": "https://www.reddit.com/r/LastWarMobileGame/comments/1i8vfnt/season_rewards/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=last+war+survival+leaderboard+rewards",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "last war survival leaderboard rewards",
+          "width": 160,
+          "height": 316,
+          "aspect_ratio": 0.5063,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T03:44:51.753235+00:00",
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了赛季奖励的具体分配界面，包含盟主、核心成员等分类奖励的详情。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T07:23:56.427922+00:00"
+          },
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T09:59:46.878080+00:00",
+            "load_time_ms": 217,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 2135,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/season-rewards-v0-5kg6r8j22yee1.jpeg?auto=webp&s=1c755a6863069ae56b812db0e6982f13feb7eee3"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/39/6f/ca396fb1-abdd-88d1-c098-1f49b7ac6365/9927ac52-441b-4e5f-8922-312ad02ef3d9_1.jpg/576x768bb.jpg",
+      "description": "US store screenshot 1: Last War:Survival",
+      "source_url": "https://apps.apple.com/us/app/last-war-survival/id6448786147?uo=4",
+      "collection_method": "bulk_us_store_screenshot_search",
+      "image_source_type": "bulk_store_supplement",
+      "store_source": "apple_app_store",
+      "store_country": "US",
+      "width": 576,
+      "height": 768,
+      "aspect_ratio": 0.75,
+      "orientation": "portrait",
+      "collected_at": "2026-05-12T09:32:32.514263+00:00",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T09:59:46.915234+00:00",
+        "load_time_ms": 30,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 576,
+        "natural_height": 768,
+        "content_type": "image/jpeg",
+        "current_src": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/39/6f/ca396fb1-abdd-88d1-c098-1f49b7ac6365/9927ac52-441b-4e5f-8922-312ad02ef3d9_1.jpg/576x768bb.jpg"
+      }
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b4/17/4a/b4174a6c-ab4e-e1b8-256e-8b3a09ffe727/b0623272-1fc0-49ba-b0a5-1d6dd76adca6_2.jpg/576x768bb.jpg",
+      "description": "US store screenshot 2: Last War:Survival",
+      "source_url": "https://apps.apple.com/us/app/last-war-survival/id6448786147?uo=4",
+      "collection_method": "bulk_us_store_screenshot_search",
+      "image_source_type": "bulk_store_supplement",
+      "store_source": "apple_app_store",
+      "store_country": "US",
+      "width": 576,
+      "height": 768,
+      "aspect_ratio": 0.75,
+      "orientation": "portrait",
+      "collected_at": "2026-05-12T09:32:32.514263+00:00",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T09:59:47.103381+00:00",
+        "load_time_ms": 13,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 576,
+        "natural_height": 768,
+        "content_type": "image/jpeg",
+        "current_src": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b4/17/4a/b4174a6c-ab4e-e1b8-256e-8b3a09ffe727/b0623272-1fc0-49ba-b0a5-1d6dd76adca6_2.jpg/576x768bb.jpg"
+      }
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b0/84/aa/b084aa30-a7b0-b0ff-ec15-89e3be7e6cd7/50b31d6e-c59e-4ed6-9ce1-a0932835aa29_3.jpg/576x768bb.jpg",
+      "description": "US store screenshot 3: Last War:Survival",
+      "source_url": "https://apps.apple.com/us/app/last-war-survival/id6448786147?uo=4",
+      "collection_method": "bulk_us_store_screenshot_search",
+      "image_source_type": "bulk_store_supplement",
+      "store_source": "apple_app_store",
+      "store_country": "US",
+      "width": 576,
+      "height": 768,
+      "aspect_ratio": 0.75,
+      "orientation": "portrait",
+      "collected_at": "2026-05-12T09:32:32.514263+00:00",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T09:59:47.120575+00:00",
+        "load_time_ms": 10,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 576,
+        "natural_height": 768,
+        "content_type": "image/jpeg",
+        "current_src": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b0/84/aa/b084aa30-a7b0-b0ff-ec15-89e3be7e6cd7/50b31d6e-c59e-4ed6-9ce1-a0932835aa29_3.jpg/576x768bb.jpg"
+      }
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/22/4a/c0224aef-baed-fbc6-e5f5-c072180494bc/88878201-82ea-4feb-b435-db84897a3c29_5.jpg/576x768bb.jpg",
+      "description": "US store screenshot 4: Last War:Survival",
+      "source_url": "https://apps.apple.com/us/app/last-war-survival/id6448786147?uo=4",
+      "collection_method": "bulk_us_store_screenshot_search",
+      "image_source_type": "bulk_store_supplement",
+      "store_source": "apple_app_store",
+      "store_country": "US",
+      "width": 576,
+      "height": 768,
+      "aspect_ratio": 0.75,
+      "orientation": "portrait",
+      "collected_at": "2026-05-12T09:32:32.514263+00:00",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T09:59:47.134902+00:00",
+        "load_time_ms": 10,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 576,
+        "natural_height": 768,
+        "content_type": "image/jpeg",
+        "current_src": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/22/4a/c0224aef-baed-fbc6-e5f5-c072180494bc/88878201-82ea-4feb-b435-db84897a3c29_5.jpg/576x768bb.jpg"
+      }
+    },
+    {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1a/8a/9e/1a8a9e0a-4375-dd45-3d89-fa0356219d15/f9f00866-0243-4a3c-9b7c-eecb2c30a44b_6.jpg/576x768bb.jpg",
+      "description": "US store screenshot 5: Last War:Survival",
+      "source_url": "https://apps.apple.com/us/app/last-war-survival/id6448786147?uo=4",
+      "collection_method": "bulk_us_store_screenshot_search",
+      "image_source_type": "bulk_store_supplement",
+      "store_source": "apple_app_store",
+      "store_country": "US",
+      "width": 576,
+      "height": 768,
+      "aspect_ratio": 0.75,
+      "orientation": "portrait",
+      "collected_at": "2026-05-12T09:32:32.514263+00:00",
+      "image_load_check": {
+        "method": "playwright_embed_check",
+        "checked_at": "2026-05-13T09:59:47.149412+00:00",
+        "load_time_ms": 10,
+        "long_load": false,
+        "http_status": 200,
+        "event": "load",
+        "natural_width": 576,
+        "natural_height": 768,
+        "content_type": "image/jpeg",
+        "current_src": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1a/8a/9e/1a8a9e0a-4375-dd45-3d89-fa0356219d15/f9f00866-0243-4a3c-9b7c-eecb2c30a44b_6.jpg/576x768bb.jpg"
+      }
+    }
+  ],
+  "coverage_notes": "Last War 的活动资料分散在多个 wiki/攻略站。第一轮已经覆盖核心活动框架；下一轮建议优先补 Arms Race、Radar Tasks、Zombie Invasion、Zombie Siege、Season events 的详情表。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T10:31:54.212124+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T10:01:47.098358+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

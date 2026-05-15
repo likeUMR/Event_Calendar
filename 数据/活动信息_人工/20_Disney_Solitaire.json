@@ -1,0 +1,1415 @@
+{
+  "rank": 20,
+  "name": "Disney Solitaire",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 Disney Solitaire 官方 SuperPlay 支持中心的 Features & Events 列表、多个活动详情页，以及 Disney Solitaire Wiki 的 Category:Events 汇总页，按竞赛、挖宝、追逐、料理、拼图、贴纸/相册和收藏场景归类。",
+  "source_pages": [
+    {
+      "title": "SuperPlay Support - Disney Solitaire Features & Events",
+      "url": "https://support.disney-solitaire.com/hc/en-us/sections/26704987247773-Features-Events",
+      "notes": "官方支持中心列出 Archers Tournament、Diamond Mine、Chef's Kitchen、Albums & Stickers、Disney Solitaire Events、Honey Chase、Puzzle Event、Cars Race 等活动/功能。"
+    },
+    {
+      "title": "SuperPlay Support - Archers Tournament",
+      "url": "https://support.disney-solitaire.com/hc/en-us/articles/32364847303965-Archers-Tournament",
+      "notes": "代表性排行榜活动：通关收集 archers arrows，排行榜实时变化，目标是超过对手拿第一。"
+    },
+    {
+      "title": "SuperPlay Support - Diamond Mine",
+      "url": "https://support.disney-solitaire.com/hc/en-us/articles/30484477006109-Diamond-Mine",
+      "notes": "代表性挖宝活动：通关或活动/礼包获得 Pickaxes，敲开石头找 diamonds，找齐每层宝石继续推进大奖。"
+    },
+    {
+      "title": "SuperPlay Support - Chef's Kitchen",
+      "url": "https://support.disney-solitaire.com/hc/en-us/articles/27556794359581-Chef-s-Kitchen",
+      "notes": "代表性料理活动：从 Chef's Baskets 获得特殊食材，凑齐菜单菜品所需食材后制作，完成全部菜品拿 Chef's Grand Prize。"
+    },
+    {
+      "title": "SuperPlay Support - Puzzle Event",
+      "url": "https://support.disney-solitaire.com/hc/en-us/articles/26532669358621-Puzzle-Event",
+      "notes": "代表性拼图活动：赢关获得 puzzle pieces，逐步揭开 Disney 图片，限时结束后未使用拼图碎片不结转。"
+    },
+    {
+      "title": "Disney Solitaire Wiki - Category:Events",
+      "url": "https://disneysolitaire.fandom.com/wiki/Category%3AEvents",
+      "notes": "社区汇总页说明活动通常持续 1-7 天，玩家通关和完成活动任务收集 tea leaves、seashells、themed tokens 等，解锁里程碑和 Grand Prize；列出 Archers Tournament、Bonus Flight、Cars Race、Chef's Kitchen、Coconut Quest、Diamond Mine、Inferno Chase、Midnight Blast、Movie Night、Potion Quest、Tea Time Quest、The Honey Chase、The Rainbow Chase。"
+    },
+    {
+      "title": "Disney Wiki - Disney Solitaire",
+      "url": "https://disney.fandom.com/wiki/Disney_Solitaire",
+      "notes": "综合介绍页面列举 Inferno Chase、Cars Race、The Honey Chase、The Rainbow Chase、Chef's Kitchen、Archer's Tournament、Ocean's Treasure 等活动，并提到 Sticker Albums 于 2025-04-22 加入。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "leaderboard_tournament",
+      "display_name": "Archers Tournament / 排行榜竞赛",
+      "description": "玩家通关收集 arrows 等活动点数，与其他玩家在限时排行榜竞争名次，排行榜会持续变化。",
+      "examples": [
+        "Archers Tournament"
+      ],
+      "market_research_notes": "这是 solitaire 关卡消耗与竞争排名结合的核心模板；应重点记录分组规模、积分来源、奖励档位和倒计时刺激。",
+      "images": [
+        {
+          "url": "https://d23.com/app/uploads/2025/04/Image-01.jpg",
+          "caption": "Disney Solitaire Game ...",
+          "source_url": "https://d23.com/3-fun-facts-about-the-new-disney-solitaire-game/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+leaderboard+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire leaderboard tournament",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:43:42.913305+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:14:52.943995+00:00",
+            "load_time_ms": 2327,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1180,
+            "natural_height": 664,
+            "content_type": "image/jpeg",
+            "current_src": "https://d23.com/app/uploads/2025/04/Image-01.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图是游戏的官方通用品牌宣传图，包含游戏Logo和多位迪士尼角色，不涉及具体的排行榜活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:14:45.917291+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/disney-solitaire-is-longer-than-i-thought-v0-j00j85o4xbdg1.jpeg?auto=webp&s=535220304e9431b85f81353d4191ab33c341681a",
+          "caption": "Disney solitaire is longer than I ...",
+          "source_url": "https://www.reddit.com/r/FetchReward/comments/1qcpevk/disney_solitaire_is_longer_than_i_thought/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+leaderboard+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire leaderboard tournament",
+          "width": 155,
+          "height": 325,
+          "aspect_ratio": 0.4769,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T05:43:42.913305+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:14:53.048443+00:00",
+            "load_time_ms": 99,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1284,
+            "natural_height": 2680,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/disney-solitaire-is-longer-than-i-thought-v0-j00j85o4xbdg1.jpeg?auto=webp&s=535220304e9431b85f81353d4191ab33c341681a"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该图展示的是外部奖励平台（如Fetch）的积分任务列表，虽然提到了游戏名和关卡进度，但并非游戏内的排行榜竞赛界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:14:45.917291+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/qaEdpwamcEw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDEaomp9aDM_7nIU7MAU24MSn3XFA",
+          "caption": "Disney Solitaire | Gameplay ...",
+          "source_url": "https://www.youtube.com/watch?v=qaEdpwamcEw",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+leaderboard+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire leaderboard tournament",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:43:42.913305+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:14:53.426748+00:00",
+            "load_time_ms": 374,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/qaEdpwamcEw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDEaomp9aDM_7nIU7MAU24MSn3XFA"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图展示的是手机应用图标列表，包含游戏Icon，属于通用品牌/应用展示，与特定活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:14:45.917291+00:00"
+          }
+        },
+        {
+          "url": "https://static.wikia.nocookie.net/disneysolitaire/images/c/cb/Dsn-solitaire-archerstournament.png/revision/latest/scale-to-width-down/1200?cb=20251228132434",
+          "caption": "Archers Tournament | Disney Solitaire ...",
+          "source_url": "https://disneysolitaire.fandom.com/wiki/Archers_Tournament",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+leaderboard+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire leaderboard tournament",
+          "width": 331,
+          "height": 152,
+          "aspect_ratio": 2.1776,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T11:11:25.768689+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T11:11:48.254687+00:00",
+            "load_time_ms": 1418,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 552,
+            "content_type": "image/webp",
+            "current_src": "https://static.wikia.nocookie.net/disneysolitaire/images/c/cb/Dsn-solitaire-archerstournament.png/revision/latest/scale-to-width-down/1200?cb=20251228132434"
+          }
+        },
+        {
+          "url": "https://static.wikia.nocookie.net/disneysolitaire/images/e/e1/Dsn-solitaire-movienight.png/revision/latest/smart/width/386/height/259?cb=20251228134611",
+          "caption": "Archers Tournament | Disney Solitaire ...",
+          "source_url": "https://disneysolitaire.fandom.com/wiki/Archers_Tournament",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+leaderboard+tournament",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire leaderboard tournament",
+          "width": 274,
+          "height": 184,
+          "aspect_ratio": 1.4891,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T11:11:25.768689+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T11:12:16.608178+00:00",
+            "load_time_ms": 238,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 386,
+            "natural_height": 259,
+            "content_type": "image/webp",
+            "current_src": "https://static.wikia.nocookie.net/disneysolitaire/images/e/e1/Dsn-solitaire-movienight.png/revision/latest/smart/width/386/height/259?cb=20251228134611"
+          }
+        }
+      ]
+    },
+    {
+      "type": "race_event",
+      "display_name": "Race / Chase 竞速追逐活动",
+      "description": "玩家通过通关收集特定物品，在角色主题路径上推进，达成终点或阶段目标领取奖励。",
+      "examples": [
+        "Cars Race",
+        "The Honey Chase",
+        "The Rainbow Chase",
+        "Inferno Chase"
+      ],
+      "market_research_notes": "迪士尼 IP 给同一竞速/收集结构提供多主题皮肤：Cars、Winnie the Pooh、King Triton、Hades 等。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/uCaxi9oVMuk/hqdefault.jpg",
+          "caption": "Game: Disney Solitaire - Cars Race ...",
+          "source_url": "https://www.youtube.com/watch?v=uCaxi9oVMuk",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+race+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire race event",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:44:05.711058+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:14:53.737686+00:00",
+            "load_time_ms": 304,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 480,
+            "natural_height": 360,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/uCaxi9oVMuk/hqdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了Cars Race活动实际的竞速进度条、玩家排名及收集目标的玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:14:49.958627+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/uMd8thSAoZI/maxresdefault.jpg",
+          "caption": "Disney Solitaire! Tutorial ...",
+          "source_url": "https://www.youtube.com/watch?v=uMd8thSAoZI",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+race+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire race event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:44:05.711058+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:14:54.079823+00:00",
+            "load_time_ms": 337,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/uMd8thSAoZI/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "虽然文字提到了Cars Race，但手机屏幕内显示的仅是游戏的通用选关/角色封面，并非活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:14:49.958627+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/yw54Gcz0FcA/hqdefault.jpg",
+          "caption": "Game: Disney Solitaire - Cars Race ...",
+          "source_url": "https://www.youtube.com/watch?v=yw54Gcz0FcA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+race+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire race event",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:44:05.711058+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:14:54.385511+00:00",
+            "load_time_ms": 300,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 480,
+            "natural_height": 360,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/yw54Gcz0FcA/hqdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了Cars Race活动的进入弹窗（Banner/海报），包含Start按钮，属于活动封面宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:14:49.958627+00:00"
+          }
+        },
+        {
+          "url": "https://naavik.co/wp-content/uploads/2025/05/Disney-Solitaire.webp",
+          "caption": "Disney Solitaire: Demystifying the ...",
+          "source_url": "https://naavik.co/digest/disney-solitaire-the-hype-around-solitaire-demystified/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+race+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire race event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:44:05.711058+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:14:55.380842+00:00",
+            "load_time_ms": 991,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1500,
+            "natural_height": 844,
+            "content_type": "image/webp",
+            "current_src": "https://naavik.co/wp-content/uploads/2025/05/Disney-Solitaire.webp"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "此图为Disney Solitaire游戏的通用全家福宣传海报，与具体竞速活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:14:49.958627+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/yw54Gcz0FcA/sddefault.jpg",
+          "caption": "Shoreline Challenge! 🌊 Set sail ...",
+          "source_url": "https://www.youtube.com/watch?v=yw54Gcz0FcA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+race+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire race event",
+          "width": 201,
+          "height": 251,
+          "aspect_ratio": 0.8008,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T05:44:05.711058+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:14:55.693074+00:00",
+            "load_time_ms": 306,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 480,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/yw54Gcz0FcA/sddefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "与图3一致，是Cars Race活动的启动/介绍弹窗，无实际关卡或进度操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:14:49.958627+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "dig_event",
+      "display_name": "Diamond Mine / 挖宝活动",
+      "description": "玩家获得 Pickaxes 后敲开格子或石头寻找隐藏 gems，找齐每层宝石后继续推进，最终拿 grand prize。",
+      "examples": [
+        "Diamond Mine",
+        "Ocean's Treasure"
+      ],
+      "market_research_notes": "这类活动和 MONOPOLY GO / Royal Match 的挖宝活动机制接近，区别在于道具来源与 Solitaire 通关绑定。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/OHEUGfgIxW4/hqdefault.jpg",
+          "caption": "Game: Disney Solitaire - Diamond Mine ...",
+          "source_url": "https://www.youtube.com/watch?v=OHEUGfgIxW4",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+dig+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire dig event",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:44:48.690142+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:14:56.002719+00:00",
+            "load_time_ms": 300,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 480,
+            "natural_height": 360,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/OHEUGfgIxW4/hqdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了 Diamond Mine 活动标题、相关角色和活动奖励（镐子），属于该活动的开启宣传或入口封面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:00.810638+00:00"
+          }
+        },
+        {
+          "url": "https://miro.medium.com/v2/resize:fit:1180/1*UlUqiEglM5qXzvFUVkBq-g@2x.jpeg",
+          "caption": "Disney Solitaire – How Playtika ...",
+          "source_url": "https://medium.com/@marlakinky84/case-study-disney-solitaire-how-playtika-turned-ads-into-a-full-liveops-event-928d4e43c885",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+dig+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire dig event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:44:48.690142+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:14:56.089909+00:00",
+            "load_time_ms": 75,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1180,
+            "natural_height": 664,
+            "content_type": "image/jpeg",
+            "current_src": "https://miro.medium.com/v2/resize:fit:1180/1*UlUqiEglM5qXzvFUVkBq-g@2x.jpeg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片展示了游戏 Disney Solitaire 的 Logo 和核心角色群像，属于游戏的通用宣传品牌图，没有体现挖宝活动的具体内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:00.810638+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/jRBsfgzsMRU/maxresdefault.jpg",
+          "caption": "Disney Solitaire Full Story Gameplay ...",
+          "source_url": "https://www.youtube.com/watch?v=jRBsfgzsMRU",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+dig+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire dig event",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:44:48.690142+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:14:56.507733+00:00",
+            "load_time_ms": 403,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/jRBsfgzsMRU/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片展示了游戏Disney Solitaire的品牌Logo及相关角色（疯狂动物城），但属于通用的全剧情玩法宣传视频封面，与挖宝活动（Diamond Mine）无直接关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:00.810638+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/how-to-approach-the-dig-event-v0-grw1enpge3jg1.jpeg?width=1179&format=pjpg&auto=webp&s=6cdd8e547032b042b4e2e7c4d3e3a7f7d516eb69",
+          "caption": "How to approach the dig event : r ...",
+          "source_url": "https://www.reddit.com/r/Monopoly_GO/comments/1r2142s/how_to_approach_the_dig_event/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+dig+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire dig event",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T05:44:48.690142+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:14:56.692126+00:00",
+            "load_time_ms": 179,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1179,
+            "natural_height": 2556,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/how-to-approach-the-dig-event-v0-grw1enpge3jg1.jpeg?width=1179&format=pjpg&auto=webp&s=6cdd8e547032b042b4e2e7c4d3e3a7f7d516eb69"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.98,
+            "reason": "图片内容清楚显示为《Monopoly GO!》的奖励列表（右下角有MOGO WIKI水印，UI风格与MOGO一致），顶部出现的Disney Solitaire仅为无关的App Store广告投放，与本游戏及活动完全无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:00.810638+00:00"
+          }
+        },
+        {
+          "url": "https://static.wixstatic.com/media/fe070d_327add7b8dff4265bd78096367cb80ae~mv2.jpg/v1/fill/w_2000,h_1700,al_c,q_90/Disney solitare.jpg",
+          "caption": "Disney Solitaire | DeanKR",
+          "source_url": "https://www.deankr.com/projects-casual/disney-solitare",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+dig+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire dig event",
+          "width": 244,
+          "height": 207,
+          "aspect_ratio": 1.1787,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:44:48.690142+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:14:58.031275+00:00",
+            "load_time_ms": 1334,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2000,
+            "natural_height": 1700,
+            "content_type": "image/jpeg",
+            "current_src": "https://static.wixstatic.com/media/fe070d_327add7b8dff4265bd78096367cb80ae~mv2.jpg/v1/fill/w_2000,h_1700,al_c,q_90/Disney%20solitare.jpg"
+          },
+          "llm_image_filter": {
+            "category": 2,
+            "category_label": "无法确定是否和本游戏无关",
+            "confidence": 0.0,
+            "reason": "模型接口无法读取或接受该图片 URL，已按无法确定处理：Error code: 400 - {'error': {'message': 'Invalid URL format: https://***.com/***/***/***/***/***/*** ***.jpg ({\"provider_name\":\"Google\"})', 'type': 'upstream_error', 'param': '', 'code': 400, 'metadata': {'provider_name': 'Google'}}, 'trace_id': '20260513171500502830708aVzDah37'}",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:00.810638+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "chef_kitchen",
+      "display_name": "Chef's Kitchen / 料理收集活动",
+      "description": "玩家从 Chef's Baskets 和其他事件中收集特殊食材，按菜单配方完成菜品，完成全部菜品后领取 Chef's Grand Prize。",
+      "examples": [
+        "Chef's Kitchen",
+        "Mexican Edition"
+      ],
+      "market_research_notes": "这是收集册式活动，配方需求能制造缺口和礼包转化；官方支持页明确提到 pantry 和菜单追踪。",
+      "images": [
+        {
+          "url": "https://static.wikia.nocookie.net/disneysolitaire/images/5/5a/Dsn-solitaire-chefskitchenfb5.jpg/revision/latest/scale-to-width-down/250?cb=20251224161317",
+          "caption": "Chef's Kitchen | Disney Solitaire Wiki ...",
+          "source_url": "https://disneysolitaire.fandom.com/wiki/Chef's_Kitchen",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+chef+kitchen",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire chef kitchen",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T11:12:24.076113+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T11:12:45.195474+00:00",
+            "load_time_ms": 1833,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 250,
+            "natural_height": 250,
+            "content_type": "image/webp",
+            "current_src": "https://static.wikia.nocookie.net/disneysolitaire/images/5/5a/Dsn-solitaire-chefskitchenfb5.jpg/revision/latest/scale-to-width-down/250?cb=20251224161317"
+          }
+        },
+        {
+          "url": "https://static.wikia.nocookie.net/disneysolitaire/images/c/c0/Dsn-solitaire-chefskitchen.png/revision/latest?cb=20251224145753",
+          "caption": "Chef's Kitchen | Disney Solitaire Wiki ...",
+          "source_url": "https://disneysolitaire.fandom.com/wiki/Chef's_Kitchen",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+chef+kitchen",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire chef kitchen",
+          "width": 331,
+          "height": 152,
+          "aspect_ratio": 2.1776,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T11:12:24.076113+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T11:12:49.358045+00:00",
+            "load_time_ms": 811,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2622,
+            "natural_height": 1206,
+            "content_type": "image/webp",
+            "current_src": "https://static.wikia.nocookie.net/disneysolitaire/images/c/c0/Dsn-solitaire-chefskitchen.png/revision/latest?cb=20251224145753"
+          }
+        },
+        {
+          "url": "https://static.wikia.nocookie.net/disneysolitaire/images/5/5b/Dsn-solitaire-chefskitchenfb8.jpg/revision/latest/scale-to-width-down/250?cb=20251224161334",
+          "caption": "Chef's Kitchen | Disney Solitaire Wiki ...",
+          "source_url": "https://disneysolitaire.fandom.com/wiki/Chef's_Kitchen",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+chef+kitchen",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire chef kitchen",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T11:12:24.076113+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T11:13:03.764340+00:00",
+            "load_time_ms": 201,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 250,
+            "natural_height": 250,
+            "content_type": "image/webp",
+            "current_src": "https://static.wikia.nocookie.net/disneysolitaire/images/5/5b/Dsn-solitaire-chefskitchenfb8.jpg/revision/latest/scale-to-width-down/250?cb=20251224161334"
+          }
+        },
+        {
+          "url": "https://static.wikia.nocookie.net/disneysolitaire/images/9/97/Dsn-solitaire-chefskitchen3.png/revision/latest/scale-to-width-down/250?cb=20251229125019",
+          "caption": "Chef's Kitchen | Disney Solitaire Wiki ...",
+          "source_url": "https://disneysolitaire.fandom.com/wiki/Chef's_Kitchen",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+chef+kitchen",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire chef kitchen",
+          "width": 250,
+          "height": 115,
+          "aspect_ratio": 2.1739,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T11:12:24.076113+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T11:13:09.121891+00:00",
+            "load_time_ms": 194,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 250,
+            "natural_height": 115,
+            "content_type": "image/webp",
+            "current_src": "https://static.wikia.nocookie.net/disneysolitaire/images/9/97/Dsn-solitaire-chefskitchen3.png/revision/latest/scale-to-width-down/250?cb=20251229125019"
+          }
+        },
+        {
+          "url": "https://static.wikia.nocookie.net/disneysolitaire/images/3/39/Dsn-solitaire-chefskitchenfb19.jpg/revision/latest/scale-to-width-down/250?cb=20251224161653",
+          "caption": "Chef's Kitchen | Disney Solitaire Wiki ...",
+          "source_url": "https://disneysolitaire.fandom.com/wiki/Chef's_Kitchen",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+chef+kitchen",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire chef kitchen",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T11:12:24.076113+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T11:13:20.733832+00:00",
+            "load_time_ms": 204,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 250,
+            "natural_height": 250,
+            "content_type": "image/webp",
+            "current_src": "https://static.wikia.nocookie.net/disneysolitaire/images/3/39/Dsn-solitaire-chefskitchenfb19.jpg/revision/latest/scale-to-width-down/250?cb=20251224161653"
+          }
+        }
+      ]
+    },
+    {
+      "type": "puzzle_event",
+      "display_name": "Puzzle Event / 拼图活动",
+      "description": "玩家赢关获得拼图碎片，用碎片揭开 Disney 图片；活动限时，未使用碎片不带到下一期。",
+      "examples": [
+        "Dance Puzzle",
+        "Holidays Puzzle",
+        "Zootopia Puzzle",
+        "Black Friday Puzzle",
+        "Autumn Puzzle",
+        "Halloween Puzzle"
+      ],
+      "market_research_notes": "碎片不结转是关键 FOMO 设计，鼓励活动期内完成图片和领取最终奖励。",
+      "images": [
+        {
+          "url": "https://d23.com/app/uploads/2025/04/Image-01.jpg",
+          "caption": "Disney Solitaire Game ...",
+          "source_url": "https://d23.com/3-fun-facts-about-the-new-disney-solitaire-game/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+puzzle+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire puzzle event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:46:10.146262+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:14:52.943995+00:00",
+            "load_time_ms": 2327,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1180,
+            "natural_height": 664,
+            "content_type": "image/jpeg",
+            "current_src": "https://d23.com/app/uploads/2025/04/Image-01.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "这是该游戏的官方通用品牌宣传图，包含游戏Logo和角色，但未体现拼图活动细节。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:04.884330+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/XBsk5N72U2I/hqdefault.jpg",
+          "caption": "Game: Disney Solitaire - Love Puzzle ...",
+          "source_url": "https://www.youtube.com/watch?v=XBsk5N72U2I",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+puzzle+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire puzzle event",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:46:10.146262+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:14:58.340904+00:00",
+            "load_time_ms": 300,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 480,
+            "natural_height": 360,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/XBsk5N72U2I/hqdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展现了实际拼图活动界面，包含拼图进度（6块）、剩余时间、奖励列表以及拼图碎片的收集数量。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:04.884330+00:00"
+          }
+        },
+        {
+          "url": "https://d23.com/app/uploads/2025/04/Image-03.jpg",
+          "caption": "Disney Solitaire Game ...",
+          "source_url": "https://d23.com/3-fun-facts-about-the-new-disney-solitaire-game/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+puzzle+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire puzzle event",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:46:10.146262+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:14:58.645265+00:00",
+            "load_time_ms": 299,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1180,
+            "natural_height": 664,
+            "content_type": "image/jpeg",
+            "current_src": "https://d23.com/app/uploads/2025/04/Image-03.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "展现了活动关卡/拼图列表界面，显示了不同拼图场景的解锁状态和进度条，属于活动的可操作玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:04.884330+00:00"
+          }
+        },
+        {
+          "url": "https://static0.thegamerimages.com/wordpress/wp-content/uploads/2025/05/disney-solitaire.jpg?w=1600&h=900&fit=crop",
+          "caption": "Disney Solitaire Would Be The Perfect ...",
+          "source_url": "https://www.thegamer.com/disney-solitaire-would-be-the-perfect-mobile-game-if-it-wasnt-so-dang-greedy/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+puzzle+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire puzzle event",
+          "width": 1600,
+          "height": 900,
+          "aspect_ratio": 1.7778,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:46:10.146262+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:00.328977+00:00",
+            "load_time_ms": 1677,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1600,
+            "natural_height": 900,
+            "content_type": "image/avif",
+            "current_src": "https://static0.thegamerimages.com/wordpress/wp-content/uploads/2025/05/disney-solitaire.jpg?w=1600&h=900&fit=crop"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图是游戏的通用背景宣传图，虽然移除了Logo，但性质属于通用品牌素材而非特定活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:04.884330+00:00"
+          }
+        },
+        {
+          "url": "https://static.wikia.nocookie.net/disneysolitaire/images/8/8e/Dsn-solitaire-doubleyourpuzzle.png/revision/latest?cb=20260106111643",
+          "caption": "Your Puzzle! | Disney Solitaire Wiki ...",
+          "source_url": "https://disneysolitaire.fandom.com/wiki/Double_Your_Puzzle!",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+puzzle+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire puzzle event",
+          "width": 331,
+          "height": 152,
+          "aspect_ratio": 2.1776,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T11:13:21.473776+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T11:13:43.842927+00:00",
+            "load_time_ms": 1834,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2622,
+            "natural_height": 1206,
+            "content_type": "image/webp",
+            "current_src": "https://static.wikia.nocookie.net/disneysolitaire/images/8/8e/Dsn-solitaire-doubleyourpuzzle.png/revision/latest?cb=20260106111643"
+          }
+        }
+      ]
+    },
+    {
+      "type": "collection_milestone",
+      "display_name": "Collection / Quest 里程碑活动",
+      "description": "玩家通关或完成活动任务收集主题货币或物品，例如 tea leaves、seashells、themed tokens，逐级解锁奖励并冲 Grand Prize。",
+      "examples": [
+        "Coconut Quest",
+        "Potion Quest",
+        "Tea Time Quest",
+        "Midnight Blast",
+        "Movie Night",
+        "Bonus Flight"
+      ],
+      "market_research_notes": "这是最通用的活动骨架，多个 Disney / Pixar 主题可套用；需要后续逐个打开页面确认是否有独特小游戏机制。",
+      "images": [
+        {
+          "url": "https://mma.prnewswire.com/media/2667336/Disney_Solitaire.jpg?p=twitter",
+          "caption": "Game: Disney Solitaire - Apr ...",
+          "source_url": "https://news.playtika.com/2025-04-17-SuperPlay-Announces-New-Game-Disney-Solitaire",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+collection+milestone",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire collection milestone",
+          "width": 310,
+          "height": 162,
+          "aspect_ratio": 1.9136,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:46:56.476769+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:01.711205+00:00",
+            "load_time_ms": 1375,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 643,
+            "content_type": "image/jpeg",
+            "current_src": "https://mma.prnewswire.com/media/2667336/Disney_Solitaire.jpg?p=twitter"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图为游戏的通用品牌宣传海报，展示了游戏Logo和多个迪士尼角色，未体现具体的Quest或里程碑活动内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:10.308997+00:00"
+          }
+        },
+        {
+          "url": "https://d23.com/app/uploads/2025/04/Image-01.jpg",
+          "caption": "Disney Solitaire Game ...",
+          "source_url": "https://d23.com/3-fun-facts-about-the-new-disney-solitaire-game/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+collection+milestone",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire collection milestone",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:46:56.476769+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:14:52.943995+00:00",
+            "load_time_ms": 2327,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1180,
+            "natural_height": 664,
+            "content_type": "image/jpeg",
+            "current_src": "https://d23.com/app/uploads/2025/04/Image-01.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "该图与图1为同一张通用品牌图，属于游戏的整体品牌展示，无法确认与特定里程碑活动有关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:10.308997+00:00"
+          }
+        },
+        {
+          "url": "https://d23.com/app/uploads/2025/04/Image-03.jpg",
+          "caption": "Disney Solitaire Would Be The Perfect ...",
+          "source_url": "https://d23.com/3-fun-facts-about-the-new-disney-solitaire-game/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+collection+milestone",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire collection milestone",
+          "width": 318,
+          "height": 159,
+          "aspect_ratio": 2.0,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:46:56.476769+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:14:58.645265+00:00",
+            "load_time_ms": 299,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1180,
+            "natural_height": 664,
+            "content_type": "image/jpeg",
+            "current_src": "https://d23.com/app/uploads/2025/04/Image-03.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "图片展示了‘解锁场景’的实际玩法界面，包含进度条（7/9）、任务编号和解锁状态，符合收集/里程碑活动的描述特征。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:10.308997+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "albums_stickers",
+      "display_name": "Albums & Stickers / 贴纸相册",
+      "description": "玩家在游玩中收集 stickers 并完成 albums，获得奖励；社区和 Disney Wiki 均将其作为 2025 年加入的收集功能。",
+      "examples": [
+        "Albums & Stickers",
+        "Sticker Albums",
+        "The Villains Collection"
+      ],
+      "market_research_notes": "这是长期收集系统，可能与活动奖励、礼包、重复贴纸和限时相册周期深度绑定。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/oWafcFC4D2M/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBnR8QxKKir-61rTLDWreLY_IEFCw",
+          "caption": "Disney Solitaire! Tutorial ...",
+          "source_url": "https://www.youtube.com/watch?v=oWafcFC4D2M",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+albums+stickers",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire albums stickers",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:48:11.362878+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:02.406092+00:00",
+            "load_time_ms": 687,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/oWafcFC4D2M/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBnR8QxKKir-61rTLDWreLY_IEFCw"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片展示了游戏名及相册收集系统的主题内容，文字明确提到Sticker Album，属于针对该活动的Youtube视频封面，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:12.458763+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "bonus_scene_collection",
+      "display_name": "Disney Bonus Scene / 场景收藏",
+      "description": "玩家在 Memory Lane / special collectible scenes 中收集特殊 Disney 场景，构建类似 trophy shelf 的收藏展示。",
+      "examples": [
+        "Disney Bonus Scene",
+        "Memory Lane",
+        "Scenes"
+      ],
+      "market_research_notes": "不是传统短活动，但它是 IP 内容长期收藏目标；需要与 Scenes、Albums、Puzzles 三套收藏系统分开记录。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/THHPbo58yDA/maxresdefault.jpg",
+          "caption": "Disney Solitaire - Part 18 - 1 Scenes ...",
+          "source_url": "https://www.youtube.com/watch?v=THHPbo58yDA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+bonus+scene+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire bonus scene collection",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:48:35.935386+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:02.744299+00:00",
+            "load_time_ms": 333,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/THHPbo58yDA/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了Disney Solitaire游戏内的My Collection界面，即描述中的收藏架（trophy shelf）实际展示界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:15.870340+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/2b2L73Xs8Xk/maxresdefault.jpg",
+          "caption": "Disney Solitaire - Part 37 - Scenes 51 ...",
+          "source_url": "https://www.youtube.com/watch?v=2b2L73Xs8Xk",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+bonus+scene+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire bonus scene collection",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:48:35.935386+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:03.109219+00:00",
+            "load_time_ms": 360,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/2b2L73Xs8Xk/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了收藏系统的实际内容，图片中有明确的Bonus Scene标题以及已解锁的迪士尼角色奖杯收藏，属于玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:15.870340+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/ZMz7CpvR-fA/maxresdefault.jpg",
+          "caption": "Disney Solitaire - Bonus Scene 16 ...",
+          "source_url": "https://www.youtube.com/watch?v=ZMz7CpvR-fA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+bonus+scene+collection",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire bonus scene collection",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:48:35.935386+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:03.445556+00:00",
+            "load_time_ms": 330,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/ZMz7CpvR-fA/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了游戏中My Collection 16的具体收藏进度与展示架界面，属于描述中的场景收藏玩法。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:15.870340+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "premium_or_paywalled_track",
+      "display_name": "Premium / Paywalled 活动路径",
+      "description": "部分活动包含可选付费路径或 premium tracks，购买后获得增强或独家奖励。",
+      "examples": [
+        "premium tracks",
+        "paywalled event paths"
+      ],
+      "market_research_notes": "社区事件页明确提到部分活动有付费路径。后续需要在具体活动页或游戏内验证价格、奖励差异和是否影响 Grand Prize。",
+      "images": [
+        {
+          "url": "https://mma.prnewswire.com/media/2667336/Disney_Solitaire.jpg?p=twitter",
+          "caption": "Game: Disney Solitaire - Apr ...",
+          "source_url": "https://news.playtika.com/2025-04-17-SuperPlay-Announces-New-Game-Disney-Solitaire",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+premium+or+paywalled+track",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire premium or paywalled track",
+          "width": 307,
+          "height": 164,
+          "aspect_ratio": 1.872,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:48:58.751147+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:01.711205+00:00",
+            "load_time_ms": 1375,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 643,
+            "content_type": "image/jpeg",
+            "current_src": "https://mma.prnewswire.com/media/2667336/Disney_Solitaire.jpg?p=twitter"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "这是游戏的通用主视觉海报，展示了游戏名称和迪士尼角色，与特定付费路径活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:19.794807+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/disney-solitaire-are-the-rewards-doable-v0-f7az89f62veg1.jpg?width=640&crop=smart&auto=webp&s=70759fbd527e7f67c353ca2b64a23e644cfdb720",
+          "caption": "Disney Solitaire, Are the rewards ...",
+          "source_url": "https://www.reddit.com/r/FreeCash/comments/1qjp362/disney_solitaire_are_the_rewards_doable/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+premium+or+paywalled+track",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire premium or paywalled track",
+          "width": 152,
+          "height": 330,
+          "aspect_ratio": 0.4606,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T05:48:58.751147+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:03.553990+00:00",
+            "load_time_ms": 103,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 1385,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/disney-solitaire-are-the-rewards-doable-v0-f7az89f62veg1.jpg?width=640&crop=smart&auto=webp&s=70759fbd527e7f67c353ca2b64a23e644cfdb720"
+          },
+          "llm_image_filter": {
+            "category": 2,
+            "category_label": "无法确定是否和本游戏无关",
+            "confidence": 0.8,
+            "reason": "这是一张网赚平台FreeCash的任务奖励界面截图，虽然提到了游戏名和任务，但并非游戏内的活动路径或付费Track界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:19.794807+00:00"
+          }
+        },
+        {
+          "url": "https://www.superplay.co/wp-content/uploads/2025/05/website-link-screen-1-1024x537.jpg",
+          "caption": "Disney Solitaire Game | Superplay",
+          "source_url": "https://www.superplay.co/games/disney-solitaire/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+premium+or+paywalled+track",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire premium or paywalled track",
+          "width": 1024,
+          "height": 537,
+          "aspect_ratio": 1.9069,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:48:58.751147+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:04.827359+00:00",
+            "load_time_ms": 1268,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1024,
+            "natural_height": 537,
+            "content_type": "image/jpeg",
+            "current_src": "https://www.superplay.co/wp-content/uploads/2025/05/website-link-screen-1-1024x537.jpg"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.9,
+            "reason": "图片展示的是发行商SuperPlay的通用推广素材，包含其旗下另一款游戏Dice Dreams的角色，与本游戏及活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:19.794807+00:00"
+          }
+        },
+        {
+          "url": "https://d23.com/app/uploads/2025/04/Image-01.jpg",
+          "caption": "Disney Solitaire Game ...",
+          "source_url": "https://d23.com/3-fun-facts-about-the-new-disney-solitaire-game/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+premium+or+paywalled+track",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire premium or paywalled track",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:48:58.751147+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:14:52.943995+00:00",
+            "load_time_ms": 2327,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1180,
+            "natural_height": 664,
+            "content_type": "image/jpeg",
+            "current_src": "https://d23.com/app/uploads/2025/04/Image-01.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "这是该游戏的通用品牌宣传图，没有展示任何具体的付费路径或活动规则。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:19.794807+00:00"
+          }
+        },
+        {
+          "url": "https://www.superplay.co/wp-content/uploads/2025/04/ds-ss-004-001-gurion-06-puzzle-2688x1242-1.jpg",
+          "caption": "Any experience with Disney solitaire ...",
+          "source_url": "https://www.superplay.co/games/disney-solitaire/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=disney+solitaire+premium+or+paywalled+track",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "disney solitaire premium or paywalled track",
+          "width": 2688,
+          "height": 1242,
+          "aspect_ratio": 2.1643,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T05:48:58.751147+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:15:04.930860+00:00",
+            "load_time_ms": 98,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1100,
+            "natural_height": 508,
+            "content_type": "image/jpeg",
+            "current_src": "https://www.superplay.co/wp-content/uploads/2025/04/ds-ss-004-001-gurion-06-puzzle-2688x1242-1.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "这是游戏内的小游戏（Mini-games）拼图界面，属于游戏常态玩法展示，无法确定与Premium付费路径活动有关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:15:19.794807+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "Disney Solitaire 是 2025 年广泛上线的新游戏，公开资料已经有官方支持页和社区 wiki。本轮不处理图片；后续建议继续补每个事件详情页的持续时间、解锁等级、活动货币和奖励表。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T11:14:10.165946+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:15:19.794807+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

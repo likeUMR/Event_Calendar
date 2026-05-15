@@ -1,0 +1,1415 @@
+{
+  "rank": 39,
+  "name": "Color Block Jam",
+  "manual_research_status": "done_first_pass_low_confidence",
+  "research_method": "人工查看 App Store、Google Play、玩家评论和攻略/介绍页。未找到官方活动目录或 wiki，因此只记录商店页、版本记录、玩家评论和公开介绍页能支撑的活动/运营系统。",
+  "source_pages": [
+    {
+      "title": "App Store - Color Block Jam",
+      "url": "https://apps.apple.com/us/app/color-block-jam/id6504332779",
+      "notes": "官方商店页确认开发者 Rollic Games，玩法为将彩色 blocks 滑到对应 colored doors；版本历史提到新 obstacle、新 levels；内购含 Coin Pack、Fail Offer、Golden Ticket、Bundles、Mother's Day 等。玩家评论直接提到 Canyon Chase 和 Daily Challenge progress。"
+    },
+    {
+      "title": "Google Play - Color Block Jam",
+      "url": "https://play.google.com/store/apps/details?id=com.GybeGames.ColorBlockJam&hl=en_US",
+      "notes": "官方 Google Play 页确认 Rollic Games、10M+ downloads、核心玩法、hundreds of levels、earn rewards and unlock new levels、contains ads and in-app purchases。"
+    },
+    {
+      "title": "ColorBlockJam.com - Walkthroughs & Tips",
+      "url": "https://colorblockjam.com/",
+      "notes": "第三方攻略/介绍页称游戏包含 Canyon Chase 限时挑战，玩家达到 level 66 后可参加；同时说明 leaderboards and events may require internet connection。"
+    },
+    {
+      "title": "Reddit - r/ColorBlockJam",
+      "url": "https://www.reddit.com/r/ColorBlockJam/",
+      "notes": "玩家社区以关卡求助为主，能证明高关卡、特殊门/障碍和 walkthrough 需求，但不是活动规则主来源。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "canyon_chase",
+      "display_name": "Canyon Chase / 限时追逐挑战",
+      "description": "App Store 玩家评论提到 losing canyon chase progress；第三方攻略页说明 Canyon Chase 是限时挑战，玩家竞争连续完成关卡以获得奖励，达到 level 66 后参与。",
+      "examples": [
+        "Canyon Chase"
+      ],
+      "market_research_notes": "目前最明确的活动名。它把连续通关和失败惩罚绑定，适合观察 timer、power-up 和连胜保护如何转化付费。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/Y5l09cD_nS4/maxresdefault.jpg",
+          "caption": "Color Block Jam Canyon Chase | 7-Game ...",
+          "source_url": "https://www.youtube.com/watch?v=Y5l09cD_nS4",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+canyon+chase",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam canyon chase",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:33:17.203615+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:16.940040+00:00",
+            "load_time_ms": 447,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/Y5l09cD_nS4/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了 Canyon Chase 活动的玩家匹配界面，属于活动内实际玩法/流程界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:48.784864+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/F1z3ULDj91s/maxresdefault.jpg",
+          "caption": "How To Complete The Canyon Chase Event ...",
+          "source_url": "https://www.youtube.com/watch?v=F1z3ULDj91s",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+canyon+chase",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam canyon chase",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:33:17.203615+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:17.339694+00:00",
+            "load_time_ms": 395,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/F1z3ULDj91s/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "这是视频封面或宣传海报，虽然提到了活动名称，但屏幕内仅显示游戏 Logo，无活动实际界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:48.784864+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/PWf-VlVDpX0/hqdefault.jpg",
+          "caption": "Color Block Jam - Canyon Chase - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=PWf-VlVDpX0",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+canyon+chase",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam canyon chase",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:33:17.203615+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:17.687274+00:00",
+            "load_time_ms": 342,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 480,
+            "natural_height": 360,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/PWf-VlVDpX0/hqdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "清晰展示了 Canyon Chase 活动的玩家匹配及奖励预览界面，属于实际活动内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:48.784864+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/n8ZamzuIqpY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA8P-Dji0n9VNXYMnoPq6NlAdKPLA",
+          "caption": "Color Block Jam Canyon Chase | 7-Game ...",
+          "source_url": "https://www.youtube.com/watch?v=Y5l09cD_nS4",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+canyon+chase",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam canyon chase",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:33:17.203615+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:18.066689+00:00",
+            "load_time_ms": 374,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/n8ZamzuIqpY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA8P-Dji0n9VNXYMnoPq6NlAdKPLA"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "图内虽然有标题提到活动名，但画面主体展示的是常规关卡玩法，且文字重点是 Levels 201 to 220，无法确认是活动特有玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:48.784864+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/PWf-VlVDpX0/sddefault.jpg",
+          "caption": "Color Block Jam Canyon Chase | 7-Game ...",
+          "source_url": "https://www.youtube.com/watch?v=PWf-VlVDpX0",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+canyon+chase",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam canyon chase",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:33:17.203615+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:18.402675+00:00",
+            "load_time_ms": 330,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 480,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/PWf-VlVDpX0/sddefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "与图3一致，展示了 Canyon Chase 活动的玩家匹配和奖励界面，属于活动内实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:48.784864+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "daily_challenge",
+      "display_name": "Daily Challenge / 每日挑战",
+      "description": "App Store 玩家评论明确提到 Daily Challenge progress，说明游戏有每日挑战进度。公开页面未给出奖励表或玩法入口。",
+      "examples": [
+        "Daily Challenge"
+      ],
+      "market_research_notes": "日活入口，可能与奖励、连胜或每日 puzzle 绑定；需真机确认是否独立关卡或主线目标。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/KJ65S9YWPwE/maxresdefault.jpg",
+          "caption": "Challenge In Color Block Jam! Tutorial ...",
+          "source_url": "https://www.youtube.com/watch?v=KJ65S9YWPwE",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+daily+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam daily challenge",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:33:42.707526+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:18.797208+00:00",
+            "load_time_ms": 389,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/KJ65S9YWPwE/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图是YouTube视频封面，明确标有'How to complete Daily Challenge'，属于活动的宣传/封面性质图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:52.821819+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/9aSZk5wEI3U/maxresdefault.jpg",
+          "caption": "Color Block Jam | 🔥 30 Day Challenge ...",
+          "source_url": "https://www.youtube.com/watch?v=9aSZk5wEI3U",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+daily+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam daily challenge",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:33:42.707526+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:19.202817+00:00",
+            "load_time_ms": 400,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/9aSZk5wEI3U/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.8,
+            "reason": "画面显示为'level 22'，属于普通关卡进度，虽然字幕标有30 Day Challenge，但界面内无每日挑战特有标识。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:52.821819+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/XCAcpU2jcAI/maxresdefault.jpg",
+          "caption": "Color Block Jam Level 1469 Walkthrough ...",
+          "source_url": "https://www.youtube.com/watch?v=XCAcpU2jcAI",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+daily+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam daily challenge",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:33:42.707526+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:19.931811+00:00",
+            "load_time_ms": 723,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/XCAcpU2jcAI/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "该图为游戏的常规关卡攻略图，并未体现每日挑战相关的进度条或UI。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:52.821819+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/GPinhCVVE0OoLi0QgJzmHmX8DEso19Dkv7hRnHlnak5ZbUpuWa1NACtkuVbApCqK5vaqh2asEts_wS5pFc0P2Q",
+          "caption": "Color Block: Jam Puzzle 3D - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.fs.block",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+daily+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam daily challenge",
+          "width": 284,
+          "height": 177,
+          "aspect_ratio": 1.6045,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:33:42.707526+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:20.233072+00:00",
+            "load_time_ms": 295,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/GPinhCVVE0OoLi0QgJzmHmX8DEso19Dkv7hRnHlnak5ZbUpuWa1NACtkuVbApCqK5vaqh2asEts_wS5pFc0P2Q"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.98,
+            "reason": "此图为游戏的App图标，属于通用品牌/头像类图片。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:52.821819+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/nTlgT_LcA5elhVURikAnJGSuT6W5i7Y72NZ2gnB5rFvIVwDCjbWUeO8rzN7Rd9hwSl1vmFAXbSb2W87QXWxr=w526-h296-rw",
+          "caption": "Color Block Jam by Rollic scaled to ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.fs.block",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+daily+challenge",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam daily challenge",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:33:42.707526+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:20.501026+00:00",
+            "load_time_ms": 263,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 474,
+            "natural_height": 296,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/nTlgT_LcA5elhVURikAnJGSuT6W5i7Y72NZ2gnB5rFvIVwDCjbWUeO8rzN7Rd9hwSl1vmFAXbSb2W87QXWxr=w526-h296-rw"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "此为商店通用宣传图，虽然写有'Challenge Yourself'，但展示的是通用玩法，非特定每日挑战界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:52.821819+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "timed_level_progression",
+      "display_name": "Timed Level Progression / 限时关卡推进",
+      "description": "商店页和玩家评论多次提到 levels 有 time limit / before running out of time。虽然这不是限时活动，但它是 Canyon Chase、Daily Challenge 和 Fail Offer 的基础压力机制。",
+      "examples": [
+        "time limit",
+        "running out of time",
+        "hard levels"
+      ],
+      "market_research_notes": "核心玩法的 timer 是活动商业化前提：失败会消耗 lives、coins、power-ups 或触发 Fail Offer。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/color-block-jam-all-levels-guide-find-your-level-here-v0-vzjfaiml0h1g1.jpeg?width=1260&format=pjpg&auto=webp&s=7ed8ad51342003b1a95683358438d9bec994e2c0",
+          "caption": "Color Block Jam All Levels Guide (Find ...",
+          "source_url": "https://www.reddit.com/r/ColorBlockJam/comments/1joreh2/color_block_jam_all_levels_guide_find_your_level/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+timed+level+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam timed level progression",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:34:09.051621+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:20.984393+00:00",
+            "load_time_ms": 477,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1260,
+            "natural_height": 2736,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/color-block-jam-all-levels-guide-find-your-level-here-v0-vzjfaiml0h1g1.jpeg?width=1260&format=pjpg&auto=webp&s=7ed8ad51342003b1a95683358438d9bec994e2c0"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了游戏的实际玩法界面，顶部带有明显的Time限时倒计时器，符合限时关卡推进的特征。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:57.201127+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/xruovYAilk0/maxresdefault.jpg",
+          "caption": "Color Block Jam Level 839 Solution ...",
+          "source_url": "https://www.youtube.com/watch?v=xruovYAilk0",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+timed+level+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam timed level progression",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:34:09.051621+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:21.386597+00:00",
+            "load_time_ms": 397,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/xruovYAilk0/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "这是YouTube视频的缩略海报，属于宣传性质的组合图，虽然包含核心玩法元素，但并非直接的游戏内原始截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:57.201127+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/color-block-jam-all-levels-guide-find-your-level-here-v0-9bo0bpycenuf1.jpeg?width=1080&format=pjpg&auto=webp&s=cf47107be148c711ada673297c3aa769a583aa5c",
+          "caption": "Color Block Jam All Levels Guide (Find ...",
+          "source_url": "https://www.reddit.com/r/ColorBlockJam/comments/1joreh2/color_block_jam_all_levels_guide_find_your_level/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+timed+level+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam timed level progression",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:34:09.051621+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:21.939633+00:00",
+            "load_time_ms": 548,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 2340,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/color-block-jam-all-levels-guide-find-your-level-here-v0-9bo0bpycenuf1.jpeg?width=1080&format=pjpg&auto=webp&s=cf47107be148c711ada673297c3aa769a583aa5c"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了实际游戏关卡界面，顶部有明确的限时倒计时（Time 02:35），能够确认与限时关卡推进活动直接相关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:57.201127+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/sMpfLFR0s8g/maxresdefault.jpg",
+          "caption": "Color Block Jam Level 1000 Walkthrough ...",
+          "source_url": "https://www.youtube.com/watch?v=sMpfLFR0s8g",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+timed+level+progression",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam timed level progression",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:34:09.051621+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:22.323717+00:00",
+            "load_time_ms": 379,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/sMpfLFR0s8g/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "典型的视频封面/宣传图，侧边有文字标题和关卡数，并非纯粹的玩法截图，属于宣传性质。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:26:57.201127+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "new_levels_and_obstacles",
+      "display_name": "New Levels / Obstacles / 新关卡与新障碍",
+      "description": "App Store 版本历史写到 Button Door、Laser Door、Elevator、Ivy 等新 obstacle 和 fresh new levels；Google Play 也强调每关引入新 obstacles 和 gameplay mechanics。",
+      "examples": [
+        "Button Door",
+        "Laser Door",
+        "Elevator",
+        "Ivy",
+        "fresh new levels"
+      ],
+      "market_research_notes": "新障碍是该产品的内容运营核心，可不断制造广告素材和玩家求助需求。",
+      "images": [
+        {
+          "url": "https://www.colorblockjam.org/images/screenshot/1.webp",
+          "caption": "Color Block Jam - Free Puzzle Game ...",
+          "source_url": "https://www.colorblockjam.org/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+new+levels+and+obstacles",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam new levels and obstacles",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:34:46.247145+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:24.101045+00:00",
+            "load_time_ms": 1772,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 230,
+            "natural_height": 498,
+            "content_type": "image/webp",
+            "current_src": "https://www.colorblockjam.org/images/screenshot/1.webp"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了游戏的实际玩法界面，且图片上方明确显示了Level 21，属于新关卡/关卡玩法的直接体现。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:27:03.210600+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/color-block-jam-all-levels-guide-find-your-level-here-v0-vzjfaiml0h1g1.jpeg?width=1260&format=pjpg&auto=webp&s=7ed8ad51342003b1a95683358438d9bec994e2c0",
+          "caption": "Color Block Jam All Levels Guide (Find ...",
+          "source_url": "https://www.reddit.com/r/ColorBlockJam/comments/1joreh2/color_block_jam_all_levels_guide_find_your_level/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+new+levels+and+obstacles",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam new levels and obstacles",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:34:46.247145+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:20.984393+00:00",
+            "load_time_ms": 477,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1260,
+            "natural_height": 2736,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/color-block-jam-all-levels-guide-find-your-level-here-v0-vzjfaiml0h1g1.jpeg?width=1260&format=pjpg&auto=webp&s=7ed8ad51342003b1a95683358438d9bec994e2c0"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "图中有明显的Button、数字障碍和不同材质的块，是activity_description中提到的obstacles具体玩法界面，且对应Level 1656。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:27:03.210600+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/VVJt-3yQbuk/maxresdefault.jpg",
+          "caption": "Color Block Jam Level 350 Solution ...",
+          "source_url": "https://www.youtube.com/watch?v=VVJt-3yQbuk",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+new+levels+and+obstacles",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam new levels and obstacles",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:34:46.247145+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:24.494423+00:00",
+            "load_time_ms": 387,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/VVJt-3yQbuk/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "虽然展示了Level 350的内容，但由于带有明显的Youtube封面修饰（大标题、装饰角标、剪头），判定为宣传/封面类图片。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:27:03.210600+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/can-anyone-help-me-solve-this-v0-jxkek3qwzfje1.jpeg?width=1080&crop=smart&auto=webp&s=4408fb141ee18bb9d3d374ba671a10faf8ac8cea",
+          "caption": "Can anyone help me solve this? : r ...",
+          "source_url": "https://www.reddit.com/r/puzzlevideogames/comments/1iqltpr/can_anyone_help_me_solve_this/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+new+levels+and+obstacles",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam new levels and obstacles",
+          "width": 229,
+          "height": 220,
+          "aspect_ratio": 1.0409,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:34:46.247145+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:24.661421+00:00",
+            "load_time_ms": 162,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 1037,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/can-anyone-help-me-solve-this-v0-jxkek3qwzfje1.jpeg?width=1080&crop=smart&auto=webp&s=4408fb141ee18bb9d3d374ba671a10faf8ac8cea"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "展示了带有数字、滑动方向标识和特殊机关的实际关卡解机界面，属于新关卡/障碍的玩法展示。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:27:03.210600+00:00"
+          }
+        },
+        {
+          "url": "https://www.colorblockjam.org/images/screenshot/2.webp",
+          "caption": "Color Block Jam - Free Puzzle Game ...",
+          "source_url": "https://www.colorblockjam.org/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+new+levels+and+obstacles",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam new levels and obstacles",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:34:46.247145+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:24.987459+00:00",
+            "load_time_ms": 319,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 230,
+            "natural_height": 498,
+            "content_type": "image/webp",
+            "current_src": "https://www.colorblockjam.org/images/screenshot/2.webp"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了Level 68的实际玩法界面，且图中包含链条锁、钥匙、冰块等具体障碍物，符合活动描述。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:27:03.210600+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "reward_unlocks",
+      "display_name": "Earn Rewards / Unlock New Levels / 关卡奖励推进",
+      "description": "Google Play 明确写到 Clear tricky levels to earn rewards and unlock new, more challenging puzzles。公开资料未说明奖励种类，但可确认关卡胜利与奖励/解锁相连。",
+      "examples": [
+        "earn rewards",
+        "unlock new levels"
+      ],
+      "market_research_notes": "基础进度奖励承接每日挑战和限时活动，后续可补具体货币、道具和礼包触发点。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/qnwV6NmhZlQ/maxresdefault.jpg",
+          "caption": "Block Jam! Tutorial ...",
+          "source_url": "https://www.youtube.com/watch?v=qnwV6NmhZlQ",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+reward+unlocks",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam reward unlocks",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:35:12.716213+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:25.423782+00:00",
+            "load_time_ms": 428,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/qnwV6NmhZlQ/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "图片明确提及本游戏名称及'Unlock Event Rewards'活动字样，属于宣传图性质。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:27:07.399154+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/TD-DrCFOUps/maxresdefault.jpg",
+          "caption": "Color Block Jam Level 669 Solution ...",
+          "source_url": "https://www.youtube.com/watch?v=TD-DrCFOUps",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+reward+unlocks",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam reward unlocks",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:35:12.716213+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:25.832853+00:00",
+            "load_time_ms": 401,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/TD-DrCFOUps/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了游戏的实际解谜玩法界面，且包含关卡编号，属于解锁新关卡和获取奖励的环节。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:27:07.399154+00:00"
+          }
+        },
+        {
+          "url": "https://www.colorblockjam.org/images/screenshot/5.webp",
+          "caption": "Color Block Jam - Free Puzzle Game ...",
+          "source_url": "https://www.colorblockjam.org/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+reward+unlocks",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam reward unlocks",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:35:12.716213+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:26.322246+00:00",
+            "load_time_ms": 483,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 230,
+            "natural_height": 498,
+            "content_type": "image/webp",
+            "current_src": "https://www.colorblockjam.org/images/screenshot/5.webp"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了实际玩法界面，并配有'Unlock new levels'的文字描述，直接对应活动内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:27:07.399154+00:00"
+          }
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/81kLSUjJwnL._h1_.png",
+          "caption": "Color Block Jam - App on Amazon Appstore",
+          "source_url": "https://www.amazon.com/Block-99-Puzzle-Games-Kindle/dp/B083RW2MB9",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+reward+unlocks",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam reward unlocks",
+          "width": 168,
+          "height": 300,
+          "aspect_ratio": 0.56,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:35:12.716213+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:26.608465+00:00",
+            "load_time_ms": 281,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://m.media-amazon.com/images/I/81kLSUjJwnL._h1_.png"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "仅为游戏相关的通用素材背景图，无法确定与特定解锁奖励活动有关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:27:07.399154+00:00"
+          }
+        },
+        {
+          "url": "https://colorblockjamlevel.io/data/image/posts/color-block-jam-level-833.jpg",
+          "caption": "Color Block Jam Level 833 Solution ...",
+          "source_url": "https://colorblockjamlevel.io/color-block-jam-level-833",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+reward+unlocks",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam reward unlocks",
+          "width": 282,
+          "height": 179,
+          "aspect_ratio": 1.5754,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:35:12.716213+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:28.325064+00:00",
+            "load_time_ms": 1709,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 500,
+            "natural_height": 318,
+            "content_type": "image/jpeg",
+            "current_src": "https://colorblockjamlevel.io/data/image/posts/color-block-jam-level-833.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了高关卡倍数的实际玩法界面，属于解锁新关卡（Unlock New Levels）的实际体现。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:27:07.399154+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "golden_ticket",
+      "display_name": "Golden Ticket / 票券或通行证线索",
+      "description": "App Store 内购列表包含 Golden Ticket。公开页面未解释它是通行证、活动票券还是礼包，因此只作为已确认内购名记录。",
+      "examples": [
+        "Golden Ticket"
+      ],
+      "market_research_notes": "可能是活动奖励轨或高价值礼包入口，需要真机确认购买后解锁的具体权益。",
+      "images": [
+        {
+          "url": "https://i.redd.it/j6ihjpp5ubnd1.png",
+          "caption": "Does anyone have this reward? What does ...",
+          "source_url": "https://www.reddit.com/r/adventuresinajam/comments/1fb06av/does_anyone_have_this_reward_what_does_it_give/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+golden+ticket",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam golden ticket",
+          "width": 326,
+          "height": 154,
+          "aspect_ratio": 2.1169,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:36:10.360334+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:29.404747+00:00",
+            "load_time_ms": 1070,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1440,
+            "natural_height": 682,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/j6ihjpp5ubnd1.png"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.95,
+            "reason": "图片显示为《SpongeBob Adventures: In A Jam》的通行证界面，与本游戏无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:27:11.237219+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/is-this-worth-it-v0-tlmoy2pnmt5f1.jpeg?width=1080&crop=smart&auto=webp&s=2d1270ad15fe4da85fadd22604e307a2d1063fc9",
+          "caption": "Is this worth it ? : r/ColorBlockJam",
+          "source_url": "https://www.reddit.com/r/ColorBlockJam/comments/1l6us8i/is_this_worth_it/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+golden+ticket",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam golden ticket",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:36:10.360334+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:29.811043+00:00",
+            "load_time_ms": 400,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 2340,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/is-this-worth-it-v0-tlmoy2pnmt5f1.jpeg?width=1080&crop=smart&auto=webp&s=2d1270ad15fe4da85fadd22604e307a2d1063fc9"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "图片展示了本游戏内确有的 Golden Ticket 购买弹出界面，属于活动/内购实际界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:27:11.237219+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/FG1C_fMf_xc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDR3YfwM1CxlSZ-eyly2CuCDjymzw",
+          "caption": "Color Block Jam Level 1079 - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=FG1C_fMf_xc",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+golden+ticket",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam golden ticket",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:36:10.360334+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:30.135898+00:00",
+            "load_time_ms": 319,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/FG1C_fMf_xc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDR3YfwM1CxlSZ-eyly2CuCDjymzw"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片是本游戏的常规关卡玩法截图，无法确认与 Golden Ticket 活动的直接关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:27:11.237219+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/U_JnrYcPmpA/maxresdefault.jpg",
+          "caption": "Color Block Jam Level 978 Walkthrough ...",
+          "source_url": "https://www.youtube.com/watch?v=U_JnrYcPmpA",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+golden+ticket",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam golden ticket",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:36:10.360334+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:30.501059+00:00",
+            "load_time_ms": 359,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/U_JnrYcPmpA/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片是本游戏的常规关卡玩法截图，无法确认与 Golden Ticket 活动的直接关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:27:11.237219+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/is-it-worth-buying-the-golden-ticket-i-am-having-second-v0-llo9ipg1y36d1.jpg?width=2556&format=pjpg&auto=webp&s=019d8372e4c83c748245237bb99fea9de98ccabc",
+          "caption": "Is it worth buying the golden ticket? I ...",
+          "source_url": "https://www.reddit.com/r/TownshipGame/comments/1de2a1g/is_it_worth_buying_the_golden_ticket_i_am_having/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+golden+ticket",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam golden ticket",
+          "width": 331,
+          "height": 152,
+          "aspect_ratio": 2.1776,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:36:10.360334+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:30.819015+00:00",
+            "load_time_ms": 313,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2556,
+            "natural_height": 1179,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/is-it-worth-buying-the-golden-ticket-i-am-having-second-v0-llo9ipg1y36d1.jpg?width=2556&format=pjpg&auto=webp&s=019d8372e4c83c748245237bb99fea9de98ccabc"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.95,
+            "reason": "图片显示为《Township》游戏的玩法界面，与本游戏完全无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:27:11.237219+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "limited_offers_and_bundles",
+      "display_name": "Fail Offer / Bundles / 限时礼包",
+      "description": "App Store 内购包含 Fail Offer、Coin Packs、Small/Medium/Large Bundle、No Ads Bundle、Mother's Day 等。Fail Offer 与卡关/失败节点高度相关。",
+      "examples": [
+        "Fail Offer",
+        "Coin Pack 1",
+        "Coin Pack 2",
+        "Coin Pack 3",
+        "Coin Pack 4",
+        "Small Bundle",
+        "Medium Bundle",
+        "Large Bundle",
+        "No Ads Bundle",
+        "Mother's Day"
+      ],
+      "market_research_notes": "该产品的活动商业化很可能以失败后即时优惠、节日小礼包和 coin/tool 消耗为主。",
+      "images": [
+        {
+          "url": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/255a381d9e3743478e774e87891e053e~tplv-fhlh96nyum-crop-webp:1500:1500.webp?dr=12190&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=948674b7&idc=useast5&from=2378011839",
+          "caption": "color block jam level 223 - TikTok Shop",
+          "source_url": "https://shop.tiktok.com/us/k/color-block-jam-level-223",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+limited+offers+and+bundles",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam limited offers and bundles",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:36:38.289011+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:32.067311+00:00",
+            "load_time_ms": 1244,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1500,
+            "natural_height": 1500,
+            "content_type": "image/webp",
+            "current_src": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/255a381d9e3743478e774e87891e053e~tplv-fhlh96nyum-crop-webp:1500:1500.webp?dr=12190&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=948674b7&idc=useast5&from=2378011839"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.98,
+            "reason": "图片展示的是洗发喷雾等现实生活用品，与手游完全无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:27:15.140872+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/IEDxPZSs76Q/maxresdefault.jpg",
+          "caption": "Purchase Bundles in Color Block Jam ...",
+          "source_url": "https://www.youtube.com/watch?v=IEDxPZSs76Q",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+limited+offers+and+bundles",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam limited offers and bundles",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:36:38.289011+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:32.473798+00:00",
+            "load_time_ms": 400,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/IEDxPZSs76Q/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "带有游戏Logo和购买礼包的文字，属于活动的宣传封面图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:27:15.140872+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/color-block-jam-money-maker-v0-93kjw3ky6xyf1.jpg?width=640&crop=smart&auto=webp&s=aa406741b5e7f58ba97f92397e163e3e587cbdc6",
+          "caption": "Color Block Jam Money Maker : r/SwagBucks",
+          "source_url": "https://www.reddit.com/r/SwagBucks/comments/1omuwtx/color_block_jam_money_maker/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+limited+offers+and+bundles",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam limited offers and bundles",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:36:38.289011+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:32.802773+00:00",
+            "load_time_ms": 320,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 1386,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/color-block-jam-money-maker-v0-93kjw3ky6xyf1.jpg?width=640&crop=smart&auto=webp&s=aa406741b5e7f58ba97f92397e163e3e587cbdc6"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "展示了游戏内实际的商城界面，包含Coin Pack内购项及其具体价格。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:27:15.140872+00:00"
+          }
+        },
+        {
+          "url": "https://www.gamigion.com/wp-content/uploads/2024/03/gamigonfi.png",
+          "caption": "Color Block Jam Economy - Gamigion ...",
+          "source_url": "https://www.gamigion.com/color-block-jam-economy/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+limited+offers+and+bundles",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam limited offers and bundles",
+          "width": 197,
+          "height": 255,
+          "aspect_ratio": 0.7725,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:36:38.289011+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:11:10.195511+00:00",
+            "load_time_ms": 1905,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 413,
+            "natural_height": 425,
+            "content_type": "image/png",
+            "current_src": "https://www.gamigion.com/wp-content/uploads/2024/03/gamigonfi.png"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.95,
+            "reason": "图片仅展示了第三方媒体Gamigion的品牌Logo，与该游戏的具体活动内容无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:27:15.140872+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "leaderboards_and_online_events",
+      "display_name": "Leaderboards / Online Events / 在线榜单活动",
+      "description": "第三方攻略页提到 leaderboards and events may require internet connection；官方商店页未给具体榜单名称。本轮只作为功能线索记录。",
+      "examples": [
+        "leaderboards",
+        "events"
+      ],
+      "market_research_notes": "结合 Canyon Chase，很可能存在活动榜单或分组竞争；需真机验证 UI 和奖励。",
+      "images": [
+        {
+          "url": "https://www.colorblockjam.org/images/screenshot/2.webp",
+          "caption": "Color Block Jam - Free Puzzle Game ...",
+          "source_url": "https://www.colorblockjam.org/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+leaderboards+and+online+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam leaderboards and online events",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:37:24.688643+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:24.987459+00:00",
+            "load_time_ms": 319,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 230,
+            "natural_height": 498,
+            "content_type": "image/webp",
+            "current_src": "https://www.colorblockjam.org/images/screenshot/2.webp"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片展示了游戏的实际核心玩法和关卡界面（Level 68），确认为本游戏截图，但属于常规关卡内容，无法体现榜单或特定活动信息。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:27:18.681600+00:00"
+          }
+        },
+        {
+          "url": "https://www.colorblockjam.org/images/screenshot/4.webp",
+          "caption": "Color Block Jam - Free Puzzle Game ...",
+          "source_url": "https://www.colorblockjam.org/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+leaderboards+and+online+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam leaderboards and online events",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:37:24.688643+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:34.469480+00:00",
+            "load_time_ms": 435,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 230,
+            "natural_height": 498,
+            "content_type": "image/webp",
+            "current_src": "https://www.colorblockjam.org/images/screenshot/4.webp"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片为游戏的商店宣传图/截图，展示了基础关卡玩法（Level 16），属于通用宣传素材，与特定榜单活动无直接关联。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:27:18.681600+00:00"
+          }
+        },
+        {
+          "url": "https://www.colorblockjam.org/images/screenshot/1.webp",
+          "caption": "Color Block Jam - Free Puzzle Game ...",
+          "source_url": "https://www.colorblockjam.org/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=color+block+jam+leaderboards+and+online+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "color block jam leaderboards and online events",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:37:24.688643+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:21:24.101045+00:00",
+            "load_time_ms": 1772,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 230,
+            "natural_height": 498,
+            "content_type": "image/webp",
+            "current_src": "https://www.colorblockjam.org/images/screenshot/1.webp"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "图片展示了游戏的消除玩法界面（Level 21），为普通关卡截图，未发现任何与在线榜单或限时活动相关的 UI 元素。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:27:18.681600+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "Color Block Jam 未找到 wiki。比程序化结果更可用的线索来自 App Store 评论、版本历史和第三方攻略页：Canyon Chase、Daily Challenge、新障碍/新关卡、Golden Ticket、Fail Offer 和礼包。具体活动规则仍需真机补充。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T07:37:24.689647+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:27:18.681600+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

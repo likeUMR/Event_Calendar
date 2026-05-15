@@ -1,0 +1,1113 @@
+{
+  "rank": 48,
+  "name": "Marble Sort!",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 App Store 描述与 AppsHunter 事件流，重点确认 Marble Sort! 的新机制、新障碍和少量活动包装，按公开可验证的功能与活动整理。",
+  "source_pages": [
+    {
+      "title": "App Store - Marble Sort!",
+      "url": "https://apps.apple.com/us/app/marble-sort/id6754558455",
+      "notes": "官方商店页，用于确认产品定位、版本更新和可直接验证的系统关键词。"
+    },
+    {
+      "title": "AppsHunter - Marble Sort! App Page",
+      "url": "https://appshunter.io/ios/app/6754558455",
+      "notes": "用于查看该产品近期 App Store 事件和版本更新摘要。"
+    },
+    {
+      "title": "AppsHunter - New mechanic: Trio box!",
+      "url": "https://appshunter.io/events/6761475583",
+      "notes": "用于确认 Trio Box 作为新关卡机制出现。"
+    },
+    {
+      "title": "AppsHunter - New mechanic: Super Hidden Box",
+      "url": "https://appshunter.io/events/6761921614",
+      "notes": "用于确认 Super Hidden Box 作为新障碍或新机关出现。"
+    },
+    {
+      "title": "AppsHunter - New mechanic: Ice Tray!",
+      "url": "https://appshunter.io/events/6760774048",
+      "notes": "用于确认 Ice Tray 机制及其主题化包装。"
+    },
+    {
+      "title": "AppsHunter - New Event: Sugar Rush",
+      "url": "https://appshunter.io/events/6759564177",
+      "notes": "用于确认少量明确可见的活动名 Sugar Rush。"
+    },
+    {
+      "title": "AppsHunter - New mechanic and levels",
+      "url": "https://appshunter.io/events/6764598668",
+      "notes": "用于确认产品持续通过新机关和新关卡做内容更新。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "core_level_system",
+      "display_name": "Core Conveyor Sort Levels / 核心分拣关卡",
+      "description": "产品主体仍是标准的颜色分拣/盒子分拣关卡，持续通过新关卡与新障碍维持内容更新。",
+      "examples": [
+        "standard color-box levels"
+      ],
+      "market_research_notes": "这更像关卡内容迭代，而不是成熟的活动矩阵。",
+      "images": [
+        {
+          "url": "https://gl.imgbear.xyz/4e255ef1-67f9-42f4-b9d7-89915355e800.png",
+          "caption": "Marble Sort Full Level Solution ...",
+          "source_url": "https://marblesort.com/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+core+level+system",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort core level system",
+          "width": 180,
+          "height": 281,
+          "aspect_ratio": 0.6406,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:20:48.362796+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:55.508527+00:00",
+            "load_time_ms": 1831,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 209,
+            "natural_height": 124,
+            "content_type": "image/png",
+            "current_src": "https://gl.imgbear.xyz/4e255ef1-67f9-42f4-b9d7-89915355e800.png"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "仅显示游戏Logo名，属于通用名称/品牌图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:36.377445+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/0O6q_CiFqtw/maxresdefault.jpg",
+          "caption": "Marble Sort Gameplay | Levels 1–12 ...",
+          "source_url": "https://www.youtube.com/watch?v=0O6q_CiFqtw",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+core+level+system",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort core level system",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:20:48.362796+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:55.934313+00:00",
+            "load_time_ms": 420,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/0O6q_CiFqtw/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "包含游戏玩法演示，但属于YouTube视频封面（宣传海报性质），非直接游戏内操作截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:36.377445+00:00"
+          }
+        },
+        {
+          "url": "https://gl.imgbear.xyz/e462652a-8554-4a1b-a3d4-0be97964edcc.webp",
+          "caption": "Marble Sort Level 163 Walkthrough ...",
+          "source_url": "https://marblesort.com/level/163",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+core+level+system",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort core level system",
+          "width": 174,
+          "height": 289,
+          "aspect_ratio": 0.6021,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:20:48.362796+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:56.267035+00:00",
+            "load_time_ms": 327,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 460,
+            "natural_height": 762,
+            "content_type": "image/webp",
+            "current_src": "https://gl.imgbear.xyz/e462652a-8554-4a1b-a3d4-0be97964edcc.webp"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了活动描述中提到的核心分拣关卡实际玩法界面，包含颜色方块和盒子结构。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:36.377445+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/yyOGDIlO_n0/maxresdefault.jpg",
+          "caption": "Marble Sort Level 170 Walkthrough ...",
+          "source_url": "https://marblesort.com/level/170",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+core+level+system",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort core level system",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:20:48.362796+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:56.652237+00:00",
+            "load_time_ms": 368,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/yyOGDIlO_n0/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了核心分拣系统的具体关卡（Level 170）玩法界面，属于活动描述中的内容更新。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:36.377445+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "trio_box",
+      "display_name": "Trio Box / 三色盒子",
+      "description": "新增关卡机关之一，用三色或多段要求提升分拣复杂度，本质上属于新障碍/新机关投放。",
+      "examples": [
+        "Trio Box",
+        "Tri Color Boxes"
+      ],
+      "market_research_notes": "说明这款产品主要依靠 mechanic refresh 做更新。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/MQ0uKnqj81Y/maxresdefault.jpg",
+          "caption": "Color Puzzle Gameplay Walkthrough ...",
+          "source_url": "https://www.youtube.com/watch?v=MQ0uKnqj81Y",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+trio+box",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort trio box",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:21:12.779670+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:57.026040+00:00",
+            "load_time_ms": 369,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/MQ0uKnqj81Y/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "包含Marble Sort!游戏标题和基础玩法界面，但未明确体现Trio Box机关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:40.369146+00:00"
+          }
+        },
+        {
+          "url": "https://i.ebayimg.com/images/g/83IAAOSwmoBoDY~N/s-l400.jpg",
+          "caption": "3D Print Display Storage Sorting Tray ...",
+          "source_url": "https://www.ebay.com/itm/226723162295",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+trio+box",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort trio box",
+          "width": 251,
+          "height": 201,
+          "aspect_ratio": 1.2488,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:21:12.779670+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:57.368229+00:00",
+            "load_time_ms": 330,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 400,
+            "natural_height": 321,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ebayimg.com/images/g/83IAAOSwmoBoDY~N/s-l400.jpg"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.98,
+            "reason": "实物玻璃珠棋盘，与本游戏无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:40.369146+00:00"
+          }
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0653/7697/7075/files/1763714298361-RMMMNY-_0001_300DPI-NEW_0000_141717_FIAMMS-18320201030-32-12fxcqy.jpg?v=1763723448?tx=q_auto,w_512",
+          "caption": "Set of White Carrara Marble Cubic Box ...",
+          "source_url": "https://artemest.com/products/white-carrara-marble-cubic-box-with-lid",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+trio+box",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort trio box",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:21:12.779670+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:58.470215+00:00",
+            "load_time_ms": 1094,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1400,
+            "natural_height": 1400,
+            "content_type": "image/webp",
+            "current_src": "https://cdn.shopify.com/s/files/1/0653/7697/7075/files/1763714298361-RMMMNY-_0001_300DPI-NEW_0000_141717_FIAMMS-18320201030-32-12fxcqy.jpg?v=1763723448?tx=q_auto,w_512"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 1.0,
+            "reason": "大理石材质的实体收纳盒商品图，与游戏无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:40.369146+00:00"
+          }
+        },
+        {
+          "url": "https://gl.imgbear.xyz/ba6dae0c-cbf9-4e06-af5d-f11e194d4240.webp",
+          "caption": "Marble Sort Level 149 Walkthrough ...",
+          "source_url": "https://marblesort.com/level/149",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+trio+box",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort trio box",
+          "width": 174,
+          "height": 289,
+          "aspect_ratio": 0.6021,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:21:12.779670+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:58.836944+00:00",
+            "load_time_ms": 361,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1054,
+            "natural_height": 1742,
+            "content_type": "image/webp",
+            "current_src": "https://gl.imgbear.xyz/ba6dae0c-cbf9-4e06-af5d-f11e194d4240.webp"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "展示了关卡实际玩法，图中出现了带有数字标示的特殊方块机关，符合描述中的多段要求障碍。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:40.369146+00:00"
+          }
+        },
+        {
+          "url": "https://gl.imgbear.xyz/a5d93bbe-bd20-423b-b8ae-6a0c8e872dec.webp",
+          "caption": "Marble Sort Level 250 Walkthrough ...",
+          "source_url": "https://marblesort.com/level/250",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+trio+box",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort trio box",
+          "width": 173,
+          "height": 291,
+          "aspect_ratio": 0.5945,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:21:12.779670+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:25:01.690594+00:00",
+            "load_time_ms": 2850,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1040,
+            "natural_height": 1746,
+            "content_type": "image/webp",
+            "current_src": "https://gl.imgbear.xyz/a5d93bbe-bd20-423b-b8ae-6a0c8e872dec.webp"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "展示了关卡中带有数字的特殊机关方块，属于新障碍玩法界面的实际展示。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:40.369146+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "super_hidden_box",
+      "display_name": "Super Hidden Box / 隐藏盒子",
+      "description": "以隐藏信息或延迟暴露条件为核心的新机关，增加了试错和观察层。",
+      "examples": [
+        "Super Hidden Box"
+      ],
+      "market_research_notes": "依旧偏关卡机制更新，而不是独立运营活动。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/Qvs0QMje60q1AZL9G_oBNcZQ6BXF3Y6Hu1iXaw4Wld4NLL51cnDwVzdEap6Ep8jr6G6tNrKLRRsj2cPuR_PbRA=w851-h2160-rw",
+          "caption": "New mechanic: Super Hidden Box! Can you ...",
+          "source_url": "https://play.google.com/store/apps/eventdetails/4829323194539356815",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+super+hidden+box",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort super hidden box",
+          "width": 851,
+          "height": 2160,
+          "aspect_ratio": 0.394,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:21:36.995038+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:25:02.062014+00:00",
+            "load_time_ms": 366,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 851,
+            "natural_height": 479,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/Qvs0QMje60q1AZL9G_oBNcZQ6BXF3Y6Hu1iXaw4Wld4NLL51cnDwVzdEap6Ep8jr6G6tNrKLRRsj2cPuR_PbRA=w851-h2160-rw"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图是隐藏盒子（Hidden Box）活动的宣传海报，展示了覆盖着问号布的盒子和游戏中的弹珠，无玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:44.137990+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/3vHmkaPIPrs/maxresdefault.jpg",
+          "caption": "Level 470 Walkthrough ...",
+          "source_url": "https://www.youtube.com/watch?v=3vHmkaPIPrs",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+super+hidden+box",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort super hidden box",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:21:36.995038+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:25:02.428622+00:00",
+            "load_time_ms": 362,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/3vHmkaPIPrs/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了游戏的实际玩法界面，且方块上带有问号，符合隐藏盒子（Hidden Box）活动的机制描述。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:44.137990+00:00"
+          }
+        },
+        {
+          "url": "https://apps.apple.com//assets/images/share/app-store.png",
+          "caption": "New mechanic: Super Hidden Box",
+          "source_url": "https://apps.apple.com/ag/app/marble-sort/id6754558455?eventid=6761921614",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+super+hidden+box",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort super hidden box",
+          "width": 310,
+          "height": 163,
+          "aspect_ratio": 1.9018,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:21:36.995038+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:03:46.448362+00:00",
+            "load_time_ms": 287,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 630,
+            "content_type": "image/png",
+            "current_src": "https://apps.apple.com//assets/images/share/app-store.png"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 1.0,
+            "reason": "该图片仅为通用的 Apple App Store 图标，与本游戏及活动完全无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:44.137990+00:00"
+          }
+        },
+        {
+          "url": "https://gl.imgbear.xyz/e9dfbf88-2db3-454e-9aea-40f0a5f4efcc.webp",
+          "caption": "Marble Sort Level 100 Walkthrough ...",
+          "source_url": "https://marblesort.com/level/100",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+super+hidden+box",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort super hidden box",
+          "width": 175,
+          "height": 289,
+          "aspect_ratio": 0.6055,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:21:36.995038+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:25:02.791742+00:00",
+            "load_time_ms": 357,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1054,
+            "natural_height": 1742,
+            "content_type": "image/webp",
+            "current_src": "https://gl.imgbear.xyz/e9dfbf88-2db3-454e-9aea-40f0a5f4efcc.webp"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了实际关卡界面，图中包含大量带问号的隐藏方块，属于本活动描述的新机关玩法。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:44.137990+00:00"
+          }
+        },
+        {
+          "url": "https://gl.imgbear.xyz/ba6dae0c-cbf9-4e06-af5d-f11e194d4240.webp",
+          "caption": "Marble Sort Level 149 Walkthrough ...",
+          "source_url": "https://marblesort.com/level/149",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+super+hidden+box",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort super hidden box",
+          "width": 174,
+          "height": 289,
+          "aspect_ratio": 0.6021,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:21:36.995038+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:24:58.836944+00:00",
+            "load_time_ms": 361,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1054,
+            "natural_height": 1742,
+            "content_type": "image/webp",
+            "current_src": "https://gl.imgbear.xyz/ba6dae0c-cbf9-4e06-af5d-f11e194d4240.webp"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "展示了实际玩法界面，图中包含木箱遮挡的机制，属于延迟暴露条件的机关，与本活动相关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:44.137990+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ice_tray",
+      "display_name": "Ice Tray / 冰格机关",
+      "description": "通过冻结、阻塞或额外解锁条件增加关卡变化，是典型的 puzzle obstacle update。",
+      "examples": [
+        "Ice Tray"
+      ],
+      "market_research_notes": "适合作为版本更新的内容卖点，但对 LiveOps 意义有限。",
+      "images": [
+        {
+          "url": "http://chillwithhost.com/cdn/shop/files/oowflqgbqfv9k5hcyo7x_1200x1200.jpg?v=1775137972",
+          "caption": "Ice Sphere Silicone Mold ...",
+          "source_url": "https://chillwithhost.com/products/12158?srsltid=AfmBOooRm6vU-0UO8LSCojZ_O04abpX5hLdpjIt4aJTAtVbLgbhHKE6O",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+ice+tray",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort ice tray",
+          "width": 1200,
+          "height": 1200,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:22:06.862984+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:25:05.059104+00:00",
+            "load_time_ms": 2260,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 1200,
+            "content_type": "image/webp",
+            "current_src": "http://chillwithhost.com/cdn/shop/files/oowflqgbqfv9k5hcyo7x_1200x1200.jpg?v=1775137972"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 1.0,
+            "reason": "图片显示的是真实的物理制冰格，与手游《Marble Sort!》完全无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:48.135218+00:00"
+          }
+        },
+        {
+          "url": "https://chillwithhost.com/cdn/shop/files/zdkcwh07u6dfeuwygfu6_1800x1800.jpg?v=1775137972",
+          "caption": "Ice Sphere Silicone Mold ...",
+          "source_url": "https://chillwithhost.com/products/12158?srsltid=AfmBOoret02Z6uW0Buuy6cv-6x-pe41jRV24n6PetPCU07dpgm7piPyW",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+ice+tray",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort ice tray",
+          "width": 1800,
+          "height": 1800,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:22:06.862984+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:25:05.133714+00:00",
+            "load_time_ms": 69,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1800,
+            "natural_height": 1800,
+            "content_type": "image/webp",
+            "current_src": "https://chillwithhost.com/cdn/shop/files/zdkcwh07u6dfeuwygfu6_1800x1800.jpg?v=1775137972"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 1.0,
+            "reason": "图片显示的是真实的塑料/硅胶制冰盒，属于现实生活中的商品图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:48.135218+00:00"
+          }
+        },
+        {
+          "url": "https://i5.walmartimages.com/seo/Host-Ice-Cube-Tray-Makes-Four-5-Inch-Long-Cubes-Durable-Silicone-Trays-Easy-Release-Design-Perfect-Water-Bottles-Highball-Glasses-Home-Bar-Accessorie_1cbbda8f-e7d8-44fa-9c81-e4d46de7da76.4a83c90e12f4f542f4809d66878e246c.jpeg",
+          "caption": "Host Ice Cube Tray for Water Bottles ...",
+          "source_url": "https://www.walmart.com/ip/Host-Ice-Cube-Tray-Makes-Four-5-Inch-Long-Cubes-Durable-Silicone-Trays-Easy-Release-Design-Perfect-Water-Bottles-Highball-Glasses-Home-Bar-Accessorie/15985160522",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+ice+tray",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort ice tray",
+          "width": 224,
+          "height": 224,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:22:06.862984+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:25:05.646177+00:00",
+            "load_time_ms": 506,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2200,
+            "natural_height": 2200,
+            "content_type": "image/avif",
+            "current_src": "https://i5.walmartimages.com/seo/Host-Ice-Cube-Tray-Makes-Four-5-Inch-Long-Cubes-Durable-Silicone-Trays-Easy-Release-Design-Perfect-Water-Bottles-Highball-Glasses-Home-Bar-Accessorie_1cbbda8f-e7d8-44fa-9c81-e4d46de7da76.4a83c90e12f4f542f4809d66878e246c.jpeg"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 1.0,
+            "reason": "图片内容为现实生活中的冰格及其产出的冰块展示，与游戏无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:48.135218+00:00"
+          }
+        },
+        {
+          "url": "https://chillwithhost.com/cdn/shop/files/dhzsci5triwrqi8i7nua_1080x.jpg?v=1775137972",
+          "caption": "Ice Sphere Silicone Mold ...",
+          "source_url": "https://chillwithhost.com/products/12158?srsltid=AfmBOorpBzz3qzVPxbiqlGD52UDgCB56Bf1C_TS-0xrluUUmP_8kpBF5",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+ice+tray",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort ice tray",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:22:06.862984+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:25:05.798523+00:00",
+            "load_time_ms": 145,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 1080,
+            "content_type": "image/webp",
+            "current_src": "https://chillwithhost.com/cdn/shop/files/dhzsci5triwrqi8i7nua_1080x.jpg?v=1775137972"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 1.0,
+            "reason": "图片为品牌名为'HOST'的物理制冰模具宣传图，非游戏内容。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:48.135218+00:00"
+          }
+        },
+        {
+          "url": "https://i5.walmartimages.com/seo/Host-Ice-Cube-Tray-Makes-Four-5-Inch-Long-Cubes-Durable-Silicone-Trays-Easy-Release-Design-Perfect-Water-Bottles-Highball-Glasses-Home-Bar-Accessorie_b141d4a7-16b0-4a7a-a801-a562aa512f28.ac0932ba2efd29c326b83f63f06ec000.jpeg",
+          "caption": "Host Ice Cube Tray for Water Bottles ...",
+          "source_url": "https://www.walmart.com/ip/Host-Ice-Cube-Tray-Makes-Four-5-Inch-Long-Cubes-Durable-Silicone-Trays-Easy-Release-Design-Perfect-Water-Bottles-Highball-Glasses-Home-Bar-Accessorie/15985160522",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+ice+tray",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort ice tray",
+          "width": 224,
+          "height": 224,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T08:22:06.862984+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:25:05.903213+00:00",
+            "load_time_ms": 99,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2200,
+            "natural_height": 2200,
+            "content_type": "image/avif",
+            "current_src": "https://i5.walmartimages.com/seo/Host-Ice-Cube-Tray-Makes-Four-5-Inch-Long-Cubes-Durable-Silicone-Trays-Easy-Release-Design-Perfect-Water-Bottles-Highball-Glasses-Home-Bar-Accessorie_b141d4a7-16b0-4a7a-a801-a562aa512f28.ac0932ba2efd29c326b83f63f06ec000.jpeg"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 1.0,
+            "reason": "图片为生活用品冰格展示图，与移动游戏活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:48.135218+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "vault_panel",
+      "display_name": "Vault / Color Panel / 机关面板",
+      "description": "属于版本中新加入的面板或机关类型，用来改变颜色流转或可操作区域。",
+      "examples": [
+        "Vault panel",
+        "Color Panel"
+      ],
+      "market_research_notes": "更像 level system expansion，不像正式活动。",
+      "images": [
+        {
+          "url": "https://play-lh.googleusercontent.com/QvaEFQhS4SCDQmI941wYCTg83AoQkZt4WN-fZRyhh2XW2tcxjT0pQKXLm1Be7K0XdC4",
+          "caption": "Marble Sort! - Color Puzzle - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.microdose.balljam",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+vault+panel",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort vault panel",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:22:47.777199+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:25:06.149906+00:00",
+            "load_time_ms": 241,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 512,
+            "natural_height": 512,
+            "content_type": "image/png",
+            "current_src": "https://play-lh.googleusercontent.com/QvaEFQhS4SCDQmI941wYCTg83AoQkZt4WN-fZRyhh2XW2tcxjT0pQKXLm1Be7K0XdC4"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "仅展示了游戏基础元素小球，属于通用品牌/宣传素材。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:51.405994+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/GW54q4qeR8VpOUq-3vnBGmQsPz9f2EwO4w-ybmtAwsvcU20cLYBF2oO0bSKRDVFbly3k=w526-h296-rw",
+          "caption": "Marble Sort! - Color Puzzle - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.microdose.balljam",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+vault+panel",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort vault panel",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:22:47.777199+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:25:06.320458+00:00",
+            "load_time_ms": 166,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 166,
+            "natural_height": 296,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/GW54q4qeR8VpOUq-3vnBGmQsPz9f2EwO4w-ybmtAwsvcU20cLYBF2oO0bSKRDVFbly3k=w526-h296-rw"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "展示了处于实际玩法关卡中的面板区域，包含x2等机关元素，符合Vault/Panel描述。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:51.405994+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/8RHBtQds79arqnZq-lp6g4FHKujy194rOfx-wKZaZZPVR7r9acD5FXTlNZtDIZ8M5A=w526-h296-rw",
+          "caption": "Marble Sort! - Color Puzzle - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.microdose.balljam",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+vault+panel",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort vault panel",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:22:47.777199+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:25:06.491995+00:00",
+            "load_time_ms": 166,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 166,
+            "natural_height": 296,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/8RHBtQds79arqnZq-lp6g4FHKujy194rOfx-wKZaZZPVR7r9acD5FXTlNZtDIZ8M5A=w526-h296-rw"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "展示了关卡中的锁链和钥匙机关，属于description中描述的改变颜色流转或操作区域的机关面板。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:51.405994+00:00"
+          }
+        },
+        {
+          "url": "https://play-lh.googleusercontent.com/B7L6v6pY4gx0qZHeXf7rqsZF82Ulnbh72iXxxBtROFbG8uaB-X_hcTd8s8MIBdPGtw=w526-h296-rw",
+          "caption": "Marble Sort! - Color Puzzle - Apps on ...",
+          "source_url": "https://play.google.com/store/apps/details?id=com.microdose.balljam",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+vault+panel",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort vault panel",
+          "width": 526,
+          "height": 296,
+          "aspect_ratio": 1.777,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:22:47.777199+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:25:06.679649+00:00",
+            "load_time_ms": 168,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 166,
+            "natural_height": 296,
+            "content_type": "image/webp",
+            "current_src": "https://play-lh.googleusercontent.com/B7L6v6pY4gx0qZHeXf7rqsZF82Ulnbh72iXxxBtROFbG8uaB-X_hcTd8s8MIBdPGtw=w526-h296-rw"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "展示了带有方向箭头及问号的特殊面板，属于描述中的新加入面板或机关类型。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:51.405994+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "leaderboard_event",
+      "display_name": "Sugar Rush / 排行活动",
+      "description": "目前公开可直接确认的活动名之一，更偏短周期 leaderboard event，可能结合 token、奖励条或阶段排名。",
+      "examples": [
+        "Sugar Rush"
+      ],
+      "market_research_notes": "从公开材料看，这更像少量穿插的 LiveOps 包装，而不是完整活动体系。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/marble-league-2026-mvm-coach-and-lead-cube-standings-after-v0-8wzaf6hbf60h1.png?width=640&crop=smart&auto=webp&s=c549e07879429850333a94e924c2c5f79bdcb3e3",
+          "caption": "Marble League 2026 MVM, Coach and Lead ...",
+          "source_url": "https://www.reddit.com/r/JellesMarbleRuns/comments/1t8n1he/marble_league_2026_mvm_coach_and_lead_cube/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+leaderboard+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort leaderboard event",
+          "width": 207,
+          "height": 243,
+          "aspect_ratio": 0.8519,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T08:23:22.947761+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:25:06.783512+00:00",
+            "load_time_ms": 94,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 749,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/marble-league-2026-mvm-coach-and-lead-cube-standings-after-v0-8wzaf6hbf60h1.png?width=640&crop=smart&auto=webp&s=c549e07879429850333a94e924c2c5f79bdcb3e3"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.95,
+            "reason": "图片属于Jelle's Marble Runs自制赛事统计图，与移动游戏Marble Sort!无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:55.177400+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/marble-league-2026-mvm-coach-and-lead-cube-standings-after-v0-locb6yuaf60h1.png?width=2410&format=png&auto=webp&s=b01e0bde932e08e8d4ad8feb5d4702676a17d27d",
+          "caption": "Marble League 2026 MVM, Coach and Lead ...",
+          "source_url": "https://www.reddit.com/r/JellesMarbleRuns/comments/1t8n1he/marble_league_2026_mvm_coach_and_lead_cube/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+leaderboard+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort leaderboard event",
+          "width": 345,
+          "height": 146,
+          "aspect_ratio": 2.363,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:23:22.947761+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:25:07.013660+00:00",
+            "load_time_ms": 224,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2410,
+            "natural_height": 1020,
+            "content_type": "image/png",
+            "current_src": "https://i.redd.it/marble-league-2026-mvm-coach-and-lead-cube-standings-after-v0-locb6yuaf60h1.png?width=2410&format=png&auto=webp&s=b01e0bde932e08e8d4ad8feb5d4702676a17d27d"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.95,
+            "reason": "内容为Marble League粉丝自制的MVM积分榜，并非Marble Sort!游戏内界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:55.177400+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/what-is-the-best-marble-in-terms-of-points-per-event-v0-b5t21xtb5njg1.png?width=1202&format=png&auto=webp&s=d152a71aa7a65ed0bf45474693948f8da946765e",
+          "caption": "What is the best marble in terms of ...",
+          "source_url": "https://www.reddit.com/r/JellesMarbleRuns/comments/1r5cgxv/what_is_the_best_marble_in_terms_of_points_per/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+leaderboard+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort leaderboard event",
+          "width": 291,
+          "height": 173,
+          "aspect_ratio": 1.6821,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:23:22.947761+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:25:07.103908+00:00",
+            "load_time_ms": 84,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1202,
+            "natural_height": 718,
+            "content_type": "image/png",
+            "current_src": "https://i.redd.it/what-is-the-best-marble-in-terms-of-points-per-event-v0-b5t21xtb5njg1.png?width=1202&format=png&auto=webp&s=d152a71aa7a65ed0bf45474693948f8da946765e"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.98,
+            "reason": "这是一张Excel表格统计图，用于分析Jelle's赛事中弹珠的表现，与指定的手游活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:55.177400+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/marble-league-2025-standings-after-every-event-and-points-v0-rq2yye8fgulf1.png?width=1080&crop=smart&auto=webp&s=9c461c727190c24257c6b463ee7d914e8b740a02",
+          "caption": "Marble League 2025: Standings after ...",
+          "source_url": "https://www.reddit.com/r/JellesMarbleRuns/comments/1n2rm3x/marble_league_2025_standings_after_every_event/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+leaderboard+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort leaderboard event",
+          "width": 288,
+          "height": 175,
+          "aspect_ratio": 1.6457,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:23:22.947761+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:25:07.208119+00:00",
+            "load_time_ms": 94,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 657,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/marble-league-2025-standings-after-every-event-and-points-v0-rq2yye8fgulf1.png?width=1080&crop=smart&auto=webp&s=9c461c727190c24257c6b463ee7d914e8b740a02"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.95,
+            "reason": "图片展示的是Marble League 2025的赛事排名变化图表，属于体育竞赛/社区内容，非手游截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:55.177400+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/updated-all-time-marble-league-standings-as-of-event-16-of-v0-whfhcmtj2z9e1.png?width=640&crop=smart&auto=webp&s=a4c6dc9bafa977536b29ee3b2714ee41dd469730",
+          "caption": "Marble League standings ...",
+          "source_url": "https://www.reddit.com/r/JellesMarbleRuns/comments/1hplf8t/updated_alltime_marble_league_standings_as_of/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=marble+sort+leaderboard+event",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "marble sort leaderboard event",
+          "width": 307,
+          "height": 164,
+          "aspect_ratio": 1.872,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T08:23:22.947761+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:25:07.272931+00:00",
+            "load_time_ms": 57,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 342,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/updated-all-time-marble-league-standings-as-of-event-16-of-v0-whfhcmtj2z9e1.png?width=640&crop=smart&auto=webp&s=a4c6dc9bafa977536b29ee3b2714ee41dd469730"
+          },
+          "llm_image_filter": {
+            "category": 1,
+            "category_label": "和本游戏完全无关",
+            "confidence": 0.95,
+            "reason": "这是Marble League历年历史战绩统计表，与Marble Sort!游戏的Sugar Rush排行榜活动无关。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:33:55.177400+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "Marble Sort! 缺少稳定 wiki 和官方活动中心，公开证据主要来自 App Store 与 AppsHunter。整体看它更像持续新增关卡机关的内容型产品，而不是活动矩阵成熟的 LiveOps 产品；Sugar Rush 是少数明确可见的活动包装，其余更多是 Trio Box、Super Hidden Box、Ice Tray 这类机制更新。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T08:23:22.949264+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:33:55.177400+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

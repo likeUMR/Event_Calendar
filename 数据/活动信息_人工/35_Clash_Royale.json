@@ -1,0 +1,2126 @@
+{
+  "rank": 35,
+  "name": "Clash Royale",
+  "manual_research_status": "done_first_pass",
+  "research_method": "人工查看 Clash Royale Wiki 的 Events、Special Event Challenges、Tournament、Pass Royale 页面，并补充 RoyaleAPI / 官方 Live Events / CRL rules。按游戏内稳定活动系统归类。",
+  "source_pages": [
+    {
+      "title": "Clash Royale Wiki - Events",
+      "url": "https://clashroyale.fandom.com/wiki/Events",
+      "notes": "解释普通活动类型，例如 Crown Rush、Gold Rush、Gem Rush 等；Crown Rush 在赛季末定期开启，加快 Pass Royale 和 Bonus Bank。"
+    },
+    {
+      "title": "Clash Royale Wiki - Special Event Challenges",
+      "url": "https://clashroyale.fandom.com/wiki/Tournament/Special_Event_Challenges",
+      "notes": "解释 Challenge events：Event/Tournament tab 中限时出现，通常 3 败淘汰，可用 Gems 或 Pass Royale 继续，包含 Draft、特殊模式、新卡/活动挑战。"
+    },
+    {
+      "title": "Clash Royale Wiki - Tournament",
+      "url": "https://clashroyale.fandom.com/wiki/Tournament",
+      "notes": "解释 tournaments：短期竞争，奖励 Gold 和 Cards；可设置 normal 或 Special Event Challenge rule；2019 后 Events Tab 调整。"
+    },
+    {
+      "title": "Clash Royale Wiki - Pass Royale",
+      "url": "https://clashroyale.fandom.com/wiki/Pass_Royale",
+      "notes": "解释 Pass Royale 奖励与权益：special challenge unlimited retries、golden name、Battle Pass rewards、tower skin、emote、battle banner、clan gift 等。"
+    },
+    {
+      "title": "RoyaleAPI - Season Shop and Events 2.0",
+      "url": "https://royaleapi.com/blog/2023-q1-update-preview",
+      "notes": "解释 2023 Q1 Events 2.0：Season Shop、Season Tokens、revamped challenge tab、Pass Royale 2.0 和 Event Battle Rewards。"
+    },
+    {
+      "title": "Clash Royale Live Events",
+      "url": "https://event.supercell.com/clashroyale/en",
+      "notes": "官方 CRL live events 页面，观看/互动可获得游戏内奖励。"
+    },
+    {
+      "title": "2025 Clash Royale League Rules",
+      "url": "https://crl-rules.scescdn.com/2025-en",
+      "notes": "官方电竞规则，说明 CRL 赛程、资格、Path of Legends Race 等。"
+    },
+    {
+      "title": "Clash Royale Wiki - Clan Wars",
+      "url": "https://clashroyale.fandom.com/wiki/Clan_Wars",
+      "notes": "Clan Wars / Clan Wars II 是长期 clan 竞争系统，包含 River Race、War Decks、Clan Boat 等机制。"
+    }
+  ],
+  "activity_types": [
+    {
+      "type": "monthly_season",
+      "display_name": "Monthly Season / 赛季",
+      "description": "Clash Royale 以月度 season 为主节奏，包含主题竞技场、Pass Royale、挑战、活动模式、卡牌/进化/英雄更新、seasonal cosmetics 和赛季末重置。",
+      "examples": [
+        "Clashmas seasons",
+        "Lumber Love",
+        "Siege & Swish",
+        "seasonal arenas"
+      ],
+      "market_research_notes": "赛季是活动和商业化容器，Pass、挑战、event tab、season shop、ranked/path 都围绕它同步或半同步变化。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/what-happened-to-the-monthly-badges-and-the-seasonal-arenas-v0-ayk8h0aidlgg1.png?auto=webp&s=aa6513af26b8756b4ab854efdc42fe1c7c46d3ca",
+          "caption": "monthly badges and the seasonal arenas ...",
+          "source_url": "https://www.reddit.com/r/ClashRoyale/comments/1qrp91v/what_happened_to_the_monthly_badges_and_the/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+monthly+season",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale monthly season",
+          "width": 150,
+          "height": 335,
+          "aspect_ratio": 0.4478,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:10:51.558139+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:04.175048+00:00",
+            "load_time_ms": 157,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 2404,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/what-happened-to-the-monthly-badges-and-the-seasonal-arenas-v0-ayk8h0aidlgg1.png?auto=webp&s=aa6513af26b8756b4ab854efdc42fe1c7c46d3ca"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了月度赛季相关的勋章收集系统界面，属于实际玩法功能截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:53.417250+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/v71d3vigrkyc1.jpeg",
+          "caption": "2025 Q2 Update - July 2025 (Season 73 ...",
+          "source_url": "https://www.reddit.com/r/ClashRoyale/comments/1ckn8dw/monthly_reminder_to_spend_your_season_tokens/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+monthly+season",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale monthly season",
+          "width": 201,
+          "height": 251,
+          "aspect_ratio": 0.8008,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:10:51.558139+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:04.627731+00:00",
+            "load_time_ms": 445,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1179,
+            "natural_height": 1899,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/v71d3vigrkyc1.jpeg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了赛季商店（Season Shop）的实际兑换界面，包含赛季代币和可购买物品。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:53.417250+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/2qfhgxv3b64b1.png",
+          "caption": "The #CRL26 April Group Stage has just ...",
+          "source_url": "https://www.reddit.com/r/ClashRoyale/comments/1419hmy/clash_royale_june_2023_season_checklist/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+monthly+season",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale monthly season",
+          "width": 201,
+          "height": 251,
+          "aspect_ratio": 0.8008,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:10:51.558139+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:09.460350+00:00",
+            "load_time_ms": 4820,
+            "long_load": true,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 3840,
+            "natural_height": 3840,
+            "content_type": "image/png",
+            "current_src": "https://i.redd.it/2qfhgxv3b64b1.png"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "这是由第三方总结的2023年6月赛季内容海报，包含赛季奖励和主题信息，无实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:53.417250+00:00"
+          }
+        },
+        {
+          "url": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/04/what-happened-to-the-season-shop-in-clash-royale.jpg?q=49&fit=contain&w=2200&h=1100&dpr=2",
+          "caption": "Chest Event is here! 🎉 Clash Royale ...",
+          "source_url": "https://gamerant.com/clash-royale-what-happened-season-shop/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+monthly+season",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale monthly season",
+          "width": 2200,
+          "height": 1100,
+          "aspect_ratio": 2.0,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:10:51.558139+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:09.819232+00:00",
+            "load_time_ms": 354,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2200,
+            "natural_height": 1100,
+            "content_type": "image/avif",
+            "current_src": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/04/what-happened-to-the-season-shop-in-clash-royale.jpg?q=49&fit=contain&w=2200&h=1100&dpr=2"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.88,
+            "reason": "关于赛季奖励位置变动的官方提示图，属于通告/介绍性质，非实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:53.417250+00:00"
+          }
+        },
+        {
+          "url": "https://www.gamigion.com/wp-content/uploads/2025/08/Clash-Royale-Roars-Back-105M-in-30-Days-Supercells-Top-Game-After-8-Years.jpg",
+          "caption": "Clash Royale made $105M in 30 Days, Top ...",
+          "source_url": "https://www.gamigion.com/clash-royale-made-105m-in-30-days-top-game-after-8-years/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+monthly+season",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale monthly season",
+          "width": 356,
+          "height": 142,
+          "aspect_ratio": 2.507,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:10:51.558139+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:12.005033+00:00",
+            "load_time_ms": 2180,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 800,
+            "natural_height": 319,
+            "content_type": "image/jpeg",
+            "current_src": "https://www.gamigion.com/wp-content/uploads/2025/08/Clash-Royale-Roars-Back-105M-in-30-Days-Supercells-Top-Game-After-8-Years.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.95,
+            "reason": "这是游戏市场收入表现的折线图，虽然提及了更新时间轴，但属于行业分析图表而非游戏活动截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:53.417250+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "pass_royale",
+      "display_name": "Pass Royale / Battle Pass",
+      "description": "赛季通行证。免费玩家和 Diamond/付费玩家通过 crowns / battle pass tiers 获得 Gold Crates、Lucky Chests、Magic Items、Gems、Banners、Wild Shards 等；付费玩家还获得 Tower Skin、Emote、更多 cards/shards、special challenge retries 和 clan gift。",
+      "examples": [
+        "Pass Royale",
+        "Diamond Pass",
+        "Battle Pass Tiers",
+        "Bonus Bank",
+        "Clan Gift"
+      ],
+      "market_research_notes": "核心付费留存系统，和 Crown Rush、special challenges、seasonal cosmetics 强绑定。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/pass-royal-sucks-now-v0-x07k6kdsa1he1.jpeg?auto=webp&s=0faf22425a1da4f92d962fbf1ab6e1fc9fc51913",
+          "caption": "Pass Royal sucks now : r/ClashRoyale",
+          "source_url": "https://www.reddit.com/r/ClashRoyale/comments/1ih7do7/pass_royal_sucks_now/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+pass+royale",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale pass royale",
+          "width": 154,
+          "height": 326,
+          "aspect_ratio": 0.4724,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:11:22.298298+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:12.163047+00:00",
+            "load_time_ms": 151,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1440,
+            "natural_height": 3040,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/pass-royal-sucks-now-v0-x07k6kdsa1he1.jpeg?auto=webp&s=0faf22425a1da4f92d962fbf1ab6e1fc9fc51913"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了 Pass Royale 的 Diamond Pass 购买详情页及奖励列表，属于活动内的实际交互/展示界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:57.065952+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/MF-rTWZUL50/maxresdefault.jpg",
+          "caption": "Clash Royale Battle Pass Season 1 ...",
+          "source_url": "https://www.youtube.com/watch?v=MF-rTWZUL50",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+pass+royale",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale pass royale",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:11:22.298298+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:12.648583+00:00",
+            "load_time_ms": 478,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/MF-rTWZUL50/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "虽然是 YouTube 封面，但右侧清晰展示了 Pass Royale 的赛季通行证等级奖励轨道（tiers），属于实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:57.065952+00:00"
+          }
+        },
+        {
+          "url": "https://kboosting.com/img/29307/c/pass-royale-500x500.png",
+          "caption": "Pass Royale Boost – Clash Royale ...",
+          "source_url": "https://kboosting.com/clash-royale/pass-royale",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+pass+royale",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale pass royale",
+          "width": 500,
+          "height": 500,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:11:22.298298+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:14.586347+00:00",
+            "load_time_ms": 1931,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 500,
+            "natural_height": 500,
+            "content_type": "image/png",
+            "current_src": "https://kboosting.com/img/29307/c/pass-royale-500x500.png"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "仅展示了 Pass Royale 的活动图标/素材，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:57.065952+00:00"
+          }
+        },
+        {
+          "url": "https://store.supercell.com/images/share-image-clashroyale.jpg",
+          "caption": "Pass Royale - Clash Royale - Supercell ...",
+          "source_url": "https://store.supercell.com/clashroyale/product/pass-royale",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+pass+royale",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale pass royale",
+          "width": 239,
+          "height": 211,
+          "aspect_ratio": 1.1327,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:11:22.298298+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:15.967606+00:00",
+            "load_time_ms": 1366,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 630,
+            "content_type": "image/jpeg",
+            "current_src": "https://store.supercell.com/images/share-image-clashroyale.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "展示的是 Clash Royale 商店中的通用礼包或箱子素材，虽与活动相关但更偏向通用品牌宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:23:57.065952+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "special_event_challenges",
+      "display_name": "Special Event Challenges / 限时挑战",
+      "description": "Event/Tournament tab 中出现的限时挑战，常见规则为 3 败淘汰，达到指定胜场领取阶段奖励；部分可用 Gems 续命，Pass Royale 玩家可免费重试。",
+      "examples": [
+        "Draft Challenge",
+        "Mirror Challenge",
+        "New Card Challenge",
+        "Royal Ghost Mirror Challenge",
+        "2v2 Challenges",
+        "special game mode challenges"
+      ],
+      "market_research_notes": "Clash Royale 最传统的活动形式，用规则变体和阶段奖励制造短期玩法变化。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/Eca03QykWS8/maxresdefault.jpg",
+          "caption": "Clash Royale - SPECIAL EVENTS! New ...",
+          "source_url": "https://www.youtube.com/watch?v=Eca03QykWS8",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+special+event+challenges",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale special event challenges",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:11:55.921245+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:16.368537+00:00",
+            "load_time_ms": 396,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/Eca03QykWS8/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "包含明确的活动标题文字‘Special Event Challenges’，且使用了皇室战争的美术资产，属于该活动的宣传封面图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:00.649272+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/3shf141f5zlf1.jpeg",
+          "caption": "Season 75 events and challenges : r ...",
+          "source_url": "https://www.reddit.com/r/ClashRoyale/comments/1n3a13v/season_75_events_and_challenges/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+special+event+challenges",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale special event challenges",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:11:55.921245+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:16.483205+00:00",
+            "load_time_ms": 101,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1385,
+            "natural_height": 779,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/3shf141f5zlf1.jpeg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "这是九月活动挑战的官方日程规划图（Roadmap），展示了多个挑战活动的时间和奖励，属于宣传/介绍类图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:00.649272+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/kvWQLmu212k/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAM6nN1nl59WXJEb5MZn-sskL2qIA",
+          "caption": "Clash Royale - EPIC CHALLENGE! New ...",
+          "source_url": "https://www.youtube.com/watch?v=kvWQLmu212k",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+special+event+challenges",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale special event challenges",
+          "width": 299,
+          "height": 168,
+          "aspect_ratio": 1.7798,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:11:55.921245+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:16.881857+00:00",
+            "load_time_ms": 391,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 686,
+            "natural_height": 386,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/kvWQLmu212k/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAM6nN1nl59WXJEb5MZn-sskL2qIA"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.88,
+            "reason": "展示了名为‘Epic Challenge’的实际活动奖励领取界面，符合活动描述中‘达到胜场领取阶段奖励’的玩法特征。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:00.649272+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "event_tab_modes",
+      "display_name": "Event Tab Modes / 休闲活动模式",
+      "description": "Events Tab 承载非 Trophy Road / Path of Legends 的休闲玩法，包括特殊规则、2v2、限时模式和活动战斗。2023 Events 2.0 后活动可产出 Season Tokens。",
+      "examples": [
+        "2v2",
+        "Draft",
+        "Triple Draft",
+        "Mirror",
+        "Capture-style modes",
+        "Event Battle Rewards"
+      ],
+      "market_research_notes": "把核心竞技和休闲试验玩法分离，降低尝试新规则的损失感。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/update-new-event-tab-interface-new-game-mode-and-challenges-v0-7ccviple90qz.jpg?width=640&crop=smart&auto=webp&s=21f2c98e3ae789302de2cdba519bfc87eed9a5a0",
+          "caption": "Event tab interface + New Game mode ...",
+          "source_url": "https://www.reddit.com/r/ClashRoyale/comments/74fm11/update_new_event_tab_interface_new_game_mode_and/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+event+tab+modes",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale event tab modes",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:12:30.152926+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:16.975397+00:00",
+            "load_time_ms": 86,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 360,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/update-new-event-tab-interface-new-game-mode-and-challenges-v0-7ccviple90qz.jpg?width=640&crop=smart&auto=webp&s=21f2c98e3ae789302de2cdba519bfc87eed9a5a0"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了旧版本 Clash Royale 的 Special Events 标签栏及挑战任务列表界面，属于活动实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:04.766868+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/8vp26nu3kaof1.jpeg",
+          "caption": "events tab with? : r/ClashRoyale",
+          "source_url": "https://www.reddit.com/r/ClashRoyale/comments/1nd7w7e/what_do_you_think_theyre_going_to_replace_the/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+event+tab+modes",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale event tab modes",
+          "width": 157,
+          "height": 321,
+          "aspect_ratio": 0.4891,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:12:30.152926+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:17.365733+00:00",
+            "load_time_ms": 385,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1170,
+            "natural_height": 2391,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/8vp26nu3kaof1.jpeg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "展示的是部落战（Clan Wars）地图界面，文字提示活动模式已移至战斗屏幕，虽然提及Event，但界面主体是部落战。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:04.766868+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/we-should-be-able-to-double-tap-the-events-tab-to-return-to-v0-vv9mtiyvta5b1.jpg?width=640&crop=smart&auto=webp&s=59683fe111b2aae33b8fd39bc01a2af3e721d04a",
+          "caption": "double tap the event's tab ...",
+          "source_url": "https://www.reddit.com/r/ClashRoyale/comments/146i2zh/we_should_be_able_to_double_tap_the_events_tab_to/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+event+tab+modes",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale event tab modes",
+          "width": 150,
+          "height": 335,
+          "aspect_ratio": 0.4478,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:12:30.152926+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:17.461043+00:00",
+            "load_time_ms": 89,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 1422,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/we-should-be-able-to-double-tap-the-events-tab-to-return-to-v0-vv9mtiyvta5b1.jpg?width=640&crop=smart&auto=webp&s=59683fe111b2aae33b8fd39bc01a2af3e721d04a"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了活动页面的具体挑战关卡（Raging Ram Rider Challenge）进度和进入界面，属于玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:04.766868+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/congrats-supercell-you-made-the-event-tab-useless-v0-qjr9sqmi8jte1.jpeg?width=640&crop=smart&auto=webp&s=2f1f598f80e14c7987a7553e5d68bade18af36e1",
+          "caption": "Congrats supercell you made the event ...",
+          "source_url": "https://www.reddit.com/r/ClashRoyale/comments/1ju4gjo/congrats_supercell_you_made_the_event_tab_useless/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+event+tab+modes",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale event tab modes",
+          "width": 152,
+          "height": 331,
+          "aspect_ratio": 0.4592,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:12:30.152926+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:17.571590+00:00",
+            "load_time_ms": 105,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 1386,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/congrats-supercell-you-made-the-event-tab-useless-v0-qjr9sqmi8jte1.jpeg?width=640&crop=smart&auto=webp&s=2f1f598f80e14c7987a7553e5d68bade18af36e1"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了现代版本的 Events Tab 界面，包含具体的活动模式（Executioner Evolution Draft）选择和 1v1/2v2 入口。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:04.766868+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/h7pgg4m5qhra1.jpg",
+          "caption": "why did they remove the party mode? : r ...",
+          "source_url": "https://www.reddit.com/r/ClashRoyale/comments/129hc4n/why_did_they_remove_the_party_mode/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+event+tab+modes",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale event tab modes",
+          "width": 150,
+          "height": 335,
+          "aspect_ratio": 0.4478,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:12:30.152926+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:17.735704+00:00",
+            "load_time_ms": 159,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 2400,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/h7pgg4m5qhra1.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "展示的是游戏主界面（Battle Tab）的侧边菜单栏，虽然下方可见 Events 标签入口，但主体是通用系统设置。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:04.766868+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "season_shop_tokens",
+      "display_name": "Season Shop / Season Tokens",
+      "description": "Events 2.0 中引入的赛季商店与代币系统。玩家从 events、Pass Royale、Shop 等获取 Season Tokens，在 Season Shop 兑换卡牌、shards、gold、magic items、emotes 等。",
+      "examples": [
+        "Season Shop",
+        "Season Tokens",
+        "Event Battle Rewards"
+      ],
+      "market_research_notes": "给活动玩法统一货币出口，让玩家可按需求兑换进度资源，而非只拿固定挑战奖励。",
+      "images": [
+        {
+          "url": "https://cdns3.royaleapi.com/cdn-cgi/image/w=3840,h=3840/static/img/blog/season-shop-guide/v1/season-shop-03-001.jpg",
+          "caption": "Season Shop Buying Guide - Clash Royale ...",
+          "source_url": "https://royaleapi.com/blog/season-shop-guide?lang=de",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+season+shop+tokens",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale season shop tokens",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:13:01.739545+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:19.205315+00:00",
+            "load_time_ms": 1463,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 3840,
+            "natural_height": 3840,
+            "content_type": "image/jpeg",
+            "current_src": "https://cdns3.royaleapi.com/cdn-cgi/image/w=3840,h=3840/static/img/blog/season-shop-guide/v1/season-shop-03-001.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "第三方网站制作的赛季商店兑换攻略图表，属于宣传和介绍性质，非游戏内实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:12.850639+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/new-player-here-what-are-some-worthy-items-in-the-season-v0-k483p3h0a9zc1.jpeg?width=1080&crop=smart&auto=webp&s=20f3e580a6abe25c9ffd817fc9e9e9b388ddea58",
+          "caption": "worthy items in the season shop ...",
+          "source_url": "https://www.reddit.com/r/ClashRoyale/comments/1cndeb6/new_player_here_what_are_some_worthy_items_in_the/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+season+shop+tokens",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale season shop tokens",
+          "width": 178,
+          "height": 283,
+          "aspect_ratio": 0.629,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:13:01.739545+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:19.348593+00:00",
+            "load_time_ms": 139,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 1716,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/new-player-here-what-are-some-worthy-items-in-the-season-v0-k483p3h0a9zc1.jpeg?width=1080&crop=smart&auto=webp&s=20f3e580a6abe25c9ffd817fc9e9e9b388ddea58"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了 Clash Royale 游戏内 Season Shop 的实际截图，包含代币余额、商品列表及价格，属于活动玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:12.850639+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/yTMlhSqem3c/maxresdefault.jpg",
+          "caption": "CLASH ROYALE UPDATE | SEASON SHOP ...",
+          "source_url": "https://www.youtube.com/watch?v=yTMlhSqem3c",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+season+shop+tokens",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale season shop tokens",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:13:01.739545+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:19.772991+00:00",
+            "load_time_ms": 418,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/yTMlhSqem3c/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "拼接图中清晰展示了赛季商店界面及获取赛季代币的挑战活动奖励界面，属于实际玩法截图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:12.850639+00:00"
+          }
+        },
+        {
+          "url": "https://cdns3.royaleapi.com/cdn-cgi/image/w=3840,h=3840/static/img/blog/season-shop-guide/v1/season-shop-03-002.jpg",
+          "caption": "Season Shop Buying Guide - Clash Royale ...",
+          "source_url": "https://royaleapi.com/blog/season-shop-guide?lang=de",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+season+shop+tokens",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale season shop tokens",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:13:01.739545+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:19.857763+00:00",
+            "load_time_ms": 79,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 3840,
+            "natural_height": 3840,
+            "content_type": "image/jpeg",
+            "current_src": "https://cdns3.royaleapi.com/cdn-cgi/image/w=3840,h=3840/static/img/blog/season-shop-guide/v1/season-shop-03-002.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "第三方网站针对赛季商店奖励进度分析的统计图表，属于攻略宣传图，非游戏内实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:12.850639+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "rush_events",
+      "display_name": "Rush Events / Crown Rush / Gold Rush / Gem Rush",
+      "description": "短期增益事件。Crown Rush 使 ladder 中获得的 crowns 翻倍，加快 Pass Royale tier 和 Bonus Bank；Gold Rush / Gem Rush 则围绕摧毁 Crown Towers 发放额外货币。",
+      "examples": [
+        "Crown Rush",
+        "Gold Rush",
+        "Gem Rush"
+      ],
+      "market_research_notes": "低开发成本高刺激的冲刺活动，常用于赛季末提升 pass 完成和回流。",
+      "images": [
+        {
+          "url": "https://i.ytimg.com/vi/c3S57Q9-HGM/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAXYpe5VbYUPeYULTXFv3SsrHV5Kw&usqp=CCk",
+          "caption": "CROWN RUSH IS ON! #clashroyale - YouTube",
+          "source_url": "https://www.youtube.com/shorts/c3S57Q9-HGM",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+rush+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale rush events",
+          "width": 168,
+          "height": 300,
+          "aspect_ratio": 0.56,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:13:42.241378+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:20.364850+00:00",
+            "load_time_ms": 502,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 405,
+            "natural_height": 720,
+            "content_type": "image/webp",
+            "current_src": "https://i.ytimg.com/vi/c3S57Q9-HGM/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAXYpe5VbYUPeYULTXFv3SsrHV5Kw&usqp=CCk"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "这是Crown Rush活动的宣传/预告图，背景为通用底纹，不包含实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:20.370165+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/wheres-my-crown-rush-event-v0-5hdc349hjyxg1.png?width=851&format=png&auto=webp&s=0860d6446d5efe5b4003cbb1eedf9c3d50e94bfc",
+          "caption": "Where's my crown rush event? : r ...",
+          "source_url": "https://www.reddit.com/r/ClashRoyale/comments/1sy6d6z/wheres_my_crown_rush_event/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+rush+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale rush events",
+          "width": 173,
+          "height": 292,
+          "aspect_ratio": 0.5925,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:13:42.241378+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:20.473835+00:00",
+            "load_time_ms": 104,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 851,
+            "natural_height": 1437,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/wheres-my-crown-rush-event-v0-5hdc349hjyxg1.png?width=851&format=png&auto=webp&s=0860d6446d5efe5b4003cbb1eedf9c3d50e94bfc"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "这是游戏的主界面截图，虽然玩家在询问活动，但界面上没有显示任何Rush Event相关的活动元素或入口。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:20.370165+00:00"
+          }
+        },
+        {
+          "url": "https://i0.wp.com/clashfordummies.com/wp-content/uploads/2017/12/screen-shot-2017-12-24-at-11-28-01-am.png?fit=1200%2C722&ssl=1",
+          "caption": "Gem Rush Event (12/25-28) in Clash ...",
+          "source_url": "https://clashfordummies.com/2017/12/24/gem-rush-event-12-25-28-in-clash-royale/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+rush+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale rush events",
+          "width": 276,
+          "height": 183,
+          "aspect_ratio": 1.5082,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:13:42.241378+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:22.126634+00:00",
+            "load_time_ms": 1648,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1199,
+            "natural_height": 722,
+            "content_type": "image/webp",
+            "current_src": "https://i0.wp.com/clashfordummies.com/wp-content/uploads/2017/12/screen-shot-2017-12-24-at-11-28-01-am.png?fit=1200%2C722&ssl=1"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "展示了Gem Rush活动期间战斗内的实际表现，显示了推塔后掉落宝石和+10/+15的活动数值反馈。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:20.370165+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/the-first-week-of-season-62-aug-5-12-is-gold-festival-week-v0-soz56wdjxngd1.jpeg?auto=webp&s=096a595e2a183ee3e8c6c7944759088dfd1950cb",
+          "caption": "Clash Royale - Slash Royale, Gold Rush ...",
+          "source_url": "https://www.reddit.com/r/ClashRoyale/comments/1ejxexs/the_first_week_of_season_62_aug_512_is_gold/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+rush+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale rush events",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:13:42.241378+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:22.418109+00:00",
+            "load_time_ms": 286,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 3840,
+            "natural_height": 3840,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/the-first-week-of-season-62-aug-5-12-is-gold-festival-week-v0-soz56wdjxngd1.jpeg?auto=webp&s=096a595e2a183ee3e8c6c7944759088dfd1950cb"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "这是由三方网站制作的活动奖励汇总信息图，属于活动介绍性质的总结图，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:20.370165+00:00"
+          }
+        },
+        {
+          "url": "https://i0.wp.com/www.gottabemobile.com/wp-content/uploads/2017/11/Clash-Gold-Rush.png?resize=720,336&ssl=1",
+          "caption": "Clash Royale Gold Rush Mode: What You ...",
+          "source_url": "https://www.gottabemobile.com/clash-royale-gold-rush-mode-what-to-know/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+rush+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale rush events",
+          "width": 329,
+          "height": 153,
+          "aspect_ratio": 2.1503,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:13:42.241378+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:23.438603+00:00",
+            "load_time_ms": 1016,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 720,
+            "natural_height": 336,
+            "content_type": "image/webp",
+            "current_src": "https://i0.wp.com/www.gottabemobile.com/wp-content/uploads/2017/11/Clash-Gold-Rush.png?resize=720,336&ssl=1"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了Gold Rush活动的实际玩法界面入口，包含了活动进度条（0/5000金币）和倒计时。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:20.370165+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "global_tournaments",
+      "display_name": "Global Tournaments / 全球锦标赛",
+      "description": "全服短期竞争活动，玩家累计胜场并按排名/胜场获得奖励。通常提供免费奖励和可用 Gems 解锁的额外奖励轨。",
+      "examples": [
+        "Global Tournament",
+        "Royal Tournament"
+      ],
+      "market_research_notes": "面向高竞技玩家的周期性活动，兼顾免费玩家资源获取和 Gems 消耗。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/where-did-global-tournaments-go-v0-7uhf4bz3z2ff1.jpeg?auto=webp&s=ee345f6c7cdd3286c70117d48d581c581d125311",
+          "caption": "Where did Global Tournaments go? : r ...",
+          "source_url": "https://www.reddit.com/r/ClashRoyale/comments/1m9a36t/where_did_global_tournaments_go/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+global+tournaments",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale global tournaments",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:14:18.518310+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:23.551437+00:00",
+            "load_time_ms": 108,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 1200,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/where-did-global-tournaments-go-v0-7uhf4bz3z2ff1.jpeg?auto=webp&s=ee345f6c7cdd3286c70117d48d581c581d125311"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "包含活动明确名称的官方宣传海报，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:25.078560+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/6wxcuyfqw1421.jpg",
+          "caption": "HAZARD beat the global tournament world ...",
+          "source_url": "https://www.reddit.com/r/ClashRoyale/comments/a5tpo8/hazard_beat_the_global_tournament_world_record/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+global+tournaments",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale global tournaments",
+          "width": 275,
+          "height": 183,
+          "aspect_ratio": 1.5027,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:14:18.518310+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:23.964877+00:00",
+            "load_time_ms": 406,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 4090,
+            "natural_height": 2732,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/6wxcuyfqw1421.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 1.0,
+            "reason": "展示了锦标赛排行榜、奖励轨（Free/Bonus）以及战斗按钮，属于实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:25.078560+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/i-reached-top-50-in-the-global-tournament-v0-53yygwtk7xcb1.jpg?width=1080&crop=smart&auto=webp&s=758891bfe14edb496c324d8198ea7d9a105a2899",
+          "caption": "Global Tournament ...",
+          "source_url": "https://www.reddit.com/r/ClashRoyale/comments/153uj5m/i_reached_top_50_in_the_global_tournament/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+global+tournaments",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale global tournaments",
+          "width": 153,
+          "height": 329,
+          "aspect_ratio": 0.465,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:14:18.518310+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:24.110628+00:00",
+            "load_time_ms": 141,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 2316,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/i-reached-top-50-in-the-global-tournament-v0-53yygwtk7xcb1.jpg?width=1080&crop=smart&auto=webp&s=758891bfe14edb496c324d8198ea7d9a105a2899"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 1.0,
+            "reason": "展示了Royal Tournament的排行榜和下方奖励进度条，属于实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:25.078560+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/mVKeFKOZ12M/maxresdefault.jpg",
+          "caption": "I Finished #1 in the Global Tournament ...",
+          "source_url": "https://www.youtube.com/watch?v=mVKeFKOZ12M",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+global+tournaments",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale global tournaments",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:14:18.518310+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:24.498982+00:00",
+            "load_time_ms": 381,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/mVKeFKOZ12M/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.9,
+            "reason": "图片仅展示了一个第一名的奖杯勋章装饰图，通常作为宣传或荣誉展示，缺乏活动上下文界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:25.078560+00:00"
+          }
+        },
+        {
+          "url": "https://cdns3.royaleapi.com/cdn-cgi/image/w=1280,h=1280,format=auto/static/img/blog/gtr/gtr-anno-300-2.jpg",
+          "caption": "Global Tournament Rating - Clash Royale ...",
+          "source_url": "https://royaleapi.com/blog/global-tournament-rating?lang=de",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+global+tournaments",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale global tournaments",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:14:18.518310+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:24.564582+00:00",
+            "load_time_ms": 59,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 1280,
+            "content_type": "image/avif",
+            "current_src": "https://cdns3.royaleapi.com/cdn-cgi/image/w=1280,h=1280,format=auto/static/img/blog/gtr/gtr-anno-300-2.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "这是第三方网站RoyaleAPI制作的关于全球锦标赛评分和勋章的介绍说明图，属于宣传介绍性质。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:25.078560+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "private_tournaments",
+      "display_name": "Private Tournaments / 自建锦标赛",
+      "description": "玩家可创建短期 tournament，设置战斗类型或特殊规则，参与者竞争 Gold/Cards 等。Private Tournaments 后来从 Tournament Tab 移到 Battle Tab，并不再为 Pass Royale 贡献 crowns。",
+      "examples": [
+        "Private Tournament",
+        "normal rules tournament",
+        "Special Event Challenge rules tournament"
+      ],
+      "market_research_notes": "偏社区/自组织玩法，不是主要 LiveOps 商业化活动，但对社群和内容创作者有价值。",
+      "images": [
+        {
+          "url": "https://i.redd.it/6skgazl5ukg31.jpg",
+          "caption": "Private tournaments rewards! : r ...",
+          "source_url": "https://www.reddit.com/r/ClashRoyale/comments/cqna6s/private_tournaments_rewards/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+private+tournaments",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale private tournaments",
+          "width": 185,
+          "height": 273,
+          "aspect_ratio": 0.6777,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:14:42.176087+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:24.665020+00:00",
+            "load_time_ms": 96,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1080,
+            "natural_height": 1595,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/6skgazl5ukg31.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了自建锦标赛（Create Private Tournament）的实际创建设置界面，包含奖励、玩法、等级限制等可操作项。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:28.733384+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/lBZtlmyKcXI/maxresdefault.jpg",
+          "caption": "Clash Royale: How To Run Your Own ...",
+          "source_url": "https://www.youtube.com/watch?v=lBZtlmyKcXI",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+private+tournaments",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale private tournaments",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:14:42.176087+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:25.050688+00:00",
+            "load_time_ms": 381,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/lBZtlmyKcXI/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "锦标赛概念宣传图，展示了对阵晋级图，并非实际游戏内可操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:28.733384+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/yYh9mIzI9AU/hqdefault.jpg",
+          "caption": "PRIVATE\" Tournaments ...",
+          "source_url": "https://www.youtube.com/watch?v=yYh9mIzI9AU",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+private+tournaments",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale private tournaments",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:14:42.176087+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:25.427464+00:00",
+            "load_time_ms": 371,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 480,
+            "natural_height": 360,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/yYh9mIzI9AU/hqdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "背景虽然有合成痕迹，但清晰展示了全球锦标赛/锦标赛排行榜（Tournament Leaderboard）的实际UI界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:28.733384+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/1ltcxgs6bi321.jpg",
+          "caption": "Private tournament matchmaking sucks ...",
+          "source_url": "https://www.reddit.com/r/ClashRoyale/comments/a4z6kt/private_tournament_matchmaking_sucks_it_shows_so/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+private+tournaments",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale private tournaments",
+          "width": 168,
+          "height": 300,
+          "aspect_ratio": 0.56,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:14:42.176087+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:25.556468+00:00",
+            "load_time_ms": 123,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 750,
+            "natural_height": 1334,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/1ltcxgs6bi321.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了自建锦标赛的实际匹配寻找对手界面（Searching for Opponent），包含倒计时和排行榜UI。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:28.733384+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/RofdfaZ6UJk/maxresdefault.jpg",
+          "caption": "Tournament In Clash Royale ...",
+          "source_url": "https://www.youtube.com/watch?v=RofdfaZ6UJk",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+private+tournaments",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale private tournaments",
+          "width": 259,
+          "height": 194,
+          "aspect_ratio": 1.3351,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:14:42.176087+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:25.951962+00:00",
+            "load_time_ms": 390,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/RofdfaZ6UJk/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.85,
+            "reason": "视频封面海报，虽然手机屏幕内展示了创建界面，但属于经过二次包装的宣传性质图片。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:28.733384+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "clan_wars",
+      "display_name": "Clan Wars / River Race",
+      "description": "Clan 长期竞争系统。成员使用 war decks 参与 River Race / Clan War battles，为 clan 争夺周排名和奖励，含 Clan Boat、repair、duel 等元素。",
+      "examples": [
+        "Clan Wars",
+        "Clan Wars II",
+        "River Race",
+        "Clan Boat"
+      ],
+      "market_research_notes": "Clash Royale 的联盟活动主线，提供团队竞争和周奖励循环。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/what-is-clan-wars-v0-5khpdwovvst01.jpg?width=1242&format=pjpg&auto=webp&s=c0865240f8743069e4c6eda05bcff4c290898f7b",
+          "caption": "What is Clan Wars? : r/ClashRoyale",
+          "source_url": "https://www.reddit.com/r/ClashRoyale/comments/8erizi/what_is_clan_wars/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+clan+wars",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale clan wars",
+          "width": 201,
+          "height": 251,
+          "aspect_ratio": 0.8008,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:15:15.251471+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:26.067028+00:00",
+            "load_time_ms": 110,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1242,
+            "natural_height": 1553,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/what-is-clan-wars-v0-5khpdwovvst01.jpg?width=1242&format=pjpg&auto=webp&s=c0865240f8743069e4c6eda05bcff4c290898f7b"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了 Clan Wars I 时期的活动地图玩法界面，包含关卡入口图标和剩余攻击次数。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:34.282589+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/what-is-clan-wars-v0-g2ryr6h4wst01.jpg?width=1242&format=pjpg&auto=webp&s=337b75cbbd6f9833cd180fafc84c85c3a9584570",
+          "caption": "What is Clan Wars? : r/ClashRoyale",
+          "source_url": "https://www.reddit.com/r/ClashRoyale/comments/8erizi/what_is_clan_wars/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+clan+wars",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale clan wars",
+          "width": 206,
+          "height": 245,
+          "aspect_ratio": 0.8408,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:15:15.251471+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:26.165300+00:00",
+            "load_time_ms": 93,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1242,
+            "natural_height": 1480,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/what-is-clan-wars-v0-g2ryr6h4wst01.jpg?width=1242&format=pjpg&auto=webp&s=337b75cbbd6f9833cd180fafc84c85c3a9584570"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了 Clan Wars I 时期的部落战终局结算或排名界面，属于实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:34.282589+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/sYFsrOISwrM/maxresdefault.jpg",
+          "caption": "Clash Royale Clan Wars Fully Explained ...",
+          "source_url": "https://www.youtube.com/watch?v=sYFsrOISwrM",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+clan+wars",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale clan wars",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:15:15.251471+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:26.668497+00:00",
+            "load_time_ms": 455,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/sYFsrOISwrM/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "虽然包含玩法截图，但作为 YouTube 封面图并带有大量装饰性文字和箭头，属于宣传/介绍类图片。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:34.282589+00:00"
+          }
+        },
+        {
+          "url": "https://images.148apps.com/2020/9/106858/268824/clash-royale-clan-wars-ii-1.png",
+          "caption": "Clash Royale - What You Need to Know ...",
+          "source_url": "https://www.148apps.com/clash-royale/clash-royale-what-you-need-to-know-about-clan-wars-ii/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+clan+wars",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale clan wars",
+          "width": 152,
+          "height": 330,
+          "aspect_ratio": 0.4606,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:15:15.251471+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:29.178997+00:00",
+            "load_time_ms": 2489,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 300,
+            "natural_height": 649,
+            "content_type": "image/png",
+            "current_src": "https://images.148apps.com/2020/9/106858/268824/clash-royale-clan-wars-ii-1.png"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了 Clan Wars II 的 River Race 实际玩法界面，包含进度条、部落船只和操作 UI。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:34.282589+00:00"
+          }
+        },
+        {
+          "url": "https://support.supercell.com/images/CR-clanwars-hero.jpg?v=1601396394",
+          "caption": "About Clan Wars | Supercell Support Portal",
+          "source_url": "https://support.supercell.com/clash-royale/en/articles/about-clan-wars-1.html",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+clan+wars",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale clan wars",
+          "width": 278,
+          "height": 181,
+          "aspect_ratio": 1.5359,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:15:15.251471+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:30.599448+00:00",
+            "load_time_ms": 1414,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1624,
+            "natural_height": 1060,
+            "content_type": "image/jpeg",
+            "current_src": "https://support.supercell.com/images/CR-clanwars-hero.jpg?v=1601396394"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.99,
+            "reason": "展示部落战 River Race 主题的官方 KV 宣传海报，无实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:34.282589+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "path_of_legends_ranked",
+      "display_name": "Path of Legends / Ranked Ladder",
+      "description": "赛季化 ranked progression。玩家在 Path of Legends 中推进 league、获得 ranked rewards，并参与高端竞技和 CRL 相关资格活动。",
+      "examples": [
+        "Path of Legends",
+        "Ranked",
+        "Path of Legends Race"
+      ],
+      "market_research_notes": "长期竞技目标，也是职业赛事资格和高端玩家留存的重要入口。",
+      "images": [
+        {
+          "url": "https://i.redd.it/vyw352o8ucv91.jpg",
+          "caption": "Path of legends/leagues updated Source ...",
+          "source_url": "https://www.reddit.com/r/ClashRoyale/comments/yan36g/path_of_legendsleagues_updated_source_royaleapi/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+path+of+legends+ranked",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale path of legends ranked",
+          "width": 311,
+          "height": 162,
+          "aspect_ratio": 1.9198,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:15:53.120529+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:30.688055+00:00",
+            "load_time_ms": 84,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1261,
+            "natural_height": 656,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.redd.it/vyw352o8ucv91.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了传奇之路活动的段位规则和奖励机制信息图，属于非玩法的活动介绍宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:40.920258+00:00"
+          }
+        },
+        {
+          "url": "https://cdns3.royaleapi.com/cdn-cgi/image/w=1920,h=1920/static/img/blog/2023-12-season54/pol/v1/s54-pol-anno-01-72-1.jpg",
+          "caption": "Level 15 in Path of Legends - December ...",
+          "source_url": "https://royaleapi.com/blog/pol-elite-level-december-2023?lang=en",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+path+of+legends+ranked",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale path of legends ranked",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:15:53.120529+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:30.795348+00:00",
+            "load_time_ms": 102,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1920,
+            "content_type": "image/jpeg",
+            "current_src": "https://cdns3.royaleapi.com/cdn-cgi/image/w=1920,h=1920/static/img/blog/2023-12-season54/pol/v1/s54-pol-anno-01-72-1.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了第54赛季传奇之路段位等级和奖励调整的信息图，属于非玩法的宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:40.920258+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/best-decks-for-ranked-mode-path-of-legends-so-far-v0-iccx91gwojw91.png?auto=webp&s=ec14907e6797d165d60fb014bb0b1e5c5abf104b",
+          "caption": "Best Decks for Ranked Mode (Path of ...",
+          "source_url": "https://www.reddit.com/r/ClashRoyale/comments/yfnmeo/best_decks_for_ranked_mode_path_of_legends_so_far/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+path+of+legends+ranked",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale path of legends ranked",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:15:53.120529+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:31.218265+00:00",
+            "load_time_ms": 416,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1920,
+            "natural_height": 1080,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/best-decks-for-ranked-mode-path-of-legends-so-far-v0-iccx91gwojw91.png?auto=webp&s=ec14907e6797d165d60fb014bb0b1e5c5abf104b"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "针对传奇之路活动的卡组推荐图，属于攻略向的宣传海报，无实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:40.920258+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/effort-post-what-simulating-4-billion-battles-tells-us-v0-adlax6bfdnoa1.png?width=1000&format=png&auto=webp&s=908b8305dc2b73a325930863ca0a6642ae6f383b",
+          "caption": "What Simulating 4 Billion Battles Tells ...",
+          "source_url": "https://www.reddit.com/r/ClashRoyale/comments/11vesxm/effort_post_what_simulating_4_billion_battles/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+path+of+legends+ranked",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale path of legends ranked",
+          "width": 237,
+          "height": 213,
+          "aspect_ratio": 1.1127,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:15:53.120529+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:31.567706+00:00",
+            "load_time_ms": 341,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1000,
+            "natural_height": 900,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/effort-post-what-simulating-4-billion-battles-tells-us-v0-adlax6bfdnoa1.png?width=1000&format=png&auto=webp&s=908b8305dc2b73a325930863ca0a6642ae6f383b"
+          },
+          "llm_image_filter": {
+            "category": 3,
+            "category_label": "和本游戏有关，但无法确定和本活动有关",
+            "confidence": 0.85,
+            "reason": "虽然标题提及排行榜相关数据模拟，但图片内容纯粹为统计学图表，并非游戏内活动界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:40.920258+00:00"
+          }
+        },
+        {
+          "url": "https://i.redd.it/4g68g4l2y6xa1.png",
+          "caption": "Clash Royale April 2023 Season ...",
+          "source_url": "https://www.reddit.com/r/ClashRoyale/comments/134hwq7/path_of_legends_top_10_clash_royale_april_2023/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+path+of+legends+ranked",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale path of legends ranked",
+          "width": 225,
+          "height": 225,
+          "aspect_ratio": 1.0,
+          "orientation": "square",
+          "collected_at": "2026-05-13T07:15:53.120529+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:34.098330+00:00",
+            "load_time_ms": 2524,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 3840,
+            "natural_height": 3840,
+            "content_type": "image/png",
+            "current_src": "https://i.redd.it/4g68g4l2y6xa1.png"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.92,
+            "reason": "展示了2023年4月赛季传奇之路的排行榜名次海报，属于非玩法的活动信息展示图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:40.920258+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "esports_live_events",
+      "display_name": "CRL / Live Events / 电竞互动活动",
+      "description": "Clash Royale League 和官方 live events 页面让玩家观看/互动并获得游戏内奖励；CRL 规则中包含赛季路径、资格赛和世界级赛事。",
+      "examples": [
+        "Clash Royale League",
+        "CRL Live Events",
+        "Path of Legends Race",
+        "World Finals"
+      ],
+      "market_research_notes": "连接游戏内高端竞技、直播观看和奖励发放，强化电竞生态。",
+      "images": [
+        {
+          "url": "https://event.supercell.com/clashroyale/images/share-image.jpg",
+          "caption": "Clash Royale League Live Events",
+          "source_url": "https://event.supercell.com/clashroyale",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+esports+live+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale esports live events",
+          "width": 310,
+          "height": 163,
+          "aspect_ratio": 1.9018,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:16:21.154321+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:36.769155+00:00",
+            "load_time_ms": 2665,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 2400,
+            "natural_height": 1260,
+            "content_type": "image/jpeg",
+            "current_src": "https://event.supercell.com/clashroyale/images/share-image.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "该图是Clash Royale League (CRL) 世界总决赛的官方宣传横幅与预告图，属于典型的活动封面或宣传图。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:44.589296+00:00"
+          }
+        },
+        {
+          "url": "http://momentfactory.com/cdn/shop/files/Moment_Factory_Clash_Royale_Championship_Retail_180822_photo1-WS.jpg?v=1715023262",
+          "caption": "Clash Royale World Championship ...",
+          "source_url": "https://momentfactory.com/products/clash-royale-world-championship",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+esports+live+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale esports live events",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:16:21.154321+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:38.146111+00:00",
+            "load_time_ms": 1367,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1907,
+            "natural_height": 1070,
+            "content_type": "image/webp",
+            "current_src": "http://momentfactory.com/cdn/shop/files/Moment_Factory_Clash_Royale_Championship_Retail_180822_photo1-WS.jpg?v=1715023262"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "该图展示了电竞线下比赛现场的视觉布置，虽然包含游戏元素，但属于现实世界活动的现场图而非游戏内实际玩法界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:44.589296+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/9BkgTbwAUfo/maxresdefault.jpg",
+          "caption": "Clash Royale 2016 Helsinki Tournament ...",
+          "source_url": "https://www.youtube.com/watch?v=9BkgTbwAUfo",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+esports+live+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale esports live events",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:16:21.154321+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:38.634668+00:00",
+            "load_time_ms": 484,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/9BkgTbwAUfo/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "该图为电竞线下锦标赛的现场全景图，展示了舞台布置和观众席，属于活动相关的宣传/现场纪实图片。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:44.589296+00:00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "album_or_collection_events",
+      "display_name": "Album / Collection Events / 收集活动线索",
+      "description": "近期社区和第三方赛季指南提到 Album Event、emote drop schedule 等收集型活动。官方长期 wiki 资料较少，本轮作为新近活动线索记录。",
+      "examples": [
+        "Album Event",
+        "emote drop schedule",
+        "seasonal cosmetics"
+      ],
+      "market_research_notes": "Clash Royale 近年在外观、banner、album 方向增加收集目标；建议后续按 2025-2026 赛季公告继续验证。",
+      "images": [
+        {
+          "url": "https://preview.redd.it/completed-album-event-v0-k7a5doskplmg1.jpeg?auto=webp&s=7721d2e337d49b6e73cb1aa153960b4efd7650e0",
+          "caption": "Completed Album Event : r/ClashRoyale",
+          "source_url": "https://www.reddit.com/r/ClashRoyale/comments/1riodet/completed_album_event/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+album+or+collection+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale album or collection events",
+          "width": 153,
+          "height": 329,
+          "aspect_ratio": 0.465,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:16:57.675644+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:38.859410+00:00",
+            "load_time_ms": 218,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 827,
+            "natural_height": 1772,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/completed-album-event-v0-k7a5doskplmg1.jpeg?auto=webp&s=7721d2e337d49b6e73cb1aa153960b4efd7650e0"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了 Album Event 的奖励领取界面，包含明确的活动标题、倒计时及可领取的资源奖励。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:48.449228+00:00"
+          }
+        },
+        {
+          "url": "https://i0.wp.com/gamingonphone.com/wp-content/uploads/2026/02/Clash-Royale-Album-Event-cover.jpg",
+          "caption": "Clash Royale Album Event: All you need ...",
+          "source_url": "https://gamingonphone.com/news/clash-royale-album-event-all-you-need-to-know/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+album+or+collection+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale album or collection events",
+          "width": 293,
+          "height": 172,
+          "aspect_ratio": 1.7035,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:16:57.675644+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:38.908114+00:00",
+            "load_time_ms": 44,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1200,
+            "natural_height": 719,
+            "content_type": "image/webp",
+            "current_src": "https://i0.wp.com/gamingonphone.com/wp-content/uploads/2026/02/Clash-Royale-Album-Event-cover.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "该图为活动的宣传封面图，展示了核心奖励元素但无实际操作界面。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:48.449228+00:00"
+          }
+        },
+        {
+          "url": "https://preview.redd.it/finally-completed-the-album-event-without-spending-a-gem-v0-tygg8gyterqg1.jpg?width=640&crop=smart&auto=webp&s=048928a9ffe8e478fe7a60f60e3c010c132d4184",
+          "caption": "Finally completed the album event ...",
+          "source_url": "https://www.reddit.com/r/ClashRoyale/comments/1s1bqoj/finally_completed_the_album_event_without/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+album+or+collection+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale album or collection events",
+          "width": 148,
+          "height": 340,
+          "aspect_ratio": 0.4353,
+          "orientation": "portrait",
+          "collected_at": "2026-05-13T07:16:57.675644+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:39.134559+00:00",
+            "load_time_ms": 218,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 640,
+            "natural_height": 1466,
+            "content_type": "image/webp",
+            "current_src": "https://preview.redd.it/finally-completed-the-album-event-without-spending-a-gem-v0-tygg8gyterqg1.jpg?width=640&crop=smart&auto=webp&s=048928a9ffe8e478fe7a60f60e3c010c132d4184"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.95,
+            "reason": "展示了活动已完成状态的界面，包含收集进度和已领取的卡片收集项。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:48.449228+00:00"
+          }
+        },
+        {
+          "url": "https://i.ytimg.com/vi/S3cyxYi8E5U/maxresdefault.jpg",
+          "caption": "Album Event Clash Royale - YouTube",
+          "source_url": "https://www.youtube.com/watch?v=S3cyxYi8E5U",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+album+or+collection+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale album or collection events",
+          "width": 300,
+          "height": 168,
+          "aspect_ratio": 1.7857,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:16:57.675644+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:39.544531+00:00",
+            "load_time_ms": 404,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1280,
+            "natural_height": 720,
+            "content_type": "image/jpeg",
+            "current_src": "https://i.ytimg.com/vi/S3cyxYi8E5U/maxresdefault.jpg"
+          },
+          "llm_image_filter": {
+            "category": 4,
+            "category_label": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+            "confidence": 0.9,
+            "reason": "典型的 YouTube 视频封面海报，纯宣传性质。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:48.449228+00:00"
+          }
+        },
+        {
+          "url": "https://i0.wp.com/gamingonphone.com/wp-content/uploads/2026/02/Album-Event-in-Clash-Royale-1024x601.jpg",
+          "caption": "CLASH ROYALE! #clashroyale #shorts ...",
+          "source_url": "https://gamingonphone.com/news/clash-royale-album-event-all-you-need-to-know/",
+          "google_image_search_url": "https://www.google.com/search?tbm=isch&udm=2&q=clash+royale+album+or+collection+events",
+          "collection_method": "bulk_google_image_search",
+          "image_source_type": "bulk_supplement",
+          "automation_method": "playwright_browser",
+          "search_query": "clash royale album or collection events",
+          "width": 1024,
+          "height": 601,
+          "aspect_ratio": 1.7038,
+          "orientation": "landscape",
+          "collected_at": "2026-05-13T07:16:57.675644+00:00",
+          "image_load_check": {
+            "method": "playwright_embed_check",
+            "checked_at": "2026-05-13T08:20:39.598094+00:00",
+            "load_time_ms": 44,
+            "long_load": false,
+            "http_status": 200,
+            "event": "load",
+            "natural_width": 1024,
+            "natural_height": 601,
+            "content_type": "image/webp",
+            "current_src": "https://i0.wp.com/gamingonphone.com/wp-content/uploads/2026/02/Album-Event-in-Clash-Royale-1024x601.jpg"
+          },
+          "llm_image_filter": {
+            "category": 5,
+            "category_label": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片",
+            "confidence": 0.98,
+            "reason": "展示了活动的多个核心玩法界面，包括收集引导、规则说明和碎片拼图棋盘。",
+            "model": "gemini-3-flash-preview",
+            "classified_at": "2026-05-13T09:24:48.449228+00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "screenshot_or_visual_references": [],
+  "coverage_notes": "Clash Royale 活动框架较稳定：赛季、Pass Royale、Special Challenges、Event Tab、Season Shop、Rush、Global Tournament、Clan Wars、Path of Legends 和 CRL。新近 Album/Collection 线索需二轮结合当季公告补细节。",
+  "manual_image_supplement": {
+    "activity_method": "bulk_google_image_search",
+    "store_method": "bulk_us_store_screenshot_search",
+    "updated_at": "2026-05-13T07:16:57.676655+00:00",
+    "note": "Activity images are filled from Google Custom Search when credentials are supplied, otherwise from Google Images via Playwright browser automation. Game-level store screenshots are filled from US Apple App Store first, then US Google Play when --store-source=auto. Existing manual images and visual references are marked as original_manual_json."
+  },
+  "manual_image_filter": {
+    "method": "llm_multimodal_image_classification",
+    "model": "gemini-3-flash-preview",
+    "updated_at": "2026-05-13T09:24:48.449228+00:00",
+    "category_labels": {
+      "1": "和本游戏完全无关",
+      "2": "无法确定是否和本游戏无关",
+      "3": "和本游戏有关，但无法确定和本活动有关",
+      "4": "和本活动有关，且是封面图、宣传图等无实际玩法界面的图片",
+      "5": "和本活动有关，且是活动内截图等展现了实际玩法界面的图片"
+    }
+  }
+}

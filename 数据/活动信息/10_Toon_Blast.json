@@ -1,0 +1,32 @@
+{
+  "rank": 10,
+  "name": "Toon Blast",
+  "source_confidence": "high",
+  "source_notes": null,
+  "collected_at": "2026-05-12T03:59:24.444Z",
+  "methodology": "Open web HTML fetch from the preselected low-login-risk sources. For each source, extract event-related headings, paragraphs, links, and image URLs; follow a small number of event-like links for detail pages.",
+  "sources": [
+    {
+      "source_title": "Toon Blast Wiki - Toon Pass",
+      "source_type": "fandom",
+      "source_url": "https://toonblast.fandom.com/wiki/Toon_Pass",
+      "status": 403,
+      "error": "fetch_failed"
+    },
+    {
+      "source_title": "Toon Blast Wiki - Team Tournament",
+      "source_type": "fandom",
+      "source_url": "https://toonblast.fandom.com/wiki/Team_Tournament",
+      "status": 403,
+      "error": "fetch_failed"
+    }
+  ],
+  "event_detail_pages": [],
+  "event_catalog": [],
+  "inferred_event_type_summary": [],
+  "screenshots_or_images": [],
+  "collection_warnings": [
+    "Fetch failed: https://toonblast.fandom.com/wiki/Toon_Pass",
+    "Fetch failed: https://toonblast.fandom.com/wiki/Team_Tournament"
+  ]
+}
