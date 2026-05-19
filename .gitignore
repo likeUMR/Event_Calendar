@@ -8,3 +8,6 @@ data/
 agent-tools/
 数据/*_log.jsonl
 数据/*_debug.jsonl
+/farm_feud_calendar/
+/获取数据/farm_feud/
+/data/farm_feud/

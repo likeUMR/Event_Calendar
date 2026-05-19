@@ -1,71 +1,206 @@
 # Event Calendar Collector
 
-这个项目用于采集竞品活动日历。每个竞品使用独立模块实现采集逻辑，最终输出统一结构的 JSON，便于后续合并、入库或展示。
+这个项目用于整理竞品活动相关信息，目前包含两条能力线：
 
-## 文件结构
+1. 活动日历采集：抓取结构化活动时间、轨道和文章信息，输出统一 JSON，并在时间轴看板中展示。
+2. 活动信息看板：面向市场调研和策划分析，整理不同游戏的活动类型、研究备注、来源页和图片参考，形成横向可比的活动机制看板。
+
+## 当前内容
+
+- `monopolygo-wiki` 活动日历采集链路
+- 多游戏活动信息研究数据
+- 活动信息人工整理数据
+- 两套前端页面：
+  - `可视化数据/index.html`：活动日历看板
+  - `可视化数据/manual.html`：活动信息看板
+
+## 目录结构
 
 ```text
 Event_Calendar/
-├── 数据/
-│   ├── monopolygo/       # Monopoly GO 按游戏归档的数据
-│   │   ├── monopolygo_wiki_raw.json    # 原始抓取缓存，包含列表页和文章 HTML
-│   │   └── monopolygo_wiki_events.json # 处理后的统一 JSON 数据
-├── 获取数据/             # 采集入口和各竞品采集规则
-│   ├── collect.py        # 命令行采集入口
-│   └── monopolygo_wiki/  # monopolygo.wiki 的独立采集模块
-│       ├── raw.py        # 只负责下载和缓存原始页面
-│       ├── processor.py  # 只负责把 raw 转为活动、文章和轨道
-│       └── collector.py  # 解析与轨道规则
-└── 可视化数据/           # 前端日历看板
-    ├── index.html
-    ├── styles.css
-    └── app.js
+├─ 数据/
+│  ├─ monopolygo/
+│  │  ├─ monopolygo_wiki_raw.json
+│  │  └─ monopolygo_wiki_events.json
+│  ├─ 活动信息/                 # 自动采集产物
+│  ├─ 活动信息_人工/            # 人工整理产物
+│  ├─ 活动信息_index.json
+│  ├─ game_event_info_sources.json
+│  ├─ image_clean_log.jsonl
+│  └─ image_supplement_debug.jsonl
+├─ 获取数据/
+│  ├─ collect.py
+│  ├─ collect_event_info.js
+│  ├─ clean_activity_images.py
+│  ├─ filter_manual_activity_images.py
+│  ├─ supplement_manual_images.py
+│  ├─ repair_manual_texts.py
+│  └─ monopolygo_wiki/
+│     ├─ raw.py
+│     ├─ processor.py
+│     └─ collector.py
+├─ 可视化数据/
+│  ├─ index.html
+│  ├─ app.js
+│  ├─ manual.html
+│  ├─ manual-app.js
+│  └─ styles.css
+├─ index.html
+├─ requirements.txt
+└─ README.md
 ```
 
-新增竞品时，在 `获取数据/` 下新建一个竞品目录，并在其中实现自己的采集规则；入口脚本负责把不同竞品模块的输出写成统一 JSON。
+## 活动信息看板思路
 
-## 当前支持
+### 1. 前期调研结论
 
-- `monopolygo-wiki`：从 <https://monopolygo.wiki/page/2/> 发现站点文章，解析每日活动、专题活动说明和 Album 贴纸信息。
+前期调研发现，活动有关信息主要出现在以下渠道：
+
+- Reddit
+- Facebook
+- Discord
+- 各游戏专属 wiki / forum
+
+进一步调研后有几个比较稳定的结论：
+
+- Facebook 反爬很强，账号还触发过重新认证。并且一个游戏通常会分散在多个 group 中，活跃度一般，少数活跃内容也大多偏向换卡、社交，不一定是活动信息。
+- Discord 里很多游戏根本没有公开可用群组；即便有群组，活动相关信息密度通常也比较低。
+- Reddit 往往有更集中的单游戏社区，例如 `r/游戏名`。虽然大部分帖子依旧和活动无关，但某些 subreddit 会有特殊 tag，可以明显提升信息密度。例如 `Royal Aid (Q&A)` 这种 tag 可以作为筛选入口。不过这并不稳定，不是每个游戏都有高相关 tag，也有些游戏的 Reddit 社区缺失或已经不活跃。
+- 专有 wiki / forum 的建设程度差异极大，很多游戏根本没有稳定维护的资料站。
+
+### 2. 核心问题
+
+- Problem A：每个游戏的有效信息渠道参差不齐。
+- Problem B：即使进入了有效渠道，渠道内部的信息含量通常也很低。
+
+### 3. 解决 Problem A：先找信源，再整理活动类型
+
+第一阶段先解决“去哪里看”的问题，做法是：
+
+- 使用 AI 配合搜索引擎搜索每个游戏的活动相关公开信息源
+- 再由 AI 对这些信息源进行整理和归纳
+
+这样做的原因：
+
+- 比逐个游戏人工找来源快很多
+- 能快速形成每个游戏的信源列表和初步活动类型概览
+
+但也有明确限制：
+
+- AI 搜索基于非登录态，拿不到必须登录后才能查看的内容，例如 Discord、Facebook
+- AI 总结不一定完全精准，可能会把某些玩法大类误当成活动
+- 对于活动定义本来就不清晰、或公开信源极度缺失的游戏，AI 也可能会“强行总结”
+
+这一阶段的主要产出是：每个游戏的各种活动类型和对应公开信息源。
+
+### 4. 解决 Problem B：用 Google Image 提升信息密度
+
+第二阶段继续用搜索引擎，但重点转向 Google Image 搜索活动类型相关结果。
+
+这样做有几个优势：
+
+- 图片结果天然是高信息密度结果，至少会带有关键词
+- 会同时覆盖多种信源，相当于复用 Google 已有的索引数据库和排序能力
+- 带图内容通常比纯文字更高质量，对策划也更直观
+
+这一步也不是完全无噪声：
+
+- 仍然会混入少量无关图片
+- 因此需要后续结合 AI 做图片筛选和清洗
+
+这一阶段的主要产出是：活动类型对应的高信息密度图片参考。
+
+### 5. 可视化展示
+
+最终将整理后的活动机制、研究备注、来源页和图片参考可视化到活动信息看板中，便于：
+
+- 横向比较不同游戏的活动设计
+- 快速浏览某类活动在多个游戏中的实现方式
+- 给策划提供更直观的视觉参考
+
+## 活动信息数据流
+
+活动信息看板目前大致分为 4 步：
+
+1. 在 `数据/game_event_info_sources.json` 中维护每个游戏的候选公开来源。
+2. 使用 `获取数据/collect_event_info.js` 拉取公开页面，抽取活动相关文本、候选详情页和图片。
+3. 结合人工整理结果沉淀到 `数据/活动信息_人工/`，并通过图片清洗脚本过滤无关图、重复图和难加载图片。
+4. 前端 `可视化数据/manual.html` 读取 `活动信息_index.json`、`活动信息/` 与 `活动信息_人工/` 数据进行展示。
 
 ## 安装依赖
+
+Python 依赖：
 
 ```powershell
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-## 运行采集
+活动信息自动采集脚本 `获取数据/collect_event_info.js` 使用 Node.js 运行，仅依赖 Node 内置模块。
+
+## 活动日历采集
+
+运行 `monopolygo-wiki` 采集：
 
 ```powershell
 python 获取数据\collect.py monopolygo-wiki --pages 1
 ```
 
-默认流程会先检查 `数据/monopolygo/monopolygo_wiki_raw.json`。如果文件存在，会复用这份 raw 缓存并直接重新生成处理后数据；只有 raw 不存在或传入 `--refresh-raw` 时才会重新下载网页。
+默认流程会先检查 `数据/monopolygo/monopolygo_wiki_raw.json`。
+
+- 如果 raw 已存在，会优先复用 raw，再重新生成 processed
+- 只有 raw 不存在，或传入 `--refresh-raw` 时才会重新下载网页
 
 常用参数：
 
-- `--pages`：扫描列表页数量，默认 `1`。
-- `--source-url`：起始列表页，默认 `https://monopolygo.wiki/page/2/`。
-- `--max-posts`：最多解析多少篇详情文章，默认不限制。
-- `--raw-output`：原始数据缓存路径，默认 `数据/monopolygo/monopolygo_wiki_raw.json`。
-- `--processed-output`：处理后数据输出路径，默认 `数据/monopolygo/monopolygo_wiki_events.json`。
-- `--delay`：详情页请求间隔秒数，默认 `0.5`。
-- `--refresh-raw`：强制重新下载 raw，再生成 processed。
-- `--process-only`：只使用已有 raw 重新生成 processed；raw 不存在时会报错。
+- `--pages`：扫描列表页数量，默认 `1`
+- `--source-url`：起始列表页，默认 `https://monopolygo.wiki/page/2/`
+- `--max-posts`：最多解析多少篇详情文章
+- `--raw-output`：原始数据缓存路径
+- `--processed-output`：处理后数据输出路径
+- `--delay`：详情页请求间隔秒数，默认 `0.5`
+- `--refresh-raw`：强制重抓 raw
+- `--process-only`：只使用已有 raw 重新生成 processed
 
-只重建处理后数据：
+仅重建处理后数据：
 
 ```powershell
 python 获取数据\collect.py monopolygo-wiki --process-only
 ```
 
+## 活动信息采集与整理
+
+按 rank 范围运行活动信息自动采集：
+
+```powershell
+node 获取数据\collect_event_info.js 1 10
+```
+
+脚本会：
+
+- 读取 `数据/game_event_info_sources.json`
+- 抓取公开来源页
+- 抽取活动相关文本块、候选详情页和图片
+- 生成 `数据/活动信息/*.json`
+
+图片清洗脚本示例：
+
+```powershell
+python 获取数据\clean_activity_images.py --write
+```
+
+如果需要检查远端图片是否可加载：
+
+```powershell
+python 获取数据\clean_activity_images.py --write --check-remote
+```
+
+如果需要按前端真实 `<img>` 嵌入方式校验：
+
+```powershell
+python 获取数据\clean_activity_images.py --write --check-embed
+```
+
 ## 查看前端看板
-
-看板参考 AppMagic 的 Live Ops Calendar 思路，以横向日期时间轴展示活动开放区间，并提供搜索、分类筛选、日期范围筛选、统计卡片和活动详情弹窗。
-
-时间轴只读取处理后 JSON 中的 `lifecycles`、`tracks` 和活动轨道字段，不在前端重新做分类推断。
-
-线上版本通过 GitHub Pages 发布；仓库只提交 `数据/monopolygo/monopolygo_wiki_events.json` 这类处理后 JSON，不提交 `*_raw.json` 原始抓取缓存。
 
 从项目根目录启动本地静态服务：
 
@@ -73,131 +208,32 @@ python 获取数据\collect.py monopolygo-wiki --process-only
 python -m http.server 8000
 ```
 
-然后在浏览器打开：
+然后打开：
 
 ```text
-http://localhost:8000/可视化数据/
+http://localhost:8000/可视化数据/index.html
+http://localhost:8000/可视化数据/manual.html
 ```
 
-不要直接双击打开 `index.html`，浏览器可能会因为本地文件安全限制阻止读取 `数据/monopolygo/monopolygo_wiki_events.json`。
+说明：
 
-## JSON 格式
+- `index.html` 是活动日历看板
+- `manual.html` 是活动信息看板
+- 不要直接双击本地 HTML 文件打开，否则浏览器可能因为本地文件安全限制无法读取 JSON
 
-输出文件包含顶层元信息和统一事件数组：
+## 活动日历 JSON 说明
 
-```json
-{
-  "schema_version": "1.0",
-  "generated_at": "2026-05-06T08:00:00+00:00",
-  "competitor": "monopoly_go",
-  "source": "monopolygo.wiki",
-  "listing_source_url": "https://monopolygo.wiki/page/2/",
-  "supplemental_source_urls": ["https://monopolygo.wiki/tag/albums/"],
-  "lifecycles": [
-    { "id": "one_time", "label": "一次性", "sort": 10 },
-    { "id": "recurring", "label": "周期性", "sort": 20 },
-    { "id": "irregular", "label": "不定期", "sort": 30 },
-    { "id": "seasonal", "label": "赛季性", "sort": 40 }
-  ],
-  "tracks": [
-    {
-      "id": "buff",
-      "label": "buff",
-      "group": "buff",
-      "group_label": "buff",
-      "lifecycle": "recurring",
-      "lifecycle_label": "周期性",
-      "lifecycle_sort": 20,
-      "index": 1,
-      "sort": 2001,
-      "event_count": 657
-    }
-  ],
-  "articles": [
-    {
-      "id": "monopoly_go:article:star-wars-go-album",
-      "type": "album",
-      "url": "https://monopolygo.wiki/star-wars-go-album/",
-      "title": "Star Wars GO! Album",
-      "published_date": "2025-06-01",
-      "summary": "Want to view the stickers up close...",
-      "sections": [],
-      "album": {
-        "name": "Star Wars GO! Album",
-        "set_count": 26,
-        "sticker_count": 234,
-        "gold_sticker_count": 34,
-        "sets": []
-      }
-    }
-  ],
-  "events": [
-    {
-      "id": "monopoly_go:cash-boost:1778050800:1778072340",
-      "competitor": "monopoly_go",
-      "source": "monopolygo.wiki",
-      "source_url": "https://monopolygo.wiki/todays-events-may-06-2026/",
-      "category": "Special Events",
-      "name": "Cash Boost",
-      "start_time": "2026-05-06T03:00:00+00:00",
-      "end_time": "2026-05-06T08:59:00+00:00",
-      "timezone": "UTC",
-      "start_timestamp": 1778050800,
-      "end_timestamp": 1778072340,
-      "duration_seconds": 21540,
-      "duration_text": "00:10:00",
-      "track_group": "buff",
-      "track_group_label": "buff",
-      "track": "buff",
-      "track_label": "buff",
-      "track_index": 1,
-      "track_sort": 2001,
-      "lifecycle": "recurring",
-      "lifecycle_label": "周期性",
-      "lifecycle_sort": 20,
-      "description": "Tournaments are limited-time competitive events...",
-      "article_summary": "Tournaments are limited-time competitive events...",
-      "related_article": {
-        "type": "daily_events",
-        "title": "Today's Events (May 06, 2026)",
-        "url": "https://monopolygo.wiki/todays-events-may-06-2026/",
-        "published_date": "2026-05-06"
-      },
-      "detail_url": "https://monopolygo.wiki/wiki/event/05062026-2-se-cashboost",
-      "image_url": "https://cdn.monopolygo.wiki/commodities/CashBoost.png",
-      "raw": {
-        "display_start": "03:00 AM",
-        "display_end": "08:59AM",
-        "classes": ["event-block", "event-container"]
-      }
-    }
-  ]
-}
-```
+活动日历输出 JSON 包含顶层元信息和统一事件数组，核心字段包括：
 
-站点页面里的时间以 `data-date` Unix 时间戳为准，程序统一输出 UTC ISO 时间，同时保留页面原始展示文本。
+- `lifecycles`：生命周期分组
+- `tracks`：活动轨道定义
+- `articles`：来源文章与专题内容
+- `events`：标准化活动事件
 
-轨道规则：
+时间统一输出为 UTC ISO 格式，同时保留原始展示文本，前端只读取已经整理好的 `lifecycles`、`tracks` 和事件轨道字段进行展示，不在前端重新推断分类。
 
-- `一次性活动`：Trade Fest、Lucky Coin 等一次性/阶段性特殊活动。
-- `buff`：短时增益活动，例如 Rent Frenzy、Cash Boost、High Roller、Lucky Chance、Golden Blitz；只要某个名称曾以短于 12 小时的 buff 出现，同名活动后续即使时长超过 12 小时也归入 buff。
-- `album`：Album 周期，例如 Monopoly Ever After。
-- `Tycoon-class`：单独拆出的 Tycoon Class 锦标赛轨道。
-- `其它 tournaments`：除 Tycoon Class 外的锦标赛。
-- `minigames`：长时 special event、Partner Events、Dig Minigame 等非 buff 玩法。
+## 备注
 
-归并规则：
-
-- 如果 daily events 里出现泛称 `Partner Event`，且同一开始/结束时间存在具体 `Partner Events` 专题活动，则删除泛称事件，保留专题来源，并重命名为 `Partner Event（具体活动名）`，例如 `Partner Event（Pet Show Partners）`。
-- 如果 daily events 里出现泛称 `Dig Minigame`，且同一开始/结束时间存在具体 `Dig Minigame` 专题活动，则删除泛称事件，保留专题来源，并重命名为 `Dig Minigame（具体活动名）`。
-
-同一轨道内按时间排序且不允许重叠；如果发生重叠，会自动拆出 `buff2`、`minigames2`、`其它 tournaments2` 等后续轨道。
-
-生命周期规则：
-
-- `一次性`：一次性活动轨道。
-- `周期性`：buff、Tycoon-class、其它 tournaments。
-- `不定期`：minigames。
-- `赛季性`：album。
-
-前端只读取 JSON 中已处理好的 `lifecycles`、`tracks` 和事件轨道字段，展示时按生命周期分区、按轨道逐行显示。
+- 仓库中既有自动采集结果，也有人工整理结果；活动信息看板默认优先读取人工整理数据。
+- 活动信息研究是开放网页视角下的近似整理，不等价于游戏内完整活动配置。
+- 对于必须登录、强反爬、社区沉寂或公开资料极少的游戏，数据覆盖度会明显受限。
